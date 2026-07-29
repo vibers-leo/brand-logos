@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>로고창고 — 브랜드 로고 SVG·PNG 무료 다운로드</title>
+<meta name="description" content="한국 대기업·스타트업 브랜드 로고를 SVG·PNG로 제공합니다.">
+<style>
+  body { font-family: -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 40px 20px; background: #fafafa; }
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  p { color: #666; margin-bottom: 32px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; }
+  .card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 24px 16px; text-align: center; }
+  .card img { width: 80px; height: 80px; object-fit: contain; }
+  .card span { display: block; margin-top: 10px; font-size: 13px; color: #333; font-weight: 500; }
+</style>
+</head>
+<body>
+<h1>🏢 로고창고</h1>
+<p>한국 주요 브랜드 로고 SVG · PNG 컬렉션</p>
+<div class="grid" id="grid"></div>
+<script>
+fetch('/_clients/brands.json')
+  .then(r=>r.json())
+  .then(({brands})=>{
+    const g = document.getElementById('grid');
+    brands.forEach(b=>{
+      g.innerHTML += `<div class="card">
+        <img src="/_clients/${b.id}/logo.png" alt="${b.name_ko}" onerror="this.src='/_clients/${b.id}/logo.svg'">
+        <span>${b.name_ko}</span>
+      </div>`;
+    });
+  });
+</script>
+</body>
+</html>

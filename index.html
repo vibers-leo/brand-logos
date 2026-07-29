@@ -4,33 +4,348 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>로고창고 — 브랜드 로고 SVG·PNG 무료 다운로드</title>
-<meta name="description" content="한국 대기업·스타트업 브랜드 로고를 SVG·PNG로 제공합니다.">
+<meta name="description" content="한국 주요 브랜드 로고를 SVG·PNG 다양한 변형으로 제공합니다. 무료 다운로드.">
+<meta property="og:title" content="로고창고 — 브랜드 로고 라이브러리">
+<meta property="og:description" content="현대·삼성·LG·SK·스타벅스 등 한국 주요 브랜드 SVG·PNG 무료 다운로드">
+<meta property="og:url" content="https://logo.vibers.co.kr">
 <style>
-  body { font-family: -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 40px 20px; background: #fafafa; }
-  h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
-  p { color: #666; margin-bottom: 32px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; }
-  .card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 24px 16px; text-align: center; }
-  .card img { width: 80px; height: 80px; object-fit: contain; }
-  .card span { display: block; margin-top: 10px; font-size: 13px; color: #333; font-weight: 500; }
+:root {
+  --bg: #0f0f11;
+  --surface: #18181b;
+  --surface2: #222226;
+  --border: #2a2a2f;
+  --text: #f4f4f5;
+  --text2: #a1a1aa;
+  --text3: #71717a;
+  --accent: #6366f1;
+  --accent2: #818cf8;
+  --green: #22c55e;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+/* Header */
+.header { padding: 48px 24px 0; max-width: 1200px; margin: 0 auto; }
+.header-top { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.logo-mark { display: flex; align-items: center; gap: 10px; }
+.logo-mark svg { width: 32px; height: 32px; }
+.site-name { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+.site-name span { color: var(--accent2); }
+.badge { background: var(--surface2); border: 1px solid var(--border); padding: 4px 12px; border-radius: 20px; font-size: 12px; color: var(--text2); }
+.header-desc { margin-top: 20px; font-size: 15px; color: var(--text2); line-height: 1.6; }
+.stat-row { display: flex; gap: 24px; margin-top: 20px; flex-wrap: wrap; }
+.stat { display: flex; flex-direction: column; }
+.stat-num { font-size: 28px; font-weight: 700; color: var(--text); letter-spacing: -1px; }
+.stat-label { font-size: 12px; color: var(--text3); margin-top: 2px; }
+
+/* Controls */
+.controls { max-width: 1200px; margin: 32px auto 0; padding: 0 24px; display: flex; flex-direction: column; gap: 16px; }
+.search-wrap { position: relative; }
+.search-wrap svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text3); pointer-events: none; }
+#search { width: 100%; background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 12px 16px 12px 44px; border-radius: var(--radius); font-size: 15px; outline: none; transition: border-color .15s; }
+#search::placeholder { color: var(--text3); }
+#search:focus { border-color: var(--accent); }
+.filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.filter-label { font-size: 12px; color: var(--text3); margin-right: 4px; white-space: nowrap; }
+.chip { background: var(--surface); border: 1px solid var(--border); color: var(--text2); padding: 6px 14px; border-radius: 20px; font-size: 13px; cursor: pointer; transition: all .15s; white-space: nowrap; user-select: none; }
+.chip:hover { border-color: var(--accent); color: var(--text); }
+.chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.result-count { font-size: 13px; color: var(--text3); }
+.result-count strong { color: var(--text2); }
+
+/* Grid */
+.grid-wrap { max-width: 1200px; margin: 24px auto 80px; padding: 0 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+
+/* Card */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; cursor: pointer; transition: border-color .15s, transform .15s; }
+.card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.card.expanded { border-color: var(--accent); grid-column: 1 / -1; }
+.card-preview { display: grid; grid-template-columns: 1fr 1fr; height: 120px; }
+.preview-light { background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px; }
+.preview-dark { background: #111114; display: flex; align-items: center; justify-content: center; padding: 16px; }
+.preview-light img, .preview-dark img { max-width: 80px; max-height: 64px; object-fit: contain; }
+.preview-dark .logo-img { filter: brightness(0) invert(1); }
+.preview-dark .logo-img.has-white { filter: none; }
+.card-info { padding: 12px 14px; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+.card-name { font-size: 13px; font-weight: 600; color: var(--text); }
+.card-category { font-size: 11px; color: var(--text3); margin-top: 2px; }
+.card-tag { font-size: 10px; padding: 2px 7px; border-radius: 4px; }
+.tag-svg { background: rgba(99,102,241,.15); color: var(--accent2); }
+.tag-png { background: rgba(34,197,94,.1); color: var(--green); }
+
+/* Expanded panel */
+.expanded-panel { display: none; padding: 24px; border-top: 1px solid var(--border); background: var(--surface2); }
+.card.expanded .expanded-panel { display: block; }
+.expanded-header { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+.expanded-logo { width: 64px; height: 64px; object-fit: contain; background: #fff; border-radius: 10px; padding: 8px; }
+.expanded-title { flex: 1; }
+.expanded-title h2 { font-size: 20px; font-weight: 700; }
+.expanded-title p { font-size: 13px; color: var(--text2); margin-top: 4px; }
+.close-btn { background: var(--surface); border: 1px solid var(--border); color: var(--text2); width: 32px; height: 32px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; margin-left: auto; }
+.close-btn:hover { border-color: var(--accent); color: var(--text); }
+.variants-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+.variant-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
+.variant-preview { height: 100px; display: flex; align-items: center; justify-content: center; padding: 12px; }
+.variant-preview.bg-white { background: #ffffff; }
+.variant-preview.bg-dark { background: #111114; }
+.variant-preview.bg-checker { background-image: linear-gradient(45deg, #ccc 25%, transparent 25%), linear-gradient(-45deg, #ccc 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #ccc 75%), linear-gradient(-45deg, transparent 75%, #ccc 75%); background-size: 12px 12px; background-position: 0 0, 0 6px, 6px -6px, -6px 0; background-color: #fff; }
+.variant-preview img { max-width: 100%; max-height: 76px; object-fit: contain; }
+.variant-footer { padding: 8px 10px; border-top: 1px solid var(--border); }
+.variant-name { font-size: 11px; font-weight: 600; color: var(--text2); }
+.variant-desc { font-size: 10px; color: var(--text3); margin-top: 1px; }
+.variant-actions { display: flex; gap: 6px; margin-top: 8px; }
+.btn-copy, .btn-dl { flex: 1; font-size: 11px; padding: 5px 0; border-radius: 6px; cursor: pointer; border: none; font-weight: 500; transition: all .15s; text-align: center; text-decoration: none; display: block; }
+.btn-copy { background: var(--surface2); color: var(--text2); }
+.btn-copy:hover { background: var(--accent); color: #fff; }
+.btn-copy.copied { background: var(--green) !important; color: #fff; }
+.btn-dl { background: var(--accent); color: #fff; }
+.btn-dl:hover { background: var(--accent2); }
+
+/* Empty */
+.empty { text-align: center; padding: 80px 20px; color: var(--text3); }
+.empty svg { margin-bottom: 16px; opacity: .4; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header { padding: 32px 16px 0; }
+  .controls, .grid-wrap { padding: 0 16px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+  .variants-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  .stat-num { font-size: 22px; }
+}
 </style>
 </head>
 <body>
-<h1>🏢 로고창고</h1>
-<p>한국 주요 브랜드 로고 SVG · PNG 컬렉션</p>
-<div class="grid" id="grid"></div>
+
+<div class="header">
+  <div class="header-top">
+    <div class="logo-mark">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="#6366f1"/>
+        <path d="M8 22V10l8 6 8-6v12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="site-name">로고<span>창고</span></span>
+    </div>
+    <div class="badge" id="total-badge">— 개 브랜드</div>
+  </div>
+  <p class="header-desc">한국 주요 브랜드 로고 컬렉션 · SVG · PNG · 아이콘 · 투명 · 화이트 변형 무료 제공</p>
+  <div class="stat-row">
+    <div class="stat"><span class="stat-num" id="stat-brands">—</span><span class="stat-label">브랜드</span></div>
+    <div class="stat"><span class="stat-num" id="stat-files">—</span><span class="stat-label">파일</span></div>
+    <div class="stat"><span class="stat-num" id="stat-svg">—</span><span class="stat-label">SVG 벡터</span></div>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    <input type="text" id="search" placeholder="브랜드명 검색 (현대, Samsung, …)">
+  </div>
+  <div class="filters">
+    <span class="filter-label">카테고리</span>
+    <button class="chip active" data-cat="">전체</button>
+  </div>
+  <div class="result-count" id="result-count"></div>
+</div>
+
+<div class="grid-wrap">
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">
+    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    <p>검색 결과가 없습니다</p>
+  </div>
+</div>
+
 <script>
-fetch('/_clients/brands.json')
-  .then(r=>r.json())
-  .then(({brands})=>{
-    const g = document.getElementById('grid');
-    brands.forEach(b=>{
-      g.innerHTML += `<div class="card">
-        <img src="/_clients/${b.id}/logo.png" alt="${b.name_ko}" onerror="this.src='/_clients/${b.id}/logo.svg'">
-        <span>${b.name_ko}</span>
-      </div>`;
-    });
+const CDN = 'https://logo.vibers.co.kr/_clients';
+
+const VARIANTS = [
+  { file: 'logo.svg',          name: 'SVG 벡터',    desc: '확대해도 깨짐 없음',  bg: 'bg-white', filter: false },
+  { file: 'logo-800.png',      name: 'PNG 800px',   desc: '고해상도 래스터',      bg: 'bg-white', filter: false },
+  { file: 'logo-icon.png',     name: '아이콘 64px', desc: '정사각형 아이콘',      bg: 'bg-checker', filter: false },
+  { file: 'logo-transparent.png', name: '투명 배경', desc: '배경 제거 PNG',      bg: 'bg-checker', filter: false },
+  { file: 'logo-white.png',    name: '화이트 버전', desc: '다크 배경용',          bg: 'bg-dark',  filter: false },
+  { file: 'logo.png',          name: 'PNG 원본',    desc: '기본 PNG',             bg: 'bg-white', filter: false },
+];
+
+let allBrands = [];
+let expandedId = null;
+
+function renderCard(b) {
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.dataset.id = b.id;
+
+  const hasWhite = b.has_white;
+  const svgUrl = b.logo_svg ? `${CDN}/${b.id}/logo.svg` : null;
+  const pngUrl = `${CDN}/${b.id}/logo.png`;
+  const displayUrl = svgUrl || pngUrl;
+  const tagHtml = b.logo_svg
+    ? '<span class="card-tag tag-svg">SVG</span>'
+    : '<span class="card-tag tag-png">PNG</span>';
+
+  el.innerHTML = `
+    <div class="card-preview">
+      <div class="preview-light">
+        <img src="${displayUrl}" alt="${b.name_ko}" class="logo-img" onerror="this.src='${pngUrl}'">
+      </div>
+      <div class="preview-dark">
+        <img src="${hasWhite ? CDN+'/'+b.id+'/logo-white.png' : displayUrl}" alt="${b.name_ko}" class="logo-img${hasWhite ? ' has-white' : ''}" onerror="this.src='${pngUrl}'">
+      </div>
+    </div>
+    <div class="card-info">
+      <div>
+        <div class="card-name">${b.name_ko}</div>
+        <div class="card-category">${b.category || ''}</div>
+      </div>
+      ${tagHtml}
+    </div>
+    <div class="expanded-panel" id="panel-${b.id}"></div>
+  `;
+
+  el.addEventListener('click', (e) => {
+    if (e.target.closest('.btn-copy, .btn-dl, .close-btn')) return;
+    toggleExpand(b, el);
   });
+
+  return el;
+}
+
+function buildPanel(b) {
+  const panel = document.getElementById(`panel-${b.id}`);
+  if (panel.dataset.built) return;
+  panel.dataset.built = '1';
+
+  const svgUrl = `${CDN}/${b.id}/logo.svg`;
+  const pngUrl = `${CDN}/${b.id}/logo.png`;
+
+  const variantsHtml = VARIANTS.map(v => {
+    const url = `${CDN}/${b.id}/${v.file}`;
+    const isSvg = v.file.endsWith('.svg');
+    if (isSvg && !b.logo_svg) return '';
+    return `
+      <div class="variant-card">
+        <div class="variant-preview ${v.bg}">
+          <img src="${url}" alt="${v.name}" onerror="this.parentElement.innerHTML='<span style=color:#555;font-size:11px>없음</span>'">
+        </div>
+        <div class="variant-footer">
+          <div class="variant-name">${v.name}</div>
+          <div class="variant-desc">${v.desc}</div>
+          <div class="variant-actions">
+            <button class="btn-copy" onclick="copyUrl('${url}', this)">URL 복사</button>
+            <a class="btn-dl" href="${url}" download="${b.id}-${v.file}" target="_blank">다운로드</a>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+
+  panel.innerHTML = `
+    <div class="expanded-header">
+      <img class="expanded-logo" src="${b.logo_svg ? svgUrl : pngUrl}" alt="${b.name_ko}" onerror="this.src='${pngUrl}'">
+      <div class="expanded-title">
+        <h2>${b.name_ko}</h2>
+        <p>${b.name_en || ''} · ${b.category || ''} ${b.domain ? '· '+b.domain : ''}</p>
+      </div>
+      <button class="close-btn" onclick="collapseCard(event)">✕</button>
+    </div>
+    <div class="variants-grid">${variantsHtml}</div>
+  `;
+}
+
+function toggleExpand(b, el) {
+  const isOpen = el.classList.contains('expanded');
+  document.querySelectorAll('.card.expanded').forEach(c => c.classList.remove('expanded'));
+  expandedId = null;
+  if (!isOpen) {
+    el.classList.add('expanded');
+    buildPanel(b);
+    expandedId = b.id;
+    setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+  }
+}
+
+function collapseCard(e) {
+  e.stopPropagation();
+  document.querySelectorAll('.card.expanded').forEach(c => c.classList.remove('expanded'));
+  expandedId = null;
+}
+
+function copyUrl(url, btn) {
+  navigator.clipboard.writeText(url).then(() => {
+    btn.textContent = '복사됨!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'URL 복사'; btn.classList.remove('copied'); }, 1500);
+  });
+}
+
+function renderGrid(brands) {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  grid.innerHTML = '';
+  if (!brands.length) { empty.style.display = 'block'; return; }
+  empty.style.display = 'none';
+  brands.forEach(b => grid.appendChild(renderCard(b)));
+  document.getElementById('result-count').innerHTML = `<strong>${brands.length}</strong>개 브랜드`;
+}
+
+function filterBrands() {
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const cat = document.querySelector('.chip.active')?.dataset.cat || '';
+  return allBrands.filter(b => {
+    const matchCat = !cat || b.category === cat;
+    const matchQ = !q
+      || b.name_ko?.toLowerCase().includes(q)
+      || b.name_en?.toLowerCase().includes(q)
+      || b.id?.toLowerCase().includes(q)
+      || b.category?.toLowerCase().includes(q);
+    return matchCat && matchQ;
+  });
+}
+
+async function init() {
+  const res = await fetch('/_clients/brands.json');
+  const { brands } = await res.json();
+  allBrands = brands;
+
+  // Stats
+  const svgCount = brands.filter(b => b.logo_svg).length;
+  document.getElementById('stat-brands').textContent = brands.length;
+  document.getElementById('stat-files').textContent = brands.length * 6 + '+';
+  document.getElementById('stat-svg').textContent = svgCount;
+  document.getElementById('total-badge').textContent = brands.length + '개 브랜드';
+
+  // Categories
+  const cats = [...new Set(brands.map(b => b.category).filter(Boolean))].sort();
+  const filters = document.querySelector('.filters');
+  cats.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'chip';
+    btn.dataset.cat = cat;
+    btn.textContent = cat;
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      renderGrid(filterBrands());
+    });
+    filters.appendChild(btn);
+  });
+
+  document.querySelector('.chip[data-cat=""]').addEventListener('click', function() {
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    this.classList.add('active');
+    renderGrid(filterBrands());
+  });
+
+  // Search
+  document.getElementById('search').addEventListener('input', () => renderGrid(filterBrands()));
+
+  renderGrid(brands);
+}
+
+init();
 </script>
 </body>
 </html>

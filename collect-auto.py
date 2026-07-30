@@ -282,10 +282,27 @@ def collect_simple_icons(dry_run=False) -> list[dict]:
     return collected
 
 
+def generate_base_png(brand_id: str):
+    """logo.svg → logo.png (카드 미리보기용 400px)"""
+    import cairosvg, io
+    from PIL import Image
+    svg_path = LOGO_DIR / brand_id / "logo.svg"
+    png_path = LOGO_DIR / brand_id / "logo.png"
+    if png_path.exists() or not svg_path.exists():
+        return
+    try:
+        png_bytes = cairosvg.svg2png(url=str(svg_path), output_width=400, background_color="white")
+        img = Image.open(io.BytesIO(png_bytes)).convert("RGB")
+        img.save(png_path)
+    except Exception as e:
+        print(f"     ⚠️  logo.png 생성 실패: {e}")
+
+
 def run_pipeline(brand_id: str):
-    """internalize-svg → build-variants 실행"""
+    """logo.png 생성 → internalize-svg → build-variants 실행"""
     print(f"  🔧 파이프라인: {brand_id}")
     try:
+        generate_base_png(brand_id)
         subprocess.run(
             [sys.executable, str(BASE / "internalize-svg.py"), "--brand", brand_id],
             cwd=BASE, capture_output=True, timeout=30

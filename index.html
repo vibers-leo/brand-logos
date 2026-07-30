@@ -81,10 +81,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI',
 .expanded-panel { display: none; padding: 24px; border-top: 1px solid var(--border); background: var(--surface2); }
 .card.expanded .expanded-panel { display: block; }
 .expanded-header { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
-.intro-split { display: grid; grid-template-columns: 1fr 1fr; border-radius: 12px; overflow: hidden; height: 160px; }
-.intro-light { background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 24px; }
-.intro-dark  { background: #111114; display: flex; align-items: center; justify-content: center; padding: 24px; }
-.intro-light img, .intro-dark img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.intro-split { display: grid; grid-template-columns: 1fr 1fr; border-radius: 12px; overflow: hidden; height: 180px; }
+.intro-light { background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.intro-dark  { background: #111114; display: flex; align-items: center; justify-content: center; padding: 36px; }
+.intro-light img { max-width: 60%; max-height: 60%; object-fit: contain; }
+.intro-dark img  { max-width: 40%; max-height: 40%; object-fit: contain; }
 .expanded-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .expanded-title h2 { margin: 0; font-size: 18px; font-weight: 700; color: var(--text); }
 .expanded-title p  { margin: 0; font-size: 13px; color: var(--text3); }

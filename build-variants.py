@@ -14,7 +14,7 @@
   python3 build-variants.py --dry-run    # 생성 없이 미리보기
 """
 
-import argparse, json, sys
+import argparse, colorsys, json, sys
 from pathlib import Path
 import cairosvg
 from PIL import Image
@@ -68,6 +68,30 @@ def make_white_version(img: Image.Image) -> Image.Image:
     return result
 
 
+def choose_dark_variant(transparent_img: Image.Image) -> str:
+    """로고 채도 분석 → 다크 배경에 투명(원색) vs 화이트 중 더 잘 보이는 버전 선택"""
+    pixels = list(transparent_img.getdata())
+    # 불투명 픽셀만 (배경 제외)
+    logo_px = [(r, g, b) for r, g, b, a in pixels if a > 30]
+    if not logo_px:
+        return "white"
+
+    # 흰색/밝은 픽셀 비율 체크 (원래 로고가 흰색이면 투명 버전이 안 보임)
+    bright = sum(1 for r, g, b in logo_px if r > 220 and g > 220 and b > 220)
+    if bright / len(logo_px) > 0.6:
+        return "white"  # 대부분 흰색 → 화이트 버전 강제
+
+    # 채도 평균 계산
+    saturations = []
+    for r, g, b in logo_px:
+        _, s, _ = colorsys.rgb_to_hsv(r / 255, g / 255, b / 255)
+        saturations.append(s)
+    avg_sat = sum(saturations) / len(saturations)
+
+    # 채도 0.2 이상이면 컬러 로고 → 투명(원색) 사용
+    return "transparent" if avg_sat >= 0.2 else "white"
+
+
 def make_icon(img: Image.Image, size: int = 64) -> Image.Image:
     """정사각형 아이콘 크기로 리사이즈 (여백 추가해 비율 유지)"""
     base = remove_white_bg(img)
@@ -106,14 +130,21 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
         "logo-white.png": lambda: make_white_version(get_source_img(400)),
     }
 
+    transparent_img = None  # 채도 분석용 캐시
+
     for filename, builder in targets.items():
         out_path = brand_dir / filename
         if out_path.exists():
             results["skipped"].append(filename)
+            # 기존 logo-transparent.png로 채도 분석
+            if filename == "logo-transparent.png" and out_path.exists():
+                try:
+                    transparent_img = Image.open(out_path).convert("RGBA")
+                except Exception:
+                    pass
             continue
 
         if dry_run:
-            # logo-800은 SVG 없으면 건너뜀
             if filename == "logo-800.png" and not svg_path.exists():
                 results["skipped"].append(f"{filename} (SVG 없음)")
             else:
@@ -127,8 +158,14 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
                 continue
             img.save(out_path, "PNG", optimize=True)
             results["created"].append(filename)
+            if filename == "logo-transparent.png":
+                transparent_img = img
         except Exception as e:
             results["errors"].append(f"{filename}: {e}")
+
+    # 다크 프리뷰 variant 결정 → brand 딕셔너리에 기록
+    if transparent_img is not None and not dry_run:
+        results["dark_variant"] = choose_dark_variant(transparent_img)
 
     return results
 
@@ -156,7 +193,11 @@ def main():
                 if p.exists():
                     p.unlink()
 
+    all_brands_data = json.loads(BRANDS_JSON.read_text())
+    brand_map = {b["id"]: b for b in all_brands_data["brands"]}
+    updated = 0
     total_created = 0
+
     for brand in brands:
         r = process_brand(brand, dry_run=args.dry_run)
         status = []
@@ -167,7 +208,21 @@ def main():
             status.append(f"⏭  {', '.join(r['skipped'])}")
         if r["errors"]:
             status.append(f"❌ {', '.join(r['errors'])}")
+
+        # dark_variant brands.json 업데이트
+        if "dark_variant" in r and not args.dry_run:
+            bid = r["brand"]
+            if bid in brand_map and brand_map[bid].get("dark_variant") != r["dark_variant"]:
+                brand_map[bid]["dark_variant"] = r["dark_variant"]
+                updated += 1
+                status.append(f"🎨 dark={r['dark_variant']}")
+
         print(f"[{r['name']}] {' | '.join(status) if status else '변경 없음'}")
+
+    if updated and not args.dry_run:
+        all_brands_data["total"] = len(all_brands_data["brands"])
+        BRANDS_JSON.write_text(json.dumps(all_brands_data, ensure_ascii=False, indent=2))
+        print(f"\n📝 brands.json dark_variant 업데이트: {updated}개")
 
     print(f"\n완료: {total_created}개 파일 생성")
 

@@ -80,8 +80,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI',
 /* Expanded panel */
 .expanded-panel { display: none; padding: 24px; border-top: 1px solid var(--border); background: var(--surface2); }
 .card.expanded .expanded-panel { display: block; }
-.expanded-header { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
-.expanded-logo { width: 60px; height: 60px; object-fit: contain; background: #fff; border-radius: 10px; padding: 10px; flex-shrink: 0; }
+.expanded-header { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+.intro-split { display: grid; grid-template-columns: 1fr 1fr; border-radius: 12px; overflow: hidden; height: 160px; }
+.intro-light { background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.intro-dark  { background: #111114; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.intro-light img, .intro-dark img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.expanded-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.expanded-title h2 { margin: 0; font-size: 18px; font-weight: 700; color: var(--text); }
+.expanded-title p  { margin: 0; font-size: 13px; color: var(--text3); }
 .expanded-title { flex: 1; }
 .expanded-title h2 { font-size: 20px; font-weight: 700; }
 .expanded-title p { font-size: 13px; color: var(--text2); margin-top: 4px; }
@@ -182,6 +188,11 @@ function renderCard(b) {
 
   const pngUrl = `${CDN}/${b.id}/logo.png`;
   const transparentUrl = `${CDN}/${b.id}/logo-transparent.png`;
+  const whiteUrl = `${CDN}/${b.id}/logo-white.png`;
+  // dark_variant: 채도 분석으로 결정된 다크 배경 최적 버전
+  const darkUrl = b.dark_variant === 'white' ? whiteUrl : transparentUrl;
+  // 인트로: 가장 잘 보이는 버전 (다크 배경에 최적)
+  const introUrl = darkUrl;
   const tagHtml = b.logo_svg
     ? '<span class="card-tag tag-svg">SVG</span>'
     : '<span class="card-tag tag-png">PNG</span>';
@@ -193,7 +204,7 @@ function renderCard(b) {
         <span class="preview-label">라이트</span>
       </div>
       <div class="preview-dark">
-        <img src="${transparentUrl}" alt="${b.name_ko}" loading="lazy" onerror="this.src='${pngUrl}'">
+        <img src="${darkUrl}" alt="${b.name_ko}" loading="lazy" onerror="this.src='${pngUrl}'">
         <span class="preview-label">다크</span>
       </div>
     </div>
@@ -222,6 +233,10 @@ function buildPanel(b) {
 
   const svgUrl = `${CDN}/${b.id}/logo.svg`;
   const pngUrl = `${CDN}/${b.id}/logo.png`;
+  const whiteUrl = `${CDN}/${b.id}/logo-white.png`;
+  const transparentUrl = `${CDN}/${b.id}/logo-transparent.png`;
+  // 인트로: 가장 잘 보이는 버전 (채도 분석 결과 기반)
+  const introUrl = b.dark_variant === 'white' ? whiteUrl : transparentUrl;
 
   const variantsHtml = VARIANTS.map(v => {
     const url = `${CDN}/${b.id}/${v.file}`;
@@ -245,7 +260,14 @@ function buildPanel(b) {
 
   panel.innerHTML = `
     <div class="expanded-header">
-      <img class="expanded-logo" src="${pngUrl}" alt="${b.name_ko}">
+      <div class="intro-split">
+        <div class="intro-light">
+          <img src="${pngUrl}" alt="${b.name_ko}">
+        </div>
+        <div class="intro-dark">
+          <img src="${introUrl}" alt="${b.name_ko}" onerror="this.src='${pngUrl}'">
+        </div>
+      </div>
       <div class="expanded-title">
         <h2>${b.name_ko}</h2>
         <p>${b.name_en || ''} · ${b.category || ''}${b.domain ? ' · <a href="https://'+b.domain+'" target="_blank" style="color:var(--accent2);text-decoration:none">'+b.domain+'</a>' : ''}</p>

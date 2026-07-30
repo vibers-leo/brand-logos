@@ -88,8 +88,8 @@ def choose_dark_variant(transparent_img: Image.Image) -> str:
         saturations.append(s)
     avg_sat = sum(saturations) / len(saturations)
 
-    # 채도 0.2 이상이면 컬러 로고 → 투명(원색) 사용
-    return "transparent" if avg_sat >= 0.2 else "white"
+    # 채도 0.6 이상이면 강한 컬러 로고 → 투명(원색), 그 이하는 화이트가 더 임팩트
+    return "transparent" if avg_sat >= 0.6 else "white"
 
 
 def make_icon(img: Image.Image, size: int = 64) -> Image.Image:

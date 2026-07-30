@@ -181,7 +181,7 @@ function renderCard(b) {
   el.dataset.id = b.id;
 
   const pngUrl = `${CDN}/${b.id}/logo.png`;
-  const whiteUrl = `${CDN}/${b.id}/logo-white.png`;
+  const transparentUrl = `${CDN}/${b.id}/logo-transparent.png`;
   const tagHtml = b.logo_svg
     ? '<span class="card-tag tag-svg">SVG</span>'
     : '<span class="card-tag tag-png">PNG</span>';
@@ -193,7 +193,7 @@ function renderCard(b) {
         <span class="preview-label">라이트</span>
       </div>
       <div class="preview-dark">
-        <img src="${pngUrl}" alt="${b.name_ko}" loading="lazy">
+        <img src="${transparentUrl}" alt="${b.name_ko}" loading="lazy" onerror="this.src='${pngUrl}'">
         <span class="preview-label">다크</span>
       </div>
     </div>

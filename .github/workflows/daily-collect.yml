@@ -1,0 +1,44 @@
+name: Daily Brand SVG Collect
+
+on:
+  schedule:
+    - cron: '0 21 * * *'   # 매일 KST 06:00 (UTC 21:00 전날)
+  workflow_dispatch:         # 수동 실행 허용
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 의존성 설치
+        run: pip install cairosvg Pillow requests lxml
+
+      - name: SVG 자동 수집 + 파이프라인
+        run: python3 collect-auto.py --source all --commit
+        working-directory: .
+        env:
+          GIT_AUTHOR_NAME: "vibers-bot"
+          GIT_AUTHOR_EMAIL: "vibers.leo@gmail.com"
+          GIT_COMMITTER_NAME: "vibers-bot"
+          GIT_COMMITTER_EMAIL: "vibers.leo@gmail.com"
+
+      - name: 결과 요약
+        run: |
+          echo "### 수집 결과" >> $GITHUB_STEP_SUMMARY
+          python3 -c "
+          import json
+          with open('_clients/brands.json') as f:
+              raw = json.load(f)
+          brands = raw['brands']
+          print(f'총 {len(brands)}개 브랜드 수록')
+          " >> $GITHUB_STEP_SUMMARY

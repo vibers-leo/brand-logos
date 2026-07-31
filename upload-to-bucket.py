@@ -13,6 +13,7 @@ brand-logos → NCP vibers-bucket 업로드
 import argparse, json, os, sys
 from pathlib import Path
 import boto3
+from botocore.config import Config
 from botocore.exceptions import ClientError
 
 BASE = Path(__file__).parent / "_clients"
@@ -52,6 +53,7 @@ def get_s3():
         aws_access_key_id=access_key,
         aws_secret_access_key=secret_key,
         region_name="kr-standard",
+        config=Config(signature_version="s3"),
     )
 
 

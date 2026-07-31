@@ -143,10 +143,23 @@ BASE=~/Desktop/macminim4/brand-logos/_clients
 mkdir -p $BASE/$BRAND
 cp /path/to/logo.svg $BASE/$BRAND/logo.svg
 
-# 2. 검증 (필수)
+# 2. SVG 내재화 (불필요한 메타데이터 제거, 표준 포맷 정규화)
+python3 ~/Desktop/macminim4/brand-logos/internalize-svg.py --brand $BRAND
+
+# 3. 변형 생성 (800px PNG, 아이콘, 투명, 흰색 버전)
+python3 ~/Desktop/macminim4/brand-logos/build-variants.py --brand $BRAND
+
+# 4. NCP vibers-bucket 업로드 (필수 — 재배포 무관 영구 보관)
+cd ~/Desktop/macminim4/brand-logos && source ~/.secrets && python3 upload-to-bucket.py --brand $BRAND
+# 버킷 URL: https://kr.object.ncloudstorage.com/vibers-bucket/brand-logos/{id}/{file}
+
+# 5. GitHub Pages CDN 반영 (logo.vibers.co.kr)
+git -C ~/Desktop/macminim4/brand-logos add _clients/$BRAND/ _clients/brands.json && git -C ~/Desktop/macminim4/brand-logos commit -m "feat: $BRAND 로고 추가" && git -C ~/Desktop/macminim4/brand-logos push
+
+# 6. 검증
 python3 ~/Desktop/macminim4/brand-logos/validate-logos.sh
 
-# 3. brands.json 업데이트
+# 7. brands.json 업데이트
 python3 << EOF
 import json
 with open('$BASE/brands.json', encoding='utf-8') as f:

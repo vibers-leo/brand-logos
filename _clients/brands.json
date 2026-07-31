@@ -1,5 +1,5 @@
 {
-  "total": 379,
+  "total": 384,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -4217,6 +4217,66 @@
       "logo_svg": true,
       "source": "wikimedia:Logo qr.svg",
       "status": "raw",
+      "dark_variant": "white"
+    },
+    {
+      "id": "kakao",
+      "name_ko": "kakao",
+      "name_en": "Kakao",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "simple-icons:kakao",
+      "status": "raw",
+      "brand_color": "#FFCD00",
+      "dark_variant": "white"
+    },
+    {
+      "id": "kakaotalk",
+      "name_ko": "kakaotalk",
+      "name_en": "KakaoTalk",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "simple-icons:kakaotalk",
+      "status": "raw",
+      "brand_color": "#FFCD00",
+      "dark_variant": "white"
+    },
+    {
+      "id": "koreader",
+      "name_ko": "koreader",
+      "name_en": "KOReader",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "simple-icons:koreader",
+      "status": "raw",
+      "brand_color": "#00A89C",
+      "dark_variant": "white"
+    },
+    {
+      "id": "nokia",
+      "name_ko": "nokia",
+      "name_en": "Nokia",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "simple-icons:nokia",
+      "status": "raw",
+      "brand_color": "#005AFF",
+      "dark_variant": "white"
+    },
+    {
+      "id": "samsung",
+      "name_ko": "samsung",
+      "name_en": "Samsung",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "simple-icons:samsung",
+      "status": "raw",
+      "brand_color": "#1428A0",
       "dark_variant": "white"
     }
   ],

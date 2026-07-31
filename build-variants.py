@@ -25,8 +25,8 @@ BRANDS_JSON = BASE / "brands.json"
 
 
 def svg_to_pil(svg_path: Path, width: int) -> Image.Image:
-    """SVG → PIL Image (지정 너비 기준, 비율 유지)"""
-    png_bytes = cairosvg.svg2png(url=str(svg_path), output_width=width)
+    """SVG → PIL Image (지정 너비 기준, 비율 유지, 흰 배경)"""
+    png_bytes = cairosvg.svg2png(url=str(svg_path), output_width=width, background_color="white")
     return Image.open(io.BytesIO(png_bytes)).convert("RGBA")
 
 

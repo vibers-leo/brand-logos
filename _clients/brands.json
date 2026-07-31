@@ -1,5 +1,5 @@
 {
-  "total": 388,
+  "total": 393,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -4323,6 +4323,61 @@
       "status": "raw",
       "brand_color": "#1428A0",
       "dark_variant": "white"
+    },
+    {
+      "id": "bank-of-korea",
+      "name_ko": "Bank of Korea",
+      "name_en": "Bank of Korea",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:Bank of Korea Logo (1946-2010).svg",
+      "status": "raw",
+      "dark_variant": "white"
+    },
+    {
+      "id": "logo-of-woori-bank",
+      "name_ko": "",
+      "name_en": "",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:Logo of Woori Bank.svg",
+      "status": "raw",
+      "dark_variant": "transparent"
+    },
+    {
+      "id": "toss-logo",
+      "name_ko": "Toss",
+      "name_en": "Toss",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:Toss-logo.svg",
+      "status": "raw",
+      "dark_variant": "transparent"
+    },
+    {
+      "id": "tving",
+      "name_ko": "TVING",
+      "name_en": "TVING",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:TVING logo.svg",
+      "status": "raw",
+      "dark_variant": "transparent"
+    },
+    {
+      "id": "shop-cj",
+      "name_ko": "Shop CJ",
+      "name_en": "Shop CJ",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:Shop CJ Logo.svg",
+      "status": "raw",
+      "dark_variant": "transparent"
     }
   ],
   "generated_at": "2026-07-27",

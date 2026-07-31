@@ -1,5 +1,5 @@
 {
-  "total": 384,
+  "total": 387,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -4278,6 +4278,39 @@
       "status": "raw",
       "brand_color": "#1428A0",
       "dark_variant": "white"
+    },
+    {
+      "id": "catholic-university-of-korea",
+      "name_ko": "Catholic University of Korea",
+      "name_en": "Catholic University of Korea",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:Catholic University of Korea logo.svg",
+      "status": "raw",
+      "dark_variant": "transparent"
+    },
+    {
+      "id": "hgu-emblem-eng",
+      "name_ko": "HGU Emblem eng",
+      "name_en": "HGU Emblem eng",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:HGU-Emblem-eng.svg",
+      "status": "raw",
+      "dark_variant": "white"
+    },
+    {
+      "id": "korean-national-police-university-emblem",
+      "name_ko": "Korean National Police University Emblem",
+      "name_en": "Korean National Police University Emblem",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:Korean National Police University Emblem.svg",
+      "status": "raw",
+      "dark_variant": "transparent"
     }
   ],
   "generated_at": "2026-07-27",

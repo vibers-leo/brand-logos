@@ -275,7 +275,7 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
-const CURRENT_VERSION = '1785582274';
+const CURRENT_VERSION = '1785582380';
 function cdnUrl(id, file) { return `${CDN}/${id}/${file}?v=${CURRENT_VERSION}`; }
 
 (async () => {
@@ -513,9 +513,12 @@ function buildModalMid(b) {
   }).join('');
 
   const sourcesHtml = b.sources && b.sources.length > 1 ? `
-    <div style="margin-top:30px">
+    <div style="margin-bottom:28px">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
-        <div class="mid-section-title" style="margin:0">버전 아카이브 <span style="font-size:11px;font-weight:400;color:var(--text3)">${b.sources.length}종</span></div>
+        <div>
+          <div class="mid-section-title" style="margin:0">원본 선택 <span style="font-size:11px;font-weight:400;color:var(--text3)">${b.sources.length}종</span></div>
+          <div style="font-size:11px;color:var(--text3);margin-top:3px">★ 클릭하면 아래 파일 다운로드가 해당 버전 기준으로 변경돼요 (준비 중)</div>
+        </div>
         <span style="font-size:11px;color:var(--text3)">👍 투표 · 🔄 교체 요청</span>
       </div>
       <div id="votes-${b.id}" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px">
@@ -550,9 +553,9 @@ function buildModalMid(b) {
     </div>` : '';
 
   document.getElementById('modal-mid').innerHTML = `
-    <div class="mid-section-title">파일 다운로드</div>
-    <div class="variants-grid">${variantsHtml || '<p style="color:var(--text3);font-size:13px">파일을 준비 중이에요</p>'}</div>
     ${sourcesHtml}
+    <div class="mid-section-title">파일 다운로드 <span style="font-size:11px;font-weight:400;color:var(--text3)">메인 로고 기준</span></div>
+    <div class="variants-grid">${variantsHtml || '<p style="color:var(--text3);font-size:13px">파일을 준비 중이에요</p>'}</div>
     ${b.original_url ? `
     <div style="margin-top:20px;padding:14px 16px;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
       <div>

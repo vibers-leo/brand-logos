@@ -812,6 +812,16 @@ async function castVote(brandId, file, btn) {
   }
 
   btn.disabled = true;
+
+  // 즉시 카운팅 반영 (optimistic)
+  const span = btn.querySelector('.vote-count');
+  const prevText = span.textContent;
+  const cur = parseInt(span.textContent.replace(/[^0-9]/g, '')) || 0;
+  span.textContent = `👍 ${cur + 1}`;
+  btn.classList.remove('vote-loading');
+  btn.style.borderColor = 'var(--accent)';
+  btn.style.color = 'var(--accent2)';
+
   try {
     const ref = _fb.doc(_fb.db, 'logo_votes', brandId);
     const snap = await _fb.getDoc(ref);
@@ -823,13 +833,6 @@ async function castVote(brandId, file, btn) {
     }
     voted.push(file);
     localStorage.setItem(_voteKey(brandId), JSON.stringify(voted));
-
-    const span = btn.querySelector('.vote-count');
-    const cur = parseInt(span.textContent.replace(/[^0-9]/g, '')) || 0;
-    span.textContent = `👍 ${cur + 1}`;
-    btn.classList.remove('vote-loading');
-    btn.style.borderColor = 'var(--accent)';
-    btn.style.color = 'var(--accent2)';
     showToast('투표했어요! 🎉');
 
     // 커뮤니티 피드에도 기록
@@ -838,6 +841,10 @@ async function castVote(brandId, file, btn) {
     _appendFeedActivity(brandId, { type: 'vote', emoji: _myEmoji(), ts: Date.now(), file, label });
   } catch(e) {
     console.error(e);
+    // 실패 시 롤백
+    span.textContent = prevText;
+    btn.style.borderColor = '';
+    btn.style.color = '';
     showToast('투표 저장 실패. 다시 시도해주세요');
   }
   btn.disabled = false;

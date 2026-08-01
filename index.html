@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>로고창고 — 브랜드 로고 SVG·PNG 무료 다운로드</title>
 <meta name="description" content="한국 주요 브랜드 로고를 SVG·PNG 다양한 변형으로 제공합니다. 무료 다운로드.">
 <meta property="og:title" content="로고창고 — 브랜드 로고 라이브러리">
@@ -272,7 +275,7 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
-const CURRENT_VERSION = '1785578886';
+const CURRENT_VERSION = '1785580645';
 
 (async () => {
   try {
@@ -981,7 +984,7 @@ function toggleVeryLow() {
 }
 
 async function init() {
-  const res = await fetch('/_clients/brands.json');
+  const res = await fetch('/_clients/brands.json?_=' + Date.now(), { cache: 'no-store' });
   const { brands } = await res.json();
   allBrands = brands;
 

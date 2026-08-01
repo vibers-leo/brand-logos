@@ -305,9 +305,14 @@
           "label": "심볼+워드마크 (가로형)"
         },
         {
+          "provider": "wikimedia:bts-symbol-only",
+          "file": "sources/bts-symbol-only.svg",
+          "label": "심볼형 SVG (아이콘)"
+        },
+        {
           "provider": "wikimedia:bts-symbol",
           "file": "logo.svg",
-          "label": "심볼 SVG"
+          "label": "심볼+텍스트 원본"
         },
         {
           "provider": "wikimedia:bts-horizontal",

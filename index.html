@@ -766,6 +766,9 @@ let _fb = null;
 window.addEventListener('firebaseReady', () => { _fb = window._logoVotes; });
 
 function _voteKey(brandId) { return `voted_${brandId}`; }
+// Firestore 필드명에 / . 사용 불가 → 인코딩
+function _fk(file) { return file.replace(/\//g,'__').replace(/\./g,'_'); }
+function _fkDecode(key) { return key.replace(/__/g,'/').replace(/_/g,'.'); }
 
 async function loadVotes(brandId) {
   if (!_fb) return;
@@ -778,7 +781,7 @@ async function loadVotes(brandId) {
     // 모달 내 모든 vote-btn (variants + sources 통합)
     document.querySelectorAll(`.vote-btn[data-brand="${brandId}"]`).forEach(btn => {
       const file = btn.dataset.file;
-      const count = votes[file] || 0;
+      const count = votes[_fk(file)] || 0;
       btn.querySelector('.vote-count').textContent = `👍 ${count}`;
       btn.classList.remove('vote-loading');
       if (voted.includes(file)) {
@@ -812,10 +815,11 @@ async function castVote(brandId, file, btn) {
   try {
     const ref = _fb.doc(_fb.db, 'logo_votes', brandId);
     const snap = await _fb.getDoc(ref);
+    const fk = _fk(file);
     if (snap.exists()) {
-      await _fb.updateDoc(ref, { [`votes.${file}`]: _fb.increment(1) });
+      await _fb.updateDoc(ref, { [`votes.${fk}`]: _fb.increment(1) });
     } else {
-      await _fb.setDoc(ref, { votes: { [file]: 1 }, swap_pending: false, swap_target: null });
+      await _fb.setDoc(ref, { votes: { [fk]: 1 }, swap_pending: false, swap_target: null });
     }
     voted.push(file);
     localStorage.setItem(_voteKey(brandId), JSON.stringify(voted));

@@ -1022,9 +1022,120 @@ def add_existing_sources(dry_run=False):
     print(f"📝 sources 소급 적용: {updated}개 업데이트")
 
 
+def apply_votes(dry_run=False):
+    """
+    Firestore logo_votes 컬렉션을 읽어:
+    - swap_pending=True 인 브랜드의 swap_target 파일을 logo.svg 또는 logo.png로 교체
+    - 처리 후 swap_pending=False 로 초기화
+    """
+    try:
+        import firebase_admin
+        from firebase_admin import credentials, firestore
+    except ImportError:
+        print("❌ firebase-admin 미설치: pip install firebase-admin")
+        return
+
+    # 서비스 계정 키 (ai-recipe .env.local에서 추출 후 저장)
+    sa_path = BASE / ".firebase-sa.json"
+    if not sa_path.exists():
+        # 환경변수에서 JSON 읽기 시도
+        import os, json as _json
+        sa_str = os.environ.get("FIREBASE_SERVICE_ACCOUNT_KEY", "")
+        if not sa_str:
+            print("❌ .firebase-sa.json 없고 FIREBASE_SERVICE_ACCOUNT_KEY 환경변수도 없음")
+            print("  방법: ai-recipe/.env.local의 FIREBASE_SERVICE_ACCOUNT_KEY 값을 .firebase-sa.json으로 저장")
+            return
+        sa_path.write_text(sa_str)
+
+    if not firebase_admin._apps:
+        cred = credentials.Certificate(str(sa_path))
+        firebase_admin.initialize_app(cred)
+
+    db = firestore.client()
+    votes_col = db.collection("logo_votes")
+    docs = votes_col.where("swap_pending", "==", True).stream()
+
+    data = load_brands_json()
+    brand_map = {b["id"]: b for b in data["brands"]}
+    changed = 0
+
+    for doc_snap in docs:
+        brand_id = doc_snap.id
+        doc_data = doc_snap.to_dict()
+        target_file = doc_data.get("swap_target", "")
+
+        if not target_file:
+            print(f"  ⚠ {brand_id}: swap_target 없음, 건너뜀")
+            continue
+
+        brand_dir = LOGO_DIR / brand_id
+        src = brand_dir / target_file
+        if not src.exists():
+            print(f"  ❌ {brand_id}: {target_file} 파일 없음")
+            continue
+
+        if dry_run:
+            print(f"  [DRY] {brand_id}: {target_file} → logo.{'svg' if target_file.endswith('.svg') else 'png'}")
+            continue
+
+        import shutil
+        is_svg = target_file.endswith(".svg")
+
+        # 기존 logo.svg/logo.png 백업
+        dest = brand_dir / ("logo.svg" if is_svg else "logo.png")
+        if dest.exists():
+            shutil.copy2(dest, brand_dir / f"logo.bak.{dest.suffix[1:]}")
+
+        shutil.copy2(src, dest)
+        print(f"  ✅ {brand_id}: {target_file} → {dest.name} 교체 완료")
+
+        # brands.json source 필드 업데이트
+        if brand_id in brand_map:
+            b = brand_map[brand_id]
+            # 교체된 파일에 해당하는 sources 엔트리를 index 0으로 이동
+            if b.get("sources"):
+                idx = next((i for i, s in enumerate(b["sources"]) if s["file"] == target_file), None)
+                if idx is not None and idx > 0:
+                    b["sources"].insert(0, b["sources"].pop(idx))
+            if is_svg:
+                b["logo_svg"] = True
+            else:
+                b["logo_png"] = True
+
+        # PNG 재생성 (SVG 교체 시)
+        if is_svg:
+            try:
+                import cairosvg
+                from PIL import Image
+                import io
+                svg_data = dest.read_bytes()
+                png_data = cairosvg.svg2png(bytestring=svg_data, output_width=400, output_height=400)
+                img = Image.open(io.BytesIO(png_data)).convert("RGBA")
+                bg = Image.new("RGBA", img.size, (255, 255, 255, 255))
+                bg.paste(img, mask=img.split()[3])
+                bg.convert("RGB").save(brand_dir / "logo.png")
+                print(f"    PNG 재생성: {brand_id}/logo.png")
+            except Exception as e:
+                print(f"    PNG 재생성 실패: {e}")
+
+        # Firestore swap_pending 초기화
+        votes_col.document(brand_id).update({
+            "swap_pending": False,
+            "swap_target": None,
+            "applied_at": firestore.SERVER_TIMESTAMP,
+        })
+        changed += 1
+
+    if changed == 0 and not dry_run:
+        print("  교체 대기 중인 브랜드 없음")
+    else:
+        save_brands_json(data)
+        print(f"\n✅ apply-votes 완료: {changed}개 교체")
+
+
 def main():
     parser = argparse.ArgumentParser(description="한국 브랜드 SVG 자동 수집")
-    parser.add_argument("--source", choices=["wiki", "simple", "fa", "sources", "si-global", "iconify", "devicons", "worldvector", "all"], default="all")
+    parser.add_argument("--source", choices=["wiki", "simple", "fa", "sources", "si-global", "iconify", "devicons", "worldvector", "apply-votes", "all"], default="all")
     parser.add_argument("--dry-run", action="store_true", help="다운로드 없이 목록만")
     parser.add_argument("--no-pipeline", action="store_true", help="파이프라인 실행 생략")
     parser.add_argument("--commit",  action="store_true", help="완료 후 git commit + push")
@@ -1061,6 +1172,11 @@ def main():
 
     if args.source == "sources":
         add_existing_sources(dry_run=args.dry_run)
+        return
+
+    if args.source == "apply-votes":
+        print("🔄 Firestore 투표 결과 적용 중...")
+        apply_votes(dry_run=args.dry_run)
         return
 
     if args.dry_run:

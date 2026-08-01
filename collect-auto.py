@@ -27,6 +27,29 @@ WIKI_CATEGORIES = [
     "SVG logos of organizations of South Korea",
     "Logos of companies of South Korea",
     "Government logos of South Korea",
+    "Logos of banks of South Korea",
+    "Logos of television channels of South Korea",
+    "Logos of universities and colleges in South Korea",
+    "Logos of sports teams of South Korea",
+    "SVG logos of South Korean entertainment companies",
+    "Logos of airlines of South Korea",
+    "SVG logos of retail companies of South Korea",
+    "Logos of South Korean companies",
+    "SVG logos of financial companies of South Korea",
+    "Logos of Korean companies",
+    # 추가 카테고리
+    "Logos of banks in South Korea",
+    "Logos of media companies in South Korea",
+    "Logos of supermarkets of South Korea",
+    "Kakao",
+    "CJ Group",
+    "GS Group",
+    "POSCO",
+    # 공공기관 추가
+    "Logos of television channels in South Korea",
+    "Logos of hospitals in South Korea",
+    "Logos of public transport in South Korea",
+    "Logos of universities in South Korea",
 ]
 
 # 이미 등록된 브랜드 ID 로드
@@ -231,28 +254,36 @@ def collect_simple_icons(dry_run=False) -> list[dict]:
     icons = si_data if isinstance(si_data, list) else si_data.get("icons", [])
     print(f"  총 {len(icons)}개 아이콘")
 
-    # 한국 관련 키워드
+    # Simple Icons 전용 한국 브랜드 키워드 (명확한 한국 브랜드명만, 오탐 방지)
     KR_KEYWORDS = [
-        "korea", "korean", "samsung", "lg ", "hyundai", "kia", "sk ", "lotte",
-        "kakao", "naver", "coupang", "krafton", "ncsoft", "nexon", "netmarble",
-        "hybe", "bighit", "sm entertainment", "yg entertainment", "jyp",
-        "posco", "hanwha", "doosan", "lginnotek", "kepco",
-        "kb ", "shinhan", "woori", "hana bank", "ibk", "nh ",
-        "cj ", "amorepacific", "cosmax", "hugel",
-        "krafton", "pearl abyss",
+        # 대기업·IT (정확한 이름 매칭)
+        "samsung", "hyundai", "kakao", "naver", "kia", "nexon",
+        "krafton", "ncsoft", "netmarble", "smilegate", "devsisters",
+        "kakaobank", "kakaopay", "kakaotalk",
+        "hybe", "lotte", "hanwha", "posco", "doosan",
+        "sk telecom", "lg uplus", "kt telecom",
+        "korea", "korean",
+        # 장문 키워드 (중복 없음)
+        "coupang", "toss", "upbit", "dunamu",
+        "amorepacific", "laneige", "sulwhasoo",
+        "nongshim", "ottogi", "binggrae",
+        "shinhan", "woori bank", "hana bank",
+        "samsung pay",
     ]
 
     collected = []
     for icon in icons:
         title = icon.get("title", "").lower()
-        slug  = icon.get("slug", slugify(icon.get("title", "")))
+        # Simple Icons slug: lowercase, alphanumeric only (spaces/special chars removed)
+        si_slug = re.sub(r"[^a-z0-9]", "", title)
+        # brand_id uses hyphen-slug for readability
+        brand_id = icon.get("slug", "") or slugify(icon.get("title", ""))
 
         # 한국 브랜드 감지
         is_kr = any(kw in title for kw in KR_KEYWORDS)
         if not is_kr:
             continue
 
-        brand_id = slug or slugify(icon["title"])
         if brand_id in existing:
             print(f"  ⏭  {brand_id} (이미 있음)")
             continue
@@ -265,12 +296,12 @@ def collect_simple_icons(dry_run=False) -> list[dict]:
             existing.add(brand_id)
             continue
 
-        # Simple Icons SVG URL
-        svg_url = f"https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/{slug}.svg"
+        # Simple Icons SVG URL (HEAD branch, alphanumeric slug)
+        svg_url = f"https://raw.githubusercontent.com/simple-icons/simple-icons/HEAD/icons/{si_slug}.svg"
         try:
-            result = download_svg(brand_id, svg_url, f"{slug}.svg")
+            result = download_svg(brand_id, svg_url, f"{si_slug}.svg")
             if result:
-                result["source"] = f"simple-icons:{slug}"
+                result["source"] = f"simple-icons:{si_slug}"
                 result["name_en"] = icon["title"]
                 result["brand_color"] = f"#{hex_color}"
                 collected.append(result)

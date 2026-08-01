@@ -152,9 +152,13 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI',
 .modal-hd-name p { font-size:12px; color:var(--text3); margin-top:3px; }
 .modal-hd-acts { display:flex; align-items:center; gap:8px; flex-shrink:0; }
 .modal-body { flex:1; overflow:hidden; display:grid; grid-template-columns:220px 1fr 340px; }
-.modal-left { overflow-y:auto; padding:20px 16px; border-right:1px solid var(--border); display:flex; flex-direction:column; gap:16px; }
-.modal-mid { overflow-y:auto; padding:22px 24px; }
-.modal-right { overflow-y:auto; border-left:1px solid var(--border); display:flex; flex-direction:column; }
+.modal-left { overflow-y:auto; padding:20px 16px; border-right:1px solid var(--border); display:flex; flex-direction:column; gap:16px; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
+.modal-mid { overflow-y:auto; padding:22px 24px; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
+.modal-right { overflow-y:auto; border-left:1px solid var(--border); display:flex; flex-direction:column; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
+.modal-left::-webkit-scrollbar,.modal-mid::-webkit-scrollbar,.modal-right::-webkit-scrollbar { width:4px; }
+.modal-left::-webkit-scrollbar-track,.modal-mid::-webkit-scrollbar-track,.modal-right::-webkit-scrollbar-track { background:transparent; }
+.modal-left::-webkit-scrollbar-thumb,.modal-mid::-webkit-scrollbar-thumb,.modal-right::-webkit-scrollbar-thumb { background:var(--border); border-radius:2px; }
+.modal-left::-webkit-scrollbar-thumb:hover,.modal-mid::-webkit-scrollbar-thumb:hover,.modal-right::-webkit-scrollbar-thumb:hover { background:var(--text3); }
 .mright-sec { padding:14px 16px; border-bottom:1px solid var(--border); }
 .mright-sec:last-child { border-bottom:none; flex:1; }
 .modal-body { transition:none; }

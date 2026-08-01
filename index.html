@@ -281,6 +281,7 @@ const VARIANTS = [
 let allBrands = [];
 let expandedId = null;
 let activeFmt = '';
+let showVeryLow = false;
 
 function setFmt(btn) {
   document.querySelectorAll('[data-fmt]').forEach(b => b.classList.remove('active'));
@@ -640,11 +641,18 @@ function renderShareFeed(brandId, recent) {
   const el = document.getElementById('share-feed-'+brandId);
   if (!el || !recent.length) return;
   el.classList.add('has-data');
+  const last8 = recent.slice(-8);
+  const rows = last8.map(s => {
+    const time = `<span style="color:var(--text3);font-size:9px;margin-left:3px">${_relTime(s.ts)}</span>`;
+    if (s.type === 'vote') return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">"<span style="color:var(--accent2)">${s.label||s.file}</span>" 추천 👍</span>${time}</div>`;
+    if (s.type === 'swap') return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">"<span style="color:#f59e0b">${s.label||s.file}</span>" 교체 요청 🔄</span>${time}</div>`;
+    return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">퍼가기 🔗</span>${time}</div>`;
+  }).join('');
+  const shareCount = recent.filter(s => !s.type || s.type === 'share').length;
   el.innerHTML = `
-    <div style="display:flex;flex-wrap:wrap;gap:3px;align-items:center">
-      ${recent.slice(-8).map(s=>`<span title="${_relTime(s.ts)}" style="font-size:17px;cursor:default;line-height:1">${s.emoji}</span>`).join('')}
-    </div>
-    <div style="font-size:10px;color:var(--text3);margin-top:4px">${recent.length}명이 퍼갔어요</div>
+    <div style="margin-top:8px;font-size:9px;font-weight:700;color:var(--text3);letter-spacing:.06em;text-transform:uppercase;margin-bottom:5px">최근 활동</div>
+    <div>${rows}</div>
+    ${shareCount > 0 ? `<div style="font-size:10px;color:var(--text3);margin-top:6px">${shareCount}명이 퍼갔어요</div>` : ''}
   `;
 }
 
@@ -810,6 +818,11 @@ async function castVote(brandId, file, btn) {
     btn.style.borderColor = 'var(--accent)';
     btn.style.color = 'var(--accent2)';
     showToast('투표했어요! 🎉');
+
+    // 커뮤니티 피드에도 기록
+    const brand = allBrands.find(x => x.id === brandId);
+    const label = brand?.sources?.find(s => s.file === file)?.label || file.split('/').pop();
+    _appendFeedActivity(brandId, { type: 'vote', emoji: _myEmoji(), ts: Date.now(), file, label });
   } catch(e) {
     console.error(e);
     showToast('투표 저장 실패. 다시 시도해주세요');
@@ -841,11 +854,29 @@ async function requestSwap(brandId, file, btn) {
     if (card) { card.style.outline = '2px solid #f59e0b'; card.style.outlineOffset = '2px'; }
 
     showToast('교체 요청을 보냈어요! 관리자가 확인 후 반영합니다 🔄');
+
+    // 커뮤니티 피드에도 기록
+    const brand = allBrands.find(x => x.id === brandId);
+    const label = brand?.sources?.find(s => s.file === file)?.label || file.split('/').pop();
+    _appendFeedActivity(brandId, { type: 'swap', emoji: _myEmoji(), ts: Date.now(), file, label });
   } catch(e) {
     console.error(e);
     showToast('요청 전송 실패. 다시 시도해주세요');
   }
   btn.disabled = false;
+}
+
+async function _appendFeedActivity(brandId, entry) {
+  if (!_fb) return;
+  try {
+    const ref = _fb.doc(_fb.db, 'logo_shares', brandId);
+    const snap = await _fb.getDoc(ref);
+    const prev = snap.exists() ? (snap.data().recent || []) : [];
+    const recent = [...prev, entry].slice(-20);
+    if (snap.exists()) await _fb.updateDoc(ref, { recent });
+    else await _fb.setDoc(ref, { count: 0, recent });
+    renderShareFeed(brandId, recent);
+  } catch(e) { console.warn('feed write:', e); }
 }
 
 function showToast(msg) {
@@ -870,13 +901,18 @@ function renderGrid(brands) {
   if (!brands.length) { empty.style.display = 'block'; return; }
   empty.style.display = 'none';
   brands.forEach(b => grid.appendChild(renderCard(b)));
-  document.getElementById('result-count').innerHTML = `<strong>${brands.length}</strong>개 브랜드`;
+  const veryLowCount = allBrands.filter(b => b.logo_quality === 'very_low').length;
+  const hiddenNote = !showVeryLow && veryLowCount > 0
+    ? ` · <button id="quality-toggle" class="chip" style="font-size:11px;padding:3px 10px;vertical-align:middle" onclick="toggleVeryLow()">로고 없는 ${veryLowCount}개 숨김</button>`
+    : '';
+  document.getElementById('result-count').innerHTML = `<strong>${brands.length}</strong>개 브랜드${hiddenNote}`;
 }
 
 function filterBrands() {
   const q = document.getElementById('search').value.trim().toLowerCase();
   const cat = document.querySelector('#cat-filters .chip.active')?.dataset.cat || '';
   return allBrands.filter(b => {
+    if (!showVeryLow && b.logo_quality === 'very_low') return false;
     const matchCat = !cat || b.category === cat;
     const matchQ = !q
       || b.name_ko?.toLowerCase().includes(q)
@@ -889,6 +925,20 @@ function filterBrands() {
     else if (activeFmt === 'original') matchFmt = !!(b.original_url || b.bucket_url);
     return matchCat && matchQ && matchFmt;
   });
+}
+
+function toggleVeryLow() {
+  showVeryLow = !showVeryLow;
+  const btn = document.getElementById('quality-toggle');
+  const veryLowCount = allBrands.filter(b => b.logo_quality === 'very_low').length;
+  if (showVeryLow) {
+    btn.textContent = `로고 없는 ${veryLowCount}개 표시 중 (숨기기)`;
+    btn.classList.add('active');
+  } else {
+    btn.textContent = `로고 없는 ${veryLowCount}개 숨김`;
+    btn.classList.remove('active');
+  }
+  renderGrid(filterBrands());
 }
 
 async function init() {

@@ -282,6 +282,17 @@ function buildPanel(b) {
       <button class="close-btn" onclick="collapseCard(event)" title="닫기">✕</button>
     </div>
     <div class="variants-grid">${variantsHtml}</div>
+    ${b.original_url ? `
+    <div style="margin-top:16px;padding:14px 16px;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>
+        <div style="font-size:13px;font-weight:600;color:var(--text2);margin-bottom:2px">원본 파일</div>
+        <div style="font-size:12px;color:var(--text3)">${b.original_ext ? b.original_ext.toUpperCase() + ' · ' : ''}제보받은 원본 파일입니다</div>
+      </div>
+      <a href="${b.original_url}" download target="_blank" style="display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;text-decoration:none;padding:8px 16px;border-radius:var(--radius-sm);font-size:13px;font-weight:600;white-space:nowrap">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+        원본 다운로드
+      </a>
+    </div>` : ''}
   `;
 }
 
@@ -392,32 +403,72 @@ document.getElementById('submit-modal').addEventListener('click', e => {
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSubmit(); });
 
+function onFileChange(input) {
+  const label = document.getElementById('file-label');
+  const drop = document.getElementById('file-drop');
+  if (input.files && input.files[0]) {
+    const f = input.files[0];
+    const ext = f.name.split('.').pop().toUpperCase();
+    const size = f.size > 1024*1024 ? (f.size/1024/1024).toFixed(1)+'MB' : (f.size/1024).toFixed(0)+'KB';
+    label.textContent = `📎 ${f.name} (${ext} · ${size})`;
+    label.style.color = 'var(--accent2)';
+    drop.style.borderColor = 'var(--accent)';
+    drop.style.borderStyle = 'solid';
+  } else {
+    label.textContent = '클릭하거나 파일을 드래그하세요';
+    label.style.color = 'var(--text3)';
+    drop.style.borderStyle = 'dashed';
+  }
+}
+
+// 드래그앤드롭
+document.addEventListener('DOMContentLoaded', () => {
+  const drop = document.getElementById('file-drop');
+  if (!drop) return;
+  drop.addEventListener('dragover', e => { e.preventDefault(); drop.style.borderColor = 'var(--accent)'; });
+  drop.addEventListener('dragleave', () => { drop.style.borderColor = 'var(--border)'; });
+  drop.addEventListener('drop', e => {
+    e.preventDefault();
+    const input = document.getElementById('logo-file-input');
+    input.files = e.dataTransfer.files;
+    onFileChange(input);
+  });
+});
+
 async function handleSubmit(e) {
   e.preventDefault();
   const btn = document.getElementById('submit-btn');
   const result = document.getElementById('submit-result');
   btn.disabled = true;
-  btn.textContent = '전송 중…';
 
   const fd = new FormData(e.target);
-  const data = {
-    brand_name: fd.get('brand_name'),
-    category:   fd.get('category'),
-    logo_url:   fd.get('logo_url'),
-    memo:       fd.get('memo'),
-  };
+  const hasFile = fd.get('logo_file') && fd.get('logo_file').size > 0;
+
+  // 파일 있으면 업로드 진행 표시
+  if (hasFile) {
+    btn.textContent = '업로드 중…';
+    result.style.cssText = 'display:block;background:rgba(99,102,241,.1);color:var(--accent2);border:1px solid rgba(99,102,241,.25);padding:12px 14px;border-radius:8px;font-size:13px;margin-bottom:16px';
+    result.textContent = '파일 업로드 중입니다. 잠시 기다려 주세요…';
+  } else {
+    btn.textContent = '전송 중…';
+  }
 
   try {
     const res = await fetch('https://ai.vibers.co.kr/api/logo-submit', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
+      body: fd   // multipart/form-data 자동 설정
     });
     const json = await res.json();
     if (json.success) {
+      const hasConvert = json.bucket_url && /\.(ai|pdf|eps)$/i.test(json.bucket_url);
       result.style.cssText = 'display:block;background:rgba(34,197,94,.12);color:#22c55e;border:1px solid rgba(34,197,94,.25);padding:12px 14px;border-radius:8px;font-size:13px;margin-bottom:16px';
-      result.textContent = '✅ 제보가 접수됐습니다. 감사합니다! 검토 후 추가할게요.';
+      result.textContent = hasConvert
+        ? '✅ 제보 접수 완료! 파일이 업로드됐고, SVG 변환 후 검토하여 추가할게요.'
+        : '✅ 제보가 접수됐습니다. 감사합니다! 검토 후 추가할게요.';
       e.target.reset();
+      document.getElementById('file-label').textContent = '클릭하거나 파일을 드래그하세요';
+      document.getElementById('file-label').style.color = 'var(--text3)';
+      document.getElementById('file-drop').style.borderStyle = 'dashed';
       btn.textContent = '제보 완료!';
     } else {
       throw new Error(json.message || '전송 실패');
@@ -459,7 +510,16 @@ async function handleSubmit(e) {
       </div>
 
       <div style="margin-bottom:16px">
-        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">SVG 또는 로고 URL</label>
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">로고 파일 첨부 <span style="color:var(--text3);font-weight:400">(AI · PDF · EPS · SVG · PNG)</span></label>
+        <label id="file-drop" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:100%;min-height:90px;background:var(--surface2);border:2px dashed var(--border);border-radius:var(--radius-sm);cursor:pointer;transition:border-color .15s;padding:16px" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--text3)"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"/></svg>
+          <span id="file-label" style="font-size:13px;color:var(--text3)">클릭하거나 파일을 드래그하세요</span>
+          <input id="logo-file-input" name="logo_file" type="file" accept=".ai,.pdf,.eps,.svg,.png,.jpg" style="display:none" onchange="onFileChange(this)">
+        </label>
+      </div>
+
+      <div style="margin-bottom:16px">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">또는 로고 URL</label>
         <input name="logo_url" type="url" placeholder="https://... (Wikimedia, 공식 사이트 등)" style="width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:var(--radius-sm);font-size:14px;outline:none" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
       </div>
 

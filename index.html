@@ -272,6 +272,19 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
+const CURRENT_VERSION = '1785578730';
+
+(async () => {
+  try {
+    const v = await fetch('/version.txt?_=' + Date.now(), { cache: 'no-store' }).then(r => r.text());
+    if (v.trim() !== CURRENT_VERSION) {
+      const bar = document.createElement('div');
+      bar.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#6c63ff;color:#fff;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;font-size:13px;font-family:inherit';
+      bar.innerHTML = `<span>🔄 새 버전이 배포됐어요</span><button onclick="location.reload(true)" style="background:#fff;color:#6c63ff;border:none;border-radius:6px;padding:5px 14px;font-size:12px;font-weight:700;cursor:pointer">새로고침</button>`;
+      document.body.prepend(bar);
+    }
+  } catch {}
+})();
 
 const VARIANTS = [
   { file: 'logo.svg',          name: 'SVG 벡터',    desc: '확대해도 깨짐 없음',  bg: 'bg-white', filter: false },

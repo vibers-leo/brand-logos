@@ -298,7 +298,18 @@
       "svg_source": null,
       "logo_png": true,
       "dark_variant": "white",
-      "sources": [],
+      "sources": [
+        {
+          "provider": "wikimedia:bts-symbol",
+          "file": "logo.svg",
+          "label": "심볼 SVG"
+        },
+        {
+          "provider": "wikimedia:bts-horizontal",
+          "file": "sources/bts-horizontal.svg",
+          "label": "가로형 SVG"
+        }
+      ],
       "logo_quality_score": 1185.1,
       "logo_quality": "ok"
     },

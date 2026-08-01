@@ -699,7 +699,7 @@ async function handleInlineReport(e, brandId, brandName) {
 // Firebase 준비 대기 후 votes + share feed 로드
 function waitForFbAndLoad(b) {
   function run() {
-    if (b.sources?.length > 1 && document.getElementById('votes-'+b.id)) loadVotes(b.id);
+    loadVotes(b.id);
     loadShareFeed(b.id);
   }
   if (_fb) { run(); return; }

@@ -349,13 +349,13 @@ function buildPanel(b) {
           <img src="${pngUrl}" alt="${b.name_ko}">
         </div>
         <div class="intro-dark">
-          <img src="${introUrl}" alt="${b.name_ko}" onerror="this.src='${pngUrl}'">
+          <img src="${introUrl}" alt="${b.name_ko}" onerror="this.src='${svgUrl}';this.onerror=()=>{this.src='${pngUrl}'}">
         </div>
       </div>
       <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap">
         <div class="expanded-title">
           <h2>${b.name_ko}</h2>
-          <p>${b.name_en || ''} · ${b.category || ''}${b.domain ? ' · <a href="https://'+b.domain+'" target="_blank" style="color:var(--accent2);text-decoration:none">'+b.domain+'</a>' : ''}</p>
+          <p>${(b.name_en && b.name_en !== b.name_ko) ? b.name_en + ' · ' : ''}${b.category || ''}${b.domain ? ' · <a href="https://'+b.domain+'" target="_blank" style="color:var(--accent2);text-decoration:none">'+b.domain+'</a>' : ''}</p>
         </div>
         <div style="display:flex;gap:8px;align-items:center;flex-shrink:0">
           <button class="share-btn" onclick="shareLink('${b.id}','${permalinkUrl}',this)" title="링크 복사">

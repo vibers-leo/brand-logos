@@ -282,6 +282,27 @@ function buildPanel(b) {
       <button class="close-btn" onclick="collapseCard(event)" title="닫기">✕</button>
     </div>
     <div class="variants-grid">${variantsHtml}</div>
+    ${b.sources && b.sources.length > 1 ? `
+    <div style="margin-top:20px">
+      <div style="font-size:12px;font-weight:600;color:var(--text3);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px">버전 비교</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px">
+        ${b.sources.map((s, i) => {
+          const isMain = i === 0;
+          const fileUrl = `${CDN}/${b.id}/${s.file}`;
+          const isPng = s.file.endsWith('.png');
+          return `
+          <div style="background:var(--surface2);border:1px solid ${isMain ? 'var(--accent)' : 'var(--border)'};border-radius:var(--radius-sm);overflow:hidden;cursor:pointer" onclick="pickSource('${b.id}','${fileUrl}','${s.label}',this)" title="${s.label}">
+            <div style="background:${isPng ? '#fff' : '#f8f8f8'};height:72px;display:flex;align-items:center;justify-content:center;padding:10px">
+              <img src="${fileUrl}" style="max-width:80px;max-height:52px;object-fit:contain" onerror="this.parentElement.innerHTML='<span style=font-size:10px;color:#999>없음</span>'">
+            </div>
+            <div style="padding:6px 8px;display:flex;align-items:center;justify-content:space-between;gap:4px">
+              <span style="font-size:11px;color:${isMain ? 'var(--accent2)' : 'var(--text3)'};font-weight:${isMain ? '600' : '400'}">${s.label}</span>
+              <a href="${fileUrl}" download="${b.id}-${s.file.split('/').pop()}" onclick="event.stopPropagation()" style="font-size:10px;color:var(--text3);text-decoration:none;flex-shrink:0" title="다운로드">↓</a>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>` : ''}
     ${b.original_url ? `
     <div style="margin-top:16px;padding:14px 16px;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
       <div>
@@ -319,6 +340,41 @@ function copyUrl(url, btn) {
     btn.textContent = '복사됨!';
     btn.classList.add('copied');
     setTimeout(() => { btn.textContent = 'URL 복사'; btn.classList.remove('copied'); }, 1500);
+  });
+}
+
+function pickSource(brandId, fileUrl, label, cardEl) {
+  // 선택한 버전을 카드 프리뷰에 반영
+  const panel = document.getElementById(`panel-${brandId}`);
+  if (!panel) return;
+
+  // 모든 버전 카드 테두리 초기화
+  panel.querySelectorAll('[onclick^="pickSource"]').forEach(el => {
+    el.style.borderColor = 'var(--border)';
+    el.querySelector('span').style.color = 'var(--text3)';
+    el.querySelector('span').style.fontWeight = '400';
+  });
+
+  // 선택한 카드 강조
+  cardEl.style.borderColor = 'var(--accent)';
+  const span = cardEl.querySelector('span');
+  span.style.color = 'var(--accent2)';
+  span.style.fontWeight = '600';
+
+  // URL 복사
+  navigator.clipboard.writeText(fileUrl).then(() => {
+    // 토스트 알림
+    let toast = document.getElementById('pick-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'pick-toast';
+      toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#18181b;border:1px solid var(--border);color:var(--text);padding:10px 18px;border-radius:24px;font-size:13px;font-weight:500;z-index:9999;pointer-events:none;transition:opacity .2s';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = `"${label}" URL이 복사됐어요`;
+    toast.style.opacity = '1';
+    clearTimeout(toast._t);
+    toast._t = setTimeout(() => { toast.style.opacity = '0'; }, 2000);
   });
 }
 

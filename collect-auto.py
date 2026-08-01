@@ -5,11 +5,14 @@
 소스:
   1. Wikimedia Commons — Category:SVG logos of companies of South Korea 등
   2. Simple Icons — 한국 브랜드 필터
+  3. Font Awesome Free Brands — 소스 비교용
 
 실행:
   python3 collect-auto.py                  # 전체 실행
   python3 collect-auto.py --source wiki    # Wikimedia만
   python3 collect-auto.py --source simple  # Simple Icons만
+  python3 collect-auto.py --source fa      # Font Awesome만 (sources/ 저장)
+  python3 collect-auto.py --source sources # 기존 브랜드에 FA/SI 소스 추가
   python3 collect-auto.py --dry-run        # 다운로드 없이 목록만
 """
 
@@ -347,9 +350,181 @@ def run_pipeline(brand_id: str):
         print(f"     ⚠️  파이프라인 오류: {e}")
 
 
+# Font Awesome Free Brands — 소스 비교 대상 (브랜드명: FA slug)
+FA_TARGETS = {
+    # 소셜/커뮤니티
+    "facebook": ("Facebook", "소셜미디어"), "instagram": ("Instagram", "소셜미디어"),
+    "youtube": ("YouTube", "미디어"), "tiktok": ("TikTok", "소셜미디어"),
+    "x-twitter": ("X (Twitter)", "소셜미디어"), "twitter": ("Twitter", "소셜미디어"),
+    "linkedin": ("LinkedIn", "소셜미디어"), "pinterest": ("Pinterest", "소셜미디어"),
+    "reddit": ("Reddit", "소셜미디어"), "discord": ("Discord", "커뮤니티"),
+    "threads": ("Threads", "소셜미디어"), "bluesky": ("Bluesky", "소셜미디어"),
+    "mastodon": ("Mastodon", "소셜미디어"),
+    # 테크/클라우드
+    "google": ("Google", "전자/IT"), "apple": ("Apple", "전자/IT"),
+    "microsoft": ("Microsoft", "전자/IT"), "amazon": ("Amazon", "이커머스"),
+    "meta": ("Meta", "전자/IT"), "aws": ("Amazon Web Services", "전자/IT"),
+    "cloudflare": ("Cloudflare", "전자/IT"), "docker": ("Docker", "전자/IT"),
+    "github": ("GitHub", "전자/IT"), "gitlab": ("GitLab", "전자/IT"),
+    "slack": ("Slack", "전자/IT"), "figma": ("Figma", "전자/IT"),
+    "dropbox": ("Dropbox", "전자/IT"), "notion": ("Notion", "전자/IT"),
+    # 브라우저/OS
+    "chrome": ("Google Chrome", "전자/IT"), "firefox": ("Firefox", "전자/IT"),
+    "safari": ("Safari", "전자/IT"), "edge": ("Microsoft Edge", "전자/IT"),
+    "android": ("Android", "전자/IT"), "windows": ("Windows", "전자/IT"),
+    "linux": ("Linux", "전자/IT"),
+    # 게임
+    "steam": ("Steam", "게임"), "playstation": ("PlayStation", "게임"),
+    "xbox": ("Xbox", "게임"), "twitch": ("Twitch", "게임"),
+    "battle-net": ("Battle.net", "게임"),
+    # 스트리밍/미디어
+    "spotify": ("Spotify", "미디어"), "soundcloud": ("SoundCloud", "미디어"),
+    "vimeo": ("Vimeo", "미디어"), "bilibili": ("Bilibili", "미디어"),
+    # 결제
+    "cc-visa": ("Visa", "금융/보험"), "cc-mastercard": ("Mastercard", "금융/보험"),
+    "cc-amex": ("American Express", "금융/보험"), "cc-jcb": ("JCB", "금융/보험"),
+    "paypal": ("PayPal", "핀테크"), "cc-paypal": ("PayPal", "핀테크"),
+    "cc-stripe": ("Stripe", "핀테크"), "stripe": ("Stripe", "핀테크"),
+    "cc-apple-pay": ("Apple Pay", "핀테크"), "google-pay": ("Google Pay", "핀테크"),
+    "amazon-pay": ("Amazon Pay", "핀테크"),
+    # 개발도구
+    "node": ("Node.js", "전자/IT"), "react": ("React", "전자/IT"),
+    "vuejs": ("Vue.js", "전자/IT"), "angular": ("Angular", "전자/IT"),
+    "bootstrap": ("Bootstrap", "전자/IT"),
+    # 앱스토어
+    "google-play": ("Google Play", "전자/IT"), "app-store-ios": ("App Store", "전자/IT"),
+    # 이커머스
+    "shopify": ("Shopify", "유통/쇼핑"), "ebay": ("eBay", "이커머스"),
+    "etsy": ("Etsy", "이커머스"), "airbnb": ("Airbnb", "숙박/여행"),
+    # 기타
+    "wordpress": ("WordPress", "전자/IT"), "bitcoin": ("Bitcoin", "핀테크"),
+    "behance": ("Behance", "미디어"), "artstation": ("ArtStation", "미디어"),
+}
+
+FA_RAW_BASE = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands"
+
+
+def collect_fa_sources(dry_run=False) -> int:
+    """FA brands SVG를 기존 브랜드의 sources/ 폴더에 저장 (신규 브랜드 추가도 포함)"""
+    data = load_brands_json()
+    existing_map = {b["id"]: b for b in data["brands"]}
+    brands_updated = 0
+    brands_added = 0
+
+    print(f"\n🎨 Font Awesome brands 소스 수집 ({len(FA_TARGETS)}개 대상)")
+
+    for fa_slug, (name_en, category) in FA_TARGETS.items():
+        # brand_id: cc-visa → visa, x-twitter → x-twitter 등
+        brand_id = fa_slug.replace("cc-", "")
+        sources_dir = LOGO_DIR / brand_id / "sources"
+
+        fa_path = sources_dir / "fa.svg"
+        if fa_path.exists():
+            print(f"  ⏭  {brand_id} FA (이미 있음)")
+            continue
+
+        svg_url = f"{FA_RAW_BASE}/{fa_slug}.svg"
+        print(f"  🔍 {brand_id} ← fa/{fa_slug}")
+
+        if dry_run:
+            continue
+
+        try:
+            req = urllib.request.Request(svg_url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                if r.status != 200:
+                    print(f"     ⚠️  {r.status}")
+                    continue
+                raw = r.read()
+
+            if b"<svg" not in raw.lower():
+                print(f"     ⚠️  SVG 태그 없음")
+                continue
+
+            sources_dir.mkdir(parents=True, exist_ok=True)
+            fa_path.write_bytes(raw)
+            print(f"     ✅ fa.svg ({len(raw):,}B)")
+
+            # brands.json: sources 필드 업데이트
+            if brand_id in existing_map:
+                b = existing_map[brand_id]
+                if "sources" not in b:
+                    b["sources"] = []
+                # 중복 방지
+                if not any(s.get("provider") == "font-awesome" for s in b["sources"]):
+                    b["sources"].append({"provider": "font-awesome", "file": "sources/fa.svg", "label": "아이콘형"})
+                brands_updated += 1
+            else:
+                # 신규 브랜드로 추가
+                new_brand = {
+                    "id": brand_id,
+                    "name_ko": name_en,
+                    "name_en": name_en,
+                    "category": category,
+                    "domain": "",
+                    "logo_svg": True,
+                    "source": f"font-awesome:{fa_slug}",
+                    "status": "raw",
+                    "sources": [{"provider": "font-awesome", "file": "sources/fa.svg", "label": "아이콘형"}],
+                }
+                data["brands"].append(new_brand)
+                existing_map[brand_id] = new_brand
+                brands_added += 1
+                print(f"     ➕ 신규 브랜드 추가")
+
+            time.sleep(0.2)
+        except Exception as e:
+            print(f"     ❌ {e}")
+
+    save_brands_json(data)
+    print(f"\n📝 FA sources 완료: 기존 {brands_updated}개 업데이트, 신규 {brands_added}개 추가")
+    return brands_updated + brands_added
+
+
+def add_existing_sources(dry_run=False):
+    """기존 브랜드에 logo.dev/SI/FA sources 필드 소급 적용"""
+    data = load_brands_json()
+    updated = 0
+
+    for b in data["brands"]:
+        brand_id = b["id"]
+        dest = LOGO_DIR / brand_id
+        if "sources" not in b:
+            b["sources"] = []
+
+        existing_providers = {s["provider"] for s in b["sources"]}
+
+        # logo.dev 소스 감지 (source 필드가 logodev: 또는 logo.png만 있는 경우)
+        if "logo.dev" not in existing_providers:
+            if b.get("source", "").startswith("logodev:") or (
+                (dest / "logo.png").exists() and not (dest / "logo.svg").exists()
+            ):
+                b["sources"].insert(0, {"provider": "logo.dev", "file": "logo.png", "label": "실물형"})
+                updated += 1
+
+        # Wikimedia 소스 감지
+        if "wikimedia" not in existing_providers and b.get("source", "").startswith("wikimedia:"):
+            b["sources"].append({"provider": "wikimedia", "file": "logo.svg", "label": "공식 SVG"})
+            updated += 1
+
+        # Simple Icons 소스 감지
+        if "simple-icons" not in existing_providers and b.get("source", "").startswith("simple-icons:"):
+            b["sources"].append({"provider": "simple-icons", "file": "logo.svg", "label": "컬러 심볼"})
+            updated += 1
+
+        # FA sources/ 폴더 있으면
+        if "font-awesome" not in existing_providers and (dest / "sources" / "fa.svg").exists():
+            b["sources"].append({"provider": "font-awesome", "file": "sources/fa.svg", "label": "아이콘형"})
+            updated += 1
+
+    if not dry_run:
+        save_brands_json(data)
+    print(f"📝 sources 소급 적용: {updated}개 업데이트")
+
+
 def main():
     parser = argparse.ArgumentParser(description="한국 브랜드 SVG 자동 수집")
-    parser.add_argument("--source",  choices=["wiki", "simple", "all"], default="all")
+    parser.add_argument("--source", choices=["wiki", "simple", "fa", "sources", "all"], default="all")
     parser.add_argument("--dry-run", action="store_true", help="다운로드 없이 목록만")
     parser.add_argument("--no-pipeline", action="store_true", help="파이프라인 실행 생략")
     parser.add_argument("--commit",  action="store_true", help="완료 후 git commit + push")
@@ -365,45 +540,53 @@ def main():
         results = collect_simple_icons(dry_run=args.dry_run)
         all_collected.extend(results)
 
+    if args.source in ("fa", "all"):
+        collect_fa_sources(dry_run=args.dry_run)
+
+    if args.source == "sources":
+        add_existing_sources(dry_run=args.dry_run)
+        return
+
     if args.dry_run:
         print(f"\n📋 수집 예정: {len(all_collected)}개")
         for b in all_collected:
             print(f"  {b['id']}")
         return
 
-    if not all_collected:
+    if not all_collected and args.source not in ("fa", "all"):
         print("\n✨ 신규 브랜드 없음")
         return
 
-    # brands.json 업데이트
-    data = load_brands_json()
-    existing_ids = {b["id"] for b in data["brands"]}
-    added = []
-    for brand in all_collected:
-        if brand["id"] not in existing_ids:
-            data["brands"].append(brand)
-            existing_ids.add(brand["id"])
-            added.append(brand["id"])
-
-    save_brands_json(data)
-    print(f"\n📝 brands.json 업데이트: +{len(added)}개")
-
-    # 파이프라인 실행
-    if not args.no_pipeline:
-        print("\n🔧 파이프라인 실행 중...")
+    # brands.json 업데이트 (wiki/simple 신규분)
+    if all_collected:
+        data = load_brands_json()
+        existing_ids = {b["id"] for b in data["brands"]}
+        added = []
         for brand in all_collected:
-            run_pipeline(brand["id"])
+            if brand["id"] not in existing_ids:
+                data["brands"].append(brand)
+                existing_ids.add(brand["id"])
+                added.append(brand["id"])
+        save_brands_json(data)
+        print(f"\n📝 brands.json 업데이트: +{len(added)}개")
+
+        # 파이프라인 실행
+        if not args.no_pipeline:
+            print("\n🔧 파이프라인 실행 중...")
+            for brand in all_collected:
+                run_pipeline(brand["id"])
 
     # git commit
-    if args.commit and added:
+    if args.commit:
         print("\n📦 git commit...")
         subprocess.run(["git", "add", "_clients/"], cwd=BASE)
-        msg = f"feat: 자동 수집 +{len(added)}개 브랜드 ({', '.join(added[:5])}{'...' if len(added)>5 else ''})"
+        msg = f"feat: 소스 비교 데이터 추가 (FA brands + sources 필드)"
         subprocess.run(["git", "commit", "-m", msg], cwd=BASE)
         subprocess.run(["git", "push", "origin", "main"], cwd=BASE)
         print("  ✅ push 완료")
 
-    print(f"\n✅ 완료: {len(all_collected)}개 수집")
+    if all_collected:
+        print(f"\n✅ 완료: {len(all_collected)}개 수집")
 
 
 if __name__ == "__main__":

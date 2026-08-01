@@ -399,30 +399,31 @@ async function handleSubmit(e) {
   btn.disabled = true;
   btn.textContent = '전송 중…';
 
-  const data = Object.fromEntries(new FormData(e.target));
+  const fd = new FormData(e.target);
+  const data = {
+    brand_name: fd.get('brand_name'),
+    category:   fd.get('category'),
+    logo_url:   fd.get('logo_url'),
+    memo:       fd.get('memo'),
+  };
+
   try {
-    const res = await fetch('https://api.web3forms.com/submit', {
+    const res = await fetch('https://ai.vibers.co.kr/api/logo-submit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
     });
     const json = await res.json();
     if (json.success) {
-      result.style.display = 'block';
-      result.style.background = 'rgba(34,197,94,.12)';
-      result.style.color = '#22c55e';
-      result.style.border = '1px solid rgba(34,197,94,.25)';
+      result.style.cssText = 'display:block;background:rgba(34,197,94,.12);color:#22c55e;border:1px solid rgba(34,197,94,.25);padding:12px 14px;border-radius:8px;font-size:13px;margin-bottom:16px';
       result.textContent = '✅ 제보가 접수됐습니다. 감사합니다! 검토 후 추가할게요.';
       e.target.reset();
       btn.textContent = '제보 완료!';
     } else {
-      throw new Error('전송 실패');
+      throw new Error(json.message || '전송 실패');
     }
   } catch {
-    result.style.display = 'block';
-    result.style.background = 'rgba(239,68,68,.12)';
-    result.style.color = '#ef4444';
-    result.style.border = '1px solid rgba(239,68,68,.25)';
+    result.style.cssText = 'display:block;background:rgba(239,68,68,.12);color:#ef4444;border:1px solid rgba(239,68,68,.25);padding:12px 14px;border-radius:8px;font-size:13px;margin-bottom:16px';
     result.textContent = '❌ 전송에 실패했습니다. vibers.leo@gmail.com 으로 직접 보내주세요.';
     btn.disabled = false;
     btn.textContent = '다시 시도';
@@ -438,9 +439,6 @@ async function handleSubmit(e) {
     <p style="font-size:13px;color:var(--text3);margin-bottom:24px">없는 브랜드 로고를 알고 계신가요? 제보해 주시면 검토 후 추가합니다.</p>
 
     <form id="submit-form" onsubmit="handleSubmit(event)">
-      <input type="hidden" name="access_key" value="REPLACE_WEB3FORMS_KEY">
-      <input type="hidden" name="subject" value="[로고창고] 로고 제보">
-      <input type="hidden" name="from_name" value="로고창고 제보 시스템">
 
       <div style="margin-bottom:16px">
         <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">브랜드명 <span style="color:#ef4444">*</span></label>

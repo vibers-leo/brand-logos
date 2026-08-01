@@ -275,7 +275,8 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
-const CURRENT_VERSION = '1785580645';
+const CURRENT_VERSION = '1785582274';
+function cdnUrl(id, file) { return `${CDN}/${id}/${file}?v=${CURRENT_VERSION}`; }
 
 (async () => {
   try {
@@ -324,11 +325,11 @@ function renderCard(b) {
   el.className = 'card';
   el.dataset.id = b.id;
 
-  const pngUrl = `${CDN}/${b.id}/logo.png`;
-  const transparentUrl = `${CDN}/${b.id}/logo-transparent.png`;
-  const whiteUrl = `${CDN}/${b.id}/logo-white.png`;
+  const pngUrl = cdnUrl(b.id, 'logo.png');
+  const transparentUrl = cdnUrl(b.id, 'logo-transparent.png');
+  const whiteUrl = cdnUrl(b.id, 'logo-white.png');
   const darkUrl = b.dark_variant === 'white' ? whiteUrl : transparentUrl;
-  const svgUrl = `${CDN}/${b.id}/logo.svg`;
+  const svgUrl = cdnUrl(b.id, 'logo.svg');
 
   const isVeryLow = b.logo_quality === 'very_low';
   const isLow = b.logo_quality === 'low';
@@ -421,10 +422,10 @@ function shareModalLink() {
 }
 
 function buildModalLeft(b) {
-  const svgUrl  = `${CDN}/${b.id}/logo.svg`;
-  const pngUrl  = `${CDN}/${b.id}/logo.png`;
-  const whtUrl  = `${CDN}/${b.id}/logo-white.png`;
-  const trpUrl  = `${CDN}/${b.id}/logo-transparent.png`;
+  const svgUrl  = cdnUrl(b.id, 'logo.svg');
+  const pngUrl  = cdnUrl(b.id, 'logo.png');
+  const whtUrl  = cdnUrl(b.id, 'logo-white.png');
+  const trpUrl  = cdnUrl(b.id, 'logo-transparent.png');
   const darkUrl = b.dark_variant === 'white' ? whtUrl : trpUrl;
   const mainUrl = b.logo_svg ? svgUrl : pngUrl;
   const hasSvg  = !!b.logo_svg;
@@ -479,11 +480,11 @@ function buildModalLeft(b) {
 }
 
 function buildModalMid(b) {
-  const svgUrl = `${CDN}/${b.id}/logo.svg`;
-  const pngUrl = `${CDN}/${b.id}/logo.png`;
+  const svgUrl = cdnUrl(b.id, 'logo.svg');
+  const pngUrl = cdnUrl(b.id, 'logo.png');
 
   const variantsHtml = VARIANTS.map(v => {
-    const url = `${CDN}/${b.id}/${v.file}`;
+    const url = cdnUrl(b.id, v.file);
     if (v.file.endsWith('.svg') && !b.logo_svg) return '';
     const vf = v.file.replace(/'/g,"\\'");
     const vn = v.name.replace(/'/g,"\\'");
@@ -520,7 +521,7 @@ function buildModalMid(b) {
       <div id="votes-${b.id}" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px">
         ${b.sources.map((s, i) => {
           const isMain = i === 0;
-          const fileUrl = `${CDN}/${b.id}/${s.file}`;
+          const fileUrl = cdnUrl(b.id, s.file);
           const isPng = s.file.endsWith('.png');
           const sf = s.file.replace(/'/g, "\\'");
           return `

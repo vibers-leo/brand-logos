@@ -403,6 +403,145 @@ FA_TARGETS = {
 
 FA_RAW_BASE = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands"
 
+# Simple Icons 글로벌 인기 브랜드 (CDN slug → (name_en, name_ko, category))
+SI_GLOBAL_TARGETS = {
+    # 스포츠
+    "nike":         ("Nike", "나이키", "스포츠"),
+    "adidas":       ("Adidas", "아디다스", "스포츠"),
+    "puma":         ("Puma", "퓨마", "스포츠"),
+    "newbalance":   ("New Balance", "뉴발란스", "스포츠"),
+    "underarmour":  ("Under Armour", "언더아머", "스포츠"),
+    # 식음료
+    "mcdonalds":    ("McDonald's", "맥도날드", "식음료"),
+    "burgerking":   ("Burger King", "버거킹", "식음료"),
+    "kfc":          ("KFC", "KFC", "식음료"),
+    "cocacola":     ("Coca-Cola", "코카콜라", "식음료"),
+    # 미디어/스트리밍
+    "netflix":      ("Netflix", "넷플릭스", "스트리밍"),
+    "hbo":          ("HBO", "HBO", "스트리밍"),
+    "cnn":          ("CNN", "CNN", "미디어"),
+    "nbc":          ("NBC", "NBC", "미디어"),
+    "fox":          ("Fox", "Fox", "미디어"),
+    # 자동차
+    "tesla":        ("Tesla", "테슬라", "자동차"),
+    "toyota":       ("Toyota", "토요타", "자동차"),
+    "bmw":          ("BMW", "BMW", "자동차"),
+    "volkswagen":   ("Volkswagen", "폭스바겐", "자동차"),
+    "honda":        ("Honda", "혼다", "자동차"),
+    "ford":         ("Ford", "포드", "자동차"),
+    # 반도체/IT
+    "intel":        ("Intel", "인텔", "반도체/IT"),
+    "nvidia":       ("Nvidia", "엔비디아", "반도체/IT"),
+    "qualcomm":     ("Qualcomm", "퀄컴", "반도체/IT"),
+    # 협업/SaaS
+    "zoom":         ("Zoom", "줌", "협업도구"),
+    "webex":        ("Webex", "웹엑스", "협업도구"),
+    "sap":          ("SAP", "SAP", "기업솔루션"),
+    "hubspot":      ("HubSpot", "허브스팟", "기업솔루션"),
+    # 여행
+    "expedia":      ("Expedia", "익스피디아", "여행"),
+    "tripadvisor":  ("Tripadvisor", "트립어드바이저", "여행"),
+    # 모빌리티/배달
+    "lyft":         ("Lyft", "리프트", "모빌리티"),
+    "doordash":     ("DoorDash", "도어대시", "음식배달"),
+    # 리테일/패션
+    "target":       ("Target", "타겟", "유통/쇼핑"),
+    "zara":         ("Zara", "자라", "패션"),
+    "uniqlo":       ("Uniqlo", "유니클로", "패션"),
+}
+
+SI_CDN_BASE = "https://cdn.simpleicons.org"
+
+
+def collect_si_global(dry_run=False) -> list[dict]:
+    """Simple Icons CDN에서 글로벌 인기 브랜드 수집"""
+    data = load_brands_json()
+    existing_map = {b["id"]: b for b in data["brands"]}
+    added = 0
+
+    print(f"\n🌐 Simple Icons 글로벌 브랜드 수집 ({len(SI_GLOBAL_TARGETS)}개 대상)")
+
+    for si_slug, (name_en, name_ko, category) in SI_GLOBAL_TARGETS.items():
+        brand_id = si_slug
+        dest = LOGO_DIR / brand_id
+
+        if brand_id in existing_map:
+            print(f"  ⏭  {brand_id} (이미 있음)")
+            # sources에 SI 없으면 추가
+            b = existing_map[brand_id]
+            existing_providers = {s["provider"] for s in b.get("sources", [])}
+            if "simple-icons" not in existing_providers:
+                b.setdefault("sources", []).append(
+                    {"provider": "simple-icons", "file": "sources/si.svg", "label": "컬러 심볼"}
+                )
+                # si.svg도 저장
+                si_path = dest / "sources" / "si.svg"
+                if not si_path.exists() and not dry_run:
+                    _download_si_svg(si_slug, si_path)
+            continue
+
+        svg_url = f"{SI_CDN_BASE}/{si_slug}"
+        print(f"  🔍 {brand_id} ({name_en})")
+
+        if dry_run:
+            continue
+
+        try:
+            req = urllib.request.Request(svg_url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                raw = r.read()
+
+            if b"<svg" not in raw.lower():
+                print(f"     ⚠️  SVG 아님")
+                continue
+
+            dest.mkdir(parents=True, exist_ok=True)
+            # SI의 경우 아이콘 = 로고 역할 → logo.svg로 저장
+            (dest / "logo.svg").write_bytes(raw)
+            # sources/ 에도 저장
+            (dest / "sources").mkdir(exist_ok=True)
+            (dest / "sources" / "si.svg").write_bytes(raw)
+
+            brand_entry = {
+                "id": brand_id,
+                "name_ko": name_ko,
+                "name_en": name_en,
+                "category": category,
+                "domain": "",
+                "logo_svg": True,
+                "logo_png": False,
+                "source": f"simple-icons:{si_slug}",
+                "sources": [
+                    {"provider": "simple-icons", "file": "sources/si.svg", "label": "컬러 심볼"}
+                ],
+            }
+            data["brands"].append(brand_entry)
+            existing_map[brand_id] = brand_entry
+            print(f"     ✅ {len(raw)}B")
+            added += 1
+            time.sleep(0.4)
+
+        except Exception as e:
+            print(f"     ❌ {e}")
+
+    if not dry_run and added > 0:
+        save_brands_json(data)
+        print(f"\n📝 SI 글로벌 완료: +{added}개 추가")
+
+    return []
+
+
+def _download_si_svg(slug: str, path: Path):
+    """SI CDN에서 SVG 다운로드하여 path에 저장"""
+    try:
+        req = urllib.request.Request(f"{SI_CDN_BASE}/{slug}", headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            raw = r.read()
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(raw)
+    except Exception as e:
+        print(f"     ⚠️  SI 다운로드 실패: {e}")
+
 
 def collect_fa_sources(dry_run=False) -> int:
     """FA brands SVG를 기존 브랜드의 sources/ 폴더에 저장 (신규 브랜드 추가도 포함)"""
@@ -494,10 +633,11 @@ def add_existing_sources(dry_run=False):
 
         existing_providers = {s["provider"] for s in b["sources"]}
 
-        # logo.dev 소스 감지 (source 필드가 logodev: 또는 logo.png만 있는 경우)
+        # logo.dev 소스 감지 (source 필드가 logo.dev: 또는 logo.png만 있는 경우)
         if "logo.dev" not in existing_providers:
-            if b.get("source", "").startswith("logodev:") or (
+            if b.get("source", "").startswith("logo.dev:") or (
                 (dest / "logo.png").exists() and not (dest / "logo.svg").exists()
+                and not b.get("source", "").startswith(("wikimedia:", "simple-icons:", "font-awesome:"))
             ):
                 b["sources"].insert(0, {"provider": "logo.dev", "file": "logo.png", "label": "실물형"})
                 updated += 1
@@ -524,7 +664,7 @@ def add_existing_sources(dry_run=False):
 
 def main():
     parser = argparse.ArgumentParser(description="한국 브랜드 SVG 자동 수집")
-    parser.add_argument("--source", choices=["wiki", "simple", "fa", "sources", "all"], default="all")
+    parser.add_argument("--source", choices=["wiki", "simple", "fa", "sources", "si-global", "all"], default="all")
     parser.add_argument("--dry-run", action="store_true", help="다운로드 없이 목록만")
     parser.add_argument("--no-pipeline", action="store_true", help="파이프라인 실행 생략")
     parser.add_argument("--commit",  action="store_true", help="완료 후 git commit + push")
@@ -539,6 +679,10 @@ def main():
     if args.source in ("simple", "all"):
         results = collect_simple_icons(dry_run=args.dry_run)
         all_collected.extend(results)
+
+    if args.source in ("si-global",):
+        collect_si_global(dry_run=args.dry_run)
+        return
 
     if args.source in ("fa", "all"):
         collect_fa_sources(dry_run=args.dry_run)

@@ -1,0 +1,90 @@
+name: Monthly — 로고 품질 감사 + variant 재생성
+
+on:
+  schedule:
+    - cron: '0 23 1 * *'   # 매월 1일 KST 08:00 (UTC 23:00 전날)
+  workflow_dispatch:
+    inputs:
+      brand_id:
+        description: '특정 브랜드 ID (비워두면 전체)'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 의존성 설치
+        run: pip install cairosvg Pillow requests lxml
+
+      - name: broken SVG 감지
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from pathlib import Path
+
+          with open('_clients/brands.json') as f:
+              d = json.load(f)
+
+          broken = []
+          for b in d['brands']:
+              bid = b['id']
+              svg = Path('_clients') / bid / 'logo.svg'
+              png = Path('_clients') / bid / 'logo.png'
+              if not svg.exists() and not png.exists():
+                  broken.append(bid)
+              elif svg.exists() and svg.stat().st_size < 100:
+                  broken.append(f'{bid} (SVG 너무 작음: {svg.stat().st_size}B)')
+
+          if broken:
+              print(f'⚠️ 문제 브랜드 {len(broken)}개:')
+              for b in broken:
+                  print(f'  {b}')
+          else:
+              print('✅ 모든 브랜드 파일 정상')
+          EOF
+
+      - name: dark_variant 재계산
+        run: |
+          if [ -n "${{ github.event.inputs.brand_id }}" ]; then
+            python3 build-variants.py --brand "${{ github.event.inputs.brand_id }}" --force
+          else
+            python3 build-variants.py --force
+          fi
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "vibers-bot"
+          git config user.email "vibers.leo@gmail.com"
+          git add _clients/
+          git diff --staged --quiet || git commit -m "chore: 월간 dark_variant 재계산 + 파일 감사"
+          git push || echo "변경 없음"
+
+      - name: 감사 리포트
+        run: |
+          python3 -c "
+          import json, os
+          from pathlib import Path
+          with open('_clients/brands.json') as f:
+              d = json.load(f)
+          total = d['total']
+          has_svg = sum(1 for b in d['brands'] if (Path('_clients') / b['id'] / 'logo.svg').exists())
+          has_800 = sum(1 for b in d['brands'] if (Path('_clients') / b['id'] / 'logo-800.png').exists())
+          dark_w = sum(1 for b in d['brands'] if b.get('dark_variant') == 'white')
+          dark_t = sum(1 for b in d['brands'] if b.get('dark_variant') == 'transparent')
+          print(f'### 월간 감사 결과')
+          print(f'- 총 브랜드: {total}개')
+          print(f'- SVG 있음: {has_svg}개 ({has_svg*100//total}%)')
+          print(f'- PNG 800px: {has_800}개')
+          print(f'- dark=white: {dark_w}개 | dark=transparent: {dark_t}개')
+          " >> $GITHUB_STEP_SUMMARY

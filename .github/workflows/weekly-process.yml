@@ -1,0 +1,50 @@
+name: Weekly — 제보 처리 + 분류 업데이트
+
+on:
+  schedule:
+    - cron: '0 22 * * 0'   # 매주 일요일 KST 07:00 (UTC 22:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 의존성 설치
+        run: pip install cairosvg Pillow requests lxml
+
+      - name: 카테고리 재분류 + name_ko 보충
+        run: python3 classify-brands.py
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "vibers-bot"
+          git config user.email "vibers.leo@gmail.com"
+          git add _clients/brands.json
+          git diff --staged --quiet || git commit -m "chore: 주간 카테고리 재분류 + name_ko 업데이트"
+          git push || echo "변경 없음"
+
+      - name: 결과 요약
+        run: |
+          python3 -c "
+          import json
+          with open('_clients/brands.json') as f:
+              d = json.load(f)
+          cats = {}
+          for b in d['brands']:
+              c = b.get('category', '미분류')
+              cats[c] = cats.get(c, 0) + 1
+          print(f'총 {d[\"total\"]}개 브랜드')
+          for k, v in sorted(cats.items(), key=lambda x: -x[1]):
+              print(f'  {k}: {v}개')
+          " >> $GITHUB_STEP_SUMMARY

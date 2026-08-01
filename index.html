@@ -137,7 +137,13 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI',
       </svg>
       <span class="site-name">로고<span>창고</span></span>
     </div>
-    <div class="badge" id="total-badge">— 개 브랜드</div>
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+      <div class="badge" id="total-badge">— 개 브랜드</div>
+      <button onclick="openSubmit()" style="display:flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;border-radius:20px;padding:5px 14px;font-size:12px;font-weight:600;cursor:pointer;letter-spacing:-.2px">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        로고 제보
+      </button>
+    </div>
   </div>
   <p class="header-desc">한국 주요 브랜드 로고 컬렉션 · SVG · PNG · 아이콘 · 투명 · 화이트 변형 무료 제공</p>
   <div class="stat-row">
@@ -370,13 +376,115 @@ async function init() {
 }
 
 init();
+
+// 제보 모달
+function openSubmit() {
+  const m = document.getElementById('submit-modal');
+  m.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+function closeSubmit() {
+  document.getElementById('submit-modal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+document.getElementById('submit-modal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeSubmit();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSubmit(); });
+
+async function handleSubmit(e) {
+  e.preventDefault();
+  const btn = document.getElementById('submit-btn');
+  const result = document.getElementById('submit-result');
+  btn.disabled = true;
+  btn.textContent = '전송 중…';
+
+  const data = Object.fromEntries(new FormData(e.target));
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    const json = await res.json();
+    if (json.success) {
+      result.style.display = 'block';
+      result.style.background = 'rgba(34,197,94,.12)';
+      result.style.color = '#22c55e';
+      result.style.border = '1px solid rgba(34,197,94,.25)';
+      result.textContent = '✅ 제보가 접수됐습니다. 감사합니다! 검토 후 추가할게요.';
+      e.target.reset();
+      btn.textContent = '제보 완료!';
+    } else {
+      throw new Error('전송 실패');
+    }
+  } catch {
+    result.style.display = 'block';
+    result.style.background = 'rgba(239,68,68,.12)';
+    result.style.color = '#ef4444';
+    result.style.border = '1px solid rgba(239,68,68,.25)';
+    result.textContent = '❌ 전송에 실패했습니다. vibers.leo@gmail.com 으로 직접 보내주세요.';
+    btn.disabled = false;
+    btn.textContent = '다시 시도';
+  }
+}
 </script>
+
+<!-- 제보 모달 -->
+<div id="submit-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);align-items:center;justify-content:center;padding:16px">
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;max-width:480px;width:100%;padding:32px;position:relative;max-height:90vh;overflow-y:auto">
+    <button onclick="closeSubmit()" style="position:absolute;top:16px;right:16px;background:var(--surface2);border:1px solid var(--border);color:var(--text2);border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center">×</button>
+    <h2 style="font-size:18px;font-weight:700;margin-bottom:6px">로고 제보하기</h2>
+    <p style="font-size:13px;color:var(--text3);margin-bottom:24px">없는 브랜드 로고를 알고 계신가요? 제보해 주시면 검토 후 추가합니다.</p>
+
+    <form id="submit-form" onsubmit="handleSubmit(event)">
+      <input type="hidden" name="access_key" value="REPLACE_WEB3FORMS_KEY">
+      <input type="hidden" name="subject" value="[로고창고] 로고 제보">
+      <input type="hidden" name="from_name" value="로고창고 제보 시스템">
+
+      <div style="margin-bottom:16px">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">브랜드명 <span style="color:#ef4444">*</span></label>
+        <input name="brand_name" required placeholder="예: 무신사, 당근마켓, 카카오페이" style="width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:var(--radius-sm);font-size:14px;outline:none" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+      </div>
+
+      <div style="margin-bottom:16px">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">카테고리</label>
+        <select name="category" style="width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:var(--radius-sm);font-size:14px;outline:none">
+          <option value="">선택 (선택사항)</option>
+          <option>전자/IT</option><option>자동차</option><option>엔터테인먼트</option>
+          <option>게임</option><option>금융/보험</option><option>식품/음료</option>
+          <option>유통/쇼핑</option><option>뷰티/패션</option><option>제약/의료</option>
+          <option>물류/교통</option><option>에너지/화학</option><option>건설/부동산</option>
+          <option>미디어/광고</option><option>통신</option><option>공공/기관</option>
+          <option>스타트업/핀테크</option><option>기타</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom:16px">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">SVG 또는 로고 URL</label>
+        <input name="logo_url" type="url" placeholder="https://... (Wikimedia, 공식 사이트 등)" style="width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:var(--radius-sm);font-size:14px;outline:none" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+      </div>
+
+      <div style="margin-bottom:24px">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text2)">추가 메모</label>
+        <textarea name="memo" rows="3" placeholder="공식 홈페이지, 위키피디아 링크 등 참고할 내용을 적어주세요" style="width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:var(--radius-sm);font-size:14px;outline:none;resize:vertical;font-family:inherit" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"></textarea>
+      </div>
+
+      <div id="submit-result" style="display:none;margin-bottom:16px;padding:12px 14px;border-radius:var(--radius-sm);font-size:13px"></div>
+
+      <button type="submit" id="submit-btn" style="width:100%;background:var(--accent);color:#fff;border:none;border-radius:var(--radius-sm);padding:12px;font-size:15px;font-weight:600;cursor:pointer;transition:opacity .15s">
+        제보 보내기
+      </button>
+    </form>
+  </div>
+</div>
 
 <footer style="margin-top:64px;padding:32px 24px;border-top:1px solid var(--border);text-align:center;color:var(--text3);font-size:12px;line-height:1.8">
   <p style="margin:0 0 8px">이 사이트의 로고 이미지는 각 브랜드 및 법인의 공식 SVG 소스(Wikimedia Commons, Simple Icons 등 공개 라이선스 저장소)에서 수집하여 형식 변환·최적화한 것입니다.</p>
   <p style="margin:0 0 8px">모든 상표(Trademark)·로고의 권리는 해당 브랜드 소유자에게 있습니다. 이 사이트는 해당 브랜드와 관련이 없습니다.</p>
   <p style="margin:0 0 4px">DMCA 또는 저작권 관련 문의: <a href="mailto:vibers.leo@gmail.com" style="color:var(--accent2);text-decoration:none">vibers.leo@gmail.com</a></p>
-  <p style="margin:0;opacity:.5">&copy; 2025–2026 Vibers · Korean Brand Logo Archive</p>
+  <p style="margin:8px 0 0">없는 브랜드가 있나요? <a href="#" onclick="openSubmit();return false" style="color:var(--accent2);text-decoration:none;font-weight:500">로고 제보하기 →</a></p>
+  <p style="margin:4px 0 0;opacity:.5">&copy; 2025–2026 Vibers · Korean Brand Logo Archive</p>
 </footer>
 </body>
 </html>

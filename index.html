@@ -513,9 +513,12 @@ function buildModalMid(b) {
             <div style="background:#fff;height:80px;display:flex;align-items:center;justify-content:center;padding:10px;cursor:pointer" onclick="pickSource('${b.id}','${fileUrl}','${s.label}',this.closest('.src-card'))">
               <img src="${fileUrl.replace(/\.svg$/,'.png')}" style="max-width:90%;max-height:60px;object-fit:contain" onerror="this.src='${fileUrl}';this.onerror=null">
             </div>
-            <div style="padding:5px 8px;display:flex;align-items:center;justify-content:space-between;gap:4px">
+            <div style="padding:5px 8px 4px;display:flex;align-items:center;justify-content:space-between;gap:4px">
               <span style="font-size:11px;color:${isMain ? 'var(--accent2)' : 'var(--text3)'};font-weight:${isMain ? '600' : '400'};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${isMain ? '★ ' : ''}${s.label}</span>
-              <a href="${fileUrl}" download="${b.id}-${s.file.split('/').pop()}" onclick="event.stopPropagation()" style="font-size:10px;color:var(--text3);text-decoration:none;flex-shrink:0">↓</a>
+              <div style="display:flex;gap:4px;flex-shrink:0">
+                ${!isPng ? `<a href="${fileUrl.replace(/\.svg$/,'.png')}" download="${b.id}-${s.file.replace(/\.svg$/,'.png').split('/').pop()}" onclick="event.stopPropagation()" style="font-size:9px;color:var(--text3);text-decoration:none;background:var(--border);border-radius:3px;padding:1px 4px">PNG</a>` : ''}
+                <a href="${fileUrl}" download="${b.id}-${s.file.split('/').pop()}" onclick="event.stopPropagation()" style="font-size:9px;color:var(--text3);text-decoration:none;background:var(--border);border-radius:3px;padding:1px 4px">${isPng ? 'PNG' : 'SVG'}</a>
+              </div>
             </div>
             <div style="padding:4px 8px 7px;display:flex;gap:5px">
               <button class="vote-btn vote-loading" data-brand="${b.id}" data-file="${sf}" onclick="castVote('${b.id}','${sf}',this)" style="flex:1;background:transparent;border:1px solid var(--border);border-radius:6px;padding:3px 0;font-size:11px;color:var(--text3);cursor:pointer;transition:all .15s" title="이 버전을 메인으로 추천">

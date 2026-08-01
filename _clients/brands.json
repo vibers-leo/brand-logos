@@ -1,5 +1,5 @@
 {
-  "total": 2713,
+  "total": 2718,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -63384,6 +63384,65 @@
         }
       ],
       "logo_quality": "ok"
+    },
+    {
+      "id": "daewoo-shipbuilding",
+      "name_ko": "대우조선해양",
+      "name_en": "Daewoo Shipbuilding & Marine Engineering",
+      "category": "조선/중공업",
+      "website": "hanwhaocean.com",
+      "domain": "hanwhaocean.com",
+      "logo_svg": "logo.svg",
+      "logo_quality": "high",
+      "svg_source": "wikimedia:Daewoo_Shipbuilding_Marine_Engineering_logo",
+      "note": "현재 한화오션으로 사명 변경"
+    },
+    {
+      "id": "samsung-heavy-industries",
+      "name_ko": "삼성중공업",
+      "name_en": "Samsung Heavy Industries",
+      "category": "조선/중공업",
+      "website": "shi.samsung.co.kr",
+      "domain": "shi.samsung.co.kr",
+      "logo_svg": "logo.svg",
+      "logo_quality": "high",
+      "svg_source": "wikimedia:Samsung_Heavy_Industries_logo_english"
+    },
+    {
+      "id": "hd-korea-shipbuilding",
+      "name_ko": "HD한국조선해양",
+      "name_en": "HD Korea Shipbuilding & Offshore Engineering",
+      "category": "조선/중공업",
+      "website": "hd-ksoe.com",
+      "domain": "hd-ksoe.com",
+      "logo_svg": "logo.svg",
+      "logo_quality": "medium",
+      "svg_source": "companieslogo:009540.KS",
+      "note": "심볼형 로고 (워드마크 SVG 미수집)"
+    },
+    {
+      "id": "hd-hyundai-heavy-industries",
+      "name_ko": "HD현대중공업",
+      "name_en": "HD Hyundai Heavy Industries",
+      "category": "조선/중공업",
+      "website": "hhi.co.kr",
+      "domain": "hhi.co.kr",
+      "logo_svg": "logo.svg",
+      "logo_quality": "high",
+      "svg_source": "wikimedia:HD_Hyundai_heavy_Industries_logo"
+    },
+    {
+      "id": "daehan-shipbuilding",
+      "name_ko": "대한조선",
+      "name_en": "Daehan Shipbuilding",
+      "category": "조선/중공업",
+      "website": "daehanship.com",
+      "domain": "daehanship.com",
+      "logo_svg": "logo.svg",
+      "logo_quality": "medium",
+      "svg_source": "official:daehanship.com",
+      "dark_variant": "white",
+      "note": "공식 사이트 흰색 로고 SVG"
     }
   ],
   "generated_at": "2026-07-27",

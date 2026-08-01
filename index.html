@@ -480,9 +480,14 @@ function buildModalMid(b) {
             <button class="btn-copy" onclick="copyUrl('${url}',this,'${b.id}','${vf}','${vn}')">URL 복사</button>
             <a class="btn-dl" href="${url}" download="${b.id}-${v.file}" target="_blank">다운로드</a>
           </div>
-          <button class="vote-btn vote-loading" data-brand="${b.id}" data-file="${vf}" onclick="castVote('${b.id}','${vf}',this)" style="width:100%;margin-top:6px;background:transparent;border:1px solid var(--border);border-radius:6px;padding:4px 0;font-size:11px;color:var(--text3);cursor:pointer;transition:all .15s" title="이 버전 추천">
-            <span class="vote-count">👍 —</span>
-          </button>
+          <div style="display:flex;gap:5px;margin-top:6px">
+            <button class="vote-btn vote-loading" data-brand="${b.id}" data-file="${vf}" onclick="castVote('${b.id}','${vf}',this)" style="flex:1;background:transparent;border:1px solid var(--border);border-radius:6px;padding:4px 0;font-size:11px;color:var(--text3);cursor:pointer;transition:all .15s" title="이 버전 추천">
+              <span class="vote-count">👍 —</span>
+            </button>
+            <button onclick="requestSwap('${b.id}','${vf}',this)" style="background:transparent;border:1px solid var(--border);border-radius:6px;padding:4px 8px;font-size:11px;color:var(--text3);cursor:pointer;transition:all .15s;flex-shrink:0" title="메인 로고로 교체 요청">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            </button>
+          </div>
         </div>
       </div>`;
   }).join('');

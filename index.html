@@ -67,6 +67,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI',
 .preview-light { background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px; }
 .preview-dark { background: #111114; display: flex; align-items: center; justify-content: center; padding: 16px 20px 16px 12px; }
 .preview-light img, .preview-dark img { max-width: 80px; max-height: 60px; object-fit: contain; }
+.preview-placeholder { display:flex; align-items:center; justify-content:center; width:100%; height:100%; font-size:22px; font-weight:700; color:#ccc; letter-spacing:-1px; }
+.preview-dark .preview-placeholder { color:#444; }
+.preview-light.low-q img { opacity:.55; filter:blur(0.5px); }
+.low-q-badge { position:absolute; top:5px; right:6px; font-size:8px; background:rgba(255,180,0,.18); color:#b8860b; border:1px solid rgba(255,180,0,.3); border-radius:3px; padding:1px 4px; line-height:1.5; }
 .preview-label { font-size: 9px; color: rgba(255,255,255,.25); position: absolute; bottom: 5px; left: 7px; letter-spacing: .3px; }
 .preview-light .preview-label { color: rgba(0,0,0,.2); }
 .preview-light, .preview-dark { position: relative; }
@@ -232,15 +236,36 @@ function renderCard(b) {
   const transparentUrl = `${CDN}/${b.id}/logo-transparent.png`;
   const whiteUrl = `${CDN}/${b.id}/logo-white.png`;
   const darkUrl = b.dark_variant === 'white' ? whiteUrl : transparentUrl;
+  const svgUrl = `${CDN}/${b.id}/logo.svg`;
+
+  const isVeryLow = b.logo_quality === 'very_low';
+  const isLow = b.logo_quality === 'low';
+
+  // 이니셜 생성 (한글은 첫 글자, 영문은 앞 2글자)
+  const initials = (() => {
+    const name = b.name_en || b.name_ko || b.id;
+    const words = name.split(/[\s\-_]/);
+    if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase();
+    return name.slice(0, 2).toUpperCase();
+  })();
+
+  const lightContent = isVeryLow
+    ? `<div class="preview-placeholder">${initials}</div>`
+    : `<img src="${b.logo_svg ? svgUrl : pngUrl}" alt="${b.name_ko}" loading="lazy" onerror="this.src='${pngUrl}'">`;
+  const darkContent = isVeryLow
+    ? `<div class="preview-placeholder">${initials}</div>`
+    : `<img src="${darkUrl}" alt="${b.name_ko}" loading="lazy" onerror="this.src='${b.logo_svg ? svgUrl : pngUrl}'">`;
+  const lowBadge = isLow ? `<span class="low-q-badge">저화질</span>` : '';
 
   el.innerHTML = `
     <div class="card-preview">
-      <div class="preview-light">
-        <img src="${pngUrl}" alt="${b.name_ko}" loading="lazy">
+      <div class="preview-light${isLow ? ' low-q' : ''}">
+        ${lightContent}
+        ${lowBadge}
         <span class="preview-label">라이트</span>
       </div>
       <div class="preview-dark">
-        <img src="${darkUrl}" alt="${b.name_ko}" loading="lazy" onerror="this.src='${pngUrl}'">
+        ${darkContent}
         <span class="preview-label">다크</span>
       </div>
     </div>

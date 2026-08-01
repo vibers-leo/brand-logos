@@ -1,43 +1,21 @@
-<svg fill="none" version="1.1" viewBox="0 0 52 52" width="52" height="52" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(-8.48)" clip-path="url(#a)">
-    <mask id="b" x="22" y="14" width="24" height="24" maskUnits="userSpaceOnUse">
-      <path d="m34 20.36c3.1152 0 5.6352 2.712 5.5152 5.8536-0.1128 2.988-2.6616 5.4264-5.652 5.4264h-3.9456c-0.264 0-0.48-0.216-0.48-0.48v-10.32c0-0.264 0.216-0.48 0.48-0.48h4.08m0.0024-6.36h-9.6c-0.7944 0-1.44 0.6456-1.44 1.44v21.12c0 0.7944 0.6456 1.44 1.44 1.44h9.6c6.6264 0 12-5.3736 12-12s-5.3736-12-12-12" fill="#fff"/>
-    </mask>
-    <g mask="url(#b)">
-      <rect x="22.96" y="14" width="23.04" height="24" fill="url(#c)"/>
-      <rect transform="rotate(180,46,38)" x="46" y="38" width="23.04" height="24" fill="url(#d)"/>
-      <rect x="22.96" y="14" width="23.04" height="24" fill="url(#e)"/>
-      <rect x="22.96" y="14" width="23.04" height="24" fill="url(#f)"/>
-      <rect x="22.96" y="14" width="23.04" height="24" fill="url(#g)"/>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="52"
+   height="52"
+   viewBox="0 0 52 52"
+   fill="none"
+   style="user-select: auto;"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     clip-path="url(#clip0_2046_4735)"
+     id="g1"
+     transform="translate(-10.48)">
+    <path
+       d="m 36,20.36 c 3.1152,0 5.6352,2.712 5.5152,5.8536 -0.1128,2.988 -2.6616,5.4264 -5.652,5.4264 h -3.9456 c -0.264,0 -0.48,-0.216 -0.48,-0.48 V 20.84 c 0,-0.264 0.216,-0.48 0.48,-0.48 h 4.08 M 36,14 h -9.6 c -0.7944,0 -1.44,0.6456 -1.44,1.44 v 21.12 c 0,0.7944 0.6456,1.44 1.44,1.44 H 36 C 42.6264,38 48,32.6264 48,26 48,19.3736 42.6264,14 36,14 Z"
+       fill="#273552"
+       id="path1" />
   </g>
-  <defs>
-    <radialGradient id="c" cx="0" cy="0" r="1" gradientTransform="matrix(18.48 20.52 -13.572 12.223 23.32 14.48)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1e84ff" offset="0"/>
-      <stop stop-color="#1e84ff" offset="1"/>
-    </radialGradient>
-    <radialGradient id="d" cx="0" cy="0" r="1" gradientTransform="matrix(0 32.76 -116.72 0 62.68 38)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f95f65" offset=".071064"/>
-      <stop stop-color="#f95f97" stop-opacity=".85" offset=".25534"/>
-      <stop stop-color="#e952be" stop-opacity=".3" offset=".48854"/>
-      <stop stop-color="#1e84ff" stop-opacity="0" offset=".64993"/>
-    </radialGradient>
-    <radialGradient id="e" cx="0" cy="0" r="1" gradientTransform="matrix(-8.64 9.12 -9.6829 -9.1733 43.12 17.96)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22bb64" offset="0"/>
-      <stop stop-color="#22bba4" stop-opacity=".5" offset=".59846"/>
-      <stop stop-color="#61baca" stop-opacity="0" offset="1"/>
-    </radialGradient>
-    <radialGradient id="f" cx="0" cy="0" r="1" gradientTransform="matrix(-11.52 -1.9199 2.3199 -13.92 46 27.92)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2fd800" offset="0"/>
-      <stop stop-color="#12eb1a" stop-opacity="0" offset="1"/>
-    </radialGradient>
-    <radialGradient id="g" cx="0" cy="0" r="1" gradientTransform="matrix(-7.56 -10.2 14.08 -10.436 41.32 35.72)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ffc622" offset="0"/>
-      <stop stop-color="#ffc622" stop-opacity=".6" offset=".52498"/>
-      <stop stop-color="#ffc622" stop-opacity="0" offset="1"/>
-    </radialGradient>
-    <clipPath id="a">
-      <rect transform="translate(22,14)" width="24" height="24" fill="#fff"/>
-    </clipPath>
-  </defs>
 </svg>

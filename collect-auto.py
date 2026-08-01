@@ -620,6 +620,366 @@ def collect_fa_sources(dry_run=False) -> int:
     return brands_updated + brands_added
 
 
+ICONIFY_API = "https://api.iconify.design"
+
+# Iconify logos 세트 variant suffix → sources label 매핑
+ICONIFY_VARIANT_LABELS = {
+    "-icon":      "아이콘형",
+    "-wordmark":  "워드마크형",
+    "-color":     "컬러 심볼",
+    "-dark":      "다크 버전",
+    "-light":     "라이트 버전",
+}
+
+def collect_iconify(dry_run=False):
+    """Iconify logos 세트 전체 수집 (신규 브랜드 추가 + 기존 sources 층위 추가)"""
+    data = load_brands_json()
+    existing_map = {b["id"]: b for b in data["brands"]}
+    added = 0
+    layered = 0
+
+    print("\n🎨 Iconify logos 세트 수집 중...")
+    # 1. 전체 아이콘 목록 로드
+    try:
+        req = urllib.request.Request(f"{ICONIFY_API}/collection?prefix=logos",
+                                     headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            meta = json.loads(r.read())
+    except Exception as e:
+        print(f"  ❌ 목록 로드 실패: {e}")
+        return
+
+    all_icons = list(meta.get("uncategorized", []))
+    for items in meta.get("categories", {}).values():
+        all_icons.extend(items)
+    all_icons = sorted(set(all_icons))
+    print(f"  총 {len(all_icons)}개 아이콘")
+
+    for slug in all_icons:
+        # variant 분리 (adobe-illustrator-icon → base=adobe-illustrator, variant=-icon)
+        variant_suffix = ""
+        base_id = slug
+        for sfx in ICONIFY_VARIANT_LABELS:
+            if slug.endswith(sfx):
+                base_id = slug[: -len(sfx)]
+                variant_suffix = sfx
+                break
+
+        label = ICONIFY_VARIANT_LABELS.get(variant_suffix, "컬러 심볼")
+        provider_key = f"iconify:{slug}"
+
+        if dry_run:
+            if base_id in existing_map:
+                providers = {s["provider"] for s in existing_map[base_id].get("sources", [])}
+                if provider_key not in providers:
+                    print(f"  [layer] {base_id} ← logos/{slug}")
+            else:
+                print(f"  [new]   {slug}")
+            continue
+
+        svg_url = f"{ICONIFY_API}/logos/{slug}.svg"
+        try:
+            req = urllib.request.Request(svg_url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                raw = r.read()
+            if b"<svg" not in raw[:300].lower():
+                continue
+        except Exception as e:
+            continue
+
+        dest = LOGO_DIR / base_id
+        dest.mkdir(parents=True, exist_ok=True)
+        icon_dir = dest / "sources" / "iconify"
+        icon_dir.mkdir(parents=True, exist_ok=True)
+        svg_file = icon_dir / f"{slug}.svg"
+        svg_file.write_bytes(raw)
+
+        if base_id in existing_map:
+            # 기존 브랜드 → sources 층위 추가
+            b = existing_map[base_id]
+            existing_providers = {s["provider"] for s in b.get("sources", [])}
+            if provider_key not in existing_providers:
+                b.setdefault("sources", []).append({
+                    "provider": provider_key,
+                    "file": f"sources/iconify/{slug}.svg",
+                    "label": label,
+                })
+                layered += 1
+                print(f"  ➕ [layer] {base_id} ← logos/{slug} ({label})")
+        else:
+            # 신규 브랜드 추가
+            # base slug의 기본 SVG 설정 (variant 없는 것 우선)
+            if not variant_suffix:
+                (dest / "logo.svg").write_bytes(raw)
+                # PNG 생성
+                try:
+                    import cairosvg
+                    cairosvg.svg2png(url=str(dest / "logo.svg"),
+                                     write_to=str(dest / "logo.png"),
+                                     output_width=400, output_height=400,
+                                     background_color="white")
+                    has_png = True
+                except Exception:
+                    has_png = False
+
+                brand_entry = {
+                    "id": base_id,
+                    "name_ko": base_id.replace("-", " ").title(),
+                    "name_en": base_id.replace("-", " ").title(),
+                    "category": "전자/IT",
+                    "domain": "",
+                    "logo_svg": True,
+                    "logo_png": has_png,
+                    "source": f"iconify:{slug}",
+                    "sources": [{
+                        "provider": provider_key,
+                        "file": f"sources/iconify/{slug}.svg",
+                        "label": label,
+                    }],
+                }
+                data["brands"].append(brand_entry)
+                existing_map[base_id] = brand_entry
+                added += 1
+                print(f"  ✅ [new]   {base_id}")
+
+        time.sleep(0.15)
+
+    if not dry_run:
+        save_brands_json(data)
+    print(f"\n📝 Iconify 완료: 신규 {added}개, 층위 추가 {layered}개")
+
+
+# ── Devicons ──────────────────────────────────────────────────────────
+DEVICONS_RAW = "https://raw.githubusercontent.com/devicons/devicon/master"
+
+def collect_devicons(dry_run=False):
+    """Devicons에서 테크 브랜드 SVG 수집 (신규 + sources 층위)"""
+    data = load_brands_json()
+    existing_map = {b["id"]: b for b in data["brands"]}
+    added = 0
+    layered = 0
+
+    print("\n⚙️  Devicons 수집 중...")
+    # devicon.json 메타데이터
+    try:
+        req = urllib.request.Request(f"{DEVICONS_RAW}/devicon.json",
+                                     headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            icons_meta = json.loads(r.read())
+    except Exception as e:
+        print(f"  ❌ devicon.json 로드 실패: {e}")
+        return
+
+    print(f"  총 {len(icons_meta)}개 아이콘")
+
+    for icon in icons_meta:
+        name = icon["name"]          # e.g. "react"
+        versions = icon.get("versions", {})
+        svg_versions = versions.get("svg", [])   # ["original", "plain", "colored"]
+
+        if not svg_versions:
+            continue
+
+        # 우선순위: colored > original > plain
+        preferred = next((v for v in ("colored", "original", "plain") if v in svg_versions), svg_versions[0])
+        slug = f"{name}-{preferred}"
+        provider_key = f"devicons:{slug}"
+
+        if dry_run:
+            if name in existing_map:
+                print(f"  [layer] {name} ← devicons/{slug}")
+            else:
+                print(f"  [new]   {name}")
+            continue
+
+        svg_url = f"{DEVICONS_RAW}/icons/{name}/{slug}.svg"
+        try:
+            req = urllib.request.Request(svg_url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                raw = r.read()
+            if b"<svg" not in raw[:300].lower():
+                continue
+        except Exception:
+            continue
+
+        dest = LOGO_DIR / name
+        dest.mkdir(parents=True, exist_ok=True)
+        icon_dir = dest / "sources" / "devicons"
+        icon_dir.mkdir(parents=True, exist_ok=True)
+        svg_file = icon_dir / f"{slug}.svg"
+        svg_file.write_bytes(raw)
+
+        if name in existing_map:
+            b = existing_map[name]
+            existing_providers = {s["provider"] for s in b.get("sources", [])}
+            if provider_key not in existing_providers:
+                b.setdefault("sources", []).append({
+                    "provider": provider_key,
+                    "file": f"sources/devicons/{slug}.svg",
+                    "label": "컬러 심볼",
+                })
+                layered += 1
+                print(f"  ➕ [layer] {name} ← {slug}")
+        else:
+            (dest / "logo.svg").write_bytes(raw)
+            try:
+                import cairosvg
+                cairosvg.svg2png(url=str(dest / "logo.svg"),
+                                 write_to=str(dest / "logo.png"),
+                                 output_width=400, output_height=400,
+                                 background_color="white")
+                has_png = True
+            except Exception:
+                has_png = False
+
+            tags = icon.get("tags", [])
+            brand_entry = {
+                "id": name,
+                "name_ko": name.title(),
+                "name_en": name.title(),
+                "category": "개발도구",
+                "domain": "",
+                "logo_svg": True,
+                "logo_png": has_png,
+                "source": f"devicons:{slug}",
+                "sources": [{
+                    "provider": provider_key,
+                    "file": f"sources/devicons/{slug}.svg",
+                    "label": "컬러 심볼",
+                }],
+            }
+            data["brands"].append(brand_entry)
+            existing_map[name] = brand_entry
+            added += 1
+            print(f"  ✅ [new]   {name}")
+
+        time.sleep(0.1)
+
+    if not dry_run:
+        save_brands_json(data)
+    print(f"\n📝 Devicons 완료: 신규 {added}개, 층위 추가 {layered}개")
+
+
+# ── WorldVectorLogo (gilbarbara/logos GitHub 레포) ─────────────────────
+WVL_RAW = "https://raw.githubusercontent.com/gilbarbara/logos/main/logos"
+WVL_API = "https://api.github.com/repos/gilbarbara/logos/contents/logos"
+
+def collect_worldvector(dry_run=False):
+    """gilbarbara/logos (WorldVectorLogo 원본 레포) SVG 수집 — logos.json 기반"""
+    data = load_brands_json()
+    existing_map = {b["id"]: b for b in data["brands"]}
+    added = 0
+    layered = 0
+
+    print("\n🌍 WorldVectorLogo (gilbarbara/logos) 수집 중...")
+    # logos.json으로 파일 목록 (GitHub API rate limit 없음)
+    try:
+        req = urllib.request.Request(
+            "https://raw.githubusercontent.com/gilbarbara/logos/main/logos.json",
+            headers={"User-Agent": UA},
+        )
+        with urllib.request.urlopen(req, timeout=20) as r:
+            logos_meta = json.loads(r.read())
+    except Exception as e:
+        print(f"  ❌ logos.json 로드 실패: {e}")
+        return
+
+    # shortname → files 매핑으로 전개
+    svg_entries = []  # (base_id, fname, name_en, url)
+    for entry in logos_meta:
+        base_id = entry["shortname"]
+        name_en = entry["name"]
+        for fname in entry.get("files", []):
+            if fname.endswith(".svg"):
+                svg_entries.append((base_id, fname, name_en))
+
+    print(f"  총 {len(svg_entries)}개 SVG (브랜드 {len(logos_meta)}개)")
+
+    for base_id, fname, name_en in svg_entries:
+        slug = fname[:-4]           # e.g. "react"
+        provider_key = f"wvl:{slug}"
+
+        # variant 처리 (active-campaign-icon.svg → base=active-campaign, label=아이콘형)
+        label = "컬러 심볼"
+        for sfx, lbl in [("-icon","아이콘형"), ("-wordmark","워드마크형"), ("-color","컬러 심볼")]:
+            if slug.endswith(sfx):
+                label = lbl
+                break
+
+        if dry_run:
+            if base_id in existing_map:
+                print(f"  [layer] {base_id} ← wvl/{slug}")
+            else:
+                print(f"  [new]   {base_id}")
+            continue
+
+        svg_url = f"{WVL_RAW}/{fname}"
+        try:
+            req = urllib.request.Request(svg_url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                raw = r.read()
+            if b"<svg" not in raw[:300].lower():
+                continue
+        except Exception:
+            continue
+
+        dest = LOGO_DIR / base_id
+        dest.mkdir(parents=True, exist_ok=True)
+        wvl_dir = dest / "sources" / "wvl"
+        wvl_dir.mkdir(parents=True, exist_ok=True)
+        (wvl_dir / fname).write_bytes(raw)
+
+        if base_id in existing_map:
+            b = existing_map[base_id]
+            existing_providers = {s["provider"] for s in b.get("sources", [])}
+            if provider_key not in existing_providers:
+                b.setdefault("sources", []).append({
+                    "provider": provider_key,
+                    "file": f"sources/wvl/{fname}",
+                    "label": label,
+                })
+                layered += 1
+                print(f"  ➕ [layer] {base_id} ← wvl/{slug}")
+        else:
+            if not any(slug.endswith(sfx) for sfx in ("-icon", "-wordmark", "-color")):
+                (dest / "logo.svg").write_bytes(raw)
+                try:
+                    import cairosvg
+                    cairosvg.svg2png(url=str(dest / "logo.svg"),
+                                     write_to=str(dest / "logo.png"),
+                                     output_width=400, output_height=400,
+                                     background_color="white")
+                    has_png = True
+                except Exception:
+                    has_png = False
+
+                brand_entry = {
+                    "id": base_id,
+                    "name_ko": name_en,
+                    "name_en": name_en,
+                    "category": "전자/IT",
+                    "domain": "",
+                    "logo_svg": True,
+                    "logo_png": has_png,
+                    "source": f"wvl:{slug}",
+                    "sources": [{
+                        "provider": provider_key,
+                        "file": f"sources/wvl/{fname}",
+                        "label": label,
+                    }],
+                }
+                data["brands"].append(brand_entry)
+                existing_map[base_id] = brand_entry
+                added += 1
+                print(f"  ✅ [new]   {base_id} ({name_en})")
+
+        time.sleep(0.1)
+
+    if not dry_run:
+        save_brands_json(data)
+    print(f"\n📝 WorldVectorLogo 완료: 신규 {added}개, 층위 추가 {layered}개")
+
+
 def add_existing_sources(dry_run=False):
     """기존 브랜드에 logo.dev/SI/FA sources 필드 소급 적용"""
     data = load_brands_json()
@@ -664,7 +1024,7 @@ def add_existing_sources(dry_run=False):
 
 def main():
     parser = argparse.ArgumentParser(description="한국 브랜드 SVG 자동 수집")
-    parser.add_argument("--source", choices=["wiki", "simple", "fa", "sources", "si-global", "all"], default="all")
+    parser.add_argument("--source", choices=["wiki", "simple", "fa", "sources", "si-global", "iconify", "devicons", "worldvector", "all"], default="all")
     parser.add_argument("--dry-run", action="store_true", help="다운로드 없이 목록만")
     parser.add_argument("--no-pipeline", action="store_true", help="파이프라인 실행 생략")
     parser.add_argument("--commit",  action="store_true", help="완료 후 git commit + push")
@@ -686,6 +1046,18 @@ def main():
 
     if args.source in ("fa", "all"):
         collect_fa_sources(dry_run=args.dry_run)
+
+    if args.source in ("iconify",):
+        collect_iconify(dry_run=args.dry_run)
+        return
+
+    if args.source in ("devicons",):
+        collect_devicons(dry_run=args.dry_run)
+        return
+
+    if args.source in ("worldvector",):
+        collect_worldvector(dry_run=args.dry_run)
+        return
 
     if args.source == "sources":
         add_existing_sources(dry_run=args.dry_run)

@@ -506,8 +506,13 @@ function buildModalMid(b) {
           const sf = s.file.replace(/'/g, "\\'");
           return `
           <div class="src-card" data-brand="${b.id}" data-file="${s.file}" style="background:var(--surface2);border:1px solid ${isMain ? 'var(--accent)' : 'var(--border)'};border-radius:var(--radius-sm);overflow:hidden">
-            <div style="background:${isPng ? '#fff' : '#f8f8f8'};height:72px;display:flex;align-items:center;justify-content:center;padding:10px;cursor:pointer" onclick="pickSource('${b.id}','${fileUrl}','${s.label}',this.closest('.src-card'))">
-              <img src="${fileUrl}" style="max-width:80px;max-height:52px;object-fit:contain" onerror="this.parentElement.innerHTML='<span style=font-size:10px;color:#999>없음</span>'">
+            <div style="display:grid;grid-template-columns:1fr 1fr;height:72px;cursor:pointer" onclick="pickSource('${b.id}','${fileUrl}','${s.label}',this.closest('.src-card'))">
+              <div style="background:#fff;display:flex;align-items:center;justify-content:center;padding:8px">
+                <img src="${fileUrl.replace(/\.svg$/,'.png')}" style="max-width:100%;max-height:52px;object-fit:contain" onerror="this.src='${fileUrl}'">
+              </div>
+              <div style="background:#111114;display:flex;align-items:center;justify-content:center;padding:8px">
+                <img src="${fileUrl.replace(/\.svg$/,'.png')}" style="max-width:100%;max-height:52px;object-fit:contain" onerror="this.src='${fileUrl}'">
+              </div>
             </div>
             <div style="padding:5px 8px;display:flex;align-items:center;justify-content:space-between;gap:4px">
               <span style="font-size:11px;color:${isMain ? 'var(--accent2)' : 'var(--text3)'};font-weight:${isMain ? '600' : '400'};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${isMain ? '★ ' : ''}${s.label}</span>

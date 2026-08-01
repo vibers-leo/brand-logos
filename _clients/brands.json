@@ -1,5 +1,5 @@
 {
-  "total": 937,
+  "total": 997,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -7490,7 +7490,14 @@
       "logo_svg": false,
       "source": "logo.dev:shopify.com",
       "status": "raw",
-      "dark_variant": "transparent"
+      "dark_variant": "transparent",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ]
     },
     {
       "id": "smartstore-naver",
@@ -8172,7 +8179,14 @@
       "logo_svg": false,
       "source": "logo.dev:youtube.com",
       "status": "raw",
-      "dark_variant": "transparent"
+      "dark_variant": "transparent",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ]
     },
     {
       "id": "lezhin",
@@ -8568,7 +8582,14 @@
       "logo_svg": false,
       "source": "logo.dev:slack.com",
       "status": "raw",
-      "dark_variant": "transparent"
+      "dark_variant": "transparent",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ]
     },
     {
       "id": "figma",
@@ -8579,7 +8600,14 @@
       "logo_svg": false,
       "source": "logo.dev:figma.com",
       "status": "raw",
-      "dark_variant": "transparent"
+      "dark_variant": "transparent",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ]
     },
     {
       "id": "github",
@@ -8590,7 +8618,14 @@
       "logo_svg": false,
       "source": "logo.dev:github.com",
       "status": "raw",
-      "dark_variant": "white"
+      "dark_variant": "white",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ]
     },
     {
       "id": "atlassian",
@@ -10229,7 +10264,14 @@
       "logo_svg": false,
       "source": "logo.dev:apple.com",
       "status": "raw",
-      "dark_variant": "white"
+      "dark_variant": "white",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ]
     },
     {
       "id": "google-co",
@@ -10362,6 +10404,1086 @@
       "source": "wikimedia:Kmu logo.svg",
       "status": "raw",
       "dark_variant": "transparent"
+    },
+    {
+      "id": "facebook",
+      "name_ko": "Facebook",
+      "name_en": "Facebook",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:facebook",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "instagram",
+      "name_ko": "Instagram",
+      "name_en": "Instagram",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:instagram",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "tiktok",
+      "name_ko": "TikTok",
+      "name_en": "TikTok",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:tiktok",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "x-twitter",
+      "name_ko": "X (Twitter)",
+      "name_en": "X (Twitter)",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:x-twitter",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "twitter",
+      "name_ko": "Twitter",
+      "name_en": "Twitter",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:twitter",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "linkedin",
+      "name_ko": "LinkedIn",
+      "name_en": "LinkedIn",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:linkedin",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "pinterest",
+      "name_ko": "Pinterest",
+      "name_en": "Pinterest",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:pinterest",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "reddit",
+      "name_ko": "Reddit",
+      "name_en": "Reddit",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:reddit",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "discord",
+      "name_ko": "Discord",
+      "name_en": "Discord",
+      "category": "커뮤니티",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:discord",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "threads",
+      "name_ko": "Threads",
+      "name_en": "Threads",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:threads",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "bluesky",
+      "name_ko": "Bluesky",
+      "name_en": "Bluesky",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:bluesky",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "mastodon",
+      "name_ko": "Mastodon",
+      "name_en": "Mastodon",
+      "category": "소셜미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:mastodon",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "google",
+      "name_ko": "Google",
+      "name_en": "Google",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:google",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "microsoft",
+      "name_ko": "Microsoft",
+      "name_en": "Microsoft",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:microsoft",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "amazon",
+      "name_ko": "Amazon",
+      "name_en": "Amazon",
+      "category": "이커머스",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:amazon",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "meta",
+      "name_ko": "Meta",
+      "name_en": "Meta",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:meta",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "aws",
+      "name_ko": "Amazon Web Services",
+      "name_en": "Amazon Web Services",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:aws",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "cloudflare",
+      "name_ko": "Cloudflare",
+      "name_en": "Cloudflare",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:cloudflare",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "docker",
+      "name_ko": "Docker",
+      "name_en": "Docker",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:docker",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "gitlab",
+      "name_ko": "GitLab",
+      "name_en": "GitLab",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:gitlab",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "dropbox",
+      "name_ko": "Dropbox",
+      "name_en": "Dropbox",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:dropbox",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "chrome",
+      "name_ko": "Google Chrome",
+      "name_en": "Google Chrome",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:chrome",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "firefox",
+      "name_ko": "Firefox",
+      "name_en": "Firefox",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:firefox",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "safari",
+      "name_ko": "Safari",
+      "name_en": "Safari",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:safari",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "edge",
+      "name_ko": "Microsoft Edge",
+      "name_en": "Microsoft Edge",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:edge",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "android",
+      "name_ko": "Android",
+      "name_en": "Android",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:android",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "windows",
+      "name_ko": "Windows",
+      "name_en": "Windows",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:windows",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "linux",
+      "name_ko": "Linux",
+      "name_en": "Linux",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:linux",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "steam",
+      "name_ko": "Steam",
+      "name_en": "Steam",
+      "category": "게임",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:steam",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "playstation",
+      "name_ko": "PlayStation",
+      "name_en": "PlayStation",
+      "category": "게임",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:playstation",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "xbox",
+      "name_ko": "Xbox",
+      "name_en": "Xbox",
+      "category": "게임",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:xbox",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "twitch",
+      "name_ko": "Twitch",
+      "name_en": "Twitch",
+      "category": "게임",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:twitch",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "battle-net",
+      "name_ko": "Battle.net",
+      "name_en": "Battle.net",
+      "category": "게임",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:battle-net",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "spotify",
+      "name_ko": "Spotify",
+      "name_en": "Spotify",
+      "category": "미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:spotify",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "soundcloud",
+      "name_ko": "SoundCloud",
+      "name_en": "SoundCloud",
+      "category": "미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:soundcloud",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "vimeo",
+      "name_ko": "Vimeo",
+      "name_en": "Vimeo",
+      "category": "미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:vimeo",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "bilibili",
+      "name_ko": "Bilibili",
+      "name_en": "Bilibili",
+      "category": "미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:bilibili",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "visa",
+      "name_ko": "Visa",
+      "name_en": "Visa",
+      "category": "금융/보험",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:cc-visa",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "mastercard",
+      "name_ko": "Mastercard",
+      "name_en": "Mastercard",
+      "category": "금융/보험",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:cc-mastercard",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "amex",
+      "name_ko": "American Express",
+      "name_en": "American Express",
+      "category": "금융/보험",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:cc-amex",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "jcb",
+      "name_ko": "JCB",
+      "name_en": "JCB",
+      "category": "금융/보험",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:cc-jcb",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "paypal",
+      "name_ko": "PayPal",
+      "name_en": "PayPal",
+      "category": "핀테크",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:paypal",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "stripe",
+      "name_ko": "Stripe",
+      "name_en": "Stripe",
+      "category": "핀테크",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:cc-stripe",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "apple-pay",
+      "name_ko": "Apple Pay",
+      "name_en": "Apple Pay",
+      "category": "핀테크",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:cc-apple-pay",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "google-pay",
+      "name_ko": "Google Pay",
+      "name_en": "Google Pay",
+      "category": "핀테크",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:google-pay",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "amazon-pay",
+      "name_ko": "Amazon Pay",
+      "name_en": "Amazon Pay",
+      "category": "핀테크",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:amazon-pay",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "node",
+      "name_ko": "Node.js",
+      "name_en": "Node.js",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:node",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "react",
+      "name_ko": "React",
+      "name_en": "React",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:react",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "vuejs",
+      "name_ko": "Vue.js",
+      "name_en": "Vue.js",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:vuejs",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "angular",
+      "name_ko": "Angular",
+      "name_en": "Angular",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:angular",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "bootstrap",
+      "name_ko": "Bootstrap",
+      "name_en": "Bootstrap",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:bootstrap",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "google-play",
+      "name_ko": "Google Play",
+      "name_en": "Google Play",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:google-play",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "app-store-ios",
+      "name_ko": "App Store",
+      "name_en": "App Store",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:app-store-ios",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "ebay",
+      "name_ko": "eBay",
+      "name_en": "eBay",
+      "category": "이커머스",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:ebay",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "etsy",
+      "name_ko": "Etsy",
+      "name_en": "Etsy",
+      "category": "이커머스",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:etsy",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "airbnb",
+      "name_ko": "Airbnb",
+      "name_en": "Airbnb",
+      "category": "숙박/여행",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:airbnb",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "wordpress",
+      "name_ko": "WordPress",
+      "name_en": "WordPress",
+      "category": "전자/IT",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:wordpress",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "bitcoin",
+      "name_ko": "Bitcoin",
+      "name_en": "Bitcoin",
+      "category": "핀테크",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:bitcoin",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "behance",
+      "name_ko": "Behance",
+      "name_en": "Behance",
+      "category": "미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:behance",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
+    },
+    {
+      "id": "artstation",
+      "name_ko": "ArtStation",
+      "name_en": "ArtStation",
+      "category": "미디어",
+      "domain": "",
+      "logo_svg": true,
+      "source": "font-awesome:artstation",
+      "status": "raw",
+      "sources": [
+        {
+          "provider": "font-awesome",
+          "file": "sources/fa.svg",
+          "label": "아이콘형"
+        }
+      ],
+      "dark_variant": "white"
     }
   ],
   "generated_at": "2026-07-27",

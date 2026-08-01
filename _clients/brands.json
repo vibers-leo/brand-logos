@@ -1,5 +1,5 @@
 {
-  "total": 2681,
+  "total": 2713,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -62786,6 +62786,583 @@
           "label": "컬러 심볼"
         }
       ]
+    },
+    {
+      "id": "hikr-ground",
+      "name_ko": "HiKR Ground",
+      "name_en": "HiKR Ground",
+      "category": "관광/문화",
+      "domain": "hikrground.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "wikimedia:HiKR_Ground_logo.png",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "file": "logo.png",
+          "label": "공식 PNG"
+        }
+      ],
+      "logo_quality": "ok",
+      "logo_quality_score": 300
+    },
+    {
+      "id": "groq",
+      "name_ko": "Groq",
+      "name_en": "Groq",
+      "category": "AI/LLM",
+      "domain": "groq.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:groq.com",
+      "sources": [
+        {
+          "provider": "logo.dev:groq.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "cohere",
+      "name_ko": "Cohere",
+      "name_en": "Cohere",
+      "category": "AI/LLM",
+      "domain": "cohere.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:cohere.com",
+      "sources": [
+        {
+          "provider": "logo.dev:cohere.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "runway",
+      "name_ko": "Runway",
+      "name_en": "Runway",
+      "category": "AI/영상",
+      "domain": "runwayml.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:runwayml.com",
+      "sources": [
+        {
+          "provider": "logo.dev:runwayml.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "elevenlabs",
+      "name_ko": "ElevenLabs",
+      "name_en": "ElevenLabs",
+      "category": "AI/음성",
+      "domain": "elevenlabs.io",
+      "logo_svg": true,
+      "logo_png": true,
+      "source": "simpleicons:elevenlabs",
+      "sources": [
+        {
+          "provider": "simpleicons:elevenlabs",
+          "file": "sources/si.svg",
+          "label": "컬러 심볼"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "heygen",
+      "name_ko": "HeyGen",
+      "name_en": "HeyGen",
+      "category": "AI/영상",
+      "domain": "heygen.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:heygen.com",
+      "sources": [
+        {
+          "provider": "logo.dev:heygen.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "ollama",
+      "name_ko": "Ollama",
+      "name_en": "Ollama",
+      "category": "AI/LLM",
+      "domain": "ollama.com",
+      "logo_svg": true,
+      "logo_png": true,
+      "source": "simpleicons:ollama",
+      "sources": [
+        {
+          "provider": "simpleicons:ollama",
+          "file": "sources/si.svg",
+          "label": "컬러 심볼"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "replicate",
+      "name_ko": "Replicate",
+      "name_en": "Replicate",
+      "category": "AI/플랫폼",
+      "domain": "replicate.com",
+      "logo_svg": true,
+      "logo_png": true,
+      "source": "simpleicons:replicate",
+      "sources": [
+        {
+          "provider": "simpleicons:replicate",
+          "file": "sources/si.svg",
+          "label": "컬러 심볼"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "together-ai",
+      "name_ko": "Together AI",
+      "name_en": "Together AI",
+      "category": "AI/LLM",
+      "domain": "together.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:together.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:together.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "fireworks-ai",
+      "name_ko": "Fireworks AI",
+      "name_en": "Fireworks AI",
+      "category": "AI/LLM",
+      "domain": "fireworks.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:fireworks.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:fireworks.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "deepmind",
+      "name_ko": "Google DeepMind",
+      "name_en": "Google DeepMind",
+      "category": "AI/연구",
+      "domain": "deepmind.google",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:deepmind.google",
+      "sources": [
+        {
+          "provider": "logo.dev:deepmind.google",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "meta-ai",
+      "name_ko": "Meta AI",
+      "name_en": "Meta AI",
+      "category": "AI/LLM",
+      "domain": "meta.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:meta.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:meta.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "xai",
+      "name_ko": "xAI",
+      "name_en": "xAI",
+      "category": "AI/LLM",
+      "domain": "x.ai",
+      "logo_svg": true,
+      "logo_png": true,
+      "source": "iconify:logos:x-ai",
+      "sources": [
+        {
+          "provider": "iconify:logos:x-ai",
+          "file": "sources/iconify_x-ai.svg",
+          "label": "컬러 심볼"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "windsurf",
+      "name_ko": "Windsurf",
+      "name_en": "Windsurf",
+      "category": "AI/코딩",
+      "domain": "codeium.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:codeium.com",
+      "sources": [
+        {
+          "provider": "logo.dev:codeium.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "tabnine",
+      "name_ko": "Tabnine",
+      "name_en": "Tabnine",
+      "category": "AI/코딩",
+      "domain": "tabnine.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:tabnine.com",
+      "sources": [
+        {
+          "provider": "logo.dev:tabnine.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "codeium",
+      "name_ko": "Codeium",
+      "name_en": "Codeium",
+      "category": "AI/코딩",
+      "domain": "codeium.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:codeium.com",
+      "sources": [
+        {
+          "provider": "logo.dev:codeium.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "notion-ai",
+      "name_ko": "Notion AI",
+      "name_en": "Notion AI",
+      "category": "AI/생산성",
+      "domain": "notion.so",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:notion.so",
+      "sources": [
+        {
+          "provider": "logo.dev:notion.so",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "jasper",
+      "name_ko": "Jasper",
+      "name_en": "Jasper",
+      "category": "AI/텍스트",
+      "domain": "jasper.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:jasper.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:jasper.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "copy-ai",
+      "name_ko": "Copy.ai",
+      "name_en": "Copy.ai",
+      "category": "AI/텍스트",
+      "domain": "copy.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:copy.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:copy.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "synthesia",
+      "name_ko": "Synthesia",
+      "name_en": "Synthesia",
+      "category": "AI/영상",
+      "domain": "synthesia.io",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:synthesia.io",
+      "sources": [
+        {
+          "provider": "logo.dev:synthesia.io",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "kling",
+      "name_ko": "Kling AI",
+      "name_en": "Kling AI",
+      "category": "AI/영상",
+      "domain": "klingai.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:klingai.com",
+      "sources": [
+        {
+          "provider": "logo.dev:klingai.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "veo",
+      "name_ko": "Veo",
+      "name_en": "Veo",
+      "category": "AI/영상",
+      "domain": "deepmind.google",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:deepmind.google",
+      "sources": [
+        {
+          "provider": "logo.dev:deepmind.google",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "suno",
+      "name_ko": "Suno",
+      "name_en": "Suno",
+      "category": "AI/음악",
+      "domain": "suno.com",
+      "logo_svg": true,
+      "logo_png": true,
+      "source": "simpleicons:suno",
+      "sources": [
+        {
+          "provider": "simpleicons:suno",
+          "file": "sources/si.svg",
+          "label": "컬러 심볼"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "luma-ai",
+      "name_ko": "Luma AI",
+      "name_en": "Luma AI",
+      "category": "AI/영상",
+      "domain": "lumalabs.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:lumalabs.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:lumalabs.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "pika-labs",
+      "name_ko": "Pika",
+      "name_en": "Pika",
+      "category": "AI/영상",
+      "domain": "pika.art",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:pika.art",
+      "sources": [
+        {
+          "provider": "logo.dev:pika.art",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "leonardoai",
+      "name_ko": "Leonardo AI",
+      "name_en": "Leonardo AI",
+      "category": "AI/이미지",
+      "domain": "leonardo.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:leonardo.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:leonardo.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "adobe-firefly",
+      "name_ko": "Adobe Firefly",
+      "name_en": "Adobe Firefly",
+      "category": "AI/이미지",
+      "domain": "adobe.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:adobe.com",
+      "sources": [
+        {
+          "provider": "logo.dev:adobe.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "dall-e",
+      "name_ko": "DALL·E",
+      "name_en": "DALL-E",
+      "category": "AI/이미지",
+      "domain": "openai.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:openai.com",
+      "sources": [
+        {
+          "provider": "logo.dev:openai.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "stable-diffusion",
+      "name_ko": "Stable Diffusion",
+      "name_en": "Stable Diffusion",
+      "category": "AI/이미지",
+      "domain": "stability.ai",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:stability.ai",
+      "sources": [
+        {
+          "provider": "logo.dev:stability.ai",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "civitai",
+      "name_ko": "Civitai",
+      "name_en": "Civitai",
+      "category": "AI/이미지",
+      "domain": "civitai.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:civitai.com",
+      "sources": [
+        {
+          "provider": "logo.dev:civitai.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "pika",
+      "name_ko": "Pika",
+      "name_en": "Pika",
+      "category": "AI/영상",
+      "domain": "pika.art",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:pika.art",
+      "sources": [
+        {
+          "provider": "logo.dev:pika.art",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
+    },
+    {
+      "id": "sora",
+      "name_ko": "Sora",
+      "name_en": "Sora",
+      "category": "AI/영상",
+      "domain": "openai.com",
+      "logo_svg": false,
+      "logo_png": true,
+      "source": "logo.dev:openai.com",
+      "sources": [
+        {
+          "provider": "logo.dev:openai.com",
+          "file": "logo.png",
+          "label": "실물형"
+        }
+      ],
+      "logo_quality": "ok"
     }
   ],
   "generated_at": "2026-07-27",

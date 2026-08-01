@@ -466,6 +466,8 @@ function buildModalMid(b) {
   const variantsHtml = VARIANTS.map(v => {
     const url = `${CDN}/${b.id}/${v.file}`;
     if (v.file.endsWith('.svg') && !b.logo_svg) return '';
+    const vf = v.file.replace(/'/g,"\\'");
+    const vn = v.name.replace(/'/g,"\\'");
     return `
       <div class="variant-card">
         <div class="variant-preview ${v.bg}">
@@ -475,9 +477,12 @@ function buildModalMid(b) {
           <div class="variant-name">${v.name}</div>
           <div class="variant-desc">${v.desc}</div>
           <div class="variant-actions">
-            <button class="btn-copy" onclick="copyUrl('${url}',this)">URL 복사</button>
+            <button class="btn-copy" onclick="copyUrl('${url}',this,'${b.id}','${vf}','${vn}')">URL 복사</button>
             <a class="btn-dl" href="${url}" download="${b.id}-${v.file}" target="_blank">다운로드</a>
           </div>
+          <button class="vote-btn vote-loading" data-brand="${b.id}" data-file="${vf}" onclick="castVote('${b.id}','${vf}',this)" style="width:100%;margin-top:6px;background:transparent;border:1px solid var(--border);border-radius:6px;padding:4px 0;font-size:11px;color:var(--text3);cursor:pointer;transition:all .15s" title="이 버전 추천">
+            <span class="vote-count">👍 —</span>
+          </button>
         </div>
       </div>`;
   }).join('');
@@ -646,7 +651,8 @@ function renderShareFeed(brandId, recent) {
     const time = `<span style="color:var(--text3);font-size:9px;margin-left:3px">${_relTime(s.ts)}</span>`;
     if (s.type === 'vote') return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">"<span style="color:var(--accent2)">${s.label||s.file}</span>" 추천 👍</span>${time}</div>`;
     if (s.type === 'swap') return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">"<span style="color:#f59e0b">${s.label||s.file}</span>" 교체 요청 🔄</span>${time}</div>`;
-    return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">퍼가기 🔗</span>${time}</div>`;
+    if (s.type === 'copy') return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">"<span style="color:var(--green)">${s.label||s.file}</span>" URL 복사 🔗</span>${time}</div>`;
+    return `<div style="display:flex;align-items:center;gap:4px;padding:3px 0;border-bottom:1px solid var(--border)">${s.emoji} <span style="font-size:10px;color:var(--text2);flex:1">퍼가기 🎉</span>${time}</div>`;
   }).join('');
   const shareCount = recent.filter(s => !s.type || s.type === 'share').length;
   el.innerHTML = `
@@ -725,11 +731,12 @@ window.addEventListener('popstate', () => {
   if (!location.hash) closeModal();
 });
 
-function copyUrl(url, btn) {
+function copyUrl(url, btn, brandId, file, name) {
   navigator.clipboard.writeText(url).then(() => {
     btn.textContent = '복사됨!';
     btn.classList.add('copied');
     setTimeout(() => { btn.textContent = 'URL 복사'; btn.classList.remove('copied'); }, 1500);
+    if (brandId) _appendFeedActivity(brandId, { type: 'copy', emoji: _myEmoji(), ts: Date.now(), file: file||url, label: name||file });
   });
 }
 
@@ -759,16 +766,12 @@ async function loadVotes(brandId) {
   if (!_fb) return;
   try {
     const snap = await _fb.getDoc(_fb.doc(_fb.db, 'logo_votes', brandId));
-    if (!snap.exists()) return;
-    const data = snap.data();
-    const votes = data.votes || {};
-    const swapTarget = data.swap_pending ? data.swap_target : null;
-
-    const container = document.getElementById(`votes-${brandId}`);
-    if (!container) return;
-
+    const votes = snap.exists() ? (snap.data().votes || {}) : {};
+    const swapTarget = snap.exists() && snap.data().swap_pending ? snap.data().swap_target : null;
     const voted = JSON.parse(localStorage.getItem(_voteKey(brandId)) || '[]');
-    container.querySelectorAll('.vote-btn').forEach(btn => {
+
+    // 모달 내 모든 vote-btn (variants + sources 통합)
+    document.querySelectorAll(`.vote-btn[data-brand="${brandId}"]`).forEach(btn => {
       const file = btn.dataset.file;
       const count = votes[file] || 0;
       btn.querySelector('.vote-count').textContent = `👍 ${count}`;
@@ -780,7 +783,8 @@ async function loadVotes(brandId) {
     });
 
     if (swapTarget) {
-      container.querySelectorAll('.src-card').forEach(card => {
+      const container = document.getElementById(`votes-${brandId}`);
+      if (container) container.querySelectorAll('.src-card').forEach(card => {
         if (card.dataset.file === swapTarget) {
           card.style.outline = '2px solid #f59e0b';
           card.style.outlineOffset = '2px';

@@ -275,7 +275,7 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
-const CURRENT_VERSION = '1785582380';
+const CURRENT_VERSION = '1785585956';
 function cdnUrl(id, file) { return `${CDN}/${id}/${file}?v=${CURRENT_VERSION}`; }
 
 (async () => {
@@ -800,7 +800,14 @@ async function loadVotes(brandId) {
   if (!_fb) return;
   try {
     const snap = await _fb.getDoc(_fb.doc(_fb.db, 'logo_votes', brandId));
-    const votes = snap.exists() ? (snap.data().votes || {}) : {};
+    const rawVotes = snap.exists() ? (snap.data().votes || {}) : {};
+    // 중첩 객체 폴백: {logo:{png:1}} → {logo_png:1}
+    const votes = {};
+    for (const [k, v] of Object.entries(rawVotes)) {
+      if (v && typeof v === 'object') {
+        for (const [sk, sv] of Object.entries(v)) { if (typeof sv === 'number') votes[`${k}_${sk}`] = sv; }
+      } else { votes[k] = v; }
+    }
     const swapTarget = snap.exists() && snap.data().swap_pending ? snap.data().swap_target : null;
     const voted = JSON.parse(localStorage.getItem(_voteKey(brandId)) || '[]');
 

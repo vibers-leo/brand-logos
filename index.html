@@ -74,8 +74,18 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI',
 .card-name { font-size: 13px; font-weight: 600; color: var(--text); }
 .card-category { font-size: 11px; color: var(--text3); margin-top: 2px; }
 .card-tag { font-size: 10px; padding: 2px 7px; border-radius: 4px; }
-.tag-svg { background: rgba(99,102,241,.15); color: var(--accent2); }
-.tag-png { background: rgba(34,197,94,.1); color: var(--green); }
+.tag-svg  { background: rgba(99,102,241,.15); color: var(--accent2); }
+.tag-png  { background: rgba(34,197,94,.1);  color: var(--green); }
+.tag-icon { background: rgba(251,191,36,.12); color: #f59e0b; }
+.tag-ai   { background: rgba(239,68,68,.1);  color: #f87171; }
+.card-tags { display:flex; gap:4px; flex-wrap:wrap; }
+.avail-row { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:16px; }
+.avail-badge { display:inline-flex; align-items:center; gap:4px; padding:4px 10px; border-radius:20px; font-size:11px; font-weight:600; }
+.avail-yes { background:rgba(34,197,94,.12); color:#22c55e; border:1px solid rgba(34,197,94,.2); }
+.avail-no  { background:var(--surface2); color:var(--text3); border:1px solid var(--border); }
+.share-btn { display:inline-flex; align-items:center; gap:5px; padding:6px 12px; background:var(--surface2); border:1px solid var(--border); color:var(--text2); border-radius:8px; font-size:12px; font-weight:500; cursor:pointer; transition:all .15s; }
+.share-btn:hover { border-color:var(--accent); color:var(--accent2); }
+.share-btn.copied { border-color:var(--green); color:var(--green); }
 
 /* Expanded panel */
 .expanded-panel { display: none; padding: 24px; border-top: 1px solid var(--border); background: var(--surface2); }
@@ -158,9 +168,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI',
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
     <input type="text" id="search" placeholder="브랜드명 검색 (현대, Samsung, …)">
   </div>
-  <div class="filters">
+  <div class="filters" id="cat-filters">
     <span class="filter-label">카테고리</span>
     <button class="chip active" data-cat="">전체</button>
+  </div>
+  <div class="filters">
+    <span class="filter-label">형식</span>
+    <button class="chip active" data-fmt="" onclick="setFmt(this)">전체</button>
+    <button class="chip" data-fmt="svg"  onclick="setFmt(this)">SVG 있음</button>
+    <button class="chip" data-fmt="icon" onclick="setFmt(this)">아이콘형</button>
+    <button class="chip" data-fmt="original" onclick="setFmt(this)">원본 파일</button>
   </div>
   <div class="result-count" id="result-count"></div>
 </div>
@@ -187,6 +204,24 @@ const VARIANTS = [
 
 let allBrands = [];
 let expandedId = null;
+let activeFmt = '';
+
+function setFmt(btn) {
+  document.querySelectorAll('[data-fmt]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  activeFmt = btn.dataset.fmt;
+  renderGrid(filterBrands());
+}
+
+function getCardTags(b) {
+  const tags = [];
+  if (b.logo_svg) tags.push('<span class="card-tag tag-svg">SVG</span>');
+  else            tags.push('<span class="card-tag tag-png">PNG</span>');
+  const hasIcon = b.sources && b.sources.some(s => s.provider === 'font-awesome');
+  if (hasIcon) tags.push('<span class="card-tag tag-icon">아이콘</span>');
+  if (b.original_url || b.bucket_url) tags.push('<span class="card-tag tag-ai">원본</span>');
+  return `<div class="card-tags">${tags.join('')}</div>`;
+}
 
 function renderCard(b) {
   const el = document.createElement('div');
@@ -196,13 +231,7 @@ function renderCard(b) {
   const pngUrl = `${CDN}/${b.id}/logo.png`;
   const transparentUrl = `${CDN}/${b.id}/logo-transparent.png`;
   const whiteUrl = `${CDN}/${b.id}/logo-white.png`;
-  // dark_variant: 채도 분석으로 결정된 다크 배경 최적 버전
   const darkUrl = b.dark_variant === 'white' ? whiteUrl : transparentUrl;
-  // 인트로: 가장 잘 보이는 버전 (다크 배경에 최적)
-  const introUrl = darkUrl;
-  const tagHtml = b.logo_svg
-    ? '<span class="card-tag tag-svg">SVG</span>'
-    : '<span class="card-tag tag-png">PNG</span>';
 
   el.innerHTML = `
     <div class="card-preview">
@@ -220,13 +249,13 @@ function renderCard(b) {
         <div class="card-name">${b.name_ko}</div>
         <div class="card-category">${b.category || ''}</div>
       </div>
-      ${tagHtml}
+      ${getCardTags(b)}
     </div>
     <div class="expanded-panel" id="panel-${b.id}"></div>
   `;
 
   el.addEventListener('click', (e) => {
-    if (e.target.closest('.btn-copy, .btn-dl, .close-btn')) return;
+    if (e.target.closest('.btn-copy, .btn-dl, .close-btn, .share-btn')) return;
     toggleExpand(b, el);
   });
 
@@ -265,6 +294,28 @@ function buildPanel(b) {
       </div>`;
   }).join('');
 
+  // 포맷 가용성 배지
+  const hasSvg = b.logo_svg;
+  const hasPng = true; // logo.png 항상 존재
+  const hasIcon = b.sources && b.sources.some(s => s.provider === 'font-awesome');
+  const hasOriginal = !!(b.original_url || b.bucket_url);
+  const availHtml = `
+    <div class="avail-row">
+      <span class="avail-badge ${hasSvg ? 'avail-yes' : 'avail-no'}">
+        ${hasSvg ? '✓' : '✗'} SVG 벡터
+      </span>
+      <span class="avail-badge avail-yes">✓ PNG</span>
+      <span class="avail-badge ${hasIcon ? 'avail-yes' : 'avail-no'}">
+        ${hasIcon ? '✓' : '✗'} 아이콘형
+      </span>
+      <span class="avail-badge ${hasOriginal ? 'avail-yes' : 'avail-no'}">
+        ${hasOriginal ? '✓' : '✗'} 원본 파일
+      </span>
+    </div>
+  `;
+
+  const permalinkUrl = `${location.origin}${location.pathname}#${b.id}`;
+
   panel.innerHTML = `
     <div class="expanded-header">
       <div class="intro-split">
@@ -275,11 +326,20 @@ function buildPanel(b) {
           <img src="${introUrl}" alt="${b.name_ko}" onerror="this.src='${pngUrl}'">
         </div>
       </div>
-      <div class="expanded-title">
-        <h2>${b.name_ko}</h2>
-        <p>${b.name_en || ''} · ${b.category || ''}${b.domain ? ' · <a href="https://'+b.domain+'" target="_blank" style="color:var(--accent2);text-decoration:none">'+b.domain+'</a>' : ''}</p>
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <div class="expanded-title">
+          <h2>${b.name_ko}</h2>
+          <p>${b.name_en || ''} · ${b.category || ''}${b.domain ? ' · <a href="https://'+b.domain+'" target="_blank" style="color:var(--accent2);text-decoration:none">'+b.domain+'</a>' : ''}</p>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;flex-shrink:0">
+          <button class="share-btn" onclick="shareLink('${b.id}','${permalinkUrl}',this)" title="링크 복사">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+            링크 복사
+          </button>
+          <button class="close-btn" onclick="collapseCard(event)" title="닫기">✕</button>
+        </div>
       </div>
-      <button class="close-btn" onclick="collapseCard(event)" title="닫기">✕</button>
+      ${availHtml}
     </div>
     <div class="variants-grid">${variantsHtml}</div>
     ${b.sources && b.sources.length > 1 ? `
@@ -325,7 +385,10 @@ function toggleExpand(b, el) {
     el.classList.add('expanded');
     buildPanel(b);
     expandedId = b.id;
+    history.pushState(null, '', '#' + b.id);
     setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+  } else {
+    history.pushState(null, '', location.pathname);
   }
 }
 
@@ -333,7 +396,41 @@ function collapseCard(e) {
   e.stopPropagation();
   document.querySelectorAll('.card.expanded').forEach(c => c.classList.remove('expanded'));
   expandedId = null;
+  history.pushState(null, '', location.pathname);
 }
+
+function shareLink(brandId, url, btn) {
+  navigator.clipboard.writeText(url).then(() => {
+    btn.classList.add('copied');
+    btn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> 복사됨!`;
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg> 링크 복사`;
+    }, 1800);
+  });
+}
+
+// 해시로 직접 접근 시 해당 브랜드 자동 열기
+function expandFromHash() {
+  const hash = location.hash.slice(1);
+  if (!hash) return;
+  const b = allBrands.find(x => x.id === hash);
+  if (!b) return;
+  // 필터 초기화 후 해당 카드 찾기
+  renderGrid(allBrands);
+  setTimeout(() => {
+    const el = document.querySelector(`.card[data-id="${hash}"]`);
+    if (el) { toggleExpand(b, el); }
+  }, 100);
+}
+
+window.addEventListener('popstate', () => {
+  const hash = location.hash.slice(1);
+  if (!hash) {
+    document.querySelectorAll('.card.expanded').forEach(c => c.classList.remove('expanded'));
+    expandedId = null;
+  }
+});
 
 function copyUrl(url, btn) {
   navigator.clipboard.writeText(url).then(() => {
@@ -390,7 +487,7 @@ function renderGrid(brands) {
 
 function filterBrands() {
   const q = document.getElementById('search').value.trim().toLowerCase();
-  const cat = document.querySelector('.chip.active')?.dataset.cat || '';
+  const cat = document.querySelector('#cat-filters .chip.active')?.dataset.cat || '';
   return allBrands.filter(b => {
     const matchCat = !cat || b.category === cat;
     const matchQ = !q
@@ -398,7 +495,11 @@ function filterBrands() {
       || b.name_en?.toLowerCase().includes(q)
       || b.id?.toLowerCase().includes(q)
       || b.category?.toLowerCase().includes(q);
-    return matchCat && matchQ;
+    let matchFmt = true;
+    if (activeFmt === 'svg') matchFmt = !!b.logo_svg;
+    else if (activeFmt === 'icon') matchFmt = b.sources?.some(s => s.provider === 'font-awesome');
+    else if (activeFmt === 'original') matchFmt = !!(b.original_url || b.bucket_url);
+    return matchCat && matchQ && matchFmt;
   });
 }
 
@@ -416,22 +517,22 @@ async function init() {
 
   // Categories
   const cats = [...new Set(brands.map(b => b.category).filter(Boolean))].sort();
-  const filters = document.querySelector('.filters');
+  const catFilters = document.getElementById('cat-filters');
   cats.forEach(cat => {
     const btn = document.createElement('button');
     btn.className = 'chip';
     btn.dataset.cat = cat;
     btn.textContent = cat;
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      catFilters.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
       btn.classList.add('active');
       renderGrid(filterBrands());
     });
-    filters.appendChild(btn);
+    catFilters.appendChild(btn);
   });
 
-  document.querySelector('.chip[data-cat=""]').addEventListener('click', function() {
-    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  catFilters.querySelector('.chip[data-cat=""]').addEventListener('click', function() {
+    catFilters.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
     this.classList.add('active');
     renderGrid(filterBrands());
   });
@@ -440,6 +541,9 @@ async function init() {
   document.getElementById('search').addEventListener('input', () => renderGrid(filterBrands()));
 
   renderGrid(brands);
+
+  // 퍼마링크 해시 자동 열기
+  expandFromHash();
 }
 
 init();

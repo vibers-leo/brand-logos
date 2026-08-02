@@ -275,7 +275,7 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
-const CURRENT_VERSION = '1785629268';
+const CURRENT_VERSION = '1785630660';
 function cdnUrl(id, file) { return `${CDN}/${id}/${file}?v=${CURRENT_VERSION}`; }
 
 (async () => {
@@ -565,6 +565,17 @@ function buildModalMid(b) {
       <a href="${b.original_url}" download target="_blank" class="mdl-btn mdl-btn-pri" style="width:auto;padding:8px 16px">
         <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
         원본 다운로드
+      </a>
+    </div>` : ''}
+    ${b.original_ai_url ? `
+    <div style="margin-top:12px;padding:14px 16px;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>
+        <div style="font-size:13px;font-weight:600;color:var(--text2);margin-bottom:2px">Adobe Illustrator 원본</div>
+        <div style="font-size:12px;color:var(--text3)">AI · 고화질 벡터 원본파일 (CI 가이드 포함)</div>
+      </div>
+      <a href="${b.original_ai_url}" download="${b.id}-original.ai" target="_blank" class="mdl-btn" style="width:auto;padding:8px 16px;background:rgba(251,146,60,0.12);border-color:rgba(251,146,60,0.3);color:#fb923c">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+        AI 원본 다운로드
       </a>
     </div>` : ''}
   `;
@@ -975,7 +986,7 @@ function filterBrands() {
     let matchFmt = true;
     if (activeFmt === 'svg') matchFmt = !!b.logo_svg;
     else if (activeFmt === 'icon') matchFmt = b.sources?.some(s => s.provider === 'font-awesome');
-    else if (activeFmt === 'original') matchFmt = !!(b.original_url || b.bucket_url);
+    else if (activeFmt === 'original') matchFmt = !!(b.original_url || b.bucket_url || b.original_ai_url);
     return matchCat && matchQ && matchFmt;
   });
 }
@@ -997,6 +1008,8 @@ function toggleVeryLow() {
 async function init() {
   const res = await fetch('/_clients/brands.json?_=' + Date.now(), { cache: 'no-store' });
   const { brands } = await res.json();
+  // 최신순 정렬 (added_at 내림차순, 같으면 원래 순서 유지)
+  brands.sort((a, b) => (b.added_at || '').localeCompare(a.added_at || ''));
   allBrands = brands;
 
   // Stats

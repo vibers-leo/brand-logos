@@ -275,7 +275,7 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
-const CURRENT_VERSION = '1785631574';
+const CURRENT_VERSION = '1785633807';
 function cdnUrl(id, file) { return `${CDN}/${id}/${file}?v=${CURRENT_VERSION}`; }
 
 (async () => {
@@ -429,7 +429,8 @@ function buildModalLeft(b) {
   const darkUrl = b.dark_variant === 'white' ? whtUrl : trpUrl;
   const mainUrl = b.logo_svg ? svgUrl : pngUrl;
   const hasSvg  = !!b.logo_svg;
-  const hasOrig = !!(b.original_url || b.bucket_url);
+  const hasOrig = !!(b.original_url || b.bucket_url || b.original_ai_url);
+  const hasAiOrig = !!b.original_ai_url;
   const hasIcon = b.sources?.some(s => s.provider === 'font-awesome');
 
   document.getElementById('modal-left').innerHTML = `
@@ -474,7 +475,11 @@ function buildModalLeft(b) {
         ${hasSvg ? 'SVG' : 'PNG'} 다운로드
       </a>
       ${hasSvg ? `<a class="mdl-btn mdl-btn-sec" href="${pngUrl}" download="${b.id}-logo.png" target="_blank">↓ PNG 다운로드</a>` : ''}
-      ${hasOrig ? `<a class="mdl-btn mdl-btn-sec" href="${b.original_url || b.bucket_url}" download target="_blank">↓ 원본 다운로드</a>` : ''}
+      ${(b.original_url || b.bucket_url) ? `<a class="mdl-btn mdl-btn-sec" href="${b.original_url || b.bucket_url}" download target="_blank">↓ 원본 다운로드</a>` : ''}
+      ${hasAiOrig ? `<a class="mdl-btn" href="${b.original_ai_url}" download="${b.id}-original.ai" target="_blank" style="background:rgba(251,146,60,0.12);border-color:rgba(251,146,60,0.3);color:#fb923c;font-size:12px">
+        <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+        AI 원본 다운로드
+      </a>` : ''}
     </div>
   `;
 }

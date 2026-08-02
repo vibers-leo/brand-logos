@@ -275,7 +275,7 @@ window.dispatchEvent(new Event('firebaseReady'));
 
 <script>
 const CDN = 'https://logo.vibers.co.kr/_clients';
-const CURRENT_VERSION = '1785636068';
+const CURRENT_VERSION = '1785663855';
 function cdnUrl(id, file) { return `${CDN}/${id}/${file}?v=${CURRENT_VERSION}`; }
 
 (async () => {
@@ -292,10 +292,12 @@ function cdnUrl(id, file) { return `${CDN}/${id}/${file}?v=${CURRENT_VERSION}`; 
 
 const VARIANTS = [
   { file: 'logo.svg',          name: 'SVG 벡터',    desc: '확대해도 깨짐 없음',  bg: 'bg-white', filter: false },
+  { file: 'logo-en.svg',       name: '영문 SVG',    desc: '영문 벡터',            bg: 'bg-white', filter: false, langEn: true },
   { file: 'logo-800.png',      name: 'PNG 800px',   desc: '고해상도 래스터',      bg: 'bg-white', filter: false },
   { file: 'logo-icon.png',     name: '파비콘 / 아이콘', desc: '64px · 파비콘·앱 아이콘용', bg: 'bg-checker', filter: false },
   { file: 'logo-transparent.png', name: '투명 배경', desc: '배경 제거 PNG',      bg: 'bg-checker', filter: false },
   { file: 'logo.png',          name: 'PNG 원본',    desc: '기본 PNG',             bg: 'bg-white', filter: false },
+  { file: 'logo-en.png',       name: '영문 PNG',    desc: '영문 기본 PNG',        bg: 'bg-white', filter: false, langEn: true },
 ];
 
 let allBrands = [];
@@ -490,7 +492,8 @@ function buildModalMid(b) {
 
   const variantsHtml = VARIANTS.map(v => {
     const url = cdnUrl(b.id, v.file);
-    if (v.file.endsWith('.svg') && !b.logo_svg) return '';
+    if (v.file === 'logo.svg' && !b.logo_svg) return '';
+    if (v.langEn && !b.lang_en) return '';
     const vf = v.file.replace(/'/g,"\\'");
     const vn = v.name.replace(/'/g,"\\'");
     return `

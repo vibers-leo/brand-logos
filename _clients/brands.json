@@ -1,5 +1,5 @@
 {
-  "total": 2719,
+  "total": 2752,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -14854,45 +14854,17 @@
     {
       "id": "shopify",
       "name_ko": "쇼피파이",
-      "name_en": "쇼피파이",
-      "category": "전자/IT",
+      "name_en": "Shopify",
+      "category": "소프트웨어·개발",
+      "folder": "_clients/shopify",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "shopify.com",
-      "logo_svg": true,
-      "source": "logo.dev:shopify.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        },
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:shopify",
-          "file": "sources/iconify/shopify.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:shopify",
-          "file": "sources/wvl/shopify.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_png": true,
-      "logo_quality_score": 250.1,
-      "logo_quality": "ok",
-      "source_upgraded": "simple-icons:shopify",
-      "added_at": "2026-07-27"
+      "website": "shopify.com"
     },
     {
       "id": "smartstore-naver",
@@ -16249,55 +16221,17 @@
     {
       "id": "youtube",
       "name_ko": "유튜브",
-      "name_en": "유튜브",
-      "category": "미디어/광고",
+      "name_en": "YouTube",
+      "category": "소셜미디어",
+      "folder": "_clients/youtube",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "youtube.com",
-      "logo_svg": true,
-      "source": "logo.dev:youtube.com",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        },
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:youtube",
-          "file": "sources/iconify/youtube.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:youtube-icon",
-          "file": "sources/iconify/youtube-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:youtube-icon",
-          "file": "sources/wvl/youtube-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:youtube",
-          "file": "sources/wvl/youtube.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_png": true,
-      "logo_quality_score": 370.2,
-      "logo_quality": "ok",
-      "source_upgraded": "simple-icons:youtube",
-      "added_at": "2026-07-27"
+      "website": "youtube.com"
     },
     {
       "id": "lezhin",
@@ -17050,49 +16984,17 @@
     {
       "id": "notion",
       "name_ko": "노션",
-      "name_en": "노션",
-      "category": "전자/IT",
+      "name_en": "Notion",
+      "category": "소프트웨어·개발",
+      "folder": "_clients/notion",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "notion.so",
-      "logo_svg": false,
-      "source": "logo.dev:notion.so",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        },
-        {
-          "provider": "iconify:notion",
-          "file": "sources/iconify/notion.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:notion-icon",
-          "file": "sources/iconify/notion-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:notion-original",
-          "file": "sources/devicons/notion-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:notion-icon",
-          "file": "sources/wvl/notion-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:notion",
-          "file": "sources/wvl/notion.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 2059.5,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "website": "notion.so"
     },
     {
       "id": "slack",
@@ -17149,144 +17051,47 @@
     {
       "id": "figma",
       "name_ko": "피그마",
-      "name_en": "피그마",
-      "category": "전자/IT",
+      "name_en": "Figma",
+      "category": "소프트웨어·개발",
+      "folder": "_clients/figma",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "figma.com",
-      "logo_svg": false,
-      "source": "logo.dev:figma.com",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        },
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:figma",
-          "file": "sources/iconify/figma.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "devicons:figma-original",
-          "file": "sources/devicons/figma-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:figma",
-          "file": "sources/wvl/figma.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_png": true,
-      "logo_quality_score": 1796.5,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "website": "figma.com"
     },
     {
       "id": "github",
       "name_ko": "깃허브",
-      "name_en": "깃허브",
-      "category": "전자/IT",
+      "name_en": "GitHub",
+      "category": "소프트웨어·개발",
+      "folder": "_clients/github",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "github.com",
-      "logo_svg": true,
-      "source": "logo.dev:github.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        },
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:github",
-          "file": "sources/iconify/github.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:github-icon",
-          "file": "sources/iconify/github-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:github-original",
-          "file": "sources/devicons/github-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:github-icon",
-          "file": "sources/wvl/github-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:github",
-          "file": "sources/wvl/github.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:github-octocat",
-          "file": "sources/wvl/github-octocat.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_png": true,
-      "logo_quality_score": 1074.1,
-      "logo_quality": "ok",
-      "source_upgraded": "simple-icons:github",
-      "added_at": "2026-07-27"
+      "website": "github.com"
     },
     {
       "id": "atlassian",
       "name_ko": "아틀라시안",
-      "name_en": "아틀라시안",
-      "category": "전자/IT",
+      "name_en": "Atlassian",
+      "category": "소프트웨어·개발",
+      "folder": "_clients/atlassian",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "atlassian.com",
-      "logo_svg": true,
-      "source": "logo.dev:atlassian.com",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        },
-        {
-          "provider": "iconify:atlassian",
-          "file": "sources/iconify/atlassian.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:atlassian",
-          "file": "sources/wvl/atlassian.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 417.4,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "website": "atlassian.com"
     },
     {
       "id": "finda-co",
@@ -20507,73 +20312,33 @@
     },
     {
       "id": "huawei",
-      "name_ko": "화웨이코리아",
-      "name_en": "화웨이코리아",
+      "name_ko": "화웨이",
+      "name_en": "Huawei",
       "category": "전자/IT",
+      "folder": "_clients/huawei",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "huawei.com",
-      "logo_svg": false,
-      "source": "logo.dev:huawei.com",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 1170.6,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "website": "huawei.com"
     },
     {
       "id": "apple",
-      "name_ko": "애플코리아",
-      "name_en": "애플코리아",
+      "name_ko": "애플",
+      "name_en": "Apple",
       "category": "전자/IT",
+      "folder": "_clients/apple",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "apple.com",
-      "logo_svg": true,
-      "source": "logo.dev:apple.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        },
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:apple",
-          "file": "sources/iconify/apple.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "devicons:apple-original",
-          "file": "sources/devicons/apple-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:apple",
-          "file": "sources/wvl/apple.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_png": true,
-      "logo_quality_score": 782.4,
-      "logo_quality": "ok",
-      "source_upgraded": "simple-icons:apple",
-      "added_at": "2026-07-27"
+      "website": "apple.com"
     },
     {
       "id": "google-co",
@@ -20878,109 +20643,48 @@
     },
     {
       "id": "instagram",
-      "name_ko": "Instagram",
+      "name_ko": "인스타그램",
       "name_en": "Instagram",
       "category": "소셜미디어",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:instagram",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:instagram",
-          "file": "sources/iconify/instagram.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:instagram-icon",
-          "file": "sources/iconify/instagram-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:instagram-icon",
-          "file": "sources/wvl/instagram-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:instagram",
-          "file": "sources/wvl/instagram.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1552.7,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/instagram",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "instagram.com",
+      "website": "instagram.com"
     },
     {
       "id": "tiktok",
-      "name_ko": "TikTok",
+      "name_ko": "틱톡",
       "name_en": "TikTok",
       "category": "소셜미디어",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:tiktok",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:tiktok",
-          "file": "sources/iconify/tiktok.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:tiktok-icon",
-          "file": "sources/iconify/tiktok-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:tiktok-icon",
-          "file": "sources/wvl/tiktok-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:tiktok",
-          "file": "sources/wvl/tiktok.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 789.3,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/tiktok",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "tiktok.com",
+      "website": "tiktok.com"
     },
     {
       "id": "x-twitter",
-      "name_ko": "X (Twitter)",
-      "name_en": "X (Twitter)",
+      "name_ko": "X (트위터)",
+      "name_en": "X / Twitter",
       "category": "소셜미디어",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:x-twitter",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1556.1,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/x-twitter",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "x.com",
+      "website": "x.com"
     },
     {
       "id": "twitter",
@@ -21068,161 +20772,63 @@
     },
     {
       "id": "pinterest",
-      "name_ko": "Pinterest",
+      "name_ko": "핀터레스트",
       "name_en": "Pinterest",
       "category": "소셜미디어",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:pinterest",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:pinterest",
-          "file": "sources/iconify/pinterest.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:pinterest",
-          "file": "sources/wvl/pinterest.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1435.1,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/pinterest",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "pinterest.com",
+      "website": "pinterest.com"
     },
     {
       "id": "reddit",
-      "name_ko": "Reddit",
+      "name_ko": "레딧",
       "name_en": "Reddit",
       "category": "소셜미디어",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:reddit",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:reddit",
-          "file": "sources/iconify/reddit.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:reddit-icon",
-          "file": "sources/iconify/reddit-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:reddit-icon",
-          "file": "sources/wvl/reddit-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:reddit",
-          "file": "sources/wvl/reddit.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1453.8,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/reddit",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "reddit.com",
+      "website": "reddit.com"
     },
     {
       "id": "discord",
-      "name_ko": "Discord",
+      "name_ko": "디스코드",
       "name_en": "Discord",
-      "category": "커뮤니티",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:discord",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:discord",
-          "file": "sources/iconify/discord.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:discord-icon",
-          "file": "sources/iconify/discord-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:discord-icon",
-          "file": "sources/wvl/discord-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:discord",
-          "file": "sources/wvl/discord.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 921.4,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/discord",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "discord.com",
+      "website": "discord.com"
     },
     {
       "id": "threads",
-      "name_ko": "Threads",
+      "name_ko": "스레드",
       "name_en": "Threads",
       "category": "소셜미디어",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:threads",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:threads",
-          "file": "sources/iconify/threads.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:threads-icon",
-          "file": "sources/iconify/threads-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:threads-icon",
-          "file": "sources/wvl/threads-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:threads",
-          "file": "sources/wvl/threads.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1605.1,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/threads",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "threads.net",
+      "website": "threads.net"
     },
     {
       "id": "bluesky",
@@ -21300,50 +20906,18 @@
     },
     {
       "id": "google",
-      "name_ko": "Google",
+      "name_ko": "구글",
       "name_en": "Google",
       "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:google",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:google",
-          "file": "sources/iconify/google.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:google-icon",
-          "file": "sources/iconify/google-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:google-original",
-          "file": "sources/devicons/google-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:google-icon",
-          "file": "sources/wvl/google-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:google",
-          "file": "sources/wvl/google.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1060.6,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/google",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "google.com",
+      "website": "google.com"
     },
     {
       "id": "microsoft",
@@ -21411,45 +20985,18 @@
     },
     {
       "id": "meta",
-      "name_ko": "Meta",
+      "name_ko": "메타",
       "name_en": "Meta",
       "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:meta",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:meta",
-          "file": "sources/iconify/meta.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:meta-icon",
-          "file": "sources/iconify/meta-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:meta-icon",
-          "file": "sources/wvl/meta-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:meta",
-          "file": "sources/wvl/meta.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1366.9,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/meta",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "meta.com",
+      "website": "meta.com"
     },
     {
       "id": "aws",
@@ -21485,144 +21032,48 @@
     },
     {
       "id": "cloudflare",
-      "name_ko": "Cloudflare",
+      "name_ko": "클라우드플레어",
       "name_en": "Cloudflare",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:cloudflare",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:cloudflare",
-          "file": "sources/iconify/cloudflare.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:cloudflare-icon",
-          "file": "sources/iconify/cloudflare-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:cloudflare-original",
-          "file": "sources/devicons/cloudflare-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:cloudflare-icon",
-          "file": "sources/wvl/cloudflare-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:cloudflare",
-          "file": "sources/wvl/cloudflare.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 842.1,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/cloudflare",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "cloudflare.com",
+      "website": "cloudflare.com"
     },
     {
       "id": "docker",
-      "name_ko": "Docker",
+      "name_ko": "도커",
       "name_en": "Docker",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:docker",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:docker",
-          "file": "sources/iconify/docker.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:docker-icon",
-          "file": "sources/iconify/docker-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:docker-original",
-          "file": "sources/devicons/docker-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:docker-icon",
-          "file": "sources/wvl/docker-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:docker",
-          "file": "sources/wvl/docker.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1079.0,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/docker",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "docker.com",
+      "website": "docker.com"
     },
     {
       "id": "gitlab",
-      "name_ko": "GitLab",
+      "name_ko": "깃랩",
       "name_en": "GitLab",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:gitlab",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:gitlab",
-          "file": "sources/iconify/gitlab.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:gitlab-icon",
-          "file": "sources/iconify/gitlab-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:gitlab-original",
-          "file": "sources/devicons/gitlab-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:gitlab-icon",
-          "file": "sources/wvl/gitlab-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:gitlab",
-          "file": "sources/wvl/gitlab.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 705.4,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/gitlab",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "gitlab.com",
+      "website": "gitlab.com"
     },
     {
       "id": "dropbox",
@@ -21892,57 +21343,33 @@
     },
     {
       "id": "steam",
-      "name_ko": "Steam",
+      "name_ko": "스팀",
       "name_en": "Steam",
       "category": "게임",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:steam",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:steam",
-          "file": "sources/iconify/steam.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:steam",
-          "file": "sources/wvl/steam.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1541.0,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/steam",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "steampowered.com",
+      "website": "steampowered.com"
     },
     {
       "id": "playstation",
-      "name_ko": "PlayStation",
+      "name_ko": "플레이스테이션",
       "name_en": "PlayStation",
       "category": "게임",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:playstation",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 999.1,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "folder": "_clients/playstation",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "playstation.com",
+      "website": "playstation.com"
     },
     {
       "id": "xbox",
@@ -21968,35 +21395,18 @@
     },
     {
       "id": "twitch",
-      "name_ko": "Twitch",
+      "name_ko": "트위치",
       "name_en": "Twitch",
-      "category": "게임",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:twitch",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:twitch",
-          "file": "sources/iconify/twitch.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:twitch",
-          "file": "sources/wvl/twitch.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1061.7,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "소셜미디어",
+      "folder": "_clients/twitch",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "twitch.tv",
+      "website": "twitch.tv"
     },
     {
       "id": "battle-net",
@@ -22160,67 +21570,33 @@
     },
     {
       "id": "visa",
-      "name_ko": "Visa",
+      "name_ko": "비자",
       "name_en": "Visa",
-      "category": "금융/보험",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:cc-visa",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:visa",
-          "file": "sources/iconify/visa.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:visa",
-          "file": "sources/wvl/visa.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1160.7,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "금융·결제",
+      "folder": "_clients/visa",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "visa.com",
+      "website": "visa.com"
     },
     {
       "id": "mastercard",
-      "name_ko": "Mastercard",
+      "name_ko": "마스터카드",
       "name_en": "Mastercard",
-      "category": "금융/보험",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:cc-mastercard",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:mastercard",
-          "file": "sources/iconify/mastercard.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:mastercard",
-          "file": "sources/wvl/mastercard.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1889.6,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "금융·결제",
+      "folder": "_clients/mastercard",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "mastercard.com",
+      "website": "mastercard.com"
     },
     {
       "id": "amex",
@@ -22293,67 +21669,33 @@
     },
     {
       "id": "paypal",
-      "name_ko": "PayPal",
+      "name_ko": "페이팔",
       "name_en": "PayPal",
-      "category": "핀테크",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:paypal",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:paypal",
-          "file": "sources/iconify/paypal.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:paypal",
-          "file": "sources/wvl/paypal.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 927.2,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "금융·결제",
+      "folder": "_clients/paypal",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "paypal.com",
+      "website": "paypal.com"
     },
     {
       "id": "stripe",
-      "name_ko": "Stripe",
+      "name_ko": "스트라이프",
       "name_en": "Stripe",
-      "category": "핀테크",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:cc-stripe",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:stripe",
-          "file": "sources/iconify/stripe.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:stripe",
-          "file": "sources/wvl/stripe.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1372.6,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "금융·결제",
+      "folder": "_clients/stripe",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "stripe.com",
+      "website": "stripe.com"
     },
     {
       "id": "apple-pay",
@@ -22763,87 +22105,33 @@
     },
     {
       "id": "wordpress",
-      "name_ko": "WordPress",
+      "name_ko": "워드프레스",
       "name_en": "WordPress",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:wordpress",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:wordpress",
-          "file": "sources/iconify/wordpress.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:wordpress-icon",
-          "file": "sources/iconify/wordpress-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:wordpress-original",
-          "file": "sources/devicons/wordpress-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:wordpress-icon",
-          "file": "sources/wvl/wordpress-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:wordpress-icon-alt",
-          "file": "sources/wvl/wordpress-icon-alt.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:wordpress",
-          "file": "sources/wvl/wordpress.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 2511.8,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/wordpress",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "wordpress.com",
+      "website": "wordpress.com"
     },
     {
       "id": "bitcoin",
-      "name_ko": "Bitcoin",
+      "name_ko": "비트코인",
       "name_en": "Bitcoin",
-      "category": "핀테크",
-      "domain": "",
-      "logo_svg": true,
-      "source": "font-awesome:bitcoin",
-      "status": "raw",
-      "sources": [
-        {
-          "provider": "font-awesome",
-          "file": "sources/fa.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "iconify:bitcoin",
-          "file": "sources/iconify/bitcoin.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:bitcoin",
-          "file": "sources/wvl/bitcoin.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "logo_png": true,
-      "logo_quality_score": 1217.3,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/bitcoin",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "bitcoin.org",
+      "website": "bitcoin.org"
     },
     {
       "id": "behance",
@@ -23223,260 +22511,150 @@
       "name_ko": "테슬라",
       "name_en": "Tesla",
       "category": "자동차",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:tesla",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 631.3,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "folder": "_clients/tesla",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "tesla.com",
+      "website": "tesla.com"
     },
     {
       "id": "toyota",
-      "name_ko": "토요타",
+      "name_ko": "도요타",
       "name_en": "Toyota",
       "category": "자동차",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:toyota",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 807.9,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "folder": "_clients/toyota",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "toyota.com",
+      "website": "toyota.com"
     },
     {
       "id": "bmw",
       "name_ko": "BMW",
       "name_en": "BMW",
       "category": "자동차",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:bmw",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 1400.6,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "folder": "_clients/bmw",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "bmw.com",
+      "website": "bmw.com"
     },
     {
       "id": "volkswagen",
       "name_ko": "폭스바겐",
       "name_en": "Volkswagen",
       "category": "자동차",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:volkswagen",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 1776.0,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "folder": "_clients/volkswagen",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "volkswagen.com",
+      "website": "volkswagen.com"
     },
     {
       "id": "honda",
       "name_ko": "혼다",
       "name_en": "Honda",
       "category": "자동차",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:honda",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 847.7,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "folder": "_clients/honda",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "honda.com",
+      "website": "honda.com"
     },
     {
       "id": "ford",
       "name_ko": "포드",
       "name_en": "Ford",
       "category": "자동차",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:ford",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 1800.8,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "folder": "_clients/ford",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "ford.com",
+      "website": "ford.com"
     },
     {
       "id": "intel",
       "name_ko": "인텔",
       "name_en": "Intel",
-      "category": "반도체/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:intel",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:intel",
-          "file": "sources/iconify/intel.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:intel",
-          "file": "sources/wvl/intel.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 499.8,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/intel",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "intel.com",
+      "website": "intel.com"
     },
     {
       "id": "nvidia",
       "name_ko": "엔비디아",
-      "name_en": "Nvidia",
-      "category": "반도체/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:nvidia",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:nvidia",
-          "file": "sources/iconify/nvidia.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:nvidia",
-          "file": "sources/wvl/nvidia.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 319.7,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "name_en": "NVIDIA",
+      "category": "AI·머신러닝",
+      "folder": "_clients/nvidia",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "nvidia.com",
+      "website": "nvidia.com"
     },
     {
       "id": "qualcomm",
       "name_ko": "퀄컴",
       "name_en": "Qualcomm",
-      "category": "반도체/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:qualcomm",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:qualcomm",
-          "file": "sources/iconify/qualcomm.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:qualcomm",
-          "file": "sources/wvl/qualcomm.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 506.1,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/qualcomm",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "qualcomm.com",
+      "website": "qualcomm.com"
     },
     {
       "id": "zoom",
       "name_ko": "줌",
       "name_en": "Zoom",
-      "category": "협업도구",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simple-icons:zoom",
-      "sources": [
-        {
-          "provider": "simple-icons",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:zoom",
-          "file": "sources/iconify/zoom.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:zoom-icon",
-          "file": "sources/iconify/zoom-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:zoom-icon",
-          "file": "sources/wvl/zoom-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:zoom",
-          "file": "sources/wvl/zoom.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality_score": 476.8,
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/zoom",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "zoom.us",
+      "website": "zoom.us"
     },
     {
       "id": "webex",
@@ -24563,27 +23741,18 @@
     },
     {
       "id": "amd",
-      "name_ko": "Amd",
-      "name_en": "Amd",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:amd",
-      "sources": [
-        {
-          "provider": "iconify:amd",
-          "file": "sources/iconify/amd.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:amd",
-          "file": "sources/wvl/amd.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "name_ko": "AMD",
+      "name_en": "AMD",
+      "category": "IT·클라우드",
+      "folder": "_clients/amd",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "amd.com",
+      "website": "amd.com"
     },
     {
       "id": "amex-digital",
@@ -24854,35 +24023,16 @@
       "id": "anthropic",
       "name_ko": "Anthropic",
       "name_en": "Anthropic",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:anthropic",
-      "sources": [
-        {
-          "provider": "iconify:anthropic",
-          "file": "sources/iconify/anthropic.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:anthropic-icon",
-          "file": "sources/iconify/anthropic-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:anthropic-icon",
-          "file": "sources/wvl/anthropic-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:anthropic",
-          "file": "sources/wvl/anthropic.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "AI·머신러닝",
+      "folder": "_clients/anthropic",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "anthropic.com",
+      "website": "anthropic.com"
     },
     {
       "id": "apache",
@@ -29690,37 +28840,18 @@
     },
     {
       "id": "cardano",
-      "name_ko": "Cardano",
+      "name_ko": "카르다노",
       "name_en": "Cardano",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:cardano",
-      "sources": [
-        {
-          "provider": "iconify:cardano",
-          "file": "sources/iconify/cardano.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:cardano-icon",
-          "file": "sources/iconify/cardano-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:cardano-icon",
-          "file": "sources/wvl/cardano-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:cardano",
-          "file": "sources/wvl/cardano.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/cardano",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "cardano.org",
+      "website": "cardano.org"
     },
     {
       "id": "cassandra",
@@ -31404,32 +30535,18 @@
     },
     {
       "id": "confluence",
-      "name_ko": "Confluence",
+      "name_ko": "컨플루언스",
       "name_en": "Confluence",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:confluence",
-      "sources": [
-        {
-          "provider": "iconify:confluence",
-          "file": "sources/iconify/confluence.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "devicons:confluence-original",
-          "file": "sources/devicons/confluence-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:confluence",
-          "file": "sources/wvl/confluence.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/confluence",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "atlassian.com",
+      "website": "atlassian.com"
     },
     {
       "id": "consul",
@@ -34822,37 +33939,18 @@
     },
     {
       "id": "ethereum",
-      "name_ko": "Ethereum",
+      "name_ko": "이더리움",
       "name_en": "Ethereum",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:ethereum",
-      "sources": [
-        {
-          "provider": "iconify:ethereum",
-          "file": "sources/iconify/ethereum.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:ethereum-color",
-          "file": "sources/iconify/ethereum-color.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:ethereum",
-          "file": "sources/wvl/ethereum.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:ethereum-color",
-          "file": "sources/wvl/ethereum-color.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/ethereum",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "ethereum.org",
+      "website": "ethereum.org"
     },
     {
       "id": "ethers",
@@ -35412,42 +34510,18 @@
     },
     {
       "id": "firebase",
-      "name_ko": "Firebase",
+      "name_ko": "파이어베이스",
       "name_en": "Firebase",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:firebase",
-      "sources": [
-        {
-          "provider": "iconify:firebase",
-          "file": "sources/iconify/firebase.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:firebase-icon",
-          "file": "sources/iconify/firebase-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:firebase-original",
-          "file": "sources/devicons/firebase-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:firebase-icon",
-          "file": "sources/wvl/firebase-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:firebase",
-          "file": "sources/wvl/firebase.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/firebase",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "firebase.google.com",
+      "website": "firebase.google.com"
     },
     {
       "id": "flannel",
@@ -37458,27 +36532,18 @@
     },
     {
       "id": "google-cloud",
-      "name_ko": "Google Cloud",
+      "name_ko": "구글 클라우드",
       "name_en": "Google Cloud",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:google-cloud",
-      "sources": [
-        {
-          "provider": "iconify:google-cloud",
-          "file": "sources/iconify/google-cloud.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:google-cloud",
-          "file": "sources/wvl/google-cloud.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/google-cloud",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "cloud.google.com",
+      "website": "cloud.google.com"
     },
     {
       "id": "google-cloud-functions",
@@ -41084,42 +40149,18 @@
     },
     {
       "id": "jetbrains",
-      "name_ko": "Jetbrains",
-      "name_en": "Jetbrains",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:jetbrains",
-      "sources": [
-        {
-          "provider": "iconify:jetbrains",
-          "file": "sources/iconify/jetbrains.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:jetbrains-icon",
-          "file": "sources/iconify/jetbrains-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:jetbrains-original",
-          "file": "sources/devicons/jetbrains-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:jetbrains-icon",
-          "file": "sources/wvl/jetbrains-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:jetbrains",
-          "file": "sources/wvl/jetbrains.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "name_ko": "젯브레인스",
+      "name_en": "JetBrains",
+      "category": "소프트웨어·개발",
+      "folder": "_clients/jetbrains",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "jetbrains.com",
+      "website": "jetbrains.com"
     },
     {
       "id": "jetbrains-space",
@@ -41220,32 +40261,18 @@
     },
     {
       "id": "jira",
-      "name_ko": "Jira",
+      "name_ko": "지라",
       "name_en": "Jira",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:jira",
-      "sources": [
-        {
-          "provider": "iconify:jira",
-          "file": "sources/iconify/jira.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "devicons:jira-original",
-          "file": "sources/devicons/jira-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:jira",
-          "file": "sources/wvl/jira.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/jira",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "atlassian.com",
+      "website": "atlassian.com"
     },
     {
       "id": "joomla",
@@ -43020,37 +42047,18 @@
     },
     {
       "id": "linear",
-      "name_ko": "Linear",
+      "name_ko": "리니어",
       "name_en": "Linear",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:linear",
-      "sources": [
-        {
-          "provider": "iconify:linear",
-          "file": "sources/iconify/linear.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:linear-icon",
-          "file": "sources/iconify/linear-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:linear-icon",
-          "file": "sources/wvl/linear-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:linear",
-          "file": "sources/wvl/linear.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/linear",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "linear.app",
+      "website": "linear.app"
     },
     {
       "id": "linkerd",
@@ -46454,42 +45462,18 @@
     },
     {
       "id": "netlify",
-      "name_ko": "Netlify",
+      "name_ko": "넷리파이",
       "name_en": "Netlify",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:netlify",
-      "sources": [
-        {
-          "provider": "iconify:netlify",
-          "file": "sources/iconify/netlify.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:netlify-icon",
-          "file": "sources/iconify/netlify-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:netlify-original",
-          "file": "sources/devicons/netlify-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:netlify-icon",
-          "file": "sources/wvl/netlify-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:netlify",
-          "file": "sources/wvl/netlify.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/netlify",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "netlify.com",
+      "website": "netlify.com"
     },
     {
       "id": "neverinstall",
@@ -49734,42 +48718,18 @@
     },
     {
       "id": "postman",
-      "name_ko": "Postman",
+      "name_ko": "포스트맨",
       "name_en": "Postman",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:postman",
-      "sources": [
-        {
-          "provider": "iconify:postman",
-          "file": "sources/iconify/postman.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:postman-icon",
-          "file": "sources/iconify/postman-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:postman-original",
-          "file": "sources/devicons/postman-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:postman-icon",
-          "file": "sources/wvl/postman-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:postman",
-          "file": "sources/wvl/postman.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "소프트웨어·개발",
+      "folder": "_clients/postman",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "postman.com",
+      "website": "postman.com"
     },
     {
       "id": "pouchdb",
@@ -54789,27 +53749,18 @@
     },
     {
       "id": "square",
-      "name_ko": "Square",
+      "name_ko": "스퀘어",
       "name_en": "Square",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:square",
-      "sources": [
-        {
-          "provider": "iconify:square",
-          "file": "sources/iconify/square.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:square",
-          "file": "sources/wvl/square.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "금융·결제",
+      "folder": "_clients/square",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "squareup.com",
+      "website": "squareup.com"
     },
     {
       "id": "squarespace",
@@ -55790,42 +54741,18 @@
     },
     {
       "id": "supabase",
-      "name_ko": "Supabase",
+      "name_ko": "수파베이스",
       "name_en": "Supabase",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:supabase",
-      "sources": [
-        {
-          "provider": "iconify:supabase",
-          "file": "sources/iconify/supabase.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:supabase-icon",
-          "file": "sources/iconify/supabase-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:supabase-original",
-          "file": "sources/devicons/supabase-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:supabase-icon",
-          "file": "sources/wvl/supabase-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:supabase",
-          "file": "sources/wvl/supabase.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/supabase",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "supabase.com",
+      "website": "supabase.com"
     },
     {
       "id": "supertokens",
@@ -56684,27 +55611,18 @@
     },
     {
       "id": "telegram",
-      "name_ko": "Telegram",
+      "name_ko": "텔레그램",
       "name_en": "Telegram",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:telegram",
-      "sources": [
-        {
-          "provider": "iconify:telegram",
-          "file": "sources/iconify/telegram.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:telegram",
-          "file": "sources/wvl/telegram.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "소셜미디어",
+      "folder": "_clients/telegram",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "telegram.org",
+      "website": "telegram.org"
     },
     {
       "id": "tensorflow",
@@ -58201,32 +57119,18 @@
     },
     {
       "id": "unity",
-      "name_ko": "Unity",
+      "name_ko": "유니티",
       "name_en": "Unity",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:unity",
-      "sources": [
-        {
-          "provider": "iconify:unity",
-          "file": "sources/iconify/unity.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "devicons:unity-original",
-          "file": "sources/devicons/unity-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:unity",
-          "file": "sources/wvl/unity.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "게임",
+      "folder": "_clients/unity",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "unity.com",
+      "website": "unity.com"
     },
     {
       "id": "unjs",
@@ -58723,42 +57627,18 @@
     },
     {
       "id": "vercel",
-      "name_ko": "Vercel",
+      "name_ko": "버셀",
       "name_en": "Vercel",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:vercel",
-      "sources": [
-        {
-          "provider": "iconify:vercel",
-          "file": "sources/iconify/vercel.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:vercel-icon",
-          "file": "sources/iconify/vercel-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "devicons:vercel-original",
-          "file": "sources/devicons/vercel-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:vercel-icon",
-          "file": "sources/wvl/vercel-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:vercel",
-          "file": "sources/wvl/vercel.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "category": "IT·클라우드",
+      "folder": "_clients/vercel",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "vercel.com",
+      "website": "vercel.com"
     },
     {
       "id": "verdaccio",
@@ -60107,42 +58987,18 @@
     },
     {
       "id": "whatsapp",
-      "name_ko": "Whatsapp",
-      "name_en": "Whatsapp",
-      "category": "전자/IT",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:whatsapp",
-      "sources": [
-        {
-          "provider": "iconify:whatsapp",
-          "file": "sources/iconify/whatsapp.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:whatsapp-icon",
-          "file": "sources/iconify/whatsapp-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:whatsapp-icon",
-          "file": "sources/wvl/whatsapp-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:whatsapp-monochrome-icon",
-          "file": "sources/wvl/whatsapp-monochrome-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:whatsapp",
-          "file": "sources/wvl/whatsapp.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "name_ko": "왓츠앱",
+      "name_en": "WhatsApp",
+      "category": "소셜미디어",
+      "folder": "_clients/whatsapp",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "whatsapp.com",
+      "website": "whatsapp.com"
     },
     {
       "id": "whatwg",
@@ -62675,32 +61531,18 @@
     },
     {
       "id": "digitalocean",
-      "name_ko": "Digitalocean",
-      "name_en": "Digitalocean",
-      "category": "개발도구",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "devicons:digitalocean-original",
-      "sources": [
-        {
-          "provider": "devicons:digitalocean-original",
-          "file": "sources/devicons/digitalocean-original.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:digital-ocean-icon",
-          "file": "sources/wvl/digital-ocean-icon.svg",
-          "label": "아이콘형"
-        },
-        {
-          "provider": "wvl:digital-ocean",
-          "file": "sources/wvl/digital-ocean.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "name_ko": "디지털오션",
+      "name_en": "DigitalOcean",
+      "category": "IT·클라우드",
+      "folder": "_clients/digitalocean",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "digitalocean.com",
+      "website": "digitalocean.com"
     },
     {
       "id": "discloud",
@@ -64813,22 +63655,18 @@
     },
     {
       "id": "polygon",
-      "name_ko": "Polygon",
+      "name_ko": "폴리곤",
       "name_en": "Polygon",
-      "category": "개발도구",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "devicons:polygon-original",
-      "sources": [
-        {
-          "provider": "devicons:polygon-original",
-          "file": "sources/devicons/polygon-original.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/polygon",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "polygon.technology",
+      "website": "polygon.technology"
     },
     {
       "id": "portainer",
@@ -67294,23 +66132,18 @@
     },
     {
       "id": "ollama",
-      "name_ko": "Ollama",
+      "name_ko": "올라마",
       "name_en": "Ollama",
-      "category": "AI/LLM",
+      "category": "AI·머신러닝",
+      "folder": "_clients/ollama",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "ollama.com",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "simpleicons:ollama",
-      "sources": [
-        {
-          "provider": "simpleicons:ollama",
-          "file": "sources/si.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "logo_quality": "ok",
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "website": "ollama.com"
     },
     {
       "id": "replicate",
@@ -67374,23 +66207,18 @@
     },
     {
       "id": "deepmind",
-      "name_ko": "Google DeepMind",
+      "name_ko": "구글 딥마인드",
       "name_en": "Google DeepMind",
-      "category": "AI/연구",
+      "category": "AI·머신러닝",
+      "folder": "_clients/deepmind",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
       "domain": "deepmind.google",
-      "logo_svg": false,
-      "logo_png": true,
-      "source": "logo.dev:deepmind.google",
-      "sources": [
-        {
-          "provider": "logo.dev:deepmind.google",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality": "ok",
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "website": "deepmind.google"
     },
     {
       "id": "meta-ai",
@@ -67896,6 +66724,501 @@
       "source": "wikimedia:Korea Finance Leaders Group logo.svg",
       "status": "raw",
       "dark_variant": "transparent"
+    },
+    {
+      "id": "huggingface",
+      "name_ko": "허깅페이스",
+      "name_en": "Hugging Face",
+      "category": "AI·머신러닝",
+      "folder": "_clients/huggingface",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "huggingface.co",
+      "website": "huggingface.co"
+    },
+    {
+      "id": "perplexityai",
+      "name_ko": "퍼플렉시티",
+      "name_en": "Perplexity AI",
+      "category": "AI·머신러닝",
+      "folder": "_clients/perplexityai",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "perplexity.ai",
+      "website": "perplexity.ai"
+    },
+    {
+      "id": "cursor",
+      "name_ko": "커서",
+      "name_en": "Cursor",
+      "category": "AI·머신러닝",
+      "folder": "_clients/cursor",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "cursor.com",
+      "website": "cursor.com"
+    },
+    {
+      "id": "binance",
+      "name_ko": "바이낸스",
+      "name_en": "Binance",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/binance",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "binance.com",
+      "website": "binance.com"
+    },
+    {
+      "id": "coinbase",
+      "name_ko": "코인베이스",
+      "name_en": "Coinbase",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/coinbase",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "coinbase.com",
+      "website": "coinbase.com"
+    },
+    {
+      "id": "chainlink",
+      "name_ko": "체인링크",
+      "name_en": "Chainlink",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/chainlink",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "chain.link",
+      "website": "chain.link"
+    },
+    {
+      "id": "solana",
+      "name_ko": "솔라나",
+      "name_en": "Solana",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/solana",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "solana.com",
+      "website": "solana.com"
+    },
+    {
+      "id": "dogecoin",
+      "name_ko": "도지코인",
+      "name_en": "Dogecoin",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/dogecoin",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "dogecoin.com",
+      "website": "dogecoin.com"
+    },
+    {
+      "id": "opensea",
+      "name_ko": "오픈씨",
+      "name_en": "OpenSea",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/opensea",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "opensea.io",
+      "website": "opensea.io"
+    },
+    {
+      "id": "tether",
+      "name_ko": "테더",
+      "name_en": "Tether",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/tether",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "tether.to",
+      "website": "tether.to"
+    },
+    {
+      "id": "xrp",
+      "name_ko": "리플",
+      "name_en": "XRP / Ripple",
+      "category": "암호화폐·블록체인",
+      "folder": "_clients/xrp",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "ripple.com",
+      "website": "ripple.com"
+    },
+    {
+      "id": "american-express",
+      "name_ko": "아메리칸 익스프레스",
+      "name_en": "American Express",
+      "category": "금융·결제",
+      "folder": "_clients/american-express",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "americanexpress.com",
+      "website": "americanexpress.com"
+    },
+    {
+      "id": "revolut",
+      "name_ko": "레볼루트",
+      "name_en": "Revolut",
+      "category": "금융·결제",
+      "folder": "_clients/revolut",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "revolut.com",
+      "website": "revolut.com"
+    },
+    {
+      "id": "klarna",
+      "name_ko": "클라르나",
+      "name_en": "Klarna",
+      "category": "금융·결제",
+      "folder": "_clients/klarna",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "klarna.com",
+      "website": "klarna.com"
+    },
+    {
+      "id": "wise",
+      "name_ko": "와이즈",
+      "name_en": "Wise",
+      "category": "금융·결제",
+      "folder": "_clients/wise",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "wise.com",
+      "website": "wise.com"
+    },
+    {
+      "id": "goldman-sachs",
+      "name_ko": "골드만삭스",
+      "name_en": "Goldman Sachs",
+      "category": "금융·결제",
+      "folder": "_clients/goldman-sachs",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "goldmansachs.com",
+      "website": "goldmansachs.com"
+    },
+    {
+      "id": "audi",
+      "name_ko": "아우디",
+      "name_en": "Audi",
+      "category": "자동차",
+      "folder": "_clients/audi",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "audi.com",
+      "website": "audi.com"
+    },
+    {
+      "id": "porsche",
+      "name_ko": "포르쉐",
+      "name_en": "Porsche",
+      "category": "자동차",
+      "folder": "_clients/porsche",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "porsche.com",
+      "website": "porsche.com"
+    },
+    {
+      "id": "volvo",
+      "name_ko": "볼보",
+      "name_en": "Volvo",
+      "category": "자동차",
+      "folder": "_clients/volvo",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "volvo.com",
+      "website": "volvo.com"
+    },
+    {
+      "id": "lamborghini",
+      "name_ko": "람보르기니",
+      "name_en": "Lamborghini",
+      "category": "자동차",
+      "folder": "_clients/lamborghini",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "lamborghini.com",
+      "website": "lamborghini.com"
+    },
+    {
+      "id": "ferrari",
+      "name_ko": "페라리",
+      "name_en": "Ferrari",
+      "category": "자동차",
+      "folder": "_clients/ferrari",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "ferrari.com",
+      "website": "ferrari.com"
+    },
+    {
+      "id": "lucidmotors",
+      "name_ko": "루시드 모터스",
+      "name_en": "Lucid Motors",
+      "category": "자동차",
+      "folder": "_clients/lucidmotors",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "lucidmotors.com",
+      "website": "lucidmotors.com"
+    },
+    {
+      "id": "sony",
+      "name_ko": "소니",
+      "name_en": "Sony",
+      "category": "전자/IT",
+      "folder": "_clients/sony",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "sony.com",
+      "website": "sony.com"
+    },
+    {
+      "id": "xiaomi",
+      "name_ko": "샤오미",
+      "name_en": "Xiaomi",
+      "category": "전자/IT",
+      "folder": "_clients/xiaomi",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "mi.com",
+      "website": "mi.com"
+    },
+    {
+      "id": "asus",
+      "name_ko": "아수스",
+      "name_en": "ASUS",
+      "category": "전자/IT",
+      "folder": "_clients/asus",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "asus.com",
+      "website": "asus.com"
+    },
+    {
+      "id": "lenovo",
+      "name_ko": "레노버",
+      "name_en": "Lenovo",
+      "category": "전자/IT",
+      "folder": "_clients/lenovo",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "lenovo.com",
+      "website": "lenovo.com"
+    },
+    {
+      "id": "dell",
+      "name_ko": "델",
+      "name_en": "Dell",
+      "category": "전자/IT",
+      "folder": "_clients/dell",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "dell.com",
+      "website": "dell.com"
+    },
+    {
+      "id": "snapchat",
+      "name_ko": "스냅챗",
+      "name_en": "Snapchat",
+      "category": "소셜미디어",
+      "folder": "_clients/snapchat",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "snapchat.com",
+      "website": "snapchat.com"
+    },
+    {
+      "id": "epicgames",
+      "name_ko": "에픽게임즈",
+      "name_en": "Epic Games",
+      "category": "게임",
+      "folder": "_clients/epicgames",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "epicgames.com",
+      "website": "epicgames.com"
+    },
+    {
+      "id": "roblox",
+      "name_ko": "로블록스",
+      "name_en": "Roblox",
+      "category": "게임",
+      "folder": "_clients/roblox",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "roblox.com",
+      "website": "roblox.com"
+    },
+    {
+      "id": "unreal-engine",
+      "name_ko": "언리얼 엔진",
+      "name_en": "Unreal Engine",
+      "category": "게임",
+      "folder": "_clients/unreal-engine",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "unrealengine.com",
+      "website": "unrealengine.com"
+    },
+    {
+      "id": "mistralai",
+      "name_ko": "미스트랄 AI",
+      "name_en": "Mistral AI",
+      "category": "AI·머신러닝",
+      "folder": "_clients/mistralai",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "mistral.ai",
+      "website": "mistral.ai"
+    },
+    {
+      "id": "alibaba",
+      "name_ko": "알리바바",
+      "name_en": "Alibaba",
+      "category": "전자/IT",
+      "folder": "_clients/alibaba",
+      "logo_svg": "logo.svg",
+      "svg_source": "simple-icons",
+      "logo_png": false,
+      "dark_variant": null,
+      "sources": [],
+      "added_at": "2026-08-05",
+      "domain": "alibaba.com",
+      "website": "alibaba.com"
     }
   ],
   "generated_at": "2026-07-27",

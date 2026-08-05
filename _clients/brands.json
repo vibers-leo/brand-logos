@@ -101584,6 +101584,70 @@
         "깃발",
         "Africa"
       ]
+    },
+    {
+      "id": "jaguar",
+      "name_ko": "재규어",
+      "name_en": "Jaguar",
+      "category": "자동차",
+      "logo_svg": false,
+      "logo_png": true,
+      "added_at": "2026-08-05",
+      "sources": [
+        {
+          "provider": "project-scan",
+          "file": "logo_jaguar.png",
+          "label": "프로젝트 에셋"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-benz",
+      "name_ko": "메르세데스-벤츠",
+      "name_en": "Mercedes-Benz",
+      "category": "자동차",
+      "logo_svg": false,
+      "logo_png": true,
+      "added_at": "2026-08-05",
+      "sources": [
+        {
+          "provider": "project-scan",
+          "file": "logo_benz.png",
+          "label": "프로젝트 에셋"
+        }
+      ]
+    },
+    {
+      "id": "vw",
+      "name_ko": "폭스바겐 VW",
+      "name_en": "Volkswagen VW",
+      "category": "자동차",
+      "logo_svg": false,
+      "logo_png": true,
+      "added_at": "2026-08-05",
+      "sources": [
+        {
+          "provider": "project-scan",
+          "file": "logo_vw.png",
+          "label": "프로젝트 에셋"
+        }
+      ]
+    },
+    {
+      "id": "general-motors-gm",
+      "name_ko": "제너럴 모터스 GM",
+      "name_en": "General Motors GM",
+      "category": "자동차",
+      "logo_svg": false,
+      "logo_png": true,
+      "added_at": "2026-08-05",
+      "sources": [
+        {
+          "provider": "project-scan",
+          "file": "logo_gm.png",
+          "label": "프로젝트 에셋"
+        }
+      ]
     }
   ],
   "generated_at": "2026-07-27",

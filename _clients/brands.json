@@ -139,23 +139,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "lg-energy",
-      "name_ko": "LG에너지솔루션",
-      "name_en": "LG Energy Solution",
-      "category": "에너지·화학",
-      "folder": "_clients/lg-energy",
-      "website": "lgenergysolution.com",
-      "domain": "lgenergysolution.com",
-      "logo_svg": null,
-      "svg_source": null,
-      "logo_png": true,
-      "dark_variant": "white",
-      "sources": [],
-      "logo_quality_score": 788.0,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "sk",
       "name_ko": "SK",
       "name_en": "SK Group",
@@ -376,23 +359,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "hyundai-construction",
-      "name_ko": "현대건설",
-      "name_en": "Hyundai Engineering & Construction",
-      "category": "건설·부동산",
-      "folder": "_clients/hyundai-construction",
-      "website": "hdec.co.kr",
-      "domain": "hdec.co.kr",
-      "logo_svg": "logo.svg",
-      "svg_source": "simple-icons",
-      "logo_png": true,
-      "dark_variant": "transparent",
-      "sources": [],
-      "logo_quality_score": 64.1,
-      "logo_quality": "low",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "khnp",
       "name_ko": "한국수력원자력",
       "name_en": "Korea Hydro & Nuclear Power",
@@ -423,23 +389,6 @@
       "dark_variant": "white",
       "sources": [],
       "logo_quality_score": 2223.2,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "cheil",
-      "name_ko": "제일기획",
-      "name_en": "Cheil Worldwide",
-      "category": "미디어·엔터",
-      "folder": "_clients/cheil",
-      "website": "cheil.com",
-      "domain": "cheil.com",
-      "logo_svg": "logo.svg",
-      "svg_source": "inkscape-converted",
-      "logo_png": true,
-      "dark_variant": "white",
-      "sources": [],
-      "logo_quality_score": 2572.7,
       "logo_quality": "ok",
       "added_at": "2026-07-27"
     },
@@ -2484,28 +2433,6 @@
         }
       ],
       "logo_quality_score": 3010.9,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "hynix-logo",
-      "name_ko": "Hynix",
-      "name_en": "Hynix",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "source": "wikimedia:Hynix-Logo.svg",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "wikimedia",
-          "file": "logo.svg",
-          "label": "공식 SVG"
-        }
-      ],
-      "logo_quality_score": 671.9,
       "logo_quality": "ok",
       "added_at": "2026-07-27"
     },
@@ -9977,28 +9904,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "kakaoentertainment",
-      "name_ko": "카카오엔터",
-      "name_en": "카카오엔터",
-      "category": "미디어·엔터",
-      "domain": "kakaoentertainment.com",
-      "logo_svg": false,
-      "source": "logo.dev:kakaoentertainment.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 316.1,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "kakaopage",
       "name_ko": "카카오페이지",
       "name_en": "카카오페이지",
@@ -10334,28 +10239,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "cjenm",
-      "name_ko": "CJ ENM",
-      "name_en": "CJ ENM",
-      "category": "미디어·엔터",
-      "domain": "cjenm.com",
-      "logo_svg": false,
-      "source": "logo.dev:cjenm.com",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 795.7,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "wavve",
       "name_ko": "웨이브",
       "name_en": "웨이브",
@@ -10538,28 +10421,6 @@
         }
       ],
       "logo_quality_score": 969.0,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "tvn-co",
-      "name_ko": "tvN",
-      "name_en": "tvN",
-      "category": "미디어·엔터",
-      "domain": "tvn.co.kr",
-      "logo_svg": false,
-      "source": "logo.dev:tvn.co.kr",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 683.0,
       "logo_quality": "ok",
       "added_at": "2026-07-27"
     },
@@ -10984,28 +10845,6 @@
       ],
       "logo_quality_score": 87.1,
       "logo_quality": "low",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "hmm21",
-      "name_ko": "HMM",
-      "name_en": "HMM",
-      "category": "물류·교통",
-      "domain": "hmm21.com",
-      "logo_svg": false,
-      "source": "logo.dev:hmm21.com",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 781.9,
-      "logo_quality": "ok",
       "added_at": "2026-07-27"
     },
     {
@@ -12329,28 +12168,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "gsconst-co",
-      "name_ko": "GS건설",
-      "name_en": "GS건설",
-      "category": "건설·부동산",
-      "domain": "gsconst.co.kr",
-      "logo_svg": false,
-      "source": "logo.dev:gsconst.co.kr",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 37.2,
-      "logo_quality": "very_low",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "skecoplant",
       "name_ko": "SK에코플랜트",
       "name_en": "SK에코플랜트",
@@ -12634,28 +12451,6 @@
       ],
       "logo_quality_score": 924.3,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "oci-co",
-      "name_ko": "OCI",
-      "name_en": "OCI",
-      "category": "에너지·화학",
-      "domain": "oci.co.kr",
-      "logo_svg": false,
-      "source": "logo.dev:oci.co.kr",
-      "status": "raw",
-      "dark_variant": "transparent",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 86.6,
-      "logo_quality": "low",
       "added_at": "2026-07-27"
     },
     {
@@ -15268,28 +15063,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "ncloudplatform",
-      "name_ko": "네이버클라우드",
-      "name_en": "네이버클라우드",
-      "category": "IT·테크",
-      "domain": "ncloudplatform.com",
-      "logo_svg": false,
-      "source": "logo.dev:ncloudplatform.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 329.2,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "paik",
       "name_ko": "빽다방",
       "name_en": "빽다방",
@@ -15440,28 +15213,6 @@
         }
       ],
       "logo_quality_score": 229.7,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "koreacrescentresearch",
-      "name_ko": "한국콜마",
-      "name_en": "한국콜마",
-      "category": "의료·바이오",
-      "domain": "koreacrescentresearch.com",
-      "logo_svg": false,
-      "source": "logo.dev:koreacrescentresearch.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 318.1,
       "logo_quality": "ok",
       "added_at": "2026-07-27"
     },
@@ -17424,28 +17175,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "kyobolife-co",
-      "name_ko": "교보생명",
-      "name_en": "교보생명",
-      "category": "금융·결제",
-      "domain": "kyobolife.co.kr",
-      "logo_svg": false,
-      "source": "logo.dev:kyobolife.co.kr",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 318.1,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "hanwhalife",
       "name_ko": "한화생명",
       "name_en": "한화생명",
@@ -17597,28 +17326,6 @@
       ],
       "logo_quality_score": 665.4,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "dr-jart",
-      "name_ko": "닥터자르트",
-      "name_en": "닥터자르트",
-      "category": "뷰티·패션",
-      "domain": "dr.jart.com",
-      "logo_svg": false,
-      "source": "logo.dev:dr.jart.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 146.2,
-      "logo_quality": "low",
       "added_at": "2026-07-27"
     },
     {
@@ -18260,28 +17967,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "crownconfectionery",
-      "name_ko": "크라운제과",
-      "name_en": "크라운제과",
-      "category": "식품·음료",
-      "domain": "crownconfectionery.com",
-      "logo_svg": false,
-      "source": "logo.dev:crownconfectionery.com",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 229.7,
-      "logo_quality": "ok",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "ob-co",
       "name_ko": "OB맥주",
       "name_en": "OB맥주",
@@ -18389,28 +18074,6 @@
       ],
       "logo_quality_score": 13.1,
       "logo_quality": "very_low",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "cj-co",
-      "name_ko": "CJ",
-      "name_en": "CJ",
-      "category": "식품·음료",
-      "domain": "cj.co.kr",
-      "logo_svg": false,
-      "source": "logo.dev:cj.co.kr",
-      "status": "raw",
-      "dark_variant": "white",
-      "logo_png": true,
-      "sources": [
-        {
-          "provider": "logo.dev",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality_score": 138.0,
-      "logo_quality": "low",
       "added_at": "2026-07-27"
     },
     {
@@ -39698,30 +39361,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "internet-computer",
-      "name_ko": "Internet Computer",
-      "name_en": "Internet Computer",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:internet-computer",
-      "sources": [
-        {
-          "provider": "iconify:internet-computer",
-          "file": "sources/iconify/internet-computer.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:internet-computer-icon",
-          "file": "sources/iconify/internet-computer-icon.svg",
-          "label": "아이콘형"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "internetexplorer",
       "name_ko": "Internetexplorer",
       "name_en": "Internetexplorer",
@@ -43918,30 +43557,6 @@
         {
           "provider": "wvl:microsoft-azure",
           "file": "sources/wvl/microsoft-azure.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "microsoft-edge",
-      "name_ko": "Microsoft Edge",
-      "name_en": "Microsoft Edge",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:microsoft-edge",
-      "sources": [
-        {
-          "provider": "iconify:microsoft-edge",
-          "file": "sources/iconify/microsoft-edge.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:microsoft-edge",
-          "file": "sources/wvl/microsoft-edge.svg",
           "label": "컬러 심볼"
         }
       ],
@@ -52604,30 +52219,6 @@
           "provider": "wvl:shogun",
           "file": "sources/wvl/shogun.svg",
           "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "shortcut",
-      "name_ko": "Shortcut",
-      "name_en": "Shortcut",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "iconify:shortcut",
-      "sources": [
-        {
-          "provider": "iconify:shortcut",
-          "file": "sources/iconify/shortcut.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "iconify:shortcut-icon",
-          "file": "sources/iconify/shortcut-icon.svg",
-          "label": "아이콘형"
         }
       ],
       "dark_variant": "white",
@@ -65551,30 +65142,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "eta-lang",
-      "name_ko": "Eta",
-      "name_en": "Eta",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:eta",
-      "sources": [
-        {
-          "provider": "wvl:eta",
-          "file": "sources/wvl/eta.svg",
-          "label": "컬러 심볼"
-        },
-        {
-          "provider": "wvl:eta-icon",
-          "file": "sources/wvl/eta-icon.svg",
-          "label": "아이콘형"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "flink",
       "name_ko": "Flink",
       "name_en": "Flink",
@@ -65651,25 +65218,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "khan_academy",
-      "name_ko": "Khan Academy",
-      "name_en": "Khan Academy",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:khan_academy",
-      "sources": [
-        {
-          "provider": "wvl:khan_academy",
-          "file": "sources/wvl/khan_academy.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "lucene_net",
       "name_ko": "Lucene.net",
       "name_en": "Lucene.net",
@@ -65727,24 +65275,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "mLab",
-      "name_ko": "mLab",
-      "name_en": "mLab",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:mlab",
-      "sources": [
-        {
-          "provider": "wvl:mlab",
-          "file": "sources/wvl/mlab.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "nwjs",
       "name_ko": "NW.js a.k.a. Nodewebkit",
       "name_en": "NW.js a.k.a. Nodewebkit",
@@ -65776,81 +65306,6 @@
         {
           "provider": "wvl:observablehq",
           "file": "sources/wvl/observablehq.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "pivotal_tracker",
-      "name_ko": "Pivotal Tracker",
-      "name_en": "Pivotal Tracker",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:pivotal_tracker",
-      "sources": [
-        {
-          "provider": "wvl:pivotal_tracker",
-          "file": "sources/wvl/pivotal_tracker.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "Qwen",
-      "name_ko": "Qwen",
-      "name_en": "Qwen",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:qwen",
-      "sources": [
-        {
-          "provider": "wvl:qwen",
-          "file": "sources/wvl/qwen.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "riotjs",
-      "name_ko": "Riot",
-      "name_en": "Riot",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:riot",
-      "sources": [
-        {
-          "provider": "wvl:riot",
-          "file": "sources/wvl/riot.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "sectionio",
-      "name_ko": "Section",
-      "name_en": "Section",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:section",
-      "sources": [
-        {
-          "provider": "wvl:section",
-          "file": "sources/wvl/section.svg",
           "label": "컬러 심볼"
         }
       ],
@@ -65915,25 +65370,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "sketchapp",
-      "name_ko": "Sketch",
-      "name_en": "Sketch",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:sketch",
-      "sources": [
-        {
-          "provider": "wvl:sketch",
-          "file": "sources/wvl/sketch.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "transparent",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "socket_io",
       "name_ko": "Socket.io",
       "name_en": "Socket.io",
@@ -65946,25 +65382,6 @@
         {
           "provider": "wvl:socket.io",
           "file": "sources/wvl/socket.io.svg",
-          "label": "컬러 심볼"
-        }
-      ],
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
-    },
-    {
-      "id": "vector-timber",
-      "name_ko": "Vector",
-      "name_en": "Vector",
-      "category": "IT·테크",
-      "domain": "",
-      "logo_svg": true,
-      "logo_png": true,
-      "source": "wvl:vector",
-      "sources": [
-        {
-          "provider": "wvl:vector",
-          "file": "sources/wvl/vector.svg",
           "label": "컬러 심볼"
         }
       ],
@@ -66481,26 +65898,6 @@
       "added_at": "2026-07-27"
     },
     {
-      "id": "pika-labs",
-      "name_ko": "Pika",
-      "name_en": "Pika",
-      "category": "AI·머신러닝",
-      "domain": "pika.art",
-      "logo_svg": false,
-      "logo_png": true,
-      "source": "logo.dev:pika.art",
-      "sources": [
-        {
-          "provider": "logo.dev:pika.art",
-          "file": "logo.png",
-          "label": "실물형"
-        }
-      ],
-      "logo_quality": "ok",
-      "dark_variant": "white",
-      "added_at": "2026-07-27"
-    },
-    {
       "id": "leonardoai",
       "name_ko": "Leonardo AI",
       "name_en": "Leonardo AI",
@@ -66726,21 +66123,6 @@
       "dark_variant": "transparent"
     },
     {
-      "id": "huggingface",
-      "name_ko": "허깅페이스",
-      "name_en": "Hugging Face",
-      "category": "AI·머신러닝",
-      "folder": "_clients/huggingface",
-      "logo_svg": "logo.svg",
-      "svg_source": "simple-icons",
-      "logo_png": false,
-      "dark_variant": null,
-      "sources": [],
-      "added_at": "2026-08-05",
-      "domain": "huggingface.co",
-      "website": "huggingface.co"
-    },
-    {
       "id": "perplexityai",
       "name_ko": "퍼플렉시티",
       "name_en": "Perplexity AI",
@@ -66889,21 +66271,6 @@
       "added_at": "2026-08-05",
       "domain": "ripple.com",
       "website": "ripple.com"
-    },
-    {
-      "id": "american-express",
-      "name_ko": "아메리칸 익스프레스",
-      "name_en": "American Express",
-      "category": "금융·결제",
-      "folder": "_clients/american-express",
-      "logo_svg": "logo.svg",
-      "svg_source": "simple-icons",
-      "logo_png": false,
-      "dark_variant": null,
-      "sources": [],
-      "added_at": "2026-08-05",
-      "domain": "americanexpress.com",
-      "website": "americanexpress.com"
     },
     {
       "id": "revolut",
@@ -67189,21 +66556,6 @@
       "added_at": "2026-08-05",
       "domain": "unrealengine.com",
       "website": "unrealengine.com"
-    },
-    {
-      "id": "mistralai",
-      "name_ko": "미스트랄 AI",
-      "name_en": "Mistral AI",
-      "category": "AI·머신러닝",
-      "folder": "_clients/mistralai",
-      "logo_svg": "logo.svg",
-      "svg_source": "simple-icons",
-      "logo_png": false,
-      "dark_variant": null,
-      "sources": [],
-      "added_at": "2026-08-05",
-      "domain": "mistral.ai",
-      "website": "mistral.ai"
     },
     {
       "id": "alibaba",
@@ -69465,16 +68817,6 @@
       "logo_svg": true,
       "logo_png": true,
       "added_at": "2026-08-05"
-    },
-    {
-      "id": "backstage_casting",
-      "name_ko": "Backstage",
-      "name_en": "Backstage",
-      "category": "IT·테크",
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05",
-      "domain": "backstage.com"
     },
     {
       "id": "badoo",
@@ -76358,16 +75700,6 @@
       "domain": "graphite.dev"
     },
     {
-      "id": "graphite_editor",
-      "name_ko": "Graphite",
-      "name_en": "Graphite",
-      "category": "IT·테크",
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05",
-      "domain": "graphite.art"
-    },
-    {
       "id": "greasyfork",
       "name_ko": "Greasy Fork",
       "name_en": "Greasy Fork",
@@ -76728,16 +76060,6 @@
       "domain": "joinhandshake.com"
     },
     {
-      "id": "handshake_protocol",
-      "name_ko": "Handshake",
-      "name_en": "Handshake",
-      "category": "IT·테크",
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05",
-      "domain": "handshake.org"
-    },
-    {
       "id": "happycow",
       "name_ko": "HappyCow",
       "name_en": "HappyCow",
@@ -77069,16 +76391,6 @@
       "logo_png": true,
       "added_at": "2026-08-05",
       "domain": "hivehome.com"
-    },
-    {
-      "id": "hive_blockchain",
-      "name_ko": "Hive",
-      "name_en": "Hive",
-      "category": "IT·테크",
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05",
-      "domain": "hive.io"
     },
     {
       "id": "hivemq",
@@ -93111,19 +92423,6 @@
       "added_at": "2026-08-05"
     },
     {
-      "id": "aeron",
-      "name_ko": "Aeron",
-      "name_en": "Aeron",
-      "category": "금융·결제",
-      "tags": [
-        "cryptocurrency",
-        "ARNX"
-      ],
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05"
-    },
-    {
       "id": "block-array",
       "name_ko": "Block Array",
       "name_en": "Block Array",
@@ -96322,19 +95621,6 @@
       "added_at": "2026-08-05"
     },
     {
-      "id": "ost",
-      "name_ko": "OST",
-      "name_en": "OST",
-      "category": "금융·결제",
-      "tags": [
-        "cryptocurrency",
-        "OST"
-      ],
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05"
-    },
-    {
       "id": "ox-fina",
       "name_ko": "OX Fina",
       "name_en": "OX Fina",
@@ -96868,19 +96154,6 @@
       "added_at": "2026-08-05"
     },
     {
-      "id": "augur",
-      "name_ko": "Augur",
-      "name_en": "Augur",
-      "category": "금융·결제",
-      "tags": [
-        "cryptocurrency",
-        "REPV2"
-      ],
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05"
-    },
-    {
       "id": "request",
       "name_ko": "Request",
       "name_en": "Request",
@@ -97213,19 +96486,6 @@
       "tags": [
         "cryptocurrency",
         "SLS"
-      ],
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05"
-    },
-    {
-      "id": "smartcash",
-      "name_ko": "SmartCash",
-      "name_en": "SmartCash",
-      "category": "금융·결제",
-      "tags": [
-        "cryptocurrency",
-        "SMART"
       ],
       "logo_svg": true,
       "logo_png": true,
@@ -97973,19 +97233,6 @@
       "added_at": "2026-08-05"
     },
     {
-      "id": "veruscoin",
-      "name_ko": "VerusCoin",
-      "name_en": "VerusCoin",
-      "category": "금융·결제",
-      "tags": [
-        "cryptocurrency",
-        "VRSC"
-      ],
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05"
-    },
-    {
       "id": "vertcoin",
       "name_ko": "Vertcoin",
       "name_en": "Vertcoin",
@@ -98487,19 +97734,6 @@
       "tags": [
         "cryptocurrency",
         "ZEN"
-      ],
-      "logo_svg": true,
-      "logo_png": true,
-      "added_at": "2026-08-05"
-    },
-    {
-      "id": "zest",
-      "name_ko": "Zest",
-      "name_en": "Zest",
-      "category": "금융·결제",
-      "tags": [
-        "cryptocurrency",
-        "ZEST"
       ],
       "logo_svg": true,
       "logo_png": true,

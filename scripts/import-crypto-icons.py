@@ -118,7 +118,7 @@ def main():
             "id": brand_id,
             "name_ko": name,
             "name_en": name,
-            "category": "금융·결제",
+            "category": "암호화폐·블록체인",
             "tags": ["cryptocurrency", symbol.upper()],
             "logo_svg": True,
             "logo_png": png_ok,

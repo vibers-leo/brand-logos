@@ -1,5 +1,5 @@
 {
-  "total": 6505,
+  "total": 2752,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -108948,15 +108948,816 @@
       ]
     },
     {
-      "id": "hynix-logo",
-      "name_ko": "Hynix",
-      "name_en": "Hynix",
-      "category": "기업",
-      "domain": "",
+      "id": "kr-moef",
+      "name_ko": "기획재정부",
+      "name_en": "Ministry of Economy and Finance (Korea)",
+      "category": "정부·공공기관",
+      "subcategory": "한국정부",
+      "tags": [
+        "government",
+        "한국정부"
+      ],
       "logo_svg": true,
-      "source": "wikimedia:Hynix-Logo.svg",
-      "status": "raw",
-      "dark_variant": "transparent"
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ministry_of_Economy_and_Finance_of_the_Republic_of_Korea_Logo_%28horizontal%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ]
+    },
+    {
+      "id": "kr-moe",
+      "name_ko": "교육부",
+      "name_en": "Ministry of Education (Korea)",
+      "category": "정부·공공기관",
+      "subcategory": "한국정부",
+      "tags": [
+        "government",
+        "한국정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Emblem_of_the_Ministry_of_Education_%28South_Korea%29_%28English%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ]
+    },
+    {
+      "id": "kr-mcst",
+      "name_ko": "문화체육관광부",
+      "name_en": "Ministry of Culture, Sports and Tourism",
+      "category": "정부·공공기관",
+      "subcategory": "한국정부",
+      "tags": [
+        "government",
+        "한국정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Emblem_of_the_Ministry_of_Culture%2C_Sports_and_Tourism_%28English%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ]
+    },
+    {
+      "id": "kr-npa",
+      "name_ko": "경찰청",
+      "name_en": "Korean National Police Agency",
+      "category": "정부·공공기관",
+      "subcategory": "한국정부",
+      "tags": [
+        "government",
+        "한국정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Emblem_of_the_Korean_National_Police_Agency.svg"
+        }
+      ]
+    },
+    {
+      "id": "kr-korail",
+      "name_ko": "한국철도공사",
+      "name_en": "Korail",
+      "category": "정부·공공기관",
+      "subcategory": "한국공공기관",
+      "tags": [
+        "government",
+        "한국공공기관"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Korail_logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "kr-ulsan",
+      "name_ko": "울산광역시",
+      "name_en": "Ulsan Metropolitan City",
+      "category": "정부·공공기관",
+      "subcategory": "한국지자체",
+      "tags": [
+        "government",
+        "한국지자체"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Symbol_of_Ulsan.svg"
+        }
+      ]
+    },
+    {
+      "id": "un",
+      "name_ko": "국제연합",
+      "name_en": "United Nations",
+      "category": "정부·공공기관",
+      "subcategory": "국제기구",
+      "tags": [
+        "government",
+        "국제기구"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/UN_emblem_blue.svg"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "name_ko": "세계보건기구",
+      "name_en": "World Health Organization",
+      "category": "정부·공공기관",
+      "subcategory": "국제기구",
+      "tags": [
+        "government",
+        "국제기구"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/WHO_logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "unesco",
+      "name_ko": "유네스코",
+      "name_en": "UNESCO",
+      "category": "정부·공공기관",
+      "subcategory": "국제기구",
+      "tags": [
+        "government",
+        "국제기구"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/UNESCO_logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "oecd",
+      "name_ko": "경제협력개발기구",
+      "name_en": "OECD",
+      "category": "정부·공공기관",
+      "subcategory": "국제기구",
+      "tags": [
+        "government",
+        "국제기구"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/OECD_logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "fao",
+      "name_ko": "유엔식량농업기구",
+      "name_en": "Food and Agriculture Organization",
+      "category": "정부·공공기관",
+      "subcategory": "국제기구",
+      "tags": [
+        "government",
+        "국제기구"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/FAO_logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "us-nasa",
+      "name_ko": "나사",
+      "name_en": "NASA",
+      "category": "정부·공공기관",
+      "subcategory": "미국연방기관",
+      "tags": [
+        "government",
+        "미국연방기관"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "us-doj",
+      "name_ko": "미국 법무부",
+      "name_en": "United States Department of Justice",
+      "category": "정부·공공기관",
+      "subcategory": "미국연방기관",
+      "tags": [
+        "government",
+        "미국연방기관"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Seal_of_the_United_States_Department_of_Justice.svg"
+        }
+      ]
+    },
+    {
+      "id": "uk-nhs",
+      "name_ko": "영국 국민보건서비스",
+      "name_en": "National Health Service (UK)",
+      "category": "정부·공공기관",
+      "subcategory": "해외정부",
+      "tags": [
+        "government",
+        "해외정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/NHS_England_logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "in-gov",
+      "name_ko": "인도 정부",
+      "name_en": "Government of India",
+      "category": "정부·공공기관",
+      "subcategory": "해외정부",
+      "tags": [
+        "government",
+        "해외정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg"
+        }
+      ]
+    },
+    {
+      "id": "de-gov",
+      "name_ko": "독일 연방정부",
+      "name_en": "Federal Government of Germany",
+      "category": "정부·공공기관",
+      "subcategory": "해외정부",
+      "tags": [
+        "government",
+        "해외정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Coat_of_arms_of_Germany.svg"
+        }
+      ]
+    },
+    {
+      "id": "sg-gov",
+      "name_ko": "싱가포르 정부",
+      "name_en": "Government of Singapore",
+      "category": "정부·공공기관",
+      "subcategory": "해외정부",
+      "tags": [
+        "government",
+        "해외정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Coat_of_arms_of_Singapore.svg"
+        }
+      ]
+    },
+    {
+      "id": "ru-gov",
+      "name_ko": "러시아 정부",
+      "name_en": "Government of Russia",
+      "category": "정부·공공기관",
+      "subcategory": "해외정부",
+      "tags": [
+        "government",
+        "해외정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Coat_of_Arms_of_the_Russian_Federation.svg"
+        }
+      ]
+    },
+    {
+      "id": "br-gov",
+      "name_ko": "브라질 정부",
+      "name_en": "Government of Brazil",
+      "category": "정부·공공기관",
+      "subcategory": "해외정부",
+      "tags": [
+        "government",
+        "해외정부"
+      ],
+      "logo_svg": true,
+      "logo_png": false,
+      "added_at": "2026-08-06",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Coat_of_arms_of_Brazil.svg"
+        }
+      ]
+    },
+    {
+      "id": "kr-msit",
+      "name_ko": "과학기술정보통신부",
+      "name_en": "Ministry of Science and ICT (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mofa",
+      "name_ko": "외교부",
+      "name_en": "Ministry of Foreign Affairs (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-moj",
+      "name_ko": "법무부",
+      "name_en": "Ministry of Justice (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mod",
+      "name_ko": "국방부",
+      "name_en": "Ministry of National Defense (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mois",
+      "name_ko": "행정안전부",
+      "name_en": "Ministry of the Interior and Safety (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mafra",
+      "name_ko": "농림축산식품부",
+      "name_en": "Ministry of Agriculture, Food and Rural Affairs (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-motie",
+      "name_ko": "산업통상자원부",
+      "name_en": "Ministry of Trade, Industry and Energy (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mohw",
+      "name_ko": "보건복지부",
+      "name_en": "Ministry of Health and Welfare (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-me",
+      "name_ko": "환경부",
+      "name_en": "Ministry of Environment (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-moel",
+      "name_ko": "고용노동부",
+      "name_en": "Ministry of Employment and Labor (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mogef",
+      "name_ko": "여성가족부",
+      "name_en": "Ministry of Gender Equality and Family (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-molit",
+      "name_ko": "국토교통부",
+      "name_en": "Ministry of Land, Infrastructure and Transport (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mof",
+      "name_ko": "해양수산부",
+      "name_en": "Ministry of Oceans and Fisheries (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-smba",
+      "name_ko": "중소벤처기업부",
+      "name_en": "Ministry of SMEs and Startups (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-mofu",
+      "name_ko": "통일부",
+      "name_en": "Ministry of Unification (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-nts",
+      "name_ko": "국세청",
+      "name_en": "National Tax Service Korea",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-customs",
+      "name_ko": "관세청",
+      "name_en": "Korea Customs Service",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-spo",
+      "name_ko": "검찰청",
+      "name_en": "Prosecution Service of Korea",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-kftc",
+      "name_ko": "공정거래위원회",
+      "name_en": "Korea Fair Trade Commission",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-fsc",
+      "name_ko": "금융위원회",
+      "name_en": "Financial Services Commission (Korea)",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-kepco",
+      "name_ko": "한국전력공사",
+      "name_en": "KEPCO",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-incheon",
+      "name_ko": "인천광역시",
+      "name_en": "Incheon Metropolitan City",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-busan",
+      "name_ko": "부산광역시",
+      "name_en": "Busan Metropolitan City",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "kr-gyeonggi",
+      "name_ko": "경기도",
+      "name_en": "Gyeonggi Province",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "unicef",
+      "name_ko": "유니세프",
+      "name_en": "UNICEF",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "wto",
+      "name_ko": "세계무역기구",
+      "name_en": "World Trade Organization",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "world-bank",
+      "name_ko": "세계은행",
+      "name_en": "World Bank",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "icc",
+      "name_ko": "국제형사재판소",
+      "name_en": "International Criminal Court",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "iaea",
+      "name_ko": "국제원자력기구",
+      "name_en": "International Atomic Energy Agency",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "icrc",
+      "name_ko": "국제적십자위원회",
+      "name_en": "International Committee of the Red Cross",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "unhcr",
+      "name_ko": "유엔난민기구",
+      "name_en": "UNHCR",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "wipo",
+      "name_ko": "세계지식재산기구",
+      "name_en": "WIPO",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "opec",
+      "name_ko": "석유수출국기구",
+      "name_en": "OPEC",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "nato",
+      "name_ko": "나토",
+      "name_en": "NATO",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "eu",
+      "name_ko": "유럽연합",
+      "name_en": "European Union",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-fbi",
+      "name_ko": "FBI",
+      "name_en": "Federal Bureau of Investigation",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-cia",
+      "name_ko": "CIA",
+      "name_en": "Central Intelligence Agency",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-nsa",
+      "name_ko": "NSA",
+      "name_en": "National Security Agency",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-dod",
+      "name_ko": "미국 국방부",
+      "name_en": "United States Department of Defense",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-state",
+      "name_ko": "미국 국무부",
+      "name_en": "United States Department of State",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-fda",
+      "name_ko": "미국 식품의약국",
+      "name_en": "U.S. Food and Drug Administration",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-cdc",
+      "name_ko": "미국 질병통제예방센터",
+      "name_en": "Centers for Disease Control and Prevention",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-epa",
+      "name_ko": "미국 환경보호청",
+      "name_en": "United States Environmental Protection Agency",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "us-irs",
+      "name_ko": "미국 국세청",
+      "name_en": "Internal Revenue Service",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "de-bundestag",
+      "name_ko": "독일 연방의회",
+      "name_en": "Bundestag",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "jp-mofa",
+      "name_ko": "일본 외무성",
+      "name_en": "Ministry of Foreign Affairs of Japan",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "fr-gov",
+      "name_ko": "프랑스 정부",
+      "name_en": "Government of France",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
+    },
+    {
+      "id": "ca-gov",
+      "name_ko": "캐나다 정부",
+      "name_en": "Government of Canada",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": false,
+      "source": "wikimedia-commons"
     }
   ],
   "generated_at": "2026-07-27",

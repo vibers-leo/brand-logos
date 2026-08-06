@@ -109005,7 +109005,8 @@
           "provider": "wikimedia",
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Emblem_of_the_Ministry_of_Culture%2C_Sports_and_Tourism_%28English%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
         }
-      ]
+      ],
+      "has_svg": true
     },
     {
       "id": "kr-npa",
@@ -109065,7 +109066,8 @@
           "provider": "wikimedia",
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Symbol_of_Ulsan.svg"
         }
-      ]
+      ],
+      "has_svg": true
     },
     {
       "id": "un",
@@ -109145,7 +109147,8 @@
           "provider": "wikimedia",
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/OECD_logo.svg"
         }
-      ]
+      ],
+      "has_svg": true
     },
     {
       "id": "fao",
@@ -109165,7 +109168,8 @@
           "provider": "wikimedia",
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/FAO_logo.svg"
         }
-      ]
+      ],
+      "has_svg": true
     },
     {
       "id": "us-nasa",
@@ -109205,27 +109209,8 @@
           "provider": "wikimedia",
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Seal_of_the_United_States_Department_of_Justice.svg"
         }
-      ]
-    },
-    {
-      "id": "uk-nhs",
-      "name_ko": "영국 국민보건서비스",
-      "name_en": "National Health Service (UK)",
-      "category": "정부·공공기관",
-      "subcategory": "해외정부",
-      "tags": [
-        "government",
-        "해외정부"
       ],
-      "logo_svg": true,
-      "logo_png": false,
-      "added_at": "2026-08-06",
-      "sources": [
-        {
-          "provider": "wikimedia",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/NHS_England_logo.svg"
-        }
-      ]
+      "has_svg": true
     },
     {
       "id": "in-gov",
@@ -109245,47 +109230,8 @@
           "provider": "wikimedia",
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg"
         }
-      ]
-    },
-    {
-      "id": "de-gov",
-      "name_ko": "독일 연방정부",
-      "name_en": "Federal Government of Germany",
-      "category": "정부·공공기관",
-      "subcategory": "해외정부",
-      "tags": [
-        "government",
-        "해외정부"
       ],
-      "logo_svg": true,
-      "logo_png": false,
-      "added_at": "2026-08-06",
-      "sources": [
-        {
-          "provider": "wikimedia",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Coat_of_arms_of_Germany.svg"
-        }
-      ]
-    },
-    {
-      "id": "sg-gov",
-      "name_ko": "싱가포르 정부",
-      "name_en": "Government of Singapore",
-      "category": "정부·공공기관",
-      "subcategory": "해외정부",
-      "tags": [
-        "government",
-        "해외정부"
-      ],
-      "logo_svg": true,
-      "logo_png": false,
-      "added_at": "2026-08-06",
-      "sources": [
-        {
-          "provider": "wikimedia",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Coat_of_arms_of_Singapore.svg"
-        }
-      ]
+      "has_svg": true
     },
     {
       "id": "ru-gov",

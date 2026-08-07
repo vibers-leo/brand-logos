@@ -105400,7 +105400,7 @@
       "name_ko": "Macos",
       "name_en": "Macos",
       "category": "IT·테크",
-      "logo_svg": true,
+      "logo_svg": "logo.svg",
       "logo_png": false,
       "added_at": "2026-08-06",
       "sources": [
@@ -105409,7 +105409,8 @@
           "file": "macOS.svg",
           "label": "gilbarbara/logos"
         }
-      ]
+      ],
+      "svg_source": "worldvectorlogo/macos"
     },
     {
       "id": "mailgun-icon",

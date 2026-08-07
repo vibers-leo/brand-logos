@@ -32,6 +32,9 @@ jobs:
           GIT_COMMITTER_NAME: "vibers-bot"
           GIT_COMMITTER_EMAIL: "vibers.leo@gmail.com"
 
+      - name: 에셋 무결성 검사
+        run: python3 scripts/check-assets.py
+
       - name: 결과 요약
         run: |
           echo "### 수집 결과" >> $GITHUB_STEP_SUMMARY

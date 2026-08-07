@@ -110880,6 +110880,492 @@
       "source": "wikimedia:Hynix-Logo.svg",
       "status": "raw",
       "dark_variant": "transparent"
+    },
+    {
+      "id": "sktelecom",
+      "name_ko": "SK텔레콤",
+      "name_en": "SK Telecom",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "att",
+      "name_ko": "AT&T",
+      "name_en": "AT&T",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "tmobile",
+      "name_ko": "T-Mobile",
+      "name_en": "T-Mobile",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "chinamobile",
+      "name_ko": "차이나모바일",
+      "name_en": "China Mobile",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "softbank",
+      "name_ko": "소프트뱅크",
+      "name_en": "SoftBank",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "docomo",
+      "name_ko": "NTT 도코모",
+      "name_en": "NTT Docomo",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "sprint",
+      "name_ko": "스프린트",
+      "name_en": "Sprint",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "rogers",
+      "name_ko": "로저스",
+      "name_en": "Rogers",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "telstra",
+      "name_ko": "텔스트라",
+      "name_en": "Telstra",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "singtel",
+      "name_ko": "싱텔",
+      "name_en": "Singtel",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "comcast",
+      "name_ko": "컴캐스트",
+      "name_en": "Comcast",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "charter",
+      "name_ko": "차터커뮤니케이션",
+      "name_en": "Charter Communications",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "xfinity",
+      "name_ko": "엑스피니티",
+      "name_en": "Xfinity",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "btgroup",
+      "name_ko": "BT 그룹",
+      "name_en": "BT Group",
+      "category": "통신",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "hyatt",
+      "name_ko": "하얏트",
+      "name_en": "Hyatt",
+      "category": "호텔·여행",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "accor",
+      "name_ko": "아코르",
+      "name_en": "Accor",
+      "category": "호텔·여행",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "fourseasons",
+      "name_ko": "포시즌스",
+      "name_en": "Four Seasons",
+      "category": "호텔·여행",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "wyndham",
+      "name_ko": "윈덤",
+      "name_en": "Wyndham",
+      "category": "호텔·여행",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "bestwestern",
+      "name_ko": "베스트웨스턴",
+      "name_en": "Best Western",
+      "category": "호텔·여행",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "radisson",
+      "name_ko": "래디슨",
+      "name_en": "Radisson",
+      "category": "호텔·여행",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "subway",
+      "name_ko": "서브웨이",
+      "name_en": "Subway",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "pizzahut",
+      "name_ko": "피자헛",
+      "name_en": "Pizza Hut",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "dominos",
+      "name_ko": "도미노피자",
+      "name_en": "Domino's",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "wendys",
+      "name_ko": "웬디스",
+      "name_en": "Wendy's",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "popeyes",
+      "name_ko": "파파이스",
+      "name_en": "Popeyes",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "pepsi",
+      "name_ko": "펩시",
+      "name_en": "Pepsi",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "heineken",
+      "name_ko": "하이네켄",
+      "name_en": "Heineken",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "budweiser",
+      "name_ko": "버드와이저",
+      "name_en": "Budweiser",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "carlsberg",
+      "name_ko": "칼스버그",
+      "name_en": "Carlsberg",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "corona",
+      "name_ko": "코로나",
+      "name_en": "Corona",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "guinness",
+      "name_ko": "기네스",
+      "name_en": "Guinness",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "jacobs",
+      "name_ko": "야콥스",
+      "name_en": "Jacobs Coffee",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "nestle",
+      "name_ko": "네슬레",
+      "name_en": "Nestlé",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "heinz",
+      "name_ko": "하인즈",
+      "name_en": "Heinz",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "campbells",
+      "name_ko": "캠벨",
+      "name_en": "Campbell's",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "kraft",
+      "name_ko": "크래프트",
+      "name_en": "Kraft",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "dunkindonuts",
+      "name_ko": "던킨도너츠",
+      "name_en": "Dunkin'",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "baskinrobbins",
+      "name_ko": "배스킨라빈스",
+      "name_en": "Baskin-Robbins",
+      "category": "식음료",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "pfizer",
+      "name_ko": "화이자",
+      "name_en": "Pfizer",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "moderna",
+      "name_ko": "모더나",
+      "name_en": "Moderna",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "astrazeneca",
+      "name_ko": "아스트라제네카",
+      "name_en": "AstraZeneca",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "johnson",
+      "name_ko": "존슨앤존슨",
+      "name_en": "Johnson & Johnson",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "roche",
+      "name_ko": "로슈",
+      "name_en": "Roche",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "novartis",
+      "name_ko": "노바티스",
+      "name_en": "Novartis",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "bayer",
+      "name_ko": "바이엘",
+      "name_en": "Bayer",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "sanofi",
+      "name_ko": "사노피",
+      "name_en": "Sanofi",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "amgen",
+      "name_ko": "암젠",
+      "name_en": "Amgen",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "biogen",
+      "name_ko": "바이오젠",
+      "name_en": "Biogen",
+      "category": "헬스케어",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "homedepo",
+      "name_ko": "홈디포",
+      "name_en": "Home Depot",
+      "category": "유통·리테일",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "lowes",
+      "name_ko": "로우스",
+      "name_en": "Lowe's",
+      "category": "유통·리테일",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "cvs",
+      "name_ko": "CVS",
+      "name_en": "CVS Pharmacy",
+      "category": "유통·리테일",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "walgreens",
+      "name_ko": "월그린스",
+      "name_en": "Walgreens",
+      "category": "유통·리테일",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "hm-retail",
+      "name_ko": "H&M",
+      "name_en": "H&M",
+      "category": "유통·리테일",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
+    },
+    {
+      "id": "oasis-market",
+      "name_ko": "오아시스마켓",
+      "name_en": "Oasis Market",
+      "category": "유통·리테일",
+      "logo_svg": "logo.svg",
+      "logo_png": "",
+      "svg_source": "curated"
     }
   ],
   "generated_at": "2026-07-27",

@@ -35,6 +35,9 @@ jobs:
       - name: 변형 매니페스트 갱신
         run: python3 scripts/build-logo-variants.py
 
+      - name: 밝은 로고 판정 갱신
+        run: python3 scripts/scan-light-logos.py
+
       - name: brands-slim 재생성
         run: python3 scripts/build-slim.py
 
@@ -49,7 +52,7 @@ jobs:
           git config user.email "vibers.leo@gmail.com"
           git add _clients/*/variants.json _clients/*/variants \
                   _clients/variants-index.json _clients/brands-slim.json \
-                  _clients/variant-wanted.json 2>/dev/null || true
+                  _clients/brands.json _clients/variant-wanted.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변형 산출물 변경 없음"
           else

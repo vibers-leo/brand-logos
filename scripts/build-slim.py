@@ -49,17 +49,11 @@ def build() -> list:
     # 흰색 로고는 밝은 카드 배경에서 안 보인다 → 목록이 '빈 카드'처럼 보인다.
     # 매니페스트의 대표 변형 색상이 mono-light 인 브랜드를 표시해두면
     # 그리드가 그 카드만 어두운 배경으로 그릴 수 있다.
-    light: set[str] = set()
-    for mp in BASE.glob("*/variants.json"):
-        try:
-            m = json.loads(mp.read_text())
-        except Exception:
-            continue
-        pk = m.get("primary")
-        for v in m.get("variants", []):
-            if v.get("key") == pk and v.get("color") == "mono-light":
-                light.add(mp.parent.name)
-                break
+    # 판정 기준은 채도가 아니라 **밝기**다. 채도로 보면 컬러 요소가 섞인
+    # 로고가 'color' 로 나와서 흰 글자가 안 보이는 걸 놓친다.
+    # brands.json 의 light_logo 는 SVG 를 실제 렌더해 잉크의 40% 이상이
+    # 아주 밝은지(luma>235) 재서 붙인 값이다 (scripts 로 재계산 가능).
+    light: set[str] = {b["id"] for b in brands if b.get("light_logo")}
 
     out = []
     for b in brands:

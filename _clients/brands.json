@@ -1,5 +1,5 @@
 {
-  "total": 6823,
+  "total": 6822,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -115528,13 +115528,25 @@
     {
       "id": "ibk",
       "name_ko": "IBK기업은행",
-      "name_en": "IBK Industrial Bank",
+      "name_en": "IBK",
       "category": "금융·결제",
-      "logo_svg": "logo.svg",
+      "logo_svg": true,
       "logo_png": true,
-      "svg_source": "finance-kr-curated",
-      "dark_variant": "white",
-      "has_png": true
+      "svg_source": "official:ibk.co.kr",
+      "dark_variant": "transparent",
+      "has_png": true,
+      "domain": "ibk.co.kr",
+      "has_svg": true,
+      "lang": "ko",
+      "sources": [
+        {
+          "provider": "official:ibk.co.kr",
+          "file": "logo.svg",
+          "label": "공식 SVG (AI 원본 벡터 추출)"
+        }
+      ],
+      "added_at": "2026-08-08",
+      "note": "IBK 공식 CI(.ai)에서 벡터 추출. 이전 logo.svg는 무관한 로고였음"
     },
     {
       "id": "oxford",
@@ -117011,6 +117023,30 @@
       "svg_source": "news-curated",
       "dark_variant": "transparent",
       "has_png": true
+    },
+    {
+      "id": "ibk-en",
+      "name_ko": "IBK기업은행 (영문)",
+      "name_en": "Industrial Bank of Korea",
+      "category": "금융·결제",
+      "domain": "ibk.co.kr",
+      "logo_svg": true,
+      "has_svg": true,
+      "logo_png": true,
+      "has_png": true,
+      "svg_source": "official:ibk.co.kr",
+      "dark_variant": "transparent",
+      "lang": "en",
+      "lang_of": "ibk",
+      "sources": [
+        {
+          "provider": "official:ibk.co.kr",
+          "file": "logo.svg",
+          "label": "공식 SVG (AI 원본 벡터 추출)"
+        }
+      ],
+      "added_at": "2026-08-08",
+      "note": "IBK 공식 CI(.ai)의 영문 로크업. 국문판은 ibk"
     }
   ],
   "generated_at": "2026-07-27",

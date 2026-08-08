@@ -1,7 +1,7 @@
 {
   "note": "worldvectorlogo 단일 소스·id를 slug로 그대로 사용해 실패한 목록. SVG 부재 확정 아님 — 재수집 타겟.",
   "generated_at": "2026-08-07",
-  "count": 521,
+  "count": 522,
   "brands": [
     {
       "id": "mcdfit-co",
@@ -4691,6 +4691,16 @@
       "domain": "",
       "failed_source": "unknown-html",
       "failed_at": "2026-08-07"
+    },
+    {
+      "id": "southwest",
+      "name_ko": "사우스웨스트항공",
+      "name_en": "Southwest Airlines",
+      "category": "",
+      "domain": "",
+      "failed_source": "broken-asset",
+      "note": "SVG에 래스터 내장으로 렌더 불가 + PNG도 백지. 원본 재수집 필요",
+      "failed_at": "2026-08-08"
     }
   ]
 }

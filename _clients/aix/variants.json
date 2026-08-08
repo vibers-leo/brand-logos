@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aix",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "db4db5454af2c838",
+  "sources/iconify/aix.svg": "db4db5454af2c838",
+  "sources/wvl/aix.svg": "e06a872d6b50a5a6"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.481,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aix.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aix.svg"
+    }
+   ]
+  }
+ ]
+}

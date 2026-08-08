@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-ec2",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "6a176cbf3d9f4cc7",
+  "sources/iconify/aws-ec2.svg": "6a176cbf3d9f4cc7",
+  "sources/wvl/aws-ec2.svg": "adb06f780b47be8b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-ec2.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-ec2.svg"
+    }
+   ]
+  }
+ ]
+}

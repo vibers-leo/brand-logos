@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "appium",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2417d6b1a8d97583",
+  "sources/iconify/appium.svg": "2417d6b1a8d97583",
+  "sources/wvl/appium.svg": "d98aca6ca9d273f0"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/appium.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/appium.svg"
+    }
+   ]
+  }
+ ]
+}

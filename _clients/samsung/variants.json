@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "samsung",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "7b7615b10f578f0d",
+  "sources/iconify/samsung.svg": "fbcc4e39ca944187",
+  "sources/wvl/samsung.svg": "6b249faf180ea512"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/samsung.svg",
+    "png": "sources/iconify/samsung.png"
+   },
+   "aspect": 6.522,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/samsung.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.522,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

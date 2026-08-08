@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "perf-rocks",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "137511d3437fbc6f",
+  "sources/iconify/perf-rocks.svg": "137511d3437fbc6f",
+  "sources/wvl/perf-rocks.svg": "2422dfe384a662db"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.197,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/perf-rocks.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/perf-rocks.svg"
+    }
+   ]
+  }
+ ]
+}

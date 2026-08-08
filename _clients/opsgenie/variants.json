@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "opsgenie",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "15179ee78b9e9f46",
+  "sources/iconify/opsgenie.svg": "15179ee78b9e9f46",
+  "sources/wvl/opsgenie.svg": "fe423ffba520e70c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.84,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/opsgenie.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/opsgenie.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "feathersjs",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "664ab4607a9a08b0",
+  "sources/iconify/feathersjs.svg": "664ab4607a9a08b0",
+  "sources/devicons/feathersjs-original.svg": "b38a406bbf25d399",
+  "sources/wvl/feathersjs.svg": "66a6a8b7d3307a83"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/feathersjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/feathersjs.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/feathersjs-original.svg"
+    }
+   ]
+  }
+ ]
+}

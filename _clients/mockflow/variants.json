@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mockflow",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "f0b72a1e62242d87",
+  "sources/iconify/mockflow.svg": "f0b72a1e62242d87",
+  "sources/iconify/mockflow-icon.svg": "c9b6e114a3c28e96",
+  "sources/wvl/mockflow-icon.svg": "d15095b9a5699eb5",
+  "sources/wvl/mockflow.svg": "00cf91b04afdb4bb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mockflow-icon.svg",
+    "png": "sources/iconify/mockflow-icon.png"
+   },
+   "aspect": 1.168,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mockflow-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.667,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mockflow.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mockflow.svg"
+    }
+   ]
+  }
+ ]
+}

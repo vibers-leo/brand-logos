@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wakatime",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "322c5b3073870def",
+  "sources/iconify/wakatime.svg": "322c5b3073870def",
+  "sources/wvl/wakatime.svg": "e31a079b01dc6ee8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/wakatime.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/wakatime.svg"
+    }
+   ]
+  }
+ ]
+}

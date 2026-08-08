@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jsdelivr",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4e61cfcc34014c95",
+  "sources/iconify/jsdelivr.svg": "4e61cfcc34014c95",
+  "sources/wvl/jsdelivr.svg": "fd59dc4c6f82c307"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.938,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jsdelivr.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jsdelivr.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "less",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "47d9c605df01fa88",
+  "sources/iconify/less.svg": "47d9c605df01fa88",
+  "sources/devicons/less-plain-wordmark.svg": "c384a1461e3e676b",
+  "sources/wvl/less.svg": "7d598b1ea3a33bbf"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.195,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/less.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/less.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/less-plain-wordmark.svg"
+    }
+   ]
+  }
+ ]
+}

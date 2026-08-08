@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sanity",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "b18fb23460ceb8e5",
+  "sources/iconify/sanity.svg": "b18fb23460ceb8e5",
+  "sources/devicons/sanity-original.svg": "d95a35ed7bd7871b",
+  "sources/wvl/sanity.svg": "f1f9bdaf1e06289a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/sanity-original.svg",
+    "png": "sources/devicons/sanity-original.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.956,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sanity.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sanity.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lastfm",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "92f68c4346a6cc8a",
+  "sources/iconify/lastfm.svg": "92f68c4346a6cc8a",
+  "sources/wvl/lastfm.svg": "9a15068d952cb939"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.947,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/lastfm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lastfm.svg"
+    }
+   ]
+  }
+ ]
+}

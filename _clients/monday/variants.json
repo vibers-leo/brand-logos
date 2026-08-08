@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "monday",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2d83998774ebbee2",
+  "sources/iconify/monday.svg": "2d83998774ebbee2",
+  "sources/iconify/monday-icon.svg": "9b00c9354419bf05",
+  "sources/wvl/monday-icon.svg": "cf34ca0ffefbb635",
+  "sources/wvl/monday.svg": "5dfdf7f702ba7d95"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/monday-icon.svg",
+    "png": "sources/iconify/monday-icon.png"
+   },
+   "aspect": 1.659,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/monday-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.488,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/monday.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/monday.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

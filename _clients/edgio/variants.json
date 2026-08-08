@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "edgio",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2b14cee5f4a42c26",
+  "sources/iconify/edgio.svg": "2b14cee5f4a42c26",
+  "sources/iconify/edgio-icon.svg": "fd581d4edf6f4e39",
+  "sources/wvl/edgio-icon.svg": "b8c1da4355df46c5",
+  "sources/wvl/edgio.svg": "0d46acfa50939a7e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.414,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/edgio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/edgio.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/edgio-icon.svg",
+    "png": "sources/iconify/edgio-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/edgio-icon.svg"
+    }
+   ]
+  }
+ ]
+}

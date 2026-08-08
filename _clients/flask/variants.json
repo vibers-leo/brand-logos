@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "flask",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "68ce922b0fdff166",
+  "sources/iconify/flask.svg": "68ce922b0fdff166",
+  "sources/devicons/flask-original.svg": "d2e701b6ef48607d",
+  "sources/wvl/flask.svg": "a0682a9e38d2d424"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.778,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/flask.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/flask.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/flask-original.svg",
+    "png": "sources/devicons/flask-original.png"
+   },
+   "aspect": 1.121,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "flannel",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "1cb4982c1bd5052c",
+  "sources/iconify/flannel.svg": "1cb4982c1bd5052c",
+  "sources/wvl/flannel.svg": "35922accdc032ac5"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.538,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/flannel.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/flannel.svg"
+    }
+   ]
+  }
+ ]
+}

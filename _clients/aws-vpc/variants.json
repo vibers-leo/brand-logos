@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-vpc",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "92edbf013b8afebf",
+  "sources/iconify/aws-vpc.svg": "92edbf013b8afebf",
+  "sources/wvl/aws-vpc.svg": "a0a9dfb0db798590"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-vpc.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-vpc.svg"
+    }
+   ]
+  }
+ ]
+}

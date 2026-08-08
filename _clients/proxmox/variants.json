@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "proxmox",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "f03db6988b7dbdba",
+  "sources/devicons/proxmox-original.svg": "f03db6988b7dbdba"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.618,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/proxmox-original.svg"
+    }
+   ]
+  }
+ ]
+}

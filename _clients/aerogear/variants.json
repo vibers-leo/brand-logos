@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aerogear",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ea58829f328e30d8",
+  "sources/iconify/aerogear.svg": "ea58829f328e30d8",
+  "sources/wvl/aerogear.svg": "213698d4a230f781"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.196,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aerogear.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aerogear.svg"
+    }
+   ]
+  }
+ ]
+}

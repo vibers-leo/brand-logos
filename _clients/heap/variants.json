@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "heap",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "f196d6989859eeae",
+  "sources/iconify/heap.svg": "f196d6989859eeae",
+  "sources/iconify/heap-icon.svg": "fd05189c82a72f5d",
+  "sources/wvl/heap-icon.svg": "5342b0f04c1009d1",
+  "sources/wvl/heap.svg": "913030e1bde22c6b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.594,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/heap.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/heap.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/heap-icon.svg",
+    "png": "sources/iconify/heap-icon.png"
+   },
+   "aspect": 0.618,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/heap-icon.svg"
+    }
+   ]
+  }
+ ]
+}

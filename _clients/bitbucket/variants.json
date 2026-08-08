@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bitbucket",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "059a9dc992dd596a",
+  "sources/iconify/bitbucket.svg": "059a9dc992dd596a",
+  "sources/devicons/bitbucket-original.svg": "d59bc8c293355058",
+  "sources/wvl/bitbucket.svg": "dd3102d942bf239f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.114,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bitbucket.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bitbucket.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/bitbucket-original.svg"
+    }
+   ]
+  }
+ ]
+}

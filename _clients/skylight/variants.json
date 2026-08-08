@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "skylight",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c804cc71780cf4c5",
+  "sources/iconify/skylight.svg": "c804cc71780cf4c5",
+  "sources/wvl/skylight.svg": "7c5cc077e134a859"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.886,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/skylight.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/skylight.svg"
+    }
+   ]
+  }
+ ]
+}

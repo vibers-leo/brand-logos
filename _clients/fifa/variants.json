@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fifa",
+ "primary": "wordmark-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "56a3820eb924c112"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-mono-dark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.041,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

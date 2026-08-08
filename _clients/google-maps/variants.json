@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-maps",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "6d4e8f126baad962",
+  "sources/iconify/google-maps.svg": "6d4e8f126baad962",
+  "sources/wvl/google-maps.svg": "2c82a83eb5638da8"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.698,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-maps.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-maps.svg"
+    }
+   ]
+  }
+ ]
+}

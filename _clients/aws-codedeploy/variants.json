@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-codedeploy",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4a8103e01a8e8243",
+  "sources/iconify/aws-codedeploy.svg": "4a8103e01a8e8243",
+  "sources/wvl/aws-codedeploy.svg": "7bfb76726c3c2f46"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-codedeploy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-codedeploy.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "trpc",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "95be61b3220438b5",
+  "sources/iconify/trpc.svg": "95be61b3220438b5",
+  "sources/devicons/trpc-original.svg": "aaec76d535102a91",
+  "sources/wvl/trpc.svg": "706e0c3193907403"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.841,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/trpc.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/trpc.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/trpc-original.svg"
+    }
+   ]
+  }
+ ]
+}

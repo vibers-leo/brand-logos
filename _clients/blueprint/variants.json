@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "blueprint",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c0e014953a10688b",
+  "sources/iconify/blueprint.svg": "c0e014953a10688b",
+  "sources/wvl/blueprint.svg": "d4b0a1bddafc471f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.86,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/blueprint.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/blueprint.svg"
+    }
+   ]
+  }
+ ]
+}

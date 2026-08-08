@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dojo",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "c19bcbc7e1fda89c",
+  "sources/iconify/dojo.svg": "c19bcbc7e1fda89c",
+  "sources/iconify/dojo-icon.svg": "294370f0c090cf0f",
+  "sources/wvl/dojo-icon.svg": "c2cb7862145f9496",
+  "sources/wvl/dojo.svg": "d98f7b2a07fc9e00",
+  "sources/wvl/dojo-toolkit.svg": "f21424f1c976860a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/dojo-icon.svg",
+    "png": "sources/iconify/dojo-icon.png"
+   },
+   "aspect": 1.399,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dojo-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/wvl/dojo-toolkit.svg",
+    "png": "sources/wvl/dojo-toolkit.png"
+   },
+   "aspect": 2.146,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.494,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dojo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dojo.svg"
+    }
+   ]
+  }
+ ]
+}

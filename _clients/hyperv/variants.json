@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hyperv",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "6eae005470ad1bdc",
+  "sources/devicons/hyperv-original.svg": "6eae005470ad1bdc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.956,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/hyperv-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vyper",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "b4ac6fdb913e888e",
+  "sources/devicons/vyper-original.svg": "b4ac6fdb913e888e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.9,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vyper-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eslint-old",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "439fc4f6692d61fe",
+  "sources/iconify/eslint-old.svg": "439fc4f6692d61fe"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.972,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/eslint-old.svg"
+    }
+   ]
+  }
+ ]
+}

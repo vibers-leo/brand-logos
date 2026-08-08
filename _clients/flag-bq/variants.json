@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "flag-bq",
+ "primary": "horizontal-unknown-color",
+ "fingerprint": {
+  "logo.svg": "964c50933c5c741c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.333,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

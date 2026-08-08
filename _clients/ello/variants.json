@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ello",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "97fa078505cf0274",
+  "sources/iconify/ello.svg": "97fa078505cf0274",
+  "sources/wvl/ello.svg": "fb70b6b93abb8b71"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ello.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ello.svg"
+    }
+   ]
+  }
+ ]
+}

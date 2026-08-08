@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "botanalytics",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1d93514dd6d5e806",
+  "sources/iconify/botanalytics.svg": "1d93514dd6d5e806",
+  "sources/wvl/botanalytics.svg": "d1cdee6afa49b8b9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.856,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/botanalytics.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/botanalytics.svg"
+    }
+   ]
+  }
+ ]
+}

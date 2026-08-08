@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "opencollective",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "b36a6b2fc503edfb",
+  "sources/iconify/opencollective.svg": "b36a6b2fc503edfb",
+  "sources/wvl/opencollective.svg": "68bd388b1d951650"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.002,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/opencollective.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/opencollective.svg"
+    }
+   ]
+  }
+ ]
+}

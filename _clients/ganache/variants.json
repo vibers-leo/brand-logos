@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ganache",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "faa3e145cc9bef0b",
+  "sources/iconify/ganache.svg": "faa3e145cc9bef0b",
+  "sources/iconify/ganache-icon.svg": "9f7fa19597ea8058",
+  "sources/wvl/ganache-icon.svg": "0dbdebd32194f901",
+  "sources/wvl/ganache.svg": "57c9e22432e580c4"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.65,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ganache.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ganache.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/ganache-icon.svg",
+    "png": "sources/iconify/ganache-icon.png"
+   },
+   "aspect": 0.89,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ganache-icon.svg"
+    }
+   ]
+  }
+ ]
+}

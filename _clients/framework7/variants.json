@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "framework7",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "c7e2c964aba930aa",
+  "sources/iconify/framework7.svg": "c7e2c964aba930aa",
+  "sources/iconify/framework7-icon.svg": "7ae2beecf9628074",
+  "sources/devicons/framework7-original.svg": "99cf87fc0a33b68e",
+  "sources/wvl/framework7-icon.svg": "053d534a51b955be",
+  "sources/wvl/framework7.svg": "82a5728de016b376"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.863,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/framework7.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/framework7.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/framework7-icon.svg",
+    "png": "sources/iconify/framework7-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/framework7-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/framework7-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "simpleanalytics",
+ "primary": "symbol-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "a1ea52ba1c31f014"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-mono-dark",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.916,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

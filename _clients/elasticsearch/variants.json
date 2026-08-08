@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "elasticsearch",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9c055b8ebec64c8d",
+  "sources/iconify/elasticsearch.svg": "9c055b8ebec64c8d",
+  "sources/devicons/elasticsearch-original.svg": "5a80e3d0bbd625b8",
+  "sources/wvl/elasticsearch.svg": "ea50b6e5c723e023"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.891,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/elasticsearch.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/elasticsearch.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/elasticsearch-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xml",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "d44499d3f26a82bd",
+  "sources/devicons/xml-original.svg": "d44499d3f26a82bd"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.406,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/xml-original.svg"
+    }
+   ]
+  }
+ ]
+}

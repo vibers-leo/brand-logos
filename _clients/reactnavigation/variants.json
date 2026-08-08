@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "reactnavigation",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "16d14c52d6927a12",
+  "sources/devicons/reactnavigation-original.svg": "16d14c52d6927a12"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.982,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/reactnavigation-original.svg"
+    }
+   ]
+  }
+ ]
+}

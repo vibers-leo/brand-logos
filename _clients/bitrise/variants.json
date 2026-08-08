@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bitrise",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "9a839a1d7f42a0a8",
+  "sources/iconify/bitrise.svg": "9a839a1d7f42a0a8",
+  "sources/iconify/bitrise-icon.svg": "6b34f49f25558eff",
+  "sources/wvl/bitrise-icon.svg": "f07fbd38dee44683",
+  "sources/wvl/bitrise.svg": "878b82208ec37f11"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/bitrise-icon.svg",
+    "png": "sources/iconify/bitrise-icon.png"
+   },
+   "aspect": 1.219,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bitrise-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.462,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bitrise.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bitrise.svg"
+    }
+   ]
+  }
+ ]
+}

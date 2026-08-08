@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dong-ah-group",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "3e376470712c9572"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.287,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

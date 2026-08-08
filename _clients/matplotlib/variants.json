@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "matplotlib",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ffc88d649c32b90d",
+  "sources/iconify/matplotlib.svg": "ffc88d649c32b90d",
+  "sources/iconify/matplotlib-icon.svg": "1091611b8cedec4c",
+  "sources/devicons/matplotlib-original.svg": "2d47de56b5410893",
+  "sources/wvl/matplotlib-icon.svg": "cf48ed4e399d8356",
+  "sources/wvl/matplotlib.svg": "2a0941a3756a15b6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/matplotlib-icon.svg",
+    "png": "sources/iconify/matplotlib-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/matplotlib-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/matplotlib-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.972,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/matplotlib.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/matplotlib.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "drone",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "7401aa74faef04a2",
+  "sources/iconify/drone.svg": "7401aa74faef04a2",
+  "sources/iconify/drone-icon.svg": "eb383d7d6c141d84",
+  "sources/wvl/drone-icon.svg": "8b1665669d1bdae6",
+  "sources/wvl/drone.svg": "72854f3840be66f1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/drone-icon.svg",
+    "png": "sources/iconify/drone-icon.png"
+   },
+   "aspect": 1.003,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drone-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.782,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/drone.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drone.svg"
+    }
+   ]
+  }
+ ]
+}

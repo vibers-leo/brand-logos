@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "quobyte",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8cd78f78769bf35e",
+  "sources/iconify/quobyte.svg": "8cd78f78769bf35e",
+  "sources/wvl/quobyte.svg": "4a4f227ce4d8aca4"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/quobyte.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/quobyte.svg"
+    }
+   ]
+  }
+ ]
+}

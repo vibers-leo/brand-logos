@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-appsync",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a518efda5cadea91",
+  "sources/iconify/aws-appsync.svg": "a518efda5cadea91",
+  "sources/wvl/aws-appsync.svg": "d682b4f034d2f41b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-appsync.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-appsync.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "canjs",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8d1d84ae9d848e27",
+  "sources/iconify/canjs.svg": "8d1d84ae9d848e27",
+  "sources/wvl/canjs.svg": "0cc3407730f7efae"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.532,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/canjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/canjs.svg"
+    }
+   ]
+  }
+ ]
+}

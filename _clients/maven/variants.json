@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "maven",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "0b2833a6d1f2d6ee",
+  "sources/iconify/maven.svg": "0b2833a6d1f2d6ee",
+  "sources/devicons/maven-original.svg": "71cfe8227fac6bc2",
+  "sources/wvl/maven.svg": "8417c49f181289a6"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/maven-original.svg",
+    "png": "sources/devicons/maven-original.png"
+   },
+   "aspect": 0.749,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.719,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/maven.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/maven.svg"
+    }
+   ]
+  }
+ ]
+}

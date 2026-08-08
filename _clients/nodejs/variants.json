@@ -1,0 +1,71 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nodejs",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a53dc47094db7160",
+  "sources/iconify/nodejs.svg": "a53dc47094db7160",
+  "sources/iconify/nodejs-icon.svg": "c42eb3fa5125b57a",
+  "sources/devicons/nodejs-original.svg": "2ab20fb235d8f43c",
+  "sources/wvl/nodejs-icon.svg": "14fb2ee58e4afbc5",
+  "sources/wvl/nodejs-icon-alt.svg": "2136c62ac8e61561",
+  "sources/wvl/nodejs.svg": "769bbc4b27e83ca0"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.631,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nodejs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nodejs.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/nodejs-icon.svg",
+    "png": "sources/iconify/nodejs-icon.png"
+   },
+   "aspect": 0.887,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nodejs-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nodejs-icon-alt.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/nodejs-original.svg"
+    }
+   ]
+  }
+ ]
+}

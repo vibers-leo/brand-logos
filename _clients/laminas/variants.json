@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "laminas",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "08d1d65a40972d16",
+  "sources/devicons/laminas-original.svg": "08d1d65a40972d16"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.849,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/laminas-original.svg"
+    }
+   ]
+  }
+ ]
+}

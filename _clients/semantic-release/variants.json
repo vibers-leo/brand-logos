@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "semantic-release",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "1f9a8988cef97930",
+  "sources/iconify/semantic-release.svg": "1f9a8988cef97930",
+  "sources/wvl/semantic-release.svg": "c55d6c6a4afc084b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.868,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/semantic-release.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/semantic-release.svg"
+    }
+   ]
+  }
+ ]
+}

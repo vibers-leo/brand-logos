@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "galliumos",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "ad50598ea30d1fcf",
+  "sources/iconify/galliumos.svg": "ad50598ea30d1fcf",
+  "sources/wvl/galliumos.svg": "5b0ed886d3071690"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/galliumos.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/galliumos.svg"
+    }
+   ]
+  }
+ ]
+}

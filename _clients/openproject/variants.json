@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "openproject",
+ "primary": "symbol-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "c259805ec5d8d75d"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-mono-dark",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.03,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

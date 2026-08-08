@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "immutable",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "4094103162bbcd6b",
+  "sources/iconify/immutable.svg": "4094103162bbcd6b",
+  "sources/wvl/immutable.svg": "0a81d93f72a30432"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.087,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/immutable.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/immutable.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vulkan",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "b390f18033f0f2ba",
+  "sources/iconify/vulkan.svg": "b390f18033f0f2ba",
+  "sources/devicons/vulkan-original.svg": "576c2a2c1ef61dc9",
+  "sources/wvl/vulkan.svg": "55ed8d894d681b80"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.498,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vulkan.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vulkan.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vulkan-original.svg"
+    }
+   ]
+  }
+ ]
+}

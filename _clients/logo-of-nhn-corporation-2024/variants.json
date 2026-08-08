@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "logo-of-nhn-corporation-2024",
+ "primary": "wordmark-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "af5bc0c182bc8872"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-mono-dark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.246,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

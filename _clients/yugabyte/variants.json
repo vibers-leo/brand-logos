@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yugabyte",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "bad68de14ee2d516",
+  "sources/iconify/yugabyte.svg": "bad68de14ee2d516",
+  "sources/iconify/yugabyte-icon.svg": "fb63ddaccf103dbe",
+  "sources/wvl/yugabyte-icon.svg": "7b98b6368d6f9389",
+  "sources/wvl/yugabyte.svg": "b706aae2c633aba9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/yugabyte-icon.svg",
+    "png": "sources/iconify/yugabyte-icon.png"
+   },
+   "aspect": 1.1,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/yugabyte-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.438,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/yugabyte.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/yugabyte.svg"
+    }
+   ]
+  }
+ ]
+}

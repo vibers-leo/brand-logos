@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "samyang-holdings-corporation-2024",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "91f838ee4d4cae46"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.615,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

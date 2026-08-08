@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pfsense",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d208e3de87b375fc",
+  "sources/devicons/pfsense-original.svg": "d208e3de87b375fc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/pfsense-original.svg"
+    }
+   ]
+  }
+ ]
+}

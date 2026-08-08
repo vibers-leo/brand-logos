@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vitest",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0f6b8077d17c37da",
+  "sources/iconify/vitest.svg": "0f6b8077d17c37da",
+  "sources/devicons/vitest-original.svg": "ae2a415b03c5f46c",
+  "sources/wvl/vitest.svg": "44177c56ae6e9884"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.097,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vitest.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vitest.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vitest-original.svg"
+    }
+   ]
+  }
+ ]
+}

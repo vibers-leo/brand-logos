@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-optimize",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "05d7232f6e934e14",
+  "sources/iconify/google-optimize.svg": "05d7232f6e934e14",
+  "sources/wvl/google-optimize.svg": "ca68d2a7054483cc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.972,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-optimize.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-optimize.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "qlik",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "1b66e42e84056f30",
+  "sources/iconify/qlik.svg": "1b66e42e84056f30",
+  "sources/wvl/qlik.svg": "aafb6eb5481a847c"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.389,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/qlik.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/qlik.svg"
+    }
+   ]
+  }
+ ]
+}

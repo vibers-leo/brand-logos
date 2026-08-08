@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wellfound",
+ "primary": "horizontal-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8b24a69d9aa43168"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-mono-dark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.074,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "1995-2008",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "0a1c9e372a8ff259"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.463,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

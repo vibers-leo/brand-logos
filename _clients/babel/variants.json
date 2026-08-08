@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "babel",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "d09902bdce600e6d",
+  "sources/iconify/babel.svg": "d09902bdce600e6d",
+  "sources/devicons/babel-original.svg": "ab95eb3833342886",
+  "sources/wvl/babel.svg": "6b1f67a413ce0ce3"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.564,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/babel.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/babel.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/babel-original.svg"
+    }
+   ]
+  }
+ ]
+}

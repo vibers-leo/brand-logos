@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "netmarble",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "e12fff25ac33b3b4"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.844,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

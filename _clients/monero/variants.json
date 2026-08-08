@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "monero",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "925ba7d40de58b5d",
+  "sources/iconify/monero.svg": "925ba7d40de58b5d",
+  "sources/wvl/monero.svg": "075268d172fd48f3"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/monero.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/monero.svg"
+    }
+   ]
+  }
+ ]
+}

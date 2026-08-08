@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "grafana",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "61f839a6657c2687",
+  "sources/iconify/grafana.svg": "61f839a6657c2687",
+  "sources/devicons/grafana-original.svg": "c8d73553046d3db8",
+  "sources/wvl/grafana.svg": "ce2fc288ff528df4"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.92,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/grafana.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/grafana.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/grafana-original.svg"
+    }
+   ]
+  }
+ ]
+}

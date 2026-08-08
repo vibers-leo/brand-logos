@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "atomic",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2dc14c684c5ceab2",
+  "sources/iconify/atomic.svg": "2dc14c684c5ceab2",
+  "sources/iconify/atomic-icon.svg": "02a62192cc75d197",
+  "sources/wvl/atomic-icon.svg": "fe4d722bea5619f2",
+  "sources/wvl/atomic.svg": "22718173df5d7c28"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/atomic-icon.svg",
+    "png": "sources/iconify/atomic-icon.png"
+   },
+   "aspect": 1.109,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/atomic-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.233,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/atomic.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/atomic.svg"
+    }
+   ]
+  }
+ ]
+}

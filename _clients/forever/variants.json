@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "forever",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "5af48e10d52466d1",
+  "sources/iconify/forever.svg": "5af48e10d52466d1",
+  "sources/wvl/forever.svg": "cc7fc5a0e560728d"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.023,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/forever.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/forever.svg"
+    }
+   ]
+  }
+ ]
+}

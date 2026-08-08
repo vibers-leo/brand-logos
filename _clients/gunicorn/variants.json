@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gunicorn",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "4736f67f1c18ab4e",
+  "sources/iconify/gunicorn.svg": "4736f67f1c18ab4e",
+  "sources/wvl/gunicorn.svg": "af3e98f9051a2ae9"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.645,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gunicorn.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gunicorn.svg"
+    }
+   ]
+  }
+ ]
+}

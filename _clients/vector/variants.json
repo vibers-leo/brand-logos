@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vector",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "3aed2f297a865510",
+  "sources/iconify/vector.svg": "3aed2f297a865510"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.852,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vector.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "biogen",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "b7913d28c06f7a9e"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.194,
+   "provider": "curated",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

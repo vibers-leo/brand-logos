@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "oreilly",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "5669b1faae4d4032",
+  "sources/iconify/oreilly.svg": "5669b1faae4d4032",
+  "sources/wvl/oreilly.svg": "e374d4b76e52a498"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.521,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/oreilly.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/oreilly.svg"
+    }
+   ]
+  }
+ ]
+}

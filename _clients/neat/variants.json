@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "neat",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "d07194067cee6677",
+  "sources/iconify/neat.svg": "d07194067cee6677",
+  "sources/wvl/neat.svg": "41507de984609785"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/neat.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/neat.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "async-api",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ccc13aca8e3cedf3",
+  "sources/iconify/async-api.svg": "ccc13aca8e3cedf3",
+  "sources/iconify/async-api-icon.svg": "6397a331f22e28ea"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/async-api-icon.svg",
+    "png": "sources/iconify/async-api-icon.png"
+   },
+   "aspect": 1.014,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.592,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/async-api.svg"
+    }
+   ]
+  }
+ ]
+}

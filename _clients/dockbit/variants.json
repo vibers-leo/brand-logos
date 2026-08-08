@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dockbit",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "215e506617848008",
+  "sources/iconify/dockbit.svg": "215e506617848008",
+  "sources/wvl/dockbit.svg": "9d93161c3a8e65f9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.896,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dockbit.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dockbit.svg"
+    }
+   ]
+  }
+ ]
+}

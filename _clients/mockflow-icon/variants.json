@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mockflow-icon",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "d15095b9a5699eb5"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.167,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

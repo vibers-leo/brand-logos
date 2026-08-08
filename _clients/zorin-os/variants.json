@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zorin-os",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a47eb2766dc2b847",
+  "sources/iconify/zorin-os.svg": "a47eb2766dc2b847",
+  "sources/wvl/zorin-os.svg": "04923bc3e624100d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.131,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zorin-os.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zorin-os.svg"
+    }
+   ]
+  }
+ ]
+}

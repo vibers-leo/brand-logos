@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "forestadmin",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "490b548292aaaa7d",
+  "sources/iconify/forestadmin.svg": "490b548292aaaa7d",
+  "sources/iconify/forestadmin-icon.svg": "8e057ec3b764c835"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/forestadmin-icon.svg",
+    "png": "sources/iconify/forestadmin-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.965,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/forestadmin.svg"
+    }
+   ]
+  }
+ ]
+}

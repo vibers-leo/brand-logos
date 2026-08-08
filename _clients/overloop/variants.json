@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "overloop",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "8793d9c5bee23eb3",
+  "sources/iconify/overloop.svg": "8793d9c5bee23eb3",
+  "sources/iconify/overloop-icon.svg": "eec64ec7f6dcb718",
+  "sources/wvl/overloop-icon.svg": "e0eff0220d50e989",
+  "sources/wvl/overloop.svg": "cffc874a98ffdeff"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/overloop-icon.svg",
+    "png": "sources/iconify/overloop-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/overloop-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.143,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/overloop.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/overloop.svg"
+    }
+   ]
+  }
+ ]
+}

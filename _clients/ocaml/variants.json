@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ocaml",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2a412bc8135f8e32",
+  "sources/iconify/ocaml.svg": "2a412bc8135f8e32",
+  "sources/devicons/ocaml-original.svg": "05ecd812437dd81c",
+  "sources/wvl/ocaml.svg": "066336ce7c376992"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/ocaml-original.svg",
+    "png": "sources/devicons/ocaml-original.png"
+   },
+   "aspect": 1.145,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.636,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ocaml.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ocaml.svg"
+    }
+   ]
+  }
+ ]
+}

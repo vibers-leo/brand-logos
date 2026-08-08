@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "todoist",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "4cbc7bcd0d8a50ac",
+  "sources/iconify/todoist.svg": "4cbc7bcd0d8a50ac",
+  "sources/iconify/todoist-icon.svg": "f338b69b8beb10fc",
+  "sources/wvl/todoist-icon.svg": "0887918b6ea286b3",
+  "sources/wvl/todoist.svg": "6875a4afa1cbc045"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/todoist-icon.svg",
+    "png": "sources/iconify/todoist-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/todoist-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.96,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/todoist.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/todoist.svg"
+    }
+   ]
+  }
+ ]
+}

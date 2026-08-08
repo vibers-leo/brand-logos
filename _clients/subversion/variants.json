@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "subversion",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "873c2ae78c031c2b",
+  "sources/iconify/subversion.svg": "873c2ae78c031c2b",
+  "sources/devicons/subversion-original.svg": "f3427b513aa2e326",
+  "sources/wvl/subversion.svg": "e9177d3db52cf58b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.379,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/subversion.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/subversion.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/subversion-original.svg"
+    }
+   ]
+  }
+ ]
+}

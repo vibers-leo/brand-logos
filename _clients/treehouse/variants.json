@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "treehouse",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "a8342ff158989887",
+  "sources/iconify/treehouse.svg": "a8342ff158989887",
+  "sources/iconify/treehouse-icon.svg": "fef32093ba1ac96a",
+  "sources/wvl/treehouse-icon.svg": "56577b926c6590fa",
+  "sources/wvl/treehouse.svg": "35471bd82ed8e4f8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/treehouse-icon.svg",
+    "png": "sources/iconify/treehouse-icon.png"
+   },
+   "aspect": 0.918,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/treehouse-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.327,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/treehouse.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/treehouse.svg"
+    }
+   ]
+  }
+ ]
+}

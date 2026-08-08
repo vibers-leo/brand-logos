@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "googlehome",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "506e29b7d19f6d50"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.984,
+   "provider": "simpleicons/googlehome",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

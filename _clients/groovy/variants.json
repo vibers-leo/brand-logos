@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "groovy",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "f8c7c21db11a8519",
+  "sources/devicons/groovy-original.svg": "f8c7c21db11a8519"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/groovy-original.svg"
+    }
+   ]
+  }
+ ]
+}

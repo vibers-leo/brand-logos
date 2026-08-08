@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cobalt",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8787f5cb8142c1dc",
+  "sources/iconify/cobalt.svg": "8787f5cb8142c1dc",
+  "sources/wvl/cobalt.svg": "26cda62fa1e65896"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.874,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cobalt.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cobalt.svg"
+    }
+   ]
+  }
+ ]
+}

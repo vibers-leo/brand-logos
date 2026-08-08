@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "geetest",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "98a3be1596655c96",
+  "sources/iconify/geetest.svg": "98a3be1596655c96",
+  "sources/iconify/geetest-icon.svg": "d0f5aa2996858f73",
+  "sources/wvl/geetest-icon.svg": "0d7eb1b7238edc7e",
+  "sources/wvl/geetest.svg": "9f20868014072dfb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/geetest-icon.svg",
+    "png": "sources/iconify/geetest-icon.png"
+   },
+   "aspect": 0.999,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/geetest-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.659,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/geetest.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/geetest.svg"
+    }
+   ]
+  }
+ ]
+}

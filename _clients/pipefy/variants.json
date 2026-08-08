@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pipefy",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8a9c9b322d510ba8",
+  "sources/iconify/pipefy.svg": "8a9c9b322d510ba8",
+  "sources/wvl/pipefy.svg": "ccc3dd37f193f054"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.941,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pipefy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pipefy.svg"
+    }
+   ]
+  }
+ ]
+}

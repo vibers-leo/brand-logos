@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "drupal",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "8997e3eba660e198",
+  "sources/iconify/drupal.svg": "8997e3eba660e198",
+  "sources/iconify/drupal-icon.svg": "37437e19f1014c41",
+  "sources/devicons/drupal-original.svg": "1338e1c3e9d9c658",
+  "sources/wvl/drupal-icon.svg": "b2ae360bd8e8a522",
+  "sources/wvl/drupal.svg": "a902f5f98270ca1b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/drupal-icon.svg",
+    "png": "sources/iconify/drupal-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drupal-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/drupal-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.711,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/drupal.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drupal.svg"
+    }
+   ]
+  }
+ ]
+}

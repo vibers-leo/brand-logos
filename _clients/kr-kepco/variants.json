@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kr-kepco",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "d43b1d1da3d8245a"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.615,
+   "provider": "wikimedia-commons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

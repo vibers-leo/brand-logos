@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xfinity",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "6a362b82fd04baa2"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.061,
+   "provider": "curated",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

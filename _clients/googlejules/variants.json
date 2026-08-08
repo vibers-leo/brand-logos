@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "googlejules",
+ "primary": "symbol-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "3287bdfc6a2a4b76"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-mono-dark",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.9,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

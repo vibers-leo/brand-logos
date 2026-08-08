@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-fit",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "13742872fd3755d5",
+  "sources/iconify/google-fit.svg": "13742872fd3755d5",
+  "sources/wvl/google-fit.svg": "aee27e0da1b73cd4"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.191,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-fit.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-fit.svg"
+    }
+   ]
+  }
+ ]
+}

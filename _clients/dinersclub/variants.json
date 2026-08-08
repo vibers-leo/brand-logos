@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dinersclub",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ef29b72478294eba",
+  "sources/iconify/dinersclub.svg": "ef29b72478294eba",
+  "sources/wvl/dinersclub.svg": "16424bb1abdec07d"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.833,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dinersclub.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dinersclub.svg"
+    }
+   ]
+  }
+ ]
+}

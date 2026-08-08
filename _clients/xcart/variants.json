@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xcart",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "01060b10adceba30",
+  "sources/iconify/xcart.svg": "01060b10adceba30",
+  "sources/wvl/xcart.svg": "2a73ed7ffc94d5b2"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.286,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/xcart.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xcart.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

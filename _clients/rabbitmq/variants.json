@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rabbitmq",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2fe6c011ab2a6165",
+  "sources/iconify/rabbitmq.svg": "2fe6c011ab2a6165",
+  "sources/iconify/rabbitmq-icon.svg": "5d5f1a10581c84df",
+  "sources/devicons/rabbitmq-original.svg": "81bbdf2c77233eef",
+  "sources/wvl/rabbitmq-icon.svg": "41a94315eb9c1dd0",
+  "sources/wvl/rabbitmq.svg": "3a2b9d2952991b22"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/rabbitmq-icon.svg",
+    "png": "sources/iconify/rabbitmq-icon.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rabbitmq-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/rabbitmq-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.921,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rabbitmq.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rabbitmq.svg"
+    }
+   ]
+  }
+ ]
+}

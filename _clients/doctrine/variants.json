@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "doctrine",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "f238441883ba8dbf",
+  "sources/iconify/doctrine.svg": "f238441883ba8dbf",
+  "sources/devicons/doctrine-original.svg": "357357fba6c8dfc2",
+  "sources/wvl/doctrine.svg": "c60012d7c991da29"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.759,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/doctrine.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/doctrine.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/doctrine-original.svg"
+    }
+   ]
+  }
+ ]
+}

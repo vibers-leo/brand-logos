@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wpexplorer",
+ "primary": "symbol-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ae0e3d65e9541cc8"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-mono-dark",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

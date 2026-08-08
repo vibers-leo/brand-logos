@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ionic",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a3a4153758f7c78a",
+  "sources/iconify/ionic.svg": "a3a4153758f7c78a",
+  "sources/iconify/ionic-icon.svg": "d68580d5bf2cb64a",
+  "sources/devicons/ionic-original.svg": "337a0d51361c6f7e",
+  "sources/wvl/ionic-icon.svg": "298183a840dd2523",
+  "sources/wvl/ionic.svg": "b9811be8ab597b37"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.961,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ionic.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ionic.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/ionic-icon.svg",
+    "png": "sources/iconify/ionic-icon.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ionic-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ionic-original.svg"
+    }
+   ]
+  }
+ ]
+}

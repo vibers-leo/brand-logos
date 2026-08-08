@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bash",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "04b44e93fb8e1dc3",
+  "sources/iconify/bash.svg": "04b44e93fb8e1dc3",
+  "sources/iconify/bash-icon.svg": "d6d04d9fb09416c7",
+  "sources/devicons/bash-original.svg": "bdf38e4d4654aa3b",
+  "sources/wvl/bash-icon.svg": "09a9aa2372f61fe7",
+  "sources/wvl/bash.svg": "5a191971b51dd677"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.375,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bash.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bash.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/bash-icon.svg",
+    "png": "sources/iconify/bash-icon.png"
+   },
+   "aspect": 0.876,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bash-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/bash-original.svg"
+    }
+   ]
+  }
+ ]
+}

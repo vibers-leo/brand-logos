@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apachelucene",
+ "primary": "wordmark-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "9ab951365517bad8"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-mono-dark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.639,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

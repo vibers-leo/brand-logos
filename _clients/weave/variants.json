@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "weave",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "eee94bb32e7747e3",
+  "sources/iconify/weave.svg": "eee94bb32e7747e3",
+  "sources/wvl/weave.svg": "5a679b38ec0a8e16"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.983,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/weave.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/weave.svg"
+    }
+   ]
+  }
+ ]
+}

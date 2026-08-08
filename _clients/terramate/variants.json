@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "terramate",
+ "primary": "symbol-en-mono-light",
+ "fingerprint": {
+  "logo.svg": "811b4216feb035d7",
+  "sources/devicons/terramate-original.svg": "811b4216feb035d7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-light",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.942,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/terramate-original.svg"
+    }
+   ]
+  }
+ ]
+}

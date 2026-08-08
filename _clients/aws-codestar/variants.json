@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-codestar",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0138876299ae753e",
+  "sources/iconify/aws-codestar.svg": "0138876299ae753e",
+  "sources/wvl/aws-codestar.svg": "f9f2c7e2993fe2e2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-codestar.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-codestar.svg"
+    }
+   ]
+  }
+ ]
+}

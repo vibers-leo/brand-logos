@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ktor",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "318f0402a7fdc56b",
+  "sources/iconify/ktor.svg": "318f0402a7fdc56b",
+  "sources/iconify/ktor-icon.svg": "6438adfb57d418d0",
+  "sources/devicons/ktor-original.svg": "502bf1102492bccb",
+  "sources/wvl/ktor-icon.svg": "f873daf32a7c50f6",
+  "sources/wvl/ktor.svg": "a894f2502200abd2"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.11,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ktor.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ktor.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/ktor-icon.svg",
+    "png": "sources/iconify/ktor-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ktor-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ktor-original.svg"
+    }
+   ]
+  }
+ ]
+}

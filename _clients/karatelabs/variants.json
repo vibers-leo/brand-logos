@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "karatelabs",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "fb9014f7dfcec88b",
+  "sources/devicons/karatelabs-original.svg": "fb9014f7dfcec88b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/karatelabs-original.svg"
+    }
+   ]
+  }
+ ]
+}

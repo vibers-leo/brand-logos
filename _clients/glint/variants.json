@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "glint",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ca71a09777da95c1",
+  "sources/iconify/glint.svg": "ca71a09777da95c1",
+  "sources/wvl/glint.svg": "672bab27937cdaff"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.863,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/glint.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/glint.svg"
+    }
+   ]
+  }
+ ]
+}

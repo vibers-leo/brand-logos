@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gradle",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "411896b8191cdc56",
+  "sources/iconify/gradle.svg": "411896b8191cdc56",
+  "sources/devicons/gradle-original.svg": "98db4401fe9af4a9",
+  "sources/wvl/gradle.svg": "07c87d482bfdee09"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.364,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gradle.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gradle.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/gradle-original.svg"
+    }
+   ]
+  }
+ ]
+}

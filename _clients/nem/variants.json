@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nem",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "3ba990be5fc4e35f"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

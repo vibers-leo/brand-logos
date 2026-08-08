@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "solarwinds",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "68bf0cd230dd4707",
+  "sources/iconify/solarwinds.svg": "68bf0cd230dd4707",
+  "sources/wvl/solarwinds.svg": "bc99baeb5420d6a6"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.385,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/solarwinds.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/solarwinds.svg"
+    }
+   ]
+  }
+ ]
+}

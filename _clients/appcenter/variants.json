@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "appcenter",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "0b8d0fde1824c260",
+  "sources/iconify/appcenter.svg": "0b8d0fde1824c260",
+  "sources/iconify/appcenter-icon.svg": "1daebc1741faa899",
+  "sources/wvl/appcenter-icon.svg": "a75271fa31afcbdc",
+  "sources/wvl/appcenter.svg": "16497cc4cecb41b6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/appcenter-icon.svg",
+    "png": "sources/iconify/appcenter-icon.png"
+   },
+   "aspect": 0.991,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/appcenter-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.682,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/appcenter.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/appcenter.svg"
+    }
+   ]
+  }
+ ]
+}

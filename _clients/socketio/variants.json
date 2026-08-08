@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "socketio",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "887e87073a2ef8d8",
+  "sources/devicons/socketio-original.svg": "887e87073a2ef8d8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/socketio-original.svg"
+    }
+   ]
+  }
+ ]
+}

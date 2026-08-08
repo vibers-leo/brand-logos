@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "helm",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e65b8442d9adebea",
+  "sources/iconify/helm.svg": "e65b8442d9adebea",
+  "sources/devicons/helm-original.svg": "5f9c6a38740b757d",
+  "sources/wvl/helm.svg": "4b8538ee909ee2f8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.864,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/helm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/helm.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/helm-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "frontapp",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "be6e6f970425877a",
+  "sources/iconify/frontapp.svg": "be6e6f970425877a",
+  "sources/wvl/frontapp.svg": "d35f872e978b12e4"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.7,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/frontapp.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/frontapp.svg"
+    }
+   ]
+  }
+ ]
+}

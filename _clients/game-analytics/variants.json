@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "game-analytics",
+ "primary": "wordmark-en-mono-light",
+ "fingerprint": {
+  "logo.svg": "5670ea36e2085ea4",
+  "sources/iconify/game-analytics.svg": "5670ea36e2085ea4",
+  "sources/iconify/game-analytics-icon.svg": "1c321991f2c2a53c",
+  "sources/wvl/game-analytics-icon.svg": "56322dfe911ca5bf",
+  "sources/wvl/game-analytics.svg": "07f62725635bfcc3"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/game-analytics-icon.svg",
+    "png": "sources/iconify/game-analytics-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/game-analytics-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-light",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.759,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/game-analytics.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/game-analytics.svg"
+    }
+   ]
+  }
+ ]
+}

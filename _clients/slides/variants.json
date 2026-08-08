@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "slides",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "19e7e198aef526fe",
+  "sources/iconify/slides.svg": "19e7e198aef526fe",
+  "sources/wvl/slides.svg": "d668606802f43467"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.034,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/slides.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/slides.svg"
+    }
+   ]
+  }
+ ]
+}

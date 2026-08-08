@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "anaconda",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5410720f53b389ec",
+  "sources/devicons/anaconda-original.svg": "5410720f53b389ec"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/anaconda-original.svg"
+    }
+   ]
+  }
+ ]
+}

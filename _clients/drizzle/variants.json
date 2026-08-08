@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "drizzle",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "60783c2963599602",
+  "sources/iconify/drizzle.svg": "60783c2963599602",
+  "sources/iconify/drizzle-icon.svg": "e603c20c63288cfd",
+  "sources/wvl/drizzle-icon.svg": "6ad313ece61cc817",
+  "sources/wvl/drizzle.svg": "d96fac54987e5b51"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.75,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/drizzle.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drizzle.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/drizzle-icon.svg",
+    "png": "sources/iconify/drizzle-icon.png"
+   },
+   "aspect": 1.183,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drizzle-icon.svg"
+    }
+   ]
+  }
+ ]
+}

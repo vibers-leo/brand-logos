@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "raytheon",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "363149538215e9ad"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.408,
+   "provider": "space-defense-curated",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

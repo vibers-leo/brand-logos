@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-codepipeline",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a0083a42f89a294f",
+  "sources/iconify/aws-codepipeline.svg": "a0083a42f89a294f",
+  "sources/wvl/aws-codepipeline.svg": "1fecb7e4eff16478"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-codepipeline.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-codepipeline.svg"
+    }
+   ]
+  }
+ ]
+}

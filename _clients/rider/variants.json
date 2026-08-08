@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rider",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "991b9de6484fc1ba",
+  "sources/iconify/rider.svg": "991b9de6484fc1ba",
+  "sources/devicons/rider-original.svg": "7df5fd43fab125ba",
+  "sources/wvl/rider.svg": "5105f54f22a9416b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rider.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rider.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/rider-original.svg"
+    }
+   ]
+  }
+ ]
+}

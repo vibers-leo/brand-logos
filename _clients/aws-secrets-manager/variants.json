@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-secrets-manager",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1b2bb75f5e2c3148",
+  "sources/iconify/aws-secrets-manager.svg": "1b2bb75f5e2c3148",
+  "sources/wvl/aws-secrets-manager.svg": "5000358e08f6e184"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-secrets-manager.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-secrets-manager.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pepperoni",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "d0078e320ed53375",
+  "sources/iconify/pepperoni.svg": "d0078e320ed53375",
+  "sources/wvl/pepperoni.svg": "f20167741264565d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.046,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pepperoni.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pepperoni.svg"
+    }
+   ]
+  }
+ ]
+}

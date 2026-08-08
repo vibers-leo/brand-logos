@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cloud66",
+ "primary": "symbol-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "f8a15b108e1993b0"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-mono-dark",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.027,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

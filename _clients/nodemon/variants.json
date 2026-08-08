@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nodemon",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "6e8bfa34894db5c5",
+  "sources/iconify/nodemon.svg": "6e8bfa34894db5c5",
+  "sources/devicons/nodemon-original.svg": "fe3b4f4d5c67d7ac",
+  "sources/wvl/nodemon.svg": "db2db43538641871"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.879,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nodemon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nodemon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/nodemon-original.svg"
+    }
+   ]
+  }
+ ]
+}

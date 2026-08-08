@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "renovatebot",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "985a7798e4b42f2a",
+  "sources/iconify/renovatebot.svg": "985a7798e4b42f2a",
+  "sources/wvl/renovatebot.svg": "e7e0ca7ffbe8e816"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/renovatebot.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/renovatebot.svg"
+    }
+   ]
+  }
+ ]
+}

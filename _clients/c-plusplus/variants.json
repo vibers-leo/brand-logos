@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "c-plusplus",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1697c4bd691e605b",
+  "sources/iconify/c-plusplus.svg": "1697c4bd691e605b",
+  "sources/wvl/c-plusplus.svg": "df172770180e61fd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.89,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/c-plusplus.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/c-plusplus.svg"
+    }
+   ]
+  }
+ ]
+}

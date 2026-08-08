@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "firebird",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a293cc241f73f2bc",
+  "sources/devicons/firebird-original.svg": "a293cc241f73f2bc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.996,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/firebird-original.svg"
+    }
+   ]
+  }
+ ]
+}

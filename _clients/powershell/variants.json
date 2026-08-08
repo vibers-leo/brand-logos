@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "powershell",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "d753ffac8134157e",
+  "sources/devicons/powershell-original.svg": "d753ffac8134157e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.333,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/powershell-original.svg"
+    }
+   ]
+  }
+ ]
+}

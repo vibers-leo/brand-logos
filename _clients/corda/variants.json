@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "corda",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "961b5407eec0a756",
+  "sources/iconify/corda.svg": "961b5407eec0a756",
+  "sources/wvl/corda.svg": "073ae474a9f73693"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.265,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/corda.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/corda.svg"
+    }
+   ]
+  }
+ ]
+}

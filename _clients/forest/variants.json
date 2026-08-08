@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "forest",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "312c92434e6d06b7",
+  "sources/wvl/forestadmin.svg": "312c92434e6d06b7"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.965,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/forestadmin.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

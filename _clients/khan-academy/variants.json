@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "khan-academy",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "808a845118e8d3c5",
+  "sources/iconify/khan-academy.svg": "808a845118e8d3c5",
+  "sources/iconify/khan-academy-icon.svg": "38ed249c4d51cb6b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/khan-academy-icon.svg",
+    "png": "sources/iconify/khan-academy-icon.png"
+   },
+   "aspect": 0.928,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.25,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/khan-academy.svg"
+    }
+   ]
+  }
+ ]
+}

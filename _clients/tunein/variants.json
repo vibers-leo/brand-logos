@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tunein",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "1c59fab9e7a6920e",
+  "sources/iconify/tunein.svg": "1c59fab9e7a6920e",
+  "sources/wvl/tunein.svg": "f7c4e60b74e4d51c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.278,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tunein.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tunein.svg"
+    }
+   ]
+  }
+ ]
+}

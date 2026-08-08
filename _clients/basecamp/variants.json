@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "basecamp",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "86898f3e7311d4a7",
+  "sources/iconify/basecamp.svg": "86898f3e7311d4a7",
+  "sources/iconify/basecamp-icon.svg": "252c8753c9bf5607",
+  "sources/wvl/basecamp-icon.svg": "52d2d682adf6978e",
+  "sources/wvl/basecamp.svg": "643c160947da3f19"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/basecamp-icon.svg",
+    "png": "sources/iconify/basecamp-icon.png"
+   },
+   "aspect": 1.152,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/basecamp-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.54,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/basecamp.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/basecamp.svg"
+    }
+   ]
+  }
+ ]
+}

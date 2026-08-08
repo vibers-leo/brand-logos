@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gitup",
+ "primary": "symbol-en-mono-light",
+ "fingerprint": {
+  "logo.svg": "06f14f4f5b073ff7",
+  "sources/iconify/gitup.svg": "06f14f4f5b073ff7",
+  "sources/wvl/gitup.svg": "adf9985fe7a943ca"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-light",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gitup.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gitup.svg"
+    }
+   ]
+  }
+ ]
+}

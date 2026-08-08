@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "elm",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "390c00805d6b9e74",
+  "sources/iconify/elm.svg": "390c00805d6b9e74",
+  "sources/devicons/elm-original.svg": "86c074a5e3922056",
+  "sources/wvl/elm.svg": "0c770713fd71ce4a",
+  "sources/wvl/elm-classic.svg": "beda5380949e78f5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/elm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/elm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/elm-classic.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/elm-original.svg"
+    }
+   ]
+  }
+ ]
+}

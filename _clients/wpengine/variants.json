@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wpengine",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "817c60961ee94fb5",
+  "sources/iconify/wpengine.svg": "817c60961ee94fb5",
+  "sources/wvl/wpengine.svg": "062d6cc0560225c1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/wpengine.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/wpengine.svg"
+    }
+   ]
+  }
+ ]
+}

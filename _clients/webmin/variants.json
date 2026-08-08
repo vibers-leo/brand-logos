@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "webmin",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "94aa8c2ccbdfa9b9",
+  "sources/iconify/webmin.svg": "94aa8c2ccbdfa9b9",
+  "sources/wvl/webmin.svg": "565d185b39e7a8b4"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.912,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/webmin.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/webmin.svg"
+    }
+   ]
+  }
+ ]
+}

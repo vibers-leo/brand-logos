@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kaios",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "406374567a37fd2e",
+  "sources/iconify/kaios.svg": "406374567a37fd2e",
+  "sources/wvl/kaios.svg": "5a33b20513548e52"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.838,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/kaios.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kaios.svg"
+    }
+   ]
+  }
+ ]
+}

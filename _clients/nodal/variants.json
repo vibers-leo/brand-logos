@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nodal",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "bd12e6db6c60b7db",
+  "sources/iconify/nodal.svg": "bd12e6db6c60b7db",
+  "sources/wvl/nodal.svg": "e7e46bf1e9e7e1c8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nodal.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nodal.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "flag-do",
+ "primary": "horizontal-unknown-color",
+ "fingerprint": {
+  "logo.svg": "2e56f0c72843e8ff"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.333,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

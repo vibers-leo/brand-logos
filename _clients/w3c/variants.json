@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "w3c",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "6e21b3b5c588346d",
+  "sources/iconify/w3c.svg": "6e21b3b5c588346d",
+  "sources/wvl/w3c.svg": "e85e02d55bcf2d8d"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.877,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/w3c.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/w3c.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "openjsfoundation",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "c6b4fbc1dfb7b35b"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.867,
+   "provider": "simpleicons/openjsfoundation",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

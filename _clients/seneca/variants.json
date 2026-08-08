@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "seneca",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "da7e49ef0c8cbbdf",
+  "sources/iconify/seneca.svg": "da7e49ef0c8cbbdf",
+  "sources/wvl/seneca.svg": "127d519873a66efc"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.282,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/seneca.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/seneca.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "crucible",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0b3589677da4d87b",
+  "sources/iconify/crucible.svg": "0b3589677da4d87b",
+  "sources/wvl/crucible.svg": "b3b1a5cd26c8872e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.97,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/crucible.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/crucible.svg"
+    }
+   ]
+  }
+ ]
+}

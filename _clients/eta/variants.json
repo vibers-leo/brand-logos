@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eta",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a375a3b4e9ff6f62",
+  "sources/iconify/eta.svg": "a375a3b4e9ff6f62",
+  "sources/iconify/eta-icon.svg": "cde47c91db86cb42"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.273,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/eta.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/eta-icon.svg",
+    "png": "sources/iconify/eta-icon.png"
+   },
+   "aspect": 0.911,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

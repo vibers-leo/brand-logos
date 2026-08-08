@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "argo-icon",
+ "primary": "vertical-unknown-color",
+ "fingerprint": {
+  "logo.svg": "0fb4800fab8be191"
+ },
+ "variants": [
+  {
+   "key": "vertical-unknown-color",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.785,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-play",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b02e7c663a53b9c3",
+  "sources/fa.svg": "b02e7c663a53b9c3",
+  "sources/iconify/google-play.svg": "f6d5c509f322f34f",
+  "sources/iconify/google-play-icon.svg": "d4b2d9859e9a31ae",
+  "sources/wvl/google-play-icon.svg": "50dece86dd13d6c0",
+  "sources/wvl/google-play.svg": "a8cdb951b01660ab"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/google-play-icon.svg",
+    "png": "sources/iconify/google-play-icon.png"
+   },
+   "aspect": 0.907,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-play-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.902,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/google-play.svg",
+    "png": "sources/iconify/google-play.png"
+   },
+   "aspect": 5.056,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-play.svg"
+    }
+   ]
+  }
+ ]
+}

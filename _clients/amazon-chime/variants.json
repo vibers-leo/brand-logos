@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "amazon-chime",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "ec38cce0f843bd3c",
+  "sources/iconify/amazon-chime.svg": "ec38cce0f843bd3c",
+  "sources/wvl/amazon-chime.svg": "94cbe8c4ef0c98a5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/amazon-chime.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/amazon-chime.svg"
+    }
+   ]
+  }
+ ]
+}

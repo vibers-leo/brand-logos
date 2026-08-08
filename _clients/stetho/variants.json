@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stetho",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "573a10e9d5f6f1b6",
+  "sources/iconify/stetho.svg": "573a10e9d5f6f1b6",
+  "sources/wvl/stetho.svg": "a3b9b27034d6d085"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/stetho.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stetho.svg"
+    }
+   ]
+  }
+ ]
+}

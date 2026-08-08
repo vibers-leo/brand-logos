@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dojo-toolkit",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8e2f4ba28363e282",
+  "sources/iconify/dojo-toolkit.svg": "8e2f4ba28363e282"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.149,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dojo-toolkit.svg"
+    }
+   ]
+  }
+ ]
+}

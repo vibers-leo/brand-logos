@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "typeorm",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4be6a1ab67f19d63",
+  "sources/iconify/typeorm.svg": "4be6a1ab67f19d63",
+  "sources/wvl/typeorm.svg": "a977d6128166a2b8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.104,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/typeorm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/typeorm.svg"
+    }
+   ]
+  }
+ ]
+}

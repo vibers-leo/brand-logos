@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "freedomdefined",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "677ccdd72521d99c",
+  "sources/iconify/freedomdefined.svg": "677ccdd72521d99c",
+  "sources/wvl/freedomdefined.svg": "5f6a219562ce0e46"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/freedomdefined.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/freedomdefined.svg"
+    }
+   ]
+  }
+ ]
+}

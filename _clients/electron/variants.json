@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "electron",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e3368ed8603af50d",
+  "sources/iconify/electron.svg": "e3368ed8603af50d",
+  "sources/devicons/electron-original.svg": "67d3018afe5edd80",
+  "sources/wvl/electron.svg": "c4f9d13a91a68878"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.923,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/electron.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/electron.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/electron-original.svg"
+    }
+   ]
+  }
+ ]
+}

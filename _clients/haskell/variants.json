@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "haskell",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "6dace4506705fb82",
+  "sources/iconify/haskell.svg": "6dace4506705fb82",
+  "sources/iconify/haskell-icon.svg": "12122816b6cb017d",
+  "sources/devicons/haskell-original.svg": "de238609909a216d",
+  "sources/wvl/haskell-icon.svg": "44795d949915edbb",
+  "sources/wvl/haskell.svg": "9dee1c2c22f8a095"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/haskell-icon.svg",
+    "png": "sources/iconify/haskell-icon.png"
+   },
+   "aspect": 1.417,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/haskell-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/haskell-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.562,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/haskell.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/haskell.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-mono-dark",
+   "form": "symbol",
+   "lang": "none",
+   "color": "mono-dark",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 0.807
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jasmine",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9a690c3ec6f0efca",
+  "sources/iconify/jasmine.svg": "9a690c3ec6f0efca",
+  "sources/devicons/jasmine-original.svg": "90d61bb42edaabe6",
+  "sources/wvl/jasmine.svg": "f72507f64d8e8970"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.006,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jasmine.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jasmine.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/jasmine-original.svg"
+    }
+   ]
+  }
+ ]
+}

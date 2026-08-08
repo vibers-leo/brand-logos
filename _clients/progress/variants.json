@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "progress",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c5f67bb7fbab8706",
+  "sources/iconify/progress.svg": "c5f67bb7fbab8706",
+  "sources/wvl/progress.svg": "ada5812c90e02c98"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.926,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/progress.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/progress.svg"
+    }
+   ]
+  }
+ ]
+}

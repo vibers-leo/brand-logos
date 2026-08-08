@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apidog",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "fde720c4dec51e53",
+  "sources/iconify/apidog.svg": "fde720c4dec51e53",
+  "sources/iconify/apidog-icon.svg": "8cb3548c7ba3fa27",
+  "sources/wvl/apidog-icon.svg": "7d629a29778b2ca3",
+  "sources/wvl/apidog.svg": "5776725599d4e175"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/apidog-icon.svg",
+    "png": "sources/iconify/apidog-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/apidog-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.5,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/apidog.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/apidog.svg"
+    }
+   ]
+  }
+ ]
+}

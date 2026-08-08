@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "handlebars",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6026622e14733a2b",
+  "sources/iconify/handlebars.svg": "6026622e14733a2b",
+  "sources/devicons/handlebars-original.svg": "3cb009037661d2d8",
+  "sources/wvl/handlebars.svg": "4afd54dae9645d74"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.128,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/handlebars.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/handlebars.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/devicons/handlebars-original.svg",
+    "png": "sources/devicons/handlebars-original.png"
+   },
+   "aspect": 4.018,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

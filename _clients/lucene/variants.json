@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lucene",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6db73240d7b1ddc2",
+  "sources/iconify/lucene.svg": "6db73240d7b1ddc2",
+  "sources/wvl/lucene.svg": "f2781cb14cfe5507"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.558,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/lucene.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lucene.svg"
+    }
+   ]
+  }
+ ]
+}

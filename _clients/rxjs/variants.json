@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rxjs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a8242d088be84f16",
+  "sources/devicons/rxjs-original.svg": "a8242d088be84f16"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.014,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/rxjs-original.svg"
+    }
+   ]
+  }
+ ]
+}

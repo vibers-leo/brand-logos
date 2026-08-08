@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "soundcloud",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "170eed562762baf7",
+  "sources/fa.svg": "170eed562762baf7",
+  "sources/iconify/soundcloud.svg": "1036283d2f2ec645",
+  "sources/wvl/soundcloud.svg": "108f99af6a18754e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/soundcloud.svg",
+    "png": "sources/iconify/soundcloud.png"
+   },
+   "aspect": 1.772,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/soundcloud.svg"
+    }
+   ]
+  },
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.228,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  }
+ ]
+}

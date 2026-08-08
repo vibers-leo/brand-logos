@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gap",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "94134997db5c428a"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "fashion-curated",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

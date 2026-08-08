@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ifttt",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "89bd844f4053420c",
+  "sources/iconify/ifttt.svg": "89bd844f4053420c",
+  "sources/devicons/ifttt-original.svg": "d8a4dfd1f23ca422",
+  "sources/wvl/ifttt.svg": "8824adb4a2f7c6d7"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.766,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ifttt.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ifttt.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ifttt-original.svg"
+    }
+   ]
+  }
+ ]
+}

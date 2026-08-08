@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "laravel",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4ddf1175a9ebb831",
+  "sources/iconify/laravel.svg": "4ddf1175a9ebb831",
+  "sources/devicons/laravel-original.svg": "85fddc8de66ce73c",
+  "sources/wvl/laravel.svg": "903a80dfc2c50d49"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.971,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/laravel.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/laravel.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/laravel-original.svg"
+    }
+   ]
+  }
+ ]
+}

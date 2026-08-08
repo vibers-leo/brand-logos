@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pagekite",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2a86b6d307ed1b9b",
+  "sources/iconify/pagekite.svg": "2a86b6d307ed1b9b",
+  "sources/wvl/pagekite.svg": "6a3a35a76ff74c23"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.9,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pagekite.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pagekite.svg"
+    }
+   ]
+  }
+ ]
+}

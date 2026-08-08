@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "us-state",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "c3a1f4405198b359"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "wikimedia-commons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

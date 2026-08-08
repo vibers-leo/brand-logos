@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "micro",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "e0151186f939584a",
+  "sources/iconify/micro.svg": "e0151186f939584a",
+  "sources/iconify/micro-icon.svg": "7d4660af986dc52f",
+  "sources/wvl/micro-icon.svg": "a2b41ca1a5e143e1",
+  "sources/wvl/micro.svg": "a0bf9a90d560d36c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.906,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/micro.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/micro.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/micro-icon.svg",
+    "png": "sources/iconify/micro-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/micro-icon.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "drip",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b0d0b7dbba08edc3",
+  "sources/iconify/drip.svg": "b0d0b7dbba08edc3",
+  "sources/wvl/drip.svg": "e574d932a80d0532"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.804,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/drip.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drip.svg"
+    }
+   ]
+  }
+ ]
+}

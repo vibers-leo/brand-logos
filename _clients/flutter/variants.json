@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "flutter",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a85312f0b139861c",
+  "sources/iconify/flutter.svg": "a85312f0b139861c",
+  "sources/devicons/flutter-original.svg": "5c6acb7efd9dd933",
+  "sources/wvl/flutter.svg": "6326a14efb12ec3a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.806,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/flutter.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/flutter.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/flutter-original.svg"
+    }
+   ]
+  }
+ ]
+}

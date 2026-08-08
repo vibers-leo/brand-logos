@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mlab",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "602149bf139f1a1a",
+  "sources/iconify/mlab.svg": "64d3935542af21b3"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.804,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mlab.svg"
+    }
+   ]
+  }
+ ]
+}

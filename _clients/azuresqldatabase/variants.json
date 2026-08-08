@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "azuresqldatabase",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "5558166b47b353c7",
+  "sources/devicons/azuresqldatabase-original.svg": "5558166b47b353c7"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.755,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/azuresqldatabase-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "githubcodespaces",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "cae85ddd76fd065f",
+  "sources/devicons/githubcodespaces-original.svg": "cae85ddd76fd065f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.002,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/githubcodespaces-original.svg"
+    }
+   ]
+  }
+ ]
+}

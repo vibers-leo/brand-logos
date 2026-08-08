@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "snaplet",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ce817225608bb9a1",
+  "sources/iconify/snaplet.svg": "ce817225608bb9a1",
+  "sources/iconify/snaplet-icon.svg": "4dcebe7a214f1918",
+  "sources/wvl/snaplet-icon.svg": "3781348ae8dc0162",
+  "sources/wvl/snaplet.svg": "67ddc55cf2918fda"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/snaplet-icon.svg",
+    "png": "sources/iconify/snaplet-icon.png"
+   },
+   "aspect": 1.097,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/snaplet-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.659,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/snaplet.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/snaplet.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ebanx",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "31d7c53cbcd18aae",
+  "sources/iconify/ebanx.svg": "31d7c53cbcd18aae",
+  "sources/wvl/ebanx.svg": "3a34d004cb6f3bfc"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.455,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ebanx.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ebanx.svg"
+    }
+   ]
+  }
+ ]
+}

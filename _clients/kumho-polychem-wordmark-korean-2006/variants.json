@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kumho-polychem-wordmark-korean-2006",
+ "primary": "wordmark-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "927012808c6c5e57"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-mono-dark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.556,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

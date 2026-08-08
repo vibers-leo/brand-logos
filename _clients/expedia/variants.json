@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "expedia",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "7dc9b1a8ca0d70f5",
+  "sources/si.svg": "7dc9b1a8ca0d70f5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

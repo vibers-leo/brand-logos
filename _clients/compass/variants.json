@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "compass",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "46c1a89a14fa0a75",
+  "sources/iconify/compass.svg": "46c1a89a14fa0a75",
+  "sources/wvl/compass.svg": "e84f783ec8353821"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.002,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/compass.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/compass.svg"
+    }
+   ]
+  }
+ ]
+}

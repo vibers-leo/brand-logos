@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pusher",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6a960239234baf35",
+  "sources/iconify/pusher.svg": "6a960239234baf35",
+  "sources/iconify/pusher-icon.svg": "ce8a918ac5ed76d7",
+  "sources/wvl/pusher-icon.svg": "ffc4069ca05a0520",
+  "sources/wvl/pusher.svg": "d86da08892eecf82"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.793,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pusher.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pusher.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/pusher-icon.svg",
+    "png": "sources/iconify/pusher-icon.png"
+   },
+   "aspect": 0.648,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pusher-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 0.835
+  }
+ ]
+}

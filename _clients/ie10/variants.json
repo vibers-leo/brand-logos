@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ie10",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2f6cb13348f8215f",
+  "sources/devicons/ie10-original.svg": "2f6cb13348f8215f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.019,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ie10-original.svg"
+    }
+   ]
+  }
+ ]
+}

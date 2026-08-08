@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jule",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "548f9eb6d1a6a8f9",
+  "sources/devicons/jule-original.svg": "548f9eb6d1a6a8f9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.826,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/jule-original.svg"
+    }
+   ]
+  }
+ ]
+}

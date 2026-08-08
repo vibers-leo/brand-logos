@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arsenal",
+ "primary": "horizontal-unknown-mono-light",
+ "fingerprint": {
+  "logo.svg": "cf533a43057d09d7"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-mono-light",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.621,
+   "provider": "sports-curated",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

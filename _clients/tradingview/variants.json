@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tradingview",
+ "primary": "horizontal-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "bf2fdd61dc0abfdd"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-mono-dark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.94,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

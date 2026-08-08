@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "houndci",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2452020197e2cf68",
+  "sources/iconify/houndci.svg": "2452020197e2cf68",
+  "sources/wvl/houndci.svg": "ed1a7850c8090690"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.02,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/houndci.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/houndci.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "puppeteer",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "d411bb819799e2a4",
+  "sources/iconify/puppeteer.svg": "d411bb819799e2a4",
+  "sources/devicons/puppeteer-original.svg": "a6c9588e1e00336c",
+  "sources/wvl/puppeteer.svg": "e0288a021e033b2c"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.67,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/puppeteer.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/puppeteer.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/puppeteer-original.svg"
+    }
+   ]
+  }
+ ]
+}

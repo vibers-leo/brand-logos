@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "chrome-web-store",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "e60812498ea75f5f",
+  "sources/iconify/chrome-web-store.svg": "e60812498ea75f5f",
+  "sources/wvl/chrome-web-store.svg": "d54753eef00f0c9b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.987,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/chrome-web-store.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/chrome-web-store.svg"
+    }
+   ]
+  }
+ ]
+}

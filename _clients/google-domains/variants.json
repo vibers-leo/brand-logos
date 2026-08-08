@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-domains",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6bfd746c60b8ffdb",
+  "sources/iconify/google-domains.svg": "6bfd746c60b8ffdb",
+  "sources/iconify/google-domains-icon.svg": "e914f0315721a33b",
+  "sources/wvl/google-domains-icon.svg": "1b8a7c6c4c8b275a",
+  "sources/wvl/google-domains.svg": "ffb0ea5bbb70219b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/google-domains-icon.svg",
+    "png": "sources/iconify/google-domains-icon.png"
+   },
+   "aspect": 1.073,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-domains-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.716,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-domains.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-domains.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "oauth",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "03752a261dc113cf",
+  "sources/iconify/oauth.svg": "03752a261dc113cf",
+  "sources/devicons/oauth-original.svg": "e414ca48d9a3a3a1",
+  "sources/wvl/oauth.svg": "084ee1ae0c6382ab"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/oauth.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/oauth.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/oauth-original.svg"
+    }
+   ]
+  }
+ ]
+}

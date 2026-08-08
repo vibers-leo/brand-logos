@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gitter",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "29e47cadf804b327",
+  "sources/iconify/gitter.svg": "29e47cadf804b327",
+  "sources/devicons/gitter-plain.svg": "311dd232a720b0cc",
+  "sources/wvl/gitter.svg": "8c0800e4daaf4baa"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/gitter-plain.svg",
+    "png": "sources/devicons/gitter-plain.png"
+   },
+   "aspect": 0.681,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gitter.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gitter.svg"
+    }
+   ]
+  }
+ ]
+}

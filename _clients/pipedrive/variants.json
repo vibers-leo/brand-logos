@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pipedrive",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "5650a8383b7b4810",
+  "sources/iconify/pipedrive.svg": "5650a8383b7b4810",
+  "sources/wvl/pipedrive.svg": "525d68330001f351"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.402,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pipedrive.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pipedrive.svg"
+    }
+   ]
+  }
+ ]
+}

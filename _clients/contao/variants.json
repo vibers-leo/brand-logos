@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "contao",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "60ebf91f267ddf8d",
+  "sources/devicons/contao-original.svg": "60ebf91f267ddf8d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.152,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/contao-original.svg"
+    }
+   ]
+  }
+ ]
+}

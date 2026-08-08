@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sap",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "134bee5aec600b0a",
+  "sources/si.svg": "134bee5aec600b0a",
+  "sources/iconify/sap.svg": "dfba42560561adb6",
+  "sources/wvl/sap.svg": "a3d3f4c1a72876ea"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.018,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    },
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sap.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sap.svg"
+    }
+   ]
+  }
+ ]
+}

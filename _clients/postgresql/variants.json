@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "postgresql",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "7e2605b8715f12b3",
+  "sources/iconify/postgresql.svg": "7e2605b8715f12b3",
+  "sources/devicons/postgresql-original.svg": "fc1df683a15230d3",
+  "sources/wvl/postgresql.svg": "c08bf1ce1ae0125a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.97,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/postgresql.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/postgresql.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/postgresql-original.svg"
+    }
+   ]
+  }
+ ]
+}

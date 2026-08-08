@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "codesandbox",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "a7ce3a0f12c13168",
+  "sources/iconify/codesandbox.svg": "a7ce3a0f12c13168",
+  "sources/iconify/codesandbox-icon.svg": "9cb3c3403046997e",
+  "sources/wvl/codesandbox-icon.svg": "143ea41021c2974c",
+  "sources/wvl/codesandbox.svg": "e9a7630c4c472f88"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/codesandbox-icon.svg",
+    "png": "sources/iconify/codesandbox-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/codesandbox-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.087,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/codesandbox.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/codesandbox.svg"
+    }
+   ]
+  }
+ ]
+}

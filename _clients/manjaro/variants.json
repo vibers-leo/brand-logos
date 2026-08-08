@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "manjaro",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "f510c0e93dc8eaf5",
+  "sources/iconify/manjaro.svg": "f510c0e93dc8eaf5",
+  "sources/wvl/manjaro.svg": "b770177ea4d8f33f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/manjaro.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/manjaro.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rome",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "1ad3643c3602ba75",
+  "sources/iconify/rome.svg": "1ad3643c3602ba75",
+  "sources/iconify/rome-icon.svg": "e03ec8ba9ee92dcc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/rome-icon.svg",
+    "png": "sources/iconify/rome-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.045,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rome.svg"
+    }
+   ]
+  }
+ ]
+}

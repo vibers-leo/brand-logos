@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "olympics",
+ "primary": "horizontal-unknown-color",
+ "fingerprint": {
+  "logo.svg": "43e0451132d5839d"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.174,
+   "provider": "sports-curated",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

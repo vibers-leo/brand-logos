@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tsuru",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "176c2134767baa3a",
+  "sources/iconify/tsuru.svg": "176c2134767baa3a",
+  "sources/wvl/tsuru.svg": "d4c93a1f54c61e1b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.328,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tsuru.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tsuru.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "passport",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "57afea2a2507dc3f",
+  "sources/iconify/passport.svg": "57afea2a2507dc3f",
+  "sources/devicons/passport-original.svg": "54ba7ef7a98b1b11",
+  "sources/wvl/passport.svg": "72172efe826068ed"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.8,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/passport.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/passport.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/passport-original.svg"
+    }
+   ]
+  }
+ ]
+}

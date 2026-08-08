@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vernemq",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "7513e5c4b73e9363",
+  "sources/iconify/vernemq.svg": "7513e5c4b73e9363",
+  "sources/wvl/vernemq.svg": "9bba519d9c8e3818"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.115,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vernemq.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vernemq.svg"
+    }
+   ]
+  }
+ ]
+}

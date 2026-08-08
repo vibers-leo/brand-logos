@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "digital-ocean",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "3fabd3eec0bb8bbc",
+  "sources/iconify/digital-ocean.svg": "3fabd3eec0bb8bbc",
+  "sources/iconify/digital-ocean-icon.svg": "121cbb45cfb50ee3"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.336,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/digital-ocean.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/digital-ocean-icon.svg",
+    "png": "sources/iconify/digital-ocean-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

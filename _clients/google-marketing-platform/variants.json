@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-marketing-platform",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "7d9cc4708e124f1f",
+  "sources/iconify/google-marketing-platform.svg": "7d9cc4708e124f1f",
+  "sources/wvl/google-marketing-platform.svg": "0dfc74c89229857a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-marketing-platform.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-marketing-platform.svg"
+    }
+   ]
+  }
+ ]
+}

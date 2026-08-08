@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "x-ai",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2556fa2b598d0e3e",
+  "sources/iconify/x-ai.svg": "2556fa2b598d0e3e",
+  "sources/wvl/x-ai.svg": "6261a640350259ee"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.882,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/x-ai.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/x-ai.svg"
+    }
+   ]
+  }
+ ]
+}

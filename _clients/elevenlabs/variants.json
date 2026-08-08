@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "elevenlabs",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d47433e7845fc37b",
+  "sources/si.svg": "d47433e7845fc37b"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.618,
+   "provider": "simpleicons",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "simpleicons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

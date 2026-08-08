@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "marionette",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5311b0a1a0955c38",
+  "sources/iconify/marionette.svg": "5311b0a1a0955c38",
+  "sources/wvl/marionette.svg": "45a0cb63cc96f6ad"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.813,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/marionette.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/marionette.svg"
+    }
+   ]
+  }
+ ]
+}

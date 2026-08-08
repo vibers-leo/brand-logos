@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "amazon-connect",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "d5c05b3f849f5b0a",
+  "sources/iconify/amazon-connect.svg": "d5c05b3f849f5b0a",
+  "sources/wvl/amazon-connect.svg": "8b8514adec0bf8de"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.091,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/amazon-connect.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/amazon-connect.svg"
+    }
+   ]
+  }
+ ]
+}

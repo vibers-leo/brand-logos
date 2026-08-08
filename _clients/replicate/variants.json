@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "replicate",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "642125adabbde6c9",
+  "sources/si.svg": "642125adabbde6c9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "simpleicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "simpleicons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

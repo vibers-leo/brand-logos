@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "primeng",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "368a93ac27db2811",
+  "sources/devicons/primeng-original.svg": "368a93ac27db2811"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.936,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/primeng-original.svg"
+    }
+   ]
+  }
+ ]
+}

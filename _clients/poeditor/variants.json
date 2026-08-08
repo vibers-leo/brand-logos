@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "poeditor",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0964e470832e9654",
+  "sources/iconify/poeditor.svg": "0964e470832e9654",
+  "sources/wvl/poeditor.svg": "fef2b64f62642191"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.237,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/poeditor.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/poeditor.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hubspot",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "99316a8ad963b369",
+  "sources/si.svg": "99316a8ad963b369",
+  "sources/iconify/hubspot.svg": "3f656cb4f5eed1a4",
+  "sources/wvl/hubspot.svg": "6df11a180046ddb5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.956,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/hubspot.svg",
+    "png": "sources/iconify/hubspot.png"
+   },
+   "aspect": 3.448,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hubspot.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "maya",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "34e5437b3bd711ab",
+  "sources/devicons/maya-original.svg": "34e5437b3bd711ab"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.051,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/maya-original.svg"
+    }
+   ]
+  }
+ ]
+}

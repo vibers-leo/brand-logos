@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "samsung-mobile",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "51c602bc5fc39f90"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.522,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

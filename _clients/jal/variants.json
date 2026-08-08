@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jal",
+ "primary": "horizontal-unknown-color",
+ "fingerprint": {
+  "logo.svg": "0a773962b5da2a15"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.935,
+   "provider": "airlines-curated",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

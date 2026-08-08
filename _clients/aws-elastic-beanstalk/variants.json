@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-elastic-beanstalk",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5991209008777582",
+  "sources/iconify/aws-elastic-beanstalk.svg": "5991209008777582",
+  "sources/wvl/aws-elastic-beanstalk.svg": "0e929f9309318ba1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-elastic-beanstalk.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-elastic-beanstalk.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "grove",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4a7012112e732da8",
+  "sources/iconify/grove.svg": "4a7012112e732da8",
+  "sources/wvl/grove.svg": "acaa613885f0541b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.955,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/grove.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/grove.svg"
+    }
+   ]
+  }
+ ]
+}

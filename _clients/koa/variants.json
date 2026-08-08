@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "koa",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "925f6d77feca99b4",
+  "sources/iconify/koa.svg": "925f6d77feca99b4",
+  "sources/wvl/koa.svg": "e55546e0f9fd232a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.863,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/koa.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/koa.svg"
+    }
+   ]
+  }
+ ]
+}

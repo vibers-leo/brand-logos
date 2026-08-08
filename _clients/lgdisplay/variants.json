@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lgdisplay",
+ "primary": "horizontal-unknown-color",
+ "fingerprint": {
+  "logo.svg": "bd9d286bc90e270a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.261,
+   "provider": "simple-icons/lg",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

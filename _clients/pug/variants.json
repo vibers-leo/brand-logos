@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pug",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "defde3674e9433d2",
+  "sources/iconify/pug.svg": "defde3674e9433d2",
+  "sources/devicons/pug-original.svg": "7e858d286875bfcc",
+  "sources/wvl/pug.svg": "b5069ee5c1c60d8f"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/pug-original.svg",
+    "png": "sources/devicons/pug-original.png"
+   },
+   "aspect": 1.62,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pug.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pug.svg"
+    }
+   ]
+  }
+ ]
+}

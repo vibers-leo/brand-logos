@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-cloudfront",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "76f11d6c3ec5be78",
+  "sources/iconify/aws-cloudfront.svg": "76f11d6c3ec5be78",
+  "sources/wvl/aws-cloudfront.svg": "71ef468b2ab580b6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-cloudfront.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-cloudfront.svg"
+    }
+   ]
+  }
+ ]
+}

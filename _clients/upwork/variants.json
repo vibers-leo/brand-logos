@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "upwork",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "1eda4517d10ce272",
+  "sources/iconify/upwork.svg": "1eda4517d10ce272",
+  "sources/wvl/upwork.svg": "151f5ab22f1f9f64"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.371,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/upwork.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/upwork.svg"
+    }
+   ]
+  }
+ ]
+}

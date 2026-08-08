@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kia",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "64c784bce487809a"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.245,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

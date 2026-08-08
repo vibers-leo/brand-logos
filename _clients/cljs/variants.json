@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cljs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8c43bf3a954ca7e4",
+  "sources/iconify/cljs.svg": "8c43bf3a954ca7e4",
+  "sources/wvl/cljs.svg": "5a2d91e01528845d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cljs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cljs.svg"
+    }
+   ]
+  }
+ ]
+}

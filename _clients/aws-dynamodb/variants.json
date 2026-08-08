@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-dynamodb",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a4ea973bba9aa237",
+  "sources/iconify/aws-dynamodb.svg": "a4ea973bba9aa237",
+  "sources/wvl/aws-dynamodb.svg": "b69171b00bd86be1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-dynamodb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-dynamodb.svg"
+    }
+   ]
+  }
+ ]
+}

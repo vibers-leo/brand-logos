@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "udemy",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "bceade0cb1d57318",
+  "sources/iconify/udemy.svg": "bceade0cb1d57318",
+  "sources/iconify/udemy-icon.svg": "886c623f0af3bea3",
+  "sources/wvl/udemy-icon.svg": "57b4ae046db7f4c8",
+  "sources/wvl/udemy.svg": "45cc9723d1d0ab06"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.657,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/udemy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/udemy.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/udemy-icon.svg",
+    "png": "sources/iconify/udemy-icon.png"
+   },
+   "aspect": 0.516,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/udemy-icon.svg"
+    }
+   ]
+  }
+ ]
+}

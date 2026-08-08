@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "proteus",
+ "primary": "horizontal-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "706c9d796d366c38"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-mono-dark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.424,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

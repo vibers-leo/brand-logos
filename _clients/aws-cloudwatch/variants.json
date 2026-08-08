@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-cloudwatch",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "d28f32d1ab73d19f",
+  "sources/iconify/aws-cloudwatch.svg": "d28f32d1ab73d19f",
+  "sources/wvl/aws-cloudwatch.svg": "9c8a61dbd6edce09"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-cloudwatch.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-cloudwatch.svg"
+    }
+   ]
+  }
+ ]
+}

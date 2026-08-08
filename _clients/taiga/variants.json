@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "taiga",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "febcccd973ec47df",
+  "sources/iconify/taiga.svg": "febcccd973ec47df",
+  "sources/wvl/taiga.svg": "64ebe0b11c5ac4bf"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/taiga.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/taiga.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "react-styleguidist",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "44268a8d3b03a71d",
+  "sources/iconify/react-styleguidist.svg": "44268a8d3b03a71d",
+  "sources/wvl/react-styleguidist.svg": "11253ffa137b4b67"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.469,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/react-styleguidist.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/react-styleguidist.svg"
+    }
+   ]
+  }
+ ]
+}

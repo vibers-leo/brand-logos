@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mailchimp",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b8bb7de6631316a5",
+  "sources/iconify/mailchimp.svg": "b8bb7de6631316a5",
+  "sources/wvl/mailchimp-freddie.svg": "f1f88a547fce8183",
+  "sources/wvl/mailchimp.svg": "8dd41da217790abd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/wvl/mailchimp-freddie.svg",
+    "png": "sources/wvl/mailchimp-freddie.png"
+   },
+   "aspect": 0.885,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.091,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mailchimp.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mailchimp.svg"
+    }
+   ]
+  }
+ ]
+}

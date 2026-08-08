@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "shopify",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8a34d061db8a789f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.88,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

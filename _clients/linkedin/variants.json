@@ -1,0 +1,84 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "linkedin",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "79914ca12f2b583b",
+  "sources/fa.svg": "79914ca12f2b583b",
+  "sources/iconify/linkedin.svg": "05ffeff594b752a9",
+  "sources/iconify/linkedin-icon.svg": "a0779b71662dd901",
+  "sources/devicons/linkedin-original.svg": "06efd8244f805b03",
+  "sources/wvl/linkedin-icon.svg": "1bec810d7ffa93d6",
+  "sources/wvl/linkedin.svg": "e084c8c9fbf15ddc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/linkedin-icon.svg",
+    "png": "sources/iconify/linkedin-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/linkedin-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/linkedin-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/linkedin.svg",
+    "png": "sources/iconify/linkedin.png"
+   },
+   "aspect": 4.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/linkedin.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ruby",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a32295af294a0e31",
+  "sources/iconify/ruby.svg": "a32295af294a0e31",
+  "sources/devicons/ruby-original.svg": "806903cdbe793f12",
+  "sources/wvl/ruby.svg": "ebd35347e238c6b8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.003,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ruby.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ruby.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ruby-original.svg"
+    }
+   ]
+  }
+ ]
+}

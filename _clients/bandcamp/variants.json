@@ -1,0 +1,42 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bandcamp",
+ "primary": "horizontal-unknown-color",
+ "fingerprint": {
+  "logo.svg": "c8ae08ec4bd8c328",
+  "sources/si.svg": "c8ae08ec4bd8c328"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/si.svg",
+    "png": "sources/si.png"
+   },
+   "aspect": 1.772,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "horizontal-unknown-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.772,
+   "provider": "logo.dev",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

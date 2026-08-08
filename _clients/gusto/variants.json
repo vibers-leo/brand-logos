@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gusto",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b1577813105fabfb",
+  "sources/iconify/gusto.svg": "b1577813105fabfb",
+  "sources/wvl/gusto.svg": "d063f01a96265ca7"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.632,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gusto.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gusto.svg"
+    }
+   ]
+  }
+ ]
+}

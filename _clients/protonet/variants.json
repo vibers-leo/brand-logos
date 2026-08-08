@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "protonet",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "23ddf8f0d3d2cfd0",
+  "sources/iconify/protonet.svg": "23ddf8f0d3d2cfd0",
+  "sources/wvl/protonet.svg": "e43bd0d092498186"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.265,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/protonet.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/protonet.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 0.979
+  }
+ ]
+}

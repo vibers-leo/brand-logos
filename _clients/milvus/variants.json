@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "milvus",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d8787968c34584ae",
+  "sources/iconify/milvus.svg": "d8787968c34584ae",
+  "sources/iconify/milvus-icon.svg": "74f8ff01cb16d0e3",
+  "sources/wvl/milvus-icon.svg": "61e3059cf62e8775",
+  "sources/wvl/milvus.svg": "01997a2b100fa761"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/milvus-icon.svg",
+    "png": "sources/iconify/milvus-icon.png"
+   },
+   "aspect": 1.469,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/milvus-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.348,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/milvus.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/milvus.svg"
+    }
+   ]
+  }
+ ]
+}

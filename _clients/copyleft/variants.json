@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "copyleft",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d4db31302f0c2cdc",
+  "sources/iconify/copyleft.svg": "d4db31302f0c2cdc",
+  "sources/wvl/copyleft.svg": "5c8825f12fbf4055",
+  "sources/wvl/copyleft-pirate.svg": "5c12863d17679a27"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/copyleft.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/copyleft.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/copyleft-pirate.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mistral-ai",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d1f1a66be3a1085c",
+  "sources/iconify/mistral-ai.svg": "d1f1a66be3a1085c",
+  "sources/iconify/mistral-ai-icon.svg": "4a06afb8cb578e6a",
+  "sources/wvl/mistral-ai-icon.svg": "487c641d586f9397",
+  "sources/wvl/mistral-ai.svg": "3e8c43a39356ec46"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mistral-ai-icon.svg",
+    "png": "sources/iconify/mistral-ai-icon.png"
+   },
+   "aspect": 1.1,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mistral-ai-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.129,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mistral-ai.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mistral-ai.svg"
+    }
+   ]
+  }
+ ]
+}

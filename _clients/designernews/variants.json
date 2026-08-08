@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "designernews",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b8b0babec86c0848",
+  "sources/iconify/designernews.svg": "b8b0babec86c0848",
+  "sources/wvl/designernews.svg": "6999cb9933232a94"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/designernews.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/designernews.svg"
+    }
+   ]
+  }
+ ]
+}

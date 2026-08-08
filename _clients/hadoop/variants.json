@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hadoop",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "0001e6937c07024e",
+  "sources/iconify/hadoop.svg": "0001e6937c07024e",
+  "sources/devicons/hadoop-original.svg": "f2fde89b4ab572b1",
+  "sources/wvl/hadoop.svg": "e1931f3592992e06"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.335,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hadoop.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hadoop.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/hadoop-original.svg"
+    }
+   ]
+  }
+ ]
+}

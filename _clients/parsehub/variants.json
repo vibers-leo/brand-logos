@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "parsehub",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "b2ec8063a1d7e966",
+  "sources/iconify/parsehub.svg": "b2ec8063a1d7e966",
+  "sources/wvl/parsehub.svg": "710418ce3e80a574"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/parsehub.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/parsehub.svg"
+    }
+   ]
+  }
+ ]
+}

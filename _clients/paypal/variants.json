@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "paypal",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "62732ac4dbef388f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.849,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

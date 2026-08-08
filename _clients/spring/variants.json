@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "spring",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "b9bceb640794c97b",
+  "sources/iconify/spring.svg": "b9bceb640794c97b",
+  "sources/iconify/spring-icon.svg": "8f3f8f847a745f21",
+  "sources/devicons/spring-original.svg": "bc73d5402a8d1fad",
+  "sources/wvl/spring-icon.svg": "a13cc9b3d2189bef",
+  "sources/wvl/spring.svg": "026c3480d96704bf"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/spring-icon.svg",
+    "png": "sources/iconify/spring-icon.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/spring-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/spring-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.704,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/spring.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/spring.svg"
+    }
+   ]
+  }
+ ]
+}

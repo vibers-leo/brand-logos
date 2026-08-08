@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "coffeescript",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "69a06568bf0857cc",
+  "sources/iconify/coffeescript.svg": "69a06568bf0857cc",
+  "sources/devicons/coffeescript-original.svg": "905c2f584a77cc34",
+  "sources/wvl/coffeescript.svg": "27e5b11ddc3f888c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.244,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/coffeescript.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/coffeescript.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/coffeescript-original.svg"
+    }
+   ]
+  }
+ ]
+}

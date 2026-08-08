@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gitconnected",
+ "primary": "horizontal-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "f7b9e7109b79ce29"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-mono-dark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.822,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

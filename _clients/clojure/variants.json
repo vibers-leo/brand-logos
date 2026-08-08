@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "clojure",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "767c50b5dd777d31",
+  "sources/iconify/clojure.svg": "767c50b5dd777d31",
+  "sources/devicons/clojure-original.svg": "8d46289da8970b1b",
+  "sources/wvl/clojure.svg": "498da0a98ba3101f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/clojure.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/clojure.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/clojure-original.svg"
+    }
+   ]
+  }
+ ]
+}

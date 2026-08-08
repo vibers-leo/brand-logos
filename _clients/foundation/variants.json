@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "foundation",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "86b37c6f1635b37b",
+  "sources/iconify/foundation.svg": "86b37c6f1635b37b",
+  "sources/devicons/foundation-original.svg": "2421a7273546c413",
+  "sources/wvl/foundation.svg": "89d0ec7366a60dbf"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.674,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/foundation.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/foundation.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/foundation-original.svg",
+    "png": "sources/devicons/foundation-original.png"
+   },
+   "aspect": 0.859,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

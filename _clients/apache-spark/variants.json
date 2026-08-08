@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apache-spark",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "f838310d26a669c4",
+  "sources/iconify/apache-spark.svg": "f838310d26a669c4",
+  "sources/wvl/apache-spark.svg": "ed8d8657519d9292"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.927,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/apache-spark.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/apache-spark.svg"
+    }
+   ]
+  }
+ ]
+}

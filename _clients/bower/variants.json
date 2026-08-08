@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bower",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "14cbae1773b23a58",
+  "sources/iconify/bower.svg": "14cbae1773b23a58",
+  "sources/devicons/bower-original.svg": "c2ee2ab7abab55fd",
+  "sources/wvl/bower.svg": "acd3836884882918"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.14,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bower.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bower.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/bower-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "producthunt",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "ed3a558092799185",
+  "sources/iconify/producthunt.svg": "ed3a558092799185",
+  "sources/wvl/producthunt.svg": "8914faaa63aaafb6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/producthunt.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/producthunt.svg"
+    }
+   ]
+  }
+ ]
+}

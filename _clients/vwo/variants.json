@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vwo",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d7c136f18b82d8dd",
+  "sources/iconify/vwo.svg": "d7c136f18b82d8dd",
+  "sources/wvl/vwo.svg": "32b4cb07048b1b00"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.024,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vwo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vwo.svg"
+    }
+   ]
+  }
+ ]
+}

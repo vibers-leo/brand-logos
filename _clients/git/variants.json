@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "git",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "92867d758933f44a",
+  "sources/iconify/git.svg": "92867d758933f44a",
+  "sources/iconify/git-icon.svg": "6f67b8a140a1de40",
+  "sources/devicons/git-original.svg": "d090b18b8f74cfb7",
+  "sources/wvl/git-icon.svg": "50d518e7ea2c4c0f",
+  "sources/wvl/git.svg": "a3f5998272eb9988"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.393,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/git.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/git.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/git-icon.svg",
+    "png": "sources/iconify/git-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/git-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/git-original.svg"
+    }
+   ]
+  }
+ ]
+}

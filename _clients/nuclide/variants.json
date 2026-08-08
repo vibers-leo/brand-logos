@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nuclide",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4d92621d069e9556",
+  "sources/iconify/nuclide.svg": "4d92621d069e9556",
+  "sources/wvl/nuclide.svg": "babead628a7eab38"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.833,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nuclide.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nuclide.svg"
+    }
+   ]
+  }
+ ]
+}

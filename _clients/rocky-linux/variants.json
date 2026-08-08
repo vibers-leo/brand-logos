@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rocky-linux",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "9f9c5263be6cbbad",
+  "sources/iconify/rocky-linux.svg": "9f9c5263be6cbbad",
+  "sources/iconify/rocky-linux-icon.svg": "512a584201443b0a",
+  "sources/wvl/rocky-linux-icon.svg": "c460d7fea7104d58",
+  "sources/wvl/rocky-linux.svg": "c5ead9ef19d5e6bf"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/rocky-linux-icon.svg",
+    "png": "sources/iconify/rocky-linux-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rocky-linux-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.389,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rocky-linux.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rocky-linux.svg"
+    }
+   ]
+  }
+ ]
+}

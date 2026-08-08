@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "msw",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "07c5bfbdc3c1205b",
+  "sources/iconify/msw.svg": "07c5bfbdc3c1205b",
+  "sources/iconify/msw-icon.svg": "bae5977fa3ee4e53",
+  "sources/wvl/msw.svg": "9016a4fdddbe6ee3",
+  "sources/wvl/msw-icon.svg": "c3c53f4f0ed79d92"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/msw-icon.svg",
+    "png": "sources/iconify/msw-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/msw-icon.svg"
+    }
+   ]
+  }
+ ]
+}

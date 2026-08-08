@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "json-ld",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a0c8c13f409a37e7",
+  "sources/iconify/json-ld.svg": "a0c8c13f409a37e7",
+  "sources/wvl/json-ld.svg": "ace470514a7b526c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.376,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/json-ld.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/json-ld.svg"
+    }
+   ]
+  }
+ ]
+}

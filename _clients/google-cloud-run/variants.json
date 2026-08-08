@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-cloud-run",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "17d05ea37b21704b",
+  "sources/iconify/google-cloud-run.svg": "17d05ea37b21704b",
+  "sources/wvl/google-cloud-run.svg": "1be611f073df1020"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.114,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-cloud-run.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-cloud-run.svg"
+    }
+   ]
+  }
+ ]
+}

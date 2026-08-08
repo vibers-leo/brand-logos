@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fluxxor",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b10355c925ac1fc0",
+  "sources/iconify/fluxxor.svg": "b10355c925ac1fc0",
+  "sources/wvl/fluxxor.svg": "aa3b5fd8c467a104"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.798,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/fluxxor.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fluxxor.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sendgrid",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d8b1d461a6b97171",
+  "sources/iconify/sendgrid.svg": "d8b1d461a6b97171",
+  "sources/iconify/sendgrid-icon.svg": "9c02da46a20c78f8",
+  "sources/wvl/sendgrid-icon.svg": "00589e55596bc45e",
+  "sources/wvl/sendgrid.svg": "292304c5018814cc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/sendgrid-icon.svg",
+    "png": "sources/iconify/sendgrid-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sendgrid-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.696,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sendgrid.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sendgrid.svg"
+    }
+   ]
+  }
+ ]
+}

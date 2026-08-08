@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stitch",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a4e01501680d75fd",
+  "sources/iconify/stitch.svg": "a4e01501680d75fd",
+  "sources/wvl/stitch.svg": "4f30d354f037806b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/stitch.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stitch.svg"
+    }
+   ]
+  }
+ ]
+}

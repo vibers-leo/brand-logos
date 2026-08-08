@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "microsoft",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "4f5a78fffb2cabb3",
+  "sources/fa.svg": "4f5a78fffb2cabb3",
+  "sources/iconify/microsoft.svg": "379471bb63ee5610",
+  "sources/iconify/microsoft-icon.svg": "285e50698aeb9b87",
+  "sources/wvl/microsoft-icon.svg": "a8a5d2fd9c7816bf",
+  "sources/wvl/microsoft.svg": "b058247f38ad8bfc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/microsoft-icon.svg",
+    "png": "sources/iconify/microsoft-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/microsoft-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/microsoft.svg",
+    "png": "sources/iconify/microsoft.png"
+   },
+   "aspect": 4.688,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/microsoft.svg"
+    }
+   ]
+  }
+ ]
+}

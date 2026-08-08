@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "grails",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2192d722412fccf1",
+  "sources/iconify/grails.svg": "2192d722412fccf1",
+  "sources/devicons/grails-original.svg": "fe531137282807dc",
+  "sources/wvl/grails.svg": "b6987d3525511110"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/grails.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/grails.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/grails-original.svg"
+    }
+   ]
+  }
+ ]
+}

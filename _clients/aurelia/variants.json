@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aurelia",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e3b054049e26b097",
+  "sources/iconify/aurelia.svg": "e3b054049e26b097",
+  "sources/wvl/aurelia.svg": "7f75debb739be0d6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.026,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aurelia.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aurelia.svg"
+    }
+   ]
+  }
+ ]
+}

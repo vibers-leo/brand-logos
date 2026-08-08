@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dbt",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "798e60ee06fad6b0",
+  "sources/iconify/dbt.svg": "798e60ee06fad6b0",
+  "sources/iconify/dbt-icon.svg": "29c9bb42c58dae44",
+  "sources/wvl/dbt-icon.svg": "61357beb77d0d685",
+  "sources/wvl/dbt.svg": "42bd2cfead8de159"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.618,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dbt.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dbt.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/dbt-icon.svg",
+    "png": "sources/iconify/dbt-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dbt-icon.svg"
+    }
+   ]
+  }
+ ]
+}

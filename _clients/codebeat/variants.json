@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "codebeat",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "66b29d5f0a2665d1",
+  "sources/iconify/codebeat.svg": "66b29d5f0a2665d1",
+  "sources/wvl/codebeat.svg": "289f45aa357c4a74"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/codebeat.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/codebeat.svg"
+    }
+   ]
+  }
+ ]
+}

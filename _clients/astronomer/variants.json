@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "astronomer",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "4b859d6794ed3378",
+  "sources/iconify/astronomer.svg": "4b859d6794ed3378",
+  "sources/wvl/astronomer.svg": "a2bec11c6aa1aae2"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 9.677,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/astronomer.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/astronomer.svg"
+    }
+   ]
+  }
+ ]
+}

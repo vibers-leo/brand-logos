@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ant-design",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "59b631b2825489c8",
+  "sources/iconify/ant-design.svg": "59b631b2825489c8",
+  "sources/wvl/ant-design.svg": "ccdcf642a60179e7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ant-design.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ant-design.svg"
+    }
+   ]
+  }
+ ]
+}

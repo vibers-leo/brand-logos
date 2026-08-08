@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sqlite",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "2554202904643a2a",
+  "sources/iconify/sqlite.svg": "2554202904643a2a",
+  "sources/devicons/sqlite-original.svg": "b62014206b791234",
+  "sources/wvl/sqlite.svg": "804ca06938b695ac"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.253,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sqlite.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sqlite.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/sqlite-original.svg",
+    "png": "sources/devicons/sqlite-original.png"
+   },
+   "aspect": 0.894,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kr-mod",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "d31af4c844ae1e20"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.249,
+   "provider": "wikimedia-commons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

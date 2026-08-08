@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "raspberry-pi",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "7bbad30a6ec6ed1b",
+  "sources/iconify/raspberry-pi.svg": "7bbad30a6ec6ed1b",
+  "sources/wvl/raspberry-pi.svg": "f079babbfeac29ea"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.783,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/raspberry-pi.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/raspberry-pi.svg"
+    }
+   ]
+  }
+ ]
+}

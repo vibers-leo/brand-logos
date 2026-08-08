@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vitejs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "58f9526d8ea0c1bd",
+  "sources/devicons/vitejs-original.svg": "58f9526d8ea0c1bd",
+  "sources/wvl/vite-icon.svg": "356a3c9b26dd53bb",
+  "sources/wvl/vite.svg": "d66256c2c1443296",
+  "sources/wvl/vite-icon-dark.svg": "fb8350cd1a1c388a",
+  "sources/wvl/vite-dark.svg": "1936692a94dfcc73"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/wvl/vite-icon.svg",
+    "png": "sources/wvl/vite-icon.png"
+   },
+   "aspect": 1.625,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vite-icon-dark.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.998,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vitejs-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/wvl/vite.svg",
+    "png": "sources/wvl/vite.png"
+   },
+   "aspect": 5.769,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vite-dark.svg"
+    }
+   ]
+  }
+ ]
+}

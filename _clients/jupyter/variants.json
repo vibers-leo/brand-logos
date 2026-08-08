@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jupyter",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "6258731208e94c8c",
+  "sources/iconify/jupyter.svg": "6258731208e94c8c",
+  "sources/devicons/jupyter-original.svg": "0036053d1dc0cb68",
+  "sources/wvl/jupyter.svg": "1568930b7dc30c77"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/jupyter-original.svg",
+    "png": "sources/devicons/jupyter-original.png"
+   },
+   "aspect": 0.759,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.853,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jupyter.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jupyter.svg"
+    }
+   ]
+  }
+ ]
+}

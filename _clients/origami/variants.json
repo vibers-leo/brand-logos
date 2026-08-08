@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "origami",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2c621a5ed208e3cb",
+  "sources/iconify/origami.svg": "2c621a5ed208e3cb",
+  "sources/wvl/origami.svg": "82fd7b3eaa7783e4"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.998,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/origami.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/origami.svg"
+    }
+   ]
+  }
+ ]
+}

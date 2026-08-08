@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "puma",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2d14f4398f6616c1",
+  "sources/si.svg": "2d14f4398f6616c1"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.297,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "launchrock",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "20e78a2686ce1587",
+  "sources/iconify/launchrock.svg": "20e78a2686ce1587",
+  "sources/wvl/launchrock.svg": "e77dcb76212cfa57"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.947,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/launchrock.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/launchrock.svg"
+    }
+   ]
+  }
+ ]
+}

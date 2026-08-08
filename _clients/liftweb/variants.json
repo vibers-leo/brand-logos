@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "liftweb",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8643b2a4656343b0",
+  "sources/iconify/liftweb.svg": "8643b2a4656343b0",
+  "sources/wvl/liftweb.svg": "0b726efe02004298"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.808,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/liftweb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/liftweb.svg"
+    }
+   ]
+  }
+ ]
+}

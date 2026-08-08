@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "portainer",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "1b00e66bd1334651",
+  "sources/devicons/portainer-original.svg": "1b00e66bd1334651"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.714,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/portainer-original.svg"
+    }
+   ]
+  }
+ ]
+}

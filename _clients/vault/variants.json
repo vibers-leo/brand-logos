@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vault",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "5f1044d9667a9329",
+  "sources/iconify/vault.svg": "5f1044d9667a9329",
+  "sources/iconify/vault-icon.svg": "76dc02469f714eab",
+  "sources/devicons/vault-original.svg": "fb5299641753f320",
+  "sources/wvl/vault-icon.svg": "460fa00b3137aad6",
+  "sources/wvl/vault.svg": "119623465a77057a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/vault-icon.svg",
+    "png": "sources/iconify/vault-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vault-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vault-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.254,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vault.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vault.svg"
+    }
+   ]
+  }
+ ]
+}

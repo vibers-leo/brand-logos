@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stackshare",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "aeb94a8f2c14fc88",
+  "sources/iconify/stackshare.svg": "aeb94a8f2c14fc88",
+  "sources/wvl/stackshare.svg": "97cd460d698567bd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.128,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/stackshare.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stackshare.svg"
+    }
+   ]
+  }
+ ]
+}

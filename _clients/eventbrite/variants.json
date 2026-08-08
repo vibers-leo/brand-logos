@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eventbrite",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "c91e292658382609",
+  "sources/iconify/eventbrite.svg": "c91e292658382609",
+  "sources/iconify/eventbrite-icon.svg": "65987b6ca1391cb9",
+  "sources/wvl/eventbrite-icon.svg": "1cb51f50272b92e7",
+  "sources/wvl/eventbrite.svg": "102278c7c0afae1b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/eventbrite-icon.svg",
+    "png": "sources/iconify/eventbrite-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/eventbrite-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.556,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/eventbrite.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/eventbrite.svg"
+    }
+   ]
+  }
+ ]
+}

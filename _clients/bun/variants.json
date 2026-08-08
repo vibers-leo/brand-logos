@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bun",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "bfbf16943c8b8e65",
+  "sources/iconify/bun.svg": "bfbf16943c8b8e65",
+  "sources/devicons/bun-original.svg": "75fa0199f104d350",
+  "sources/wvl/bun.svg": "287a7193ee8f04b7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.142,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bun.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bun.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/bun-original.svg"
+    }
+   ]
+  }
+ ]
+}

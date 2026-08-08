@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wildfly",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "169a66150120b946",
+  "sources/iconify/wildfly.svg": "169a66150120b946",
+  "sources/wvl/wildfly.svg": "8c176510a739cc26"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.38,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/wildfly.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/wildfly.svg"
+    }
+   ]
+  }
+ ]
+}

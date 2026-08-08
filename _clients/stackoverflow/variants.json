@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stackoverflow",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "cebd7afa89f1cac2",
+  "sources/iconify/stackoverflow.svg": "cebd7afa89f1cac2",
+  "sources/iconify/stackoverflow-icon.svg": "b6978d344ac41370",
+  "sources/devicons/stackoverflow-original.svg": "a6b8a91b05d0fdee",
+  "sources/wvl/stackoverflow-icon.svg": "9d2b0af197128a5d",
+  "sources/wvl/stackoverflow.svg": "1abaa67eec61d173"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/stackoverflow-icon.svg",
+    "png": "sources/iconify/stackoverflow-icon.png"
+   },
+   "aspect": 0.845,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stackoverflow-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/stackoverflow-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.518,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/stackoverflow.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stackoverflow.svg"
+    }
+   ]
+  }
+ ]
+}

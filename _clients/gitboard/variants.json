@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gitboard",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4dd2be04aa9465c0",
+  "sources/iconify/gitboard.svg": "4dd2be04aa9465c0",
+  "sources/wvl/gitboard.svg": "e24a76cc8fc5b10d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.032,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gitboard.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gitboard.svg"
+    }
+   ]
+  }
+ ]
+}

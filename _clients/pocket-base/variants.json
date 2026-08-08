@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pocket-base",
+ "primary": "symbol-en-mono-light",
+ "fingerprint": {
+  "logo.svg": "f87557f912b5707d",
+  "sources/iconify/pocket-base.svg": "f87557f912b5707d",
+  "sources/wvl/pocket-base.svg": "eb26efe5daa3005d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-light",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pocket-base.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pocket-base.svg"
+    }
+   ]
+  }
+ ]
+}

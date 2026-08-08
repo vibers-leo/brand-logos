@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "relay",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b524494587aa60d6",
+  "sources/iconify/relay.svg": "b524494587aa60d6",
+  "sources/wvl/relay.svg": "ecc36f3519f28081"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.698,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/relay.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/relay.svg"
+    }
+   ]
+  }
+ ]
+}

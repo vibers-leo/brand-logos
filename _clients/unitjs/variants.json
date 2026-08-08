@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "unitjs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c959fb9826ab7490",
+  "sources/iconify/unitjs.svg": "c959fb9826ab7490",
+  "sources/wvl/unitjs.svg": "b513c234b6cbfe50"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.954,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/unitjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/unitjs.svg"
+    }
+   ]
+  }
+ ]
+}

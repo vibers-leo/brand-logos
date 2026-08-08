@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stripe",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "6f74473d03eed299"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.714,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

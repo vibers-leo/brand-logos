@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sherlock",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ce0feb30022da33c",
+  "sources/iconify/sherlock.svg": "ce0feb30022da33c",
+  "sources/iconify/sherlock-icon.svg": "dc3edb22f4ba7ebc",
+  "sources/wvl/sherlock-icon.svg": "4d5b2bd5262ff6f9",
+  "sources/wvl/sherlock.svg": "8cf45a0c6cdefbdb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/sherlock-icon.svg",
+    "png": "sources/iconify/sherlock-icon.png"
+   },
+   "aspect": 0.858,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sherlock-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.45,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sherlock.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sherlock.svg"
+    }
+   ]
+  }
+ ]
+}

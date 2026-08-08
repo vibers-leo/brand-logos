@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ceylon",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "2f36d2013cc6444c",
+  "sources/iconify/ceylon.svg": "2f36d2013cc6444c",
+  "sources/devicons/ceylon-original.svg": "f95c41d36136f6ef",
+  "sources/wvl/ceylon.svg": "9f388f3a3edc36ab"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.951,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ceylon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ceylon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ceylon-original.svg"
+    }
+   ]
+  }
+ ]
+}

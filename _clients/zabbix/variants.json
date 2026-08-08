@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zabbix",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "9f61c9d8c449c877",
+  "sources/iconify/zabbix.svg": "9f61c9d8c449c877",
+  "sources/wvl/zabbix.svg": "9f8fb960bc3bf687"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.814,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zabbix.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zabbix.svg"
+    }
+   ]
+  }
+ ]
+}

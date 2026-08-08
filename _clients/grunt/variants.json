@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "grunt",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "113bbd52abc5e02f",
+  "sources/iconify/grunt.svg": "113bbd52abc5e02f",
+  "sources/devicons/grunt-original.svg": "304d68df54c91a5f",
+  "sources/wvl/grunt.svg": "36d8452c30ddaff9"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.742,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/grunt.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/grunt.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/grunt-original.svg"
+    }
+   ]
+  }
+ ]
+}

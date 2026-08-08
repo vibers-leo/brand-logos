@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dropzone",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "ecc919040cc27a7b",
+  "sources/iconify/dropzone.svg": "ecc919040cc27a7b",
+  "sources/wvl/dropzone.svg": "90a6af11a1c66542"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dropzone.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dropzone.svg"
+    }
+   ]
+  }
+ ]
+}

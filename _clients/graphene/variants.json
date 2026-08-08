@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "graphene",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e8728a296f8864e5",
+  "sources/iconify/graphene.svg": "e8728a296f8864e5",
+  "sources/wvl/graphene.svg": "d3957576b261ad3e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.848,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/graphene.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/graphene.svg"
+    }
+   ]
+  }
+ ]
+}

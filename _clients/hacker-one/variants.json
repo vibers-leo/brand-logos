@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hacker-one",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2ff080cdd90063dd",
+  "sources/iconify/hacker-one.svg": "2ff080cdd90063dd",
+  "sources/wvl/hacker-one.svg": "e8d7cdc4a362e0b8"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.537,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hacker-one.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hacker-one.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mobx",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "01b01e964ee11869",
+  "sources/iconify/mobx.svg": "01b01e964ee11869",
+  "sources/devicons/mobx-original.svg": "5cf3d1ecc4d303da",
+  "sources/wvl/mobx.svg": "2f581d0f7aa9cb73"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mobx.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mobx.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mobx-original.svg"
+    }
+   ]
+  }
+ ]
+}

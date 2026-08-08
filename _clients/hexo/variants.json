@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hexo",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a429fd7e51aa2e6d",
+  "sources/iconify/hexo.svg": "a429fd7e51aa2e6d",
+  "sources/wvl/hexo.svg": "66ace2d7e39dade1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.867,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hexo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hexo.svg"
+    }
+   ]
+  }
+ ]
+}

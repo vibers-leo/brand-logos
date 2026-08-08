@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "teamgrid",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "3ead273821914911",
+  "sources/iconify/teamgrid.svg": "3ead273821914911",
+  "sources/wvl/teamgrid.svg": "1ba2e80f2764e28c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.575,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/teamgrid.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/teamgrid.svg"
+    }
+   ]
+  }
+ ]
+}

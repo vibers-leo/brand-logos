@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dovetail",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "683251481207efaa",
+  "sources/iconify/dovetail.svg": "683251481207efaa",
+  "sources/iconify/dovetail-icon.svg": "ec927e73511dc360",
+  "sources/wvl/dovetail-icon.svg": "c2c9244f62dbb56c",
+  "sources/wvl/dovetail.svg": "8e29ddec7589f554"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/dovetail-icon.svg",
+    "png": "sources/iconify/dovetail-icon.png"
+   },
+   "aspect": 0.876,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dovetail-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.711,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dovetail.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dovetail.svg"
+    }
+   ]
+  }
+ ]
+}

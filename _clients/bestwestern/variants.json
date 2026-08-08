@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bestwestern",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "4145f7a6b27ec059"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.095,
+   "provider": "curated",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

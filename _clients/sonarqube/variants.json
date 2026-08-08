@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sonarqube",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "c021c99da0e63e00",
+  "sources/iconify/sonarqube.svg": "c021c99da0e63e00",
+  "sources/devicons/sonarqube-original.svg": "1248547e4eca6340",
+  "sources/wvl/sonarqube.svg": "3fdaf2945c2efeef"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/sonarqube-original.svg",
+    "png": "sources/devicons/sonarqube-original.png"
+   },
+   "aspect": 1.032,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.11,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sonarqube.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sonarqube.svg"
+    }
+   ]
+  }
+ ]
+}

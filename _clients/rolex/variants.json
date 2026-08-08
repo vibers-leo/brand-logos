@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rolex",
+ "primary": "horizontal-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "4d8b874e6e439ac9"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-mono-dark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.908,
+   "provider": "fashion-curated",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

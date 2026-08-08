@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gitpod",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8e76fcab419ea302",
+  "sources/devicons/gitpod-original.svg": "8e76fcab419ea302"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.009,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/gitpod-original.svg"
+    }
+   ]
+  }
+ ]
+}

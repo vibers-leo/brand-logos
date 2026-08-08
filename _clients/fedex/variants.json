@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fedex",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "702076d12deacca8"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.659,
+   "provider": "simple-icons/fedex",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "azure",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "ad6e77004eaa0ee7",
+  "sources/devicons/azure-original.svg": "ad6e77004eaa0ee7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.062,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/azure-original.svg"
+    }
+   ]
+  }
+ ]
+}

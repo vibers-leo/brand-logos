@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "braze",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "87bca3a69aedf838",
+  "sources/iconify/braze.svg": "87bca3a69aedf838",
+  "sources/iconify/braze-icon.svg": "30b6c762bafcdd10",
+  "sources/wvl/braze-icon.svg": "d8f418eacf10898d",
+  "sources/wvl/braze.svg": "718d2e0d97982702"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.164,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/braze.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/braze.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/braze-icon.svg",
+    "png": "sources/iconify/braze-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/braze-icon.svg"
+    }
+   ]
+  }
+ ]
+}

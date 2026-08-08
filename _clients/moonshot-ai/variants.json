@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "moonshot-ai",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "3bb3976e978d5f24",
+  "sources/iconify/moonshot-ai.svg": "3bb3976e978d5f24",
+  "sources/iconify/moonshot-ai-icon.svg": "5d683a749dcd6c08",
+  "sources/wvl/moonshot-ai-icon.svg": "2893197e1f754370",
+  "sources/wvl/moonshot-ai.svg": "64f8e3d6f97a80b3"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/moonshot-ai-icon.svg",
+    "png": "sources/iconify/moonshot-ai-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/moonshot-ai-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.04,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/moonshot-ai.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/moonshot-ai.svg"
+    }
+   ]
+  }
+ ]
+}

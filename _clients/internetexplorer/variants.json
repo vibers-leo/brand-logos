@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "internetexplorer",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1d574de9ef5110b3",
+  "sources/iconify/internetexplorer.svg": "1d574de9ef5110b3",
+  "sources/wvl/internetexplorer.svg": "d00d35639cb8d300"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.019,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/internetexplorer.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/internetexplorer.svg"
+    }
+   ]
+  }
+ ]
+}

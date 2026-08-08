@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vue",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "404e3cce29dcd78a",
+  "sources/iconify/vue.svg": "404e3cce29dcd78a",
+  "sources/wvl/vue.svg": "3a80493b812f05f8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.161,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vue.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vue.svg"
+    }
+   ]
+  }
+ ]
+}

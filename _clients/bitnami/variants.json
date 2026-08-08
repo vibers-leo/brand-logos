@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bitnami",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "74dc3d1af5ae0161",
+  "sources/iconify/bitnami.svg": "74dc3d1af5ae0161",
+  "sources/wvl/bitnami.svg": "cc4565c80ef0faf9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.892,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bitnami.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bitnami.svg"
+    }
+   ]
+  }
+ ]
+}

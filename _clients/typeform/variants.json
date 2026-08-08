@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "typeform",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d11db63e0b7e13ac",
+  "sources/iconify/typeform.svg": "d11db63e0b7e13ac",
+  "sources/iconify/typeform-icon.svg": "4770b67ad93f3505",
+  "sources/wvl/typeform-icon.svg": "a4fd7c73c7aef7cf",
+  "sources/wvl/typeform.svg": "83b9064a1ad7c89a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.698,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/typeform.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/typeform.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/typeform-icon.svg",
+    "png": "sources/iconify/typeform-icon.png"
+   },
+   "aspect": 0.998,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/typeform-icon.svg"
+    }
+   ]
+  }
+ ]
+}

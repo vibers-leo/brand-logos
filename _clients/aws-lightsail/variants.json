@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-lightsail",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "49d8f63b28c34d41",
+  "sources/iconify/aws-lightsail.svg": "49d8f63b28c34d41",
+  "sources/wvl/aws-lightsail.svg": "644cd781f5d68489"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.161,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-lightsail.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-lightsail.svg"
+    }
+   ]
+  }
+ ]
+}

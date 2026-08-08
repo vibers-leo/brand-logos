@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hugging-face",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "b849659627dcf566",
+  "sources/iconify/hugging-face.svg": "b849659627dcf566",
+  "sources/iconify/hugging-face-icon.svg": "0128b7243cc992e4",
+  "sources/wvl/hugging-face-icon.svg": "e8c8487c0ab022b8",
+  "sources/wvl/hugging-face.svg": "eb62a689309becfb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/hugging-face-icon.svg",
+    "png": "sources/iconify/hugging-face-icon.png"
+   },
+   "aspect": 1.078,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hugging-face-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.523,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hugging-face.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hugging-face.svg"
+    }
+   ]
+  }
+ ]
+}

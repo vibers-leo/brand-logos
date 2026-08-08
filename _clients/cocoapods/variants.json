@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cocoapods",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "62cdef5c3a4b2ebe",
+  "sources/iconify/cocoapods.svg": "62cdef5c3a4b2ebe",
+  "sources/wvl/cocoapods.svg": "b8e28d8ba877d027"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cocoapods.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cocoapods.svg"
+    }
+   ]
+  }
+ ]
+}

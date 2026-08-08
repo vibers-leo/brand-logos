@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "susy",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "15f09b65c57b001d",
+  "sources/iconify/susy.svg": "15f09b65c57b001d",
+  "sources/wvl/susy.svg": "2be91b24cf9ef2de"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.127,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/susy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/susy.svg"
+    }
+   ]
+  }
+ ]
+}

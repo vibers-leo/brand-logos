@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "workos",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6f1bc1001ffce94d",
+  "sources/iconify/workos.svg": "6f1bc1001ffce94d",
+  "sources/iconify/workos-icon.svg": "0e36c5289a7a2357",
+  "sources/wvl/workos-icon.svg": "0f43f3aa364c36c3",
+  "sources/wvl/workos.svg": "b8432f138f309244"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/workos-icon.svg",
+    "png": "sources/iconify/workos-icon.png"
+   },
+   "aspect": 1.155,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/workos-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.233,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/workos.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/workos.svg"
+    }
+   ]
+  }
+ ]
+}

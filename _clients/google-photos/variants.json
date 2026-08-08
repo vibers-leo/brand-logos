@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-photos",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "91967f06b5042f76",
+  "sources/iconify/google-photos.svg": "91967f06b5042f76",
+  "sources/wvl/google-photos.svg": "4b9e32cf17039c28"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-photos.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-photos.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-xray",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "396bef6611e8e84f",
+  "sources/iconify/aws-xray.svg": "396bef6611e8e84f",
+  "sources/wvl/aws-xray.svg": "15e93e50c8f4a022"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-xray.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-xray.svg"
+    }
+   ]
+  }
+ ]
+}

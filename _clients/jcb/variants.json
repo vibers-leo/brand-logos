@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jcb",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "22d644fd9efe16c9",
+  "sources/fa.svg": "22d644fd9efe16c9",
+  "sources/iconify/jcb.svg": "ca01443e026c0dbc",
+  "sources/wvl/jcb.svg": "78bc8ccf911fe918"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/jcb.svg",
+    "png": "sources/iconify/jcb.png"
+   },
+   "aspect": 1.333,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jcb.svg"
+    }
+   ]
+  },
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.286,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  }
+ ]
+}

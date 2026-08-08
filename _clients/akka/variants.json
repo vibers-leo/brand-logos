@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "akka",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "c24a0eacb3e0745b",
+  "sources/iconify/akka.svg": "c24a0eacb3e0745b",
+  "sources/devicons/akka-original.svg": "0a279e80ae66f5e1",
+  "sources/wvl/akka.svg": "8a00929b6f655eb1"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.408,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/akka.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/akka.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/akka-original.svg"
+    }
+   ]
+  }
+ ]
+}

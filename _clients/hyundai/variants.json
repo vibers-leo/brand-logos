@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hyundai",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "e9f585c109fd1d41"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.948,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

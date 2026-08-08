@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zeroheight",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "f6eda9249689f26d",
+  "sources/iconify/zeroheight.svg": "f6eda9249689f26d",
+  "sources/iconify/zeroheight-icon.svg": "d697a1f71cf270e0",
+  "sources/wvl/zeroheight-icon.svg": "3a7e4be201a98910",
+  "sources/wvl/zeroheight.svg": "df769771ddf0a4b7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/zeroheight-icon.svg",
+    "png": "sources/iconify/zeroheight-icon.png"
+   },
+   "aspect": 0.828,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zeroheight-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.769,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zeroheight.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zeroheight.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-cloud-functions",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1d31f0d2f9d5f775",
+  "sources/iconify/google-cloud-functions.svg": "1d31f0d2f9d5f775",
+  "sources/wvl/google-cloud-functions.svg": "f7c650b5f46c51e8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.114,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-cloud-functions.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-cloud-functions.svg"
+    }
+   ]
+  }
+ ]
+}

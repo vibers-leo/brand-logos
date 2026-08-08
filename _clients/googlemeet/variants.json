@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "googlemeet",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "e24d759067fda845"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.213,
+   "provider": "simpleicons/googlemeet",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

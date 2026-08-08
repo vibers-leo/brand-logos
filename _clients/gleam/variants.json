@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gleam",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2d0a6b152cebc1eb",
+  "sources/iconify/gleam.svg": "2d0a6b152cebc1eb",
+  "sources/devicons/gleam-original.svg": "0a6070d26c6f8573",
+  "sources/wvl/gleam.svg": "3beb556b936907cd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gleam.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gleam.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/gleam-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gin",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "01861bf8ca41cd61",
+  "sources/iconify/gin.svg": "01861bf8ca41cd61",
+  "sources/wvl/gin.svg": "447b3ae9c8d7f1bd"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.712,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gin.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gin.svg"
+    }
+   ]
+  }
+ ]
+}

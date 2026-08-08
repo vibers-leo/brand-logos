@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "krakenjs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "70532bcdf85f3bd2",
+  "sources/iconify/krakenjs.svg": "70532bcdf85f3bd2",
+  "sources/devicons/krakenjs-original.svg": "dce2fc92d6da3847",
+  "sources/wvl/krakenjs.svg": "2dcc0367154c62a5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.938,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/krakenjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/krakenjs.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/krakenjs-original.svg"
+    }
+   ]
+  }
+ ]
+}

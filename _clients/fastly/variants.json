@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fastly",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "d9d67503c43989a0",
+  "sources/iconify/fastly.svg": "d9d67503c43989a0",
+  "sources/wvl/fastly.svg": "d4e1680ddc571f36"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.58,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/fastly.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fastly.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "passbolt",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "35610383458b4590",
+  "sources/iconify/passbolt.svg": "35610383458b4590",
+  "sources/iconify/passbolt-icon.svg": "de9a0b7bfd399d55",
+  "sources/wvl/passbolt-icon.svg": "2a6de380f31dfbc7",
+  "sources/wvl/passbolt.svg": "d6ee64906cf72745"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/passbolt-icon.svg",
+    "png": "sources/iconify/passbolt-icon.png"
+   },
+   "aspect": 1.102,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/passbolt-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.696,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/passbolt.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/passbolt.svg"
+    }
+   ]
+  }
+ ]
+}

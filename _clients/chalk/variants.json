@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "chalk",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "dda44bc8960db3dc",
+  "sources/iconify/chalk.svg": "dda44bc8960db3dc",
+  "sources/wvl/chalk.svg": "7b0cb8fa5bfc1595"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.174,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/chalk.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/chalk.svg"
+    }
+   ]
+  }
+ ]
+}

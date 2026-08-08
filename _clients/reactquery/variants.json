@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "reactquery",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "de96d4200e9c5d1d"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.117,
+   "provider": "simpleicons/reactquery",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

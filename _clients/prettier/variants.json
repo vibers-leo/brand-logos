@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "prettier",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0212f261949830ac",
+  "sources/iconify/prettier.svg": "0212f261949830ac",
+  "sources/wvl/prettier.svg": "1924c355db71b099"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/prettier.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/prettier.svg"
+    }
+   ]
+  }
+ ]
+}

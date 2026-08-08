@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jquery",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "66953f46c77bcfc8",
+  "sources/iconify/jquery.svg": "66953f46c77bcfc8",
+  "sources/devicons/jquery-original.svg": "783339fce2d35711",
+  "sources/wvl/jquery.svg": "0d40938e3fc8253f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/jquery-original.svg",
+    "png": "sources/devicons/jquery-original.png"
+   },
+   "aspect": 1.039,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.392,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jquery.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jquery.svg"
+    }
+   ]
+  }
+ ]
+}

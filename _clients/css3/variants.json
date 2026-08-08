@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "css3",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "271214be5d569efc",
+  "sources/devicons/css3-original.svg": "271214be5d569efc"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.882,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/css3-original.svg"
+    }
+   ]
+  }
+ ]
+}

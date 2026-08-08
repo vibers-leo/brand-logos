@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nestjs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "402fe4d3401053a9",
+  "sources/iconify/nestjs.svg": "402fe4d3401053a9",
+  "sources/devicons/nestjs-original.svg": "1f673f535f37eea5",
+  "sources/wvl/nestjs.svg": "ce69369659248ec1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.006,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nestjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nestjs.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/nestjs-original.svg"
+    }
+   ]
+  }
+ ]
+}

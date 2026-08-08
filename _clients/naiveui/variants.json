@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "naiveui",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "849226f9285148d5",
+  "sources/iconify/naiveui.svg": "849226f9285148d5",
+  "sources/wvl/naiveui.svg": "f8430878d9a74727"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.822,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/naiveui.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/naiveui.svg"
+    }
+   ]
+  }
+ ]
+}

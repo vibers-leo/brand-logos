@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "claude",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "4423f97c46f33921",
+  "sources/iconify/claude.svg": "4423f97c46f33921",
+  "sources/iconify/claude-icon.svg": "c13fdc18be30dd3a",
+  "sources/wvl/claude-icon.svg": "be7e2bfa69b3b103",
+  "sources/wvl/claude.svg": "03c8973b481188cd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/claude-icon.svg",
+    "png": "sources/iconify/claude-icon.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/claude-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.663,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/claude.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/claude.svg"
+    }
+   ]
+  }
+ ]
+}

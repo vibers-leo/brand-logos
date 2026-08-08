@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "500px",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "56bf5719a1628aca",
+  "sources/iconify/500px.svg": "56bf5719a1628aca",
+  "sources/wvl/500px.svg": "28f85ba3b8ab5491"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/500px.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/500px.svg"
+    }
+   ]
+  }
+ ]
+}

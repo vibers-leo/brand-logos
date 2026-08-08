@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "prometheus",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "091f8a274312da52",
+  "sources/iconify/prometheus.svg": "091f8a274312da52",
+  "sources/devicons/prometheus-original.svg": "acc40da25c456947",
+  "sources/wvl/prometheus.svg": "bf2d300f5d2ec83d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/prometheus.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/prometheus.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/prometheus-original.svg"
+    }
+   ]
+  }
+ ]
+}

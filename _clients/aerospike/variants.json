@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aerospike",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "cfa0a101a369ed2c",
+  "sources/iconify/aerospike.svg": "cfa0a101a369ed2c",
+  "sources/iconify/aerospike-icon.svg": "6e97911d935b6502",
+  "sources/devicons/aerospike-original.svg": "902bb1d7b0834836",
+  "sources/wvl/aerospike-icon.svg": "43094ce927dd1ebd",
+  "sources/wvl/aerospike.svg": "51274e6d5445ddbb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/aerospike-icon.svg",
+    "png": "sources/iconify/aerospike-icon.png"
+   },
+   "aspect": 1.115,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aerospike-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/aerospike-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 11.538,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aerospike.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aerospike.svg"
+    }
+   ]
+  }
+ ]
+}

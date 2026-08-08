@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jekyll",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "0f02059ff434c2d2",
+  "sources/iconify/jekyll.svg": "0f02059ff434c2d2",
+  "sources/devicons/jekyll-original.svg": "836a4512481c4572",
+  "sources/wvl/jekyll.svg": "42ded209728ddd8c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.455,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jekyll.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jekyll.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/jekyll-original.svg",
+    "png": "sources/devicons/jekyll-original.png"
+   },
+   "aspect": 0.564,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

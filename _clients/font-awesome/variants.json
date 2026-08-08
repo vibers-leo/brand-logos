@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "font-awesome",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5fc51ff1e280180c",
+  "sources/iconify/font-awesome.svg": "5fc51ff1e280180c",
+  "sources/wvl/font-awesome.svg": "c128925819470818"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.996,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/font-awesome.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/font-awesome.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hosted-graphite",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "3e4744c25b91e619",
+  "sources/iconify/hosted-graphite.svg": "3e4744c25b91e619",
+  "sources/wvl/hosted-graphite.svg": "65604ed0c5430efa"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.874,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hosted-graphite.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hosted-graphite.svg"
+    }
+   ]
+  }
+ ]
+}

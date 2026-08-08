@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "runscope",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "bafeaf91300ea058",
+  "sources/iconify/runscope.svg": "bafeaf91300ea058",
+  "sources/wvl/runscope.svg": "998f1923aa7df96d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.961,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/runscope.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/runscope.svg"
+    }
+   ]
+  }
+ ]
+}

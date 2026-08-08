@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-meet",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2b443b63bacbbe08",
+  "sources/iconify/google-meet.svg": "2b443b63bacbbe08",
+  "sources/wvl/google-meet.svg": "055d6f14202a2020"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.216,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-meet.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-meet.svg"
+    }
+   ]
+  }
+ ]
+}

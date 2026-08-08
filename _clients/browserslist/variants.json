@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "browserslist",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "52c8e66bdae6679f",
+  "sources/iconify/browserslist.svg": "52c8e66bdae6679f",
+  "sources/wvl/browserslist.svg": "1fb6c011b8362f0a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/browserslist.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/browserslist.svg"
+    }
+   ]
+  }
+ ]
+}

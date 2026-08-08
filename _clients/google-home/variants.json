@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-home",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "67b6ed6e732b5896",
+  "sources/iconify/google-home.svg": "67b6ed6e732b5896",
+  "sources/wvl/google-home.svg": "74407f55f39283a3"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.969,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-home.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-home.svg"
+    }
+   ]
+  }
+ ]
+}

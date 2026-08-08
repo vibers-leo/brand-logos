@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vim",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2da3370a095bd882",
+  "sources/iconify/vim.svg": "2da3370a095bd882",
+  "sources/devicons/vim-original.svg": "2e03a1373ba99a93",
+  "sources/wvl/vim.svg": "c036821d7394b3b5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.998,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vim.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vim.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vim-original.svg"
+    }
+   ]
+  }
+ ]
+}

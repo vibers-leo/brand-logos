@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "khanacademy",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "4d395fb742bd5138"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.929,
+   "provider": "simpleicons/khanacademy",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

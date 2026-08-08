@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fortran",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "222d6915a79b2889",
+  "sources/iconify/fortran.svg": "222d6915a79b2889",
+  "sources/devicons/fortran-original.svg": "9d1763f7dc304340",
+  "sources/wvl/fortran.svg": "dd8859ae08ebd4f6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/fortran.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fortran.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/fortran-original.svg"
+    }
+   ]
+  }
+ ]
+}

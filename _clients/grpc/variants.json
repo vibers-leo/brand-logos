@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "grpc",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "673ad37a4041d450",
+  "sources/iconify/grpc.svg": "673ad37a4041d450",
+  "sources/devicons/grpc-original.svg": "831782ea1933294b",
+  "sources/wvl/grpc.svg": "9d2c9aabe5edb018"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.467,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/grpc.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/grpc.svg"
+    }
+   ]
+  },
+  {
+   "key": "horizontal-en-mono-light",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/grpc-original.svg",
+    "png": "sources/devicons/grpc-original.png"
+   },
+   "aspect": 2.459,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

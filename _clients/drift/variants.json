@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "drift",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2537b0d30a8570dd",
+  "sources/iconify/drift.svg": "2537b0d30a8570dd",
+  "sources/wvl/drift.svg": "4449862029837bf0"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.412,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/drift.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/drift.svg"
+    }
+   ]
+  }
+ ]
+}

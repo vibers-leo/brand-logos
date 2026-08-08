@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "solidjs",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "82c6a6f3748a000c",
+  "sources/iconify/solidjs.svg": "82c6a6f3748a000c",
+  "sources/iconify/solidjs-icon.svg": "08ed13278e655687",
+  "sources/devicons/solidjs-original.svg": "b269f48f6a5fe49b",
+  "sources/wvl/solidjs-icon.svg": "82783c7e66336656",
+  "sources/wvl/solidjs.svg": "a44120fd580d9475"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.86,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/solidjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/solidjs.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/solidjs-icon.svg",
+    "png": "sources/iconify/solidjs-icon.png"
+   },
+   "aspect": 1.075,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/solidjs-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/solidjs-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "microsoftsqlserver",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9c37ece77aba9102",
+  "sources/devicons/microsoftsqlserver-original.svg": "9c37ece77aba9102"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.914,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/microsoftsqlserver-original.svg"
+    }
+   ]
+  }
+ ]
+}

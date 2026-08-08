@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "discord",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "54962efac37c68af"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.312,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cirrus",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a0c4f561deda32fe",
+  "sources/iconify/cirrus.svg": "a0c4f561deda32fe",
+  "sources/wvl/cirrus.svg": "c29213f3e92dac58"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.29,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cirrus.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cirrus.svg"
+    }
+   ]
+  }
+ ]
+}

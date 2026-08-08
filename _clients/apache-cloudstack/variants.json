@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apache-cloudstack",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1e7c234509345e1e",
+  "sources/iconify/apache-cloudstack.svg": "1e7c234509345e1e",
+  "sources/wvl/apache-cloudstack.svg": "3c8f15cd6e59d39b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.235,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/apache-cloudstack.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/apache-cloudstack.svg"
+    }
+   ]
+  }
+ ]
+}

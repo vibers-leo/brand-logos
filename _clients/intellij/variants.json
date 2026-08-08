@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "intellij",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c24f600d7d5f1054",
+  "sources/devicons/intellij-original.svg": "c24f600d7d5f1054"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/intellij-original.svg"
+    }
+   ]
+  }
+ ]
+}

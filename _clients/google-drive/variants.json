@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-drive",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9cce566ea60f63aa",
+  "sources/iconify/google-drive.svg": "9cce566ea60f63aa",
+  "sources/wvl/google-drive.svg": "9c9a34868a57b6d6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.121,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-drive.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-drive.svg"
+    }
+   ]
+  }
+ ]
+}

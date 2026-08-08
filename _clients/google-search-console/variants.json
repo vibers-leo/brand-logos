@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-search-console",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "789707504cf7c057",
+  "sources/iconify/google-search-console.svg": "789707504cf7c057",
+  "sources/wvl/google-search-console.svg": "741232562a1157ae"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.126,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-search-console.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-search-console.svg"
+    }
+   ]
+  }
+ ]
+}

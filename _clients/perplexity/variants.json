@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "perplexity",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "5925667e14a3e017",
+  "sources/iconify/perplexity.svg": "5925667e14a3e017",
+  "sources/iconify/perplexity-icon.svg": "2b6bf0617165a012",
+  "sources/wvl/perplexity-icon.svg": "22d77a282d757964",
+  "sources/wvl/perplexity.svg": "248f976a0f2e7eee"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/perplexity-icon.svg",
+    "png": "sources/iconify/perplexity-icon.png"
+   },
+   "aspect": 0.861,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/perplexity-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.615,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/perplexity.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/perplexity.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "po-et",
+ "primary": "symbol-unknown-mono-light",
+ "fingerprint": {
+  "logo.svg": "eecf00cddb3f24b4"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-mono-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

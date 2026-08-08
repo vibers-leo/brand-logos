@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cockpit",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8e5136197040192a",
+  "sources/iconify/cockpit.svg": "8e5136197040192a",
+  "sources/wvl/cockpit.svg": "1aab32c5ef2c3599"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cockpit.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cockpit.svg"
+    }
+   ]
+  }
+ ]
+}

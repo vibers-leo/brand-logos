@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tensorflow",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a9a6c865f54b37a0",
+  "sources/iconify/tensorflow.svg": "a9a6c865f54b37a0",
+  "sources/devicons/tensorflow-original.svg": "1cdaf01f02c18baf",
+  "sources/wvl/tensorflow.svg": "413441cb96a813bb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.933,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tensorflow.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tensorflow.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/tensorflow-original.svg"
+    }
+   ]
+  }
+ ]
+}

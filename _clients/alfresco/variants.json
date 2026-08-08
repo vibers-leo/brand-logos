@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "alfresco",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "51a932d5022549cc",
+  "sources/iconify/alfresco.svg": "51a932d5022549cc",
+  "sources/wvl/alfresco.svg": "79420518d6740a00"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/alfresco.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/alfresco.svg"
+    }
+   ]
+  }
+ ]
+}

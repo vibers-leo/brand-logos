@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-timestream",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9038026a5bd92103",
+  "sources/iconify/aws-timestream.svg": "9038026a5bd92103",
+  "sources/wvl/aws-timestream.svg": "80b42d02332cb72d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-timestream.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-timestream.svg"
+    }
+   ]
+  }
+ ]
+}

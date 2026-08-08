@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hootsuite",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "748b77d5beb77cb3",
+  "sources/iconify/hootsuite.svg": "748b77d5beb77cb3",
+  "sources/iconify/hootsuite-icon.svg": "f63c24bbc159cd28",
+  "sources/wvl/hootsuite-icon.svg": "93bfb1fc5ab6c529",
+  "sources/wvl/hootsuite.svg": "94635e2b8f178d8f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/hootsuite-icon.svg",
+    "png": "sources/iconify/hootsuite-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hootsuite-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.056,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hootsuite.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hootsuite.svg"
+    }
+   ]
+  }
+ ]
+}

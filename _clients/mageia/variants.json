@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mageia",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "c79d000ecc68aad6",
+  "sources/iconify/mageia.svg": "c79d000ecc68aad6",
+  "sources/wvl/mageia.svg": "609bc5a1c0195847"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.265,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mageia.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mageia.svg"
+    }
+   ]
+  }
+ ]
+}

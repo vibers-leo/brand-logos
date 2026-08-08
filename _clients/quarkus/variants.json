@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "quarkus",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "f6dd6541b0cb1f71",
+  "sources/iconify/quarkus.svg": "f6dd6541b0cb1f71",
+  "sources/iconify/quarkus-icon.svg": "d3006ded4e9d967b",
+  "sources/devicons/quarkus-original.svg": "a66b1c45901039c5",
+  "sources/wvl/quarkus-icon.svg": "492cf08308cd0e08",
+  "sources/wvl/quarkus.svg": "6e2649711cfb2875"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/quarkus-icon.svg",
+    "png": "sources/iconify/quarkus-icon.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/quarkus-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/quarkus-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.667,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/quarkus.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/quarkus.svg"
+    }
+   ]
+  }
+ ]
+}

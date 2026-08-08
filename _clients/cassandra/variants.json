@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cassandra",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "8288c0f768966035",
+  "sources/iconify/cassandra.svg": "8288c0f768966035",
+  "sources/devicons/cassandra-original.svg": "eadbb13849817fc6",
+  "sources/wvl/cassandra.svg": "4b438624fc711e3a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.514,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cassandra.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cassandra.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/cassandra-original.svg"
+    }
+   ]
+  }
+ ]
+}

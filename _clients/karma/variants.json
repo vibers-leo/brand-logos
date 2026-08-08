@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "karma",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "7e0a582e51ef7aaf",
+  "sources/iconify/karma.svg": "7e0a582e51ef7aaf",
+  "sources/devicons/karma-original.svg": "a9904f59f1442d12",
+  "sources/wvl/karma.svg": "cff078f6e8bacca4"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.301,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/karma.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/karma.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/karma-original.svg",
+    "png": "sources/devicons/karma-original.png"
+   },
+   "aspect": 1.007,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

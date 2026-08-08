@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "atom",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "4f7ff63f4c2abc5d",
+  "sources/iconify/atom.svg": "4f7ff63f4c2abc5d",
+  "sources/iconify/atom-icon.svg": "33cebc0cc4d561dd",
+  "sources/devicons/atom-original.svg": "da92ecc21e8645f8",
+  "sources/wvl/atom-icon.svg": "3ee87286a3faa3f8",
+  "sources/wvl/atom.svg": "84ff6a7257267223"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/atom-icon.svg",
+    "png": "sources/iconify/atom-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/atom-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/atom-original.svg",
+    "png": "sources/devicons/atom-original.png"
+   },
+   "aspect": 1.097,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.854,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/atom.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/atom.svg"
+    }
+   ]
+  }
+ ]
+}

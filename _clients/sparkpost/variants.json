@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sparkpost",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "e681a146a388f4cf",
+  "sources/iconify/sparkpost.svg": "e681a146a388f4cf",
+  "sources/wvl/sparkpost.svg": "cefcd228472c5e11"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.845,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sparkpost.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sparkpost.svg"
+    }
+   ]
+  }
+ ]
+}

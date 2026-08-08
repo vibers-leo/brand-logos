@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "carbide",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "37ff89f32cffaf12",
+  "sources/iconify/carbide.svg": "37ff89f32cffaf12",
+  "sources/wvl/carbide.svg": "27f52429108cef65"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.82,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/carbide.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/carbide.svg"
+    }
+   ]
+  }
+ ]
+}

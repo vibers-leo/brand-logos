@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "swiper",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8443688a7143d538",
+  "sources/devicons/swiper-original.svg": "8443688a7143d538"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.003,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/swiper-original.svg"
+    }
+   ]
+  }
+ ]
+}

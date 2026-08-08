@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "react",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "efa7d40180fdba62",
+  "sources/fa.svg": "efa7d40180fdba62",
+  "sources/iconify/react.svg": "c96e80f9d3c5e536",
+  "sources/devicons/react-original.svg": "241f236d090c291e",
+  "sources/wvl/react.svg": "6a190c538d156932"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/react.svg",
+    "png": "sources/iconify/react.png"
+   },
+   "aspect": 1.126,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/react.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/react-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.142,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "qdrant",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b0db3e3e948b9e9b",
+  "sources/iconify/qdrant.svg": "b0db3e3e948b9e9b",
+  "sources/iconify/qdrant-icon.svg": "a389a279ed065a2f",
+  "sources/wvl/qdrant-icon.svg": "3211469c4a8f9389",
+  "sources/wvl/qdrant.svg": "ae9265fd641b3cdd"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.961,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/qdrant.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/qdrant.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/qdrant-icon.svg",
+    "png": "sources/iconify/qdrant-icon.png"
+   },
+   "aspect": 0.867,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/qdrant-icon.svg"
+    }
+   ]
+  }
+ ]
+}

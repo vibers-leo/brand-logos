@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rubymine",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2baa55a786a1d306",
+  "sources/iconify/rubymine.svg": "2baa55a786a1d306",
+  "sources/devicons/rubymine-original.svg": "d4d3219ed56e73fb",
+  "sources/wvl/rubymine.svg": "7fa4bdcfbad4b7f1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rubymine.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rubymine.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/rubymine-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apacheairflow",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "fe58bf910eb3a320",
+  "sources/devicons/apacheairflow-original.svg": "fe58bf910eb3a320"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/apacheairflow-original.svg"
+    }
+   ]
+  }
+ ]
+}

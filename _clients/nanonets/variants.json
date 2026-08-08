@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nanonets",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "cad4a699153445dc",
+  "sources/iconify/nanonets.svg": "cad4a699153445dc",
+  "sources/wvl/nanonets.svg": "78b366d5805ca049"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.248,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nanonets.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nanonets.svg"
+    }
+   ]
+  }
+ ]
+}

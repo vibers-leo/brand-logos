@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "meteor",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "bff335918788d1c5",
+  "sources/iconify/meteor.svg": "bff335918788d1c5",
+  "sources/iconify/meteor-icon.svg": "9dcef066f6a59384",
+  "sources/devicons/meteor-original.svg": "78ca8cf93f038df1",
+  "sources/wvl/meteor-icon.svg": "4d72a4b2af2113d1",
+  "sources/wvl/meteor.svg": "9bb4a512087a9cba"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/meteor-icon.svg",
+    "png": "sources/iconify/meteor-icon.png"
+   },
+   "aspect": 1.02,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/meteor-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/meteor-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.186,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/meteor.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/meteor.svg"
+    }
+   ]
+  }
+ ]
+}

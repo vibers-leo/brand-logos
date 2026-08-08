@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "createreactapp",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "7a8ee0dbae52d7f8"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.092,
+   "provider": "simpleicons/createreactapp",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arm",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "618b444811f119a5",
+  "sources/iconify/arm.svg": "618b444811f119a5",
+  "sources/wvl/arm.svg": "fbd64a6050b74527"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.277,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/arm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/arm.svg"
+    }
+   ]
+  }
+ ]
+}

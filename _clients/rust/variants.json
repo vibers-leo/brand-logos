@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rust",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d06f6f08c65bb961",
+  "sources/iconify/rust.svg": "d06f6f08c65bb961",
+  "sources/devicons/rust-original.svg": "1d3ec97ff6d194d9",
+  "sources/wvl/rust.svg": "bdae5bab794417e6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rust.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rust.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/rust-original.svg"
+    }
+   ]
+  }
+ ]
+}

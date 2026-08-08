@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vimeo",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "111079299b1d2bde",
+  "sources/fa.svg": "111079299b1d2bde",
+  "sources/iconify/vimeo.svg": "0ebba3fe6442383b",
+  "sources/iconify/vimeo-icon.svg": "0b603aa9105f7291",
+  "sources/wvl/vimeo-icon.svg": "cca61b1be1bd9339",
+  "sources/wvl/vimeo.svg": "8d503d7ad8017353"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/vimeo-icon.svg",
+    "png": "sources/iconify/vimeo-icon.png"
+   },
+   "aspect": 1.154,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vimeo-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/vimeo.svg",
+    "png": "sources/iconify/vimeo.png"
+   },
+   "aspect": 3.529,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vimeo.svg"
+    }
+   ]
+  }
+ ]
+}

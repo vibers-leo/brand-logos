@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "coda",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "dd6fd6158bd59262",
+  "sources/iconify/coda.svg": "dd6fd6158bd59262",
+  "sources/iconify/coda-icon.svg": "114c5c0b9a29744c",
+  "sources/wvl/coda-icon.svg": "b611fe34387476ec",
+  "sources/wvl/coda.svg": "937acc31a33dce0e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.897,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/coda.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/coda.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/coda-icon.svg",
+    "png": "sources/iconify/coda-icon.png"
+   },
+   "aspect": 0.934,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/coda-icon.svg"
+    }
+   ]
+  }
+ ]
+}

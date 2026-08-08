@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arduino",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "0a648448da3bf6c6",
+  "sources/iconify/arduino.svg": "0a648448da3bf6c6",
+  "sources/devicons/arduino-original.svg": "f801aa2de0611479",
+  "sources/wvl/arduino.svg": "6589c9d005972558"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.467,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/arduino.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/arduino.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/arduino-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "v8-ignition",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "f542cff9005b0f54",
+  "sources/iconify/v8-ignition.svg": "f542cff9005b0f54"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.843,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/v8-ignition.svg"
+    }
+   ]
+  }
+ ]
+}

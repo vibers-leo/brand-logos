@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mootools",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "82bf8cd7548e5fc9",
+  "sources/iconify/mootools.svg": "82bf8cd7548e5fc9",
+  "sources/wvl/mootools.svg": "71839c84a1b9b96d"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.732,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mootools.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mootools.svg"
+    }
+   ]
+  }
+ ]
+}

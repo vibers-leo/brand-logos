@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "express",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "de2cd488bc2605b2",
+  "sources/iconify/express.svg": "de2cd488bc2605b2",
+  "sources/devicons/express-original.svg": "0ad9e785a46d6164",
+  "sources/wvl/express.svg": "682d6b1326372e47"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/express-original.svg",
+    "png": "sources/devicons/express-original.png"
+   },
+   "aspect": 1.723,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.448,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/express.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/express.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sequelize",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1ebb0d9deb93e692",
+  "sources/iconify/sequelize.svg": "1ebb0d9deb93e692",
+  "sources/devicons/sequelize-original.svg": "ebb7b38e31bd004c",
+  "sources/wvl/sequelize.svg": "808ea86fd367e46b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.867,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sequelize.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sequelize.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/sequelize-original.svg"
+    }
+   ]
+  }
+ ]
+}

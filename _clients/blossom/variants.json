@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "blossom",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "f47b1d53111bbc34",
+  "sources/iconify/blossom.svg": "f47b1d53111bbc34",
+  "sources/wvl/blossom.svg": "0c5073988b407ee1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/blossom.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/blossom.svg"
+    }
+   ]
+  }
+ ]
+}

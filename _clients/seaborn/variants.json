@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "seaborn",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "a63dd4ca1a540f7b",
+  "sources/iconify/seaborn.svg": "a63dd4ca1a540f7b",
+  "sources/iconify/seaborn-icon.svg": "3e97ff4716ae3528",
+  "sources/wvl/seaborn-icon.svg": "60df832a9a8e4268",
+  "sources/wvl/seaborn.svg": "4ca1ea5385c67344"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/seaborn-icon.svg",
+    "png": "sources/iconify/seaborn-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/seaborn-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.186,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/seaborn.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/seaborn.svg"
+    }
+   ]
+  }
+ ]
+}

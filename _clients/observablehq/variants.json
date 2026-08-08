@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "observablehq",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "dd804188ec33063e",
+  "sources/iconify/observablehq.svg": "dd804188ec33063e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.963,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/observablehq.svg"
+    }
+   ]
+  }
+ ]
+}

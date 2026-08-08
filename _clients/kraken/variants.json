@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kraken",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e592ecd2dd19a770",
+  "sources/iconify/kraken.svg": "e592ecd2dd19a770",
+  "sources/wvl/kraken.svg": "a06e8d4d05dbf1b8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.122,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/kraken.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kraken.svg"
+    }
+   ]
+  }
+ ]
+}

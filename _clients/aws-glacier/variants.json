@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-glacier",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "6b420971098e02d7",
+  "sources/iconify/aws-glacier.svg": "6b420971098e02d7",
+  "sources/wvl/aws-glacier.svg": "ac6f69bd1240824e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-glacier.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-glacier.svg"
+    }
+   ]
+  }
+ ]
+}

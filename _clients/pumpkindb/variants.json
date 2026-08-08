@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pumpkindb",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "41c9e1ddf787c278",
+  "sources/iconify/pumpkindb.svg": "41c9e1ddf787c278",
+  "sources/wvl/pumpkindb.svg": "f30aa96079c53253"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.788,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pumpkindb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pumpkindb.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tapcart",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2b111f792d7dfc96",
+  "sources/iconify/tapcart.svg": "2b111f792d7dfc96",
+  "sources/iconify/tapcart-icon.svg": "f532d3b910da79ea",
+  "sources/wvl/tapcart-icon.svg": "7a48a6400584db18",
+  "sources/wvl/tapcart.svg": "865d76fbbde47b11"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/tapcart-icon.svg",
+    "png": "sources/iconify/tapcart-icon.png"
+   },
+   "aspect": 1.129,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tapcart-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.39,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tapcart.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tapcart.svg"
+    }
+   ]
+  }
+ ]
+}

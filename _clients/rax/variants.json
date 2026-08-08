@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rax",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e834c00c1f920ca2",
+  "sources/iconify/rax.svg": "e834c00c1f920ca2",
+  "sources/wvl/rax.svg": "e6608b3a5ef89494"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rax.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rax.svg"
+    }
+   ]
+  }
+ ]
+}

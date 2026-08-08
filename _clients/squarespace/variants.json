@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "squarespace",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "f47d27c26fa97b7e",
+  "sources/iconify/squarespace.svg": "f47d27c26fa97b7e",
+  "sources/wvl/squarespace.svg": "9cbeb6fe3b0a726a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.259,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/squarespace.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/squarespace.svg"
+    }
+   ]
+  }
+ ]
+}

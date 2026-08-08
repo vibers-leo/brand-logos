@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "flink",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a4d8a9201d4c0993",
+  "sources/wvl/apache-flink.svg": "a4d8a9201d4c0993"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.927,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/apache-flink.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pkg",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "63b21eaee8c8a08f",
+  "sources/iconify/pkg.svg": "63b21eaee8c8a08f",
+  "sources/wvl/pkg.svg": "1fbf1e0f9b43412d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.118,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pkg.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pkg.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "koreio",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "cb14299a6e5f80e5",
+  "sources/iconify/koreio.svg": "cb14299a6e5f80e5",
+  "sources/wvl/koreio.svg": "683f613804fa73ed"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.861,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/koreio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/koreio.svg"
+    }
+   ]
+  }
+ ]
+}

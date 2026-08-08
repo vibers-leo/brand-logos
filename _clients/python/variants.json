@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "python",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5c4905aaa7b1a9b4",
+  "sources/iconify/python.svg": "5c4905aaa7b1a9b4",
+  "sources/devicons/python-original.svg": "7ef53dceb8bc32cd",
+  "sources/wvl/python.svg": "37b4be3b7d0f0f2b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.006,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/python.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/python.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/python-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bluesky",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "47bc6c073af1d5a7",
+  "sources/fa.svg": "47bc6c073af1d5a7",
+  "sources/iconify/bluesky.svg": "732e9709f188fec8",
+  "sources/wvl/bluesky.svg": "68f1dfde01967e1d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/bluesky.svg",
+    "png": "sources/iconify/bluesky.png"
+   },
+   "aspect": 1.137,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bluesky.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.137,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  }
+ ]
+}

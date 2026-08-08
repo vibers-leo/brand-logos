@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "capacitor",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "43c57d0b2b039783",
+  "sources/devicons/capacitor-original.svg": "43c57d0b2b039783"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/capacitor-original.svg"
+    }
+   ]
+  }
+ ]
+}

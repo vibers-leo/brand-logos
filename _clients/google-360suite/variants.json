@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-360suite",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "7528267089ea1f51",
+  "sources/iconify/google-360suite.svg": "7528267089ea1f51",
+  "sources/wvl/google-360suite.svg": "df3911a1b52fbbd3"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.983,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-360suite.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-360suite.svg"
+    }
+   ]
+  }
+ ]
+}

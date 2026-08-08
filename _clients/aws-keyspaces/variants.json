@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-keyspaces",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "abb2bd92123c3e4e",
+  "sources/iconify/aws-keyspaces.svg": "abb2bd92123c3e4e",
+  "sources/wvl/aws-keyspaces.svg": "f93c7e8d5eec4370"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-keyspaces.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-keyspaces.svg"
+    }
+   ]
+  }
+ ]
+}

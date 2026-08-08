@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kakaotalk",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "bdbb722e57afaabd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

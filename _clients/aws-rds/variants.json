@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-rds",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "242a8f4632a6c0e4",
+  "sources/iconify/aws-rds.svg": "242a8f4632a6c0e4",
+  "sources/wvl/aws-rds.svg": "80f92105d4091657"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-rds.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-rds.svg"
+    }
+   ]
+  }
+ ]
+}

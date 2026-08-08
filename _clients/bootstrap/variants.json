@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bootstrap",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "4ec658961db851e0",
+  "sources/fa.svg": "4ec658961db851e0",
+  "sources/iconify/bootstrap.svg": "d71761119bb4614f",
+  "sources/devicons/bootstrap-original.svg": "44805a0f01d369a7",
+  "sources/wvl/bootstrap.svg": "fb3918b90ce2e31b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/bootstrap.svg",
+    "png": "sources/iconify/bootstrap.png"
+   },
+   "aspect": 1.258,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bootstrap.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/bootstrap-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.254,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "visa",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "b2f6016461022ff2"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.082,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

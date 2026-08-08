@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vercel",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ce1ed1f0769da69d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.154,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

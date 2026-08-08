@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eventsentry",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2a688b4304e8f48d",
+  "sources/iconify/eventsentry.svg": "2a688b4304e8f48d",
+  "sources/wvl/eventsentry.svg": "e6bdd6aa7f481f48"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.997,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/eventsentry.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/eventsentry.svg"
+    }
+   ]
+  }
+ ]
+}

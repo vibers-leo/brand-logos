@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-amplify",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "8caed3cc98e6a3a4",
+  "sources/iconify/aws-amplify.svg": "8caed3cc98e6a3a4",
+  "sources/wvl/aws-amplify.svg": "5595a31b8d43c566"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.34,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-amplify.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-amplify.svg"
+    }
+   ]
+  }
+ ]
+}

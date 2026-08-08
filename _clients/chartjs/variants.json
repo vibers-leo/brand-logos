@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "chartjs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a11fcb64825faafc",
+  "sources/iconify/chartjs.svg": "a11fcb64825faafc",
+  "sources/devicons/chartjs-original.svg": "e366ff704c60b852",
+  "sources/wvl/chartjs.svg": "c902932be2f660e6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.867,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/chartjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/chartjs.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/chartjs-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "behance",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "f50d818379cda922",
+  "sources/fa.svg": "f50d818379cda922",
+  "sources/iconify/behance.svg": "51cca9065a959407",
+  "sources/devicons/behance-original.svg": "2e43d08eb5329c09",
+  "sources/wvl/behance.svg": "01235fcfa1008569"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.593,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/behance-original.svg",
+    "png": "sources/devicons/behance-original.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/behance.svg",
+    "png": "sources/iconify/behance.png"
+   },
+   "aspect": 5.389,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/behance.svg"
+    }
+   ]
+  }
+ ]
+}

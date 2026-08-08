@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "skaffolder",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "c60ebc764cbfe07d",
+  "sources/iconify/skaffolder.svg": "c60ebc764cbfe07d",
+  "sources/wvl/skaffolder.svg": "966b10d082875288"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.716,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/skaffolder.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/skaffolder.svg"
+    }
+   ]
+  }
+ ]
+}

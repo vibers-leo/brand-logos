@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "graphql",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "b87e493c476e0fdf",
+  "sources/iconify/graphql.svg": "b87e493c476e0fdf",
+  "sources/devicons/graphql-plain.svg": "ebd71e427e7a4334",
+  "sources/wvl/graphql.svg": "a03ee0441ea0c8f4"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.891,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/graphql.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/graphql.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/graphql-plain.svg"
+    }
+   ]
+  }
+ ]
+}

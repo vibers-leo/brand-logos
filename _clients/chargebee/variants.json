@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "chargebee",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "1a824f36490d0245",
+  "sources/iconify/chargebee.svg": "1a824f36490d0245",
+  "sources/iconify/chargebee-icon.svg": "e0ff1cee3feb5f72",
+  "sources/wvl/chargebee-icon.svg": "8e4325ed511919ae",
+  "sources/wvl/chargebee.svg": "6fb9ba5c49ef1a37"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/chargebee-icon.svg",
+    "png": "sources/iconify/chargebee-icon.png"
+   },
+   "aspect": 0.89,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/chargebee-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.242,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/chargebee.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/chargebee.svg"
+    }
+   ]
+  }
+ ]
+}

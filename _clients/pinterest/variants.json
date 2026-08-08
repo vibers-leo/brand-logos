@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pinterest",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "53229ab2bfcd3b5c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.998,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "netbeans",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "fd196109c6083d8e",
+  "sources/iconify/netbeans.svg": "fd196109c6083d8e",
+  "sources/devicons/netbeans-original.svg": "dbc559135271b419",
+  "sources/wvl/netbeans.svg": "f95ddf0f9c8d3165"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.942,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/netbeans.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/netbeans.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/netbeans-original.svg"
+    }
+   ]
+  }
+ ]
+}

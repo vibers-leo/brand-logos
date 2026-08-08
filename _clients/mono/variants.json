@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mono",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "49f93057f30eeca9",
+  "sources/iconify/mono.svg": "49f93057f30eeca9",
+  "sources/wvl/mono.svg": "cd7a70b5d528ac46"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.779,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mono.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mono.svg"
+    }
+   ]
+  }
+ ]
+}

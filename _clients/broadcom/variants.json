@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "broadcom",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "26e91b02273fd828",
+  "sources/iconify/broadcom.svg": "26e91b02273fd828",
+  "sources/iconify/broadcom-icon.svg": "72436250fad3e1d7",
+  "sources/wvl/broadcom-icon.svg": "fe5a562e4dfca51c",
+  "sources/wvl/broadcom.svg": "b2290258b515a4c5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/broadcom-icon.svg",
+    "png": "sources/iconify/broadcom-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/broadcom-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.087,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/broadcom.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/broadcom.svg"
+    }
+   ]
+  }
+ ]
+}

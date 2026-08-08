@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yandex-ru",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "6732d1e829a96efe",
+  "sources/iconify/yandex-ru.svg": "6732d1e829a96efe",
+  "sources/wvl/yandex-ru.svg": "bab9fd105fea51dd"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.554,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/yandex-ru.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/yandex-ru.svg"
+    }
+   ]
+  }
+ ]
+}

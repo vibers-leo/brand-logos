@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "testlodge",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "99861fac3dd5f6dd",
+  "sources/iconify/testlodge.svg": "99861fac3dd5f6dd",
+  "sources/wvl/testlodge.svg": "e26b8dd87b33a301"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.17,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/testlodge.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/testlodge.svg"
+    }
+   ]
+  }
+ ]
+}

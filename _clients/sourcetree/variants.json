@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sourcetree",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "20346c2beea9da5b",
+  "sources/iconify/sourcetree.svg": "20346c2beea9da5b",
+  "sources/devicons/sourcetree-original.svg": "10fb0b8336fb0cc0",
+  "sources/wvl/sourcetree.svg": "a404afdff0de6340"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.794,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sourcetree.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sourcetree.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/sourcetree-original.svg",
+    "png": "sources/devicons/sourcetree-original.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

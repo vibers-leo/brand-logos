@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "memgraph",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "cdd35725c1ad8126",
+  "sources/iconify/memgraph.svg": "cdd35725c1ad8126",
+  "sources/wvl/memgraph.svg": "7391099dd09320d7"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.328,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/memgraph.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/memgraph.svg"
+    }
+   ]
+  }
+ ]
+}

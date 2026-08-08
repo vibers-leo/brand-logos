@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "autoprefixer",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "981c5b9fad615582",
+  "sources/iconify/autoprefixer.svg": "981c5b9fad615582",
+  "sources/wvl/autoprefixer.svg": "3264bfa2d772207d"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.332,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/autoprefixer.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/autoprefixer.svg"
+    }
+   ]
+  }
+ ]
+}

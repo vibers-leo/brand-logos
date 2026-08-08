@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tnw",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "206aeffb030fcafe",
+  "sources/iconify/tnw.svg": "206aeffb030fcafe",
+  "sources/wvl/tnw.svg": "a0ec81b4ccb80b11"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.128,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tnw.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tnw.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "angellist",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "fca4431296d95538",
+  "sources/iconify/angellist.svg": "fca4431296d95538",
+  "sources/wvl/angellist.svg": "926dc0fe00ada14a"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.694,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/angellist.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/angellist.svg"
+    }
+   ]
+  }
+ ]
+}

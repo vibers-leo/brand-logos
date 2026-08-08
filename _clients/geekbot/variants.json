@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "geekbot",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b445fa7b0c915289",
+  "sources/iconify/geekbot.svg": "b445fa7b0c915289",
+  "sources/wvl/geekbot.svg": "44198f1116fa340f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.901,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/geekbot.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/geekbot.svg"
+    }
+   ]
+  }
+ ]
+}

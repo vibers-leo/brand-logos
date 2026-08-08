@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "googlecolab",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "5ea27deb749edebe",
+  "sources/devicons/googlecolab-original.svg": "5ea27deb749edebe"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.698,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/googlecolab-original.svg"
+    }
+   ]
+  }
+ ]
+}

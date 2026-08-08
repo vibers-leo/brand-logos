@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "watcha",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "799f2e070d00841d"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.316,
+   "provider": "logo.dev",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

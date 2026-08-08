@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jotai",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "51480991a1318bef",
+  "sources/iconify/jotai.svg": "51480991a1318bef",
+  "sources/wvl/jotai.svg": "ad7d0383bad5f0ba"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.897,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jotai.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jotai.svg"
+    }
+   ]
+  }
+ ]
+}

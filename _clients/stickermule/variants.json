@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stickermule",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "9e9f2b4b2d29ebf8",
+  "sources/iconify/stickermule.svg": "9e9f2b4b2d29ebf8",
+  "sources/wvl/stickermule.svg": "a87b886eabdaac52"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.725,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/stickermule.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stickermule.svg"
+    }
+   ]
+  }
+ ]
+}

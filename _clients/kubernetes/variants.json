@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kubernetes",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "72600c9e41373597",
+  "sources/iconify/kubernetes.svg": "72600c9e41373597",
+  "sources/devicons/kubernetes-original.svg": "e6e583707d47e247",
+  "sources/wvl/kubernetes.svg": "cf662e0bb3b3bf8a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.026,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/kubernetes.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kubernetes.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/kubernetes-original.svg"
+    }
+   ]
+  }
+ ]
+}

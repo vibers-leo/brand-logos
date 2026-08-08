@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "strider",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "09117df3519e2278",
+  "sources/iconify/strider.svg": "09117df3519e2278",
+  "sources/wvl/strider.svg": "657ad9af4b1c6d6c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/strider.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/strider.svg"
+    }
+   ]
+  }
+ ]
+}

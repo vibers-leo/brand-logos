@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "couchdb",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "4d79ab4dc98ebfa2",
+  "sources/iconify/couchdb.svg": "4d79ab4dc98ebfa2",
+  "sources/iconify/couchdb-icon.svg": "e27005c4781d26c8",
+  "sources/devicons/couchdb-original.svg": "07b469bcc87937e9",
+  "sources/wvl/couchdb-icon.svg": "9ae2c2cec9fbb76a",
+  "sources/wvl/couchdb.svg": "4c819cce18dbe8d1"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/couchdb-icon.svg",
+    "png": "sources/iconify/couchdb-icon.png"
+   },
+   "aspect": 1.527,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/couchdb-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/couchdb-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.875,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/couchdb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/couchdb.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 0.757
+  }
+ ]
+}

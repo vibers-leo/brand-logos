@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "evergreen",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "4e408633e5fd2372",
+  "sources/iconify/evergreen.svg": "4e408633e5fd2372",
+  "sources/iconify/evergreen-icon.svg": "fd7455f2e17850b8",
+  "sources/wvl/evergreen-icon.svg": "55e93481e7c21419",
+  "sources/wvl/evergreen.svg": "9555600dc56fcd43"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/evergreen-icon.svg",
+    "png": "sources/iconify/evergreen-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/evergreen-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.782,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/evergreen.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/evergreen.svg"
+    }
+   ]
+  }
+ ]
+}

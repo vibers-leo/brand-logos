@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "microsoft-onedrive",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "5b2a5a28ea08c251",
+  "sources/iconify/microsoft-onedrive.svg": "5b2a5a28ea08c251",
+  "sources/wvl/microsoft-onedrive.svg": "f4d934f73dd9e8df"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.561,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/microsoft-onedrive.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/microsoft-onedrive.svg"
+    }
+   ]
+  }
+ ]
+}

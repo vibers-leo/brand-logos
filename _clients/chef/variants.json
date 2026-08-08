@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "chef",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "f24040d48d3a4216",
+  "sources/iconify/chef.svg": "f24040d48d3a4216",
+  "sources/wvl/chef.svg": "04ad6ebca88cc8d2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.936,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/chef.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/chef.svg"
+    }
+   ]
+  }
+ ]
+}

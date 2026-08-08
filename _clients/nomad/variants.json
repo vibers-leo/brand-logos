@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nomad",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ec230b1e93d5b9a4",
+  "sources/iconify/nomad.svg": "ec230b1e93d5b9a4",
+  "sources/iconify/nomad-icon.svg": "6867e6a48b385967",
+  "sources/devicons/nomad-original.svg": "a3a361be72ae3bd3",
+  "sources/wvl/nomad-icon.svg": "adf2706ca787c061",
+  "sources/wvl/nomad.svg": "417b1b91bf2fb0ab"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/nomad-icon.svg",
+    "png": "sources/iconify/nomad-icon.png"
+   },
+   "aspect": 0.867,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nomad-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/nomad-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.782,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nomad.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nomad.svg"
+    }
+   ]
+  }
+ ]
+}

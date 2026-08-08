@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lucidmotors",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2c3407bb8f1f03fe"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.693,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

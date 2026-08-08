@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "blender",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "22c3e39e90b84a47",
+  "sources/iconify/blender.svg": "22c3e39e90b84a47",
+  "sources/devicons/blender-original.svg": "371610abf02e68e2",
+  "sources/wvl/blender.svg": "7e88b151c1e25a15"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.231,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/blender.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/blender.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/blender-original.svg"
+    }
+   ]
+  }
+ ]
+}

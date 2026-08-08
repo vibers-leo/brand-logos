@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dotnetcore",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "315cc769f4a34e32",
+  "sources/devicons/dotnetcore-original.svg": "315cc769f4a34e32"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/dotnetcore-original.svg"
+    }
+   ]
+  }
+ ]
+}

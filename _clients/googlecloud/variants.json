@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "googlecloud",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "4591a2fb94852eb3",
+  "sources/devicons/googlecloud-original.svg": "4591a2fb94852eb3"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.25,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/googlecloud-original.svg"
+    }
+   ]
+  }
+ ]
+}

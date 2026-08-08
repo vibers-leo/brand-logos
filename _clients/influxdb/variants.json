@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "influxdb",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d5a2f27ec7c15c27",
+  "sources/iconify/influxdb.svg": "d5a2f27ec7c15c27",
+  "sources/iconify/influxdb-icon.svg": "c511779221f923cc",
+  "sources/devicons/influxdb-original.svg": "0dbc902c39556255",
+  "sources/wvl/influxdb-icon.svg": "a4ec6dfd32b03392",
+  "sources/wvl/influxdb.svg": "6217ae7247ab60bf"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/influxdb-icon.svg",
+    "png": "sources/iconify/influxdb-icon.png"
+   },
+   "aspect": 0.983,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/influxdb-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/influxdb-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.972,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/influxdb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/influxdb.svg"
+    }
+   ]
+  }
+ ]
+}

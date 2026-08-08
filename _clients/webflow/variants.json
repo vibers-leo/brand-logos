@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "webflow",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "74c13bf1cd27d884",
+  "sources/iconify/webflow.svg": "74c13bf1cd27d884",
+  "sources/devicons/webflow-original.svg": "382cffee9a38bade",
+  "sources/wvl/webflow.svg": "3a568204631106c0"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/webflow-original.svg",
+    "png": "sources/devicons/webflow-original.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.965,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/webflow.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/webflow.svg"
+    }
+   ]
+  }
+ ]
+}

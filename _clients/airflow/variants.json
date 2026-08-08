@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "airflow",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "6a8468d825d324ed",
+  "sources/iconify/airflow.svg": "6a8468d825d324ed",
+  "sources/iconify/airflow-icon.svg": "c78cd80e4f5cdce8",
+  "sources/wvl/airflow-icon.svg": "937f6551ceb7abda",
+  "sources/wvl/airflow.svg": "9d82d84a2732cffc"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.626,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/airflow.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/airflow.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/airflow-icon.svg",
+    "png": "sources/iconify/airflow-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/airflow-icon.svg"
+    }
+   ]
+  }
+ ]
+}

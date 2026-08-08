@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "proofy",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "53bb759265c8ec06",
+  "sources/iconify/proofy.svg": "53bb759265c8ec06",
+  "sources/wvl/proofy.svg": "0a623778b876328d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.981,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/proofy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/proofy.svg"
+    }
+   ]
+  }
+ ]
+}

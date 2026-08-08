@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ollama",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "4c7aa08f4ad4343c"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.758,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

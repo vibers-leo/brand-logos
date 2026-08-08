@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "datatables",
+ "primary": "symbol-en-mono-light",
+ "fingerprint": {
+  "logo.svg": "e176b7965b668aaa",
+  "sources/devicons/datatables-original.svg": "e176b7965b668aaa"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-light",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/datatables-original.svg"
+    }
+   ]
+  }
+ ]
+}

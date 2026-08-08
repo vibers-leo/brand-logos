@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "appwrite",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "41009114b5ae64de",
+  "sources/iconify/appwrite.svg": "41009114b5ae64de",
+  "sources/iconify/appwrite-icon.svg": "7515e254d41389a5",
+  "sources/devicons/appwrite-original.svg": "cd198466fc3e6523",
+  "sources/wvl/appwrite-icon.svg": "7014e3d296b848cd",
+  "sources/wvl/appwrite.svg": "01ec58127c5ce204"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/appwrite-icon.svg",
+    "png": "sources/iconify/appwrite-icon.png"
+   },
+   "aspect": 1.503,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/appwrite-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/appwrite-original.svg",
+    "png": "sources/devicons/appwrite-original.png"
+   },
+   "aspect": 1.134,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.625,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/appwrite.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/appwrite.svg"
+    }
+   ]
+  }
+ ]
+}

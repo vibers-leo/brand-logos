@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "anthropic",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d301a8c553d0c0fb"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.415,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

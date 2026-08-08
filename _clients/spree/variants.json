@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "spree",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "2a586b8246193150",
+  "sources/iconify/spree.svg": "2a586b8246193150",
+  "sources/wvl/spree.svg": "54557ccba366ec43"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.452,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/spree.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/spree.svg"
+    }
+   ]
+  }
+ ]
+}

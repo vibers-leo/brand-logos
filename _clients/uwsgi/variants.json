@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "uwsgi",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "230f22d215c74377",
+  "sources/iconify/uwsgi.svg": "230f22d215c74377",
+  "sources/devicons/uwsgi-original.svg": "4e52af1af05b803f",
+  "sources/wvl/uwsgi.svg": "6934a62660515493"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/devicons/uwsgi-original.svg",
+    "png": "sources/devicons/uwsgi-original.png"
+   },
+   "aspect": 3.531,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.207,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/uwsgi.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/uwsgi.svg"
+    }
+   ]
+  }
+ ]
+}

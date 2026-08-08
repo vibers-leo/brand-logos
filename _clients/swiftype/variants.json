@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "swiftype",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c89b08970a8cfc12",
+  "sources/iconify/swiftype.svg": "c89b08970a8cfc12",
+  "sources/wvl/swiftype.svg": "e0be7d95a6afb7f9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.813,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/swiftype.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/swiftype.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pwa",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "2992d03c76039b6e",
+  "sources/iconify/pwa.svg": "2992d03c76039b6e",
+  "sources/wvl/pwa.svg": "e5d23e743e608041"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.657,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pwa.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pwa.svg"
+    }
+   ]
+  }
+ ]
+}

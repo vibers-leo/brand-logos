@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "markdown",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "91cd53ea2645b545",
+  "sources/iconify/markdown.svg": "91cd53ea2645b545",
+  "sources/devicons/markdown-original.svg": "899e7de7a6a3242c",
+  "sources/wvl/markdown.svg": "19dc7683d6d83310"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.623,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/markdown.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/markdown.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/markdown-original.svg"
+    }
+   ]
+  }
+ ]
+}

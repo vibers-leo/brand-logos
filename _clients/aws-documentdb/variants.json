@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-documentdb",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "fcfa06ce27523657",
+  "sources/iconify/aws-documentdb.svg": "fcfa06ce27523657",
+  "sources/wvl/aws-documentdb.svg": "0cd17e27ba6ad205"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-documentdb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-documentdb.svg"
+    }
+   ]
+  }
+ ]
+}

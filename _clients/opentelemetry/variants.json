@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "opentelemetry",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "d6c100945858fb9f",
+  "sources/iconify/opentelemetry.svg": "d6c100945858fb9f",
+  "sources/iconify/opentelemetry-icon.svg": "4ed93f03de288936",
+  "sources/devicons/opentelemetry-original.svg": "97a8aec6d091a31b",
+  "sources/wvl/opentelemetry-icon.svg": "0629149a2b0c22e0",
+  "sources/wvl/opentelemetry.svg": "17b31e03f2935d65"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.854,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/opentelemetry.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/opentelemetry.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/opentelemetry-icon.svg",
+    "png": "sources/iconify/opentelemetry-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/opentelemetry-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/opentelemetry-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ngrok",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ae14c926cc44a1e7",
+  "sources/iconify/ngrok.svg": "ae14c926cc44a1e7",
+  "sources/devicons/ngrok-original.svg": "0b1ae6e4acf3dbd7",
+  "sources/wvl/ngrok.svg": "0b92ee9ad318d170"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/ngrok-original.svg",
+    "png": "sources/devicons/ngrok-original.png"
+   },
+   "aspect": 2.719,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.671,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ngrok.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ngrok.svg"
+    }
+   ]
+  }
+ ]
+}

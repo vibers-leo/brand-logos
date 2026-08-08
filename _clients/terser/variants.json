@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "terser",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "68d92b9926c21e32",
+  "sources/iconify/terser.svg": "68d92b9926c21e32",
+  "sources/iconify/terser-icon.svg": "1d36fa983163e804",
+  "sources/wvl/terser-icon.svg": "62519eaf5ba2380b",
+  "sources/wvl/terser.svg": "41db8950f201fbde"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/terser-icon.svg",
+    "png": "sources/iconify/terser-icon.png"
+   },
+   "aspect": 0.997,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/terser-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.277,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/terser.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/terser.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "figma",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "c53788cdc889ba1e"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.696,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

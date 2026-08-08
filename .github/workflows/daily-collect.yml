@@ -32,8 +32,30 @@ jobs:
           GIT_COMMITTER_NAME: "vibers-bot"
           GIT_COMMITTER_EMAIL: "vibers.leo@gmail.com"
 
+      - name: 변형 매니페스트 갱신
+        run: python3 scripts/build-logo-variants.py
+
+      - name: brands-slim 재생성
+        run: python3 scripts/build-slim.py
+
       - name: 에셋 무결성 검사
         run: python3 scripts/check-assets.py
+
+      # collect-auto.py --commit 이 앞에서 이미 커밋하므로, 그 뒤에 생성된
+      # 매니페스트·slim·variant-wanted 는 따로 커밋해야 유실되지 않는다.
+      - name: 변형 산출물 커밋
+        run: |
+          git config user.name  "vibers-bot"
+          git config user.email "vibers.leo@gmail.com"
+          git add _clients/*/variants.json _clients/*/variants \
+                  _clients/variants-index.json _clients/brands-slim.json \
+                  _clients/variant-wanted.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "변형 산출물 변경 없음"
+          else
+            git commit -m "chore: 변형 매니페스트·slim 갱신 [skip ci]"
+            git push
+          fi
 
       - name: 결과 요약
         run: |

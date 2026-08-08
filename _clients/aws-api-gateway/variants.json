@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-api-gateway",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0e07f6cea9b1e582",
+  "sources/iconify/aws-api-gateway.svg": "0e07f6cea9b1e582",
+  "sources/wvl/aws-api-gateway.svg": "da55fc03342161ac"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-api-gateway.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-api-gateway.svg"
+    }
+   ]
+  }
+ ]
+}

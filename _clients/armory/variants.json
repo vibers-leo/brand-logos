@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "armory",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "667f4e7df6204634",
+  "sources/iconify/armory.svg": "667f4e7df6204634",
+  "sources/iconify/armory-icon.svg": "29bfa84e20e46d1d",
+  "sources/wvl/armory-icon.svg": "712547b0fc3323b0",
+  "sources/wvl/armory.svg": "19f048d7a30bc8fd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/armory-icon.svg",
+    "png": "sources/iconify/armory-icon.png"
+   },
+   "aspect": 1.058,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/armory-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.689,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/armory.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/armory.svg"
+    }
+   ]
+  }
+ ]
+}

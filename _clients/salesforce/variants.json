@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "salesforce",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a5e70abf280cc555",
+  "sources/iconify/salesforce.svg": "a5e70abf280cc555",
+  "sources/devicons/salesforce-original.svg": "5eb413da5a13cc3e",
+  "sources/wvl/salesforce.svg": "0a854459ef6be397"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.429,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/salesforce.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/salesforce.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/salesforce-original.svg"
+    }
+   ]
+  }
+ ]
+}

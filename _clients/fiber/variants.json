@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fiber",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "b45df4f3e5f9f94c",
+  "sources/devicons/fiber-original.svg": "b45df4f3e5f9f94c"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.982,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/fiber-original.svg"
+    }
+   ]
+  }
+ ]
+}

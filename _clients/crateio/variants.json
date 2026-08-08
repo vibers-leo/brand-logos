@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "crateio",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "1e00e0e41b321473",
+  "sources/iconify/crateio.svg": "1e00e0e41b321473",
+  "sources/wvl/crateio.svg": "00b3e5f9e03ffc0a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.333,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/crateio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/crateio.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "alpinejs",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "68795a6d40d51c03",
+  "sources/iconify/alpinejs.svg": "68795a6d40d51c03",
+  "sources/iconify/alpinejs-icon.svg": "629512e57a27430b",
+  "sources/devicons/alpinejs-original.svg": "a48c8c1666e6f450",
+  "sources/wvl/alpinejs-icon.svg": "1443c31df91ce551",
+  "sources/wvl/alpinejs.svg": "7d49d2a0e52d06f8"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/alpinejs-icon.svg",
+    "png": "sources/iconify/alpinejs-icon.png"
+   },
+   "aspect": 2.179,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/alpinejs-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/alpinejs-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.207,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/alpinejs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/alpinejs.svg"
+    }
+   ]
+  }
+ ]
+}

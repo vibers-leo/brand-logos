@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "neverinstall",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "86641bbfa1d55d0d",
+  "sources/iconify/neverinstall.svg": "86641bbfa1d55d0d",
+  "sources/iconify/neverinstall-icon.svg": "495e55e8fd3636e2",
+  "sources/wvl/neverinstall-icon.svg": "4520099c38dd1048",
+  "sources/wvl/neverinstall.svg": "01b214603f43d01c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/neverinstall-icon.svg",
+    "png": "sources/iconify/neverinstall-icon.png"
+   },
+   "aspect": 1.043,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/neverinstall-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.242,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/neverinstall.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/neverinstall.svg"
+    }
+   ]
+  }
+ ]
+}

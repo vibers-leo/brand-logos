@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bem-2",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8ae41b5338a36cf1",
+  "sources/iconify/bem-2.svg": "8ae41b5338a36cf1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.163,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bem-2.svg"
+    }
+   ]
+  }
+ ]
+}

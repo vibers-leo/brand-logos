@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "struts",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9d3ee0cb06c5614d",
+  "sources/iconify/struts.svg": "9d3ee0cb06c5614d",
+  "sources/wvl/struts.svg": "8cee3355f0f6aac7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.884,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/struts.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/struts.svg"
+    }
+   ]
+  }
+ ]
+}

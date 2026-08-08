@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-athena",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4cf39265b5e70ec9",
+  "sources/iconify/aws-athena.svg": "4cf39265b5e70ec9",
+  "sources/wvl/aws-athena.svg": "6f63715e4570bfa5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws-athena.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws-athena.svg"
+    }
+   ]
+  }
+ ]
+}

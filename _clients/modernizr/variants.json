@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "modernizr",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "efab525a3ea05a4e",
+  "sources/iconify/modernizr.svg": "efab525a3ea05a4e",
+  "sources/wvl/modernizr.svg": "9a1bafc4d4252f82"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.084,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/modernizr.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/modernizr.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rethinkdb",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "dfd590a90cc83791",
+  "sources/iconify/rethinkdb.svg": "dfd590a90cc83791",
+  "sources/wvl/rethinkdb.svg": "5a2e6a147a55b3b7"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.25,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rethinkdb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rethinkdb.svg"
+    }
+   ]
+  }
+ ]
+}

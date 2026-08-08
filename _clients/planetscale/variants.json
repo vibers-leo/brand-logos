@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "planetscale",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d9d780960aa67127",
+  "sources/iconify/planetscale.svg": "d9d780960aa67127",
+  "sources/wvl/planetscale.svg": "c311785e8be69a02"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/planetscale.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/planetscale.svg"
+    }
+   ]
+  }
+ ]
+}

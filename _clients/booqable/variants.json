@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "booqable",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "5e5d0f2b1e71acff",
+  "sources/iconify/booqable.svg": "5e5d0f2b1e71acff",
+  "sources/iconify/booqable-icon.svg": "d38d1fb9a572a63a",
+  "sources/wvl/booqable-icon.svg": "2b62b43938fd103c",
+  "sources/wvl/booqable.svg": "a0313dc5d9eb279d"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/booqable-icon.svg",
+    "png": "sources/iconify/booqable-icon.png"
+   },
+   "aspect": 1.907,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/booqable-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.294,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/booqable.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/booqable.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yugabytedb",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "084cdd9ea146c586",
+  "sources/devicons/yugabytedb-original.svg": "084cdd9ea146c586"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.098,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/yugabytedb-original.svg"
+    }
+   ]
+  }
+ ]
+}

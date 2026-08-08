@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zube",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "8c4a040e97dfd799",
+  "sources/iconify/zube.svg": "8c4a040e97dfd799",
+  "sources/wvl/zube.svg": "095a5a57aed759d3"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.447,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zube.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zube.svg"
+    }
+   ]
+  }
+ ]
+}

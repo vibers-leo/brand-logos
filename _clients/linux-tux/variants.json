@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "linux-tux",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "071cbf8b25a312cf",
+  "sources/iconify/linux-tux.svg": "071cbf8b25a312cf",
+  "sources/wvl/linux-tux.svg": "71084a13a2f89860"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.84,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/linux-tux.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/linux-tux.svg"
+    }
+   ]
+  }
+ ]
+}

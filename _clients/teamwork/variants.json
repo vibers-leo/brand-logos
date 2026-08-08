@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "teamwork",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6439875fd0e33725",
+  "sources/iconify/teamwork.svg": "6439875fd0e33725",
+  "sources/iconify/teamwork-icon.svg": "f79c26b50d560da2",
+  "sources/wvl/teamwork-icon.svg": "3c472fa20c54c4ca",
+  "sources/wvl/teamwork.svg": "63f20ac39d1d5ecf"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-light",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/teamwork-icon.svg",
+    "png": "sources/iconify/teamwork-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/teamwork-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.438,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/teamwork.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/teamwork.svg"
+    }
+   ]
+  }
+ ]
+}

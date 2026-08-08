@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-gmail",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "041464161718b106",
+  "sources/iconify/google-gmail.svg": "041464161718b106",
+  "sources/wvl/google-gmail.svg": "9babf974b0037f28"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.332,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-gmail.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-gmail.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pulumi",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "71b9b47c1dd2f68a",
+  "sources/iconify/pulumi.svg": "71b9b47c1dd2f68a",
+  "sources/iconify/pulumi-icon.svg": "aefd329b1a187fd8",
+  "sources/devicons/pulumi-original.svg": "f9ff888a0c7a82e9",
+  "sources/wvl/pulumi-icon.svg": "40ce348fd11af9d3",
+  "sources/wvl/pulumi.svg": "e3f693a1d41a9334"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/pulumi-icon.svg",
+    "png": "sources/iconify/pulumi-icon.png"
+   },
+   "aspect": 0.946,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pulumi-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/pulumi-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.018,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pulumi.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pulumi.svg"
+    }
+   ]
+  }
+ ]
+}

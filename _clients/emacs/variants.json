@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "emacs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "cd7d6f4ab5285915",
+  "sources/iconify/emacs.svg": "cd7d6f4ab5285915",
+  "sources/devicons/emacs-original.svg": "00abc76ed2e1112f",
+  "sources/wvl/emacs.svg": "459a374179081f62",
+  "sources/wvl/emacs-classic.svg": "1c8ee2a1bdffb6c9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/emacs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/emacs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/emacs-classic.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/emacs-original.svg"
+    }
+   ]
+  }
+ ]
+}

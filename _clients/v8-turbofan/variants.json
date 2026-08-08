@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "v8-turbofan",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "07e6e4a58ab00908",
+  "sources/iconify/v8-turbofan.svg": "07e6e4a58ab00908"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.2,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/v8-turbofan.svg"
+    }
+   ]
+  }
+ ]
+}

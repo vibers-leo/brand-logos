@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "katalon",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "22270a49eb1a1902",
+  "sources/iconify/katalon.svg": "22270a49eb1a1902",
+  "sources/iconify/katalon-icon.svg": "949b9dfa77b96308",
+  "sources/wvl/katalon-icon.svg": "b1490843868a134c",
+  "sources/wvl/katalon.svg": "f2a623ac744b8cc7"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.167,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/katalon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/katalon.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/katalon-icon.svg",
+    "png": "sources/iconify/katalon-icon.png"
+   },
+   "aspect": 0.654,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/katalon-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-mono-dark",
+   "form": "symbol",
+   "lang": "none",
+   "color": "mono-dark",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

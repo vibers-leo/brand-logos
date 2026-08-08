@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "twilio",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "e17ac5b530e44a83",
+  "sources/iconify/twilio.svg": "e17ac5b530e44a83",
+  "sources/iconify/twilio-icon.svg": "a4dc6a6373b28765",
+  "sources/devicons/twilio-original.svg": "790c296b85d4b364",
+  "sources/wvl/twilio-icon.svg": "15f3687fd026df7e",
+  "sources/wvl/twilio.svg": "87b0c4913b46ec51"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/twilio-icon.svg",
+    "png": "sources/iconify/twilio-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/twilio-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/twilio-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.314,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/twilio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/twilio.svg"
+    }
+   ]
+  }
+ ]
+}

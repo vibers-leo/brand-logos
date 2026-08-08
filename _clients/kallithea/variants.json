@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kallithea",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "54f03908a698e40f",
+  "sources/iconify/kallithea.svg": "54f03908a698e40f",
+  "sources/wvl/kallithea.svg": "29b40c01b7cdfa44"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.362,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/kallithea.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kallithea.svg"
+    }
+   ]
+  }
+ ]
+}

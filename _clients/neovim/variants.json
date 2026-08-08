@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "neovim",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "735bfa1499c80806",
+  "sources/iconify/neovim.svg": "735bfa1499c80806",
+  "sources/devicons/neovim-original.svg": "4ea1753f8830eddf",
+  "sources/wvl/neovim.svg": "29e42691ea14f1d2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/neovim-original.svg",
+    "png": "sources/devicons/neovim-original.png"
+   },
+   "aspect": 0.824,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.475,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/neovim.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/neovim.svg"
+    }
+   ]
+  }
+ ]
+}

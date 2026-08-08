@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mastodon",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "71841798ea262520",
+  "sources/fa.svg": "71841798ea262520",
+  "sources/iconify/mastodon.svg": "de9b92993109f8cd",
+  "sources/iconify/mastodon-icon.svg": "646212b6caa175a2",
+  "sources/wvl/mastodon-icon.svg": "ceda5023e87a59a6",
+  "sources/wvl/mastodon.svg": "22386b098964004c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mastodon-icon.svg",
+    "png": "sources/iconify/mastodon-icon.png"
+   },
+   "aspect": 0.933,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mastodon-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.932,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/mastodon.svg",
+    "png": "sources/iconify/mastodon.png"
+   },
+   "aspect": 4.045,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mastodon.svg"
+    }
+   ]
+  }
+ ]
+}

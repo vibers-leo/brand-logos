@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pipedream",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "56240e9cc5a97971",
+  "sources/iconify/pipedream.svg": "56240e9cc5a97971",
+  "sources/wvl/pipedream.svg": "dc1d7794ac5428d1"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.114,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pipedream.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pipedream.svg"
+    }
+   ]
+  }
+ ]
+}

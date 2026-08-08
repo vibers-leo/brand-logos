@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "metaai",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "1219e50c89431a8e"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.002,
+   "provider": "simpleicons/metaai",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xero",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e5d92e2d63b40cff",
+  "sources/iconify/xero.svg": "e5d92e2d63b40cff",
+  "sources/wvl/xero.svg": "170d6c0aec3f37d2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/xero.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xero.svg"
+    }
+   ]
+  }
+ ]
+}

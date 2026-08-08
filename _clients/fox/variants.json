@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fox",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "20b2081c34603c8a",
+  "sources/si.svg": "20b2081c34603c8a"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.368,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

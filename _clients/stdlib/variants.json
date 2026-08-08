@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stdlib",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "3c7b8ce644258b9d",
+  "sources/iconify/stdlib.svg": "3c7b8ce644258b9d",
+  "sources/iconify/stdlib-icon.svg": "9e97ed7109e76f3c",
+  "sources/wvl/stdlib-icon.svg": "3545317c0fc33fc3",
+  "sources/wvl/stdlib.svg": "c3eee574f5c967ab"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/stdlib-icon.svg",
+    "png": "sources/iconify/stdlib-icon.png"
+   },
+   "aspect": 0.899,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stdlib-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.23,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/stdlib.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stdlib.svg"
+    }
+   ]
+  }
+ ]
+}

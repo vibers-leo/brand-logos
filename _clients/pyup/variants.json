@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pyup",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "fc30c1abfc5380d6",
+  "sources/iconify/pyup.svg": "fc30c1abfc5380d6",
+  "sources/wvl/pyup.svg": "ba349fff2d271b6e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.867,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pyup.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pyup.svg"
+    }
+   ]
+  }
+ ]
+}

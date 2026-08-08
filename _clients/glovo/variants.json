@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "glovo",
+ "primary": "vertical-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "a886a89129c2d689"
+ },
+ "variants": [
+  {
+   "key": "vertical-unknown-mono-dark",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.629,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

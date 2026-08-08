@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mysql",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "78ef14683299d6a7",
+  "sources/iconify/mysql.svg": "78ef14683299d6a7",
+  "sources/iconify/mysql-icon.svg": "8baa64fed34a8a94",
+  "sources/devicons/mysql-original.svg": "9f0230158aee23a3",
+  "sources/wvl/mysql-icon.svg": "d4bee24ff22745ec",
+  "sources/wvl/mysql.svg": "882654118abd0754"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.467,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mysql.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mysql.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mysql-icon.svg",
+    "png": "sources/iconify/mysql-icon.png"
+   },
+   "aspect": 1.019,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mysql-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mysql-original.svg"
+    }
+   ]
+  }
+ ]
+}

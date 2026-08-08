@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zig",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a15079f4b67290bd",
+  "sources/iconify/zig.svg": "a15079f4b67290bd",
+  "sources/devicons/zig-original.svg": "10a87ad92d19d866",
+  "sources/wvl/zig.svg": "1842a564d9738426"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.83,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zig.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zig.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/zig-original.svg",
+    "png": "sources/devicons/zig-original.png"
+   },
+   "aspect": 1.092,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

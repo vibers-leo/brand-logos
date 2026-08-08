@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "duckduckgo",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a0c2e296bf5e5064",
+  "sources/iconify/duckduckgo.svg": "a0c2e296bf5e5064",
+  "sources/wvl/duckduckgo.svg": "5ae4730f55c38763"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/duckduckgo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/duckduckgo.svg"
+    }
+   ]
+  }
+ ]
+}

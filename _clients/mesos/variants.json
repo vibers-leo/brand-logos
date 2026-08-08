@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mesos",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "967e94143081c125",
+  "sources/iconify/mesos.svg": "967e94143081c125",
+  "sources/wvl/mesos.svg": "b0c1b1ba2edb3f7d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.879,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mesos.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mesos.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bamboo",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2e9110e89ea36e25",
+  "sources/iconify/bamboo.svg": "2e9110e89ea36e25",
+  "sources/devicons/bamboo-original.svg": "8858b398af9c8e79",
+  "sources/wvl/bamboo.svg": "a982f661eff35dbd"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.864,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bamboo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bamboo.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/bamboo-original.svg"
+    }
+   ]
+  }
+ ]
+}

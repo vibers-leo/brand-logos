@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jsfiddle",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "5b56b26f0a42de19",
+  "sources/iconify/jsfiddle.svg": "5b56b26f0a42de19",
+  "sources/wvl/jsfiddle.svg": "adec66d3e28f418e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.424,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jsfiddle.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jsfiddle.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "shogun",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "c30e29b150b3db43",
+  "sources/iconify/shogun.svg": "c30e29b150b3db43",
+  "sources/wvl/shogun.svg": "a7bfbfbd0839e37b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.894,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/shogun.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/shogun.svg"
+    }
+   ]
+  }
+ ]
+}

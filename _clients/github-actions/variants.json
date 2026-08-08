@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "github-actions",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c33fe3282e86126f",
+  "sources/iconify/github-actions.svg": "c33fe3282e86126f",
+  "sources/wvl/github-actions.svg": "a15ae20391b27fec"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/github-actions.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/github-actions.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ieee",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "bf06e19a9789380d",
+  "sources/iconify/ieee.svg": "bf06e19a9789380d",
+  "sources/wvl/ieee.svg": "98214932389c0fc4"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.431,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ieee.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ieee.svg"
+    }
+   ]
+  }
+ ]
+}

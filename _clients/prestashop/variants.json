@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "prestashop",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "5a6a83124090e5ab",
+  "sources/iconify/prestashop.svg": "5a6a83124090e5ab",
+  "sources/iconify/prestashop-icon.svg": "f835a95edd78ae4c",
+  "sources/wvl/prestashop-icon.svg": "8cd6457045e49770",
+  "sources/wvl/prestashop.svg": "da6439616cf9c27c"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/prestashop-icon.svg",
+    "png": "sources/iconify/prestashop-icon.png"
+   },
+   "aspect": 0.776,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/prestashop-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 9.091,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/prestashop.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/prestashop.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "madge",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "0281a00ff3a32ba0",
+  "sources/iconify/madge.svg": "0281a00ff3a32ba0",
+  "sources/wvl/madge.svg": "76f4bea3aa63e234"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.689,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/madge.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/madge.svg"
+    }
+   ]
+  }
+ ]
+}

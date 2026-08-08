@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nginx",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "bf9df63fbc6ff82a",
+  "sources/iconify/nginx.svg": "bf9df63fbc6ff82a",
+  "sources/devicons/nginx-original.svg": "717fd00d8c2e16c6",
+  "sources/wvl/nginx.svg": "94635cf4739e7f87"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.88,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nginx.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nginx.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/devicons/nginx-original.svg",
+    "png": "sources/devicons/nginx-original.png"
+   },
+   "aspect": 4.717,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

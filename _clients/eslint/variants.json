@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eslint",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "55f5f364223795d7",
+  "sources/iconify/eslint.svg": "55f5f364223795d7",
+  "sources/devicons/eslint-original.svg": "a49d3da53f7f2228",
+  "sources/wvl/eslint.svg": "a1d74d5ce26c62d8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.141,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/eslint.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/eslint.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/eslint-original.svg"
+    }
+   ]
+  }
+ ]
+}

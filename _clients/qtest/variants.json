@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "qtest",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "fdb464c5c69a61c2",
+  "sources/devicons/qtest-original.svg": "fdb464c5c69a61c2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.989,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/qtest-original.svg"
+    }
+   ]
+  }
+ ]
+}

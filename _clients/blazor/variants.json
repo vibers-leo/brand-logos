@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "blazor",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "d79066b57881699d",
+  "sources/devicons/blazor-original.svg": "d79066b57881699d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.103,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/blazor-original.svg"
+    }
+   ]
+  }
+ ]
+}

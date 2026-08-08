@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "concourse",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "069b9016458f6202",
+  "sources/iconify/concourse.svg": "069b9016458f6202",
+  "sources/wvl/concourse.svg": "67859c77e0233fdf"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.009,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/concourse.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/concourse.svg"
+    }
+   ]
+  }
+ ]
+}

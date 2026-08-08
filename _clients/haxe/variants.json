@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "haxe",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "45a5ed9f890327f1",
+  "sources/iconify/haxe.svg": "45a5ed9f890327f1",
+  "sources/devicons/haxe-original.svg": "0d7b51b9738c51ca",
+  "sources/wvl/haxe.svg": "7e77553f66a8f769"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/haxe.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/haxe.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/haxe-original.svg"
+    }
+   ]
+  }
+ ]
+}

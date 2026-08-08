@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "solidity",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ca685a2639291675",
+  "sources/iconify/solidity.svg": "ca685a2639291675",
+  "sources/devicons/solidity-original.svg": "16ee8a8d0bcd8404",
+  "sources/wvl/solidity.svg": "198ab42fb81f1852"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.645,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/solidity.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/solidity.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/solidity-original.svg"
+    }
+   ]
+  }
+ ]
+}

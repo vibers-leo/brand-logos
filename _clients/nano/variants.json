@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nano",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "146402cc1dcbb613",
+  "sources/devicons/nano-original.svg": "146402cc1dcbb613"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.713,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/nano-original.svg"
+    }
+   ]
+  }
+ ]
+}

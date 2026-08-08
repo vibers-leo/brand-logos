@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "raphael",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5cb8433bb7b26f93",
+  "sources/iconify/raphael.svg": "5cb8433bb7b26f93",
+  "sources/wvl/raphael.svg": "c74b81f99dd4ec88"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/raphael.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/raphael.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gunjs",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "0d2f73366d933cf6",
+  "sources/iconify/gunjs.svg": "0d2f73366d933cf6",
+  "sources/wvl/gunjs.svg": "6b55f5f4df1ad722"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.818,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gunjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gunjs.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "symfony",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8a8ec00109e8bdd7",
+  "sources/iconify/symfony.svg": "8a8ec00109e8bdd7",
+  "sources/devicons/symfony-original.svg": "4455107fd4c26080",
+  "sources/wvl/symfony.svg": "aa4a7101831185e8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/symfony.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/symfony.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/symfony-original.svg"
+    }
+   ]
+  }
+ ]
+}

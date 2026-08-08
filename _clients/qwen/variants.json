@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "qwen",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ed89f1b111a7a9c5",
+  "sources/iconify/qwen.svg": "74517912700337f6",
+  "sources/iconify/qwen-icon.svg": "a18b42506c2d75da"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/qwen-icon.svg",
+    "png": "sources/iconify/qwen-icon.png"
+   },
+   "aspect": 1.015,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.422,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/qwen.svg"
+    }
+   ]
+  }
+ ]
+}

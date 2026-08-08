@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hugo",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "5da8c46f28ee6e8c",
+  "sources/iconify/hugo.svg": "5da8c46f28ee6e8c",
+  "sources/devicons/hugo-original.svg": "fb3489b71cd70db6",
+  "sources/wvl/hugo.svg": "b4b3c8ed9abea4a6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/hugo-original.svg",
+    "png": "sources/devicons/hugo-original.png"
+   },
+   "aspect": 0.892,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.838,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hugo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hugo.svg"
+    }
+   ]
+  }
+ ]
+}

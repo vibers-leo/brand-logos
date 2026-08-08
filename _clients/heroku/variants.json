@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "heroku",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "72858a72703c6e1f",
+  "sources/iconify/heroku.svg": "72858a72703c6e1f",
+  "sources/iconify/heroku-icon.svg": "304d830383685ee9",
+  "sources/devicons/heroku-original.svg": "709ba7aab1e56c07",
+  "sources/wvl/heroku-icon.svg": "169e47d164d00eab",
+  "sources/wvl/heroku.svg": "83271c368fb23027"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/heroku-icon.svg",
+    "png": "sources/iconify/heroku-icon.png"
+   },
+   "aspect": 0.902,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/heroku-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/heroku-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.557,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/heroku.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/heroku.svg"
+    }
+   ]
+  }
+ ]
+}

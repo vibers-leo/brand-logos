@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lighttpd",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "d177b8401f914bc2",
+  "sources/iconify/lighttpd.svg": "d177b8401f914bc2",
+  "sources/wvl/lighttpd.svg": "40907613ff2fb796"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.214,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/lighttpd.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lighttpd.svg"
+    }
+   ]
+  }
+ ]
+}

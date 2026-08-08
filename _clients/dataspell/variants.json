@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dataspell",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4a9b816225fec749",
+  "sources/iconify/dataspell.svg": "4a9b816225fec749",
+  "sources/devicons/dataspell-original.svg": "704982b9877e7abe",
+  "sources/wvl/dataspell.svg": "8d1b6db0f3f42b95"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dataspell.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dataspell.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/dataspell-original.svg"
+    }
+   ]
+  }
+ ]
+}

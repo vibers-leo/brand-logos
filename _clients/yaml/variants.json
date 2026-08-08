@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yaml",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "e6a8e9394d542850",
+  "sources/iconify/yaml.svg": "e6a8e9394d542850",
+  "sources/devicons/yaml-original.svg": "35266a1757fac1c3",
+  "sources/wvl/yaml.svg": "e5ccc1444b28ccbe"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.922,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/yaml.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/yaml.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/yaml-original.svg",
+    "png": "sources/devicons/yaml-original.png"
+   },
+   "aspect": 1.088,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

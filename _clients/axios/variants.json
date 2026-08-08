@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "axios",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "487e02e317b7f5a9",
+  "sources/iconify/axios.svg": "487e02e317b7f5a9",
+  "sources/devicons/axios-plain.svg": "191e158f6bdc3d1b",
+  "sources/wvl/axios.svg": "019bb67dc59f7ed3"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/axios-plain.svg",
+    "png": "sources/devicons/axios-plain.png"
+   },
+   "aspect": 0.551,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.87,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/axios.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/axios.svg"
+    }
+   ]
+  }
+ ]
+}

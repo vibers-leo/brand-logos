@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "browserling",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "48c4f7cc19ad96d6",
+  "sources/iconify/browserling.svg": "48c4f7cc19ad96d6",
+  "sources/wvl/browserling.svg": "b5e7f410d70127c2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.122,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/browserling.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/browserling.svg"
+    }
+   ]
+  }
+ ]
+}

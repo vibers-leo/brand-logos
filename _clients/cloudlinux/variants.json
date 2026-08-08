@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cloudlinux",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "709e4422dcd568c9",
+  "sources/iconify/cloudlinux.svg": "709e4422dcd568c9",
+  "sources/wvl/cloudlinux.svg": "e8c618a644c04908"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.007,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cloudlinux.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cloudlinux.svg"
+    }
+   ]
+  }
+ ]
+}

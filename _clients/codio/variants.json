@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "codio",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2d2f01124379e18a",
+  "sources/iconify/codio.svg": "2d2f01124379e18a",
+  "sources/wvl/codio.svg": "8a73c11b22770f8d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.866,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/codio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/codio.svg"
+    }
+   ]
+  }
+ ]
+}

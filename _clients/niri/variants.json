@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "niri",
+ "primary": "vertical-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "a09a69068ae0ef5a"
+ },
+ "variants": [
+  {
+   "key": "vertical-unknown-mono-dark",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.529,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

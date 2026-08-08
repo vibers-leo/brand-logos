@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "datadog",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1a588db7bf3114b3",
+  "sources/iconify/datadog.svg": "1a588db7bf3114b3",
+  "sources/iconify/datadog-icon.svg": "4238713081387c93",
+  "sources/devicons/datadog-original.svg": "eda6ed8e86598c0d",
+  "sources/wvl/datadog-icon.svg": "cc0a6668fe5b4f8c",
+  "sources/wvl/datadog.svg": "74a14472a6ede4da"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/datadog.svg"
+    },
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/datadog-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/datadog-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/datadog.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/datadog-original.svg"
+    }
+   ]
+  }
+ ]
+}

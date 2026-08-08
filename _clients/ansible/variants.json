@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ansible",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b34a57847af3bc51",
+  "sources/iconify/ansible.svg": "b34a57847af3bc51",
+  "sources/devicons/ansible-original.svg": "c790ed5662b51e45",
+  "sources/wvl/ansible.svg": "dac09142b7777f02"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.814,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ansible.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ansible.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ansible-original.svg"
+    }
+   ]
+  }
+ ]
+}

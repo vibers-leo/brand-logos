@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "terraform",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "efbfeccaeb6f0d5f",
+  "sources/iconify/terraform.svg": "efbfeccaeb6f0d5f",
+  "sources/iconify/terraform-icon.svg": "08cd0b47547887fa",
+  "sources/devicons/terraform-original.svg": "4c1fc83fcc323077",
+  "sources/wvl/terraform-icon.svg": "760b077eda805643",
+  "sources/wvl/terraform.svg": "86336db741b7c778"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/terraform-icon.svg",
+    "png": "sources/iconify/terraform-icon.png"
+   },
+   "aspect": 0.88,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/terraform-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/terraform-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.167,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/terraform.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/terraform.svg"
+    }
+   ]
+  }
+ ]
+}

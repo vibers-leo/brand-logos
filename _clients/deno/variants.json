@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "deno",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "bbcff890537a24f6",
+  "sources/iconify/deno.svg": "bbcff890537a24f6",
+  "sources/wvl/deno.svg": "13181d5bfd376c4b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/deno.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/deno.svg"
+    }
+   ]
+  }
+ ]
+}

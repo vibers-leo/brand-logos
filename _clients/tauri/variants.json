@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tauri",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2582c813774e5717",
+  "sources/iconify/tauri.svg": "2582c813774e5717",
+  "sources/devicons/tauri-original.svg": "def3629019955a14",
+  "sources/wvl/tauri.svg": "734630bab34f0703"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.888,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tauri.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tauri.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/tauri-original.svg"
+    }
+   ]
+  }
+ ]
+}

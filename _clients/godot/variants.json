@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "godot",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "7519fb05a5d45efa",
+  "sources/iconify/godot.svg": "7519fb05a5d45efa",
+  "sources/iconify/godot-icon.svg": "c1630f948abfcd07",
+  "sources/devicons/godot-original.svg": "d2b9c421aac4ceb4",
+  "sources/wvl/godot-icon.svg": "6ef9a22cebe2430a",
+  "sources/wvl/godot.svg": "2d15519d64821bef"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.932,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/godot.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/godot.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/godot-icon.svg",
+    "png": "sources/iconify/godot-icon.png"
+   },
+   "aspect": 1.06,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/godot-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/godot-original.svg"
+    }
+   ]
+  }
+ ]
+}

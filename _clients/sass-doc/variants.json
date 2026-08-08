@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sass-doc",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "70818a09b32e1b1f",
+  "sources/iconify/sass-doc.svg": "70818a09b32e1b1f",
+  "sources/wvl/sass-doc.svg": "ab10260de6ecf97f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.184,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sass-doc.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sass-doc.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zsh",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8ffe590e62b1d3bb",
+  "sources/iconify/zsh.svg": "8ffe590e62b1d3bb",
+  "sources/devicons/zsh-original.svg": "4e373ae85519d44f",
+  "sources/wvl/zsh.svg": "eb3318c4e59f4f36"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.567,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zsh.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zsh.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/zsh-original.svg",
+    "png": "sources/devicons/zsh-original.png"
+   },
+   "aspect": 1.061,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

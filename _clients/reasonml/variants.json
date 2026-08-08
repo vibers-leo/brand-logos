@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "reasonml",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b4e7dad4912bf415",
+  "sources/iconify/reasonml.svg": "b4e7dad4912bf415",
+  "sources/iconify/reasonml-icon.svg": "3355b1aef1ecf6c5",
+  "sources/wvl/reasonml-icon.svg": "244d2b7482876e1d",
+  "sources/wvl/reasonml.svg": "51616c4a7d5b5fc9"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.679,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/reasonml.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/reasonml.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/reasonml-icon.svg",
+    "png": "sources/iconify/reasonml-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/reasonml-icon.svg"
+    }
+   ]
+  }
+ ]
+}

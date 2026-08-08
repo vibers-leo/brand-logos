@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nim-lang",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ccca0355c0358bc8",
+  "sources/iconify/nim-lang.svg": "ccca0355c0358bc8",
+  "sources/wvl/nim-lang.svg": "d374d8822f6ee55f"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.636,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nim-lang.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nim-lang.svg"
+    }
+   ]
+  }
+ ]
+}

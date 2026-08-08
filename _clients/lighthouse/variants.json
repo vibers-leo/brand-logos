@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lighthouse",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "01029d0448f3d19f",
+  "sources/iconify/lighthouse.svg": "01029d0448f3d19f",
+  "sources/wvl/lighthouse.svg": "19dd7c013de3af4b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/lighthouse.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lighthouse.svg"
+    }
+   ]
+  }
+ ]
+}

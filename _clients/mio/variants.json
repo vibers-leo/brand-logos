@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mio",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "70717aa17d9246c6",
+  "sources/iconify/mio.svg": "70717aa17d9246c6",
+  "sources/wvl/mio.svg": "20e9bd3ac38bd961"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.239,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mio.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 0.797
+  }
+ ]
+}

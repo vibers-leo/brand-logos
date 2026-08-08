@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wwf",
+ "primary": "vertical-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "919a8c2ae8d0d693"
+ },
+ "variants": [
+  {
+   "key": "vertical-unknown-mono-dark",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.669,
+   "provider": "ngo-curated",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

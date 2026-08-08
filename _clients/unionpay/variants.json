@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "unionpay",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "f2feccb1b0b9e131",
+  "sources/iconify/unionpay.svg": "f2feccb1b0b9e131",
+  "sources/wvl/unionpay.svg": "2fc9249ca6850d7c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.6,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/unionpay.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/unionpay.svg"
+    }
+   ]
+  }
+ ]
+}

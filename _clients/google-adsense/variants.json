@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-adsense",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "3981ef484b51c10e",
+  "sources/iconify/google-adsense.svg": "3981ef484b51c10e",
+  "sources/wvl/google-adsense.svg": "125ba4b409259937"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.128,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-adsense.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-adsense.svg"
+    }
+   ]
+  }
+ ]
+}

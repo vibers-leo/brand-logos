@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fastlane",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "af1cdaa5a7d0182d",
+  "sources/iconify/fastlane.svg": "af1cdaa5a7d0182d",
+  "sources/wvl/fastlane.svg": "71ab5044a479a95d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.036,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/fastlane.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fastlane.svg"
+    }
+   ]
+  }
+ ]
+}

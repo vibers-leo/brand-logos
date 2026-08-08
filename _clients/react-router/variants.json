@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "react-router",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "f4a724d399d3a87d",
+  "sources/iconify/react-router.svg": "f4a724d399d3a87d",
+  "sources/wvl/react-router.svg": "ac35e8ac8265763b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.837,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/react-router.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/react-router.svg"
+    }
+   ]
+  }
+ ]
+}

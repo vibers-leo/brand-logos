@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mcp",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ca84c95e29c5c48c",
+  "sources/wvl/model-context-protocol.svg": "ca84c95e29c5c48c"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.438,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/model-context-protocol.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-mono-dark",
+   "form": "symbol",
+   "lang": "none",
+   "color": "mono-dark",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

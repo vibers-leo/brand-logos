@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "liquibase",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "71aa3c12c083b8ce",
+  "sources/devicons/liquibase-original.svg": "71aa3c12c083b8ce"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.725,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/liquibase-original.svg"
+    }
+   ]
+  }
+ ]
+}

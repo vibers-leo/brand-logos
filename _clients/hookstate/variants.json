@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hookstate",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "c428f45e05be52a9",
+  "sources/iconify/hookstate.svg": "c428f45e05be52a9",
+  "sources/wvl/hookstate.svg": "beb173ca531f9cf0"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.789,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hookstate.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hookstate.svg"
+    }
+   ]
+  }
+ ]
+}

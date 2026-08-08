@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "openframeworks",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "eb5297a378d378be",
+  "sources/iconify/openframeworks.svg": "eb5297a378d378be",
+  "sources/wvl/openframeworks.svg": "816288718f43a1df"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.897,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/openframeworks.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/openframeworks.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cpanel",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "7c1b914443dc7311",
+  "sources/iconify/cpanel.svg": "7c1b914443dc7311",
+  "sources/devicons/cpanel-original.svg": "5861dffd778ba7aa",
+  "sources/wvl/cpanel.svg": "dda06a1d62de06b1"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/cpanel-original.svg",
+    "png": "sources/devicons/cpanel-original.png"
+   },
+   "aspect": 1.698,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.518,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/cpanel.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/cpanel.svg"
+    }
+   ]
+  }
+ ]
+}

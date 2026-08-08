@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dhl-co",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "caeacefd9345809c"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.031,
+   "provider": "simple-icons/dhl",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

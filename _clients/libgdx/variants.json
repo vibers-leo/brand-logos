@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "libgdx",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "931c0b46d78a23a2",
+  "sources/devicons/libgdx-original.svg": "931c0b46d78a23a2"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/libgdx-original.svg"
+    }
+   ]
+  }
+ ]
+}

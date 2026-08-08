@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mercurial",
+ "primary": "vertical-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "9d56a1635d219b74",
+  "sources/iconify/mercurial.svg": "9d56a1635d219b74",
+  "sources/devicons/mercurial-original.svg": "7eafe8ebb463302e",
+  "sources/wvl/mercurial.svg": "e0574d6e4c5188d6"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.78,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mercurial.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mercurial.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/mercurial-original.svg",
+    "png": "sources/devicons/mercurial-original.png"
+   },
+   "aspect": 1.025,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

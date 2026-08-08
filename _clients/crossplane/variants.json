@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "crossplane",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d5bc7c8c4964d1a9",
+  "sources/iconify/crossplane.svg": "d5bc7c8c4964d1a9",
+  "sources/iconify/crossplane-icon.svg": "30664d430529a639",
+  "sources/wvl/crossplane-icon.svg": "b0a1f8ceaa4fe80b",
+  "sources/wvl/crossplane.svg": "3b8ef7a1a7e4600a"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/crossplane-icon.svg",
+    "png": "sources/iconify/crossplane-icon.png"
+   },
+   "aspect": 0.476,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/crossplane-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.688,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/crossplane.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/crossplane.svg"
+    }
+   ]
+  }
+ ]
+}

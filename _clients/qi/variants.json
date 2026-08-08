@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "qi",
+ "primary": "vertical-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "fc37cd9828390bcd"
+ },
+ "variants": [
+  {
+   "key": "vertical-unknown-mono-dark",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.636,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

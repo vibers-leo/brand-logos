@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lyft",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "484c7b41b7660763",
+  "sources/si.svg": "484c7b41b7660763"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.461,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

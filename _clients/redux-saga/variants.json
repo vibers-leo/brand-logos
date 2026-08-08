@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "redux-saga",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "3c6cffd28efcbf39",
+  "sources/iconify/redux-saga.svg": "3c6cffd28efcbf39",
+  "sources/wvl/redux-saga.svg": "aa1c71238f36a77d"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.639,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/redux-saga.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/redux-saga.svg"
+    }
+   ]
+  }
+ ]
+}

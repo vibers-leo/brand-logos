@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "coursera",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "bdfc8b4137e1e11b",
+  "sources/iconify/coursera.svg": "bdfc8b4137e1e11b",
+  "sources/wvl/coursera.svg": "79c608fc172f2fad"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.031,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/coursera.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/coursera.svg"
+    }
+   ]
+  }
+ ]
+}

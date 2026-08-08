@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "data-station",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e75d769d197b4711",
+  "sources/iconify/data-station.svg": "e75d769d197b4711",
+  "sources/wvl/data-station.svg": "6fac2b14b98f1c09"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/wvl/data-station.svg",
+    "png": "sources/wvl/data-station.png"
+   },
+   "aspect": 0.799,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.8,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/data-station.svg"
+    }
+   ]
+  }
+ ]
+}

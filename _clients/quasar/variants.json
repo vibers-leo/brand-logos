@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "quasar",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "e1051e6f74e6f929",
+  "sources/devicons/quasar-original.svg": "e1051e6f74e6f929"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/quasar-original.svg"
+    }
+   ]
+  }
+ ]
+}

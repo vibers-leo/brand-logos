@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "goland",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0b91cfeebfc9cde9",
+  "sources/iconify/goland.svg": "0b91cfeebfc9cde9",
+  "sources/devicons/goland-original.svg": "9b0e6f587fe96ea1",
+  "sources/wvl/goland.svg": "494df889e1d3c274"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/goland.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/goland.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/goland-original.svg"
+    }
+   ]
+  }
+ ]
+}

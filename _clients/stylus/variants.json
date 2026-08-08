@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stylus",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "1773ce8c964d2c84",
+  "sources/iconify/stylus.svg": "1773ce8c964d2c84",
+  "sources/devicons/stylus-original.svg": "f1d5e5ddd4182631",
+  "sources/wvl/stylus.svg": "f7686c44eeacd414"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.627,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/stylus.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stylus.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/stylus-original.svg"
+    }
+   ]
+  }
+ ]
+}

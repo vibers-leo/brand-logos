@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "chevereto",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2c9c366c26abcb0c",
+  "sources/iconify/chevereto.svg": "2c9c366c26abcb0c",
+  "sources/wvl/chevereto.svg": "39dc2d501193163d"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.569,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/chevereto.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/chevereto.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "spotify",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "398c43728e37056a",
+  "sources/fa.svg": "398c43728e37056a",
+  "sources/iconify/spotify.svg": "b764d35deb800466",
+  "sources/iconify/spotify-icon.svg": "f35579dde051eee2",
+  "sources/wvl/spotify-icon.svg": "ad08a904377bd97b",
+  "sources/wvl/spotify.svg": "78deee6a4569e2e9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/spotify-icon.svg",
+    "png": "sources/iconify/spotify-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/spotify-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/spotify.svg",
+    "png": "sources/iconify/spotify.png"
+   },
+   "aspect": 3.214,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/spotify.svg"
+    }
+   ]
+  }
+ ]
+}

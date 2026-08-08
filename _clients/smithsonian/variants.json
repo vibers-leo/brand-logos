@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "smithsonian",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "572c52cbf409e9ea"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 10.25,
+   "provider": "museums-curated",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

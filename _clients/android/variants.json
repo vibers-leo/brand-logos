@@ -1,0 +1,100 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "android",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "065d16a5dd3d1b0a",
+  "sources/fa.svg": "065d16a5dd3d1b0a",
+  "sources/iconify/android.svg": "4290d8ff45223c15",
+  "sources/iconify/android-icon.svg": "ad5b8e01f0568b1b",
+  "sources/devicons/android-original.svg": "8148c49082454c83",
+  "sources/wvl/android-icon.svg": "bd7560caade247e2",
+  "sources/wvl/android.svg": "2dfc99bf80a28d53",
+  "sources/wvl/android-vertical.svg": "ec2f493d123152ff"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/android-icon.svg",
+    "png": "sources/iconify/android-icon.png"
+   },
+   "aspect": 1.714,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/android-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/android-vertical.svg"
+    }
+   ]
+  },
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.772,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/android-original.svg",
+    "png": "sources/devicons/android-original.png"
+   },
+   "aspect": 0.854,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/android.svg",
+    "png": "sources/iconify/android.png"
+   },
+   "aspect": 6.294,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/android.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tsnode",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "1d6c7eaacad20f19",
+  "sources/iconify/tsnode.svg": "1d6c7eaacad20f19",
+  "sources/wvl/tsnode.svg": "fc2c57f058037676"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.711,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tsnode.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tsnode.svg"
+    }
+   ]
+  }
+ ]
+}

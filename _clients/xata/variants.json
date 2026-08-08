@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xata",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "304cdf5a8c2db473",
+  "sources/iconify/xata.svg": "304cdf5a8c2db473",
+  "sources/iconify/xata-icon.svg": "30cf60e2e0e27fa4",
+  "sources/wvl/xata-icon.svg": "fd055fd799e163ee",
+  "sources/wvl/xata.svg": "66d970b7b8db5942"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/xata-icon.svg",
+    "png": "sources/iconify/xata-icon.png"
+   },
+   "aspect": 0.987,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xata-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.242,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/xata.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xata.svg"
+    }
+   ]
+  }
+ ]
+}

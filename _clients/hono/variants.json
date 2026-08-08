@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hono",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "513d1f5699a6e455",
+  "sources/iconify/hono.svg": "513d1f5699a6e455",
+  "sources/wvl/hono.svg": "c08ed99ff49d581f"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.776,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hono.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hono.svg"
+    }
+   ]
+  }
+ ]
+}

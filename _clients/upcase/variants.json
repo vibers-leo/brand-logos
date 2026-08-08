@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "upcase",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "63f4a620d2bcecea",
+  "sources/iconify/upcase.svg": "63f4a620d2bcecea",
+  "sources/wvl/upcase.svg": "b72d7c7e9d4718a6"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.762,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/upcase.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/upcase.svg"
+    }
+   ]
+  }
+ ]
+}

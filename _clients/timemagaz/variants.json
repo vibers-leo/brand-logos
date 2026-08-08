@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "timemagaz",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "2bd6e24dd61c4cb4"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.041,
+   "provider": "news-curated",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

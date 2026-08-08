@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "maildeveloper",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "16b4f72bc825e2bd",
+  "sources/iconify/maildeveloper.svg": "16b4f72bc825e2bd",
+  "sources/wvl/maildeveloper.svg": "67a6ebc8db064458"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.62,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/maildeveloper.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/maildeveloper.svg"
+    }
+   ]
+  }
+ ]
+}

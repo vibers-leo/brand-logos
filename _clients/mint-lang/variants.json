@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mint-lang",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "85c607056e74e8d2",
+  "sources/iconify/mint-lang.svg": "85c607056e74e8d2",
+  "sources/wvl/mint-lang.svg": "383fde231140fea7"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.639,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mint-lang.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mint-lang.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xray-for-jira",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "dae4bb5fc2ae4387",
+  "sources/iconify/xray-for-jira.svg": "dae4bb5fc2ae4387",
+  "sources/wvl/xray-for-jira.svg": "5cb190665e02434f"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.459,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/xray-for-jira.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xray-for-jira.svg"
+    }
+   ]
+  }
+ ]
+}

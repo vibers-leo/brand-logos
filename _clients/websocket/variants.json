@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "websocket",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "2377b9cbb72e4e40",
+  "sources/iconify/websocket.svg": "2377b9cbb72e4e40",
+  "sources/wvl/websocket.svg": "71e3a611b7d77b1c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.332,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/websocket.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/websocket.svg"
+    }
+   ]
+  }
+ ]
+}

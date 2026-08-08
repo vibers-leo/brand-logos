@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cobol",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ed218513517ce78e",
+  "sources/devicons/cobol-original.svg": "ed218513517ce78e"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.369,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/cobol-original.svg"
+    }
+   ]
+  }
+ ]
+}

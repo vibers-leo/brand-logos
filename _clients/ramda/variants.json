@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ramda",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "68cfdee1af6f361e",
+  "sources/iconify/ramda.svg": "68cfdee1af6f361e",
+  "sources/wvl/ramda.svg": "3d568b439e2631f2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.838,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ramda.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ramda.svg"
+    }
+   ]
+  }
+ ]
+}

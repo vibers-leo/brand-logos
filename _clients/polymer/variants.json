@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "polymer",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "d2690af14897979f",
+  "sources/iconify/polymer.svg": "d2690af14897979f",
+  "sources/wvl/polymer.svg": "c0db293285f99114"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.445,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/polymer.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/polymer.svg"
+    }
+   ]
+  }
+ ]
+}

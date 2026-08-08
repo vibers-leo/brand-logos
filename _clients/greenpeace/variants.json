@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "greenpeace",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "5346ef8228e57760"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.173,
+   "provider": "ngo-curated",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

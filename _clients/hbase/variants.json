@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hbase",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "e01e0543ddf0f76c",
+  "sources/iconify/hbase.svg": "e01e0543ddf0f76c",
+  "sources/wvl/hbase.svg": "4beb01ba42825d30"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.27,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hbase.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hbase.svg"
+    }
+   ]
+  }
+ ]
+}

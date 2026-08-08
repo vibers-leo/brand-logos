@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "carbon",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "fa666dc93226de58",
+  "sources/devicons/carbon-original.svg": "fa666dc93226de58"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.001,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/carbon-original.svg"
+    }
+   ]
+  }
+ ]
+}

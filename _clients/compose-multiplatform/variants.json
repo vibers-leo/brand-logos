@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "compose-multiplatform",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "78678d7ddc794e68",
+  "sources/iconify/compose-multiplatform.svg": "78678d7ddc794e68",
+  "sources/wvl/compose-multiplatform.svg": "a4f5f057fd9be212"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.896,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/compose-multiplatform.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/compose-multiplatform.svg"
+    }
+   ]
+  }
+ ]
+}

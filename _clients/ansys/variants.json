@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ansys",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5a9b117a3a00e116",
+  "sources/devicons/ansys-original.svg": "5a9b117a3a00e116"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.148,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ansys-original.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "percona",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "76dea76658e9e3d1",
+  "sources/iconify/percona.svg": "76dea76658e9e3d1",
+  "sources/wvl/percona.svg": "d328e321356c53e5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.028,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/percona.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/percona.svg"
+    }
+   ]
+  }
+ ]
+}

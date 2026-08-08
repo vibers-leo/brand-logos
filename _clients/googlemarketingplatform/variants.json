@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "googlemarketingplatform",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "6548d7ef2a0fa953"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "simpleicons/googlemarketingplatform",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

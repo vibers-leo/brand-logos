@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hanami",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "bdd078e9fb6b9b20",
+  "sources/iconify/hanami.svg": "bdd078e9fb6b9b20",
+  "sources/wvl/hanami.svg": "840feb01ee18f3ff"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.977,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hanami.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hanami.svg"
+    }
+   ]
+  }
+ ]
+}

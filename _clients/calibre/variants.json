@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "calibre",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "c9db2aa2c5f7da16",
+  "sources/iconify/calibre.svg": "c9db2aa2c5f7da16",
+  "sources/iconify/calibre-icon.svg": "7d08895166c6bdfe",
+  "sources/wvl/calibre-icon.svg": "2cb37166340a5ed5",
+  "sources/wvl/calibre.svg": "a3da532c374d088c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/calibre-icon.svg",
+    "png": "sources/iconify/calibre-icon.png"
+   },
+   "aspect": 0.906,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/calibre-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.478,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/calibre.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/calibre.svg"
+    }
+   ]
+  }
+ ]
+}

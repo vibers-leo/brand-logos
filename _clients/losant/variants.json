@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "losant",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "54f75d21dc103024",
+  "sources/iconify/losant.svg": "54f75d21dc103024",
+  "sources/wvl/losant.svg": "3a5c3ecc4cf65a53"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.753,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/losant.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/losant.svg"
+    }
+   ]
+  }
+ ]
+}

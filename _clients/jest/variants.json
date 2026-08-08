@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jest",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "b3eac0cb8e7e9c47",
+  "sources/iconify/jest.svg": "b3eac0cb8e7e9c47",
+  "sources/devicons/jest-plain.svg": "786635fd9210fdf5",
+  "sources/wvl/jest.svg": "b5af4147e4409a26"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.906,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jest.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jest.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/jest-plain.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gitkraken",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "824dfe518bd4b3db",
+  "sources/iconify/gitkraken.svg": "824dfe518bd4b3db",
+  "sources/devicons/gitkraken-original.svg": "36350ea9cdabc6e8",
+  "sources/wvl/gitkraken.svg": "31b01e31e1ac3252"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.149,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gitkraken.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gitkraken.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/gitkraken-original.svg"
+    }
+   ]
+  }
+ ]
+}

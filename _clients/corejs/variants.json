@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "corejs",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "0f9f9101b90b8eec",
+  "sources/devicons/corejs-original.svg": "0f9f9101b90b8eec"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.012,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/corejs-original.svg"
+    }
+   ]
+  }
+ ]
+}

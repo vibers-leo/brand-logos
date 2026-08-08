@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gnunet",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "69b4ff7c7bfc965b",
+  "sources/wvl/gnu-net.svg": "69b4ff7c7bfc965b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.189,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gnu-net.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "auth0",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "72cf07d8b1658a8b",
+  "sources/iconify/auth0.svg": "72cf07d8b1658a8b",
+  "sources/iconify/auth0-icon.svg": "c57c3dc7aabba027",
+  "sources/wvl/auth0-icon.svg": "2dec76a85361e1e8",
+  "sources/wvl/auth0.svg": "d6257c1628d6f4ca"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/auth0-icon.svg",
+    "png": "sources/iconify/auth0-icon.png"
+   },
+   "aspect": 0.901,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/auth0-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.383,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/auth0.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/auth0.svg"
+    }
+   ]
+  }
+ ]
+}

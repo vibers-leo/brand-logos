@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "redsmin",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "aa6851552fe5a690",
+  "sources/iconify/redsmin.svg": "aa6851552fe5a690",
+  "sources/wvl/redsmin.svg": "ccac6b34ea940d98"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.746,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/redsmin.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/redsmin.svg"
+    }
+   ]
+  }
+ ]
+}

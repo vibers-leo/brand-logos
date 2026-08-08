@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "latex",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "15fcc2a84a4a2566",
+  "sources/devicons/latex-original.svg": "15fcc2a84a4a2566"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.691,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/latex-original.svg"
+    }
+   ]
+  }
+ ]
+}

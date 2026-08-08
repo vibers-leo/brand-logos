@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "egghead",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ad5e32e5039bc4a0",
+  "sources/iconify/egghead.svg": "ad5e32e5039bc4a0",
+  "sources/wvl/egghead.svg": "5c1b9be060b0f25e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.975,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/egghead.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/egghead.svg"
+    }
+   ]
+  }
+ ]
+}

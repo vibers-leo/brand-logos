@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sails",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2b009973870752f6",
+  "sources/iconify/sails.svg": "2b009973870752f6",
+  "sources/wvl/sails.svg": "2f6c116978fa2204"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sails.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sails.svg"
+    }
+   ]
+  }
+ ]
+}

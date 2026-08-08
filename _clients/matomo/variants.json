@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "matomo",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "7886ba8220ff3544",
+  "sources/iconify/matomo.svg": "7886ba8220ff3544",
+  "sources/iconify/matomo-icon.svg": "220aebfed24f08a0",
+  "sources/wvl/matomo-icon.svg": "8ca897fea6361bc7",
+  "sources/wvl/matomo.svg": "22a26fd643226b84"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/matomo-icon.svg",
+    "png": "sources/iconify/matomo-icon.png"
+   },
+   "aspect": 1.768,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/matomo-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.317,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/matomo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/matomo.svg"
+    }
+   ]
+  }
+ ]
+}

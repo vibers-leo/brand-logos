@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "flux",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b67b7b6cff0d1f4b",
+  "sources/iconify/flux.svg": "b67b7b6cff0d1f4b",
+  "sources/wvl/flux.svg": "0f4c7ea749a2f4d1"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.507,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/flux.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/flux.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kotlin",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6410ac0a005b8eea",
+  "sources/iconify/kotlin.svg": "6410ac0a005b8eea",
+  "sources/iconify/kotlin-icon.svg": "f4aabf5058023164",
+  "sources/devicons/kotlin-original.svg": "6e8e2e9d502b327a",
+  "sources/wvl/kotlin-icon.svg": "131fe517f285ba52",
+  "sources/wvl/kotlin.svg": "24f17b45b584db54"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/kotlin-icon.svg",
+    "png": "sources/iconify/kotlin-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kotlin-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/kotlin-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.615,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/kotlin.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kotlin.svg"
+    }
+   ]
+  }
+ ]
+}

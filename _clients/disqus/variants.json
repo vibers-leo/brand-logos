@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "disqus",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "953e4c0d88aae11c",
+  "sources/iconify/disqus.svg": "953e4c0d88aae11c",
+  "sources/wvl/disqus.svg": "6d3a3f5d5d4168be"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.03,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/disqus.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/disqus.svg"
+    }
+   ]
+  }
+ ]
+}

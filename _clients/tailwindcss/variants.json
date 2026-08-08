@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tailwindcss",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "7920e93c2e39d7b6",
+  "sources/iconify/tailwindcss.svg": "7920e93c2e39d7b6",
+  "sources/iconify/tailwindcss-icon.svg": "38a454d4add88eab",
+  "sources/devicons/tailwindcss-original.svg": "81060bbd1d02657d",
+  "sources/wvl/tailwindcss-icon.svg": "ad09de69f1e32c3e",
+  "sources/wvl/tailwindcss.svg": "daadd6135c76aee1"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/tailwindcss-icon.svg",
+    "png": "sources/iconify/tailwindcss-icon.png"
+   },
+   "aspect": 1.665,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tailwindcss-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/tailwindcss-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 8.036,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tailwindcss.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tailwindcss.svg"
+    }
+   ]
+  }
+ ]
+}

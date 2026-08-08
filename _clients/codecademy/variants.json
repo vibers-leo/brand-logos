@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "codecademy",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "93479ecdc84b4ec0",
+  "sources/iconify/codecademy.svg": "93479ecdc84b4ec0",
+  "sources/wvl/codecademy.svg": "639dd86885d05246"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.751,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/codecademy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/codecademy.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hasura",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "a175ec1440bec36a",
+  "sources/iconify/hasura.svg": "a175ec1440bec36a",
+  "sources/iconify/hasura-icon.svg": "55d36caef3eb4442",
+  "sources/wvl/hasura-icon.svg": "1be25cd438152307",
+  "sources/wvl/hasura.svg": "5a246c1ab3f7c430"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/hasura-icon.svg",
+    "png": "sources/iconify/hasura-icon.png"
+   },
+   "aspect": 0.992,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hasura-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.418,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/hasura.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hasura.svg"
+    }
+   ]
+  }
+ ]
+}

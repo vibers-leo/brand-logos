@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yeoman",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "db985b0ed675561e",
+  "sources/iconify/yeoman.svg": "db985b0ed675561e",
+  "sources/wvl/yeoman.svg": "69652de28c412e44"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.918,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/yeoman.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/yeoman.svg"
+    }
+   ]
+  }
+ ]
+}

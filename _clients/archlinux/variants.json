@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "archlinux",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "039329b213b0e812",
+  "sources/iconify/archlinux.svg": "039329b213b0e812",
+  "sources/devicons/archlinux-original.svg": "b6d3690f467dc169",
+  "sources/wvl/archlinux.svg": "423990802c064cf0"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/archlinux.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/archlinux.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/archlinux-original.svg"
+    }
+   ]
+  }
+ ]
+}

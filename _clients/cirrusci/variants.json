@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cirrusci",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "f0cbe478276251ad"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.039,
+   "provider": "simpleicons/cirrusci",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "linux-mint",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "162ba5e7f9fbbaf8",
+  "sources/iconify/linux-mint.svg": "162ba5e7f9fbbaf8",
+  "sources/wvl/linux-mint.svg": "486caa21cfd9dd47"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/linux-mint.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/linux-mint.svg"
+    }
+   ]
+  }
+ ]
+}

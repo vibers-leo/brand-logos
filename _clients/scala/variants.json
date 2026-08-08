@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "scala",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "30bcbd3a3fcd6ee7",
+  "sources/iconify/scala.svg": "30bcbd3a3fcd6ee7",
+  "sources/devicons/scala-original.svg": "a41f7327ce9490ec",
+  "sources/wvl/scala.svg": "b5cbbe29e60b0491"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.617,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/scala.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/scala.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/scala-original.svg"
+    }
+   ]
+  }
+ ]
+}

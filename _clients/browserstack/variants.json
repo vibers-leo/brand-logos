@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "browserstack",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "66e033b148e1f8e7",
+  "sources/iconify/browserstack.svg": "66e033b148e1f8e7",
+  "sources/devicons/browserstack-original.svg": "46a62e48e35b7585",
+  "sources/wvl/browserstack.svg": "5e7a24a6e7cd6b94"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/browserstack.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/browserstack.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/browserstack-original.svg"
+    }
+   ]
+  }
+ ]
+}

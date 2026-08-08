@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apollostack",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "26471f5919b8e3af",
+  "sources/iconify/apollostack.svg": "26471f5919b8e3af",
+  "sources/wvl/apollostack.svg": "7ce90fc54db9db81"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/apollostack.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/apollostack.svg"
+    }
+   ]
+  }
+ ]
+}

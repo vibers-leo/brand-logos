@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apostrophe",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "347aa0d2ce73e5f1",
+  "sources/iconify/apostrophe.svg": "347aa0d2ce73e5f1",
+  "sources/wvl/apostrophe.svg": "bbd7e745f23d084c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.992,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/apostrophe.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/apostrophe.svg"
+    }
+   ]
+  }
+ ]
+}

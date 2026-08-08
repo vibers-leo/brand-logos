@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "greensock",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d982baaa45f4954e",
+  "sources/iconify/greensock.svg": "d982baaa45f4954e",
+  "sources/iconify/greensock-icon.svg": "ed5c896f63908efd",
+  "sources/wvl/greensock-icon.svg": "e5511125629bd4e2",
+  "sources/wvl/greensock.svg": "00121b15e8a7abdb"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.721,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/greensock.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/greensock.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/greensock-icon.svg",
+    "png": "sources/iconify/greensock-icon.png"
+   },
+   "aspect": 0.863,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/greensock-icon.svg"
+    }
+   ]
+  }
+ ]
+}

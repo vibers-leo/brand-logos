@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "perl",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "4071392974c13e65",
+  "sources/iconify/perl.svg": "4071392974c13e65",
+  "sources/devicons/perl-original.svg": "d4c7e0257cec16dd",
+  "sources/wvl/perl.svg": "4cebaed58eb19d36"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/perl-original.svg",
+    "png": "sources/devicons/perl-original.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/perl.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/perl.svg"
+    }
+   ]
+  }
+ ]
+}

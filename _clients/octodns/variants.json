@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "octodns",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c6a9a78743f18152",
+  "sources/iconify/octodns.svg": "c6a9a78743f18152",
+  "sources/wvl/octodns.svg": "fdc73cfae46be328"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.073,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/octodns.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/octodns.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wifi",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "81bbaf9f4f4c6a7a",
+  "sources/iconify/wifi.svg": "81bbaf9f4f4c6a7a",
+  "sources/wvl/wifi.svg": "11c7cb3173dfe3c2"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.339,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/wifi.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/wifi.svg"
+    }
+   ]
+  }
+ ]
+}

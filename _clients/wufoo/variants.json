@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wufoo",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "4f212000caa51937",
+  "sources/iconify/wufoo.svg": "4f212000caa51937",
+  "sources/wvl/wufoo.svg": "416b8b62864dd356"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.448,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/wufoo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/wufoo.svg"
+    }
+   ]
+  }
+ ]
+}

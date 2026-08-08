@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dailydev",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8872948039c3d452",
+  "sources/iconify/dailydev.svg": "8872948039c3d452",
+  "sources/iconify/dailydev-icon.svg": "ade89b647597e10b",
+  "sources/wvl/dailydev-icon.svg": "416e022ba47f6d45",
+  "sources/wvl/dailydev.svg": "d23131b3664df296"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/dailydev-icon.svg",
+    "png": "sources/iconify/dailydev-icon.png"
+   },
+   "aspect": 1.786,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dailydev-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.696,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dailydev.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dailydev.svg"
+    }
+   ]
+  }
+ ]
+}

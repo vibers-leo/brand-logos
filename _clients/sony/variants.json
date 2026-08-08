@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sony",
+ "primary": "wordmark-en-mono-light",
+ "fingerprint": {
+  "logo.svg": "7b1bef3ead2a3d2a"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-light",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.625,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

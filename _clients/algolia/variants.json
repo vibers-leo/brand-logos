@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "algolia",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "96fc8cb545d0ea61",
+  "sources/iconify/algolia.svg": "96fc8cb545d0ea61",
+  "sources/devicons/algolia-original.svg": "ec79a5deaf42872b",
+  "sources/wvl/algolia.svg": "69fd887bea2d7bbb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/algolia-original.svg",
+    "png": "sources/devicons/algolia-original.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.041,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/algolia.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/algolia.svg"
+    }
+   ]
+  }
+ ]
+}

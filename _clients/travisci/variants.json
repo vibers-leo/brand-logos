@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "travisci",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "b2063948b9962e5d"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.942,
+   "provider": "simpleicons/travisci",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

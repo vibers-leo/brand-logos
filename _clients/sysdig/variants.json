@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sysdig",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b1c7e62fe563a979",
+  "sources/iconify/sysdig.svg": "b1c7e62fe563a979",
+  "sources/iconify/sysdig-icon.svg": "20e59eb55683922a",
+  "sources/wvl/sysdig-icon.svg": "a5d30702debf1b06",
+  "sources/wvl/sysdig.svg": "ab201f8e0b3822bd"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.78,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sysdig.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sysdig.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/sysdig-icon.svg",
+    "png": "sources/iconify/sysdig-icon.png"
+   },
+   "aspect": 0.809,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sysdig-icon.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "uikit",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "68104a11c26870e8",
+  "sources/iconify/uikit.svg": "68104a11c26870e8",
+  "sources/wvl/uikit.svg": "0292c8ecbbd062f3"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.864,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/uikit.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/uikit.svg"
+    }
+   ]
+  }
+ ]
+}

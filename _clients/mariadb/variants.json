@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mariadb",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "67d43a8287346fb8",
+  "sources/iconify/mariadb.svg": "67d43a8287346fb8",
+  "sources/iconify/mariadb-icon.svg": "6ca5de5efa539184",
+  "sources/devicons/mariadb-original.svg": "0c3cb55fd6035db8",
+  "sources/wvl/mariadb-icon.svg": "e96c9308b3d148f8",
+  "sources/wvl/mariadb.svg": "c0143f26b8dc26fa"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/mariadb-icon.svg",
+    "png": "sources/iconify/mariadb-icon.png"
+   },
+   "aspect": 1.507,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mariadb-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mariadb-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.385,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mariadb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mariadb.svg"
+    }
+   ]
+  }
+ ]
+}

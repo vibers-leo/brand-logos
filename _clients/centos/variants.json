@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "centos",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "1afdd1508f1975d4",
+  "sources/iconify/centos.svg": "1afdd1508f1975d4",
+  "sources/iconify/centos-icon.svg": "6e6f40fa17043307",
+  "sources/devicons/centos-original.svg": "8f054f0285cf70b1",
+  "sources/wvl/centos-icon.svg": "c6111315fb88428c",
+  "sources/wvl/centos.svg": "12c0c27e471ed323"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/centos-icon.svg",
+    "png": "sources/iconify/centos-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/centos-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/centos-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.814,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/centos.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/centos.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lightstep",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2e1e2d4945b6e63e",
+  "sources/iconify/lightstep.svg": "2e1e2d4945b6e63e",
+  "sources/iconify/lightstep-icon.svg": "cf82c6bae7d5d1d0",
+  "sources/wvl/lightstep-icon.svg": "b3485ae2d0bb1ead",
+  "sources/wvl/lightstep.svg": "3977a53dc9084233"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/lightstep-icon.svg",
+    "png": "sources/iconify/lightstep-icon.png"
+   },
+   "aspect": 1.326,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lightstep-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.412,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/lightstep.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lightstep.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

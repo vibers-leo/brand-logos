@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "php",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "2a1b605756b46ae9",
+  "sources/iconify/php.svg": "2a1b605756b46ae9",
+  "sources/devicons/php-original.svg": "652d877a0fee03df",
+  "sources/wvl/php.svg": "6ef64f0166ac92aa",
+  "sources/wvl/php-alt.svg": "53a292205fa2356e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.903,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/php.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/php.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/php-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/wvl/php-alt.svg",
+    "png": "sources/wvl/php-alt.png"
+   },
+   "aspect": 1.987,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

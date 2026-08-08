@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mantine",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "dd31651a1f97781c",
+  "sources/iconify/mantine.svg": "dd31651a1f97781c",
+  "sources/iconify/mantine-icon.svg": "398d18819b92cc3e",
+  "sources/wvl/mantine-icon.svg": "c3c93cc0fcdef550",
+  "sources/wvl/mantine.svg": "391ad2c5cc212190"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mantine-icon.svg",
+    "png": "sources/iconify/mantine-icon.png"
+   },
+   "aspect": 0.996,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mantine-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.821,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mantine.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mantine.svg"
+    }
+   ]
+  }
+ ]
+}

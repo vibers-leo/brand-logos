@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vagrant",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "67fcab27178c14fc",
+  "sources/iconify/vagrant.svg": "67fcab27178c14fc",
+  "sources/iconify/vagrant-icon.svg": "77a200f4f7cbc399",
+  "sources/devicons/vagrant-original.svg": "9fceb6b4c3b60f25",
+  "sources/wvl/vagrant-icon.svg": "412ecfa95db0eb9a",
+  "sources/wvl/vagrant.svg": "47883a33e6dc94a2"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/vagrant-icon.svg",
+    "png": "sources/iconify/vagrant-icon.png"
+   },
+   "aspect": 0.966,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vagrant-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vagrant-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.704,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vagrant.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vagrant.svg"
+    }
+   ]
+  }
+ ]
+}

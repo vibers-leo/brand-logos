@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fastapi",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "7509dd72d29fc79b",
+  "sources/iconify/fastapi.svg": "7509dd72d29fc79b",
+  "sources/iconify/fastapi-icon.svg": "f624d670a1addc7b",
+  "sources/devicons/fastapi-original.svg": "0b092600c5ddeb4f",
+  "sources/wvl/fastapi-icon.svg": "76d30515951e0e2d",
+  "sources/wvl/fastapi.svg": "822bec244318626a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/fastapi-icon.svg",
+    "png": "sources/iconify/fastapi-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fastapi-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/fastapi-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.389,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/fastapi.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fastapi.svg"
+    }
+   ]
+  }
+ ]
+}

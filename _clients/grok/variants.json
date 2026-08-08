@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "grok",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "6c22212ad5bca262",
+  "sources/iconify/grok.svg": "6c22212ad5bca262",
+  "sources/iconify/grok-icon.svg": "e985cfa15cba77f8",
+  "sources/wvl/grok-icon.svg": "e739b22a577bbfb5",
+  "sources/wvl/grok.svg": "52a62835ed098a04"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.729,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/grok.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/grok.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/grok-icon.svg",
+    "png": "sources/iconify/grok-icon.png"
+   },
+   "aspect": 1.042,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/grok-icon.svg"
+    }
+   ]
+  }
+ ]
+}

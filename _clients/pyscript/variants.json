@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pyscript",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "818f83fe738b1b6e",
+  "sources/iconify/pyscript.svg": "818f83fe738b1b6e",
+  "sources/devicons/pyscript-original-wordmark.svg": "79261f66b84e6664",
+  "sources/wvl/pyscript.svg": "3a82dcb61891216f"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.961,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pyscript.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pyscript.svg"
+    }
+   ]
+  }
+ ]
+}

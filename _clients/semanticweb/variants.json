@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "semanticweb",
+ "primary": "symbol-unknown-color",
+ "fingerprint": {
+  "logo.svg": "0e37f304e508cb41"
+ },
+ "variants": [
+  {
+   "key": "symbol-unknown-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.87,
+   "provider": "simpleicons/semanticweb",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

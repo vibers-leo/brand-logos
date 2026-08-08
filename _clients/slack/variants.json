@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "slack",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "sources/fa.svg": "89f9bbc458b11911",
+  "sources/iconify/slack.svg": "6812845f7d427bb8",
+  "sources/iconify/slack-icon.svg": "158b716f049121ee",
+  "sources/devicons/slack-original.svg": "aa64827a5a4ae81f",
+  "sources/wvl/slack-icon.svg": "9d28ec39296339aa",
+  "sources/wvl/slack.svg": "c7033d231e4a1b86"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/slack-icon.svg",
+    "png": "sources/iconify/slack-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/slack-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/slack-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/fa.svg",
+    "png": "sources/fa.png"
+   },
+   "aspect": 0.999,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/slack.svg",
+    "png": "sources/iconify/slack.png"
+   },
+   "aspect": 3.943,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/slack.svg"
+    }
+   ]
+  }
+ ]
+}

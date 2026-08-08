@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "opencv",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "cf8981f0d9e7f363",
+  "sources/iconify/opencv.svg": "cf8981f0d9e7f363",
+  "sources/devicons/opencv-original.svg": "1509806c630991c5",
+  "sources/wvl/opencv.svg": "3773cf79207a8f9c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.81,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/opencv.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/opencv.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/opencv-original.svg"
+    }
+   ]
+  }
+ ]
+}

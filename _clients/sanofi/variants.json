@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sanofi",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "f98e40197b81bc71"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.029,
+   "provider": "curated",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

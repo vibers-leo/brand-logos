@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ferrari",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "90bbe3ea2c89f7b4"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.72,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

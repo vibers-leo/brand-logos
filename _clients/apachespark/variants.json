@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apachespark",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "a55f50c112806a02",
+  "sources/devicons/apachespark-original.svg": "a55f50c112806a02"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.978,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/apachespark-original.svg"
+    }
+   ]
+  }
+ ]
+}

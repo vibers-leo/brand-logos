@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "django",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "592d9f99113149ab",
+  "sources/iconify/django.svg": "592d9f99113149ab",
+  "sources/iconify/django-icon.svg": "4ca708a8a2efebdf",
+  "sources/devicons/django-plain.svg": "f67fd8439c353796",
+  "sources/wvl/django-icon.svg": "ceb4e60f51defc5b",
+  "sources/wvl/django.svg": "652f0c1ad6d37c6b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.86,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/django.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/django.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/django-plain.svg",
+    "png": "sources/devicons/django-plain.png"
+   },
+   "aspect": 0.778,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/django-icon.svg",
+    "png": "sources/iconify/django-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/django-icon.svg"
+    }
+   ]
+  }
+ ]
+}

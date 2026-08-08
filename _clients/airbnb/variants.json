@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "airbnb",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "b5aa679e36f420e0",
+  "sources/fa.svg": "b5aa679e36f420e0",
+  "sources/iconify/airbnb.svg": "4de5c6bb6ec097b4",
+  "sources/iconify/airbnb-icon.svg": "6c45cc4ccc2a63f0",
+  "sources/wvl/airbnb-icon.svg": "6914baad9e456030",
+  "sources/wvl/airbnb.svg": "d0d1bbda3a40d034"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/airbnb-icon.svg",
+    "png": "sources/iconify/airbnb-icon.png"
+   },
+   "aspect": 0.933,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/airbnb-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.93,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/airbnb.svg",
+    "png": "sources/iconify/airbnb.png"
+   },
+   "aspect": 3.184,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/airbnb.svg"
+    }
+   ]
+  }
+ ]
+}

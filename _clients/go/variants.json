@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "go",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "5df302aae75b91d5",
+  "sources/iconify/go.svg": "5df302aae75b91d5",
+  "sources/devicons/go-original.svg": "0e5b17d476b07d0c",
+  "sources/wvl/go.svg": "7c0c5b2f5156b9e4",
+  "sources/wvl/gopher.svg": "505ecd7faf6703f0"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.679,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/go.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/go.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/wvl/gopher.svg",
+    "png": "sources/wvl/gopher.png"
+   },
+   "aspect": 0.734,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/go-original.svg"
+    }
+   ]
+  }
+ ]
+}

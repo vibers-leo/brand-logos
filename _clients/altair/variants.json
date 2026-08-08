@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "altair",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "813384b1b8010df8",
+  "sources/iconify/altair.svg": "813384b1b8010df8",
+  "sources/wvl/altair.svg": "8ad99ef20c367725"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.891,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/altair.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/altair.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cocacola",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "92dca2a9ba26a11b",
+  "sources/si.svg": "92dca2a9ba26a11b"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.18,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

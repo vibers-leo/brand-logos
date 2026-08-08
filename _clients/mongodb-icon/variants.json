@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mongodb-icon",
+ "primary": "vertical-unknown-color",
+ "fingerprint": {
+  "logo.svg": "e3d3d4a404b36cb2"
+ },
+ "variants": [
+  {
+   "key": "vertical-unknown-color",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.467,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

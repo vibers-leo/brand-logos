@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pypi",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "185338425378ef98",
+  "sources/iconify/pypi.svg": "185338425378ef98",
+  "sources/devicons/pypi-original.svg": "12eeaff257891cab",
+  "sources/wvl/pypi.svg": "06e76112b337d912"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.136,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pypi.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pypi.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/pypi-original.svg"
+    }
+   ]
+  }
+ ]
+}

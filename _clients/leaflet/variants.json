@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "leaflet",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ede04f58d0191dd5",
+  "sources/iconify/leaflet.svg": "ede04f58d0191dd5",
+  "sources/wvl/leaflet.svg": "7bf9af29e51506fa"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.757,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/leaflet.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/leaflet.svg"
+    }
+   ]
+  }
+ ]
+}

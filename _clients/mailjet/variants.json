@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mailjet",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "512fb833d1067c39",
+  "sources/iconify/mailjet.svg": "512fb833d1067c39",
+  "sources/iconify/mailjet-icon.svg": "3b1dc473909c0ab5",
+  "sources/wvl/mailjet-icon.svg": "5d254b673366a334",
+  "sources/wvl/mailjet.svg": "956a55ee56b84672"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mailjet-icon.svg",
+    "png": "sources/iconify/mailjet-icon.png"
+   },
+   "aspect": 1.003,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mailjet-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.045,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mailjet.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mailjet.svg"
+    }
+   ]
+  }
+ ]
+}

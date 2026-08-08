@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-palm",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "7abda65ebe3ba92c",
+  "sources/iconify/google-palm.svg": "7abda65ebe3ba92c",
+  "sources/wvl/google-palm.svg": "b9f9c6fe69a23f93"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.122,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-palm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-palm.svg"
+    }
+   ]
+  }
+ ]
+}

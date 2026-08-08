@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "marvel",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b6721caf3eae43c0",
+  "sources/iconify/marvel.svg": "b6721caf3eae43c0",
+  "sources/wvl/marvel.svg": "ad121548852993f3"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.302,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/marvel.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/marvel.svg"
+    }
+   ]
+  }
+ ]
+}

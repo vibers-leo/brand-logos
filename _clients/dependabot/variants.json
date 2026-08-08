@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dependabot",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "37a2f1f65d4da09b",
+  "sources/iconify/dependabot.svg": "37a2f1f65d4da09b",
+  "sources/wvl/dependabot.svg": "434937b8838f6a29"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.937,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dependabot.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dependabot.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "coderwall",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0ff4f420ac17eaca",
+  "sources/iconify/coderwall.svg": "0ff4f420ac17eaca",
+  "sources/wvl/coderwall.svg": "1cb3a95dc3504954"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/coderwall.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/coderwall.svg"
+    }
+   ]
+  }
+ ]
+}

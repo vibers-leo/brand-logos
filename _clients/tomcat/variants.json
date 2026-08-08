@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tomcat",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "34e19749474ce4fc",
+  "sources/iconify/tomcat.svg": "34e19749474ce4fc",
+  "sources/devicons/tomcat-original.svg": "bc008d8482bddd65",
+  "sources/wvl/tomcat.svg": "8143f1e92cf11932"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.41,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tomcat.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tomcat.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/tomcat-original.svg"
+    }
+   ]
+  }
+ ]
+}

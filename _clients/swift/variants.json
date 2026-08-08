@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "swift",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "78747a3986f44c6b",
+  "sources/iconify/swift.svg": "78747a3986f44c6b",
+  "sources/devicons/swift-original.svg": "312ed28ce6efe155",
+  "sources/wvl/swift.svg": "f7fb2fae79adcbe9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/swift-original.svg",
+    "png": "sources/devicons/swift-original.png"
+   },
+   "aspect": 1.047,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "firefox",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d3c6cf4811a3a125",
+  "sources/fa.svg": "d3c6cf4811a3a125",
+  "sources/iconify/firefox.svg": "32aad3a2b25eb5f9",
+  "sources/devicons/firefox-original.svg": "accc85dd88e9e36b",
+  "sources/wvl/firefox.svg": "8714c1440bc93b8a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/firefox.svg",
+    "png": "sources/iconify/firefox.png"
+   },
+   "aspect": 0.964,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/firefox.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/firefox-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.002,
+   "provider": "font-awesome",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
+    }
+   ]
+  }
+ ]
+}

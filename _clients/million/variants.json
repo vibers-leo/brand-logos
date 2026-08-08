@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "million",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "859a97cd86a3f119",
+  "sources/iconify/million.svg": "859a97cd86a3f119",
+  "sources/iconify/million-icon.svg": "66b1dd5872aa07e5",
+  "sources/wvl/million-icon.svg": "bbdae6f5a88e145a",
+  "sources/wvl/million.svg": "46fce7bb3f9ae93f"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.983,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/million.svg"
+    }
+   ]
+  }
+ ]
+}

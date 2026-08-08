@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "us-fda",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "d50259456e0360cf"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.781,
+   "provider": "wikimedia-commons",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

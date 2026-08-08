@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "phalcon",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "f9b2bfc4e72c6527",
+  "sources/iconify/phalcon.svg": "f9b2bfc4e72c6527",
+  "sources/devicons/phalcon-original.svg": "84c10303a6dab5c3",
+  "sources/wvl/phalcon.svg": "bb84d8bbfb8cfcf8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.876,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/phalcon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/phalcon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/phalcon-original.svg"
+    }
+   ]
+  }
+ ]
+}

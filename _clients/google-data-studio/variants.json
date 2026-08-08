@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-data-studio",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4955a52472b2bc41",
+  "sources/iconify/google-data-studio.svg": "4955a52472b2bc41",
+  "sources/wvl/google-data-studio.svg": "c7a90bf57124697d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.076,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-data-studio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-data-studio.svg"
+    }
+   ]
+  }
+ ]
+}

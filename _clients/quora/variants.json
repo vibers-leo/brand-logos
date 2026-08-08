@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "quora",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d37cfafdd98c86cf",
+  "sources/iconify/quora.svg": "d37cfafdd98c86cf",
+  "sources/wvl/quora.svg": "2a9870217480d069"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.614,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/quora.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/quora.svg"
+    }
+   ]
+  }
+ ]
+}

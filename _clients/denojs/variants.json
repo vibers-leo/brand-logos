@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "denojs",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ccfb523f19c8b174",
+  "sources/devicons/denojs-original.svg": "ccfb523f19c8b174"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/denojs-original.svg"
+    }
+   ]
+  }
+ ]
+}

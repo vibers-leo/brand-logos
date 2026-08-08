@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "statuspage",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "b09dc42040809909",
+  "sources/iconify/statuspage.svg": "b09dc42040809909",
+  "sources/wvl/statuspage.svg": "36848df34e2cc204"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.361,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/statuspage.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/statuspage.svg"
+    }
+   ]
+  }
+ ]
+}

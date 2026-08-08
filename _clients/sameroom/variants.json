@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sameroom",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "324f6d6ead9885bf",
+  "sources/iconify/sameroom.svg": "324f6d6ead9885bf",
+  "sources/wvl/sameroom.svg": "312a21bacca0e2aa"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sameroom.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sameroom.svg"
+    }
+   ]
+  }
+ ]
+}

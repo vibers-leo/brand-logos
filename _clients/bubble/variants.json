@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bubble",
+ "primary": "wordmark-unknown-mono-dark",
+ "fingerprint": {
+  "logo.svg": "819759c48ffc615b",
+  "sources/iconify/bubble.svg": "07abf054903ed759",
+  "sources/iconify/bubble-icon.svg": "cd643ab747d9b775",
+  "sources/wvl/bubble-icon.svg": "f74c61cb7dd6ab26",
+  "sources/wvl/bubble.svg": "107e7597cd29e79c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/bubble-icon.svg",
+    "png": "sources/iconify/bubble-icon.png"
+   },
+   "aspect": 0.93,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bubble-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/iconify/bubble.svg",
+    "png": "sources/iconify/bubble.png"
+   },
+   "aspect": 4.412,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bubble.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-unknown-mono-dark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.551,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

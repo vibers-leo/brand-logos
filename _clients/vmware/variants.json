@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vmware",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "6557802a504dff29",
+  "sources/iconify/vmware.svg": "6557802a504dff29",
+  "sources/wvl/vmware.svg": "a771ac06d55d54e1"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.294,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vmware.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vmware.svg"
+    }
+   ]
+  }
+ ]
+}

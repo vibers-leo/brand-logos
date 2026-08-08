@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "recaptcha",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "98502f15963b6b50",
+  "sources/iconify/recaptcha.svg": "98502f15963b6b50",
+  "sources/wvl/recaptcha.svg": "45393d6dadac8411"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.053,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/recaptcha.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/recaptcha.svg"
+    }
+   ]
+  }
+ ]
+}

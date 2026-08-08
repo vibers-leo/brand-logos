@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gnome",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8bcaedbdb06711ec",
+  "sources/iconify/gnome.svg": "8bcaedbdb06711ec",
+  "sources/iconify/gnome-icon.svg": "3bb4ccd1104028fe",
+  "sources/wvl/gnome-icon.svg": "c204c4df71bf9169",
+  "sources/wvl/gnome.svg": "b5bde79b46876c3e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.752,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gnome.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gnome.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/gnome-icon.svg",
+    "png": "sources/iconify/gnome-icon.png"
+   },
+   "aspect": 0.813,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gnome-icon.svg"
+    }
+   ]
+  }
+ ]
+}

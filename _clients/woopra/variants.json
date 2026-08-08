@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "woopra",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "8408e7a5faec4b49",
+  "sources/iconify/woopra.svg": "8408e7a5faec4b49",
+  "sources/wvl/woopra.svg": "bd6ac318ec93fe1c"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.236,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/woopra.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/woopra.svg"
+    }
+   ]
+  }
+ ]
+}

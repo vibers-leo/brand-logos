@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "plastic-scm",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "236628bf5e3c9000",
+  "sources/iconify/plastic-scm.svg": "236628bf5e3c9000",
+  "sources/wvl/plastic-scm.svg": "53c8488da485f685"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.902,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/plastic-scm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/plastic-scm.svg"
+    }
+   ]
+  }
+ ]
+}

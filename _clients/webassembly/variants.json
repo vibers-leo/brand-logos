@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "webassembly",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "b62d8c86175334a7",
+  "sources/iconify/webassembly.svg": "b62d8c86175334a7",
+  "sources/wvl/webassembly.svg": "f3b332b391350e2d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/webassembly.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/webassembly.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "consul",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5da09d1991543cee",
+  "sources/iconify/consul.svg": "5da09d1991543cee",
+  "sources/devicons/consul-original.svg": "a21361063b7c0b31",
+  "sources/wvl/consul.svg": "a6353106f6638554"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.992,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/consul.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/consul.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/consul-original.svg"
+    }
+   ]
+  }
+ ]
+}

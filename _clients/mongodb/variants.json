@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mongodb",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "89138718604908e9",
+  "sources/iconify/mongodb.svg": "89138718604908e9",
+  "sources/iconify/mongodb-icon.svg": "9e9e22060c5e3d0c",
+  "sources/devicons/mongodb-original.svg": "af52e50acb298003",
+  "sources/wvl/mongodb-icon.svg": "e3d3d4a404b36cb2",
+  "sources/wvl/mongodb.svg": "84e0c606faf1fcc0"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/mongodb-icon.svg",
+    "png": "sources/iconify/mongodb-icon.png"
+   },
+   "aspect": 0.467,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mongodb-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mongodb-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.814,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mongodb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mongodb.svg"
+    }
+   ]
+  }
+ ]
+}

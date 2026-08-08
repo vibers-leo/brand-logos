@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ethers",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "238c3f84d50dab21",
+  "sources/iconify/ethers.svg": "238c3f84d50dab21",
+  "sources/wvl/ethers.svg": "7b95b9ba0770df0d"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.585,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ethers.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ethers.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "airbrake",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "499e257f93dca0b0",
+  "sources/iconify/airbrake.svg": "499e257f93dca0b0",
+  "sources/wvl/airbrake.svg": "34f630b359f20620"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.696,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/airbrake.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/airbrake.svg"
+    }
+   ]
+  }
+ ]
+}

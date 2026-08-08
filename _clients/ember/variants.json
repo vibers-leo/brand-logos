@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ember",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "4d46681fa02565a8",
+  "sources/iconify/ember.svg": "4d46681fa02565a8",
+  "sources/devicons/ember-original.svg": "3a4f8124a263297f",
+  "sources/wvl/ember-tomster.svg": "3696cab322ded94d",
+  "sources/wvl/ember.svg": "cc3b9faded5760d3"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.418,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ember.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ember.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/wvl/ember-tomster.svg",
+    "png": "sources/wvl/ember-tomster.png"
+   },
+   "aspect": 1.045,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ember-original.svg"
+    }
+   ]
+  }
+ ]
+}

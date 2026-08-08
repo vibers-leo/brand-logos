@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "waku",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "d6490a3e5b092bab",
+  "sources/devicons/waku-original.svg": "d6490a3e5b092bab"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.027,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/waku-original.svg"
+    }
+   ]
+  }
+ ]
+}

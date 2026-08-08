@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mapzen",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2ab34270e56ab786",
+  "sources/iconify/mapzen.svg": "2ab34270e56ab786",
+  "sources/iconify/mapzen-icon.svg": "708bf7feb5037628",
+  "sources/wvl/mapzen-icon.svg": "83bbe7faf9a35e82",
+  "sources/wvl/mapzen.svg": "3b50092a9f06b8f6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mapzen-icon.svg",
+    "png": "sources/iconify/mapzen-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mapzen-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.418,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mapzen.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mapzen.svg"
+    }
+   ]
+  }
+ ]
+}

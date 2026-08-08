@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xstate",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "7d3d7a8e9fc259c0",
+  "sources/iconify/xstate.svg": "7d3d7a8e9fc259c0",
+  "sources/wvl/xstate.svg": "0ea5eef036112959"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.199,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/xstate.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xstate.svg"
+    }
+   ]
+  }
+ ]
+}

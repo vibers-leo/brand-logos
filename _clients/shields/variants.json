@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "shields",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "f85f51e322409f51",
+  "sources/iconify/shields.svg": "f85f51e322409f51",
+  "sources/wvl/shields.svg": "dba2dc278e188bbd"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.422,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/shields.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/shields.svg"
+    }
+   ]
+  }
+ ]
+}

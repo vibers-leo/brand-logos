@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ibm",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "7b44c58c2a9e73e4",
+  "sources/iconify/ibm.svg": "7b44c58c2a9e73e4",
+  "sources/wvl/ibm.svg": "77744cc0fc9b93ca"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.507,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ibm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ibm.svg"
+    }
+   ]
+  }
+ ]
+}

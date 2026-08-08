@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "brotli",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "91a3e9c5c80543dd",
+  "sources/iconify/brotli.svg": "91a3e9c5c80543dd",
+  "sources/wvl/brotli.svg": "4277448b8e55177e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/brotli.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/brotli.svg"
+    }
+   ]
+  }
+ ]
+}

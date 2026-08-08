@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "web3js",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2da266e3e68080ca",
+  "sources/iconify/web3js.svg": "2da266e3e68080ca",
+  "sources/devicons/web3js-original.svg": "31c43ade0af1d2c4",
+  "sources/wvl/web3js.svg": "06f251b4216aa7e1"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.069,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/web3js.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/web3js.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/web3js-original.svg"
+    }
+   ]
+  }
+ ]
+}

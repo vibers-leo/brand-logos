@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zod",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "944a63bb3cad9487",
+  "sources/iconify/zod.svg": "944a63bb3cad9487",
+  "sources/wvl/zod.svg": "b8207151453bfa85"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.259,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zod.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zod.svg"
+    }
+   ]
+  }
+ ]
+}

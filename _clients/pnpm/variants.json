@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pnpm",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a7df74c1f2862bfc",
+  "sources/iconify/pnpm.svg": "a7df74c1f2862bfc",
+  "sources/devicons/pnpm-original.svg": "b5ac3dbeb060cd2d",
+  "sources/wvl/pnpm.svg": "990d0967f96a0a80"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.396,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pnpm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pnpm.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/pnpm-original.svg",
+    "png": "sources/devicons/pnpm-original.png"
+   },
+   "aspect": 1.0,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

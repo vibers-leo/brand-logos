@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rubygems",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "4a9ac8b1f8786b0d",
+  "sources/iconify/rubygems.svg": "4a9ac8b1f8786b0d",
+  "sources/wvl/rubygems.svg": "cf6bbf7d14949772"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.875,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rubygems.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rubygems.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "taskade",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "a285392702738f89",
+  "sources/iconify/taskade.svg": "a285392702738f89",
+  "sources/iconify/taskade-icon.svg": "b9e23a3fba1816f4",
+  "sources/wvl/taskade-icon.svg": "55cd4134ad056980",
+  "sources/wvl/taskade.svg": "353ff1d3e29da4d7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/taskade-icon.svg",
+    "png": "sources/iconify/taskade-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/taskade-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.695,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/taskade.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/taskade.svg"
+    }
+   ]
+  }
+ ]
+}

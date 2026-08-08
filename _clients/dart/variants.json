@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dart",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9ea0f4a6f42bb8b4",
+  "sources/iconify/dart.svg": "9ea0f4a6f42bb8b4",
+  "sources/devicons/dart-original.svg": "027a09d4c83952d5",
+  "sources/wvl/dart.svg": "7d51b44795db3dba"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dart.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dart.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/dart-original.svg"
+    }
+   ]
+  }
+ ]
+}

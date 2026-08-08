@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "angularmaterial",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8d0b178bb7d9bbee",
+  "sources/devicons/angularmaterial-original.svg": "8d0b178bb7d9bbee"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.929,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/angularmaterial-original.svg"
+    }
+   ]
+  }
+ ]
+}

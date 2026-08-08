@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "knockout",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2408e9732a9bdad4",
+  "sources/iconify/knockout.svg": "2408e9732a9bdad4",
+  "sources/devicons/knockout-plain-wordmark.svg": "d9892dd387a74e75",
+  "sources/wvl/knockout.svg": "9d40a5e3cef98d28"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.128,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/knockout.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/knockout.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/knockout-plain-wordmark.svg"
+    }
+   ]
+  }
+ ]
+}

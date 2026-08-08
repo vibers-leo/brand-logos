@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gulp",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "a012421c7de09604",
+  "sources/iconify/gulp.svg": "a012421c7de09604",
+  "sources/devicons/gulp-plain.svg": "1ae15e27543f3aa4",
+  "sources/wvl/gulp.svg": "8f494f01ad141269"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.45,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/gulp.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/gulp.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/gulp-plain.svg"
+    }
+   ]
+  }
+ ]
+}

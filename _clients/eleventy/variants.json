@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eleventy",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "86ff0df240b00ca1",
+  "sources/iconify/eleventy.svg": "86ff0df240b00ca1",
+  "sources/devicons/eleventy-original.svg": "047ea20098bd39ba",
+  "sources/wvl/eleventy.svg": "74cb8591e64685d1"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-mono-dark",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/eleventy-original.svg",
+    "png": "sources/devicons/eleventy-original.png"
+   },
+   "aspect": 0.72,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.201,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/eleventy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/eleventy.svg"
+    }
+   ]
+  }
+ ]
+}

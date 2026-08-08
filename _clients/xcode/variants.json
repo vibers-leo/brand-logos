@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xcode",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "661d9c7224365061",
+  "sources/iconify/xcode.svg": "661d9c7224365061",
+  "sources/devicons/xcode-original.svg": "84c23dd205308bb4",
+  "sources/wvl/xcode.svg": "88baf339bee1bbb6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.978,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/xcode.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xcode.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/xcode-original.svg"
+    }
+   ]
+  }
+ ]
+}

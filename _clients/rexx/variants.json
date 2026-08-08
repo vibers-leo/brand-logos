@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rexx",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "ac11913a26f6ad7c",
+  "sources/devicons/rexx-original.svg": "ac11913a26f6ad7c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.355,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/rexx-original.svg"
+    }
+   ]
+  }
+ ]
+}

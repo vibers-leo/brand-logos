@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vuetifyjs",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "57393a2ce6d22ed8",
+  "sources/iconify/vuetifyjs.svg": "57393a2ce6d22ed8",
+  "sources/wvl/vuetifyjs.svg": "011fddc6970c48eb"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.155,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/vuetifyjs.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/vuetifyjs.svg"
+    }
+   ]
+  }
+ ]
+}

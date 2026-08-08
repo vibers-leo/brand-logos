@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apache-flink",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "e9b05b528a5a0c70",
+  "sources/iconify/apache-flink.svg": "e9b05b528a5a0c70",
+  "sources/iconify/apache-flink-icon.svg": "a3e66727358d09d6"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.927,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/apache-flink.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/apache-flink-icon.svg",
+    "png": "sources/iconify/apache-flink-icon.png"
+   },
+   "aspect": 0.991,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

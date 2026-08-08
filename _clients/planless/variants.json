@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "planless",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "f2e99dcc8e4057ff",
+  "sources/iconify/planless.svg": "f2e99dcc8e4057ff",
+  "sources/iconify/planless-icon.svg": "b77d3eef8b5e4ad4",
+  "sources/wvl/planless-icon.svg": "eef04ea0bd7b9627",
+  "sources/wvl/planless.svg": "fc1e76c0ae7a477a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/planless-icon.svg",
+    "png": "sources/iconify/planless-icon.png"
+   },
+   "aspect": 0.861,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/planless-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/planless.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/planless.svg"
+    }
+   ]
+  }
+ ]
+}

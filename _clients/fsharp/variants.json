@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fsharp",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "5ef52e99db6a656a",
+  "sources/iconify/fsharp.svg": "5ef52e99db6a656a",
+  "sources/devicons/fsharp-original.svg": "c31c7ede819d97a6",
+  "sources/wvl/fsharp.svg": "643fcb091b38ecb7"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.053,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/fsharp.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fsharp.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/fsharp-original.svg"
+    }
+   ]
+  }
+ ]
+}

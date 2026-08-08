@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-one",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "8e8616db826d12da",
+  "sources/iconify/google-one.svg": "8e8616db826d12da",
+  "sources/wvl/google-one.svg": "ae6a5cd4d9695dbe"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.497,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-one.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-one.svg"
+    }
+   ]
+  }
+ ]
+}

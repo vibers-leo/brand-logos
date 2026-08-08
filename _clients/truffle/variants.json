@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "truffle",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "56a9725aca6d5c51",
+  "sources/iconify/truffle.svg": "56a9725aca6d5c51",
+  "sources/iconify/truffle-icon.svg": "a3374ed45b9a2d6d",
+  "sources/wvl/truffle-icon.svg": "0f775d8c956fd3a0",
+  "sources/wvl/truffle.svg": "9e3a4156f6b15d05"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.95,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/truffle.svg"
+    },
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/truffle-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/truffle-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/truffle.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "swagger",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "b0e7abecfc3aeeae",
+  "sources/iconify/swagger.svg": "b0e7abecfc3aeeae",
+  "sources/devicons/swagger-original.svg": "00728794d182362b",
+  "sources/wvl/swagger.svg": "c818671072929105"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/swagger.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/swagger.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/swagger-original.svg"
+    }
+   ]
+  }
+ ]
+}

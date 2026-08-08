@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "floodio",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "c80b54f72fc68444",
+  "sources/iconify/floodio.svg": "c80b54f72fc68444",
+  "sources/wvl/floodio.svg": "e333ed6f3be65ce5"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/floodio.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/floodio.svg"
+    }
+   ]
+  }
+ ]
+}

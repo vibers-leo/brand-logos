@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "podman",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "1666655b5e073e2f",
+  "sources/devicons/podman-original.svg": "1666655b5e073e2f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.023,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/podman-original.svg"
+    }
+   ]
+  }
+ ]
+}

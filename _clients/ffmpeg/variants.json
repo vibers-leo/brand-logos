@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ffmpeg",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "592eb0584e87815a",
+  "sources/iconify/ffmpeg.svg": "592eb0584e87815a",
+  "sources/iconify/ffmpeg-icon.svg": "d6a25f48567ced88",
+  "sources/wvl/ffmpeg-icon.svg": "5a827ed341c2fcc1",
+  "sources/wvl/ffmpeg.svg": "773e385bd558970b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/ffmpeg-icon.svg",
+    "png": "sources/iconify/ffmpeg-icon.png"
+   },
+   "aspect": 1.051,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ffmpeg-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.726,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ffmpeg.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ffmpeg.svg"
+    }
+   ]
+  }
+ ]
+}

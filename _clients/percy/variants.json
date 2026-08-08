@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "percy",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "d20d8486434e3203",
+  "sources/iconify/percy.svg": "d20d8486434e3203",
+  "sources/iconify/percy-icon.svg": "20bdbe75969b5293",
+  "sources/wvl/percy-icon.svg": "6599f3f32374b805",
+  "sources/wvl/percy.svg": "67d169796925719e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/percy-icon.svg",
+    "png": "sources/iconify/percy-icon.png"
+   },
+   "aspect": 1.25,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/percy-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.629,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/percy.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/percy.svg"
+    }
+   ]
+  }
+ ]
+}

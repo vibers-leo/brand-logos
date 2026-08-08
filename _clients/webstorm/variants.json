@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "webstorm",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "6117424a5af61f3c",
+  "sources/iconify/webstorm.svg": "6117424a5af61f3c",
+  "sources/devicons/webstorm-original.svg": "8ed82b4f1119552b",
+  "sources/wvl/webstorm.svg": "56693514df58ad1d"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/webstorm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/webstorm.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/webstorm-original.svg"
+    }
+   ]
+  }
+ ]
+}

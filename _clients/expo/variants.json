@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "expo",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "2a466b13610cb3ab",
+  "sources/iconify/expo.svg": "2a466b13610cb3ab",
+  "sources/iconify/expo-icon.svg": "b9bfac98406e70de",
+  "sources/devicons/expo-original.svg": "0a58fa598522063d",
+  "sources/wvl/expo-icon.svg": "a5c4be3af626c727",
+  "sources/wvl/expo.svg": "80ac3143681051a3"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/expo-icon.svg",
+    "png": "sources/iconify/expo-icon.png"
+   },
+   "aspect": 1.112,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/expo-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/expo-original.svg",
+    "png": "sources/devicons/expo-original.png"
+   },
+   "aspect": 1.119,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.549,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/expo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/expo.svg"
+    }
+   ]
+  }
+ ]
+}

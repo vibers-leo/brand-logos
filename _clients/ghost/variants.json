@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ghost",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "6e2e940cdc22571f",
+  "sources/iconify/ghost.svg": "6e2e940cdc22571f",
+  "sources/devicons/ghost-original.svg": "40fe1da015440261",
+  "sources/wvl/ghost.svg": "74259f0331f30150"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/ghost-original.svg",
+    "png": "sources/devicons/ghost-original.png"
+   },
+   "aspect": 0.995,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.115,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ghost.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ghost.svg"
+    }
+   ]
+  }
+ ]
+}

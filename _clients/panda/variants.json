@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "panda",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "d46b33d56f826f3e",
+  "sources/iconify/panda.svg": "d46b33d56f826f3e",
+  "sources/wvl/panda.svg": "52b78f9e83c081e4",
+  "sources/wvl/pandacss-icon.svg": "22e5107c71705514",
+  "sources/wvl/pandacss.svg": "8a177565c839f3e0"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.263,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/panda.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/panda.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/wvl/pandacss.svg",
+    "png": "sources/wvl/pandacss.png"
+   },
+   "aspect": 3.704,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

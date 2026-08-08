@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "giantswarm",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "317c0d06883979c5",
+  "sources/iconify/giantswarm.svg": "317c0d06883979c5",
+  "sources/wvl/giantswarm.svg": "3450f7c262b01ab9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.121,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/giantswarm.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/giantswarm.svg"
+    }
+   ]
+  }
+ ]
+}

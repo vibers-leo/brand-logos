@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zapier",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ba037538ab444aa9",
+  "sources/iconify/zapier.svg": "ba037538ab444aa9",
+  "sources/wvl/zapier.svg": "675135ab0b0b84a9"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.689,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zapier.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zapier.svg"
+    }
+   ]
+  }
+ ]
+}

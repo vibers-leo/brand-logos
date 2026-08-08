@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "clojurescript",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "35e93ad4d2668fd4",
+  "sources/devicons/clojurescript-original.svg": "35e93ad4d2668fd4"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.996,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/clojurescript-original.svg"
+    }
+   ]
+  }
+ ]
+}

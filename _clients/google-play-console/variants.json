@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-play-console",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "3ddbef9fdcff8fc8",
+  "sources/iconify/google-play-console.svg": "3ddbef9fdcff8fc8",
+  "sources/iconify/google-play-console-icon.svg": "e73b0042726ca185",
+  "sources/wvl/google-play-console-icon.svg": "8845af44c96e9c99",
+  "sources/wvl/google-play-console.svg": "dbcadc0ee026bd6c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/google-play-console-icon.svg",
+    "png": "sources/iconify/google-play-console-icon.png"
+   },
+   "aspect": 0.907,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-play-console-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.692,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-play-console.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-play-console.svg"
+    }
+   ]
+  }
+ ]
+}

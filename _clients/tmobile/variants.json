@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tmobile",
+ "primary": "wordmark-unknown-color",
+ "fingerprint": {
+  "logo.svg": "9b00eec08abc1b03"
+ },
+ "variants": [
+  {
+   "key": "wordmark-unknown-color",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.317,
+   "provider": "curated",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

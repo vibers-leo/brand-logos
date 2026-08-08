@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "miro",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "ed7987127a4002ae",
+  "sources/iconify/miro.svg": "ed7987127a4002ae",
+  "sources/iconify/miro-icon.svg": "04651f822779cfda",
+  "sources/wvl/miro-icon.svg": "ca1dde42ffb6eefa",
+  "sources/wvl/miro.svg": "81dda5c2eed08a62"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.738,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/miro.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/miro.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/miro-icon.svg",
+    "png": "sources/iconify/miro-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/miro-icon.svg"
+    }
+   ]
+  }
+ ]
+}

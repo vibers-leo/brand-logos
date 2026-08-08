@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "llvm",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "2c4a09def5b0d319",
+  "sources/devicons/llvm-original.svg": "2c4a09def5b0d319"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.596,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/llvm-original.svg"
+    }
+   ]
+  }
+ ]
+}

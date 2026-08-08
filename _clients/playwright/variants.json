@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "playwright",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "db6e17814c91c5cf",
+  "sources/iconify/playwright.svg": "db6e17814c91c5cf",
+  "sources/devicons/playwright-original.svg": "f6430a83fc9990d7",
+  "sources/wvl/playwright.svg": "1f192657337954c6"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.335,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/playwright.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/playwright.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/playwright-original.svg"
+    }
+   ]
+  }
+ ]
+}

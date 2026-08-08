@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lodash",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "0d552bcef49f5789",
+  "sources/iconify/lodash.svg": "0d552bcef49f5789",
+  "sources/devicons/lodash-original.svg": "231fd250af17e7a0",
+  "sources/wvl/lodash.svg": "5a6602178ebdf009"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.099,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/lodash.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lodash.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/lodash-original.svg"
+    }
+   ]
+  }
+ ]
+}

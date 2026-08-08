@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "testcafe",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "9b20bab3f5e8c603",
+  "sources/iconify/testcafe.svg": "9b20bab3f5e8c603",
+  "sources/wvl/testcafe.svg": "39a3eb7a65c254fa"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.56,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/testcafe.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/testcafe.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "capistrano",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "137547d358b07191",
+  "sources/iconify/capistrano.svg": "137547d358b07191",
+  "sources/wvl/capistrano.svg": "0686d01ad2976240"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.952,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/capistrano.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/capistrano.svg"
+    }
+   ]
+  }
+ ]
+}

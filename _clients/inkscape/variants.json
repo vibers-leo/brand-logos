@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "inkscape",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "ee01d1aaa7f1b904",
+  "sources/devicons/inkscape-original.svg": "ee01d1aaa7f1b904"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.998,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/inkscape-original.svg"
+    }
+   ]
+  }
+ ]
+}

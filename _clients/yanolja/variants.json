@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yanolja",
+ "primary": "horizontal-unknown-color",
+ "fingerprint": {
+  "logo.svg": "9ef3eb603a9119de"
+ },
+ "variants": [
+  {
+   "key": "horizontal-unknown-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.638,
+   "provider": "vibers-vector/nol",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

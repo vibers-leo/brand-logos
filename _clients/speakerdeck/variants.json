@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "speakerdeck",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "a369d8f80e502ea0",
+  "sources/iconify/speakerdeck.svg": "a369d8f80e502ea0",
+  "sources/wvl/speakerdeck.svg": "7c62d2e79790ebed"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.601,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/speakerdeck.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/speakerdeck.svg"
+    }
+   ]
+  }
+ ]
+}

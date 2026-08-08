@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kirby",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "6e34d1146a5f0613",
+  "sources/iconify/kirby.svg": "6e34d1146a5f0613",
+  "sources/iconify/kirby-icon.svg": "6aefbd240416218b",
+  "sources/wvl/kirby-icon.svg": "8b0014a8cc2d6be3",
+  "sources/wvl/kirby.svg": "dc9a639aa9061f2e"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.885,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/kirby.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kirby.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/kirby-icon.svg",
+    "png": "sources/iconify/kirby-icon.png"
+   },
+   "aspect": 0.857,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/kirby-icon.svg"
+    }
+   ]
+  }
+ ]
+}

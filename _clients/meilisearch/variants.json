@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "meilisearch",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "6223b897ec4a8b5d",
+  "sources/iconify/meilisearch.svg": "6223b897ec4a8b5d",
+  "sources/wvl/meilisearch.svg": "d7f9c74b291299be"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.714,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/meilisearch.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/meilisearch.svg"
+    }
+   ]
+  }
+ ]
+}

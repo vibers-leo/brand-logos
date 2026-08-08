@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "svgator",
+ "primary": "wordmark-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "42b1624135e48039",
+  "sources/iconify/svgator.svg": "42b1624135e48039",
+  "sources/wvl/svgator.svg": "759440d200898870"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-mono-dark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.455,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/svgator.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/svgator.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-mono-dark",
+   "form": "symbol",
+   "lang": "none",
+   "color": "mono-dark",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 0.846
+  }
+ ]
+}

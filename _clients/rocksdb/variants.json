@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rocksdb",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "675099dbf836a3d9",
+  "sources/iconify/rocksdb.svg": "675099dbf836a3d9",
+  "sources/devicons/rocksdb-original.svg": "3d1eaa030f9789ce",
+  "sources/wvl/rocksdb.svg": "47df4e215a0bbbbf"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/rocksdb-original.svg",
+    "png": "sources/devicons/rocksdb-original.png"
+   },
+   "aspect": 1.257,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

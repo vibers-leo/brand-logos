@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lucene_net",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "0e9683138356b1dc",
+  "sources/wvl/lucene.net.svg": "0e9683138356b1dc"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.758,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/lucene.net.svg"
+    }
+   ]
+  }
+ ]
+}

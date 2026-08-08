@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "neo4j",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "5c682f1df5170a4a",
+  "sources/iconify/neo4j.svg": "5c682f1df5170a4a",
+  "sources/devicons/neo4j-original.svg": "d0f30fd7fba3097d",
+  "sources/wvl/neo4j.svg": "c732e5643f979a61"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/neo4j-original.svg",
+    "png": "sources/devicons/neo4j-original.png"
+   },
+   "aspect": 1.067,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.013,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/neo4j.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/neo4j.svg"
+    }
+   ]
+  }
+ ]
+}

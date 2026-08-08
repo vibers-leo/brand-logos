@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "argo",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "fb434c55b8702a6d",
+  "sources/iconify/argo.svg": "fb434c55b8702a6d",
+  "sources/iconify/argo-icon.svg": "8cdf48635ebec734",
+  "sources/wvl/argo-icon.svg": "0fb4800fab8be191",
+  "sources/wvl/argo.svg": "f6ea86f5465e2ba7"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.195,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/argo.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/argo.svg"
+    }
+   ]
+  },
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/iconify/argo-icon.svg",
+    "png": "sources/iconify/argo-icon.png"
+   },
+   "aspect": 0.785,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/argo-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

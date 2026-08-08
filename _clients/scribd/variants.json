@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "scribd",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "1a7650620881b555",
+  "sources/iconify/scribd.svg": "1a7650620881b555",
+  "sources/iconify/scribd-icon.svg": "35f3ee8f693610df",
+  "sources/wvl/scribd-icon.svg": "671f6540290b043b",
+  "sources/wvl/scribd.svg": "2c0a4ecdb2db5b9e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/scribd-icon.svg",
+    "png": "sources/iconify/scribd-icon.png"
+   },
+   "aspect": 0.813,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/scribd-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.495,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/scribd.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/scribd.svg"
+    }
+   ]
+  }
+ ]
+}

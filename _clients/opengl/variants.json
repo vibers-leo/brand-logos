@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "opengl",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "bf52a285b7ea188b",
+  "sources/iconify/opengl.svg": "bf52a285b7ea188b",
+  "sources/devicons/opengl-original.svg": "79b2950c8a97891b",
+  "sources/wvl/opengl.svg": "a79f62269aa8dbd1"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.29,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/opengl.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/opengl.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/opengl-original.svg"
+    }
+   ]
+  }
+ ]
+}

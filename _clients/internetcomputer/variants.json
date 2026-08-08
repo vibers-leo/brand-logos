@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "internetcomputer",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "ce3ddc7fc86713f3",
+  "sources/wvl/internet-computer.svg": "ce3ddc7fc86713f3"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 8.571,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/internet-computer.svg"
+    }
+   ]
+  }
+ ]
+}

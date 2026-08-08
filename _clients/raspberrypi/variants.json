@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "raspberrypi",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "e1e43b61378d21a8",
+  "sources/devicons/raspberrypi-original.svg": "e1e43b61378d21a8"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.796,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/raspberrypi-original.svg"
+    }
+   ]
+  }
+ ]
+}

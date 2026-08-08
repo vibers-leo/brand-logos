@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nightwatch",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9738d80a33063046",
+  "sources/iconify/nightwatch.svg": "9738d80a33063046",
+  "sources/wvl/nightwatch.svg": "27cd0e999b8f8e9b"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.942,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/nightwatch.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/nightwatch.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rails",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "7cc785f56b670aa9",
+  "sources/iconify/rails.svg": "7cc785f56b670aa9",
+  "sources/devicons/rails-plain.svg": "34f8c2a33f149d5c",
+  "sources/wvl/rails.svg": "c3385eb2e65b8e05"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.839,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/rails.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/rails.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/rails-plain.svg",
+    "png": "sources/devicons/rails-plain.png"
+   },
+   "aspect": 1.003,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

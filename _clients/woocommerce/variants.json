@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "woocommerce",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "a9beed17d9cb945b",
+  "sources/iconify/woocommerce.svg": "a9beed17d9cb945b",
+  "sources/iconify/woocommerce-icon.svg": "8d7c50e1a61ef673",
+  "sources/devicons/woocommerce-original.svg": "8b58cf34dbebfa92",
+  "sources/wvl/woocommerce-icon.svg": "68f1b4ddea875772",
+  "sources/wvl/woocommerce.svg": "0a5da3aecf04b0b7"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/iconify/woocommerce-icon.svg",
+    "png": "sources/iconify/woocommerce-icon.png"
+   },
+   "aspect": 1.682,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/woocommerce-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/woocommerce-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.972,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/woocommerce.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/woocommerce.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "openstack",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "b3b2c4ced3251461",
+  "sources/iconify/openstack.svg": "b3b2c4ced3251461",
+  "sources/iconify/openstack-icon.svg": "e79564a7f058948d",
+  "sources/devicons/openstack-original.svg": "80ddf0848eebb82f",
+  "sources/wvl/openstack-icon.svg": "fa01c5d7820b03d7",
+  "sources/wvl/openstack.svg": "463ad194eb0aa4d6"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/openstack-icon.svg",
+    "png": "sources/iconify/openstack-icon.png"
+   },
+   "aspect": 1.022,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/openstack-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/openstack-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.455,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/openstack.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/openstack.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "reactivex",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "9a7581a4e1ba9bcb",
+  "sources/iconify/reactivex.svg": "9a7581a4e1ba9bcb",
+  "sources/wvl/reactivex.svg": "a2169bc4cf8b653a"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.039,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/reactivex.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/reactivex.svg"
+    }
+   ]
+  }
+ ]
+}

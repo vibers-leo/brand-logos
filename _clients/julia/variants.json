@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "julia",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "5bb7e41e4c208e44",
+  "sources/iconify/julia.svg": "5bb7e41e4c208e44",
+  "sources/devicons/julia-original.svg": "2258ffccab300d5b",
+  "sources/wvl/julia.svg": "d3acadc9c8fb05c7"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.552,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/julia.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/julia.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/devicons/julia-original.svg",
+    "png": "sources/devicons/julia-original.png"
+   },
+   "aspect": 1.075,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

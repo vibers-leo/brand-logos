@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tealium",
+ "primary": "vertical-en-color",
+ "fingerprint": {
+  "logo.svg": "07afeae027dedf0d",
+  "sources/iconify/tealium.svg": "07afeae027dedf0d",
+  "sources/wvl/tealium.svg": "b1b90be91dd7f2fe"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.634,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 20,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/tealium.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/tealium.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "midjourney",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "3f510ddd1e0cdeec",
+  "sources/iconify/midjourney.svg": "3f510ddd1e0cdeec",
+  "sources/wvl/midjourney.svg": "8175c7e25f80d333"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.201,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/midjourney.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/midjourney.svg"
+    }
+   ]
+  }
+ ]
+}

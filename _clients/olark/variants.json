@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "olark",
+ "primary": "horizontal-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "726f469da4f52c73",
+  "sources/iconify/olark.svg": "726f469da4f52c73",
+  "sources/wvl/olark.svg": "e2df7f11747960af"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-mono-dark",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.587,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/olark.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/olark.svg"
+    }
+   ]
+  }
+ ]
+}

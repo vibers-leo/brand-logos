@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "couchbase",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "535653c489076f33",
+  "sources/iconify/couchbase.svg": "535653c489076f33",
+  "sources/devicons/couchbase-original.svg": "a684ce6c59b0de10",
+  "sources/wvl/couchbase.svg": "8bc48d741392973f"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/couchbase.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/couchbase.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/couchbase-original.svg"
+    }
+   ]
+  }
+ ]
+}

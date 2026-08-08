@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "codeac",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "03f29f5d72f00ac8",
+  "sources/devicons/codeac-original.svg": "03f29f5d72f00ac8"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.086,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/codeac-original.svg"
+    }
+   ]
+  }
+ ]
+}

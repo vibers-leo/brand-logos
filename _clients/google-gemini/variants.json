@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "google-gemini",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "28cc6209b4258ac7",
+  "sources/iconify/google-gemini.svg": "28cc6209b4258ac7",
+  "sources/wvl/google-gemini.svg": "042e6f0f0aa74e3b"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.721,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/google-gemini.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-gemini.svg"
+    }
+   ]
+  }
+ ]
+}

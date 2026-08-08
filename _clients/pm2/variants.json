@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pm2",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "c08001e569d07b16",
+  "sources/iconify/pm2.svg": "c08001e569d07b16",
+  "sources/iconify/pm2-icon.svg": "d1f1d8906a522918",
+  "sources/devicons/pm2-original.svg": "23be7223d0bb9687",
+  "sources/wvl/pm2-icon.svg": "d6b45c205521e4a8",
+  "sources/wvl/pm2.svg": "debe7dcbac5dd502"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/pm2-icon.svg",
+    "png": "sources/iconify/pm2-icon.png"
+   },
+   "aspect": 1.22,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pm2-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/pm2-original.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.11,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/pm2.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/pm2.svg"
+    }
+   ]
+  }
+ ]
+}

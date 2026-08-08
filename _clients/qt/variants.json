@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "qt",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "7b558a0945b96d87",
+  "sources/iconify/qt.svg": "7b558a0945b96d87",
+  "sources/devicons/qt-original.svg": "9f1f866417680cb2",
+  "sources/wvl/qt.svg": "5f01646bc373040c"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/wvl/qt.svg",
+    "png": "sources/wvl/qt.png"
+   },
+   "aspect": 1.335,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/qt-original.svg"
+    }
+   ]
+  }
+ ]
+}

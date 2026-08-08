@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xamarin",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "623767cced3b8c60",
+  "sources/iconify/xamarin.svg": "623767cced3b8c60",
+  "sources/devicons/xamarin-original.svg": "d73517c25cf33ed5",
+  "sources/wvl/xamarin.svg": "ef575864ffbf5a48"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.126,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/xamarin.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/xamarin.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/xamarin-original.svg"
+    }
+   ]
+  }
+ ]
+}

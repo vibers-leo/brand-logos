@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mocha",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "8af5460a26febc2d",
+  "sources/iconify/mocha.svg": "8af5460a26febc2d",
+  "sources/devicons/mocha-original.svg": "0d8483827e3bc18b",
+  "sources/wvl/mocha.svg": "2b01ef910e2144cf"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.881,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mocha.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mocha.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mocha-original.svg"
+    }
+   ]
+  }
+ ]
+}

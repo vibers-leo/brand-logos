@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mailgun",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "6247cbd452065d67",
+  "sources/iconify/mailgun.svg": "6247cbd452065d67",
+  "sources/iconify/mailgun-icon.svg": "86a9a5c244213134",
+  "sources/wvl/mailgun-icon.svg": "e5d0226942bbadd0",
+  "sources/wvl/mailgun.svg": "8fa869966186c050"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/mailgun-icon.svg",
+    "png": "sources/iconify/mailgun-icon.png"
+   },
+   "aspect": 0.985,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mailgun-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.762,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mailgun.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mailgun.svg"
+    }
+   ]
+  }
+ ]
+}

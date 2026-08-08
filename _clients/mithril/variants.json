@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mithril",
+ "primary": "symbol-en-mono-dark",
+ "fingerprint": {
+  "logo.svg": "fc43700943771cc5",
+  "sources/iconify/mithril.svg": "fc43700943771cc5",
+  "sources/devicons/mithril-original.svg": "a50ef6712f0f980a",
+  "sources/wvl/mithril.svg": "c98ee34aca64fe0c"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-mono-dark",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.041,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/mithril.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mithril.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mithril-original.svg"
+    }
+   ]
+  }
+ ]
+}

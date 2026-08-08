@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "partytown",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "51378a0810a00c33",
+  "sources/iconify/partytown.svg": "51378a0810a00c33",
+  "sources/iconify/partytown-icon.svg": "2afc9f3d8e605ee4",
+  "sources/wvl/partytown-icon.svg": "3065b3720254544e",
+  "sources/wvl/partytown.svg": "4541ae9a25b5db9e"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/partytown-icon.svg",
+    "png": "sources/iconify/partytown-icon.png"
+   },
+   "aspect": 0.958,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/partytown-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.787,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/partytown.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/partytown.svg"
+    }
+   ]
+  }
+ ]
+}

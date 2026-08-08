@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fabric",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "abd6e1fe084376a2",
+  "sources/iconify/fabric.svg": "abd6e1fe084376a2",
+  "sources/wvl/fabric.svg": "9b726f94d0e818ac"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.316,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/fabric.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/fabric.svg"
+    }
+   ]
+  }
+ ]
+}

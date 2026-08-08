@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "veevalidate",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "999b1c7cf26630f9",
+  "sources/devicons/veevalidate-original.svg": "999b1c7cf26630f9"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.154,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/veevalidate-original.svg"
+    }
+   ]
+  }
+ ]
+}

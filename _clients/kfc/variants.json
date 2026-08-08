@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kfc",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "88eda78771b43a9d",
+  "sources/si.svg": "88eda78771b43a9d"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.169,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "simple-icons",
+     "file": "sources/si.svg"
+    }
+   ]
+  }
+ ]
+}

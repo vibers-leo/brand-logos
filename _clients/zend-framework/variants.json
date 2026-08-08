@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zend-framework",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "07f2442533e1e963",
+  "sources/iconify/zend-framework.svg": "07f2442533e1e963",
+  "sources/wvl/zend-framework.svg": "a92195ae728d7dd6"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.079,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/zend-framework.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/zend-framework.svg"
+    }
+   ]
+  }
+ ]
+}

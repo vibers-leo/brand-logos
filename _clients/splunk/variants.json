@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "splunk",
+ "primary": "wordmark-en-color",
+ "fingerprint": {
+  "logo.svg": "5f3eab94e8fa17f8",
+  "sources/iconify/splunk.svg": "5f3eab94e8fa17f8",
+  "sources/devicons/splunk-original-wordmark.svg": "43d14f8ecb279fb2",
+  "sources/wvl/splunk.svg": "0c10af1f7d99bca0"
+ },
+ "variants": [
+  {
+   "key": "wordmark-en-color",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.371,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/splunk.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/splunk.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/splunk-original-wordmark.svg"
+    }
+   ]
+  }
+ ]
+}

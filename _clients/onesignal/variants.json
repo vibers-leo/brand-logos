@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "onesignal",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "77318b61ea6bd30c",
+  "sources/iconify/onesignal.svg": "77318b61ea6bd30c",
+  "sources/wvl/onesignal.svg": "4d3f2ab5d1275438"
+ },
+ "variants": [
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.086,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/onesignal.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/onesignal.svg"
+    }
+   ]
+  }
+ ]
+}

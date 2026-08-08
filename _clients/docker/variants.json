@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "docker",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "58d937d6f9fee982"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.393,
+   "provider": "simple-icons",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

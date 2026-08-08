@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "phoenix",
+ "primary": "horizontal-en-color",
+ "fingerprint": {
+  "logo.svg": "525b40b43ac67ca7",
+  "sources/iconify/phoenix.svg": "525b40b43ac67ca7",
+  "sources/devicons/phoenix-original.svg": "001779e3fec4a880",
+  "sources/wvl/phoenix.svg": "e82cab3b1c2eea87"
+ },
+ "variants": [
+  {
+   "key": "horizontal-en-color",
+   "form": "horizontal",
+   "lang": "en",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.464,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/phoenix.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/phoenix.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/phoenix-original.svg"
+    }
+   ]
+  }
+ ]
+}

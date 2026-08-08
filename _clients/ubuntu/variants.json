@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ubuntu",
+ "primary": "symbol-en-color",
+ "fingerprint": {
+  "logo.svg": "2d6fac4e14054194",
+  "sources/iconify/ubuntu.svg": "2d6fac4e14054194",
+  "sources/devicons/ubuntu-original.svg": "a725af219cff13c8",
+  "sources/wvl/ubuntu.svg": "c9aaeeaa55c5e286"
+ },
+ "variants": [
+  {
+   "key": "vertical-en-color",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/ubuntu-original.svg",
+    "png": "sources/devicons/ubuntu-original.png"
+   },
+   "aspect": 0.631,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol-en-color",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/ubuntu.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/ubuntu.svg"
+    }
+   ]
+  }
+ ]
+}

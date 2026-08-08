@@ -165,6 +165,8 @@ def build_icon(svg_path: Path, png_path: Path, size: int = 64):
         try:
             arr = logoform.render(svg_path, 900)
             if arr is not None:
+                # 세로 분리는 자동으로 쓰지 않는다 — logoform 문서의
+                # '세로 분리를 자동으로 쓰지 않는 이유' 참조
                 split = logoform.find_symbol_split(arr, 900)
                 if split is not None:
                     cropped = logoform.crop_viewbox(

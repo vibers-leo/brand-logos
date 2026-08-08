@@ -153,6 +153,8 @@ def derive_symbol(brand_dir: Path, svg_rel: str, arr, dry: bool):
     src = brand_dir / svg_rel
     if not src.exists():
         return None
+    # 세로 분리는 정밀도가 낮아 자동으로 쓰지 않는다 (logoform 문서 참조).
+    # 세로 로크업은 variants.override.json 으로 사람이 확인한 것만 등록한다.
     split = L.find_symbol_split(arr, 900)
     if split is None:
         return None
@@ -163,7 +165,7 @@ def derive_symbol(brand_dir: Path, svg_rel: str, arr, dry: bool):
     if dry:
         return {"files": {"svg": "variants/symbol.svg",
                           "png": "variants/symbol-512.png"},
-                "confidence": split.confidence}
+                "confidence": split.confidence, "side": split.side}
 
     out_dir = brand_dir / "variants"
     out_dir.mkdir(exist_ok=True)
@@ -180,7 +182,7 @@ def derive_symbol(brand_dir: Path, svg_rel: str, arr, dry: bool):
         return None
     return {"files": {"svg": "variants/symbol.svg",
                       "png": "variants/symbol-512.png"},
-            "confidence": split.confidence}
+            "confidence": split.confidence, "side": split.side}
 
 
 def png_sibling(brand_dir: Path, svg_rel: str) -> str | None:
@@ -245,7 +247,8 @@ def build_brand(brand: dict, force: bool, dry: bool):
             # 심볼이 떨어져 나왔다는 건 이게 순수 워드마크가 아니라
             # '심볼+워드마크' 로크업이라는 뜻이다. 종횡비만 보면 wordmark 로
             # 분류되지만 의미상으로는 조합형이므로 라벨을 바로잡는다.
-            primary_rec["_lockup"] = True
+            # side="top" 이면 심볼이 위에 있는 세로 로크업이다
+            primary_rec["_lockup"] = "세로형" if sym.get("side") == "top" else "가로형"
             records.append({
                 "form": "symbol", "lang": "none", "color": primary_rec["color"],
                 "aspect": None, "provider": "derived:autocrop",
@@ -269,7 +272,7 @@ def build_brand(brand: dict, force: bool, dry: bool):
         head = group[0]
         order, label = FORM_META.get(head["form"], (90, "기타"))
         if head.get("_lockup"):
-            order, label = 10, "심볼+워드마크 (가로형)"
+            order, label = 10, f"심볼+워드마크 ({head['_lockup']})"
         files = {"svg": head["file"]}
         if head.get("_derived"):
             files["png"] = head["_derived"]["png"]

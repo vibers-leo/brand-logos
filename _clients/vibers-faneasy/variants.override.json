@@ -1,0 +1,25 @@
+{
+ "note": "세로 로크업 심볼. 자동 세로 분리는 정밀도가 낮아 파이프라인에서 꺼져 있으므로 여기에 수동 등록한다 (2026-08-08 육안 확인).",
+ "variants": [
+  {
+   "key": "symbol-none-mono-dark",
+   "form": "symbol",
+   "lang": "none",
+   "color": "mono-dark",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "provider": "derived:autocrop-vertical",
+   "order": 30,
+   "confidence": 0.757,
+   "derived_from": "logo.svg"
+  },
+  {
+   "key": "vertical-unknown-mono-dark",
+   "label": "심볼+워드마크 (세로형)",
+   "order": 10
+  }
+ ]
+}

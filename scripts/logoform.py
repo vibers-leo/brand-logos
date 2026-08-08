@@ -282,6 +282,89 @@ def find_symbol_split(arr: np.ndarray, render_width: int | None = None) -> Split
     return _try_left(segs, gaps, x0, x1, y0, y1, rw)
 
 
+def find_symbol_split_vertical(arr: np.ndarray, render_width: int | None = None) -> Split | None:
+    """세로조합형(심볼이 위, 워드마크가 아래)에서 위쪽 심볼을 찾는다.
+
+    ⚠️ 자동 파이프라인은 이 함수를 쓰지 않는다.
+    ------------------------------------------------
+    가로 분리에는 '나머지가 글자 여러 덩어리'라는 강한 신호가 있지만
+    세로에는 그에 해당하는 게 없다. 심볼 자체가 세로로 쌓인 경우가 흔해서
+    (별+방패, 세로로 놓인 점들) 심볼을 반으로 자르는 사고가 난다.
+
+    실측: 표본 489개 중 세로로 새로 분리되는 건 7개(1%)뿐이었고,
+    그중 5개가 오분리였다 (polestar·pantheon·asana·wallabag·intermilan).
+    '아래 조각이 텍스트처럼 넓적할 것'을 추가한 뒤에도 asana 가 남았다.
+    이득 1% 를 얻자고 심볼을 반토막 내는 위험을 감수할 이유가 없다.
+
+    그래서 **사람이 눈으로 확인한 건에만** 쓴다. 확인한 결과는
+    `variants.override.json` 에 origin="manual" 로 넣으면 생성기가
+    덮어쓰지 않는다 (예: vibers-faneasy).
+
+    게이트: 심볼-텍스트 사이 여백이 줄간격보다 확연히 넓고, 위 조각이
+    정사각형에 가까우며, 아래 조각이 텍스트처럼 넓적하고 심볼보다 넓을 것.
+    """
+    b = bbox(arr)
+    if b is None:
+        return None
+    x0, y0, x1, y1 = b
+    W, H = x1 - x0 + 1, y1 - y0 + 1
+    # 전체 종횡비로 세게 거르지 않는다. 세로조합형이라도 하단 태그라인
+    # ('BRAND APP SOLUTION' 같은 것) 때문에 가로가 더 넓을 수 있다.
+    # 실제 판별은 아래의 '위 조각이 정사각형에 가깝다' 조건이 한다.
+    if W <= 0 or H <= 0 or W / H > 2.2:
+        return None
+
+    rows = ink_mask(arr).any(1)
+    segs = _segments(rows, y0, y1)     # 축만 바꿔 같은 함수를 쓴다
+    if len(segs) < 2:
+        return None
+
+    gaps = [(segs[i + 1][0] - segs[i][1] - 1, segs[i][1]) for i in range(len(segs) - 1)]
+    ordered = sorted(gaps, key=lambda g: -g[0])
+    biggest, cut = ordered[0]
+    others = [g for g, _ in ordered[1:]]
+    median = float(np.median(others)) if others else 0.0
+    ratio = biggest / median if median > 0 else float("inf")
+    if ratio < GAP_RATIO_MIN:
+        return None
+
+    ph = cut - y0 + 1
+    if not (0.15 <= ph / H <= 0.65):
+        return None
+
+    # 위 조각의 **자기 폭**으로 종횡비를 잰다.
+    # 전체 bbox 폭으로 재면 안 된다 — 심볼은 대개 가운데 정렬이라 실제보다
+    # 훨씬 넓게 계산되고, 정상적인 세로 로크업이 전부 거부된다.
+    sub = ink_mask(arr)[y0:cut + 1]
+    cols = sub.any(0)
+    if not cols.any():
+        return None
+    cxs = np.where(cols)[0]
+    pw = int(cxs[-1] - cxs[0] + 1)
+    if not (PIECE_AR_MIN <= pw / ph <= PIECE_AR_MAX):
+        return None                    # 가로로 긴 조각 = 글자 줄이다
+
+    # ★ 아래 조각이 '텍스트처럼' 보여야 한다.
+    # 가로 분리에는 '나머지가 글자 여러 덩어리'라는 강한 신호가 있지만
+    # 세로에는 없다. 그래서 처음엔 표본 7건 중 5건이 오분리였다 —
+    # polestar·asana·intermilan 처럼 **세로로 쌓인 심볼**을 반으로 잘랐다.
+    # 워드마크는 가로로 넓고 납작하며 심볼보다 넓다. 그걸 요구한다.
+    below = ink_mask(arr)[cut + 1:y1 + 1]
+    if not below.any():
+        return None
+    brows = np.where(below.any(1))[0]
+    bcols = np.where(below.any(0))[0]
+    bh = int(brows[-1] - brows[0] + 1)
+    bw = int(bcols[-1] - bcols[0] + 1)
+    if bh <= 0 or bw / bh < 2.0:
+        return None                    # 아래가 납작하지 않다 = 텍스트가 아니다
+    if bw <= pw:
+        return None                    # 워드마크는 심볼보다 넓다
+    confidence = round(min(1.0, 0.5 + min(ratio, 4.0) / 8.0), 3)
+    rw = render_width if render_width is not None else int(arr.shape[1])
+    return Split(int(cxs[0]), int(cxs[-1]), y0, cut, "top", confidence, rw)
+
+
 def classify(ar: float | None) -> str:
     """종횡비 → 형태. arr 가 아니라 이미 잰 종횡비를 받는다."""
     if ar is None:

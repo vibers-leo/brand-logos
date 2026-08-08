@@ -76,6 +76,17 @@ def make_white_version(img: Image.Image) -> Image.Image:
     return result
 
 
+def paint_white(img: Image.Image) -> Image.Image:
+    """알파는 그대로 두고 색만 흰색으로. 이미 투명 배경인 이미지에 쓴다."""
+    import numpy as np
+    a = np.asarray(img.convert("RGBA")).copy()
+    m = a[..., 3] > 20
+    a[..., 0][m] = 255
+    a[..., 1][m] = 255
+    a[..., 2][m] = 255
+    return Image.fromarray(a)
+
+
 def choose_dark_variant(transparent_img: Image.Image) -> str:
     """로고 채도 분석 → 다크 배경에 투명(원색) vs 화이트 중 더 잘 보이는 버전 선택"""
     pixels = list(transparent_img.getdata())
@@ -213,9 +224,15 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
         results["errors"].append("logo.svg 도 logo.png 도 없음")
         return results
 
+    # 밝은(흰색) 로고는 흰 배경에 렌더하면 배경과 구분이 안 돼서
+    # remove_white_bg() 에 통째로 지워진다. 실제로 sony·unity·capgemini 등
+    # 82개의 logo-800/transparent/white 가 백지이거나 빈 파일이 돼 있었다.
+    # 그런 브랜드는 처음부터 투명 렌더를 쓴다 (brands.json 의 light_logo).
+    is_light = bool(brand.get("light_logo"))
+
     def get_source_img(width):
         if svg_path.exists():
-            return svg_to_pil(svg_path, width)
+            return svg_to_pil_alpha(svg_path, width) if is_light else svg_to_pil(svg_path, width)
         else:
             return png_to_pil(png_path, width)
 
@@ -229,8 +246,13 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
     targets = {
         "logo-800.png": lambda: get_source_img(800) if svg_path.exists() else None,
         "logo-icon.png": _icon,
-        "logo-transparent.png": lambda: remove_white_bg(get_source_img(400)),
-        "logo-white.png": lambda: make_white_version(get_source_img(400)),
+        # 밝은 로고는 이미 투명 렌더라 remove_white_bg() 를 태우면 로고 자체가
+        # 지워진다 (흰색이 곧 잉크이기 때문). 그대로 쓰고, 화이트 버전은
+        # 알파를 유지한 채 색만 흰색으로 칠한다.
+        "logo-transparent.png": (lambda: get_source_img(400)) if is_light
+                                 else (lambda: remove_white_bg(get_source_img(400))),
+        "logo-white.png": (lambda: paint_white(get_source_img(400))) if is_light
+                           else (lambda: make_white_version(get_source_img(400))),
     }
 
     transparent_img = None  # 채도 분석용 캐시

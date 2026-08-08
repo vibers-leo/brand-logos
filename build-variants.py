@@ -172,6 +172,17 @@ def build_icon(svg_path: Path, png_path: Path, size: int = 64):
 
     반환: (이미지, 방식) — 방식은 "symbol" 또는 "whole"
     """
+    # 1) 사람이 확인해 등록한 심볼이 있으면 그게 최우선이다.
+    #    (variants.override.json 으로 넣은 것 — 자동 분리보다 정확하다)
+    manual_symbol = svg_path.parent / "variants" / "symbol.svg"
+    if manual_symbol.exists():
+        try:
+            img = _icon_from_image(svg_to_pil_alpha(manual_symbol, size * 4), size)
+            if img.getbbox() is not None:
+                return img, "symbol"
+        except Exception:
+            pass
+
     if svg_path.exists() and logoform is not None:
         try:
             arr = logoform.render(svg_path, 900)

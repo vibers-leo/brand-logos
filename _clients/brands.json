@@ -14,7 +14,13 @@
       "svg_source": "simple-icons",
       "logo_png": true,
       "dark_variant": "transparent",
-      "sources": [],
+      "sources": [
+        {
+          "provider": "merged:hyundai-symbol",
+          "file": "sources/hyundai-symbol.svg",
+          "label": "아이콘형"
+        }
+      ],
       "logo_quality_score": 1109.2,
       "logo_quality": "ok",
       "added_at": "2026-07-27"
@@ -3011,7 +3017,8 @@
       ],
       "logo_quality_score": 1752.8,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "variant_of": "hyundai"
     },
     {
       "id": "hyundai-transys",
@@ -4459,6 +4466,11 @@
           "provider": "wikimedia",
           "file": "logo.svg",
           "label": "공식 SVG"
+        },
+        {
+          "provider": "merged:lg-symbol",
+          "file": "sources/lg-symbol.svg",
+          "label": "아이콘형"
         }
       ],
       "logo_quality_score": 1442.3,
@@ -4485,7 +4497,8 @@
       ],
       "logo_quality_score": 1055.4,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "variant_of": "lg"
     },
     {
       "id": "lig",
@@ -5805,7 +5818,8 @@
       ],
       "logo_quality_score": 2411.4,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "variant_of": "renault-korea-motors"
     },
     {
       "id": "renault-korea-motors",
@@ -5823,6 +5837,11 @@
           "provider": "wikimedia",
           "file": "logo.svg",
           "label": "공식 SVG"
+        },
+        {
+          "provider": "merged:renault-korea-motors-symbol",
+          "file": "sources/renault-korea-motors-symbol.svg",
+          "label": "아이콘형"
         }
       ],
       "logo_quality_score": 6807.6,
@@ -34461,6 +34480,11 @@
           "provider": "wvl:eslint",
           "file": "sources/wvl/eslint.svg",
           "label": "컬러 심볼"
+        },
+        {
+          "provider": "merged:eslint-old",
+          "file": "sources/eslint-old.svg",
+          "label": "구 버전"
         }
       ],
       "dark_variant": "transparent",
@@ -34483,7 +34507,8 @@
         }
       ],
       "dark_variant": "transparent",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "variant_of": "eslint"
     },
     {
       "id": "eta",
@@ -34548,7 +34573,13 @@
       "svg_source": "simple-icons",
       "logo_png": true,
       "dark_variant": "white",
-      "sources": [],
+      "sources": [
+        {
+          "provider": "merged:ethereum-color",
+          "file": "sources/ethereum-color.svg",
+          "label": "컬러 심볼"
+        }
+      ],
       "added_at": "2026-08-05",
       "domain": "ethereum.org",
       "website": "ethereum.org",
@@ -45931,6 +45962,11 @@
           "provider": "wvl:monero",
           "file": "sources/wvl/monero.svg",
           "label": "컬러 심볼"
+        },
+        {
+          "provider": "merged:monero-original",
+          "file": "sources/monero-original.svg",
+          "label": "구 버전"
         }
       ],
       "dark_variant": "transparent",
@@ -47133,7 +47169,8 @@
         }
       ],
       "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "variant_of": "nodejs-icon"
     },
     {
       "id": "nodemon",
@@ -48568,6 +48605,11 @@
           "provider": "merged:oxc-icon",
           "file": "sources/oxc-icon.svg",
           "label": "아이콘형"
+        },
+        {
+          "provider": "merged:oxc-dark",
+          "file": "sources/oxc-dark.svg",
+          "label": "다크 버전"
         }
       ],
       "dark_variant": "white",
@@ -49358,6 +49400,11 @@
           "provider": "wvl:php-alt",
           "file": "sources/wvl/php-alt.svg",
           "label": "컬러 심볼"
+        },
+        {
+          "provider": "merged:php-alt",
+          "file": "sources/php-alt.svg",
+          "label": "대체 버전"
         }
       ],
       "dark_variant": "white",
@@ -49380,7 +49427,8 @@
         }
       ],
       "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "variant_of": "php"
     },
     {
       "id": "phpstorm",
@@ -53010,6 +53058,11 @@
           "provider": "merged:rolldown-icon",
           "file": "sources/rolldown-icon.svg",
           "label": "아이콘형"
+        },
+        {
+          "provider": "merged:rolldown-dark",
+          "file": "sources/rolldown-dark.svg",
+          "label": "다크 버전"
         }
       ],
       "dark_variant": "white",
@@ -59760,6 +59813,11 @@
           "provider": "merged:vite-icon",
           "file": "sources/vite-icon.svg",
           "label": "아이콘형"
+        },
+        {
+          "provider": "merged:vite-dark",
+          "file": "sources/vite-dark.svg",
+          "label": "다크 버전"
         }
       ],
       "dark_variant": "white",
@@ -61293,7 +61351,8 @@
         }
       ],
       "dark_variant": "white",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "variant_of": "wordpress-icon"
     },
     {
       "id": "workboard",
@@ -103115,7 +103174,8 @@
       "logo_svg": true,
       "logo_png": true,
       "added_at": "2026-08-05",
-      "dark_variant": "transparent"
+      "dark_variant": "transparent",
+      "variant_of": "monero"
     },
     {
       "id": "myriad",
@@ -110010,7 +110070,8 @@
         }
       ],
       "dark_variant": "white",
-      "has_png": true
+      "has_png": true,
+      "variant_of": "ethereum"
     },
     {
       "id": "eventbrite-icon",
@@ -112858,6 +112919,11 @@
           "provider": "gilbarbara-logos",
           "file": "nodejs-icon.svg",
           "label": "gilbarbara/logos"
+        },
+        {
+          "provider": "merged:nodejs-icon-alt",
+          "file": "sources/nodejs-icon-alt.svg",
+          "label": "대체 버전"
         }
       ],
       "dark_variant": "white",
@@ -113165,7 +113231,8 @@
       ],
       "dark_variant": "white",
       "has_png": true,
-      "light_logo": true
+      "light_logo": true,
+      "variant_of": "oxc"
     },
     {
       "id": "oxc-icon",
@@ -114096,7 +114163,8 @@
       ],
       "dark_variant": "white",
       "has_png": true,
-      "light_logo": true
+      "light_logo": true,
+      "variant_of": "rolldown"
     },
     {
       "id": "rolldown-icon",
@@ -115675,7 +115743,8 @@
       ],
       "dark_variant": "white",
       "has_png": true,
-      "light_logo": true
+      "light_logo": true,
+      "variant_of": "vite"
     },
     {
       "id": "vite-icon",
@@ -115976,6 +116045,11 @@
           "provider": "gilbarbara-logos",
           "file": "wordpress-icon.svg",
           "label": "gilbarbara/logos"
+        },
+        {
+          "provider": "merged:wordpress-icon-alt",
+          "file": "sources/wordpress-icon-alt.svg",
+          "label": "대체 버전"
         }
       ],
       "dark_variant": "white",

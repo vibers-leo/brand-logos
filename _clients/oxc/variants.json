@@ -12,7 +12,8 @@
   "sources/wvl/oxc.svg": "23b79b2171f6aeb2",
   "sources/wvl/oxc-icon-dark.svg": "78c4eb2c3a01f8bd",
   "sources/wvl/oxc-dark.svg": "d2491b9df56b9e1e",
-  "sources/oxc-icon.svg": "663e4c90fa18f206"
+  "sources/oxc-icon.svg": "663e4c90fa18f206",
+  "sources/oxc-dark.svg": "d2491b9df56b9e1e"
  },
  "variants": [
   {
@@ -33,16 +34,16 @@
   {
    "key": "symbol",
    "form": "symbol",
-   "lang": "en",
+   "lang": "none",
    "color": "color",
-   "label": "심볼형",
+   "label": "심볼만 (괄호 제외)",
    "files": {
-    "svg": "sources/iconify/oxc-icon.svg",
-    "png": "sources/iconify/oxc-icon.png"
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
    },
    "aspect": 1.628,
-   "provider": "iconify",
-   "origin": "collected",
+   "provider": "derived:manual",
+   "origin": "manual",
    "order": 30,
    "alts": [
     {
@@ -85,6 +86,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/oxc-dark.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/oxc-dark.svg"
     }
    ]
   }

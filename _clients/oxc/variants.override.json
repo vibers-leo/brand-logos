@@ -1,0 +1,18 @@
+{
+ "note": "oxc-icon 의 괄호는 워드마크 스타일 요소라 파비콘에 부적합. 화살표만 남긴 심볼 (2026-08-09 육안 확인).",
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만 (괄호 제외)",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "provider": "derived:manual",
+   "order": 30
+  }
+ ]
+}

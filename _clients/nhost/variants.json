@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nhost",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "1c76d617d71d26ce",
   "sources/iconify/nhost.svg": "1c76d617d71d26ce",
   "sources/iconify/nhost-icon.svg": "65d0d6bc81cd9bbb",
   "sources/wvl/nhost-icon.svg": "9f97029602472412",
-  "sources/wvl/nhost.svg": "9e3282f15bcc7ea3"
+  "sources/wvl/nhost.svg": "9e3282f15bcc7ea3",
+  "sources/nhost-icon.svg": "9f97029602472412"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/nhost-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/nhost-icon.svg"
     }
    ]
   }

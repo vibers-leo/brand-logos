@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "udacity",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "cd0e7aae1c0bd5d8",
   "sources/iconify/udacity.svg": "cd0e7aae1c0bd5d8",
   "sources/iconify/udacity-icon.svg": "0d17c3e9b7b0fac7",
   "sources/wvl/udacity-icon.svg": "7a305249cd0c3925",
-  "sources/wvl/udacity.svg": "cddf8ccafdd4b7fd"
+  "sources/wvl/udacity.svg": "cddf8ccafdd4b7fd",
+  "sources/udacity-icon.svg": "7a305249cd0c3925"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/udacity-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/udacity-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

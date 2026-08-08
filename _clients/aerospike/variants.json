@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "aerospike",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "cfa0a101a369ed2c",
   "sources/iconify/aerospike.svg": "cfa0a101a369ed2c",
   "sources/iconify/aerospike-icon.svg": "6e97911d935b6502",
   "sources/devicons/aerospike-original.svg": "902bb1d7b0834836",
   "sources/wvl/aerospike-icon.svg": "43094ce927dd1ebd",
-  "sources/wvl/aerospike.svg": "51274e6d5445ddbb"
+  "sources/wvl/aerospike.svg": "51274e6d5445ddbb",
+  "sources/aerospike-icon.svg": "43094ce927dd1ebd"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/aerospike-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/aerospike-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

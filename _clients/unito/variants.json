@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "unito",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "98f99b751466527e",
   "sources/iconify/unito.svg": "98f99b751466527e",
   "sources/iconify/unito-icon.svg": "897fa4be286c9ce0",
   "sources/wvl/unito-icon.svg": "c9239dc9ac0a9f68",
-  "sources/wvl/unito.svg": "ca20688ca421193b"
+  "sources/wvl/unito.svg": "ca20688ca421193b",
+  "sources/unito-icon.svg": "c9239dc9ac0a9f68"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/unito-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/unito-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

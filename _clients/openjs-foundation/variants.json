@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "openjs-foundation",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5a96357649f951fe",
   "sources/iconify/openjs-foundation.svg": "5a96357649f951fe",
   "sources/iconify/openjs-foundation-icon.svg": "a0b34fa75b084e8e",
   "sources/wvl/openjs-foundation-icon.svg": "4bc6d6d1d8276d55",
-  "sources/wvl/openjs-foundation.svg": "b9e99e300b6639c8"
+  "sources/wvl/openjs-foundation.svg": "b9e99e300b6639c8",
+  "sources/openjs-foundation-icon.svg": "4bc6d6d1d8276d55"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/openjs-foundation-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/openjs-foundation-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

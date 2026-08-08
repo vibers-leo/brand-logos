@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "parcel",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "30798175a058f0d8",
   "sources/iconify/parcel.svg": "30798175a058f0d8",
   "sources/iconify/parcel-icon.svg": "75c98fb84178e453",
   "sources/wvl/parcel-icon.svg": "4c0639dd3aa6f703",
-  "sources/wvl/parcel.svg": "ea29bace9bf9dacc"
+  "sources/wvl/parcel.svg": "ea29bace9bf9dacc",
+  "sources/parcel-icon.svg": "4c0639dd3aa6f703"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/parcel-icon.svg",
     "png": "sources/iconify/parcel-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.332,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/parcel-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/parcel-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

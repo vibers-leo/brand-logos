@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "olark",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "726f469da4f52c73",
   "sources/iconify/olark.svg": "726f469da4f52c73",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

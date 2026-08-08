@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "storyblocks",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "e982072214aeff79",
   "sources/iconify/storyblocks.svg": "e982072214aeff79",
   "sources/iconify/storyblocks-icon.svg": "5f6406401b0cd26a",
   "sources/wvl/storyblocks-icon.svg": "048fffc1028ed151",
-  "sources/wvl/storyblocks.svg": "8655418c7825a2de"
+  "sources/wvl/storyblocks.svg": "8655418c7825a2de",
+  "sources/storyblocks-icon.svg": "048fffc1028ed151"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/storyblocks-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/storyblocks-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

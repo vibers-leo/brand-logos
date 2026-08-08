@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cakephp",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1ed71bc7a58ae872",
   "sources/iconify/cakephp.svg": "1ed71bc7a58ae872",
   "sources/iconify/cakephp-icon.svg": "7f4295f87d1b1467",
   "sources/devicons/cakephp-original.svg": "244decd2c31e22bf",
   "sources/wvl/cakephp-icon.svg": "5bfd082d052b70b0",
-  "sources/wvl/cakephp.svg": "30215b47874e9e1b"
+  "sources/wvl/cakephp.svg": "30215b47874e9e1b",
+  "sources/cakephp-icon.svg": "5bfd082d052b70b0"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/cakephp-original.svg",
+    "png": "sources/devicons/cakephp-original.png"
+   },
+   "aspect": 1.282,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/cakephp-icon.svg",
     "png": "sources/iconify/cakephp-icon.png"
@@ -25,24 +41,24 @@
    "aspect": 1.28,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/cakephp-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/cakephp-original.svg"
+     "provider": "merged",
+     "file": "sources/cakephp-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -50,7 +66,7 @@
    "aspect": 5.0,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -61,23 +77,6 @@
      "file": "sources/wvl/cakephp.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 0.883
   }
  ]
 }

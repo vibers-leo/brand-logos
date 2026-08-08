@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "flight",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "b89e0e383ba5e2e1",
   "sources/iconify/flight.svg": "b89e0e383ba5e2e1",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

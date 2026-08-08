@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "coda",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "dd6fd6158bd59262",
   "sources/iconify/coda.svg": "dd6fd6158bd59262",
   "sources/iconify/coda-icon.svg": "114c5c0b9a29744c",
   "sources/wvl/coda-icon.svg": "b611fe34387476ec",
-  "sources/wvl/coda.svg": "937acc31a33dce0e"
+  "sources/wvl/coda.svg": "937acc31a33dce0e",
+  "sources/coda-icon.svg": "b611fe34387476ec"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/coda-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/coda-icon.svg"
     }
    ]
   }

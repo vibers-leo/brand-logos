@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "flickr",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "30ae82590a636725",
   "sources/iconify/flickr.svg": "30ae82590a636725",
   "sources/iconify/flickr-icon.svg": "2c18e6ded82bd54c",
   "sources/wvl/flickr-icon.svg": "29abfc44813d6411",
-  "sources/wvl/flickr.svg": "704bbdda82bb5b7f"
+  "sources/wvl/flickr.svg": "704bbdda82bb5b7f",
+  "sources/flickr-icon.svg": "29abfc44813d6411"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/flickr-icon.svg",
     "png": "sources/iconify/flickr-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 2.25,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/flickr-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/flickr-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

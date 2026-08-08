@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "lateral",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d623c734a5163676",
   "sources/iconify/lateral.svg": "d623c734a5163676",
   "sources/iconify/lateral-icon.svg": "bdf86577ab3285e9",
   "sources/wvl/lateral-icon.svg": "44f7d20e3c1a40bc",
-  "sources/wvl/lateral.svg": "25a99efc7ce1f43b"
+  "sources/wvl/lateral.svg": "25a99efc7ce1f43b",
+  "sources/lateral-icon.svg": "44f7d20e3c1a40bc"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/lateral-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/lateral-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

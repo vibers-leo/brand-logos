@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "new-relic",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "13c040eeddbfe945",
   "sources/iconify/new-relic.svg": "13c040eeddbfe945",
   "sources/iconify/new-relic-icon.svg": "5a869378513e9c63",
   "sources/wvl/new-relic-icon.svg": "9e4845a68fb36ff1",
-  "sources/wvl/new-relic.svg": "1db4995d97034569"
+  "sources/wvl/new-relic.svg": "1db4995d97034569",
+  "sources/new-relic-icon.svg": "9e4845a68fb36ff1"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/new-relic-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/new-relic-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kibana",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "777fe66b40c2d611",
   "sources/iconify/kibana.svg": "777fe66b40c2d611",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

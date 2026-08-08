@@ -2,13 +2,15 @@
  "schema": 1,
  "algo_v": 1,
  "id": "anthropic",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "d301a8c553d0c0fb"
+  "logo.svg": "d301a8c553d0c0fb",
+  "sources/iconify/anthropic-icon.svg": "2872bd00827e12bc",
+  "sources/anthropic-icon.svg": "33114dbd0c697855"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -21,6 +23,27 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/anthropic-icon.svg",
+    "png": "sources/iconify/anthropic-icon.png"
+   },
+   "aspect": 1.458,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/anthropic-icon.svg"
+    }
+   ]
   }
  ]
 }

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kickstarter",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1765bebddeff9be3",
   "sources/iconify/kickstarter.svg": "1765bebddeff9be3",
   "sources/iconify/kickstarter-icon.svg": "a0481188a67f9493",
   "sources/wvl/kickstarter-icon.svg": "64bedb0ba3e67837",
-  "sources/wvl/kickstarter.svg": "567238d1d3382735"
+  "sources/wvl/kickstarter.svg": "567238d1d3382735",
+  "sources/kickstarter-icon.svg": "64bedb0ba3e67837"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/kickstarter-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/kickstarter-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

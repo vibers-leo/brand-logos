@@ -2,39 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "dojo",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c19bcbc7e1fda89c",
   "sources/iconify/dojo.svg": "c19bcbc7e1fda89c",
   "sources/iconify/dojo-icon.svg": "294370f0c090cf0f",
   "sources/wvl/dojo-icon.svg": "c2cb7862145f9496",
   "sources/wvl/dojo.svg": "d98f7b2a07fc9e00",
-  "sources/wvl/dojo-toolkit.svg": "f21424f1c976860a"
+  "sources/wvl/dojo-toolkit.svg": "f21424f1c976860a",
+  "sources/dojo-icon.svg": "c2cb7862145f9496"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/dojo-icon.svg",
-    "png": "sources/iconify/dojo-icon.png"
-   },
-   "aspect": 1.399,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/dojo-icon.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -49,7 +29,32 @@
    "order": 10
   },
   {
-   "key": "wordmark-en-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/dojo-icon.svg",
+    "png": "sources/iconify/dojo-icon.png"
+   },
+   "aspect": 1.399,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dojo-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/dojo-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

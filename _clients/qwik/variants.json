@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "qwik",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d57fb32eb086eb57",
   "sources/iconify/qwik.svg": "d57fb32eb086eb57",
   "sources/iconify/qwik-icon.svg": "8a72d7331eda121a",
   "sources/devicons/qwik-original.svg": "501d0ac33bdcfd35",
   "sources/wvl/qwik-icon.svg": "a1619dbc4b8d3568",
-  "sources/wvl/qwik.svg": "7fa79683188065af"
+  "sources/wvl/qwik.svg": "7fa79683188065af",
+  "sources/qwik-icon.svg": "a1619dbc4b8d3568"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/qwik-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/qwik-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

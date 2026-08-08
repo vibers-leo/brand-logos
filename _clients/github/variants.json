@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "github",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b257b864fe9534f2"
+  "logo.svg": "b257b864fe9534f2",
+  "sources/github-icon.svg": "5cc94dbf35503674"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -20,7 +21,13 @@
    "aspect": 1.025,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/github-icon.svg"
+    }
+   ]
   }
  ]
 }

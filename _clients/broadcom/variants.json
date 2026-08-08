@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "broadcom",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "26e91b02273fd828",
   "sources/iconify/broadcom.svg": "26e91b02273fd828",
   "sources/iconify/broadcom-icon.svg": "72436250fad3e1d7",
   "sources/wvl/broadcom-icon.svg": "fe5a562e4dfca51c",
-  "sources/wvl/broadcom.svg": "b2290258b515a4c5"
+  "sources/wvl/broadcom.svg": "b2290258b515a4c5",
+  "sources/broadcom-icon.svg": "fe5a562e4dfca51c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/broadcom-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/broadcom-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

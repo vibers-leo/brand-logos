@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "vultr",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6f9d789326b53ddf",
   "sources/iconify/vultr.svg": "6f9d789326b53ddf",
   "sources/iconify/vultr-icon.svg": "7668fad0c3f1be83",
   "sources/wvl/vultr-icon.svg": "0b9d0124b190e12c",
-  "sources/wvl/vultr.svg": "efee522a4a7bf543"
+  "sources/wvl/vultr.svg": "efee522a4a7bf543",
+  "sources/vultr-icon.svg": "0b9d0124b190e12c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/vultr-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/vultr-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

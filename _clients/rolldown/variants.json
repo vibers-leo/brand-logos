@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rolldown",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "8fb57a9b42725495",
   "sources/iconify/rolldown.svg": "8fb57a9b42725495",
@@ -11,15 +11,31 @@
   "sources/wvl/rolldown-icon.svg": "6e37a30fb924d6df",
   "sources/wvl/rolldown.svg": "7392343779dbb2b7",
   "sources/wvl/rolldown-icon-dark.svg": "e6f005bd1368a839",
-  "sources/wvl/rolldown-dark.svg": "8d0aead5bbf80dc7"
+  "sources/wvl/rolldown-dark.svg": "8d0aead5bbf80dc7",
+  "sources/rolldown-icon.svg": "6e37a30fb924d6df"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/wvl/rolldown-icon-dark.svg",
+    "png": "sources/wvl/rolldown-icon-dark.png"
+   },
+   "aspect": 1.629,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/rolldown-icon.svg",
     "png": "sources/iconify/rolldown-icon.png"
@@ -27,20 +43,20 @@
    "aspect": 1.631,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/rolldown-icon.svg"
     },
     {
-     "provider": "wvl",
-     "file": "sources/wvl/rolldown-icon-dark.svg"
+     "provider": "merged",
+     "file": "sources/rolldown-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

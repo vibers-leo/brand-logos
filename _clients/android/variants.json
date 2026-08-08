@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "android",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "065d16a5dd3d1b0a",
   "sources/fa.svg": "065d16a5dd3d1b0a",
@@ -11,36 +11,12 @@
   "sources/devicons/android-original.svg": "8148c49082454c83",
   "sources/wvl/android-icon.svg": "bd7560caade247e2",
   "sources/wvl/android.svg": "2dfc99bf80a28d53",
-  "sources/wvl/android-vertical.svg": "ec2f493d123152ff"
+  "sources/wvl/android-vertical.svg": "ec2f493d123152ff",
+  "sources/android-icon.svg": "bd7560caade247e2"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/android-icon.svg",
-    "png": "sources/iconify/android-icon.png"
-   },
-   "aspect": 1.714,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/android-icon.svg"
-    },
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/android-vertical.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -55,28 +31,46 @@
    "order": 10,
    "alts": [
     {
+     "provider": "wvl",
+     "file": "sources/wvl/android-vertical.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
    "label": "심볼형",
    "files": {
-    "svg": "sources/devicons/android-original.svg",
-    "png": "sources/devicons/android-original.png"
+    "svg": "sources/iconify/android-icon.svg",
+    "png": "sources/iconify/android-icon.png"
    },
-   "aspect": 0.854,
-   "provider": "devicons",
+   "aspect": 1.714,
+   "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/android-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/android-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/android-icon.svg"
+    }
+   ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

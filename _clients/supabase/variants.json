@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "supabase",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "47548abd6f899f87"
+  "logo.svg": "47548abd6f899f87",
+  "sources/supabase-icon.svg": "409530fcbc8a2760"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 0.976,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/supabase-icon.svg"
+    }
+   ]
   }
  ]
 }

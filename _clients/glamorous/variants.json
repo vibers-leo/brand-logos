@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "glamorous",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ac3593dff31e0d51",
   "sources/iconify/glamorous.svg": "ac3593dff31e0d51",
   "sources/iconify/glamorous-icon.svg": "7983d5cedfcee219",
   "sources/wvl/glamorous-icon.svg": "52be3c4546242f88",
-  "sources/wvl/glamorous.svg": "7965999cc17033a0"
+  "sources/wvl/glamorous.svg": "7965999cc17033a0",
+  "sources/glamorous-icon.svg": "52be3c4546242f88"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/glamorous-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/glamorous-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

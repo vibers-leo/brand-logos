@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stackbit",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1a8f41253547f1bf",
   "sources/iconify/stackbit.svg": "1a8f41253547f1bf",
   "sources/iconify/stackbit-icon.svg": "8e10d39588b457dc",
   "sources/wvl/stackbit-icon.svg": "0c46d706cc6deb12",
-  "sources/wvl/stackbit.svg": "ef366b46e40d74d9"
+  "sources/wvl/stackbit.svg": "ef366b46e40d74d9",
+  "sources/stackbit-icon.svg": "0c46d706cc6deb12"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/stackbit-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/stackbit-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

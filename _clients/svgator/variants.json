@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "svgator",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "42b1624135e48039",
   "sources/iconify/svgator.svg": "42b1624135e48039",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

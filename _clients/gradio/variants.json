@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gradio",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "3408196fdda468e2",
   "sources/iconify/gradio.svg": "3408196fdda468e2",
   "sources/iconify/gradio-icon.svg": "95e8141482dcdcf9",
   "sources/wvl/gradio-icon.svg": "24623862062d4655",
-  "sources/wvl/gradio.svg": "f542e6f72fb7d89f"
+  "sources/wvl/gradio.svg": "f542e6f72fb7d89f",
+  "sources/gradio-icon.svg": "24623862062d4655"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/gradio-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/gradio-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

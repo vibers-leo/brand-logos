@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "yugabyte",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bad68de14ee2d516",
   "sources/iconify/yugabyte.svg": "bad68de14ee2d516",
   "sources/iconify/yugabyte-icon.svg": "fb63ddaccf103dbe",
   "sources/wvl/yugabyte-icon.svg": "7b98b6368d6f9389",
-  "sources/wvl/yugabyte.svg": "b706aae2c633aba9"
+  "sources/wvl/yugabyte.svg": "b706aae2c633aba9",
+  "sources/yugabyte-icon.svg": "7b98b6368d6f9389"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/yugabyte-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/yugabyte-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

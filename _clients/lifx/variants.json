@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "lifx",
- "primary": "wordmark-unknown-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d7f75cd1b3387475"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "mono-dark",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

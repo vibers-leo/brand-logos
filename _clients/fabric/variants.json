@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fabric",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "abd6e1fe084376a2",
   "sources/iconify/fabric.svg": "abd6e1fe084376a2",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

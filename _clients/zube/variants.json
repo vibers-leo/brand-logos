@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zube",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "8c4a040e97dfd799",
   "sources/iconify/zube.svg": "8c4a040e97dfd799",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

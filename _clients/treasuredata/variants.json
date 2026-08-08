@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "treasuredata",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "44ec247cdc15e7f4",
   "sources/iconify/treasuredata.svg": "44ec247cdc15e7f4",
   "sources/iconify/treasuredata-icon.svg": "15dcf9928dc18433",
   "sources/wvl/treasuredata-icon.svg": "70fd20e4a90b8d3c",
-  "sources/wvl/treasuredata.svg": "049b7f43adca7f6d"
+  "sources/wvl/treasuredata.svg": "049b7f43adca7f6d",
+  "sources/treasuredata-icon.svg": "70fd20e4a90b8d3c"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/treasuredata-icon.svg",
     "png": "sources/iconify/treasuredata-icon.png"
@@ -24,20 +25,24 @@
    "aspect": 1.481,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/treasuredata-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/treasuredata-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -45,7 +50,7 @@
    "aspect": 10.345,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -56,23 +61,6 @@
      "file": "sources/wvl/treasuredata.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

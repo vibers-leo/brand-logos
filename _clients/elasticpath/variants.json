@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "elasticpath",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bc8d2b6139817fa2",
   "sources/iconify/elasticpath.svg": "bc8d2b6139817fa2",
   "sources/iconify/elasticpath-icon.svg": "c8b4ed4f4e94b776",
   "sources/wvl/elasticpath-icon.svg": "8e8c28cbdb15f4cb",
-  "sources/wvl/elasticpath.svg": "cda5091b81bcdf51"
+  "sources/wvl/elasticpath.svg": "cda5091b81bcdf51",
+  "sources/elasticpath-icon.svg": "8e8c28cbdb15f4cb"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/elasticpath-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/elasticpath-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

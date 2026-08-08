@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sublimetext",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "831a69feefc397a2",
   "sources/iconify/sublimetext.svg": "831a69feefc397a2",
   "sources/iconify/sublimetext-icon.svg": "53e7f7d5a7c934f5",
   "sources/wvl/sublimetext-icon.svg": "1f6f738fdfc55658",
-  "sources/wvl/sublimetext.svg": "57e0c799ddea86bc"
+  "sources/wvl/sublimetext.svg": "57e0c799ddea86bc",
+  "sources/sublimetext-icon.svg": "1f6f738fdfc55658"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/sublimetext-icon.svg",
     "png": "sources/iconify/sublimetext-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.77,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/sublimetext-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sublimetext-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

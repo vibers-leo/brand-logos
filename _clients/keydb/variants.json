@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "keydb",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4fcce8709e6bc373",
   "sources/iconify/keydb.svg": "4fcce8709e6bc373",
   "sources/iconify/keydb-icon.svg": "f49e0611530232f9",
   "sources/wvl/keydb-icon.svg": "350c54cd1e5a55d9",
-  "sources/wvl/keydb.svg": "26811e989c5eda88"
+  "sources/wvl/keydb.svg": "26811e989c5eda88",
+  "sources/keydb-icon.svg": "350c54cd1e5a55d9"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/keydb-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/keydb-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

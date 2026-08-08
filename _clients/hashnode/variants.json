@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hashnode",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a0d27950e6781d93",
   "sources/iconify/hashnode.svg": "a0d27950e6781d93",
   "sources/iconify/hashnode-icon.svg": "34181257db529eb0",
   "sources/wvl/hashnode-icon.svg": "0f3f68d5ff6b6962",
-  "sources/wvl/hashnode.svg": "23d96eaddf2a2f9e"
+  "sources/wvl/hashnode.svg": "23d96eaddf2a2f9e",
+  "sources/hashnode-icon.svg": "0f3f68d5ff6b6962"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/hashnode-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/hashnode-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

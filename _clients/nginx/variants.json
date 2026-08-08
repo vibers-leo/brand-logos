@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nginx",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "bf9df63fbc6ff82a",
   "sources/iconify/nginx.svg": "bf9df63fbc6ff82a",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

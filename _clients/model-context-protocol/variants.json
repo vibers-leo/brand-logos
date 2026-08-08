@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "model-context-protocol",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "fb6b75710c56c071",
   "sources/iconify/model-context-protocol.svg": "fb6b75710c56c071",
-  "sources/iconify/model-context-protocol-icon.svg": "0b0fa3d915fa390d"
+  "sources/iconify/model-context-protocol-icon.svg": "0b0fa3d915fa390d",
+  "sources/model-context-protocol-icon.svg": "a41f1341eba34e24"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -22,10 +23,16 @@
    "aspect": 0.9,
    "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/model-context-protocol-icon.svg"
+    }
+   ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sendgrid",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d8b1d461a6b97171",
   "sources/iconify/sendgrid.svg": "d8b1d461a6b97171",
   "sources/iconify/sendgrid-icon.svg": "9c02da46a20c78f8",
   "sources/wvl/sendgrid-icon.svg": "00589e55596bc45e",
-  "sources/wvl/sendgrid.svg": "292304c5018814cc"
+  "sources/wvl/sendgrid.svg": "292304c5018814cc",
+  "sources/sendgrid-icon.svg": "00589e55596bc45e"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/sendgrid-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sendgrid-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "teamwork",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6439875fd0e33725",
   "sources/iconify/teamwork.svg": "6439875fd0e33725",
   "sources/iconify/teamwork-icon.svg": "f79c26b50d560da2",
   "sources/wvl/teamwork-icon.svg": "3c472fa20c54c4ca",
-  "sources/wvl/teamwork.svg": "63f20ac39d1d5ecf"
+  "sources/wvl/teamwork.svg": "63f20ac39d1d5ecf",
+  "sources/teamwork-icon.svg": "3c472fa20c54c4ca"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-light",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/teamwork-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/teamwork-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

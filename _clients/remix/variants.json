@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "remix",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5943ab97af280e7c",
   "sources/iconify/remix.svg": "5943ab97af280e7c",
   "sources/iconify/remix-icon.svg": "624a14bc7e5fe469",
   "sources/devicons/remix-original.svg": "5edd1329b7684f75",
   "sources/wvl/remix-icon.svg": "b9cea615454f1ad7",
-  "sources/wvl/remix.svg": "596ec30690536e45"
+  "sources/wvl/remix.svg": "596ec30690536e45",
+  "sources/remix-icon.svg": "b9cea615454f1ad7"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/remix-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/remix-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

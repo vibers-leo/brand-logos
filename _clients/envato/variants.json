@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "envato",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6966a96997a76e81",
   "sources/iconify/envato.svg": "6966a96997a76e81",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

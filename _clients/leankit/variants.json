@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "leankit",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b490b71b3d63ed28",
   "sources/iconify/leankit.svg": "b490b71b3d63ed28",
   "sources/iconify/leankit-icon.svg": "7eb5e2c52be38672",
   "sources/wvl/leankit-icon.svg": "1683508da880217e",
-  "sources/wvl/leankit.svg": "1f7a987fac6a0187"
+  "sources/wvl/leankit.svg": "1f7a987fac6a0187",
+  "sources/leankit-icon.svg": "1683508da880217e"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/leankit-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/leankit-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

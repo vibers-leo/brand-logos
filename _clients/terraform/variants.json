@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "terraform",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "efbfeccaeb6f0d5f",
   "sources/iconify/terraform.svg": "efbfeccaeb6f0d5f",
   "sources/iconify/terraform-icon.svg": "08cd0b47547887fa",
   "sources/devicons/terraform-original.svg": "4c1fc83fcc323077",
   "sources/wvl/terraform-icon.svg": "760b077eda805643",
-  "sources/wvl/terraform.svg": "86336db741b7c778"
+  "sources/wvl/terraform.svg": "86336db741b7c778",
+  "sources/terraform-icon.svg": "760b077eda805643"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/terraform-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/terraform-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "xata",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "304cdf5a8c2db473",
   "sources/iconify/xata.svg": "304cdf5a8c2db473",
   "sources/iconify/xata-icon.svg": "30cf60e2e0e27fa4",
   "sources/wvl/xata-icon.svg": "fd055fd799e163ee",
-  "sources/wvl/xata.svg": "66d970b7b8db5942"
+  "sources/wvl/xata.svg": "66d970b7b8db5942",
+  "sources/xata-icon.svg": "fd055fd799e163ee"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/xata-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/xata-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

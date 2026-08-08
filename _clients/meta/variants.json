@@ -2,13 +2,15 @@
  "schema": 1,
  "algo_v": 1,
  "id": "meta",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "7e0b272081611005"
+  "logo.svg": "7e0b272081611005",
+  "sources/iconify/meta-icon.svg": "f316f2d4f283068e",
+  "sources/meta-icon.svg": "edf0e460f32f04a3"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -21,6 +23,27 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/meta-icon.svg",
+    "png": "sources/iconify/meta-icon.png"
+   },
+   "aspect": 1.508,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/meta-icon.svg"
+    }
+   ]
   }
  ]
 }

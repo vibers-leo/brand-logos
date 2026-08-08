@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "async-api",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ccc13aca8e3cedf3",
   "sources/iconify/async-api.svg": "ccc13aca8e3cedf3",
-  "sources/iconify/async-api-icon.svg": "6397a331f22e28ea"
+  "sources/iconify/async-api-icon.svg": "6397a331f22e28ea",
+  "sources/async-api-icon.svg": "604ab7dca1045163"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -25,7 +26,7 @@
    "order": 30
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

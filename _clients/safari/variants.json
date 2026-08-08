@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "safari",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "027ec57cbafc24d4",
   "sources/fa.svg": "027ec57cbafc24d4",
@@ -12,32 +12,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/safari.svg",
-    "png": "sources/iconify/safari.png"
-   },
-   "aspect": 1.0,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/safari.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/safari-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -51,6 +26,18 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/safari.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/safari.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/safari-original.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "grpc",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "673ad37a4041d450",
   "sources/iconify/grpc.svg": "673ad37a4041d450",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -32,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/grpc.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/grpc-original.svg"
     }
    ]
-  },
-  {
-   "key": "horizontal-en-mono-light",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "mono-light",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/devicons/grpc-original.svg",
-    "png": "sources/devicons/grpc-original.png"
-   },
-   "aspect": 2.459,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 10
   }
  ]
 }

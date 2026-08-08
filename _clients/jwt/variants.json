@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jwt",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "7f7cbdf57667b186",
   "sources/iconify/jwt.svg": "7f7cbdf57667b186",
   "sources/iconify/jwt-icon.svg": "af21124246bb0559",
   "sources/wvl/jwt-icon.svg": "fb6a39166233227b",
-  "sources/wvl/jwt.svg": "a3fd92304913fb16"
+  "sources/wvl/jwt.svg": "a3fd92304913fb16",
+  "sources/jwt-icon.svg": "fb6a39166233227b"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/jwt-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/jwt-icon.svg"
     }
    ]
   }

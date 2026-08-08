@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mantine",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "dd31651a1f97781c",
   "sources/iconify/mantine.svg": "dd31651a1f97781c",
   "sources/iconify/mantine-icon.svg": "398d18819b92cc3e",
   "sources/wvl/mantine-icon.svg": "c3c93cc0fcdef550",
-  "sources/wvl/mantine.svg": "391ad2c5cc212190"
+  "sources/wvl/mantine.svg": "391ad2c5cc212190",
+  "sources/mantine-icon.svg": "c3c93cc0fcdef550"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mantine-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mantine-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

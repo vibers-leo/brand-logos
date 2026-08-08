@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rush",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d39fdefed004651b",
   "sources/iconify/rush.svg": "d39fdefed004651b",
   "sources/iconify/rush-icon.svg": "d495aabf4168d838",
   "sources/wvl/rush-icon.svg": "61883056c55d2d06",
-  "sources/wvl/rush.svg": "5c7f6c0be571d60b"
+  "sources/wvl/rush.svg": "5c7f6c0be571d60b",
+  "sources/rush-icon.svg": "61883056c55d2d06"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/rush-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/rush-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

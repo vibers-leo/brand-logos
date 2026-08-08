@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stylus",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "1773ce8c964d2c84",
   "sources/iconify/stylus.svg": "1773ce8c964d2c84",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

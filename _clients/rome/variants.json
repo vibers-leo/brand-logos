@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rome",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1ad3643c3602ba75",
   "sources/iconify/rome.svg": "1ad3643c3602ba75",
-  "sources/iconify/rome-icon.svg": "e03ec8ba9ee92dcc"
+  "sources/iconify/rome-icon.svg": "e03ec8ba9ee92dcc",
+  "sources/rome-icon.svg": "653ba6520c28e204"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -22,10 +23,16 @@
    "aspect": 1.0,
    "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/rome-icon.svg"
+    }
+   ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

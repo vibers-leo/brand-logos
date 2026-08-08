@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ios",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a73681fdd680983d",
   "sources/iconify/ios.svg": "a73681fdd680983d",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

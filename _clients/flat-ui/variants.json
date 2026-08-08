@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "flat-ui",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "5c5a7e0199fe6459",
   "sources/iconify/flat-ui.svg": "5c5a7e0199fe6459",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

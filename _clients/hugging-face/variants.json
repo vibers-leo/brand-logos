@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hugging-face",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b849659627dcf566",
   "sources/iconify/hugging-face.svg": "b849659627dcf566",
   "sources/iconify/hugging-face-icon.svg": "0128b7243cc992e4",
   "sources/wvl/hugging-face-icon.svg": "e8c8487c0ab022b8",
-  "sources/wvl/hugging-face.svg": "eb62a689309becfb"
+  "sources/wvl/hugging-face.svg": "eb62a689309becfb",
+  "sources/hugging-face-icon.svg": "e8c8487c0ab022b8"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/hugging-face-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/hugging-face-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

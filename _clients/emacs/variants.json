@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "emacs",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "cd7d6f4ab5285915",
   "sources/iconify/emacs.svg": "cd7d6f4ab5285915",
@@ -12,7 +12,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

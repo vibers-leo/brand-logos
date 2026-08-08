@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "renovatebot",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "985a7798e4b42f2a",
   "sources/iconify/renovatebot.svg": "985a7798e4b42f2a",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

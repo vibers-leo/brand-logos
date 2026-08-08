@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "reasonml",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b4e7dad4912bf415",
   "sources/iconify/reasonml.svg": "b4e7dad4912bf415",
   "sources/iconify/reasonml-icon.svg": "3355b1aef1ecf6c5",
   "sources/wvl/reasonml-icon.svg": "244d2b7482876e1d",
-  "sources/wvl/reasonml.svg": "51616c4a7d5b5fc9"
+  "sources/wvl/reasonml.svg": "51616c4a7d5b5fc9",
+  "sources/reasonml-icon.svg": "244d2b7482876e1d"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/reasonml-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/reasonml-icon.svg"
     }
    ]
   }

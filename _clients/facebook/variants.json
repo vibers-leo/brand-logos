@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "facebook",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "c5ae6257d8e5e468",
   "sources/fa.svg": "c5ae6257d8e5e468",
@@ -12,32 +12,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/facebook.svg",
-    "png": "sources/iconify/facebook.png"
-   },
-   "aspect": 1.0,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/facebook.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/facebook-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -51,6 +26,18 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/facebook.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/facebook.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/facebook-original.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

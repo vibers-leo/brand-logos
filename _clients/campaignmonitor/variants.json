@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "campaignmonitor",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b987f15368b71256",
   "sources/iconify/campaignmonitor.svg": "b987f15368b71256",
   "sources/iconify/campaignmonitor-icon.svg": "a065ad296c4ca6e8",
   "sources/wvl/campaignmonitor-icon.svg": "46daadf0ce0820e6",
-  "sources/wvl/campaignmonitor.svg": "b3fa9f3b70249dac"
+  "sources/wvl/campaignmonitor.svg": "b3fa9f3b70249dac",
+  "sources/campaignmonitor-icon.svg": "46daadf0ce0820e6"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/campaignmonitor-icon.svg",
     "png": "sources/iconify/campaignmonitor-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.479,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/campaignmonitor-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/campaignmonitor-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

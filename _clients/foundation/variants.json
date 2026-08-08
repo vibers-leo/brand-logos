@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "foundation",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "86b37c6f1635b37b",
   "sources/iconify/foundation.svg": "86b37c6f1635b37b",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

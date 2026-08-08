@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "replit",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "70288c27dc627bc5",
   "sources/iconify/replit.svg": "70288c27dc627bc5",
   "sources/iconify/replit-icon.svg": "2aa2f62149bd2779",
   "sources/devicons/replit-original.svg": "f96c63f4f1be6594",
   "sources/wvl/replit-icon.svg": "89902b1cec49b819",
-  "sources/wvl/replit.svg": "15f1f96b42289f04"
+  "sources/wvl/replit.svg": "15f1f96b42289f04",
+  "sources/replit-icon.svg": "89902b1cec49b819"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/replit-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/replit-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

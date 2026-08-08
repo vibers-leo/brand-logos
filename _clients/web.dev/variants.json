@@ -2,18 +2,33 @@
  "schema": 1,
  "algo_v": 1,
  "id": "web.dev",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "92baf54143e797ea",
-  "sources/wvl/web.dev.svg": "92baf54143e797ea"
+  "sources/wvl/web.dev.svg": "92baf54143e797ea",
+  "sources/web.dev-icon.svg": "cf66424fc5ac859b"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/web.dev-icon.svg"
+   },
+   "aspect": 1.175,
+   "provider": "merged",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -21,30 +36,13 @@
    "aspect": 5.488,
    "provider": "wvl",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/web.dev.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

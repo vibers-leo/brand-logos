@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "uipath",
- "primary": "horizontal-unknown-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "fc63a98fc9e24956"
  },
  "variants": [
   {
-   "key": "horizontal-unknown-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "mono-dark",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

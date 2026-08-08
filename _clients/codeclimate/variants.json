@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "codeclimate",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "704c49e594777eb6",
   "sources/iconify/codeclimate.svg": "704c49e594777eb6",
   "sources/iconify/codeclimate-icon.svg": "ff40956e2d188d1a",
   "sources/wvl/codeclimate-icon.svg": "f4fc6e8a7fb6fff9",
-  "sources/wvl/codeclimate.svg": "7c9ac7f412a184f2"
+  "sources/wvl/codeclimate.svg": "7c9ac7f412a184f2",
+  "sources/codeclimate-icon.svg": "f4fc6e8a7fb6fff9"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/codeclimate-icon.svg",
     "png": "sources/iconify/codeclimate-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.803,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/codeclimate-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/codeclimate-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

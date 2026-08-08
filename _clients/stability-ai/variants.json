@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stability-ai",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4397ccc99ffb7e8c",
   "sources/iconify/stability-ai.svg": "4397ccc99ffb7e8c",
   "sources/iconify/stability-ai-icon.svg": "11632cfd40d0fea2",
   "sources/wvl/stability-ai-icon.svg": "d5c26b9aa94ec406",
-  "sources/wvl/stability-ai.svg": "f5b7d2f28c361b56"
+  "sources/wvl/stability-ai.svg": "f5b7d2f28c361b56",
+  "sources/stability-ai-icon.svg": "d5c26b9aa94ec406"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/stability-ai-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/stability-ai-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

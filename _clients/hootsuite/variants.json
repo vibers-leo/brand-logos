@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hootsuite",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "748b77d5beb77cb3",
   "sources/iconify/hootsuite.svg": "748b77d5beb77cb3",
   "sources/iconify/hootsuite-icon.svg": "f63c24bbc159cd28",
   "sources/wvl/hootsuite-icon.svg": "93bfb1fc5ab6c529",
-  "sources/wvl/hootsuite.svg": "94635e2b8f178d8f"
+  "sources/wvl/hootsuite.svg": "94635e2b8f178d8f",
+  "sources/hootsuite-icon.svg": "93bfb1fc5ab6c529"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/hootsuite-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/hootsuite-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

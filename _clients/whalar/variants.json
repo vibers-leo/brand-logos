@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "whalar",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b8e7ffd4cd28ed25",
   "sources/iconify/whalar.svg": "b8e7ffd4cd28ed25",
   "sources/iconify/whalar-icon.svg": "f840d19393870ab9",
   "sources/wvl/whalar-icon.svg": "2786f2b36dd22d6c",
-  "sources/wvl/whalar.svg": "b0cd619f600f980c"
+  "sources/wvl/whalar.svg": "b0cd619f600f980c",
+  "sources/whalar-icon.svg": "2786f2b36dd22d6c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/whalar-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/whalar-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

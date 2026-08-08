@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "freedcamp",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "8e3c5ff0c3a7902a",
   "sources/iconify/freedcamp.svg": "8e3c5ff0c3a7902a",
   "sources/iconify/freedcamp-icon.svg": "7b509b5243d285a9",
   "sources/wvl/freedcamp-icon.svg": "7ad46bc63df458b4",
-  "sources/wvl/freedcamp.svg": "acb35579b20912e8"
+  "sources/wvl/freedcamp.svg": "acb35579b20912e8",
+  "sources/freedcamp-icon.svg": "7ad46bc63df458b4"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/freedcamp-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/freedcamp-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

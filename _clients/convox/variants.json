@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "convox",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9878b3e3518d0c17",
   "sources/iconify/convox.svg": "9878b3e3518d0c17",
   "sources/iconify/convox-icon.svg": "b74630db8910aab8",
   "sources/wvl/convox-icon.svg": "c6fc00ceeef165ac",
-  "sources/wvl/convox.svg": "bfab13fef9644c43"
+  "sources/wvl/convox.svg": "bfab13fef9644c43",
+  "sources/convox-icon.svg": "c6fc00ceeef165ac"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/convox-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/convox-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

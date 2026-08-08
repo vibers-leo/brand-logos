@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "booqable",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5e5d0f2b1e71acff",
   "sources/iconify/booqable.svg": "5e5d0f2b1e71acff",
   "sources/iconify/booqable-icon.svg": "d38d1fb9a572a63a",
   "sources/wvl/booqable-icon.svg": "2b62b43938fd103c",
-  "sources/wvl/booqable.svg": "a0313dc5d9eb279d"
+  "sources/wvl/booqable.svg": "a0313dc5d9eb279d",
+  "sources/booqable-icon.svg": "2b62b43938fd103c"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/booqable-icon.svg",
     "png": "sources/iconify/booqable-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.907,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/booqable-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/booqable-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

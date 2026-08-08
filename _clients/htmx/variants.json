@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "htmx",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "be0bf6cfbca3314b",
   "sources/iconify/htmx.svg": "be0bf6cfbca3314b",
   "sources/iconify/htmx-icon.svg": "6ad30f0b30b8b57b",
   "sources/devicons/htmx-original.svg": "91ea71704e34ad88",
   "sources/wvl/htmx-icon.svg": "c11ef04caebb5d75",
-  "sources/wvl/htmx.svg": "38df19dcb7f9d866"
+  "sources/wvl/htmx.svg": "38df19dcb7f9d866",
+  "sources/htmx-icon.svg": "c11ef04caebb5d75"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/htmx-original.svg",
+    "png": "sources/devicons/htmx-original.png"
+   },
+   "aspect": 1.537,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/htmx-icon.svg",
     "png": "sources/iconify/htmx-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 1.532,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/htmx-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/htmx-original.svg"
+     "provider": "merged",
+     "file": "sources/htmx-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

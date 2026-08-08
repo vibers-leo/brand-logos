@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mapbox",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "514ff8b9829cd3c1",
   "sources/iconify/mapbox.svg": "514ff8b9829cd3c1",
   "sources/iconify/mapbox-icon.svg": "1cc8c6f70b350b02",
   "sources/devicons/mapbox-original.svg": "b1a8ffe71f8b0978",
   "sources/wvl/mapbox-icon.svg": "fbe9ed1de7a0bae3",
-  "sources/wvl/mapbox.svg": "b5b1d17ebb6bc8ae"
+  "sources/wvl/mapbox.svg": "b5b1d17ebb6bc8ae",
+  "sources/mapbox-icon.svg": "fbe9ed1de7a0bae3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -30,11 +31,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mapbox-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mapbox-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -55,23 +60,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mapbox.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mapbox-original.svg"
     }
    ]
-  },
-  {
-   "key": "wordmark-en-mono-dark",
-   "form": "wordmark",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/devicons/mapbox-original.svg",
-    "png": "sources/devicons/mapbox-original.png"
-   },
-   "aspect": 4.412,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

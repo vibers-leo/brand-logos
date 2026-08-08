@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "codesandbox",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a7ce3a0f12c13168",
   "sources/iconify/codesandbox.svg": "a7ce3a0f12c13168",
   "sources/iconify/codesandbox-icon.svg": "9cb3c3403046997e",
   "sources/wvl/codesandbox-icon.svg": "143ea41021c2974c",
-  "sources/wvl/codesandbox.svg": "e9a7630c4c472f88"
+  "sources/wvl/codesandbox.svg": "e9a7630c4c472f88",
+  "sources/codesandbox-icon.svg": "143ea41021c2974c"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/codesandbox-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/codesandbox-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

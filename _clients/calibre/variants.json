@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "calibre",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c9db2aa2c5f7da16",
   "sources/iconify/calibre.svg": "c9db2aa2c5f7da16",
   "sources/iconify/calibre-icon.svg": "7d08895166c6bdfe",
   "sources/wvl/calibre-icon.svg": "2cb37166340a5ed5",
-  "sources/wvl/calibre.svg": "a3da532c374d088c"
+  "sources/wvl/calibre.svg": "a3da532c374d088c",
+  "sources/calibre-icon.svg": "2cb37166340a5ed5"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/calibre-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/calibre-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "surge",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "b444a2a1c03d159c",
   "sources/iconify/surge.svg": "b444a2a1c03d159c",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

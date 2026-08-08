@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "materializecss",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "173510a1d2189b17",
   "sources/iconify/materializecss.svg": "173510a1d2189b17",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

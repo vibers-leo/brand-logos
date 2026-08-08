@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "intercom",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5a9d8ddde340d2fa",
   "sources/iconify/intercom.svg": "5a9d8ddde340d2fa",
   "sources/iconify/intercom-icon.svg": "16a8adca6840b65d",
   "sources/wvl/intercom-icon.svg": "11d2860726245238",
-  "sources/wvl/intercom.svg": "f503fd440b49ec26"
+  "sources/wvl/intercom.svg": "f503fd440b49ec26",
+  "sources/intercom-icon.svg": "11d2860726245238"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/intercom-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/intercom-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "threads",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8cadebc5e90e4343"
+  "logo.svg": "8cadebc5e90e4343",
+  "sources/threads-icon.svg": "d990aaf410f522f8"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -20,7 +21,13 @@
    "aspect": 0.878,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/threads-icon.svg"
+    }
+   ]
   }
  ]
 }

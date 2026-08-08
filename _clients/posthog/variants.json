@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "posthog",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bab88475f2b7b9a9",
   "sources/iconify/posthog.svg": "bab88475f2b7b9a9",
   "sources/iconify/posthog-icon.svg": "79d741150c37baf4",
   "sources/wvl/posthog-icon.svg": "c893c186033f3364",
-  "sources/wvl/posthog.svg": "0b362ee633466f5f"
+  "sources/wvl/posthog.svg": "0b362ee633466f5f",
+  "sources/posthog-icon.svg": "c893c186033f3364"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/posthog-icon.svg",
     "png": "sources/iconify/posthog-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.807,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/posthog-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/posthog-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

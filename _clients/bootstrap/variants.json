@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bootstrap",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "4ec658961db851e0",
   "sources/fa.svg": "4ec658961db851e0",
@@ -12,32 +12,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/bootstrap.svg",
-    "png": "sources/iconify/bootstrap.png"
-   },
-   "aspect": 1.258,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/bootstrap.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/bootstrap-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -51,6 +26,18 @@
    "origin": "collected",
    "order": 10,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/bootstrap.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/bootstrap.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/bootstrap-original.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

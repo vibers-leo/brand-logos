@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "expo",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2a466b13610cb3ab",
   "sources/iconify/expo.svg": "2a466b13610cb3ab",
   "sources/iconify/expo-icon.svg": "b9bfac98406e70de",
   "sources/devicons/expo-original.svg": "0a58fa598522063d",
   "sources/wvl/expo-icon.svg": "a5c4be3af626c727",
-  "sources/wvl/expo.svg": "80ac3143681051a3"
+  "sources/wvl/expo.svg": "80ac3143681051a3",
+  "sources/expo-icon.svg": "a5c4be3af626c727"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -30,26 +31,19 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/expo-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/expo-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/expo-original.svg"
     }
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
-   "form": "symbol",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/devicons/expo-original.svg",
-    "png": "sources/devicons/expo-original.png"
-   },
-   "aspect": 1.119,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

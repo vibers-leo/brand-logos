@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jquery",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "66953f46c77bcfc8",
   "sources/iconify/jquery.svg": "66953f46c77bcfc8",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -26,7 +26,7 @@
    "order": 30
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

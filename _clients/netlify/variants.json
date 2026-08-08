@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "netlify",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "728d09171677b8a2"
+  "logo.svg": "728d09171677b8a2",
+  "sources/netlify-icon.svg": "2d3023879a8e3665"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 1.142,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/netlify-icon.svg"
+    }
+   ]
   }
  ]
 }

@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nomad",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ec230b1e93d5b9a4",
   "sources/iconify/nomad.svg": "ec230b1e93d5b9a4",
   "sources/iconify/nomad-icon.svg": "6867e6a48b385967",
   "sources/devicons/nomad-original.svg": "a3a361be72ae3bd3",
   "sources/wvl/nomad-icon.svg": "adf2706ca787c061",
-  "sources/wvl/nomad.svg": "417b1b91bf2fb0ab"
+  "sources/wvl/nomad.svg": "417b1b91bf2fb0ab",
+  "sources/nomad-icon.svg": "adf2706ca787c061"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/nomad-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/nomad-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

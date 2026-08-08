@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "appdynamics",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "8734168a142f9f0f",
   "sources/iconify/appdynamics.svg": "8734168a142f9f0f",
   "sources/iconify/appdynamics-icon.svg": "1d9dd8cabd9ce4ec",
   "sources/wvl/appdynamics-icon.svg": "58bfc5252fcad75f",
-  "sources/wvl/appdynamics.svg": "cad3e563133e97f6"
+  "sources/wvl/appdynamics.svg": "cad3e563133e97f6",
+  "sources/appdynamics-icon.svg": "58bfc5252fcad75f"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/appdynamics-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/appdynamics-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

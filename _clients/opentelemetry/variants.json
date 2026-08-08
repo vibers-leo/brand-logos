@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "opentelemetry",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d6c100945858fb9f",
   "sources/iconify/opentelemetry.svg": "d6c100945858fb9f",
   "sources/iconify/opentelemetry-icon.svg": "4ed93f03de288936",
   "sources/devicons/opentelemetry-original.svg": "97a8aec6d091a31b",
   "sources/wvl/opentelemetry-icon.svg": "0629149a2b0c22e0",
-  "sources/wvl/opentelemetry.svg": "17b31e03f2935d65"
+  "sources/wvl/opentelemetry.svg": "17b31e03f2935d65",
+  "sources/opentelemetry-icon.svg": "0629149a2b0c22e0"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -38,7 +39,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -59,6 +60,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/opentelemetry-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/opentelemetry-icon.svg"
     }
    ]
   }

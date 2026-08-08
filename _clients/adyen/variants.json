@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "adyen",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7a25d2f594010730",
   "sources/iconify/adyen.svg": "7a25d2f594010730",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

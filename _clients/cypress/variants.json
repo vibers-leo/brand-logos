@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cypress",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "1275c19d67c95f2f",
   "sources/iconify/cypress.svg": "1275c19d67c95f2f",
   "sources/iconify/cypress-icon.svg": "6bc60d3352f59dff",
   "sources/wvl/cypress-icon.svg": "590136ceaa927a5d",
-  "sources/wvl/cypress.svg": "3274c64ef48b34e8"
+  "sources/wvl/cypress.svg": "3274c64ef48b34e8",
+  "sources/cypress-icon.svg": "590136ceaa927a5d"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/cypress-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/cypress-icon.svg"
     }
    ]
   }

@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "konnect-entertainment",
- "primary": "wordmark-unknown-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b0a3729394d0f71b"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "mono-dark",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

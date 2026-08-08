@@ -2,37 +2,17 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-pay",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e4081ded49ff96e0",
   "sources/fa.svg": "e4081ded49ff96e0",
   "sources/iconify/google-pay.svg": "18f385f325901cda",
-  "sources/wvl/google-pay.svg": "da1c0c417bb01b12"
+  "sources/wvl/google-pay.svg": "da1c0c417bb01b12",
+  "sources/iconify/google-pay-icon.svg": "c42fb2cb025126b0"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/google-pay.svg",
-    "png": "sources/iconify/google-pay.png"
-   },
-   "aspect": 2.514,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/google-pay.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -47,10 +27,32 @@
    "order": 10,
    "alts": [
     {
+     "provider": "iconify",
+     "file": "sources/iconify/google-pay.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/google-pay.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/google-pay-icon.svg"
+   },
+   "aspect": 1.174,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

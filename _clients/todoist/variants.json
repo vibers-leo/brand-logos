@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "todoist",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4cbc7bcd0d8a50ac",
   "sources/iconify/todoist.svg": "4cbc7bcd0d8a50ac",
   "sources/iconify/todoist-icon.svg": "f338b69b8beb10fc",
   "sources/wvl/todoist-icon.svg": "0887918b6ea286b3",
-  "sources/wvl/todoist.svg": "6875a4afa1cbc045"
+  "sources/wvl/todoist.svg": "6875a4afa1cbc045",
+  "sources/todoist-icon.svg": "0887918b6ea286b3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/todoist-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/todoist-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

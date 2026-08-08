@@ -2,21 +2,47 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hostgator",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5524617c6067c7f8",
   "sources/iconify/hostgator.svg": "5524617c6067c7f8",
   "sources/iconify/hostgator-icon.svg": "a1f1332a292c32d3",
   "sources/wvl/hostgator-icon.svg": "db76b942ddef1dd9",
-  "sources/wvl/hostgator.svg": "1588dfead5561959"
+  "sources/wvl/hostgator.svg": "1588dfead5561959",
+  "sources/hostgator-icon.svg": "db76b942ddef1dd9"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/hostgator-icon.svg",
+    "png": "sources/iconify/hostgator-icon.png"
+   },
+   "aspect": 0.722,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/hostgator-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/hostgator-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -24,7 +50,7 @@
    "aspect": 5.66,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -35,44 +61,6 @@
      "file": "sources/wvl/hostgator.svg"
     }
    ]
-  },
-  {
-   "key": "vertical-en-color",
-   "form": "vertical",
-   "lang": "en",
-   "color": "color",
-   "label": "세로조합형",
-   "files": {
-    "svg": "sources/iconify/hostgator-icon.svg",
-    "png": "sources/iconify/hostgator-icon.png"
-   },
-   "aspect": 0.722,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 20,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/hostgator-icon.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

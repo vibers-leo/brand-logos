@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "snaplet",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ce817225608bb9a1",
   "sources/iconify/snaplet.svg": "ce817225608bb9a1",
   "sources/iconify/snaplet-icon.svg": "4dcebe7a214f1918",
   "sources/wvl/snaplet-icon.svg": "3781348ae8dc0162",
-  "sources/wvl/snaplet.svg": "67ddc55cf2918fda"
+  "sources/wvl/snaplet.svg": "67ddc55cf2918fda",
+  "sources/snaplet-icon.svg": "3781348ae8dc0162"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/snaplet-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/snaplet-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

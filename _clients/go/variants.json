@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "go",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "5df302aae75b91d5",
   "sources/iconify/go.svg": "5df302aae75b91d5",
@@ -12,7 +12,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +37,7 @@
    ]
   },
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

@@ -2,39 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "spotify",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "398c43728e37056a",
   "sources/fa.svg": "398c43728e37056a",
   "sources/iconify/spotify.svg": "b764d35deb800466",
   "sources/iconify/spotify-icon.svg": "f35579dde051eee2",
   "sources/wvl/spotify-icon.svg": "ad08a904377bd97b",
-  "sources/wvl/spotify.svg": "78deee6a4569e2e9"
+  "sources/wvl/spotify.svg": "78deee6a4569e2e9",
+  "sources/spotify-icon.svg": "ad08a904377bd97b"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/spotify-icon.svg",
-    "png": "sources/iconify/spotify-icon.png"
-   },
-   "aspect": 1.0,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/spotify-icon.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -49,13 +29,25 @@
    "order": 30,
    "alts": [
     {
+     "provider": "iconify",
+     "file": "sources/iconify/spotify-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/spotify-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/spotify-icon.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

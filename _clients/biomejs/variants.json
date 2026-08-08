@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "biomejs",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d5917ab744fa981a",
   "sources/iconify/biomejs.svg": "d5917ab744fa981a",
   "sources/iconify/biomejs-icon.svg": "b8a845e8efbb93f5",
   "sources/wvl/biomejs-icon.svg": "c364ef702a114229",
-  "sources/wvl/biomejs.svg": "01ebcf4133bc7b55"
+  "sources/wvl/biomejs.svg": "01ebcf4133bc7b55",
+  "sources/biomejs-icon.svg": "c364ef702a114229"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/biomejs-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/biomejs-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

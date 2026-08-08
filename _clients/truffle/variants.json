@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "truffle",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "56a9725aca6d5c51",
   "sources/iconify/truffle.svg": "56a9725aca6d5c51",
   "sources/iconify/truffle-icon.svg": "a3374ed45b9a2d6d",
   "sources/wvl/truffle-icon.svg": "0f775d8c956fd3a0",
-  "sources/wvl/truffle.svg": "9e3a4156f6b15d05"
+  "sources/wvl/truffle.svg": "9e3a4156f6b15d05",
+  "sources/truffle-icon.svg": "0f775d8c956fd3a0"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -41,6 +42,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/truffle.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/truffle-icon.svg"
     }
    ]
   }

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "iron",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "0f8c89d1924ec1b5",
   "sources/iconify/iron.svg": "0f8c89d1924ec1b5",
   "sources/iconify/iron-icon.svg": "5c6787566b526af4",
   "sources/wvl/iron-icon.svg": "296db45e5772ab69",
-  "sources/wvl/iron.svg": "365f26e16f0997c9"
+  "sources/wvl/iron.svg": "365f26e16f0997c9",
+  "sources/iron-icon.svg": "296db45e5772ab69"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/iron-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/iron-icon.svg"
     }
    ]
   }

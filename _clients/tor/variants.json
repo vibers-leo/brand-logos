@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tor",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "267a574800b034a7",
   "sources/iconify/tor.svg": "267a574800b034a7",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

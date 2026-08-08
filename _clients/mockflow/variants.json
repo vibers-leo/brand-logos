@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mockflow",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f0b72a1e62242d87",
   "sources/iconify/mockflow.svg": "f0b72a1e62242d87",
   "sources/iconify/mockflow-icon.svg": "c9b6e114a3c28e96",
   "sources/wvl/mockflow-icon.svg": "d15095b9a5699eb5",
-  "sources/wvl/mockflow.svg": "00cf91b04afdb4bb"
+  "sources/wvl/mockflow.svg": "00cf91b04afdb4bb",
+  "sources/mockflow-icon.svg": "d15095b9a5699eb5"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mockflow-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mockflow-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

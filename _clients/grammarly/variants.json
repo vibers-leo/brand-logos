@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "grammarly",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d3bbd8b5b3ed8029",
   "sources/iconify/grammarly.svg": "d3bbd8b5b3ed8029",
   "sources/iconify/grammarly-icon.svg": "869bd0dfad4ee7ba",
   "sources/wvl/grammarly-icon.svg": "2580260b925224e3",
-  "sources/wvl/grammarly.svg": "2996728cc41214b6"
+  "sources/wvl/grammarly.svg": "2996728cc41214b6",
+  "sources/grammarly-icon.svg": "2580260b925224e3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/grammarly-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/grammarly-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "esbuild",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "16e570266f1da073",
   "sources/iconify/esbuild.svg": "16e570266f1da073",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

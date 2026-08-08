@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "svelte",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d492990968319680",
   "sources/iconify/svelte.svg": "d492990968319680",
   "sources/iconify/svelte-icon.svg": "9e3c45caab5af880",
   "sources/devicons/svelte-original.svg": "0ba14c757c551a3e",
   "sources/wvl/svelte-icon.svg": "b6f68c1085e229a1",
-  "sources/wvl/svelte.svg": "9e8157e3bd026131"
+  "sources/wvl/svelte.svg": "9e8157e3bd026131",
+  "sources/svelte-icon.svg": "b6f68c1085e229a1"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/svelte-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/svelte-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

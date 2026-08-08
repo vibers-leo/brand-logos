@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "asyncapi",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9e1de0e136ea7213",
   "sources/wvl/async-api.svg": "9e1de0e136ea7213"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

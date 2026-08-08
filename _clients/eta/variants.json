@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "eta",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a375a3b4e9ff6f62",
   "sources/iconify/eta.svg": "a375a3b4e9ff6f62",
-  "sources/iconify/eta-icon.svg": "cde47c91db86cb42"
+  "sources/iconify/eta-icon.svg": "cde47c91db86cb42",
+  "sources/eta-icon.svg": "c061235880ad3b90"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -31,7 +32,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -43,7 +44,13 @@
    "aspect": 0.911,
    "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/eta-icon.svg"
+    }
+   ]
   }
  ]
 }

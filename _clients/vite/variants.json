@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "vite",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b177c6fb3c469c74",
   "sources/iconify/vite.svg": "b177c6fb3c469c74",
   "sources/iconify/vite-dark.svg": "8b78a521d288e544",
   "sources/iconify/vite-icon.svg": "c171dc7bd9020987",
-  "sources/devicons/vite-original.svg": "f71ecbe45851082f"
+  "sources/devicons/vite-original.svg": "f71ecbe45851082f",
+  "sources/vite-icon.svg": "356a3c9b26dd53bb"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/vite-icon.svg",
     "png": "sources/iconify/vite-icon.png"
@@ -24,25 +25,20 @@
    "aspect": 1.625,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vite-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/vite-icon.svg"
+    }
+   ]
   },
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/devicons/vite-original.svg",
-    "png": "sources/devicons/vite-original.png"
-   },
-   "aspect": 1.064,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

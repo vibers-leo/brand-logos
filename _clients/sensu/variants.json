@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sensu",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "5af69abbb71c8cdb",
   "sources/iconify/sensu.svg": "5af69abbb71c8cdb",
   "sources/iconify/sensu-icon.svg": "bf0ce865893a57f3",
   "sources/wvl/sensu-icon.svg": "e0f3b5e123b1a0d9",
-  "sources/wvl/sensu.svg": "bf0ad9160f7d8413"
+  "sources/wvl/sensu.svg": "bf0ad9160f7d8413",
+  "sources/sensu-icon.svg": "e0f3b5e123b1a0d9"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/sensu-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sensu-icon.svg"
     }
    ]
   }

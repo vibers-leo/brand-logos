@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tapcart",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2b111f792d7dfc96",
   "sources/iconify/tapcart.svg": "2b111f792d7dfc96",
   "sources/iconify/tapcart-icon.svg": "f532d3b910da79ea",
   "sources/wvl/tapcart-icon.svg": "7a48a6400584db18",
-  "sources/wvl/tapcart.svg": "865d76fbbde47b11"
+  "sources/wvl/tapcart.svg": "865d76fbbde47b11",
+  "sources/tapcart-icon.svg": "7a48a6400584db18"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/tapcart-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/tapcart-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

@@ -2,15 +2,30 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zapier",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ba037538ab444aa9",
   "sources/iconify/zapier.svg": "ba037538ab444aa9",
-  "sources/wvl/zapier.svg": "675135ab0b0b84a9"
+  "sources/wvl/zapier.svg": "675135ab0b0b84a9",
+  "sources/iconify/zapier-icon.svg": "6c30d7a206948c67"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/zapier-icon.svg"
+   },
+   "aspect": 1.002,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

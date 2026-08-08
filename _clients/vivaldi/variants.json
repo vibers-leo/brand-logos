@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "vivaldi",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9590bc1a20b9447f",
   "sources/iconify/vivaldi.svg": "9590bc1a20b9447f",
   "sources/iconify/vivaldi-icon.svg": "bffa136ac92896b2",
   "sources/wvl/vivaldi-icon.svg": "f0645328e39e1399",
-  "sources/wvl/vivaldi.svg": "c87717743153db8b"
+  "sources/wvl/vivaldi.svg": "c87717743153db8b",
+  "sources/vivaldi-icon.svg": "f0645328e39e1399"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/vivaldi-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/vivaldi-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

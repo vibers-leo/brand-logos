@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mindsdb",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1a60450e373ad0db",
   "sources/iconify/mindsdb.svg": "1a60450e373ad0db",
   "sources/iconify/mindsdb-icon.svg": "f73a76a8e57415e2",
   "sources/wvl/mindsdb-icon.svg": "fb62b85d6b98ea6d",
-  "sources/wvl/mindsdb.svg": "5c2c7eab2138251d"
+  "sources/wvl/mindsdb.svg": "5c2c7eab2138251d",
+  "sources/mindsdb-icon.svg": "fb62b85d6b98ea6d"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/mindsdb-icon.svg",
     "png": "sources/iconify/mindsdb-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.761,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/mindsdb-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mindsdb-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

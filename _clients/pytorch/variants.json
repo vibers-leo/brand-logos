@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pytorch",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c418ffd1afbbe541",
   "sources/iconify/pytorch.svg": "c418ffd1afbbe541",
   "sources/iconify/pytorch-icon.svg": "a8eab77909e6e792",
   "sources/devicons/pytorch-original.svg": "c19a5ef330d5ee52",
   "sources/wvl/pytorch-icon.svg": "934f7ddb082ead1b",
-  "sources/wvl/pytorch.svg": "99c3e431349c5a9e"
+  "sources/wvl/pytorch.svg": "99c3e431349c5a9e",
+  "sources/pytorch-icon.svg": "934f7ddb082ead1b"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/pytorch-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/pytorch-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

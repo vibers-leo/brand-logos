@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "wire",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "f4d33d495a7d0382",
   "sources/iconify/wire.svg": "f4d33d495a7d0382",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

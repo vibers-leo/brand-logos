@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "maestro",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "6f953b5ed91d44fb",
   "sources/iconify/maestro.svg": "6f953b5ed91d44fb",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

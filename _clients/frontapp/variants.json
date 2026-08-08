@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "frontapp",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "be6e6f970425877a",
   "sources/iconify/frontapp.svg": "be6e6f970425877a",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "webhint",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "6a7e814c5782bdf4",
   "sources/iconify/webhint.svg": "6a7e814c5782bdf4",
   "sources/iconify/webhint-icon.svg": "ae32a6bb804bbf38",
   "sources/wvl/webhint-icon.svg": "738ac3ec505b82c4",
-  "sources/wvl/webhint.svg": "53919287ec640311"
+  "sources/wvl/webhint.svg": "53919287ec640311",
+  "sources/webhint-icon.svg": "738ac3ec505b82c4"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -41,6 +42,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/webhint.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/webhint-icon.svg"
     }
    ]
   }

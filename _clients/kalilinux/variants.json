@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kalilinux",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "ab0f7b75cf4f7fde",
   "sources/devicons/kalilinux-original.svg": "ab0f7b75cf4f7fde"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

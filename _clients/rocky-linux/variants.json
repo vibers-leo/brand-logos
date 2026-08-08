@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rocky-linux",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9f9c5263be6cbbad",
   "sources/iconify/rocky-linux.svg": "9f9c5263be6cbbad",
   "sources/iconify/rocky-linux-icon.svg": "512a584201443b0a",
   "sources/wvl/rocky-linux-icon.svg": "c460d7fea7104d58",
-  "sources/wvl/rocky-linux.svg": "c5ead9ef19d5e6bf"
+  "sources/wvl/rocky-linux.svg": "c5ead9ef19d5e6bf",
+  "sources/rocky-linux-icon.svg": "c460d7fea7104d58"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/rocky-linux-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/rocky-linux-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "craft",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "81d7b3dec546d938",
   "sources/wvl/craftcms.svg": "81d7b3dec546d938"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

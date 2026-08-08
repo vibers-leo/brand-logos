@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mio",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "70717aa17d9246c6",
   "sources/iconify/mio.svg": "70717aa17d9246c6",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

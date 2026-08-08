@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sentry",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "67bbf6d8a93bce89",
   "sources/iconify/sentry.svg": "67bbf6d8a93bce89",
   "sources/iconify/sentry-icon.svg": "e9452da5208aebaa",
   "sources/devicons/sentry-original.svg": "17113453193636bc",
   "sources/wvl/sentry-icon.svg": "6f676985d1386a42",
-  "sources/wvl/sentry.svg": "184a611b7f324622"
+  "sources/wvl/sentry.svg": "184a611b7f324622",
+  "sources/sentry-icon.svg": "6f676985d1386a42"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/sentry-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sentry-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

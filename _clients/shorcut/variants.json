@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "shorcut",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ca3fe88a2a0cd120",
   "sources/wvl/shortcut.svg": "ca3fe88a2a0cd120"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

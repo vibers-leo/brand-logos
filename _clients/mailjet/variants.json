@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mailjet",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "512fb833d1067c39",
   "sources/iconify/mailjet.svg": "512fb833d1067c39",
   "sources/iconify/mailjet-icon.svg": "3b1dc473909c0ab5",
   "sources/wvl/mailjet-icon.svg": "5d254b673366a334",
-  "sources/wvl/mailjet.svg": "956a55ee56b84672"
+  "sources/wvl/mailjet.svg": "956a55ee56b84672",
+  "sources/mailjet-icon.svg": "5d254b673366a334"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mailjet-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mailjet-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

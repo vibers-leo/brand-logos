@@ -2,39 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mastodon",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "71841798ea262520",
   "sources/fa.svg": "71841798ea262520",
   "sources/iconify/mastodon.svg": "de9b92993109f8cd",
   "sources/iconify/mastodon-icon.svg": "646212b6caa175a2",
   "sources/wvl/mastodon-icon.svg": "ceda5023e87a59a6",
-  "sources/wvl/mastodon.svg": "22386b098964004c"
+  "sources/wvl/mastodon.svg": "22386b098964004c",
+  "sources/mastodon-icon.svg": "ceda5023e87a59a6"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/mastodon-icon.svg",
-    "png": "sources/iconify/mastodon-icon.png"
-   },
-   "aspect": 0.933,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/mastodon-icon.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -49,13 +29,25 @@
    "order": 30,
    "alts": [
     {
+     "provider": "iconify",
+     "file": "sources/iconify/mastodon-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/mastodon-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mastodon-icon.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

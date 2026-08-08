@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "signal",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "924fcf0ce646eb8e",
   "sources/iconify/signal.svg": "924fcf0ce646eb8e",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

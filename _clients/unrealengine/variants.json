@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "unrealengine",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "f8910b980e795a05",
   "sources/iconify/unrealengine.svg": "f8910b980e795a05",
   "sources/iconify/unrealengine-icon.svg": "f33707f181bcbf60",
   "sources/devicons/unrealengine-original.svg": "25fe6fa028d13a95",
   "sources/wvl/unrealengine-icon.svg": "cdfc30684cdfd43f",
-  "sources/wvl/unrealengine.svg": "6a08c5251868fa65"
+  "sources/wvl/unrealengine.svg": "6a08c5251868fa65",
+  "sources/unrealengine-icon.svg": "cdfc30684cdfd43f"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -46,6 +47,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/unrealengine-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/unrealengine-icon.svg"
     }
    ]
   }

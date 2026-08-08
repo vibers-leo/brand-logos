@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rollbar",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2412ddb43bb0e006",
   "sources/iconify/rollbar.svg": "2412ddb43bb0e006",
   "sources/iconify/rollbar-icon.svg": "0ffd6dda688219a9",
   "sources/wvl/rollbar-icon.svg": "ebc84e80500b1b2c",
-  "sources/wvl/rollbar.svg": "3910b0e855f8fb21"
+  "sources/wvl/rollbar.svg": "3910b0e855f8fb21",
+  "sources/rollbar-icon.svg": "ebc84e80500b1b2c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/rollbar-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/rollbar-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "eraser",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "96c028c4bee855df",
   "sources/iconify/eraser.svg": "96c028c4bee855df",
   "sources/iconify/eraser-icon.svg": "94ff85ffe0ee67e1",
   "sources/wvl/eraser-icon.svg": "d293cbdf47462c79",
-  "sources/wvl/eraser.svg": "7251814ef1018fd7"
+  "sources/wvl/eraser.svg": "7251814ef1018fd7",
+  "sources/eraser-icon.svg": "d293cbdf47462c79"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/eraser-icon.svg",
     "png": "sources/iconify/eraser-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 2.633,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/eraser-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/eraser-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

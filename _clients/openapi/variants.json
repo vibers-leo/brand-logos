@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "openapi",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "e3f1b0a5e67bb59b",
   "sources/iconify/openapi.svg": "e3f1b0a5e67bb59b",
   "sources/iconify/openapi-icon.svg": "d7f82a26ed061742",
   "sources/devicons/openapi-original.svg": "a07ca956439e7786",
   "sources/wvl/openapi-icon.svg": "94f2f79dba102d24",
-  "sources/wvl/openapi.svg": "37edda8d9a5955e7"
+  "sources/wvl/openapi.svg": "37edda8d9a5955e7",
+  "sources/openapi-icon.svg": "94f2f79dba102d24"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/openapi-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/openapi-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

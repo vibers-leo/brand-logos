@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pocket-base",
- "primary": "symbol-en-mono-light",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "f87557f912b5707d",
   "sources/iconify/pocket-base.svg": "f87557f912b5707d",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-mono-light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-light",

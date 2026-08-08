@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "marvel",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b6721caf3eae43c0",
   "sources/iconify/marvel.svg": "b6721caf3eae43c0",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

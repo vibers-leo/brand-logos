@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tumblr",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2e1dd4788375027e",
   "sources/iconify/tumblr.svg": "2e1dd4788375027e",
   "sources/iconify/tumblr-icon.svg": "26399f6ffa64a4bb",
   "sources/wvl/tumblr-icon.svg": "46c1c113d07d1ff0",
-  "sources/wvl/tumblr.svg": "d737d654f25ed180"
+  "sources/wvl/tumblr.svg": "d737d654f25ed180",
+  "sources/tumblr-icon.svg": "46c1c113d07d1ff0"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/tumblr-icon.svg",
     "png": "sources/iconify/tumblr-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.575,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/tumblr-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/tumblr-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

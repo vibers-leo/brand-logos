@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "relay",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b524494587aa60d6",
   "sources/iconify/relay.svg": "b524494587aa60d6",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

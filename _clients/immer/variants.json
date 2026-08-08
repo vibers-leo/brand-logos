@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "immer",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "0d4defbb1049a60f",
   "sources/iconify/immer.svg": "0d4defbb1049a60f",
   "sources/iconify/immer-icon.svg": "8f77db093672ed71",
   "sources/wvl/immer-icon.svg": "c2a0bae7ce8d7f06",
-  "sources/wvl/immer.svg": "aede9238a8e942e2"
+  "sources/wvl/immer.svg": "aede9238a8e942e2",
+  "sources/immer-icon.svg": "c2a0bae7ce8d7f06"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -31,16 +32,33 @@
      "file": "sources/iconify/immer.svg"
     },
     {
-     "provider": "iconify",
-     "file": "sources/iconify/immer-icon.svg"
-    },
+     "provider": "wvl",
+     "file": "sources/wvl/immer.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/immer-icon.svg",
+    "png": "sources/iconify/immer-icon.png"
+   },
+   "aspect": 1.775,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/immer-icon.svg"
     },
     {
-     "provider": "wvl",
-     "file": "sources/wvl/immer.svg"
+     "provider": "merged",
+     "file": "sources/immer-icon.svg"
     }
    ]
   }

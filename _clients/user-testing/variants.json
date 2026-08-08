@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "user-testing",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "13ca59169a0c61ff",
   "sources/iconify/user-testing.svg": "13ca59169a0c61ff",
   "sources/iconify/user-testing-icon.svg": "5ccdc06372f00ba7",
   "sources/wvl/user-testing-icon.svg": "9285a2b8a18958c7",
-  "sources/wvl/user-testing.svg": "99d87c05571ef724"
+  "sources/wvl/user-testing.svg": "99d87c05571ef724",
+  "sources/user-testing-icon.svg": "9285a2b8a18958c7"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/user-testing-icon.svg",
     "png": "sources/iconify/user-testing-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.778,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/user-testing-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/user-testing-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

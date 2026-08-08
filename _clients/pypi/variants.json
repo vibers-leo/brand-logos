@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pypi",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "185338425378ef98",
   "sources/iconify/pypi.svg": "185338425378ef98",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

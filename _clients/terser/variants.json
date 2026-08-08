@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "terser",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "68d92b9926c21e32",
   "sources/iconify/terser.svg": "68d92b9926c21e32",
   "sources/iconify/terser-icon.svg": "1d36fa983163e804",
   "sources/wvl/terser-icon.svg": "62519eaf5ba2380b",
-  "sources/wvl/terser.svg": "41db8950f201fbde"
+  "sources/wvl/terser.svg": "41db8950f201fbde",
+  "sources/terser-icon.svg": "62519eaf5ba2380b"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/terser-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/terser-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

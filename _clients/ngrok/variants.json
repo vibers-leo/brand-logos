@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ngrok",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "ae14c926cc44a1e7",
   "sources/iconify/ngrok.svg": "ae14c926cc44a1e7",
@@ -11,22 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/devicons/ngrok-original.svg",
-    "png": "sources/devicons/ngrok-original.png"
-   },
-   "aspect": 2.719,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -40,6 +25,10 @@
    "origin": "collected",
    "order": 10,
    "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ngrok-original.svg"
+    },
     {
      "provider": "iconify",
      "file": "sources/iconify/ngrok.svg"

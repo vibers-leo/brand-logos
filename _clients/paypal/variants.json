@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "paypal",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "62732ac4dbef388f"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "claude",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4423f97c46f33921",
   "sources/iconify/claude.svg": "4423f97c46f33921",
   "sources/iconify/claude-icon.svg": "c13fdc18be30dd3a",
   "sources/wvl/claude-icon.svg": "be7e2bfa69b3b103",
-  "sources/wvl/claude.svg": "03c8973b481188cd"
+  "sources/wvl/claude.svg": "03c8973b481188cd",
+  "sources/claude-icon.svg": "be7e2bfa69b3b103"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/claude-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/claude-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

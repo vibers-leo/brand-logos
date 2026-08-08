@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "chalk",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "dda44bc8960db3dc",
   "sources/iconify/chalk.svg": "dda44bc8960db3dc",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

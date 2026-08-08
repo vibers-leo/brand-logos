@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mautic",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "23422ade50cbb94e",
   "sources/iconify/mautic.svg": "23422ade50cbb94e",
   "sources/iconify/mautic-icon.svg": "474b4be35f4cee3b",
   "sources/wvl/mautic-icon.svg": "556ee7bbc4f9a718",
-  "sources/wvl/mautic.svg": "320cfba68643c6f3"
+  "sources/wvl/mautic.svg": "320cfba68643c6f3",
+  "sources/mautic-icon.svg": "556ee7bbc4f9a718"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mautic-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mautic-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "botanalytics",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "1d93514dd6d5e806",
   "sources/iconify/botanalytics.svg": "1d93514dd6d5e806",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

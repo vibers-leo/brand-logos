@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "perplexity",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5925667e14a3e017",
   "sources/iconify/perplexity.svg": "5925667e14a3e017",
   "sources/iconify/perplexity-icon.svg": "2b6bf0617165a012",
   "sources/wvl/perplexity-icon.svg": "22d77a282d757964",
-  "sources/wvl/perplexity.svg": "248f976a0f2e7eee"
+  "sources/wvl/perplexity.svg": "248f976a0f2e7eee",
+  "sources/perplexity-icon.svg": "22d77a282d757964"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/perplexity-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/perplexity-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

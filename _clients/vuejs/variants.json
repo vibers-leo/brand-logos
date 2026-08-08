@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "vuejs",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "2402ef8aae8e585e",
   "sources/fa.svg": "2402ef8aae8e585e",
@@ -10,22 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/devicons/vuejs-original.svg",
-    "png": "sources/devicons/vuejs-original.png"
-   },
-   "aspect": 1.168,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -39,6 +24,10 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/vuejs-original.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

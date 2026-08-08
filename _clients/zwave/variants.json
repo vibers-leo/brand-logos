@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zwave",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "cfc1fe1351cdb0d4",
   "sources/iconify/zwave.svg": "cfc1fe1351cdb0d4",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

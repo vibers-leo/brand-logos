@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "webdriverio",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "43631f0b93c7ef0f",
   "sources/iconify/webdriverio.svg": "43631f0b93c7ef0f",
   "sources/iconify/webdriverio-icon.svg": "d772c7a9971a3f39",
   "sources/wvl/webdriverio-icon.svg": "cbac925b3664c47a",
-  "sources/wvl/webdriverio.svg": "734743208e4170b2"
+  "sources/wvl/webdriverio.svg": "734743208e4170b2",
+  "sources/webdriverio-icon.svg": "cbac925b3664c47a"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/webdriverio-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/webdriverio-icon.svg"
     }
    ]
   }

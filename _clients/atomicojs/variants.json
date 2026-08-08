@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "atomicojs",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "069db7909b152eaa",
   "sources/iconify/atomicojs.svg": "069db7909b152eaa",
-  "sources/iconify/atomicojs-icon.svg": "6204f5c109cd53c3"
+  "sources/iconify/atomicojs-icon.svg": "6204f5c109cd53c3",
+  "sources/atomicojs-icon.svg": "566f564ab6396537"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -22,10 +23,16 @@
    "aspect": 0.998,
    "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/atomicojs-icon.svg"
+    }
+   ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

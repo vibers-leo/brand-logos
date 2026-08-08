@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "chargebee",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1a824f36490d0245",
   "sources/iconify/chargebee.svg": "1a824f36490d0245",
   "sources/iconify/chargebee-icon.svg": "e0ff1cee3feb5f72",
   "sources/wvl/chargebee-icon.svg": "8e4325ed511919ae",
-  "sources/wvl/chargebee.svg": "6fb9ba5c49ef1a37"
+  "sources/wvl/chargebee.svg": "6fb9ba5c49ef1a37",
+  "sources/chargebee-icon.svg": "8e4325ed511919ae"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/chargebee-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/chargebee-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

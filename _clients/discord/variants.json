@@ -2,13 +2,15 @@
  "schema": 1,
  "algo_v": 1,
  "id": "discord",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "54962efac37c68af"
+  "logo.svg": "54962efac37c68af",
+  "sources/iconify/discord-icon.svg": "646260cd6f30defc",
+  "sources/discord-icon.svg": "37d363a8df8772cd"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -21,6 +23,27 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/discord-icon.svg",
+    "png": "sources/iconify/discord-icon.png"
+   },
+   "aspect": 1.292,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/discord-icon.svg"
+    }
+   ]
   }
  ]
 }

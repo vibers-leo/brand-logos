@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "web-dev",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "101d25dda1ab7600",
   "sources/iconify/web-dev.svg": "101d25dda1ab7600",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -25,7 +25,7 @@
    "order": 30
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

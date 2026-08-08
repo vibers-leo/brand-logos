@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "uwsgi",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "230f22d215c74377",
   "sources/iconify/uwsgi.svg": "230f22d215c74377",
@@ -11,22 +11,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
-   "form": "wordmark",
-   "lang": "en",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/devicons/uwsgi-original.svg",
-    "png": "sources/devicons/uwsgi-original.png"
-   },
-   "aspect": 3.531,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",
@@ -40,6 +25,10 @@
    "origin": "collected",
    "order": 40,
    "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/uwsgi-original.svg"
+    },
     {
      "provider": "iconify",
      "file": "sources/iconify/uwsgi.svg"

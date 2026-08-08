@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "amplication",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5316fa40285f48cd",
   "sources/iconify/amplication.svg": "5316fa40285f48cd",
   "sources/iconify/amplication-icon.svg": "10096a09bd16cf5b",
   "sources/wvl/amplication-icon.svg": "4ebe7e41bc25aae1",
-  "sources/wvl/amplication.svg": "fba6420cc410ece6"
+  "sources/wvl/amplication.svg": "fba6420cc410ece6",
+  "sources/amplication-icon.svg": "4ebe7e41bc25aae1"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/amplication-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/amplication-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

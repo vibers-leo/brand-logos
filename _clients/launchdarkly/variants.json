@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "launchdarkly",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2fa2175c533c8d38",
   "sources/iconify/launchdarkly.svg": "2fa2175c533c8d38",
   "sources/iconify/launchdarkly-icon.svg": "b364e46ce5897d73",
   "sources/wvl/launchdarkly-icon.svg": "8e9f240324a6382d",
-  "sources/wvl/launchdarkly.svg": "5fe45dc44c818a44"
+  "sources/wvl/launchdarkly.svg": "5fe45dc44c818a44",
+  "sources/launchdarkly-icon.svg": "8e9f240324a6382d"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/launchdarkly-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/launchdarkly-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

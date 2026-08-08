@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "retool",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "78cb174ebf13cc25",
   "sources/iconify/retool.svg": "78cb174ebf13cc25",
   "sources/iconify/retool-icon.svg": "2323ad6a21337c4d",
   "sources/wvl/retool-icon.svg": "06fcecc81bcd6d04",
-  "sources/wvl/retool.svg": "72c4f69be92ec4e2"
+  "sources/wvl/retool.svg": "72c4f69be92ec4e2",
+  "sources/retool-icon.svg": "06fcecc81bcd6d04"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/retool-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/retool-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

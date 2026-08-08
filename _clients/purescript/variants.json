@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "purescript",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "3edf51a897567d99",
   "sources/iconify/purescript.svg": "3edf51a897567d99",
   "sources/iconify/purescript-icon.svg": "98392dff1d2df037",
   "sources/devicons/purescript-original.svg": "abf8be0ec6169392",
   "sources/wvl/purescript-icon.svg": "7e8b828bbd6a5bff",
-  "sources/wvl/purescript.svg": "3a9248576cc35ce2"
+  "sources/wvl/purescript.svg": "3a9248576cc35ce2",
+  "sources/purescript-icon.svg": "7e8b828bbd6a5bff"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/purescript-original.svg",
+    "png": "sources/devicons/purescript-original.png"
+   },
+   "aspect": 1.634,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/purescript-icon.svg",
     "png": "sources/iconify/purescript-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 1.623,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/purescript-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/purescript-original.svg"
+     "provider": "merged",
+     "file": "sources/purescript-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

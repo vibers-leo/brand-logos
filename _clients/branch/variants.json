@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "branch",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b4be2aab303f77a4",
   "sources/iconify/branch.svg": "b4be2aab303f77a4",
   "sources/iconify/branch-icon.svg": "9841fd1e0f828af1",
   "sources/wvl/branch-icon.svg": "f66fbf058e8794d7",
-  "sources/wvl/branch.svg": "f50b074fc6da09da"
+  "sources/wvl/branch.svg": "f50b074fc6da09da",
+  "sources/branch-icon.svg": "f66fbf058e8794d7"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/branch-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/branch-icon.svg"
     }
    ]
   }

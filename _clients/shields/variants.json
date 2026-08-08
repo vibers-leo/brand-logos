@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "shields",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f85f51e322409f51",
   "sources/iconify/shields.svg": "f85f51e322409f51",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

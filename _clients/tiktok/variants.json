@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tiktok",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2e85340d651194ef"
+  "logo.svg": "2e85340d651194ef",
+  "sources/tiktok-icon.svg": "1e3d430f4211b367"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -20,7 +21,13 @@
    "aspect": 0.869,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/tiktok-icon.svg"
+    }
+   ]
   }
  ]
 }

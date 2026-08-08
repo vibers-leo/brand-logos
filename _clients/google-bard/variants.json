@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-bard",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "dd71eb825778a5c3",
   "sources/iconify/google-bard.svg": "dd71eb825778a5c3",
   "sources/iconify/google-bard-icon.svg": "47098c8095c6ca85",
   "sources/wvl/google-bard-icon.svg": "f50fedce6160a70e",
-  "sources/wvl/google-bard.svg": "ba8558583f538d91"
+  "sources/wvl/google-bard.svg": "ba8558583f538d91",
+  "sources/google-bard-icon.svg": "f50fedce6160a70e"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/google-bard-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/google-bard-icon.svg"
     }
    ]
   }

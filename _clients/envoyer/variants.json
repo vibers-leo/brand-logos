@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "envoyer",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "970076e2d399852e",
   "sources/iconify/envoyer.svg": "970076e2d399852e",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

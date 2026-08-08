@@ -2,22 +2,63 @@
  "schema": 1,
  "algo_v": 1,
  "id": "astro",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bb93a58c96733f54",
   "sources/iconify/astro.svg": "bb93a58c96733f54",
   "sources/iconify/astro-icon.svg": "4da62173ad96e0b8",
   "sources/devicons/astro-original.svg": "9a9cddb6b5502b4d",
   "sources/wvl/astro-icon.svg": "61e94e3843d10051",
-  "sources/wvl/astro.svg": "e9b285128be86b6d"
+  "sources/wvl/astro.svg": "e9b285128be86b6d",
+  "sources/astro-icon.svg": "61e94e3843d10051"
  },
  "variants": [
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/astro-original.svg",
+    "png": "sources/devicons/astro-original.png"
+   },
+   "aspect": 0.701,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/astro-icon.svg",
+    "png": "sources/iconify/astro-icon.png"
+   },
+   "aspect": 0.793,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/astro-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/astro-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -25,7 +66,7 @@
    "aspect": 3.809,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -36,48 +77,6 @@
      "file": "sources/wvl/astro.svg"
     }
    ]
-  },
-  {
-   "key": "vertical-en-color",
-   "form": "vertical",
-   "lang": "en",
-   "color": "color",
-   "label": "세로조합형",
-   "files": {
-    "svg": "sources/iconify/astro-icon.svg",
-    "png": "sources/iconify/astro-icon.png"
-   },
-   "aspect": 0.793,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 20,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/astro-icon.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/astro-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-none-mono-dark",
-   "form": "symbol",
-   "lang": "none",
-   "color": "mono-dark",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

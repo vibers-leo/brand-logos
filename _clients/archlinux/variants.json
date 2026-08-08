@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "archlinux",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "039329b213b0e812",
   "sources/iconify/archlinux.svg": "039329b213b0e812",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

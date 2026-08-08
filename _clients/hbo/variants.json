@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hbo",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "641be18e51d07f93",
   "sources/si.svg": "641be18e51d07f93"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

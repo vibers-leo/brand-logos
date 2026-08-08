@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "codefactor",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b5fe456f70763d77",
   "sources/iconify/codefactor.svg": "b5fe456f70763d77",
   "sources/iconify/codefactor-icon.svg": "616512b99a5f87ff",
   "sources/wvl/codefactor-icon.svg": "d49d8acb87363520",
-  "sources/wvl/codefactor.svg": "2fe37c91b2945a3c"
+  "sources/wvl/codefactor.svg": "2fe37c91b2945a3c",
+  "sources/codefactor-icon.svg": "d49d8acb87363520"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/codefactor-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/codefactor-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

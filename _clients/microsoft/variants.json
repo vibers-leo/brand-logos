@@ -2,39 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "microsoft",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "4f5a78fffb2cabb3",
   "sources/fa.svg": "4f5a78fffb2cabb3",
   "sources/iconify/microsoft.svg": "379471bb63ee5610",
   "sources/iconify/microsoft-icon.svg": "285e50698aeb9b87",
   "sources/wvl/microsoft-icon.svg": "a8a5d2fd9c7816bf",
-  "sources/wvl/microsoft.svg": "b058247f38ad8bfc"
+  "sources/wvl/microsoft.svg": "b058247f38ad8bfc",
+  "sources/microsoft-icon.svg": "a8a5d2fd9c7816bf"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/microsoft-icon.svg",
-    "png": "sources/iconify/microsoft-icon.png"
-   },
-   "aspect": 1.0,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/microsoft-icon.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -49,13 +29,25 @@
    "order": 30,
    "alts": [
     {
+     "provider": "iconify",
+     "file": "sources/iconify/microsoft-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/microsoft-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/microsoft-icon.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

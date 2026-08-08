@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "growth-book",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "111d5a19d3c7aff5",
   "sources/iconify/growth-book.svg": "111d5a19d3c7aff5",
   "sources/iconify/growth-book-icon.svg": "76d8f4ec28d5563c",
   "sources/wvl/growth-book-icon.svg": "849c4d37889f2524",
-  "sources/wvl/growth-book.svg": "8e68660702421ebc"
+  "sources/wvl/growth-book.svg": "8e68660702421ebc",
+  "sources/growth-book-icon.svg": "849c4d37889f2524"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/growth-book-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/growth-book-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

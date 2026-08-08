@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hapi",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "3ae75fb4e38e844b",
   "sources/iconify/hapi.svg": "3ae75fb4e38e844b",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

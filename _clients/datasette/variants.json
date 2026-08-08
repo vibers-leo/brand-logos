@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "datasette",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "aa6928303f3d4fee",
   "sources/iconify/datasette.svg": "aa6928303f3d4fee",
   "sources/iconify/datasette-icon.svg": "1d3abbc73b221b12",
   "sources/wvl/datasette-icon.svg": "96ca653c63f6b726",
-  "sources/wvl/datasette.svg": "9a7f7df13fef4637"
+  "sources/wvl/datasette.svg": "9a7f7df13fef4637",
+  "sources/datasette-icon.svg": "96ca653c63f6b726"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/datasette-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/datasette-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

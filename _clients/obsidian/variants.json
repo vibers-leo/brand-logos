@@ -2,21 +2,37 @@
  "schema": 1,
  "algo_v": 1,
  "id": "obsidian",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "dd95040d28d9dcfd",
   "sources/iconify/obsidian.svg": "dd95040d28d9dcfd",
   "sources/iconify/obsidian-icon.svg": "55cf8fd784575865",
   "sources/wvl/obsidian-icon.svg": "a7bee4e7ba2a4214",
-  "sources/wvl/obsidian.svg": "5c7f27c8fb040b73"
+  "sources/wvl/obsidian.svg": "5c7f27c8fb040b73",
+  "sources/obsidian-icon.svg": "a7bee4e7ba2a4214"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/obsidian-icon.svg",
+    "png": "sources/iconify/obsidian-icon.png"
+   },
+   "aspect": 0.772,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -24,7 +40,7 @@
    "aspect": 5.696,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -35,38 +51,6 @@
      "file": "sources/wvl/obsidian.svg"
     }
    ]
-  },
-  {
-   "key": "vertical-en-color",
-   "form": "vertical",
-   "lang": "en",
-   "color": "color",
-   "label": "세로조합형",
-   "files": {
-    "svg": "sources/iconify/obsidian-icon.svg",
-    "png": "sources/iconify/obsidian-icon.png"
-   },
-   "aspect": 0.772,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

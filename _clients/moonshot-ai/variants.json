@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "moonshot-ai",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "3bb3976e978d5f24",
   "sources/iconify/moonshot-ai.svg": "3bb3976e978d5f24",
   "sources/iconify/moonshot-ai-icon.svg": "5d683a749dcd6c08",
   "sources/wvl/moonshot-ai-icon.svg": "2893197e1f754370",
-  "sources/wvl/moonshot-ai.svg": "64f8e3d6f97a80b3"
+  "sources/wvl/moonshot-ai.svg": "64f8e3d6f97a80b3",
+  "sources/moonshot-ai-icon.svg": "2893197e1f754370"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/moonshot-ai-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/moonshot-ai-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

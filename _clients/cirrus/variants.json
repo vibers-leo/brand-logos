@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cirrus",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a0c4f561deda32fe",
   "sources/iconify/cirrus.svg": "a0c4f561deda32fe",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

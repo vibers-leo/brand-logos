@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "crateio",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "1e00e0e41b321473",
   "sources/iconify/crateio.svg": "1e00e0e41b321473",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

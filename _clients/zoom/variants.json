@@ -2,13 +2,36 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zoom",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "8193e863391aa571"
+  "logo.svg": "8193e863391aa571",
+  "sources/iconify/zoom-icon.svg": "7611fbc0ce1146d9",
+  "sources/zoom-icon.svg": "4fd8269d3a775b5d"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/zoom-icon.svg",
+    "png": "sources/iconify/zoom-icon.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/zoom-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

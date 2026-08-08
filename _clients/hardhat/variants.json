@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hardhat",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4dbc9e0695a0e93b",
   "sources/iconify/hardhat.svg": "4dbc9e0695a0e93b",
   "sources/iconify/hardhat-icon.svg": "f24906eaf722e364",
   "sources/devicons/hardhat-original.svg": "b3420a1b76bf9a7f",
   "sources/wvl/hardhat-icon.svg": "75888843940d5bf0",
-  "sources/wvl/hardhat.svg": "a5c28d15557ac5bf"
+  "sources/wvl/hardhat.svg": "a5c28d15557ac5bf",
+  "sources/hardhat-icon.svg": "75888843940d5bf0"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/hardhat-original.svg",
+    "png": "sources/devicons/hardhat-original.png"
+   },
+   "aspect": 1.442,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/hardhat-icon.svg",
     "png": "sources/iconify/hardhat-icon.png"
@@ -25,24 +41,24 @@
    "aspect": 1.446,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/hardhat-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/hardhat-original.svg"
+     "provider": "merged",
+     "file": "sources/hardhat-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -50,7 +66,7 @@
    "aspect": 4.859,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -61,23 +77,6 @@
      "file": "sources/wvl/hardhat.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

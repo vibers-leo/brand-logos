@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-play-console",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "3ddbef9fdcff8fc8",
   "sources/iconify/google-play-console.svg": "3ddbef9fdcff8fc8",
   "sources/iconify/google-play-console-icon.svg": "e73b0042726ca185",
   "sources/wvl/google-play-console-icon.svg": "8845af44c96e9c99",
-  "sources/wvl/google-play-console.svg": "dbcadc0ee026bd6c"
+  "sources/wvl/google-play-console.svg": "dbcadc0ee026bd6c",
+  "sources/google-play-console-icon.svg": "8845af44c96e9c99"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/google-play-console-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/google-play-console-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

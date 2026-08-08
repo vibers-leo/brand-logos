@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "perl",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "4071392974c13e65",
   "sources/iconify/perl.svg": "4071392974c13e65",
@@ -11,22 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/devicons/perl-original.svg",
-    "png": "sources/devicons/perl-original.png"
-   },
-   "aspect": 1.0,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -40,6 +25,10 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/perl-original.svg"
+    },
     {
      "provider": "iconify",
      "file": "sources/iconify/perl.svg"

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "helpscout",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7d1e63394361fd46",
   "sources/iconify/helpscout.svg": "7d1e63394361fd46",
   "sources/iconify/helpscout-icon.svg": "7f6f87bb6f847585",
   "sources/wvl/helpscout-icon.svg": "a9fd3f5519400217",
-  "sources/wvl/helpscout.svg": "99e392114c594810"
+  "sources/wvl/helpscout.svg": "99e392114c594810",
+  "sources/helpscout-icon.svg": "a9fd3f5519400217"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/helpscout-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/helpscout-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

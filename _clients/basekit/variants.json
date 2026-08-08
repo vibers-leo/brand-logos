@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "basekit",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "1769b20eba6568d9",
   "sources/iconify/basekit.svg": "1769b20eba6568d9",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

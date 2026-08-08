@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "architect",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b5c2c4ea82f60771",
   "sources/iconify/architect.svg": "b5c2c4ea82f60771",
   "sources/iconify/architect-icon.svg": "d8deef83dae359df",
   "sources/wvl/architect-icon.svg": "f0710ee7343f6d1e",
-  "sources/wvl/architect.svg": "44eccb3d258b010b"
+  "sources/wvl/architect.svg": "44eccb3d258b010b",
+  "sources/architect-icon.svg": "f0710ee7343f6d1e"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/architect-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/architect-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "okta",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bd83fb7af58fcf6c",
   "sources/iconify/okta.svg": "bd83fb7af58fcf6c",
   "sources/iconify/okta-icon.svg": "c9d2aca93bab2878",
   "sources/devicons/okta-original.svg": "dafd25fbf4fa4e05",
   "sources/wvl/okta-icon.svg": "7d7fe3099732e2d3",
-  "sources/wvl/okta.svg": "0e0c08d4619296b0"
+  "sources/wvl/okta.svg": "0e0c08d4619296b0",
+  "sources/okta-icon.svg": "7d7fe3099732e2d3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -25,31 +26,24 @@
    "aspect": 1.172,
    "provider": "devicons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "symbol-en-mono-dark",
-   "form": "symbol",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/okta-icon.svg",
-    "png": "sources/iconify/okta-icon.png"
-   },
-   "aspect": 1.0,
-   "provider": "iconify",
-   "origin": "collected",
    "order": 30,
    "alts": [
     {
+     "provider": "iconify",
+     "file": "sources/iconify/okta-icon.svg"
+    },
+    {
      "provider": "wvl",
      "file": "sources/wvl/okta-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/okta-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

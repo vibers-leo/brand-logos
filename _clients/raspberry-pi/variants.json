@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "raspberry-pi",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "7bbad30a6ec6ed1b",
   "sources/iconify/raspberry-pi.svg": "7bbad30a6ec6ed1b",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

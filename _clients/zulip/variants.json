@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zulip",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7b25232af0dcd891",
   "sources/iconify/zulip.svg": "7b25232af0dcd891",
   "sources/iconify/zulip-icon.svg": "5c9e7c49679f5a7c",
   "sources/wvl/zulip-icon.svg": "5f3650f0ab542ff9",
-  "sources/wvl/zulip.svg": "2792ca158e3f653d"
+  "sources/wvl/zulip.svg": "2792ca158e3f653d",
+  "sources/zulip-icon.svg": "5f3650f0ab542ff9"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/zulip-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/zulip-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

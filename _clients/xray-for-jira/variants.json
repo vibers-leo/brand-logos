@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "xray-for-jira",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "dae4bb5fc2ae4387",
   "sources/iconify/xray-for-jira.svg": "dae4bb5fc2ae4387",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

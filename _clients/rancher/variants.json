@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rancher",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "38fde554c96e89a7",
   "sources/iconify/rancher.svg": "38fde554c96e89a7",
   "sources/iconify/rancher-icon.svg": "6d2ac394a0323aa9",
   "sources/devicons/rancher-original.svg": "1579e0cc863058b3",
   "sources/wvl/rancher-icon.svg": "0b607a1f2fe86fe0",
-  "sources/wvl/rancher.svg": "79d09ceb21394362"
+  "sources/wvl/rancher.svg": "79d09ceb21394362",
+  "sources/rancher-icon.svg": "0b607a1f2fe86fe0"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/rancher-original.svg",
+    "png": "sources/devicons/rancher-original.png"
+   },
+   "aspect": 2.123,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/rancher-icon.svg",
     "png": "sources/iconify/rancher-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 2.123,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/rancher-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/rancher-original.svg"
+     "provider": "merged",
+     "file": "sources/rancher-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

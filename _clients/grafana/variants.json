@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "grafana",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "61f839a6657c2687",
   "sources/iconify/grafana.svg": "61f839a6657c2687",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

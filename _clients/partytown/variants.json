@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "partytown",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "51378a0810a00c33",
   "sources/iconify/partytown.svg": "51378a0810a00c33",
   "sources/iconify/partytown-icon.svg": "2afc9f3d8e605ee4",
   "sources/wvl/partytown-icon.svg": "3065b3720254544e",
-  "sources/wvl/partytown.svg": "4541ae9a25b5db9e"
+  "sources/wvl/partytown.svg": "4541ae9a25b5db9e",
+  "sources/partytown-icon.svg": "3065b3720254544e"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/partytown-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/partytown-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "million",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "859a97cd86a3f119",
   "sources/iconify/million.svg": "859a97cd86a3f119",
   "sources/iconify/million-icon.svg": "66b1dd5872aa07e5",
   "sources/wvl/million-icon.svg": "bbdae6f5a88e145a",
-  "sources/wvl/million.svg": "46fce7bb3f9ae93f"
+  "sources/wvl/million.svg": "46fce7bb3f9ae93f",
+  "sources/million-icon.svg": "bbdae6f5a88e145a"
  },
  "variants": [
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

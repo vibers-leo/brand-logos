@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mozilla",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "e0e0b6160c8f41c4",
   "sources/iconify/mozilla.svg": "e0e0b6160c8f41c4",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

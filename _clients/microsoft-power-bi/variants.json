@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "microsoft-power-bi",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "64188d4d670510d6",
   "sources/iconify/microsoft-power-bi.svg": "64188d4d670510d6",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

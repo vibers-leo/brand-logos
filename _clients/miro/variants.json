@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "miro",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "ed7987127a4002ae",
   "sources/iconify/miro.svg": "ed7987127a4002ae",
   "sources/iconify/miro-icon.svg": "04651f822779cfda",
   "sources/wvl/miro-icon.svg": "ca1dde42ffb6eefa",
-  "sources/wvl/miro.svg": "81dda5c2eed08a62"
+  "sources/wvl/miro.svg": "81dda5c2eed08a62",
+  "sources/miro-icon.svg": "ca1dde42ffb6eefa"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/miro-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/miro-icon.svg"
     }
    ]
   }

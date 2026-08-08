@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gunjs",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "0d2f73366d933cf6",
   "sources/iconify/gunjs.svg": "0d2f73366d933cf6",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

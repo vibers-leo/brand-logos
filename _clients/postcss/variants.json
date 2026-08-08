@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "postcss",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "b3336e72776d44ae",
   "sources/iconify/postcss.svg": "b3336e72776d44ae",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

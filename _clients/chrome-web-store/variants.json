@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "chrome-web-store",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e60812498ea75f5f",
   "sources/iconify/chrome-web-store.svg": "e60812498ea75f5f",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

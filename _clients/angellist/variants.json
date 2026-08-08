@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "angellist",
- "primary": "vertical-en-mono-dark",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "fca4431296d95538",
   "sources/iconify/angellist.svg": "fca4431296d95538",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "mono-dark",

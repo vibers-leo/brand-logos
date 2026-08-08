@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ffmpeg",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "592eb0584e87815a",
   "sources/iconify/ffmpeg.svg": "592eb0584e87815a",
   "sources/iconify/ffmpeg-icon.svg": "d6a25f48567ced88",
   "sources/wvl/ffmpeg-icon.svg": "5a827ed341c2fcc1",
-  "sources/wvl/ffmpeg.svg": "773e385bd558970b"
+  "sources/wvl/ffmpeg.svg": "773e385bd558970b",
+  "sources/ffmpeg-icon.svg": "5a827ed341c2fcc1"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/ffmpeg-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/ffmpeg-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

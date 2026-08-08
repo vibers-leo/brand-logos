@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sap",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "134bee5aec600b0a",
   "sources/si.svg": "134bee5aec600b0a",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

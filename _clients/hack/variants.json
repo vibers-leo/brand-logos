@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hack",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "dc87b38ba322bcad",
   "sources/iconify/hack.svg": "dc87b38ba322bcad",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

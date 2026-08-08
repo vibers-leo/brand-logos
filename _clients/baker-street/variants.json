@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "baker-street",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "7489c79c4ac524da",
   "sources/iconify/baker-street.svg": "7489c79c4ac524da",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

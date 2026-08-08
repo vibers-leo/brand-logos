@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "engine-yard",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "44f8ace60a558ca4",
   "sources/iconify/engine-yard.svg": "44f8ace60a558ca4",
   "sources/iconify/engine-yard-icon.svg": "19ad663f7b1cf174",
   "sources/wvl/engine-yard-icon.svg": "a3d182a05c15b294",
-  "sources/wvl/engine-yard.svg": "22ce751de576b0b0"
+  "sources/wvl/engine-yard.svg": "22ce751de576b0b0",
+  "sources/engine-yard-icon.svg": "a3d182a05c15b294"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/engine-yard-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/engine-yard-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,19 +2,20 @@
  "schema": 1,
  "algo_v": 1,
  "id": "section",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a3d705a1f8668183",
   "sources/iconify/section.svg": "a3d705a1f8668183",
-  "sources/iconify/section-icon.svg": "997a66620838265a"
+  "sources/iconify/section-icon.svg": "997a66620838265a",
+  "sources/section-icon.svg": "79bfafcefa05f74a"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/section-icon.svg",
     "png": "sources/iconify/section-icon.png"
@@ -22,10 +23,16 @@
    "aspect": 0.595,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/section-icon.svg"
+    }
+   ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

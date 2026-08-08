@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "apple-pay",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "0137335a0c1be40c",
   "sources/fa.svg": "0137335a0c1be40c",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

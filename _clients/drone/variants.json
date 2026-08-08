@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "drone",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7401aa74faef04a2",
   "sources/iconify/drone.svg": "7401aa74faef04a2",
   "sources/iconify/drone-icon.svg": "eb383d7d6c141d84",
   "sources/wvl/drone-icon.svg": "8b1665669d1bdae6",
-  "sources/wvl/drone.svg": "72854f3840be66f1"
+  "sources/wvl/drone.svg": "72854f3840be66f1",
+  "sources/drone-icon.svg": "8b1665669d1bdae6"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/drone-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/drone-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "samsung-pay",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a0a49d3648546856"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

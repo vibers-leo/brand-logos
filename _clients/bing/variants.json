@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bing",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "4bd99d4f3808e37b",
   "sources/iconify/bing.svg": "4bd99d4f3808e37b",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

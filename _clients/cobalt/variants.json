@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cobalt",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "8787f5cb8142c1dc",
   "sources/iconify/cobalt.svg": "8787f5cb8142c1dc",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

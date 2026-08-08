@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nike",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e95b810a5fde269c",
   "sources/si.svg": "e95b810a5fde269c"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

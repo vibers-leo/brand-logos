@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "yaml",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e6a8e9394d542850",
   "sources/iconify/yaml.svg": "e6a8e9394d542850",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

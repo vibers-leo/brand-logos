@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "openlayers",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "301134bed305bca4",
   "sources/iconify/openlayers.svg": "301134bed305bca4",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

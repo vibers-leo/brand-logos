@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "datocms",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "477f6495a7410f00",
   "sources/iconify/datocms.svg": "477f6495a7410f00",
   "sources/iconify/datocms-icon.svg": "f836a23905a5a0e4",
   "sources/wvl/datocms-icon.svg": "9ad334f8ee95bf20",
-  "sources/wvl/datocms.svg": "3b1a6bf7b8631b02"
+  "sources/wvl/datocms.svg": "3b1a6bf7b8631b02",
+  "sources/datocms-icon.svg": "9ad334f8ee95bf20"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/datocms-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/datocms-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

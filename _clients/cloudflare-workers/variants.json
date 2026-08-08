@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cloudflare-workers",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "092ff40b744f9c3e",
   "sources/iconify/cloudflare-workers.svg": "092ff40b744f9c3e",
   "sources/iconify/cloudflare-workers-icon.svg": "9b7066330b6c8fc2",
   "sources/wvl/cloudflare-workers-icon.svg": "3e61362fc2cf6d4c",
-  "sources/wvl/cloudflare-workers.svg": "6b3fb05944044e86"
+  "sources/wvl/cloudflare-workers.svg": "6b3fb05944044e86",
+  "sources/cloudflare-workers-icon.svg": "3e61362fc2cf6d4c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/cloudflare-workers-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/cloudflare-workers-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

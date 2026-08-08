@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "plastic-scm",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "236628bf5e3c9000",
   "sources/iconify/plastic-scm.svg": "236628bf5e3c9000",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

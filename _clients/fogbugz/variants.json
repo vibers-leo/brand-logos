@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fogbugz",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a7858ca3266dfbd9",
   "sources/iconify/fogbugz.svg": "a7858ca3266dfbd9",
   "sources/iconify/fogbugz-icon.svg": "fbf6c093455cc14e",
   "sources/wvl/fogbugz-icon.svg": "e28edc7d63f5813c",
-  "sources/wvl/fogbugz.svg": "c17981806879f8b9"
+  "sources/wvl/fogbugz.svg": "c17981806879f8b9",
+  "sources/fogbugz-icon.svg": "e28edc7d63f5813c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/fogbugz-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/fogbugz-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

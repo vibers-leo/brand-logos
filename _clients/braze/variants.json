@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "braze",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "87bca3a69aedf838",
   "sources/iconify/braze.svg": "87bca3a69aedf838",
   "sources/iconify/braze-icon.svg": "30b6c762bafcdd10",
   "sources/wvl/braze-icon.svg": "d8f418eacf10898d",
-  "sources/wvl/braze.svg": "718d2e0d97982702"
+  "sources/wvl/braze.svg": "718d2e0d97982702",
+  "sources/braze-icon.svg": "d8f418eacf10898d"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/braze-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/braze-icon.svg"
     }
    ]
   }

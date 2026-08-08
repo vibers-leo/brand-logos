@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sherlock",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ce0feb30022da33c",
   "sources/iconify/sherlock.svg": "ce0feb30022da33c",
   "sources/iconify/sherlock-icon.svg": "dc3edb22f4ba7ebc",
   "sources/wvl/sherlock-icon.svg": "4d5b2bd5262ff6f9",
-  "sources/wvl/sherlock.svg": "8cf45a0c6cdefbdb"
+  "sources/wvl/sherlock.svg": "8cf45a0c6cdefbdb",
+  "sources/sherlock-icon.svg": "4d5b2bd5262ff6f9"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/sherlock-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sherlock-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

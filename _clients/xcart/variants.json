@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "xcart",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "01060b10adceba30",
   "sources/iconify/xcart.svg": "01060b10adceba30",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

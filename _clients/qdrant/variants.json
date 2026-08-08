@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "qdrant",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b0db3e3e948b9e9b",
   "sources/iconify/qdrant.svg": "b0db3e3e948b9e9b",
   "sources/iconify/qdrant-icon.svg": "a389a279ed065a2f",
   "sources/wvl/qdrant-icon.svg": "3211469c4a8f9389",
-  "sources/wvl/qdrant.svg": "ae9265fd641b3cdd"
+  "sources/wvl/qdrant.svg": "ae9265fd641b3cdd",
+  "sources/qdrant-icon.svg": "3211469c4a8f9389"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/qdrant-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/qdrant-icon.svg"
     }
    ]
   }

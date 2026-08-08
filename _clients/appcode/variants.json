@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "appcode",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "ac548cb9d7d36ed2",
   "sources/iconify/appcode.svg": "ac548cb9d7d36ed2",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

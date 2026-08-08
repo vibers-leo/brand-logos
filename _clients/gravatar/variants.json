@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gravatar",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "32bf6b5cd835a967",
   "sources/iconify/gravatar.svg": "32bf6b5cd835a967",
   "sources/iconify/gravatar-icon.svg": "cda91efd5446c2c3",
   "sources/wvl/gravatar-icon.svg": "88123893745a7a8c",
-  "sources/wvl/gravatar.svg": "d0d035606db7f944"
+  "sources/wvl/gravatar.svg": "d0d035606db7f944",
+  "sources/gravatar-icon.svg": "88123893745a7a8c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/gravatar-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/gravatar-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

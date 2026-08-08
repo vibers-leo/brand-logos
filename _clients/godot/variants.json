@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "godot",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "7519fb05a5d45efa",
   "sources/iconify/godot.svg": "7519fb05a5d45efa",
   "sources/iconify/godot-icon.svg": "c1630f948abfcd07",
   "sources/devicons/godot-original.svg": "d2b9c421aac4ceb4",
   "sources/wvl/godot-icon.svg": "6ef9a22cebe2430a",
-  "sources/wvl/godot.svg": "2d15519d64821bef"
+  "sources/wvl/godot.svg": "2d15519d64821bef",
+  "sources/godot-icon.svg": "6ef9a22cebe2430a"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -38,7 +39,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -59,6 +60,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/godot-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/godot-icon.svg"
     }
    ]
   }

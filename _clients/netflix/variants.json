@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "netflix",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "7895cd07d3edd33c",
   "sources/si.svg": "7895cd07d3edd33c",
   "sources/iconify/netflix.svg": "f260af4a98825249",
   "sources/iconify/netflix-icon.svg": "a8ff4dfabcc30ae5",
   "sources/wvl/netflix.svg": "940dd1f304d44e8e",
-  "sources/wvl/netflix-icon.svg": "a559584d5b966caf"
+  "sources/wvl/netflix-icon.svg": "a559584d5b966caf",
+  "sources/netflix-icon.svg": "a559584d5b966caf"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -34,7 +35,7 @@
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

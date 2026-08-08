@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "soundcloud",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "170eed562762baf7",
   "sources/fa.svg": "170eed562762baf7",
@@ -11,28 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/soundcloud.svg",
-    "png": "sources/iconify/soundcloud.png"
-   },
-   "aspect": 1.772,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/soundcloud.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -46,6 +25,14 @@
    "origin": "collected",
    "order": 10,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/soundcloud.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/soundcloud.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

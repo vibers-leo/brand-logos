@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "wayscript",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "16978ec1113aaae0",
   "sources/iconify/wayscript.svg": "16978ec1113aaae0",
   "sources/iconify/wayscript-icon.svg": "9036d43fbe436a65",
   "sources/wvl/wayscript-icon.svg": "9bda357370e246ce",
-  "sources/wvl/wayscript.svg": "a8a0182eeab4397f"
+  "sources/wvl/wayscript.svg": "a8a0182eeab4397f",
+  "sources/wayscript-icon.svg": "9bda357370e246ce"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/wayscript-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/wayscript-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "presto",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d2a3e8c883e1a23a",
   "sources/iconify/presto.svg": "d2a3e8c883e1a23a",
   "sources/iconify/presto-icon.svg": "ce32f5e736f8828a",
   "sources/wvl/presto-icon.svg": "462853be2792f45f",
-  "sources/wvl/presto.svg": "f582c8a70d5f0ddb"
+  "sources/wvl/presto.svg": "f582c8a70d5f0ddb",
+  "sources/presto-icon.svg": "462853be2792f45f"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/presto-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/presto-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

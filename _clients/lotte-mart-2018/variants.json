@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "lotte-mart-2018",
- "primary": "wordmark-unknown-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4b00e6b5842f95ab"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

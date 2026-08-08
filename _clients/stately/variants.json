@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stately",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ef5c93e00e5d7283",
   "sources/iconify/stately.svg": "ef5c93e00e5d7283",
   "sources/iconify/stately-icon.svg": "fd7a2e903983ed88",
   "sources/wvl/stately-icon.svg": "72b87f4a1bc73a49",
-  "sources/wvl/stately.svg": "77723a72f20eb984"
+  "sources/wvl/stately.svg": "77723a72f20eb984",
+  "sources/stately-icon.svg": "72b87f4a1bc73a49"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/stately-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/stately-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "envoy",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "55adfcf19c3f9ca8",
   "sources/iconify/envoy.svg": "55adfcf19c3f9ca8",
   "sources/iconify/envoy-icon.svg": "c4e63727cdd3a816",
   "sources/devicons/envoy-original.svg": "8a67bc3f888a1780",
   "sources/wvl/envoy-icon.svg": "234c61447a770c10",
-  "sources/wvl/envoy.svg": "92f07725e6f9078a"
+  "sources/wvl/envoy.svg": "92f07725e6f9078a",
+  "sources/envoy-icon.svg": "234c61447a770c10"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/envoy-original.svg",
+    "png": "sources/devicons/envoy-original.png"
+   },
+   "aspect": 1.351,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/envoy-icon.svg",
     "png": "sources/iconify/envoy-icon.png"
@@ -25,24 +41,24 @@
    "aspect": 1.34,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/envoy-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/envoy-original.svg"
+     "provider": "merged",
+     "file": "sources/envoy-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -50,7 +66,7 @@
    "aspect": 3.089,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -61,23 +77,6 @@
      "file": "sources/wvl/envoy.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

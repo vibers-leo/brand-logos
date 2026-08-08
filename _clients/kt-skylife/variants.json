@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kt-skylife",
- "primary": "wordmark-unknown-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f6dffa005f232b07"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

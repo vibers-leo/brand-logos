@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "postgresql",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "7e2605b8715f12b3",
   "sources/iconify/postgresql.svg": "7e2605b8715f12b3",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

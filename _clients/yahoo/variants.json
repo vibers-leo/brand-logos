@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "yahoo",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a98d1fa80b695aba",
   "sources/iconify/yahoo.svg": "a98d1fa80b695aba",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

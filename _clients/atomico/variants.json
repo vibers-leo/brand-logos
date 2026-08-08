@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "atomico",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "83c33f3e927e1c15",
   "sources/wvl/atomicojs.svg": "83c33f3e927e1c15"
  },
  "variants": [
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

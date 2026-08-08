@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hacker-one",
- "primary": "vertical-en-mono-dark",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "2ff080cdd90063dd",
   "sources/iconify/hacker-one.svg": "2ff080cdd90063dd",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "mono-dark",

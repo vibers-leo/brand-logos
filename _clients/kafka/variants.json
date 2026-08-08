@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kafka",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a7a11ced5fb93a6f",
   "sources/iconify/kafka.svg": "a7a11ced5fb93a6f",
   "sources/iconify/kafka-icon.svg": "9111fc025cc0440a",
   "sources/wvl/kafka-icon.svg": "37e99a3a96fe4ddc",
-  "sources/wvl/kafka.svg": "19899d573c50a282"
+  "sources/wvl/kafka.svg": "19899d573c50a282",
+  "sources/kafka-icon.svg": "37e99a3a96fe4ddc"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "가로조합형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -37,11 +38,11 @@
    ]
   },
   {
-   "key": "vertical-en-mono-dark",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/kafka-icon.svg",
     "png": "sources/iconify/kafka-icon.png"
@@ -49,30 +50,17 @@
    "aspect": 0.62,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/kafka-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/kafka-icon.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-mono-dark",
-   "form": "symbol",
-   "lang": "none",
-   "color": "mono-dark",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

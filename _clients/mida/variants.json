@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mida",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1f9517875b81b71c",
   "sources/iconify/mida.svg": "1f9517875b81b71c",
   "sources/iconify/mida-icon.svg": "3f79958f64021478",
   "sources/wvl/mida-icon.svg": "d3a3249d9389cc6f",
-  "sources/wvl/mida.svg": "8d38343517119d28"
+  "sources/wvl/mida.svg": "8d38343517119d28",
+  "sources/mida-icon.svg": "d3a3249d9389cc6f"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mida-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mida-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

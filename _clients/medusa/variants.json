@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "medusa",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "faf1dd232a926ea3",
   "sources/iconify/medusa.svg": "faf1dd232a926ea3",
   "sources/iconify/medusa-icon.svg": "ba2b34df86f874d1",
   "sources/wvl/medusa-icon.svg": "19d3ddd2e6ef4b3d",
-  "sources/wvl/medusa.svg": "7b5068b0ea7f8b7b"
+  "sources/wvl/medusa.svg": "7b5068b0ea7f8b7b",
+  "sources/medusa-icon.svg": "19d3ddd2e6ef4b3d"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/medusa-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/medusa-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

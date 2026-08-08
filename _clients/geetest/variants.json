@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "geetest",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "98a3be1596655c96",
   "sources/iconify/geetest.svg": "98a3be1596655c96",
   "sources/iconify/geetest-icon.svg": "d0f5aa2996858f73",
   "sources/wvl/geetest-icon.svg": "0d7eb1b7238edc7e",
-  "sources/wvl/geetest.svg": "9f20868014072dfb"
+  "sources/wvl/geetest.svg": "9f20868014072dfb",
+  "sources/geetest-icon.svg": "0d7eb1b7238edc7e"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/geetest-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/geetest-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

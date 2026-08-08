@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "meteor",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bff335918788d1c5",
   "sources/iconify/meteor.svg": "bff335918788d1c5",
   "sources/iconify/meteor-icon.svg": "9dcef066f6a59384",
   "sources/devicons/meteor-original.svg": "78ca8cf93f038df1",
   "sources/wvl/meteor-icon.svg": "4d72a4b2af2113d1",
-  "sources/wvl/meteor.svg": "9bb4a512087a9cba"
+  "sources/wvl/meteor.svg": "9bb4a512087a9cba",
+  "sources/meteor-icon.svg": "4d72a4b2af2113d1"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/meteor-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/meteor-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

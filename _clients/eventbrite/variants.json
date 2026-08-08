@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "eventbrite",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c91e292658382609",
   "sources/iconify/eventbrite.svg": "c91e292658382609",
   "sources/iconify/eventbrite-icon.svg": "65987b6ca1391cb9",
   "sources/wvl/eventbrite-icon.svg": "1cb51f50272b92e7",
-  "sources/wvl/eventbrite.svg": "102278c7c0afae1b"
+  "sources/wvl/eventbrite.svg": "102278c7c0afae1b",
+  "sources/eventbrite-icon.svg": "1cb51f50272b92e7"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/eventbrite-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/eventbrite-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

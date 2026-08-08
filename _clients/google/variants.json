@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0b25e4ac013da801"
+  "logo.svg": "0b25e4ac013da801",
+  "sources/google-icon.svg": "2b76a6c190d0216c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 0.976,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/google-icon.svg"
+    }
+   ]
   }
  ]
 }

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "airflow",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "6a8468d825d324ed",
   "sources/iconify/airflow.svg": "6a8468d825d324ed",
   "sources/iconify/airflow-icon.svg": "c78cd80e4f5cdce8",
   "sources/wvl/airflow-icon.svg": "937f6551ceb7abda",
-  "sources/wvl/airflow.svg": "9d82d84a2732cffc"
+  "sources/wvl/airflow.svg": "9d82d84a2732cffc",
+  "sources/airflow-icon.svg": "937f6551ceb7abda"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/airflow-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/airflow-icon.svg"
     }
    ]
   }

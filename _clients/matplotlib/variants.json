@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "matplotlib",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ffc88d649c32b90d",
   "sources/iconify/matplotlib.svg": "ffc88d649c32b90d",
   "sources/iconify/matplotlib-icon.svg": "1091611b8cedec4c",
   "sources/devicons/matplotlib-original.svg": "2d47de56b5410893",
   "sources/wvl/matplotlib-icon.svg": "cf48ed4e399d8356",
-  "sources/wvl/matplotlib.svg": "2a0941a3756a15b6"
+  "sources/wvl/matplotlib.svg": "2a0941a3756a15b6",
+  "sources/matplotlib-icon.svg": "cf48ed4e399d8356"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/matplotlib-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/matplotlib-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "typo3",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6239b3ae80055a77",
   "sources/iconify/typo3.svg": "6239b3ae80055a77",
   "sources/iconify/typo3-icon.svg": "066c1e4eabbabe48",
   "sources/devicons/typo3-original.svg": "54dd78c428b22a51",
   "sources/wvl/typo3-icon.svg": "5f60b21bbfbeb150",
-  "sources/wvl/typo3.svg": "fd7ab849ac30f8ec"
+  "sources/wvl/typo3.svg": "fd7ab849ac30f8ec",
+  "sources/typo3-icon.svg": "5f60b21bbfbeb150"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/typo3-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/typo3-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "firefox",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d3c6cf4811a3a125",
   "sources/fa.svg": "d3c6cf4811a3a125",
@@ -12,32 +12,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/firefox.svg",
-    "png": "sources/iconify/firefox.png"
-   },
-   "aspect": 0.964,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/firefox.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/firefox-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -51,6 +26,18 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/firefox.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/firefox.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/firefox-original.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

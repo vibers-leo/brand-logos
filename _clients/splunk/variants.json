@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "splunk",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5f3eab94e8fa17f8",
   "sources/iconify/splunk.svg": "5f3eab94e8fa17f8",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

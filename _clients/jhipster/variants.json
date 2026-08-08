@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jhipster",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "640b0e5c3d7cc0ad",
   "sources/iconify/jhipster.svg": "640b0e5c3d7cc0ad",
   "sources/iconify/jhipster-icon.svg": "7f646eb27f9eba14",
   "sources/devicons/jhipster-original.svg": "81576efbd0cf3d74",
   "sources/wvl/jhipster-icon.svg": "28a320d4eeb46044",
-  "sources/wvl/jhipster.svg": "07ec35d9431b31e1"
+  "sources/wvl/jhipster.svg": "07ec35d9431b31e1",
+  "sources/jhipster-icon.svg": "28a320d4eeb46044"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/jhipster-original.svg",
+    "png": "sources/devicons/jhipster-original.png"
+   },
+   "aspect": 2.486,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/jhipster-icon.svg",
     "png": "sources/iconify/jhipster-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 2.488,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/jhipster-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/jhipster-original.svg"
+     "provider": "merged",
+     "file": "sources/jhipster-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

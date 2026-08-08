@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "flarum",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4b5622251c86b704",
   "sources/iconify/flarum.svg": "4b5622251c86b704",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

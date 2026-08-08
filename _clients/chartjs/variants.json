@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "chartjs",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "a11fcb64825faafc",
   "sources/iconify/chartjs.svg": "a11fcb64825faafc",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "whatsapp",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "df279fd6b2dd53e3"
+  "logo.svg": "df279fd6b2dd53e3",
+  "sources/whatsapp-icon.svg": "d76328daa7221237"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 0.996,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/whatsapp-icon.svg"
+    }
+   ]
   }
  ]
 }

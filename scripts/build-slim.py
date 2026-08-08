@@ -46,6 +46,21 @@ def build() -> list:
         except Exception:
             pass
 
+    # 흰색 로고는 밝은 카드 배경에서 안 보인다 → 목록이 '빈 카드'처럼 보인다.
+    # 매니페스트의 대표 변형 색상이 mono-light 인 브랜드를 표시해두면
+    # 그리드가 그 카드만 어두운 배경으로 그릴 수 있다.
+    light: set[str] = set()
+    for mp in BASE.glob("*/variants.json"):
+        try:
+            m = json.loads(mp.read_text())
+        except Exception:
+            continue
+        pk = m.get("primary")
+        for v in m.get("variants", []):
+            if v.get("key") == pk and v.get("color") == "mono-light":
+                light.add(mp.parent.name)
+                break
+
     out = []
     for b in brands:
         row = OrderedDict([
@@ -57,9 +72,16 @@ def build() -> list:
             ("has_png", bool(b.get("logo_png") or b.get("has_png"))),
             ("added_at", b.get("added_at", "")),
         ])
+        # variant_of 는 부모로 흡수된 중복 항목이다. 그리드에서 빼기 위해
+        # slim 에도 실어 보낸다 (페이지는 살아 있으므로 404 는 나지 않는다).
+        if b.get("variant_of"):
+            row["variant_of"] = b["variant_of"]
+
         n = variants_n.get(b["id"], 0)
         if n > 1:                      # 1종뿐이면 굳이 안 담는다 (용량)
             row["variants_n"] = n
+        if b["id"] in light:
+            row["light"] = True        # 흰색 로고 — 어두운 배경에 그려야 보인다
         out.append(row)
     return out
 

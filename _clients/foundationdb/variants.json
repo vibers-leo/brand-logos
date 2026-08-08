@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "foundationdb",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "e263ac3c1c7e015d",
   "sources/iconify/foundationdb.svg": "e263ac3c1c7e015d",
   "sources/iconify/foundationdb-icon.svg": "c9123935043cd354",
   "sources/wvl/foundationdb-icon.svg": "8a30c538ab672c56",
-  "sources/wvl/foundationdb.svg": "622447c000a36c8c"
+  "sources/wvl/foundationdb.svg": "622447c000a36c8c",
+  "sources/foundationdb-icon.svg": "8a30c538ab672c56"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/foundationdb-icon.svg",
     "png": "sources/iconify/foundationdb-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 2.074,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/foundationdb-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/foundationdb-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

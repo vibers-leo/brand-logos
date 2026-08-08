@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nats",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6fb3f44083bc8585",
   "sources/iconify/nats.svg": "6fb3f44083bc8585",
   "sources/iconify/nats-icon.svg": "b93883fa0a6301e2",
   "sources/devicons/nats-original.svg": "b41c2ae436016191",
   "sources/wvl/nats-icon.svg": "f13b18cde5d3d913",
-  "sources/wvl/nats.svg": "cfd74d71c65da727"
+  "sources/wvl/nats.svg": "cfd74d71c65da727",
+  "sources/nats-icon.svg": "f13b18cde5d3d913"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/nats-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/nats-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

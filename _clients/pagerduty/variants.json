@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pagerduty",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "07046c8237af8215",
   "sources/iconify/pagerduty.svg": "07046c8237af8215",
   "sources/iconify/pagerduty-icon.svg": "a79c1a77dd243951",
   "sources/wvl/pagerduty-icon.svg": "940f9623fc4be603",
-  "sources/wvl/pagerduty.svg": "c2c7ef5b302c3503"
+  "sources/wvl/pagerduty.svg": "c2c7ef5b302c3503",
+  "sources/pagerduty-icon.svg": "940f9623fc4be603"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/pagerduty-icon.svg",
     "png": "sources/iconify/pagerduty-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.689,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/pagerduty-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/pagerduty-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

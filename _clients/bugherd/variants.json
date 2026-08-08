@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bugherd",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a01cfdb9f1977ff0",
   "sources/iconify/bugherd.svg": "a01cfdb9f1977ff0",
   "sources/iconify/bugherd-icon.svg": "eceba1a4064e8e7a",
   "sources/wvl/bugherd-icon.svg": "64daf306cc835829",
-  "sources/wvl/bugherd.svg": "14558d3188128f2e"
+  "sources/wvl/bugherd.svg": "14558d3188128f2e",
+  "sources/bugherd-icon.svg": "64daf306cc835829"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/bugherd-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/bugherd-icon.svg"
     }
    ]
   }

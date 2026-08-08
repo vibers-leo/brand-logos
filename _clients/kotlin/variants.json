@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kotlin",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6410ac0a005b8eea",
   "sources/iconify/kotlin.svg": "6410ac0a005b8eea",
   "sources/iconify/kotlin-icon.svg": "f4aabf5058023164",
   "sources/devicons/kotlin-original.svg": "6e8e2e9d502b327a",
   "sources/wvl/kotlin-icon.svg": "131fe517f285ba52",
-  "sources/wvl/kotlin.svg": "24f17b45b584db54"
+  "sources/wvl/kotlin.svg": "24f17b45b584db54",
+  "sources/kotlin-icon.svg": "131fe517f285ba52"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/kotlin-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/kotlin-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

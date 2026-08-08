@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cpanel",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7c1b914443dc7311",
   "sources/iconify/cpanel.svg": "7c1b914443dc7311",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -26,7 +26,7 @@
    "order": 10
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

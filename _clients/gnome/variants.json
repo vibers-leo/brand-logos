@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gnome",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "8bcaedbdb06711ec",
   "sources/iconify/gnome.svg": "8bcaedbdb06711ec",
   "sources/iconify/gnome-icon.svg": "3bb4ccd1104028fe",
   "sources/wvl/gnome-icon.svg": "c204c4df71bf9169",
-  "sources/wvl/gnome.svg": "b5bde79b46876c3e"
+  "sources/wvl/gnome.svg": "b5bde79b46876c3e",
+  "sources/gnome-icon.svg": "c204c4df71bf9169"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/gnome-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/gnome-icon.svg"
     }
    ]
   }

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "styleci",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d84450f7e00d8d67",
   "sources/iconify/styleci.svg": "d84450f7e00d8d67",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "incident",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bbd3f709bd0892b4",
   "sources/iconify/incident.svg": "bbd3f709bd0892b4",
   "sources/iconify/incident-icon.svg": "50e025d2adac2074",
   "sources/wvl/incident-icon.svg": "8517de12a21e3623",
-  "sources/wvl/incident.svg": "ed51a5c7bd00f5c2"
+  "sources/wvl/incident.svg": "ed51a5c7bd00f5c2",
+  "sources/incident-icon.svg": "8517de12a21e3623"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/incident-icon.svg",
     "png": "sources/iconify/incident-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.742,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/incident-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/incident-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

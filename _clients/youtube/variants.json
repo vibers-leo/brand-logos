@@ -2,13 +2,15 @@
  "schema": 1,
  "algo_v": 1,
  "id": "youtube",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "8dc3002252c60b2f"
+  "logo.svg": "8dc3002252c60b2f",
+  "sources/iconify/youtube-icon.svg": "11846b256c67a2a6",
+  "sources/youtube-icon.svg": "a3557d6878a7d96f"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -21,6 +23,27 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/youtube-icon.svg",
+    "png": "sources/iconify/youtube-icon.png"
+   },
+   "aspect": 1.429,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/youtube-icon.svg"
+    }
+   ]
   }
  ]
 }

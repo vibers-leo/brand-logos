@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-domains",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6bfd746c60b8ffdb",
   "sources/iconify/google-domains.svg": "6bfd746c60b8ffdb",
   "sources/iconify/google-domains-icon.svg": "e914f0315721a33b",
   "sources/wvl/google-domains-icon.svg": "1b8a7c6c4c8b275a",
-  "sources/wvl/google-domains.svg": "ffb0ea5bbb70219b"
+  "sources/wvl/google-domains.svg": "ffb0ea5bbb70219b",
+  "sources/google-domains-icon.svg": "1b8a7c6c4c8b275a"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/google-domains-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/google-domains-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "codesee",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f53563bd561d60ff",
   "sources/iconify/codesee.svg": "f53563bd561d60ff",
   "sources/iconify/codesee-icon.svg": "77ca016d27c0079d",
   "sources/wvl/codesee-icon.svg": "245289d619ecd3de",
-  "sources/wvl/codesee.svg": "6545dda8f56e3c61"
+  "sources/wvl/codesee.svg": "6545dda8f56e3c61",
+  "sources/codesee-icon.svg": "245289d619ecd3de"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/codesee-icon.svg",
     "png": "sources/iconify/codesee-icon.png"
@@ -24,20 +25,24 @@
    "aspect": 1.743,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/codesee-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/codesee-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -45,7 +50,7 @@
    "aspect": 6.04,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -56,23 +61,6 @@
      "file": "sources/wvl/codesee.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-mono-dark",
-   "form": "symbol",
-   "lang": "none",
-   "color": "mono-dark",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 0.868
   }
  ]
 }

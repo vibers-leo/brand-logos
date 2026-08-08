@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "morpheus",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a2b42a16f26c8de7",
   "sources/iconify/morpheus.svg": "a2b42a16f26c8de7",
   "sources/iconify/morpheus-icon.svg": "694561f9bc37ad14",
   "sources/wvl/morpheus-icon.svg": "efb08fefb1245480",
-  "sources/wvl/morpheus.svg": "9a31bacd56d37f43"
+  "sources/wvl/morpheus.svg": "9a31bacd56d37f43",
+  "sources/morpheus-icon.svg": "efb08fefb1245480"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/morpheus-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/morpheus-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

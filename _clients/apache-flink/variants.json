@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "apache-flink",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e9b05b528a5a0c70",
   "sources/iconify/apache-flink.svg": "e9b05b528a5a0c70",
-  "sources/iconify/apache-flink-icon.svg": "a3e66727358d09d6"
+  "sources/iconify/apache-flink-icon.svg": "a3e66727358d09d6",
+  "sources/apache-flink-icon.svg": "36cf80a49d327726"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -31,7 +32,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -43,7 +44,13 @@
    "aspect": 0.991,
    "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/apache-flink-icon.svg"
+    }
+   ]
   }
  ]
 }

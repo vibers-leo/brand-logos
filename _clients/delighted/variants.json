@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "delighted",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "07beb1151769ce9b",
   "sources/iconify/delighted.svg": "07beb1151769ce9b",
   "sources/iconify/delighted-icon.svg": "200ee9e8b5b51f56",
   "sources/wvl/delighted-icon.svg": "a67ba1dd99d46ca7",
-  "sources/wvl/delighted.svg": "c26114cf2cfc4b89"
+  "sources/wvl/delighted.svg": "c26114cf2cfc4b89",
+  "sources/delighted-icon.svg": "a67ba1dd99d46ca7"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/delighted-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/delighted-icon.svg"
     }
    ]
   }

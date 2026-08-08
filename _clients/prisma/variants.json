@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "prisma",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "9c65b5b8c7f7cbf6",
   "sources/iconify/prisma.svg": "9c65b5b8c7f7cbf6",
@@ -11,22 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/devicons/prisma-original.svg",
-    "png": "sources/devicons/prisma-original.png"
-   },
-   "aspect": 0.816,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -40,6 +25,10 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/prisma-original.svg"
+    },
     {
      "provider": "iconify",
      "file": "sources/iconify/prisma.svg"

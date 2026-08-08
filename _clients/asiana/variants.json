@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "asiana",
- "primary": "wordmark-unknown-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9ebe84b5a3d8c7a9"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

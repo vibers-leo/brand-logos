@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "lexical",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "31c50df322f701fe",
   "sources/iconify/lexical.svg": "31c50df322f701fe",
   "sources/iconify/lexical-icon.svg": "3a556039b8f0aad0",
   "sources/wvl/lexical-icon.svg": "6c17f0809b9ff5a8",
-  "sources/wvl/lexical.svg": "d7fb4dda80caaa65"
+  "sources/wvl/lexical.svg": "d7fb4dda80caaa65",
+  "sources/lexical-icon.svg": "6c17f0809b9ff5a8"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/lexical-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/lexical-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

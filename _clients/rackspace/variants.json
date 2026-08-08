@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rackspace",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f619689c48295e4f",
   "sources/iconify/rackspace.svg": "f619689c48295e4f",
   "sources/iconify/rackspace-icon.svg": "dfb6925416942efe",
   "sources/wvl/rackspace-icon.svg": "9c6548eaa5da711a",
-  "sources/wvl/rackspace.svg": "61e4ea65c9ad7953"
+  "sources/wvl/rackspace.svg": "61e4ea65c9ad7953",
+  "sources/rackspace-icon.svg": "9c6548eaa5da711a"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/rackspace-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/rackspace-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

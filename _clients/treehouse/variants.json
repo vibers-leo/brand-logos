@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "treehouse",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a8342ff158989887",
   "sources/iconify/treehouse.svg": "a8342ff158989887",
   "sources/iconify/treehouse-icon.svg": "fef32093ba1ac96a",
   "sources/wvl/treehouse-icon.svg": "56577b926c6590fa",
-  "sources/wvl/treehouse.svg": "35471bd82ed8e4f8"
+  "sources/wvl/treehouse.svg": "35471bd82ed8e4f8",
+  "sources/treehouse-icon.svg": "56577b926c6590fa"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/treehouse-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/treehouse-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

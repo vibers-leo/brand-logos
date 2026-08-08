@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "turborepo",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "de84ba99a7d733ba",
   "sources/iconify/turborepo.svg": "de84ba99a7d733ba",
   "sources/iconify/turborepo-icon.svg": "8afd1f399b0bef38",
   "sources/wvl/turborepo-icon.svg": "f609b6bbfa8c68d8",
-  "sources/wvl/turborepo.svg": "5ae6e5d1ad771f89"
+  "sources/wvl/turborepo.svg": "5ae6e5d1ad771f89",
+  "sources/turborepo-icon.svg": "f609b6bbfa8c68d8"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/turborepo-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/turborepo-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

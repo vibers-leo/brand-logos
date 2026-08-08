@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "opengl",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "bf52a285b7ea188b",
   "sources/iconify/opengl.svg": "bf52a285b7ea188b",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

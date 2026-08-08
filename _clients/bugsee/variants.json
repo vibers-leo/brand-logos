@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bugsee",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "16711276279277d0",
   "sources/iconify/bugsee.svg": "16711276279277d0",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

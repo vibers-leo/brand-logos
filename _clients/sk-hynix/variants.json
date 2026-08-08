@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sk-hynix",
- "primary": "horizontal-unknown-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "76d791954384a465",
   "sources/iconify/sk-hynix.svg": "92f3f3049a61cfb0",
@@ -10,28 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/sk-hynix.svg",
-    "png": "sources/iconify/sk-hynix.png"
-   },
-   "aspect": 1.909,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/sk-hynix.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-unknown-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
@@ -43,7 +22,17 @@
    "aspect": 1.906,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/sk-hynix.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/sk-hynix.svg"
+    }
+   ]
   }
  ]
 }

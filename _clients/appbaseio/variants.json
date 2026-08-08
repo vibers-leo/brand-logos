@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "appbaseio",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1d957119f3de1f1c",
   "sources/iconify/appbaseio.svg": "1d957119f3de1f1c",
   "sources/iconify/appbaseio-icon.svg": "ffdea7152a749d7f",
   "sources/wvl/appbaseio-icon.svg": "7a6f8d06b8b11240",
-  "sources/wvl/appbaseio.svg": "1530979f8ce36694"
+  "sources/wvl/appbaseio.svg": "1530979f8ce36694",
+  "sources/appbaseio-icon.svg": "7a6f8d06b8b11240"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/appbaseio-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/appbaseio-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

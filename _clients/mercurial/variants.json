@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mercurial",
- "primary": "vertical-en-mono-dark",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "9d56a1635d219b74",
   "sources/iconify/mercurial.svg": "9d56a1635d219b74",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "mono-dark",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",

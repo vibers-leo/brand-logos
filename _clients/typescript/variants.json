@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "typescript",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "73796c9364647a4b",
   "sources/iconify/typescript.svg": "73796c9364647a4b",
@@ -10,11 +10,12 @@
   "sources/devicons/typescript-original.svg": "064d3370723e1beb",
   "sources/wvl/typescript-icon.svg": "0182c67f50a6db10",
   "sources/wvl/typescript-icon-round.svg": "9e65b5d9eefaf056",
-  "sources/wvl/typescript.svg": "fbe7bfa770c88816"
+  "sources/wvl/typescript.svg": "fbe7bfa770c88816",
+  "sources/typescript-icon.svg": "0182c67f50a6db10"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -35,11 +36,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/typescript-icon-round.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/typescript-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

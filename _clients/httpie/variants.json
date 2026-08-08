@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "httpie",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "b902ffaa8e317d6a",
   "sources/iconify/httpie.svg": "b902ffaa8e317d6a",
   "sources/iconify/httpie-icon.svg": "15355e4319ba95a9",
   "sources/wvl/httpie-icon.svg": "8e525a29bce48610",
-  "sources/wvl/httpie.svg": "d9aeec109bce723e"
+  "sources/wvl/httpie.svg": "d9aeec109bce723e",
+  "sources/httpie-icon.svg": "8e525a29bce48610"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/httpie-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/httpie-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

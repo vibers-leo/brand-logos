@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "passbolt",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "35610383458b4590",
   "sources/iconify/passbolt.svg": "35610383458b4590",
   "sources/iconify/passbolt-icon.svg": "de9a0b7bfd399d55",
   "sources/wvl/passbolt-icon.svg": "2a6de380f31dfbc7",
-  "sources/wvl/passbolt.svg": "d6ee64906cf72745"
+  "sources/wvl/passbolt.svg": "d6ee64906cf72745",
+  "sources/passbolt-icon.svg": "2a6de380f31dfbc7"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/passbolt-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/passbolt-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

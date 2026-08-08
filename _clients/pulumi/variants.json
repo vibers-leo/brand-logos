@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pulumi",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "71b9b47c1dd2f68a",
   "sources/iconify/pulumi.svg": "71b9b47c1dd2f68a",
   "sources/iconify/pulumi-icon.svg": "aefd329b1a187fd8",
   "sources/devicons/pulumi-original.svg": "f9ff888a0c7a82e9",
   "sources/wvl/pulumi-icon.svg": "40ce348fd11af9d3",
-  "sources/wvl/pulumi.svg": "e3f693a1d41a9334"
+  "sources/wvl/pulumi.svg": "e3f693a1d41a9334",
+  "sources/pulumi-icon.svg": "40ce348fd11af9d3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/pulumi-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/pulumi-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

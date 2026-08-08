@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "angular",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "5470e233486e5dae",
   "sources/fa.svg": "5470e233486e5dae",
@@ -10,36 +10,12 @@
   "sources/iconify/angular-icon.svg": "a9a375ec4f77da55",
   "sources/devicons/angular-original.svg": "cec832be4351e33f",
   "sources/wvl/angular-icon.svg": "3a22c838e40e6c70",
-  "sources/wvl/angular.svg": "c118214919047e01"
+  "sources/wvl/angular.svg": "c118214919047e01",
+  "sources/angular-icon.svg": "3a22c838e40e6c70"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/angular-icon.svg",
-    "png": "sources/iconify/angular-icon.png"
-   },
-   "aspect": 0.946,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/angular-icon.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/angular-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,13 +30,29 @@
    "order": 30,
    "alts": [
     {
+     "provider": "iconify",
+     "file": "sources/iconify/angular-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/angular-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/angular-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/angular-icon.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

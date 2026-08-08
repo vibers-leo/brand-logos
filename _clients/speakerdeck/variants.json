@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "speakerdeck",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a369d8f80e502ea0",
   "sources/iconify/speakerdeck.svg": "a369d8f80e502ea0",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

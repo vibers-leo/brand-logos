@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fastify",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c55a2e19645628ca",
   "sources/iconify/fastify.svg": "c55a2e19645628ca",
   "sources/iconify/fastify-icon.svg": "b3cd1a113ec6a857",
   "sources/devicons/fastify-original.svg": "3fefd8ada89c5566",
   "sources/wvl/fastify-icon.svg": "35be1bc5ca55d93f",
-  "sources/wvl/fastify.svg": "3166dc1ddc19b9dc"
+  "sources/wvl/fastify.svg": "3166dc1ddc19b9dc",
+  "sources/fastify-icon.svg": "35be1bc5ca55d93f"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/fastify-original.svg",
+    "png": "sources/devicons/fastify-original.png"
+   },
+   "aspect": 1.546,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/fastify-icon.svg",
     "png": "sources/iconify/fastify-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 1.561,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/fastify-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/fastify-original.svg"
+     "provider": "merged",
+     "file": "sources/fastify-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

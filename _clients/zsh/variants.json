@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zsh",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "8ffe590e62b1d3bb",
   "sources/iconify/zsh.svg": "8ffe590e62b1d3bb",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",

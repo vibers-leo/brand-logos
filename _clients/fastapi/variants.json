@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fastapi",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7509dd72d29fc79b",
   "sources/iconify/fastapi.svg": "7509dd72d29fc79b",
   "sources/iconify/fastapi-icon.svg": "f624d670a1addc7b",
   "sources/devicons/fastapi-original.svg": "0b092600c5ddeb4f",
   "sources/wvl/fastapi-icon.svg": "76d30515951e0e2d",
-  "sources/wvl/fastapi.svg": "822bec244318626a"
+  "sources/wvl/fastapi.svg": "822bec244318626a",
+  "sources/fastapi-icon.svg": "76d30515951e0e2d"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/fastapi-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/fastapi-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

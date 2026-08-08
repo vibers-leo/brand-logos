@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "strapi",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "580e43943e7a2c8c",
   "sources/iconify/strapi.svg": "580e43943e7a2c8c",
   "sources/iconify/strapi-icon.svg": "48bb268168f6b8d0",
   "sources/wvl/strapi-icon.svg": "66503e09fa56e8ea",
-  "sources/wvl/strapi.svg": "c88a74a5e7fc6bfe"
+  "sources/wvl/strapi.svg": "c88a74a5e7fc6bfe",
+  "sources/strapi-icon.svg": "66503e09fa56e8ea"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/strapi-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/strapi-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

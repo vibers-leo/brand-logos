@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-maps",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "6d4e8f126baad962",
   "sources/iconify/google-maps.svg": "6d4e8f126baad962",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "twitter",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "6fc00db21a6a38bc",
   "sources/fa.svg": "6fc00db21a6a38bc",
@@ -12,28 +12,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/twitter.svg",
-    "png": "sources/iconify/twitter.png"
-   },
-   "aspect": 1.227,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/twitter.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -47,6 +26,14 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/twitter.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/twitter.svg"
+    },
     {
      "provider": "devicons",
      "file": "sources/devicons/twitter-original.svg"

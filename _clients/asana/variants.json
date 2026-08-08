@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "asana",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f9f1777112173399",
   "sources/iconify/asana.svg": "f9f1777112173399",
   "sources/iconify/asana-icon.svg": "6c20ffbefddc086b",
   "sources/wvl/asana-icon.svg": "9eb8e16fa65d993e",
-  "sources/wvl/asana.svg": "e780b7e98e6ea31f"
+  "sources/wvl/asana.svg": "e780b7e98e6ea31f",
+  "sources/asana-icon.svg": "9eb8e16fa65d993e"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/asana-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/asana-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

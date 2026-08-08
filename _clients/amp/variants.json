@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "amp",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d41fe2b69b14e85f",
   "sources/iconify/amp.svg": "d41fe2b69b14e85f",
   "sources/iconify/amp-icon.svg": "42283cdd2b53e116",
   "sources/wvl/amp-icon.svg": "6bf6f18c7cd27842",
-  "sources/wvl/amp.svg": "c7a517c4ce0890be"
+  "sources/wvl/amp.svg": "c7a517c4ce0890be",
+  "sources/amp-icon.svg": "6bf6f18c7cd27842"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/amp-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/amp-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

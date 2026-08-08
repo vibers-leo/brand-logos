@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "aws",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "aeff2d9ab3cddcba",
   "sources/fa.svg": "aeff2d9ab3cddcba",
@@ -11,28 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/aws.svg",
-    "png": "sources/iconify/aws.png"
-   },
-   "aspect": 1.674,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/aws.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -46,6 +25,14 @@
    "origin": "collected",
    "order": 10,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/aws.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/aws.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

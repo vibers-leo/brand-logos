@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "adonisjs",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2fee3325809a8c12",
   "sources/iconify/adonisjs.svg": "2fee3325809a8c12",
   "sources/iconify/adonisjs-icon.svg": "95182c3a1de82cc8",
   "sources/devicons/adonisjs-original.svg": "9da668ee6f6166d5",
   "sources/wvl/adonisjs-icon.svg": "ba20240e3a605f52",
-  "sources/wvl/adonisjs.svg": "a73a7d2fc9d6d53a"
+  "sources/wvl/adonisjs.svg": "a73a7d2fc9d6d53a",
+  "sources/adonisjs-icon.svg": "ba20240e3a605f52"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/adonisjs-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/adonisjs-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

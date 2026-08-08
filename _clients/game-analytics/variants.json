@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "game-analytics",
- "primary": "wordmark-en-mono-light",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5670ea36e2085ea4",
   "sources/iconify/game-analytics.svg": "5670ea36e2085ea4",
   "sources/iconify/game-analytics-icon.svg": "1c321991f2c2a53c",
   "sources/wvl/game-analytics-icon.svg": "56322dfe911ca5bf",
-  "sources/wvl/game-analytics.svg": "07f62725635bfcc3"
+  "sources/wvl/game-analytics.svg": "07f62725635bfcc3",
+  "sources/game-analytics-icon.svg": "56322dfe911ca5bf"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/game-analytics-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/game-analytics-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-light",

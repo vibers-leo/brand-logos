@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "thymeleaf",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "3c1fba850feb8467",
   "sources/iconify/thymeleaf.svg": "3c1fba850feb8467",
   "sources/iconify/thymeleaf-icon.svg": "6625823552047d16",
   "sources/devicons/thymeleaf-original.svg": "f12be750c9e4a4b4",
   "sources/wvl/thymeleaf-icon.svg": "35606f4b7bf89450",
-  "sources/wvl/thymeleaf.svg": "6c163e13a654e59b"
+  "sources/wvl/thymeleaf.svg": "6c163e13a654e59b",
+  "sources/thymeleaf-icon.svg": "35606f4b7bf89450"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/thymeleaf-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/thymeleaf-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

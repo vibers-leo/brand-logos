@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mss-go",
- "primary": "wordmark-unknown-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "bf03c56e6ea47e8a"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

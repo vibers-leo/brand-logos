@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "survicate",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c969515b8c1121f6",
   "sources/iconify/survicate.svg": "c969515b8c1121f6",
   "sources/iconify/survicate-icon.svg": "c808f31a125bc62f",
   "sources/wvl/survicate-icon.svg": "ebe5c35afc687825",
-  "sources/wvl/survicate.svg": "3aa77debdd4fc0ac"
+  "sources/wvl/survicate.svg": "3aa77debdd4fc0ac",
+  "sources/survicate-icon.svg": "ebe5c35afc687825"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/survicate-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/survicate-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

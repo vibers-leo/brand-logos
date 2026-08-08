@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ghost",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6e2e940cdc22571f",
   "sources/iconify/ghost.svg": "6e2e940cdc22571f",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -26,7 +26,7 @@
    "order": 30
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

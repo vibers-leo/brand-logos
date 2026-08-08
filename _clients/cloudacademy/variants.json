@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cloudacademy",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "484fba77f125a586",
   "sources/iconify/cloudacademy.svg": "484fba77f125a586",
   "sources/iconify/cloudacademy-icon.svg": "aff11a55abc53e97",
   "sources/wvl/cloudacademy-icon.svg": "898c2296bb6c045e",
-  "sources/wvl/cloudacademy.svg": "225584bab3e43f46"
+  "sources/wvl/cloudacademy.svg": "225584bab3e43f46",
+  "sources/cloudacademy-icon.svg": "898c2296bb6c045e"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/cloudacademy-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/cloudacademy-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -1,8 +1,8 @@
 {
- "note": "세로 로크업 심볼. 자동 세로 분리는 정밀도가 낮아 파이프라인에서 꺼져 있으므로 여기에 수동 등록한다 (2026-08-08 육안 확인).",
+ "note": "세로 로크업 심볼. 자동 세로 분리는 정밀도가 낮아 파이프라인에서 꺼져 있어 수동 등록 (2026-08-08 육안 확인).",
  "variants": [
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",
@@ -17,7 +17,7 @@
    "derived_from": "logo.svg"
   },
   {
-   "key": "vertical-unknown-mono-dark",
+   "key": "vertical",
    "label": "심볼+워드마크 (세로형)",
    "order": 10
   }

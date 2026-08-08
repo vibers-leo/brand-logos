@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "digital-ocean",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "3fabd3eec0bb8bbc",
   "sources/iconify/digital-ocean.svg": "3fabd3eec0bb8bbc",
-  "sources/iconify/digital-ocean-icon.svg": "121cbb45cfb50ee3"
+  "sources/iconify/digital-ocean-icon.svg": "121cbb45cfb50ee3",
+  "sources/digital-ocean-icon.svg": "02c4c86215a9e663"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -31,7 +32,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -43,7 +44,13 @@
    "aspect": 1.0,
    "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/digital-ocean-icon.svg"
+    }
+   ]
   }
  ]
 }

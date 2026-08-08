@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "framework7",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "c7e2c964aba930aa",
   "sources/iconify/framework7.svg": "c7e2c964aba930aa",
   "sources/iconify/framework7-icon.svg": "7ae2beecf9628074",
   "sources/devicons/framework7-original.svg": "99cf87fc0a33b68e",
   "sources/wvl/framework7-icon.svg": "053d534a51b955be",
-  "sources/wvl/framework7.svg": "82a5728de016b376"
+  "sources/wvl/framework7.svg": "82a5728de016b376",
+  "sources/framework7-icon.svg": "053d534a51b955be"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -38,7 +39,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -59,6 +60,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/framework7-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/framework7-icon.svg"
     }
    ]
   }

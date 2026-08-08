@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "datadog",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "1a588db7bf3114b3",
   "sources/iconify/datadog.svg": "1a588db7bf3114b3",
   "sources/iconify/datadog-icon.svg": "4238713081387c93",
   "sources/devicons/datadog-original.svg": "eda6ed8e86598c0d",
   "sources/wvl/datadog-icon.svg": "cc0a6668fe5b4f8c",
-  "sources/wvl/datadog.svg": "74a14472a6ede4da"
+  "sources/wvl/datadog.svg": "74a14472a6ede4da",
+  "sources/datadog-icon.svg": "cc0a6668fe5b4f8c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -46,6 +47,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/datadog-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/datadog-icon.svg"
     }
    ]
   }

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "brave",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "6d7d3a4cc00e9ea7",
   "sources/iconify/brave.svg": "6d7d3a4cc00e9ea7",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

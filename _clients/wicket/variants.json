@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "wicket",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "08df4a24431220a2",
   "sources/iconify/wicket.svg": "08df4a24431220a2",
   "sources/iconify/wicket-icon.svg": "c3dfb4fa184f7068",
   "sources/wvl/wicket-icon.svg": "99e42482ee9672e4",
-  "sources/wvl/wicket.svg": "f4968ecf26559b63"
+  "sources/wvl/wicket.svg": "f4968ecf26559b63",
+  "sources/wicket-icon.svg": "99e42482ee9672e4"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/wicket-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/wicket-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

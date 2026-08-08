@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "dropbox",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "96b9c31676ef4b88",
   "sources/fa.svg": "96b9c31676ef4b88",
@@ -11,28 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/dropbox.svg",
-    "png": "sources/iconify/dropbox.png"
-   },
-   "aspect": 1.177,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/dropbox.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -46,6 +25,14 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/dropbox.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/dropbox.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

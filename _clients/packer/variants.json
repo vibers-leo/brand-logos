@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "packer",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "bd64a2ca57ae35d9",
   "sources/iconify/packer.svg": "bd64a2ca57ae35d9",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

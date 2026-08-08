@@ -2,13 +2,15 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cloudflare",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "6c9e44cd9e9081e9"
+  "logo.svg": "6c9e44cd9e9081e9",
+  "sources/iconify/cloudflare-icon.svg": "14d125cc5b97c432",
+  "sources/cloudflare-icon.svg": "d00204da24ecfc97"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -21,6 +23,27 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/cloudflare-icon.svg",
+    "png": "sources/iconify/cloudflare-icon.png"
+   },
+   "aspect": 2.19,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/cloudflare-icon.svg"
+    }
+   ]
   }
  ]
 }

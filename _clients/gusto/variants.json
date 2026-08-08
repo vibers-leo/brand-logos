@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gusto",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b1577813105fabfb",
   "sources/iconify/gusto.svg": "b1577813105fabfb",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "duckduckgo",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "a0c2e296bf5e5064",
   "sources/iconify/duckduckgo.svg": "a0c2e296bf5e5064",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

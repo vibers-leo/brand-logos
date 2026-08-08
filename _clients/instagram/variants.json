@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "instagram",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6b9496ddb7d43559"
+  "logo.svg": "6b9496ddb7d43559",
+  "sources/instagram-icon.svg": "e9acf6e5447bc6f5"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/instagram-icon.svg"
+    }
+   ]
   }
  ]
 }

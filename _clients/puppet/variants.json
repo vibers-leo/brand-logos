@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "puppet",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "4888311a5cc66f83",
   "sources/iconify/puppet.svg": "4888311a5cc66f83",
   "sources/iconify/puppet-icon.svg": "370086fe4599c8b5",
   "sources/wvl/puppet-icon.svg": "83e0f615676a807a",
-  "sources/wvl/puppet.svg": "e929c185a6290f13"
+  "sources/wvl/puppet.svg": "e929c185a6290f13",
+  "sources/puppet-icon.svg": "83e0f615676a807a"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,11 +38,11 @@
    ]
   },
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/puppet-icon.svg",
     "png": "sources/iconify/puppet-icon.png"
@@ -49,11 +50,15 @@
    "aspect": 0.649,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/puppet-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/puppet-icon.svg"
     }
    ]
   }

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "slack",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "sources/fa.svg": "89f9bbc458b11911",
   "sources/iconify/slack.svg": "6812845f7d427bb8",
@@ -13,7 +13,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,26 +34,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/slack-original.svg"
+    },
+    {
+     "provider": "font-awesome",
+     "file": "sources/fa.svg"
     }
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
-   "form": "symbol",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/fa.svg",
-    "png": "sources/fa.png"
-   },
-   "aspect": 0.999,
-   "provider": "font-awesome",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

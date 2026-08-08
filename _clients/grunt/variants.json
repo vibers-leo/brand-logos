@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "grunt",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "113bbd52abc5e02f",
   "sources/iconify/grunt.svg": "113bbd52abc5e02f",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

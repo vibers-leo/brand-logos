@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "forever",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "5af48e10d52466d1",
   "sources/iconify/forever.svg": "5af48e10d52466d1",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mattermost",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7576fc9f553b3fae",
   "sources/iconify/mattermost.svg": "7576fc9f553b3fae",
   "sources/iconify/mattermost-icon.svg": "bc071ea37c24853f",
   "sources/devicons/mattermost-original.svg": "c915da5078ba60ed",
   "sources/wvl/mattermost-icon.svg": "13f386bd8c6c299b",
-  "sources/wvl/mattermost.svg": "5a77eda0c4491594"
+  "sources/wvl/mattermost.svg": "5a77eda0c4491594",
+  "sources/mattermost-icon.svg": "13f386bd8c6c299b"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -30,26 +31,19 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mattermost-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mattermost-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/mattermost-original.svg"
     }
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
-   "form": "symbol",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/devicons/mattermost-original.svg",
-    "png": "sources/devicons/mattermost-original.png"
-   },
-   "aspect": 1.0,
-   "provider": "devicons",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

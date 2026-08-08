@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "seaborn",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a63dd4ca1a540f7b",
   "sources/iconify/seaborn.svg": "a63dd4ca1a540f7b",
   "sources/iconify/seaborn-icon.svg": "3e97ff4716ae3528",
   "sources/wvl/seaborn-icon.svg": "60df832a9a8e4268",
-  "sources/wvl/seaborn.svg": "4ca1ea5385c67344"
+  "sources/wvl/seaborn.svg": "4ca1ea5385c67344",
+  "sources/seaborn-icon.svg": "60df832a9a8e4268"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/seaborn-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/seaborn-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

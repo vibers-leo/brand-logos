@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "release",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "65a484b35b5e16a6",
   "sources/iconify/release.svg": "65a484b35b5e16a6",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",

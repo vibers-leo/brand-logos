@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hcaptcha",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "e2337ecca1838463",
   "sources/iconify/hcaptcha.svg": "e2337ecca1838463",
   "sources/iconify/hcaptcha-icon.svg": "d5ed9d5b92e753bf",
   "sources/wvl/hcaptcha-icon.svg": "f1e5b4275b3525d8",
-  "sources/wvl/hcaptcha.svg": "07286ff9bcad8750"
+  "sources/wvl/hcaptcha.svg": "07286ff9bcad8750",
+  "sources/hcaptcha-icon.svg": "f1e5b4275b3525d8"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/hcaptcha-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/hcaptcha-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

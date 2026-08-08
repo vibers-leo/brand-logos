@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pandas",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "561109884e91ba64",
   "sources/iconify/pandas.svg": "561109884e91ba64",
   "sources/iconify/pandas-icon.svg": "bc25303933b4fb5e",
   "sources/devicons/pandas-original.svg": "5c77740e4d55d120",
   "sources/wvl/pandas-icon.svg": "d7e6b5e0ecfffa72",
-  "sources/wvl/pandas.svg": "336a284c91902579"
+  "sources/wvl/pandas.svg": "336a284c91902579",
+  "sources/pandas-icon.svg": "d7e6b5e0ecfffa72"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
    "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/pandas-original.svg",
+    "png": "sources/devicons/pandas-original.png"
+   },
+   "aspect": 0.629,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/pandas-icon.svg",
     "png": "sources/iconify/pandas-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 0.63,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/pandas-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/pandas-original.svg"
+     "provider": "merged",
+     "file": "sources/pandas-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

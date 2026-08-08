@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stdlib",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "3c7b8ce644258b9d",
   "sources/iconify/stdlib.svg": "3c7b8ce644258b9d",
   "sources/iconify/stdlib-icon.svg": "9e97ed7109e76f3c",
   "sources/wvl/stdlib-icon.svg": "3545317c0fc33fc3",
-  "sources/wvl/stdlib.svg": "c3eee574f5c967ab"
+  "sources/wvl/stdlib.svg": "c3eee574f5c967ab",
+  "sources/stdlib-icon.svg": "3545317c0fc33fc3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/stdlib-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/stdlib-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

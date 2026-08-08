@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "msw",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "07c5bfbdc3c1205b",
   "sources/iconify/msw.svg": "07c5bfbdc3c1205b",
   "sources/iconify/msw-icon.svg": "bae5977fa3ee4e53",
   "sources/wvl/msw.svg": "9016a4fdddbe6ee3",
-  "sources/wvl/msw-icon.svg": "c3c53f4f0ed79d92"
+  "sources/wvl/msw-icon.svg": "c3c53f4f0ed79d92",
+  "sources/msw-icon.svg": "c3c53f4f0ed79d92"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,6 +30,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/msw-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/msw-icon.svg"
     }
    ]
   }

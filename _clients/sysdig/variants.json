@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sysdig",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b1c7e62fe563a979",
   "sources/iconify/sysdig.svg": "b1c7e62fe563a979",
   "sources/iconify/sysdig-icon.svg": "20e59eb55683922a",
   "sources/wvl/sysdig-icon.svg": "a5d30702debf1b06",
-  "sources/wvl/sysdig.svg": "ab201f8e0b3822bd"
+  "sources/wvl/sysdig.svg": "ab201f8e0b3822bd",
+  "sources/sysdig-icon.svg": "a5d30702debf1b06"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/sysdig-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sysdig-icon.svg"
     }
    ]
   }

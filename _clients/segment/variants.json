@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "segment",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9a606f1310bf61ee",
   "sources/iconify/segment.svg": "9a606f1310bf61ee",
   "sources/iconify/segment-icon.svg": "77be53eec3bf03f6",
   "sources/wvl/segment-icon.svg": "6b00aff1518e18e4",
-  "sources/wvl/segment.svg": "046bf24db73c8e40"
+  "sources/wvl/segment.svg": "046bf24db73c8e40",
+  "sources/segment-icon.svg": "6b00aff1518e18e4"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/segment-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/segment-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

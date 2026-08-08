@@ -2,19 +2,20 @@
  "schema": 1,
  "algo_v": 1,
  "id": "blitzjs",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "5f2f5ca96a740456",
   "sources/iconify/blitzjs.svg": "5f2f5ca96a740456",
-  "sources/iconify/blitzjs-icon.svg": "4d46e4acabd7eafd"
+  "sources/iconify/blitzjs-icon.svg": "4d46e4acabd7eafd",
+  "sources/blitzjs-icon.svg": "243749a509586869"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "가로조합형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -31,11 +32,11 @@
    ]
   },
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/blitzjs-icon.svg",
     "png": "sources/iconify/blitzjs-icon.png"
@@ -43,24 +44,13 @@
    "aspect": 0.651,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
    "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 0.987
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/blitzjs-icon.svg"
+    }
+   ]
   }
  ]
 }

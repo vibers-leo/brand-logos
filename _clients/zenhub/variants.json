@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zenhub",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7150c0ab24e80cc2",
   "sources/iconify/zenhub.svg": "7150c0ab24e80cc2",
   "sources/iconify/zenhub-icon.svg": "65038d2505131df6",
   "sources/wvl/zenhub-icon.svg": "6f911b16ccdbc207",
-  "sources/wvl/zenhub.svg": "8ed64a6743223fe6"
+  "sources/wvl/zenhub.svg": "8ed64a6743223fe6",
+  "sources/zenhub-icon.svg": "6f911b16ccdbc207"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/zenhub-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/zenhub-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

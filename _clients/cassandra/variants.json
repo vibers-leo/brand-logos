@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cassandra",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "8288c0f768966035",
   "sources/iconify/cassandra.svg": "8288c0f768966035",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

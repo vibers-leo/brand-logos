@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fastly",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d9d67503c43989a0",
   "sources/iconify/fastly.svg": "d9d67503c43989a0",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

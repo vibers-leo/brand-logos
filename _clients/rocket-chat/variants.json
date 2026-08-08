@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rocket-chat",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "02859ce215c9541c",
   "sources/iconify/rocket-chat.svg": "02859ce215c9541c",
   "sources/iconify/rocket-chat-icon.svg": "d7e12f30aa005f40",
   "sources/wvl/rocket-chat-icon.svg": "43bd964eae526433",
-  "sources/wvl/rocket-chat.svg": "a48b61011052c8ba"
+  "sources/wvl/rocket-chat.svg": "a48b61011052c8ba",
+  "sources/rocket-chat-icon.svg": "43bd964eae526433"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/rocket-chat-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/rocket-chat-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

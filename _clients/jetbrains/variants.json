@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jetbrains",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "aa7397e8318b3737"
+  "logo.svg": "aa7397e8318b3737",
+  "sources/jetbrains-icon.svg": "0253da2620a32aca"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/jetbrains-icon.svg"
+    }
+   ]
   }
  ]
 }

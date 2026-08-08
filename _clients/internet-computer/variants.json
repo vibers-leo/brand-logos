@@ -2,13 +2,29 @@
  "schema": 1,
  "algo_v": 1,
  "id": "internet-computer",
- "primary": "wordmark-unknown-color",
+ "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "ce3ddc7fc86713f3"
+  "logo.svg": "ce3ddc7fc86713f3",
+  "sources/iconify/internet-computer-icon.svg": "4ee5dd1280773272"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/internet-computer-icon.svg",
+    "png": "sources/iconify/internet-computer-icon.png"
+   },
+   "aspect": 2.113,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",

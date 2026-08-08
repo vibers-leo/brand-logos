@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "chromatic",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "7e499195a41c28cf",
   "sources/iconify/chromatic.svg": "7e499195a41c28cf",
   "sources/iconify/chromatic-icon.svg": "df9ccf2254a2fff2",
   "sources/wvl/chromatic-icon.svg": "8ecf00c944300143",
-  "sources/wvl/chromatic.svg": "eee38f034e3fbf50"
+  "sources/wvl/chromatic.svg": "eee38f034e3fbf50",
+  "sources/chromatic-icon.svg": "8ecf00c944300143"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/chromatic-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/chromatic-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "micro",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e0151186f939584a",
   "sources/iconify/micro.svg": "e0151186f939584a",
   "sources/iconify/micro-icon.svg": "7d4660af986dc52f",
   "sources/wvl/micro-icon.svg": "a2b41ca1a5e143e1",
-  "sources/wvl/micro.svg": "a0bf9a90d560d36c"
+  "sources/wvl/micro.svg": "a0bf9a90d560d36c",
+  "sources/micro-icon.svg": "a2b41ca1a5e143e1"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/micro-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/micro-icon.svg"
     }
    ]
   }

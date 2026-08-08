@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "oxc",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "120f77c2d4769833",
   "sources/iconify/oxc.svg": "120f77c2d4769833",
@@ -11,15 +11,31 @@
   "sources/wvl/oxc-icon.svg": "663e4c90fa18f206",
   "sources/wvl/oxc.svg": "23b79b2171f6aeb2",
   "sources/wvl/oxc-icon-dark.svg": "78c4eb2c3a01f8bd",
-  "sources/wvl/oxc-dark.svg": "d2491b9df56b9e1e"
+  "sources/wvl/oxc-dark.svg": "d2491b9df56b9e1e",
+  "sources/oxc-icon.svg": "663e4c90fa18f206"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/wvl/oxc-icon-dark.svg",
+    "png": "sources/wvl/oxc-icon-dark.png"
+   },
+   "aspect": 1.63,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/oxc-icon.svg",
     "png": "sources/iconify/oxc-icon.png"
@@ -27,20 +43,20 @@
    "aspect": 1.628,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/oxc-icon.svg"
     },
     {
-     "provider": "wvl",
-     "file": "sources/wvl/oxc-icon-dark.svg"
+     "provider": "merged",
+     "file": "sources/oxc-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

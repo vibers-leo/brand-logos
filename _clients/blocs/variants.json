@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "blocs",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "cb21955441bbf607",
   "sources/iconify/blocs.svg": "cb21955441bbf607",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

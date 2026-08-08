@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-one",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "8e8616db826d12da",
   "sources/iconify/google-one.svg": "8e8616db826d12da",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

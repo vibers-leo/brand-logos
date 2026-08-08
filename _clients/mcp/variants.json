@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mcp",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ca84c95e29c5c48c",
   "sources/wvl/model-context-protocol.svg": "ca84c95e29c5c48c"
  },
  "variants": [
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

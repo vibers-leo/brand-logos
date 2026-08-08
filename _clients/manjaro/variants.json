@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "manjaro",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "f510c0e93dc8eaf5",
   "sources/iconify/manjaro.svg": "f510c0e93dc8eaf5",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "binance",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "9c139992140c7582"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sonarqube",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c021c99da0e63e00",
   "sources/iconify/sonarqube.svg": "c021c99da0e63e00",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -26,7 +26,7 @@
    "order": 30
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

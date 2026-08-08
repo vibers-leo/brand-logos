@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mapzen",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2ab34270e56ab786",
   "sources/iconify/mapzen.svg": "2ab34270e56ab786",
   "sources/iconify/mapzen-icon.svg": "708bf7feb5037628",
   "sources/wvl/mapzen-icon.svg": "83bbe7faf9a35e82",
-  "sources/wvl/mapzen.svg": "3b50092a9f06b8f6"
+  "sources/wvl/mapzen.svg": "3b50092a9f06b8f6",
+  "sources/mapzen-icon.svg": "83bbe7faf9a35e82"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mapzen-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mapzen-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

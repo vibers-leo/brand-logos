@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bulma",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "85ac39ecdc1ba90c",
   "sources/iconify/bulma.svg": "85ac39ecdc1ba90c",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

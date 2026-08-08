@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "processwire",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "632473417b045558",
   "sources/iconify/processwire.svg": "632473417b045558",
   "sources/iconify/processwire-icon.svg": "80d176157b9190ef",
   "sources/devicons/processwire-original.svg": "eeeec4b334c9958d",
   "sources/wvl/processwire-icon.svg": "c3ab91c1867015cb",
-  "sources/wvl/processwire.svg": "2a437cc6a54282b6"
+  "sources/wvl/processwire.svg": "2a437cc6a54282b6",
+  "sources/processwire-icon.svg": "c3ab91c1867015cb"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/processwire-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/processwire-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

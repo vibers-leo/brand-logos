@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "payload",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "437852b2fe541a7f",
   "sources/iconify/payload.svg": "437852b2fe541a7f",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",

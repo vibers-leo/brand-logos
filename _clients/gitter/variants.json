@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gitter",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "29e47cadf804b327",
   "sources/iconify/gitter.svg": "29e47cadf804b327",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "mono-dark",
@@ -26,7 +26,7 @@
    "order": 20
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

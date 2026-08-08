@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jcb",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "22d644fd9efe16c9",
   "sources/fa.svg": "22d644fd9efe16c9",
@@ -11,28 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/jcb.svg",
-    "png": "sources/iconify/jcb.png"
-   },
-   "aspect": 1.333,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/jcb.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -46,6 +25,14 @@
    "origin": "collected",
    "order": 10,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/jcb.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/jcb.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

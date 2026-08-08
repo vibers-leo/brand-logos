@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fly",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9af259bde168990a",
   "sources/iconify/fly.svg": "9af259bde168990a",
   "sources/iconify/fly-icon.svg": "d96331816fd1a27f",
   "sources/wvl/fly-icon.svg": "83802d1a75abf38a",
-  "sources/wvl/fly.svg": "c01292db93fcf9f7"
+  "sources/wvl/fly.svg": "c01292db93fcf9f7",
+  "sources/fly-icon.svg": "83802d1a75abf38a"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/fly-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/fly-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

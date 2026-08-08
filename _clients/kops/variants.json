@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kops",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "67526b45a4c2da6a",
   "sources/iconify/kops.svg": "67526b45a4c2da6a",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

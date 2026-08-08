@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gallup-korea",
- "primary": "wordmark-unknown-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "27fd2a1fe75a0240"
  },
  "variants": [
   {
-   "key": "wordmark-unknown-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "mono-dark",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",

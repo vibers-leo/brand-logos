@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "apache-superset",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1fdb4282cacd96e0",
   "sources/iconify/apache-superset.svg": "1fdb4282cacd96e0",
   "sources/iconify/apache-superset-icon.svg": "c3888bd96f9f44a5",
   "sources/wvl/apache-superset-icon.svg": "e35a98113d2391df",
-  "sources/wvl/apache-superset.svg": "73313cb8236f1912"
+  "sources/wvl/apache-superset.svg": "73313cb8236f1912",
+  "sources/apache-superset-icon.svg": "e35a98113d2391df"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/apache-superset-icon.svg",
     "png": "sources/iconify/apache-superset-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 2.013,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/apache-superset-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/apache-superset-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

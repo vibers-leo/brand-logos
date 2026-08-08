@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kong",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4a42e20e5ae39824",
   "sources/iconify/kong.svg": "4a42e20e5ae39824",
   "sources/iconify/kong-icon.svg": "c0db7f1f79887804",
   "sources/wvl/kong-icon.svg": "50a6c88eee0b2031",
-  "sources/wvl/kong.svg": "55b48f6f9be131f9"
+  "sources/wvl/kong.svg": "55b48f6f9be131f9",
+  "sources/kong-icon.svg": "50a6c88eee0b2031"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/kong-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/kong-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

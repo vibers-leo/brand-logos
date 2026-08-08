@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kirby",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "6e34d1146a5f0613",
   "sources/iconify/kirby.svg": "6e34d1146a5f0613",
   "sources/iconify/kirby-icon.svg": "6aefbd240416218b",
   "sources/wvl/kirby-icon.svg": "8b0014a8cc2d6be3",
-  "sources/wvl/kirby.svg": "dc9a639aa9061f2e"
+  "sources/wvl/kirby.svg": "dc9a639aa9061f2e",
+  "sources/kirby-icon.svg": "8b0014a8cc2d6be3"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/kirby-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/kirby-icon.svg"
     }
    ]
   }

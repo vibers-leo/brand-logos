@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "notion",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c6627b78969bde10"
+  "logo.svg": "c6627b78969bde10",
+  "sources/notion-icon.svg": "1cae7bbe4b1a56c7"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -20,7 +21,13 @@
    "aspect": 0.96,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/notion-icon.svg"
+    }
+   ]
   }
  ]
 }

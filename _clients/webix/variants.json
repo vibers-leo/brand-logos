@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "webix",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2ce774fd84ee46f8",
   "sources/iconify/webix.svg": "2ce774fd84ee46f8",
   "sources/iconify/webix-icon.svg": "86eae0ca3553a919",
   "sources/wvl/webix-icon.svg": "3169ad19b0937e51",
-  "sources/wvl/webix.svg": "a2e435ee7d390cee"
+  "sources/wvl/webix.svg": "a2e435ee7d390cee",
+  "sources/webix-icon.svg": "3169ad19b0937e51"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/webix-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/webix-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

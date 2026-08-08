@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "react",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "efa7d40180fdba62",
   "sources/fa.svg": "efa7d40180fdba62",
@@ -12,32 +12,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/react.svg",
-    "png": "sources/iconify/react.png"
-   },
-   "aspect": 1.126,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/react.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/react-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -51,6 +26,18 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/react.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/react.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/react-original.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"

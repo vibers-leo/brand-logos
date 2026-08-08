@@ -2,21 +2,47 @@
  "schema": 1,
  "algo_v": 1,
  "id": "upstash",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "86a9bb15ab89c2a8",
   "sources/iconify/upstash.svg": "86a9bb15ab89c2a8",
   "sources/iconify/upstash-icon.svg": "07ae2232fe092b50",
   "sources/wvl/upstash-icon.svg": "7a6769aa90bcfe24",
-  "sources/wvl/upstash.svg": "0b029d6a1959864f"
+  "sources/wvl/upstash.svg": "0b029d6a1959864f",
+  "sources/upstash-icon.svg": "7a6769aa90bcfe24"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/upstash-icon.svg",
+    "png": "sources/iconify/upstash-icon.png"
+   },
+   "aspect": 0.752,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/upstash-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/upstash-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -24,7 +50,7 @@
    "aspect": 3.346,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -35,44 +61,6 @@
      "file": "sources/wvl/upstash.svg"
     }
    ]
-  },
-  {
-   "key": "vertical-en-color",
-   "form": "vertical",
-   "lang": "en",
-   "color": "color",
-   "label": "세로조합형",
-   "files": {
-    "svg": "sources/iconify/upstash-icon.svg",
-    "png": "sources/iconify/upstash-icon.png"
-   },
-   "aspect": 0.752,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 20,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/upstash-icon.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

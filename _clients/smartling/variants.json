@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "smartling",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "425c127bc9f3bf13",
   "sources/iconify/smartling.svg": "425c127bc9f3bf13",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

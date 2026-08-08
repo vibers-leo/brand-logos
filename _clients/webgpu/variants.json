@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "webgpu",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "492a67401bfaffd7",
   "sources/iconify/webgpu.svg": "492a67401bfaffd7",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -26,7 +26,7 @@
    "order": 10
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

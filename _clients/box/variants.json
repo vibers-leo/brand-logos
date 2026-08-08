@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "box",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a2e6d19d43d51b2d",
   "sources/iconify/box.svg": "a2e6d19d43d51b2d",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

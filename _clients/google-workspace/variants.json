@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-workspace",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "8047b70ba0b1d81f",
   "sources/iconify/google-workspace.svg": "8047b70ba0b1d81f",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

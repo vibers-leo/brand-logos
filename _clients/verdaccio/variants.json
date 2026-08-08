@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "verdaccio",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1a790701ea2191f0",
   "sources/iconify/verdaccio.svg": "1a790701ea2191f0",
   "sources/iconify/verdaccio-icon.svg": "3eec9b48356533e7",
   "sources/wvl/verdaccio-icon.svg": "f0f414b1b77e59fd",
-  "sources/wvl/verdaccio.svg": "37ba9f3617c9cfdf"
+  "sources/wvl/verdaccio.svg": "37ba9f3617c9cfdf",
+  "sources/verdaccio-icon.svg": "f0f414b1b77e59fd"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/verdaccio-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/verdaccio-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

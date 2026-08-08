@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "dashlane",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "3cf725625f08158e",
   "sources/iconify/dashlane.svg": "3cf725625f08158e",
   "sources/iconify/dashlane-icon.svg": "89a5ec7b70ca3dfc",
   "sources/wvl/dashlane-icon.svg": "7955f98440dd55c2",
-  "sources/wvl/dashlane.svg": "bad42911197d8149"
+  "sources/wvl/dashlane.svg": "bad42911197d8149",
+  "sources/dashlane-icon.svg": "7955f98440dd55c2"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/dashlane-icon.svg",
     "png": "sources/iconify/dashlane-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.74,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/dashlane-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/dashlane-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

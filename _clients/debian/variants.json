@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "debian",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "c56986c7b0d4e82f",
   "sources/iconify/debian.svg": "c56986c7b0d4e82f",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

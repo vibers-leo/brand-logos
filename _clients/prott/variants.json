@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "prott",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "0398adcf4c512b11",
   "sources/iconify/prott.svg": "0398adcf4c512b11",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

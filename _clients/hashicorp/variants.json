@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hashicorp",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "4e22cddfd557a810",
   "sources/iconify/hashicorp.svg": "4e22cddfd557a810",
   "sources/iconify/hashicorp-icon.svg": "6574ad21ee82c14c",
   "sources/wvl/hashicorp-icon.svg": "a91898056ce6794b",
-  "sources/wvl/hashicorp.svg": "0aed5006c8af3602"
+  "sources/wvl/hashicorp.svg": "0aed5006c8af3602",
+  "sources/hashicorp-icon.svg": "a91898056ce6794b"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/hashicorp-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/hashicorp-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

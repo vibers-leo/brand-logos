@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "autoprefixer",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "981c5b9fad615582",
   "sources/iconify/autoprefixer.svg": "981c5b9fad615582",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

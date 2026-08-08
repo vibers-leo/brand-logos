@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hotjar",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "124ff099a54bbe5e",
   "sources/iconify/hotjar.svg": "124ff099a54bbe5e",
   "sources/iconify/hotjar-icon.svg": "be6ddbc78adec035",
   "sources/wvl/hotjar-icon.svg": "c410f228ff3173ca",
-  "sources/wvl/hotjar.svg": "573c476605191d14"
+  "sources/wvl/hotjar.svg": "573c476605191d14",
+  "sources/hotjar-icon.svg": "c410f228ff3173ca"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/hotjar-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/hotjar-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

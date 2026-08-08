@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "deployhq",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "eaef2e8dee1b56c0",
   "sources/iconify/deployhq.svg": "eaef2e8dee1b56c0",
   "sources/iconify/deployhq-icon.svg": "3d082e24e812b3da",
   "sources/wvl/deployhq-icon.svg": "fe6e92cb06ce7dd8",
-  "sources/wvl/deployhq.svg": "9025a3ac25aec07c"
+  "sources/wvl/deployhq.svg": "9025a3ac25aec07c",
+  "sources/deployhq-icon.svg": "fe6e92cb06ce7dd8"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/deployhq-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/deployhq-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

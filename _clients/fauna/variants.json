@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fauna",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "e35616c21a3628d3",
   "sources/iconify/fauna.svg": "e35616c21a3628d3",
   "sources/iconify/fauna-icon.svg": "7f35467a094e2fb1",
   "sources/wvl/fauna-icon.svg": "318361a9d722c100",
-  "sources/wvl/fauna.svg": "ddd5be5a75c1d369"
+  "sources/wvl/fauna.svg": "ddd5be5a75c1d369",
+  "sources/fauna-icon.svg": "318361a9d722c100"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/fauna-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/fauna-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

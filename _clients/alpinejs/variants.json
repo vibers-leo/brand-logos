@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "alpinejs",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "68795a6d40d51c03",
   "sources/iconify/alpinejs.svg": "68795a6d40d51c03",
   "sources/iconify/alpinejs-icon.svg": "629512e57a27430b",
   "sources/devicons/alpinejs-original.svg": "a48c8c1666e6f450",
   "sources/wvl/alpinejs-icon.svg": "1443c31df91ce551",
-  "sources/wvl/alpinejs.svg": "7d49d2a0e52d06f8"
+  "sources/wvl/alpinejs.svg": "7d49d2a0e52d06f8",
+  "sources/alpinejs-icon.svg": "1443c31df91ce551"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/alpinejs-original.svg",
+    "png": "sources/devicons/alpinejs-original.png"
+   },
+   "aspect": 2.18,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/alpinejs-icon.svg",
     "png": "sources/iconify/alpinejs-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 2.179,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/alpinejs-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/alpinejs-original.svg"
+     "provider": "merged",
+     "file": "sources/alpinejs-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

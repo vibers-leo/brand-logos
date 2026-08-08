@@ -2,31 +2,17 @@
  "schema": 1,
  "algo_v": 1,
  "id": "waffle",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "0ba5887f296a654f",
   "sources/iconify/waffle.svg": "0ba5887f296a654f",
   "sources/wvl/waffle-icon.svg": "879a50861779dbb3",
-  "sources/wvl/waffle.svg": "03a5bb269f2f4280"
+  "sources/wvl/waffle.svg": "03a5bb269f2f4280",
+  "sources/waffle-icon.svg": "879a50861779dbb3"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/wvl/waffle-icon.svg",
-    "png": "sources/wvl/waffle-icon.png"
-   },
-   "aspect": 1.525,
-   "provider": "wvl",
-   "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -47,6 +33,27 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/waffle.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/wvl/waffle-icon.svg",
+    "png": "sources/wvl/waffle-icon.png"
+   },
+   "aspect": 1.525,
+   "provider": "wvl",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/waffle-icon.svg"
     }
    ]
   }

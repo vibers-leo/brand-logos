@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "linkedin",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "79914ca12f2b583b",
   "sources/fa.svg": "79914ca12f2b583b",
@@ -10,36 +10,12 @@
   "sources/iconify/linkedin-icon.svg": "a0779b71662dd901",
   "sources/devicons/linkedin-original.svg": "06efd8244f805b03",
   "sources/wvl/linkedin-icon.svg": "1bec810d7ffa93d6",
-  "sources/wvl/linkedin.svg": "e084c8c9fbf15ddc"
+  "sources/wvl/linkedin.svg": "e084c8c9fbf15ddc",
+  "sources/linkedin-icon.svg": "1bec810d7ffa93d6"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/iconify/linkedin-icon.svg",
-    "png": "sources/iconify/linkedin-icon.png"
-   },
-   "aspect": 1.0,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/linkedin-icon.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/linkedin-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,13 +30,29 @@
    "order": 30,
    "alts": [
     {
+     "provider": "iconify",
+     "file": "sources/iconify/linkedin-icon.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/linkedin-icon.svg"
+    },
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/linkedin-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/linkedin-icon.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

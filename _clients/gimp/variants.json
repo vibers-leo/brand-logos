@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gimp",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "2f7329126292f132",
   "sources/devicons/gimp-original.svg": "2f7329126292f132"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "reindex",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "bd4acf8367fcc474",
   "sources/iconify/reindex.svg": "bd4acf8367fcc474",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

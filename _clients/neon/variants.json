@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "neon",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "744ce45af65286b7",
   "sources/iconify/neon.svg": "744ce45af65286b7",
   "sources/iconify/neon-icon.svg": "0e0721696a486fab",
   "sources/wvl/neon-icon.svg": "9c61dd4f3e82183e",
-  "sources/wvl/neon.svg": "3f514c93ae719636"
+  "sources/wvl/neon.svg": "3f514c93ae719636",
+  "sources/neon-icon.svg": "9c61dd4f3e82183e"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/neon-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/neon-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

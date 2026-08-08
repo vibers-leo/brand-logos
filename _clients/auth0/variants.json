@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "auth0",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "72cf07d8b1658a8b",
   "sources/iconify/auth0.svg": "72cf07d8b1658a8b",
   "sources/iconify/auth0-icon.svg": "c57c3dc7aabba027",
   "sources/wvl/auth0-icon.svg": "2dec76a85361e1e8",
-  "sources/wvl/auth0.svg": "d6257c1628d6f4ca"
+  "sources/wvl/auth0.svg": "d6257c1628d6f4ca",
+  "sources/auth0-icon.svg": "2dec76a85361e1e8"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/auth0-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/auth0-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

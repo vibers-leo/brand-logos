@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hubspot",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "99316a8ad963b369",
   "sources/si.svg": "99316a8ad963b369",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -32,7 +32,7 @@
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

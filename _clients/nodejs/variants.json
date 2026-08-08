@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nodejs",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a53dc47094db7160",
   "sources/iconify/nodejs.svg": "a53dc47094db7160",
@@ -10,11 +10,12 @@
   "sources/devicons/nodejs-original.svg": "2ab20fb235d8f43c",
   "sources/wvl/nodejs-icon.svg": "14fb2ee58e4afbc5",
   "sources/wvl/nodejs-icon-alt.svg": "2136c62ac8e61561",
-  "sources/wvl/nodejs.svg": "769bbc4b27e83ca0"
+  "sources/wvl/nodejs.svg": "769bbc4b27e83ca0",
+  "sources/nodejs-icon.svg": "14fb2ee58e4afbc5"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -39,7 +40,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -64,6 +65,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/nodejs-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/nodejs-icon.svg"
     }
    ]
   }

@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "vercel",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ce1ed1f0769da69d"
+  "logo.svg": "ce1ed1f0769da69d",
+  "sources/vercel-icon.svg": "fb8d870c856ec720"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -20,7 +21,13 @@
    "aspect": 1.154,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/vercel-icon.svg"
+    }
+   ]
   }
  ]
 }

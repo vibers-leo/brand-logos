@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rsa",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "7ba2114db53c9fff",
   "sources/iconify/rsa.svg": "7ba2114db53c9fff",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stackoverflow",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "cebd7afa89f1cac2",
   "sources/iconify/stackoverflow.svg": "cebd7afa89f1cac2",
   "sources/iconify/stackoverflow-icon.svg": "b6978d344ac41370",
   "sources/devicons/stackoverflow-original.svg": "a6b8a91b05d0fdee",
   "sources/wvl/stackoverflow-icon.svg": "9d2b0af197128a5d",
-  "sources/wvl/stackoverflow.svg": "1abaa67eec61d173"
+  "sources/wvl/stackoverflow.svg": "1abaa67eec61d173",
+  "sources/stackoverflow-icon.svg": "9d2b0af197128a5d"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/stackoverflow-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/stackoverflow-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

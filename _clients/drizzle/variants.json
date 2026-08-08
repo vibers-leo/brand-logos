@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "drizzle",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "60783c2963599602",
   "sources/iconify/drizzle.svg": "60783c2963599602",
   "sources/iconify/drizzle-icon.svg": "e603c20c63288cfd",
   "sources/wvl/drizzle-icon.svg": "6ad313ece61cc817",
-  "sources/wvl/drizzle.svg": "d96fac54987e5b51"
+  "sources/wvl/drizzle.svg": "d96fac54987e5b51",
+  "sources/drizzle-icon.svg": "6ad313ece61cc817"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/drizzle-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/drizzle-icon.svg"
     }
    ]
   }

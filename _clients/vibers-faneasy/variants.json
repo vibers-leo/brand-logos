@@ -2,17 +2,17 @@
  "schema": 1,
  "algo_v": 1,
  "id": "vibers-faneasy",
- "primary": "horizontal-unknown-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "55b1ef550e928536"
  },
  "variants": [
   {
-   "key": "horizontal-unknown-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "mono-dark",
-   "label": "심볼+워드마크 (세로형)",
+   "label": "가로조합형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",
@@ -32,12 +32,21 @@
     "svg": "variants/symbol.svg",
     "png": "variants/symbol-512.png"
    },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
+   "provider": "derived:autocrop-vertical",
    "order": 30,
+   "confidence": 0.757,
    "derived_from": "logo.svg",
-   "confidence": 0.757
+   "origin": "manual"
+  },
+  {
+   "key": "vertical",
+   "label": "심볼+워드마크 (세로형)",
+   "order": 10,
+   "form": "unknown",
+   "lang": "unknown",
+   "color": "color",
+   "files": {},
+   "origin": "manual"
   }
  ]
 }

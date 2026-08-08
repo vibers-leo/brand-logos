@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bts",
- "primary": "vertical-unknown-mono-dark",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "d33d379fad08caf5",
   "sources/bts-symbol-wordmark.svg": "8ecefceb6bdc6ef2",
@@ -11,28 +11,22 @@
  },
  "variants": [
   {
-   "key": "horizontal-unknown-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "mono-dark",
    "label": "가로조합형",
    "files": {
-    "svg": "sources/bts-symbol-wordmark.svg",
-    "png": "sources/bts-symbol-wordmark.png"
+    "svg": "sources/bts-horizontal.svg",
+    "png": "sources/bts-horizontal.png"
    },
-   "aspect": 2.707,
+   "aspect": 1.826,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wikimedia",
-     "file": "sources/bts-horizontal.svg"
-    }
-   ]
+   "order": 10
   },
   {
-   "key": "vertical-unknown-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "unknown",
    "color": "mono-dark",
@@ -51,6 +45,21 @@
      "file": "sources/bts-symbol-only.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/bts-symbol-wordmark.svg",
+    "png": "sources/bts-symbol-wordmark.png"
+   },
+   "aspect": 2.707,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

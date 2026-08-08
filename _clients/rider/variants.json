@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rider",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "991b9de6484fc1ba",
   "sources/iconify/rider.svg": "991b9de6484fc1ba",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

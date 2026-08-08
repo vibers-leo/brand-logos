@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sourcetree",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "20346c2beea9da5b",
   "sources/iconify/sourcetree.svg": "20346c2beea9da5b",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

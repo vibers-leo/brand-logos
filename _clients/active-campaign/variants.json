@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "active-campaign",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "8773ab7c0b6b26b9",
   "sources/iconify/active-campaign.svg": "8773ab7c0b6b26b9",
   "sources/iconify/active-campaign-icon.svg": "075450c7f55528fe",
   "sources/wvl/active-campaign-icon.svg": "8093db96c673aa3d",
-  "sources/wvl/active-campaign.svg": "a9edd153e69f225e"
+  "sources/wvl/active-campaign.svg": "a9edd153e69f225e",
+  "sources/active-campaign-icon.svg": "8093db96c673aa3d"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/active-campaign-icon.svg",
     "png": "sources/iconify/active-campaign-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.656,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/active-campaign-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/active-campaign-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

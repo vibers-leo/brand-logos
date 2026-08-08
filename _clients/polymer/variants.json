@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "polymer",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d2690af14897979f",
   "sources/iconify/polymer.svg": "d2690af14897979f",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

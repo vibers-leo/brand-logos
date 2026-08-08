@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "micron",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "c8445aa100429865",
   "sources/iconify/micron.svg": "c8445aa100429865",
   "sources/iconify/micron-icon.svg": "6320cc87bd5cee9b",
   "sources/wvl/micron-icon.svg": "fa209cab033965ea",
-  "sources/wvl/micron.svg": "5d886c56b96cbd7f"
+  "sources/wvl/micron.svg": "5d886c56b96cbd7f",
+  "sources/micron-icon.svg": "fa209cab033965ea"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/micron-icon.svg",
     "png": "sources/iconify/micron-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.261,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/micron-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/micron-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

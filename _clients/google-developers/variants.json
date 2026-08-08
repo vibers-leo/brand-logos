@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-developers",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "fa22d61b7afe25eb",
   "sources/iconify/google-developers.svg": "fa22d61b7afe25eb",
-  "sources/wvl/google-developers.svg": "b45e763454c5b187"
+  "sources/wvl/google-developers.svg": "b45e763454c5b187",
+  "sources/iconify/google-developers-icon.svg": "3a47e5f7bc83152f"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

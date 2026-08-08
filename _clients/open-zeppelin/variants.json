@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "open-zeppelin",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "570c5dc1e93e1bf2",
   "sources/iconify/open-zeppelin.svg": "570c5dc1e93e1bf2",
   "sources/iconify/open-zeppelin-icon.svg": "a14470491723957d",
   "sources/wvl/open-zeppelin-icon.svg": "a78160486aeed7d1",
-  "sources/wvl/open-zeppelin.svg": "e5edf04d61e401d7"
+  "sources/wvl/open-zeppelin.svg": "e5edf04d61e401d7",
+  "sources/open-zeppelin-icon.svg": "a78160486aeed7d1"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/open-zeppelin-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/open-zeppelin-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

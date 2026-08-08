@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "krakenjs",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "70532bcdf85f3bd2",
   "sources/iconify/krakenjs.svg": "70532bcdf85f3bd2",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

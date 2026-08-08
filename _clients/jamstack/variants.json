@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jamstack",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "724ecdf015176feb",
   "sources/iconify/jamstack.svg": "724ecdf015176feb",
   "sources/iconify/jamstack-icon.svg": "645772744f6c4479",
   "sources/devicons/jamstack-original.svg": "ff0f100caeff3dbf",
   "sources/wvl/jamstack-icon.svg": "ad1478caa0f980ca",
-  "sources/wvl/jamstack.svg": "cc2c4169001b4d9f"
+  "sources/wvl/jamstack.svg": "cc2c4169001b4d9f",
+  "sources/jamstack-icon.svg": "ad1478caa0f980ca"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/jamstack-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/jamstack-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

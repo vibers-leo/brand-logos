@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "marko",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2184367f4e62e80c",
   "sources/iconify/marko.svg": "2184367f4e62e80c",
   "sources/iconify/marko-icon.svg": "8bd900d802af22d5",
   "sources/wvl/marko-icon.svg": "90708152cbf08cb1",
-  "sources/wvl/marko.svg": "79bf37b7d9c74a9a"
+  "sources/wvl/marko.svg": "79bf37b7d9c74a9a",
+  "sources/marko-icon.svg": "90708152cbf08cb1"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/marko-icon.svg",
     "png": "sources/iconify/marko-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 1.818,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/marko-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/marko-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

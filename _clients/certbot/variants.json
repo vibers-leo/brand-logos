@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "certbot",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "2a8359ad151d407d",
   "sources/iconify/certbot.svg": "2a8359ad151d407d",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

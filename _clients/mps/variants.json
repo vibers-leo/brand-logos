@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mps",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f3475eeb5a9ec78c",
   "sources/iconify/mps.svg": "f3475eeb5a9ec78c",
   "sources/iconify/mps-icon.svg": "3583471334616292",
   "sources/wvl/mps-icon.svg": "224c12535161f19b",
-  "sources/wvl/mps.svg": "342c81732080754c"
+  "sources/wvl/mps.svg": "342c81732080754c",
+  "sources/mps-icon.svg": "224c12535161f19b"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mps-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/mps-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

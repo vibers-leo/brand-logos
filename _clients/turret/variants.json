@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "turret",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "77344316b232e5f7",
   "sources/iconify/turret.svg": "77344316b232e5f7",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "spack",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "dec85b151a0a13fc",
   "sources/devicons/spack-original.svg": "dec85b151a0a13fc"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

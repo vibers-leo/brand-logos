@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "milligram",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "2d3f3c9d4ad3f3ec",
   "sources/iconify/milligram.svg": "2d3f3c9d4ad3f3ec",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

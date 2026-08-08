@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "prometheus",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "091f8a274312da52",
   "sources/iconify/prometheus.svg": "091f8a274312da52",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

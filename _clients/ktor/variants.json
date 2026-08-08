@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ktor",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "318f0402a7fdc56b",
   "sources/iconify/ktor.svg": "318f0402a7fdc56b",
   "sources/iconify/ktor-icon.svg": "6438adfb57d418d0",
   "sources/devicons/ktor-original.svg": "502bf1102492bccb",
   "sources/wvl/ktor-icon.svg": "f873daf32a7c50f6",
-  "sources/wvl/ktor.svg": "a894f2502200abd2"
+  "sources/wvl/ktor.svg": "a894f2502200abd2",
+  "sources/ktor-icon.svg": "f873daf32a7c50f6"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -38,7 +39,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -59,6 +60,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/ktor-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/ktor-icon.svg"
     }
    ]
   }

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "concretecms",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "79144835d51e4943",
   "sources/iconify/concretecms.svg": "79144835d51e4943",
   "sources/iconify/concretecms-icon.svg": "a1d1404484056aaf",
   "sources/wvl/concretecms-icon.svg": "ef66dde7333ab7ba",
-  "sources/wvl/concretecms.svg": "3090e0827b5c7806"
+  "sources/wvl/concretecms.svg": "3090e0827b5c7806",
+  "sources/concretecms-icon.svg": "ef66dde7333ab7ba"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/concretecms-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/concretecms-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

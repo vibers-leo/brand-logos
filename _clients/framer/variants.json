@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "framer",
- "primary": "vertical-en-mono-dark",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "f980688016a7db12",
   "sources/iconify/framer.svg": "f980688016a7db12",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "mono-dark",

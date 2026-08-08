@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "php",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "2a1b605756b46ae9",
   "sources/iconify/php.svg": "2a1b605756b46ae9",
@@ -12,7 +12,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/php-original.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/php-alt.svg"
     }
    ]
-  },
-  {
-   "key": "horizontal-en-mono-dark",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/wvl/php-alt.svg",
-    "png": "sources/wvl/php-alt.png"
-   },
-   "aspect": 1.987,
-   "provider": "wvl",
-   "origin": "collected",
-   "order": 10
   }
  ]
 }

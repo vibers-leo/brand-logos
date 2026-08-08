@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "drools",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "05e437e2fde59006",
   "sources/iconify/drools.svg": "05e437e2fde59006",
   "sources/iconify/drools-icon.svg": "e99234b29e2a8173",
   "sources/wvl/drools-icon.svg": "8de5f1e3912bb5b2",
-  "sources/wvl/drools.svg": "38d420e9e24c45ca"
+  "sources/wvl/drools.svg": "38d420e9e24c45ca",
+  "sources/drools-icon.svg": "8de5f1e3912bb5b2"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/drools-icon.svg",
     "png": "sources/iconify/drools-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.752,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/drools-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/drools-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

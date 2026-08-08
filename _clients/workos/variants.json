@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "workos",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6f1bc1001ffce94d",
   "sources/iconify/workos.svg": "6f1bc1001ffce94d",
   "sources/iconify/workos-icon.svg": "0e36c5289a7a2357",
   "sources/wvl/workos-icon.svg": "0f43f3aa364c36c3",
-  "sources/wvl/workos.svg": "b8432f138f309244"
+  "sources/wvl/workos.svg": "b8432f138f309244",
+  "sources/workos-icon.svg": "0f43f3aa364c36c3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/workos-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/workos-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

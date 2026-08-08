@@ -2,13 +2,15 @@
  "schema": 1,
  "algo_v": 1,
  "id": "docker",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "58d937d6f9fee982"
+  "logo.svg": "58d937d6f9fee982",
+  "sources/iconify/docker-icon.svg": "41616c20cb0b6da2",
+  "sources/docker-icon.svg": "2c671a280b3f5856"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -21,6 +23,27 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/docker-icon.svg",
+    "png": "sources/iconify/docker-icon.png"
+   },
+   "aspect": 1.385,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/docker-icon.svg"
+    }
+   ]
   }
  ]
 }

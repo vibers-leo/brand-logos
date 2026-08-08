@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "gocd",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "c96bb968ea6ed23f",
   "sources/iconify/gocd.svg": "c96bb968ea6ed23f",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

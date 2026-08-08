@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "wearos",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "708c99fe5be6f37a",
   "sources/iconify/wearos.svg": "708c99fe5be6f37a"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

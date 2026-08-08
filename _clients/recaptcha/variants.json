@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "recaptcha",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "98502f15963b6b50",
   "sources/iconify/recaptcha.svg": "98502f15963b6b50",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

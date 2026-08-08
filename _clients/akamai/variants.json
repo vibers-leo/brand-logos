@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "akamai",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "108347e5b4059692",
   "sources/iconify/akamai.svg": "108347e5b4059692",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

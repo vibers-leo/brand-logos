@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "typeform",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d11db63e0b7e13ac",
   "sources/iconify/typeform.svg": "d11db63e0b7e13ac",
   "sources/iconify/typeform-icon.svg": "4770b67ad93f3505",
   "sources/wvl/typeform-icon.svg": "a4fd7c73c7aef7cf",
-  "sources/wvl/typeform.svg": "83b9064a1ad7c89a"
+  "sources/wvl/typeform.svg": "83b9064a1ad7c89a",
+  "sources/typeform-icon.svg": "a4fd7c73c7aef7cf"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/typeform-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/typeform-icon.svg"
     }
    ]
   }

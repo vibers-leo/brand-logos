@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "applitools",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "0db25f16010887ef",
   "sources/iconify/applitools.svg": "0db25f16010887ef",
   "sources/iconify/applitools-icon.svg": "16c6887ecb1bf878",
   "sources/wvl/applitools-icon.svg": "a9395bbc16c2fb36",
-  "sources/wvl/applitools.svg": "fa9bfa025734dbaa"
+  "sources/wvl/applitools.svg": "fa9bfa025734dbaa",
+  "sources/applitools-icon.svg": "a9395bbc16c2fb36"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/applitools-icon.svg",
     "png": "sources/iconify/applitools-icon.png"
@@ -24,16 +25,20 @@
    "aspect": 0.733,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/applitools-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/applitools-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

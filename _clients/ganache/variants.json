@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ganache",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "faa3e145cc9bef0b",
   "sources/iconify/ganache.svg": "faa3e145cc9bef0b",
   "sources/iconify/ganache-icon.svg": "9f7fa19597ea8058",
   "sources/wvl/ganache-icon.svg": "0dbdebd32194f901",
-  "sources/wvl/ganache.svg": "57c9e22432e580c4"
+  "sources/wvl/ganache.svg": "57c9e22432e580c4",
+  "sources/ganache-icon.svg": "0dbdebd32194f901"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/ganache-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/ganache-icon.svg"
     }
    ]
   }

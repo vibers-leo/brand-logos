@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "semantic-web",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "e4684c625f46012a",
   "sources/wvl/semantic-web.svg": "e4684c625f46012a"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sonarcloud",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9670ce3e79e40083",
   "sources/iconify/sonarcloud.svg": "9670ce3e79e40083",
   "sources/iconify/sonarcloud-icon.svg": "5f634df26874b7b9",
   "sources/wvl/sonarcloud-icon.svg": "564bdbb42bcff32a",
-  "sources/wvl/sonarcloud.svg": "7aa5941760c28100"
+  "sources/wvl/sonarcloud.svg": "7aa5941760c28100",
+  "sources/sonarcloud-icon.svg": "564bdbb42bcff32a"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/sonarcloud-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sonarcloud-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

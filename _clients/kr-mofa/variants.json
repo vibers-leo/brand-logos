@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kr-mofa",
- "primary": "horizontal-unknown-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "f0f192ed700aba51"
  },
  "variants": [
   {
-   "key": "horizontal-unknown-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

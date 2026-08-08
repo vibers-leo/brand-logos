@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "discourse",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "830690f9a31cb9a7",
   "sources/iconify/discourse.svg": "830690f9a31cb9a7",
   "sources/iconify/discourse-icon.svg": "18484a18a6adf12a",
   "sources/wvl/discourse-icon.svg": "82b06a0c7ce1d38f",
-  "sources/wvl/discourse.svg": "22819da256693f1a"
+  "sources/wvl/discourse.svg": "22819da256693f1a",
+  "sources/discourse-icon.svg": "82b06a0c7ce1d38f"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/discourse-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/discourse-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

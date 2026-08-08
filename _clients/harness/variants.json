@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "harness",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "60ec804e479257b9",
   "sources/iconify/harness.svg": "60ec804e479257b9",
   "sources/iconify/harness-icon.svg": "8dc1d928d838fb3d",
   "sources/wvl/harness-icon.svg": "22fc3a0b0a7d666e",
-  "sources/wvl/harness.svg": "8a7668524e2e4c73"
+  "sources/wvl/harness.svg": "8a7668524e2e4c73",
+  "sources/harness-icon.svg": "22fc3a0b0a7d666e"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/harness-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/harness-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

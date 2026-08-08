@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "wix",
- "primary": "horizontal-unknown-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "fb28ed569ca8a4da",
   "sources/iconify/wix.svg": "d69b11d601d0cfa7",
@@ -10,28 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
-   "form": "horizontal",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/iconify/wix.svg",
-    "png": "sources/iconify/wix.png"
-   },
-   "aspect": 2.537,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/wix.svg"
-    }
-   ]
-  },
-  {
-   "key": "horizontal-unknown-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
@@ -43,7 +22,17 @@
    "aspect": 2.571,
    "provider": "simple-icons/wix",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/wix.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/wix.svg"
+    }
+   ]
   }
  ]
 }

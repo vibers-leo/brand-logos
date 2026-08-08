@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pixijs",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "3d853a6dd0a063e8",
   "sources/iconify/pixijs.svg": "3d853a6dd0a063e8",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

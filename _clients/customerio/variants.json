@@ -2,21 +2,22 @@
  "schema": 1,
  "algo_v": 1,
  "id": "customerio",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "28ea44c903ec674c",
   "sources/iconify/customerio.svg": "28ea44c903ec674c",
   "sources/iconify/customerio-icon.svg": "5b780415a6754f8d",
   "sources/wvl/customerio-icon.svg": "4f1cffc2444bb712",
-  "sources/wvl/customerio.svg": "cb0213daa48f356c"
+  "sources/wvl/customerio.svg": "cb0213daa48f356c",
+  "sources/customerio-icon.svg": "4f1cffc2444bb712"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
-   "form": "horizontal",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "color",
-   "label": "가로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/customerio-icon.svg",
     "png": "sources/iconify/customerio-icon.png"
@@ -24,20 +25,24 @@
    "aspect": 1.429,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/customerio-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/customerio-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -45,7 +50,7 @@
    "aspect": 5.488,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -56,23 +61,6 @@
      "file": "sources/wvl/customerio.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

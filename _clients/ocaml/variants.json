@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ocaml",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2a412bc8135f8e32",
   "sources/iconify/ocaml.svg": "2a412bc8135f8e32",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -26,7 +26,7 @@
    "order": 30
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

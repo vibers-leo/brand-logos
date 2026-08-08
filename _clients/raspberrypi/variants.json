@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "raspberrypi",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "e1e43b61378d21a8",
   "sources/devicons/raspberrypi-original.svg": "e1e43b61378d21a8"
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

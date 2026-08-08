@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "percy",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "d20d8486434e3203",
   "sources/iconify/percy.svg": "d20d8486434e3203",
   "sources/iconify/percy-icon.svg": "20bdbe75969b5293",
   "sources/wvl/percy-icon.svg": "6599f3f32374b805",
-  "sources/wvl/percy.svg": "67d169796925719e"
+  "sources/wvl/percy.svg": "67d169796925719e",
+  "sources/percy-icon.svg": "6599f3f32374b805"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/percy-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/percy-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

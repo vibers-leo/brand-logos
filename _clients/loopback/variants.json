@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "loopback",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6896d62518834d35",
   "sources/iconify/loopback.svg": "6896d62518834d35",
   "sources/iconify/loopback-icon.svg": "dc1e70754bec6346",
   "sources/wvl/loopback-icon.svg": "5212f8e4c1ea9141",
-  "sources/wvl/loopback.svg": "d85beb5e229a9259"
+  "sources/wvl/loopback.svg": "d85beb5e229a9259",
+  "sources/loopback-icon.svg": "5212f8e4c1ea9141"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/loopback-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/loopback-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

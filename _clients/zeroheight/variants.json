@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "zeroheight",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "f6eda9249689f26d",
   "sources/iconify/zeroheight.svg": "f6eda9249689f26d",
   "sources/iconify/zeroheight-icon.svg": "d697a1f71cf270e0",
   "sources/wvl/zeroheight-icon.svg": "3a7e4be201a98910",
-  "sources/wvl/zeroheight.svg": "df769771ddf0a4b7"
+  "sources/wvl/zeroheight.svg": "df769771ddf0a4b7",
+  "sources/zeroheight-icon.svg": "3a7e4be201a98910"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/zeroheight-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/zeroheight-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

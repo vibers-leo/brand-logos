@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "amex",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "fc424667b3125644",
   "sources/fa.svg": "fc424667b3125644",
@@ -12,7 +12,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -33,7 +33,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

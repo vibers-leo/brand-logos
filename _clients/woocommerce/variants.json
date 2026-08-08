@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "woocommerce",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a9beed17d9cb945b",
   "sources/iconify/woocommerce.svg": "a9beed17d9cb945b",
   "sources/iconify/woocommerce-icon.svg": "8d7c50e1a61ef673",
   "sources/devicons/woocommerce-original.svg": "8b58cf34dbebfa92",
   "sources/wvl/woocommerce-icon.svg": "68f1b4ddea875772",
-  "sources/wvl/woocommerce.svg": "0a5da3aecf04b0b7"
+  "sources/wvl/woocommerce.svg": "0a5da3aecf04b0b7",
+  "sources/woocommerce-icon.svg": "68f1b4ddea875772"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/woocommerce-original.svg",
+    "png": "sources/devicons/woocommerce-original.png"
+   },
+   "aspect": 1.673,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/woocommerce-icon.svg",
     "png": "sources/iconify/woocommerce-icon.png"
@@ -25,20 +41,20 @@
    "aspect": 1.682,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/woocommerce-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/woocommerce-original.svg"
+     "provider": "merged",
+     "file": "sources/woocommerce-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

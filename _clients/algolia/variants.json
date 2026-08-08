@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "algolia",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "96fc8cb545d0ea61",
   "sources/iconify/algolia.svg": "96fc8cb545d0ea61",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -26,7 +26,7 @@
    "order": 30
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

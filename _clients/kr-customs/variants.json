@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kr-customs",
- "primary": "horizontal-unknown-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "2d8d6bf3cc1c8644"
  },
  "variants": [
   {
-   "key": "horizontal-unknown-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

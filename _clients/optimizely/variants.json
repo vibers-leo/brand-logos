@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "optimizely",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1ac80b33c62f6fe9",
   "sources/iconify/optimizely.svg": "1ac80b33c62f6fe9",
   "sources/iconify/optimizely-icon.svg": "1594920aa6d76137",
   "sources/wvl/optimizely-icon.svg": "3a6f55071f88fef3",
-  "sources/wvl/optimizely.svg": "8d3150e0e3078146"
+  "sources/wvl/optimizely.svg": "8d3150e0e3078146",
+  "sources/optimizely-icon.svg": "3a6f55071f88fef3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/optimizely-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/optimizely-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

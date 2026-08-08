@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "xwiki",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b98124a860d8d58c",
   "sources/iconify/xwiki.svg": "b98124a860d8d58c",
   "sources/iconify/xwiki-icon.svg": "250d9158919b5498",
   "sources/wvl/xwiki-icon.svg": "4a3a5fb55b60625b",
-  "sources/wvl/xwiki.svg": "51a9c59d593f3220"
+  "sources/wvl/xwiki.svg": "51a9c59d593f3220",
+  "sources/xwiki-icon.svg": "4a3a5fb55b60625b"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/xwiki-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/xwiki-icon.svg"
     }
    ]
   }

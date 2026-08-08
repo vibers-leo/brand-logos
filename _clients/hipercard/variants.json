@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hipercard",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "41d3c655568b052e",
   "sources/iconify/hipercard.svg": "41d3c655568b052e",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

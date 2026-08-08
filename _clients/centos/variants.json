@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "centos",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "1afdd1508f1975d4",
   "sources/iconify/centos.svg": "1afdd1508f1975d4",
   "sources/iconify/centos-icon.svg": "6e6f40fa17043307",
   "sources/devicons/centos-original.svg": "8f054f0285cf70b1",
   "sources/wvl/centos-icon.svg": "c6111315fb88428c",
-  "sources/wvl/centos.svg": "12c0c27e471ed323"
+  "sources/wvl/centos.svg": "12c0c27e471ed323",
+  "sources/centos-icon.svg": "c6111315fb88428c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/centos-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/centos-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

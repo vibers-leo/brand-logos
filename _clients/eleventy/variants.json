@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "eleventy",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "86ff0df240b00ca1",
   "sources/iconify/eleventy.svg": "86ff0df240b00ca1",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "mono-dark",
@@ -26,7 +26,7 @@
    "order": 20
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",

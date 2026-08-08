@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "appcircle",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "730e53bb0b3935d3",
   "sources/iconify/appcircle.svg": "730e53bb0b3935d3",
   "sources/iconify/appcircle-icon.svg": "4ae6f0cd4267d62a",
   "sources/wvl/appcircle-icon.svg": "00920afbad74026d",
-  "sources/wvl/appcircle.svg": "1d4b89143e84361d"
+  "sources/wvl/appcircle.svg": "1d4b89143e84361d",
+  "sources/appcircle-icon.svg": "00920afbad74026d"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/appcircle-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/appcircle-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

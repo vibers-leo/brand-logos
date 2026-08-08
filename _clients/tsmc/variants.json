@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tsmc",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "bfbcbae9aee42664",
   "sources/iconify/tsmc.svg": "bfbcbae9aee42664",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

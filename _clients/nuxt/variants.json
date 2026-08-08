@@ -2,22 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nuxt",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "11478d62aa88e728",
   "sources/iconify/nuxt.svg": "11478d62aa88e728",
   "sources/iconify/nuxt-icon.svg": "890e1013cb2170d7",
   "sources/devicons/nuxt-original.svg": "58550fff19eadb23",
   "sources/wvl/nuxt-icon.svg": "31aadd37c878068e",
-  "sources/wvl/nuxt.svg": "81d999ce27f47f3a"
+  "sources/wvl/nuxt.svg": "81d999ce27f47f3a",
+  "sources/nuxt-icon.svg": "31aadd37c878068e"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
+   "files": {
+    "svg": "sources/devicons/nuxt-original.svg",
+    "png": "sources/devicons/nuxt-original.png"
+   },
+   "aspect": 1.5,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/nuxt-icon.svg",
     "png": "sources/iconify/nuxt-icon.png"
@@ -25,24 +41,24 @@
    "aspect": 1.535,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/nuxt-icon.svg"
     },
     {
-     "provider": "devicons",
-     "file": "sources/devicons/nuxt-original.svg"
+     "provider": "merged",
+     "file": "sources/nuxt-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -50,7 +66,7 @@
    "aspect": 4.256,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -61,23 +77,6 @@
      "file": "sources/wvl/nuxt.svg"
     }
    ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 0.89
   }
  ]
 }

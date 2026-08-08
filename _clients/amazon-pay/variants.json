@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "amazon-pay",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "f35dcf26cdc3959f",
   "sources/fa.svg": "f35dcf26cdc3959f"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

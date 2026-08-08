@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bigpanda",
- "primary": "symbol-en-mono-dark",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d2a670e43e10ad8f",
   "sources/iconify/bigpanda.svg": "d2a670e43e10ad8f",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",

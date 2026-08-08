@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sidekiq",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "eb02a102264606b3",
   "sources/iconify/sidekiq.svg": "eb02a102264606b3",
   "sources/iconify/sidekiq-icon.svg": "085a4d0bb38650da",
   "sources/wvl/sidekiq-icon.svg": "9407bcedac8bd744",
-  "sources/wvl/sidekiq.svg": "50d41786c1f4f1f9"
+  "sources/wvl/sidekiq.svg": "50d41786c1f4f1f9",
+  "sources/sidekiq-icon.svg": "9407bcedac8bd744"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/sidekiq-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/sidekiq-icon.svg"
     }
    ]
   }

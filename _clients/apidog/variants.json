@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "apidog",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "fde720c4dec51e53",
   "sources/iconify/apidog.svg": "fde720c4dec51e53",
   "sources/iconify/apidog-icon.svg": "8cb3548c7ba3fa27",
   "sources/wvl/apidog-icon.svg": "7d629a29778b2ca3",
-  "sources/wvl/apidog.svg": "5776725599d4e175"
+  "sources/wvl/apidog.svg": "5776725599d4e175",
+  "sources/apidog-icon.svg": "7d629a29778b2ca3"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/apidog-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/apidog-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

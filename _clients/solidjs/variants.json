@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "solidjs",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "82c6a6f3748a000c",
   "sources/iconify/solidjs.svg": "82c6a6f3748a000c",
   "sources/iconify/solidjs-icon.svg": "08ed13278e655687",
   "sources/devicons/solidjs-original.svg": "b269f48f6a5fe49b",
   "sources/wvl/solidjs-icon.svg": "82783c7e66336656",
-  "sources/wvl/solidjs.svg": "a44120fd580d9475"
+  "sources/wvl/solidjs.svg": "a44120fd580d9475",
+  "sources/solidjs-icon.svg": "82783c7e66336656"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -38,7 +39,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -59,6 +60,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/solidjs-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/solidjs-icon.svg"
     }
    ]
   }

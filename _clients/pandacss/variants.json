@@ -2,15 +2,16 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pandacss",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "9d62337e464a96eb",
   "sources/iconify/pandacss.svg": "9d62337e464a96eb",
-  "sources/iconify/pandacss-icon.svg": "e667ab6c92fc5a6b"
+  "sources/iconify/pandacss-icon.svg": "e667ab6c92fc5a6b",
+  "sources/pandacss-icon.svg": "22e5107c71705514"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -31,7 +32,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "flask",
- "primary": "vertical-en-mono-dark",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "68ce922b0fdff166",
   "sources/iconify/flask.svg": "68ce922b0fdff166",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-mono-dark",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "mono-dark",
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",

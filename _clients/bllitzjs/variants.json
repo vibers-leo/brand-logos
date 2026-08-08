@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bllitzjs",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "5c2b55a9a559f39c",
   "sources/wvl/blitzjs.svg": "5c2b55a9a559f39c"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

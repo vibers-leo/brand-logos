@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jquery-mobile",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d70be8b890232ec1",
   "sources/iconify/jquery-mobile.svg": "d70be8b890232ec1",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

@@ -2,22 +2,63 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stackblitz",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6c76ad53674d9226",
   "sources/iconify/stackblitz.svg": "6c76ad53674d9226",
   "sources/iconify/stackblitz-icon.svg": "417b2ae6e4594932",
   "sources/devicons/stackblitz-original.svg": "4d50bbbcd5c6e065",
   "sources/wvl/stackblitz-icon.svg": "3f94ce79ed9fe9c6",
-  "sources/wvl/stackblitz.svg": "9d59096dcfc7bcd5"
+  "sources/wvl/stackblitz.svg": "9d59096dcfc7bcd5",
+  "sources/stackblitz-icon.svg": "3f94ce79ed9fe9c6"
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/devicons/stackblitz-original.svg",
+    "png": "sources/devicons/stackblitz-original.png"
+   },
+   "aspect": 0.687,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/stackblitz-icon.svg",
+    "png": "sources/iconify/stackblitz-icon.png"
+   },
+   "aspect": 0.697,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/stackblitz-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/stackblitz-icon.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -25,7 +66,7 @@
    "aspect": 4.891,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -36,48 +77,6 @@
      "file": "sources/wvl/stackblitz.svg"
     }
    ]
-  },
-  {
-   "key": "vertical-en-color",
-   "form": "vertical",
-   "lang": "en",
-   "color": "color",
-   "label": "세로조합형",
-   "files": {
-    "svg": "sources/iconify/stackblitz-icon.svg",
-    "png": "sources/iconify/stackblitz-icon.png"
-   },
-   "aspect": 0.697,
-   "provider": "iconify",
-   "origin": "collected",
-   "order": 20,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/stackblitz-icon.svg"
-    },
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/stackblitz-original.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol-none-color",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
   }
  ]
 }

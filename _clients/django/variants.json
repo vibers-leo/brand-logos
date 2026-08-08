@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "django",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "592d9f99113149ab",
   "sources/iconify/django.svg": "592d9f99113149ab",
   "sources/iconify/django-icon.svg": "4ca708a8a2efebdf",
   "sources/devicons/django-plain.svg": "f67fd8439c353796",
   "sources/wvl/django-icon.svg": "ceb4e60f51defc5b",
-  "sources/wvl/django.svg": "652f0c1ad6d37c6b"
+  "sources/wvl/django.svg": "652f0c1ad6d37c6b",
+  "sources/django-icon.svg": "ceb4e60f51defc5b"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -38,7 +39,7 @@
    ]
   },
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -53,7 +54,7 @@
    "order": 20
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -70,6 +71,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/django-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/django-icon.svg"
     }
    ]
   }

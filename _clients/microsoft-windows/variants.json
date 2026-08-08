@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "microsoft-windows",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "6f49e7e951f68249",
   "sources/iconify/microsoft-windows.svg": "6f49e7e951f68249",
   "sources/iconify/microsoft-windows-icon.svg": "05a69ba212e6e429",
   "sources/wvl/microsoft-windows-icon.svg": "aead61614c2f619c",
-  "sources/wvl/microsoft-windows.svg": "a2990d4b9c52697d"
+  "sources/wvl/microsoft-windows.svg": "a2990d4b9c52697d",
+  "sources/microsoft-windows-icon.svg": "aead61614c2f619c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/microsoft-windows-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/microsoft-windows-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

@@ -126,13 +126,27 @@ def rel(p: Path) -> str:
     return p.name if p.parent.name == p.parent.name else str(p)
 
 
+# 제공자가 슬러그로 형태를 명시한 경우 — 종횡비 추정보다 이쪽이 확실하다.
+# 예: YouTube 재생버튼 아이콘은 가로로 넓어서 종횡비로는 'horizontal' 이 되고
+# 본체와 같은 키로 합쳐져버린다. 파일명이 -icon 이면 그건 심볼이다.
+SLUG_FORM = {"-icon": "symbol", "-wordmark": "wordmark", "-symbol": "symbol"}
+
+
+def form_from_slug(rel_path: str) -> str | None:
+    stem = Path(rel_path).stem.lower()
+    for suffix, form in SLUG_FORM.items():
+        if stem.endswith(suffix):
+            return form
+    return None
+
+
 def analyze_file(path: Path, brand: dict, provider: str, rel_path: str):
     """한 파일 → 변형 레코드 (분석 불가면 None)."""
     arr = L.render(path, 900)
     if arr is None:
         return None
     ar = L.aspect(arr)
-    form = L.classify(ar)
+    form = form_from_slug(rel_path) or L.classify(ar)
     return {
         "form": form,
         "lang": guess_lang(brand, rel_path, provider),
@@ -258,15 +272,33 @@ def build_brand(brand: dict, force: bool, dry: bool):
             })
 
     # key 로 묶기 — 같은 형태·언어·색상은 카드 1장, 나머지 제공자는 alts 로
-    groups: "OrderedDict[str, list]" = OrderedDict()
+    # 그룹 키에 색상을 넣지 않는다.
+    # 넣었더니 같은 '심볼형'이 제공자별 색상 차이(color/mono-dark)로 키가 갈려
+    # airbnb 처럼 똑같아 보이는 카드가 3장씩 떴다. 색상은 대표 레코드에만 남기고
+    # 나머지 제공자는 alts 로 접는다.
+    # 1차: 형태로만 묶는다.
+    # 색상이나 lang=unknown 차이로 키가 갈리면 똑같아 보이는 카드가 여러 장
+    # 뜬다 (airbnb 가 '심볼형' 3장이었다). 언어는 아래에서 필요할 때만 쪼갠다.
+    by_form: "OrderedDict[str, list]" = OrderedDict()
     for r in records:
-        key = f"{r['form']}-{r['lang']}-{r['color']}"
-        groups.setdefault(key, []).append(r)
+        by_form.setdefault(r["form"], []).append(r)
+
+    # 2차: 한 형태 안에 **알려진 언어가 2개 이상**일 때만 언어로 나눈다.
+    # (한글판·영문판이 둘 다 있는 경우. unknown 은 나누는 근거가 못 된다.)
+    groups: "OrderedDict[str, list]" = OrderedDict()
+    for form, items in by_form.items():
+        known = {r["lang"] for r in items if r["lang"] in ("ko", "en")}
+        if len(known) >= 2:
+            for r in items:
+                groups.setdefault(f"{form}-{r['lang']}", []).append(r)
+        else:
+            groups[form] = items
 
     variants = []
     for key, group in groups.items():
         group.sort(key=lambda r: (
             0 if r["file"] == "logo.svg" else 1,               # 대표 파일 우선
+            0 if r["color"] == "color" else 1,                 # 컬러본 우선
             PROVIDER_RANK.get(r["provider"].split(":")[0], 50),
         ))
         head = group[0]
@@ -321,6 +353,12 @@ def build_brand(brand: dict, force: bool, dry: bool):
                     by_key[o["key"]].update(o)
                     by_key[o["key"]]["origin"] = "manual"
                 else:
+                    # override 로만 존재하는 항목 — 필수 필드를 채워 넣는다
+                    o.setdefault("form", "unknown")
+                    o.setdefault("lang", "unknown")
+                    o.setdefault("color", "color")
+                    o.setdefault("files", {})
+                    o.setdefault("order", 90)
                     o["origin"] = "manual"
                     manifest["variants"].append(o)
         except Exception:
@@ -362,9 +400,10 @@ def main() -> int:
         n = len(m["variants"])
         if n > 1:
             multi += 1
-        if any(v["origin"] == "derived" for v in m["variants"]):
+        if any(v.get("origin") == "derived" for v in m["variants"]):
             derived += 1
-        index[b["id"]] = {"n": n, "forms": sorted({v["form"] for v in m["variants"]})}
+        index[b["id"]] = {"n": n,
+                          "forms": sorted({v.get("form", "unknown") for v in m["variants"]})}
         if stats["생성"] % 500 == 0:
             print(f"  ... {stats['생성']}개 처리", flush=True)
 
@@ -383,7 +422,7 @@ def main() -> int:
                 continue
             vs = m.get("variants", [])
             full[mp.parent.name] = {"n": len(vs),
-                                    "forms": sorted({v["form"] for v in vs})}
+                                    "forms": sorted({v.get("form", "unknown") for v in vs})}
         idx_path = BASE / "variants-index.json"
         idx_path.write_text(json.dumps(
             {"schema": SCHEMA, "algo_v": L.ALGO_V, "count": len(full), "brands": full},

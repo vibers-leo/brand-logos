@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "firebase",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9b8b22c8d1daeb04"
+  "logo.svg": "9b8b22c8d1daeb04",
+  "sources/firebase-icon.svg": "160aa5af7a258b84"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 0.8,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/firebase-icon.svg"
+    }
+   ]
   }
  ]
 }

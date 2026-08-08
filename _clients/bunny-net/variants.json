@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bunny-net",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "aa8ab2cfb5466a3e",
   "sources/iconify/bunny-net.svg": "aa8ab2cfb5466a3e",
   "sources/iconify/bunny-net-icon.svg": "1fc3a57be4ddba5a",
   "sources/wvl/bunny-net-icon.svg": "7595744c464a1702",
-  "sources/wvl/bunny-net.svg": "4ece4230b495d9fa"
+  "sources/wvl/bunny-net.svg": "4ece4230b495d9fa",
+  "sources/bunny-net-icon.svg": "7595744c464a1702"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/bunny-net-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/bunny-net-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

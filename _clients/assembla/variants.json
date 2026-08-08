@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "assembla",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "a741a80f492a0f51",
   "sources/iconify/assembla.svg": "a741a80f492a0f51",
   "sources/iconify/assembla-icon.svg": "aa422f201118338d",
   "sources/wvl/assembla-icon.svg": "46b931b0d9e6e7c4",
-  "sources/wvl/assembla.svg": "0eb0f1dd31b72f8c"
+  "sources/wvl/assembla.svg": "0eb0f1dd31b72f8c",
+  "sources/assembla-icon.svg": "46b931b0d9e6e7c4"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -24,25 +25,20 @@
    "aspect": 0.902,
    "provider": "iconify",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/assembla-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/assembla-icon.svg"
+    }
+   ]
   },
   {
-   "key": "symbol-en-mono-dark",
-   "form": "symbol",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/wvl/assembla-icon.svg",
-    "png": "sources/wvl/assembla-icon.png"
-   },
-   "aspect": 0.902,
-   "provider": "wvl",
-   "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

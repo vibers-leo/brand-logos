@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ibm",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "7b44c58c2a9e73e4",
   "sources/iconify/ibm.svg": "7b44c58c2a9e73e4",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

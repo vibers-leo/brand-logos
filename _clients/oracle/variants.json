@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "oracle",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "af228e51df8516a3",
   "sources/iconify/oracle.svg": "af228e51df8516a3",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
@@ -40,7 +40,7 @@
    ]
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

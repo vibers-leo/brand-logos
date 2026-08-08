@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "batch",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "93329f872238f924",
   "sources/iconify/batch.svg": "93329f872238f924",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

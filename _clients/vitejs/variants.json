@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "vitejs",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "58f9526d8ea0c1bd",
   "sources/devicons/vitejs-original.svg": "58f9526d8ea0c1bd",
@@ -13,28 +13,22 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
    "label": "가로조합형",
    "files": {
-    "svg": "sources/wvl/vite-icon.svg",
-    "png": "sources/wvl/vite-icon.png"
+    "svg": "sources/wvl/vite-icon-dark.svg",
+    "png": "sources/wvl/vite-icon-dark.png"
    },
    "aspect": 1.625,
    "provider": "wvl",
    "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "wvl",
-     "file": "sources/wvl/vite-icon-dark.svg"
-    }
-   ]
+   "order": 10
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -49,13 +43,17 @@
    "order": 30,
    "alts": [
     {
+     "provider": "wvl",
+     "file": "sources/wvl/vite-icon.svg"
+    },
+    {
      "provider": "devicons",
      "file": "sources/devicons/vitejs-original.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

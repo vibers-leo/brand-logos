@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "recoil",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "0268b2b81b8738e5",
   "sources/iconify/recoil.svg": "0268b2b81b8738e5",
   "sources/iconify/recoil-icon.svg": "281360624c236555",
   "sources/wvl/recoil-icon.svg": "f5e2f3ae1e6fbe32",
-  "sources/wvl/recoil.svg": "b79dd99051e788f5"
+  "sources/wvl/recoil.svg": "b79dd99051e788f5",
+  "sources/recoil-icon.svg": "f5e2f3ae1e6fbe32"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,11 +38,11 @@
    ]
   },
   {
-   "key": "vertical-en-mono-dark",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
-   "label": "세로조합형",
+   "label": "심볼형",
    "files": {
     "svg": "sources/iconify/recoil-icon.svg",
     "png": "sources/iconify/recoil-icon.png"
@@ -49,11 +50,15 @@
    "aspect": 0.43,
    "provider": "iconify",
    "origin": "collected",
-   "order": 20,
+   "order": 30,
    "alts": [
     {
      "provider": "wvl",
      "file": "sources/wvl/recoil-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/recoil-icon.svg"
     }
    ]
   }

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "panda",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d46b33d56f826f3e",
   "sources/iconify/panda.svg": "d46b33d56f826f3e",
@@ -12,7 +12,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +37,7 @@
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

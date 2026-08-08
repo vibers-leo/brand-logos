@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "rabbitmq",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2fe6c011ab2a6165",
   "sources/iconify/rabbitmq.svg": "2fe6c011ab2a6165",
   "sources/iconify/rabbitmq-icon.svg": "5d5f1a10581c84df",
   "sources/devicons/rabbitmq-original.svg": "81bbdf2c77233eef",
   "sources/wvl/rabbitmq-icon.svg": "41a94315eb9c1dd0",
-  "sources/wvl/rabbitmq.svg": "3a2b9d2952991b22"
+  "sources/wvl/rabbitmq.svg": "3a2b9d2952991b22",
+  "sources/rabbitmq-icon.svg": "41a94315eb9c1dd0"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/rabbitmq-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/rabbitmq-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

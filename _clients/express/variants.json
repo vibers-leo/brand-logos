@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "express",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "de2cd488bc2605b2",
   "sources/iconify/express.svg": "de2cd488bc2605b2",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -26,7 +26,7 @@
    "order": 10
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

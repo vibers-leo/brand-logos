@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "launchrock",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "20e78a2686ce1587",
   "sources/iconify/launchrock.svg": "20e78a2686ce1587",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

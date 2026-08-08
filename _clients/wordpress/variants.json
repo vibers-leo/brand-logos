@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "wordpress",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "26c906773b34b8d0"
+  "logo.svg": "26c906773b34b8d0",
+  "sources/wordpress-icon.svg": "31672a58990b1f2f"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/wordpress-icon.svg"
+    }
+   ]
   }
  ]
 }

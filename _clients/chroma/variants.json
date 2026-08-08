@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "chroma",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "acf40fe9c6552407",
   "sources/iconify/chroma.svg": "acf40fe9c6552407",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

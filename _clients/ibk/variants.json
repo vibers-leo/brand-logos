@@ -2,13 +2,13 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ibk",
- "primary": "wordmark-ko-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "5d6b4109a9bf99aa"
  },
  "variants": [
   {
-   "key": "wordmark-ko-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "ko",
    "color": "color",
@@ -23,7 +23,7 @@
    "order": 10
   },
   {
-   "key": "symbol-none-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "color",

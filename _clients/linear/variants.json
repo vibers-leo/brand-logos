@@ -2,13 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "linear",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "82029e081513d99c"
+  "logo.svg": "82029e081513d99c",
+  "sources/linear-icon.svg": "9ce56e23f91cbf9c"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/linear-icon.svg"
+    }
+   ]
   }
  ]
 }

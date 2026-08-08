@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "axios",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "487e02e317b7f5a9",
   "sources/iconify/axios.svg": "487e02e317b7f5a9",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",
@@ -26,7 +26,7 @@
    "order": 20
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

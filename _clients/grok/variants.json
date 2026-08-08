@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "grok",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "6c22212ad5bca262",
   "sources/iconify/grok.svg": "6c22212ad5bca262",
   "sources/iconify/grok-icon.svg": "e985cfa15cba77f8",
   "sources/wvl/grok-icon.svg": "e739b22a577bbfb5",
-  "sources/wvl/grok.svg": "52a62835ed098a04"
+  "sources/wvl/grok.svg": "52a62835ed098a04",
+  "sources/grok-icon.svg": "e739b22a577bbfb5"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/grok-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/grok-icon.svg"
     }
    ]
   }

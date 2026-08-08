@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "apache",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "536933d5f4c90ad8",
   "sources/iconify/apache.svg": "536933d5f4c90ad8",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

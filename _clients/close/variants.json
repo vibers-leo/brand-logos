@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "close",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "aee33ad78285df0e",
   "sources/iconify/close.svg": "aee33ad78285df0e",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

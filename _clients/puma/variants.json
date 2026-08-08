@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "puma",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "2d14f4398f6616c1",
   "sources/si.svg": "2d14f4398f6616c1"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",

@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "languagetool",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "a5b982cb0ede56c3",
   "sources/iconify/languagetool.svg": "a5b982cb0ede56c3",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",

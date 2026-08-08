@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "adobe",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "cd481f4dbd32658f",
   "sources/iconify/adobe.svg": "cd481f4dbd32658f",
   "sources/iconify/adobe-icon.svg": "62b7c284e28451ca",
   "sources/wvl/adobe-icon.svg": "cf54a94519650ef4",
-  "sources/wvl/adobe.svg": "c2fbc334d77021e8"
+  "sources/wvl/adobe.svg": "c2fbc334d77021e8",
+  "sources/adobe-icon.svg": "cf54a94519650ef4"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/adobe-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/adobe-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

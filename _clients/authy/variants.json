@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "authy",
- "primary": "symbol-en-color",
+ "primary": "symbol",
  "fingerprint": {
   "logo.svg": "405666321e6c4d3a",
   "sources/iconify/authy.svg": "405666321e6c4d3a",
@@ -10,7 +10,7 @@
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",

@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "dbt",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "798e60ee06fad6b0",
   "sources/iconify/dbt.svg": "798e60ee06fad6b0",
   "sources/iconify/dbt-icon.svg": "29c9bb42c58dae44",
   "sources/wvl/dbt-icon.svg": "61357beb77d0d685",
-  "sources/wvl/dbt.svg": "42bd2cfead8de159"
+  "sources/wvl/dbt.svg": "42bd2cfead8de159",
+  "sources/dbt-icon.svg": "61357beb77d0d685"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/dbt-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/dbt-icon.svg"
     }
    ]
   }

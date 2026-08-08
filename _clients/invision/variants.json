@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "invision",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "99a0cb6fbec1535b",
   "sources/iconify/invision.svg": "99a0cb6fbec1535b",
   "sources/iconify/invision-icon.svg": "bf3a93beeace464c",
   "sources/wvl/invision-icon.svg": "af8159ee65b7f64d",
-  "sources/wvl/invision.svg": "143b5f7a50e09ace"
+  "sources/wvl/invision.svg": "143b5f7a50e09ace",
+  "sources/invision-icon.svg": "af8159ee65b7f64d"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/invision-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/invision-icon.svg"
     }
    ]
   }

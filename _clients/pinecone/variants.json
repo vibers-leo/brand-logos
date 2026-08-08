@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pinecone",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "168d9b30c75c987b",
   "sources/iconify/pinecone.svg": "168d9b30c75c987b",
   "sources/iconify/pinecone-icon.svg": "5c9b1cbde483bf92",
   "sources/wvl/pinecone-icon.svg": "6831f68341549491",
-  "sources/wvl/pinecone.svg": "c29df899b3c6de13"
+  "sources/wvl/pinecone.svg": "c29df899b3c6de13",
+  "sources/pinecone-icon.svg": "6831f68341549491"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/pinecone-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/pinecone-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

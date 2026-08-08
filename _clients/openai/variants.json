@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "openai",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "2674648768016b69",
   "sources/iconify/openai.svg": "2674648768016b69",
   "sources/iconify/openai-icon.svg": "d9a25c7f32f4924a",
   "sources/wvl/openai-icon.svg": "8e897591f78e54d6",
-  "sources/wvl/openai.svg": "10367873125a6f18"
+  "sources/wvl/openai.svg": "10367873125a6f18",
+  "sources/openai-icon.svg": "8e897591f78e54d6"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/openai-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/openai-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

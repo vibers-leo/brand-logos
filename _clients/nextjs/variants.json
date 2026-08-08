@@ -2,18 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nextjs",
- "primary": "wordmark-en-mono-dark",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "17054cdfaa1c9597",
   "sources/iconify/nextjs.svg": "17054cdfaa1c9597",
   "sources/iconify/nextjs-icon.svg": "017b89494443063e",
   "sources/devicons/nextjs-original.svg": "76004dc3059cc794",
   "sources/wvl/nextjs-icon.svg": "a9cc8f7a265f5f84",
-  "sources/wvl/nextjs.svg": "f4b3a1a99726400c"
+  "sources/wvl/nextjs.svg": "f4b3a1a99726400c",
+  "sources/nextjs-icon.svg": "a9cc8f7a265f5f84"
  },
  "variants": [
   {
-   "key": "symbol-en-mono-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "mono-dark",
@@ -34,11 +35,15 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/nextjs-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/nextjs-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-mono-dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "mono-dark",

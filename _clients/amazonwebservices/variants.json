@@ -2,14 +2,14 @@
  "schema": 1,
  "algo_v": 1,
  "id": "amazonwebservices",
- "primary": "horizontal-en-color",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "b9aac9dd03b11064",
   "sources/devicons/amazonwebservices-original-wordmark.svg": "b9aac9dd03b11064"
  },
  "variants": [
   {
-   "key": "horizontal-en-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "color",
@@ -21,13 +21,22 @@
    "aspect": 1.667,
    "provider": "devicons",
    "origin": "collected",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "devicons",
-     "file": "sources/devicons/amazonwebservices-original-wordmark.svg"
-    }
-   ]
+   "order": 10
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/devicons/amazonwebservices-original-wordmark.svg",
+    "png": "sources/devicons/amazonwebservices-original-wordmark.png"
+   },
+   "aspect": 1.667,
+   "provider": "devicons",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

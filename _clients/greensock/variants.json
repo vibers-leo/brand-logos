@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "greensock",
- "primary": "horizontal-en-mono-dark",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d982baaa45f4954e",
   "sources/iconify/greensock.svg": "d982baaa45f4954e",
   "sources/iconify/greensock-icon.svg": "ed5c896f63908efd",
   "sources/wvl/greensock-icon.svg": "e5511125629bd4e2",
-  "sources/wvl/greensock.svg": "00121b15e8a7abdb"
+  "sources/wvl/greensock.svg": "00121b15e8a7abdb",
+  "sources/greensock-icon.svg": "e5511125629bd4e2"
  },
  "variants": [
   {
-   "key": "horizontal-en-mono-dark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "en",
    "color": "mono-dark",
@@ -37,7 +38,7 @@
    ]
   },
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -54,6 +55,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/greensock-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/greensock-icon.svg"
     }
    ]
   }

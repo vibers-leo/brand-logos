@@ -2,7 +2,7 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jenkins",
- "primary": "vertical-en-color",
+ "primary": "vertical",
  "fingerprint": {
   "logo.svg": "38ecf12fe5cd2a6f",
   "sources/iconify/jenkins.svg": "38ecf12fe5cd2a6f",
@@ -11,7 +11,7 @@
  },
  "variants": [
   {
-   "key": "vertical-en-color",
+   "key": "vertical",
    "form": "vertical",
    "lang": "en",
    "color": "color",

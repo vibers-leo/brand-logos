@@ -2,17 +2,18 @@
  "schema": 1,
  "algo_v": 1,
  "id": "imba",
- "primary": "wordmark-en-color",
+ "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "cfa46b03556493b3",
   "sources/iconify/imba.svg": "cfa46b03556493b3",
   "sources/iconify/imba-icon.svg": "dffb1604114a8424",
   "sources/wvl/imba-icon.svg": "6450d29dffaa8ca9",
-  "sources/wvl/imba.svg": "fd14ee049c05f55f"
+  "sources/wvl/imba.svg": "fd14ee049c05f55f",
+  "sources/imba-icon.svg": "6450d29dffaa8ca9"
  },
  "variants": [
   {
-   "key": "symbol-en-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "en",
    "color": "color",
@@ -29,11 +30,15 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/imba-icon.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/imba-icon.svg"
     }
    ]
   },
   {
-   "key": "wordmark-en-color",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",

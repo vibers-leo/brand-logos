@@ -98,6 +98,20 @@ def main() -> int:
             if r is not None and r < ICON_INK_MIN:
                 weak_icons.append((bid, r))
 
+    # 대소문자만 다른 중복 id — GitHub Pages 는 대소문자를 구분하므로
+    # 대문자 쪽은 항상 404 다. 맥에서는 파일시스템이 구분하지 않아 안 보인다.
+    seen: dict[str, str] = {}
+    case_dupes = []
+    for b in brands:
+        low = b["id"].lower()
+        if low in seen and seen[low] != b["id"]:
+            case_dupes.append(f'{b["id"]} ↔ {seen[low]}')
+        seen.setdefault(low, b["id"])
+    if case_dupes:
+        print(f"⚠️  대소문자만 다른 중복 id {len(case_dupes)}건 (대문자 쪽은 CDN 404)")
+        for c in case_dupes[:10]:
+            print(f"   {c}")
+
     if corrupt:
         print(f"❌ 내용이 확장자와 다른 파일 {len(corrupt)}개")
         for c in corrupt[:40]:

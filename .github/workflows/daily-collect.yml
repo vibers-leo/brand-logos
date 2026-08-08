@@ -41,6 +41,12 @@ jobs:
       - name: brands-slim 재생성
         run: python3 scripts/build-slim.py
 
+      # slim 이 brands.json 과 어긋나면 목록에서 중복이 그대로 보이거나
+      # 신규 브랜드가 안 뜬다. 실제로 variant_of 429건이 slim 에서 빠져
+      # 흡수된 -icon 브랜드가 목록에 되살아난 적이 있다.
+      - name: brands-slim 동기 확인
+        run: python3 scripts/build-slim.py --check
+
       - name: 에셋 무결성 검사
         run: python3 scripts/check-assets.py
 

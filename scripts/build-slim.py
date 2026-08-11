@@ -71,6 +71,11 @@ def build() -> list:
         if b.get("variant_of"):
             row["variant_of"] = b["variant_of"]
 
+        # 검색 전용 별칭. LG·SK 처럼 로마자가 정식 이름인 브랜드를 '엘지'로
+        # 찾을 수 있게 한다. 있는 것만 담아 용량을 아낀다.
+        if b.get("aliases"):
+            row["aliases"] = b["aliases"]
+
         n = variants_n.get(b["id"], 0)
         if n > 1:                      # 1종뿐이면 굳이 안 담는다 (용량)
             row["variants_n"] = n

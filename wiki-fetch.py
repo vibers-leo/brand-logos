@@ -17,6 +17,15 @@
   python3 wiki-fetch.py --validate
 """
 
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지).
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
+
 import argparse, json, os, sys, time, urllib.request, urllib.parse
 
 LOGO_DIR = os.path.expanduser("~/Desktop/macminim4/brand-logos/_clients")
@@ -82,8 +91,8 @@ def download_and_save(brand_id: str, download_url: str) -> bool:
     dest_dir = os.path.join(LOGO_DIR, brand_id)
     os.makedirs(dest_dir, exist_ok=True)
     dest = os.path.join(dest_dir, "logo.svg")
-    with open(dest, "wb") as f:
-        f.write(content)
+    if not safe_write(dest, content):
+        return False
     print(f"  ✅ 저장: {dest} ({len(content):,}B)")
     return True
 

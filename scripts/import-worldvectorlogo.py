@@ -8,6 +8,15 @@ CDN: https://cdn.worldvectorlogo.com/logos/{slug}/{slug}.svg
 Usage: python3 scripts/import-worldvectorlogo.py [--dry-run] [--limit N] [--category SLUG]
 """
 
+
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지). scripts/ 밖에서도 import 되도록 경로를 넣는다.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
 import json
 import re
 import time
@@ -164,7 +173,7 @@ def main():
             continue
 
         svg_path = brand_dir / "logo.svg"
-        svg_path.write_bytes(svg_data)
+        safe_write(svg_path, svg_data)
 
         png_ok = generate_png(svg_path, brand_dir / "logo.png", 512)
         if png_ok:

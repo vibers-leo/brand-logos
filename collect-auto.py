@@ -16,6 +16,15 @@
   python3 collect-auto.py --dry-run        # 다운로드 없이 목록만
 """
 
+
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지). scripts/ 밖에서도 import 되도록 경로를 넣는다.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
 import argparse, json, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
 from pathlib import Path
 
@@ -218,7 +227,7 @@ def download_svg(brand_id: str, url: str, filename: str) -> dict | None:
     dest_dir = LOGO_DIR / brand_id
     dest_dir.mkdir(parents=True, exist_ok=True)
     svg_path = dest_dir / "logo.svg"
-    svg_path.write_bytes(content)
+    safe_write(svg_path, content)
 
     print(f"     ✅ 저장 ({len(content):,}B)")
 
@@ -497,10 +506,10 @@ def collect_si_global(dry_run=False) -> list[dict]:
 
             dest.mkdir(parents=True, exist_ok=True)
             # SI의 경우 아이콘 = 로고 역할 → logo.svg로 저장
-            (dest / "logo.svg").write_bytes(raw)
+            safe_write(dest / "logo.svg", raw)
             # sources/ 에도 저장
             (dest / "sources").mkdir(exist_ok=True)
-            (dest / "sources" / "si.svg").write_bytes(raw)
+            safe_write(dest / "sources" / "si.svg", raw)
 
             brand_entry = {
                 "id": brand_id,
@@ -538,7 +547,7 @@ def _download_si_svg(slug: str, path: Path):
         with urllib.request.urlopen(req, timeout=10) as r:
             raw = r.read()
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(raw)
+        safe_write(path, raw)
     except Exception as e:
         print(f"     ⚠️  SI 다운로드 실패: {e}")
 
@@ -581,7 +590,7 @@ def collect_fa_sources(dry_run=False) -> int:
                 continue
 
             sources_dir.mkdir(parents=True, exist_ok=True)
-            fa_path.write_bytes(raw)
+            safe_write(fa_path, raw)
             print(f"     ✅ fa.svg ({len(raw):,}B)")
 
             # brands.json: sources 필드 업데이트
@@ -692,7 +701,7 @@ def collect_iconify(dry_run=False):
         icon_dir = dest / "sources" / "iconify"
         icon_dir.mkdir(parents=True, exist_ok=True)
         svg_file = icon_dir / f"{slug}.svg"
-        svg_file.write_bytes(raw)
+        safe_write(svg_file, raw)
 
         if base_id in existing_map:
             # 기존 브랜드 → sources 층위 추가
@@ -710,7 +719,7 @@ def collect_iconify(dry_run=False):
             # 신규 브랜드 추가
             # base slug의 기본 SVG 설정 (variant 없는 것 우선)
             if not variant_suffix:
-                (dest / "logo.svg").write_bytes(raw)
+                safe_write(dest / "logo.svg", raw)
                 # PNG 생성
                 try:
                     import cairosvg
@@ -807,7 +816,7 @@ def collect_devicons(dry_run=False):
         icon_dir = dest / "sources" / "devicons"
         icon_dir.mkdir(parents=True, exist_ok=True)
         svg_file = icon_dir / f"{slug}.svg"
-        svg_file.write_bytes(raw)
+        safe_write(svg_file, raw)
 
         if name in existing_map:
             b = existing_map[name]
@@ -821,7 +830,7 @@ def collect_devicons(dry_run=False):
                 layered += 1
                 print(f"  ➕ [layer] {name} ← {slug}")
         else:
-            (dest / "logo.svg").write_bytes(raw)
+            safe_write(dest / "logo.svg", raw)
             try:
                 import cairosvg
                 cairosvg.svg2png(url=str(dest / "logo.svg"),
@@ -942,7 +951,7 @@ def collect_worldvector(dry_run=False):
                 print(f"  ➕ [layer] {base_id} ← wvl/{slug}")
         else:
             if not any(slug.endswith(sfx) for sfx in ("-icon", "-wordmark", "-color")):
-                (dest / "logo.svg").write_bytes(raw)
+                safe_write(dest / "logo.svg", raw)
                 try:
                     import cairosvg
                     cairosvg.svg2png(url=str(dest / "logo.svg"),

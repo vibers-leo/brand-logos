@@ -30,6 +30,15 @@
 ================================================================================
 """
 
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지).
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
+
 import argparse, json, os, re, time, urllib.request
 from datetime import date
 from pathlib import Path
@@ -912,8 +921,7 @@ def download(url: str, dest: Path, retries=2) -> bool:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=10) as r:
                 if r.status == 200:
-                    dest.write_bytes(r.read())
-                    return True
+                    return safe_write(dest, r.read())
         except Exception as e:
             if attempt == retries:
                 print(f"    ✗ 다운로드 실패: {url} ({e})")

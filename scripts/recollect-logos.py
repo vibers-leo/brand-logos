@@ -5,6 +5,15 @@ Clearbit → Google Favicon 순으로 시도
 Usage: python3 scripts/recollect-logos.py
 """
 
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지).
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
+
 import ssl
 import time
 import urllib.request
@@ -83,8 +92,7 @@ def is_img(ct: str, data: bytes, min_bytes: int) -> bool:
 
 def save(brand_id: str, data: bytes):
     p = CLIENTS / brand_id / "logo.png"
-    p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_bytes(data)
+    return safe_write(p, data)
 
 
 def main():

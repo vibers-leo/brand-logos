@@ -6,6 +6,15 @@ https://github.com/gilbarbara/logos
 Usage: python3 scripts/import-gilbarbara.py [--dry-run]
 """
 
+
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지). scripts/ 밖에서도 import 되도록 경로를 넣는다.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
 import json, ssl, re, time, shutil, argparse, urllib.request
 from pathlib import Path
 from datetime import date
@@ -117,7 +126,7 @@ def main():
 
         brand_dir = CLIENTS_DIR / brand_id
         brand_dir.mkdir(parents=True, exist_ok=True)
-        (brand_dir / "logo.svg").write_bytes(svg_data)
+        safe_write(brand_dir / "logo.svg", svg_data)
 
         entry = {
             "id": brand_id,

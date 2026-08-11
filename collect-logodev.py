@@ -10,6 +10,15 @@ logo.dev API 기반 한국 브랜드 로고 수집
   python3 collect-logodev.py --commit      # 완료 후 git commit+push
 """
 
+
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지). scripts/ 밖에서도 import 되도록 경로를 넣는다.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
 import argparse, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 
@@ -818,7 +827,7 @@ def fetch_logo(domain: str, brand_id: str, name_ko: str) -> bool:
             return False
         dest = LOGO_DIR / brand_id
         dest.mkdir(parents=True, exist_ok=True)
-        (dest / "logo.png").write_bytes(raw)
+        safe_write(dest / "logo.png", raw)
         print(f"     ✅ {len(raw):,}B")
         return True
     except Exception as e:

@@ -4,6 +4,15 @@
 CF Worker 프록시(wikimedia-proxy.yahwaedge.workers.dev)를 통해 IP rate limit 우회
 """
 
+# 저장 가드 — 확장자와 내용이 다르면 쓰지 않는다 (404 HTML 이 logo.svg 로
+# 저장되던 사고 재발 방지).
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from assetguard import safe_write
+
+
 import json
 import os
 import hashlib
@@ -141,8 +150,8 @@ def main():
             os.makedirs(brand_dir, exist_ok=True)
 
             svg_path = os.path.join(brand_dir, "logo.svg")
-            with open(svg_path, "wb") as f:
-                f.write(content)
+            if not safe_write(svg_path, content):
+                continue          # 내용이 SVG 가 아니면 등록하지 않는다
 
             brands.append({
                 "id": brand_id,

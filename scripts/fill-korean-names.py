@@ -77,6 +77,22 @@ FIX = {
     "ebs-co":           {"aliases": ["한국교육방송공사"]},
     "kaist-ac":         {"aliases": ["카이스트", "한국과학기술원"]},
     "29cm-co":          {"aliases": ["이십구센티미터"]},
+    # ── 2026-08-11 2차: 금융·핀테크 로고월 대조 ──
+    # 파일은 있는데 한글명이 없어 한국인이 검색해도 안 나오던 브랜드들.
+    # 전부 category 를 대조해 오탐이 아님을 확인했다.
+    "nacf-nonghyup":    {"ko": "농협", "aliases": ["NH농협은행", "농협은행", "NH"]},
+    "shinhan-bank":     {"ko": "신한은행", "aliases": ["신한"]},
+    "hana-bank":        {"ko": "하나은행", "aliases": ["하나금융", "KEB하나은행"]},
+    "nffc-suhyup":      {"ko": "수협", "aliases": ["수협은행", "Sh수협"]},
+    "kyobo":            {"ko": "교보생명", "aliases": ["교보"]},
+    "hyundai-marine--fire-insurance": {"ko": "현대해상", "aliases": ["현대해상화재보험"]},
+    "toss-logo":        {"ko": "토스", "aliases": ["Toss", "비바리퍼블리카"]},
+    "sentbe":           {"ko": "센트비"},
+    "shinsegae":        {"ko": "신세계", "aliases": ["신세계백화점"]},
+    "hanwha-aerospace": {"ko": "한화에어로스페이스", "aliases": ["한화"]},
+    "rakuten":          {"ko": "라쿠텐"},
+    "mirae-asset-group":{"ko": "미래에셋", "aliases": ["미래에셋증권", "미래에셋그룹"]},
+    "gs25-gsretail":    {"aliases": ["지에스25", "GS리테일", "GS25"]},
 }
 
 def main():

@@ -1896,7 +1896,7 @@
     },
     {
       "id": "hana-bank",
-      "name_ko": "Hana Bank",
+      "name_ko": "하나은행",
       "name_en": "Hana Bank",
       "category": "금융·결제",
       "domain": "",
@@ -1914,7 +1914,11 @@
       ],
       "logo_quality_score": 3141.7,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "하나금융",
+        "KEB하나은행"
+      ]
     },
     {
       "id": "hana-financial-group",
@@ -2160,7 +2164,7 @@
     },
     {
       "id": "hanwha-aerospace",
-      "name_ko": "Hanwha Aerospace",
+      "name_ko": "한화에어로스페이스",
       "name_en": "Hanwha Aerospace",
       "category": "철강·중공업",
       "domain": "",
@@ -2178,7 +2182,10 @@
       ],
       "logo_quality_score": 1734.9,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "한화"
+      ]
     },
     {
       "id": "hanwha",
@@ -2842,7 +2849,7 @@
     },
     {
       "id": "hyundai-marine--fire-insurance",
-      "name_ko": "Hyundai Marine & Fire Insurance",
+      "name_ko": "현대해상",
       "name_en": "Hyundai Marine & Fire Insurance",
       "category": "금융·결제",
       "domain": "",
@@ -2860,7 +2867,10 @@
       ],
       "logo_quality_score": 5563.2,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "현대해상화재보험"
+      ]
     },
     {
       "id": "hyundai-mobis",
@@ -4321,7 +4331,7 @@
     },
     {
       "id": "kyobo",
-      "name_ko": "Kyobo",
+      "name_ko": "교보생명",
       "name_en": "Kyobo",
       "category": "금융·결제",
       "domain": "",
@@ -4339,7 +4349,10 @@
       ],
       "logo_quality_score": 1347.6,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "교보"
+      ]
     },
     {
       "id": "leehan",
@@ -5168,7 +5181,7 @@
     },
     {
       "id": "mirae-asset-group",
-      "name_ko": "Mirae Asset Group",
+      "name_ko": "미래에셋",
       "name_en": "Mirae Asset Group",
       "category": "금융·결제",
       "domain": "",
@@ -5186,7 +5199,11 @@
       ],
       "logo_quality_score": 3892.6,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "미래에셋증권",
+        "미래에셋그룹"
+      ]
     },
     {
       "id": "mirae-asset",
@@ -5300,7 +5317,7 @@
     },
     {
       "id": "nacf-nonghyup",
-      "name_ko": "NACF (NongHyup)",
+      "name_ko": "농협",
       "name_en": "NACF (NongHyup)",
       "category": "금융·결제",
       "domain": "",
@@ -5318,7 +5335,12 @@
       ],
       "logo_quality_score": 778.2,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "NH농협은행",
+        "농협은행",
+        "NH"
+      ]
     },
     {
       "id": "nate-communications",
@@ -5502,7 +5524,7 @@
     },
     {
       "id": "nffc-suhyup",
-      "name_ko": "NFFC (SuHyup)",
+      "name_ko": "수협",
       "name_en": "NFFC (SuHyup)",
       "category": "금융·결제",
       "domain": "",
@@ -5520,7 +5542,11 @@
       ],
       "logo_quality_score": 1686.7,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "수협은행",
+        "Sh수협"
+      ]
     },
     {
       "id": "nh-investment--securities",
@@ -6256,7 +6282,7 @@
     },
     {
       "id": "sentbe",
-      "name_ko": "Sentbe",
+      "name_ko": "센트비",
       "name_en": "Sentbe",
       "category": "IT·테크",
       "domain": "",
@@ -6300,7 +6326,7 @@
     },
     {
       "id": "shinhan-bank",
-      "name_ko": "Shinhan Bank",
+      "name_ko": "신한은행",
       "name_en": "Shinhan Bank",
       "category": "금융·결제",
       "domain": "",
@@ -6318,11 +6344,14 @@
       ],
       "logo_quality_score": 1826.9,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "신한"
+      ]
     },
     {
       "id": "shinsegae",
-      "name_ko": "Shinsegae",
+      "name_ko": "신세계",
       "name_en": "Shinsegae",
       "category": "유통·쇼핑",
       "domain": "",
@@ -6340,7 +6369,10 @@
       ],
       "logo_quality_score": 2943.2,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "신세계백화점"
+      ]
     },
     {
       "id": "sidushq",
@@ -8535,7 +8567,7 @@
     },
     {
       "id": "toss-logo",
-      "name_ko": "Toss",
+      "name_ko": "토스",
       "name_en": "Toss",
       "category": "IT·테크",
       "domain": "",
@@ -8553,7 +8585,11 @@
       ],
       "logo_quality_score": 1833.7,
       "logo_quality": "ok",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "Toss",
+        "비바리퍼블리카"
+      ]
     },
     {
       "id": "tving",
@@ -15121,7 +15157,12 @@
       ],
       "logo_quality_score": 94.5,
       "logo_quality": "low",
-      "added_at": "2026-07-27"
+      "added_at": "2026-07-27",
+      "aliases": [
+        "지에스25",
+        "GS리테일",
+        "GS25"
+      ]
     },
     {
       "id": "7-eleven-co",
@@ -89205,7 +89246,7 @@
     },
     {
       "id": "rakuten",
-      "name_ko": "Rakuten",
+      "name_ko": "라쿠텐",
       "name_en": "Rakuten",
       "category": "IT·테크",
       "logo_svg": true,

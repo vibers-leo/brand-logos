@@ -8686,7 +8686,7 @@
     },
     {
       "id": "karrotmarket",
-      "name_ko": "당근마켓",
+      "name_ko": "당근마켓 (구 로고)",
       "name_en": "당근마켓",
       "category": "IT·테크",
       "domain": "karrotmarket.com",
@@ -8706,7 +8706,8 @@
       "logo_quality": "low",
       "added_at": "2026-07-27",
       "has_svg": true,
-      "svg_source": "vibers-vector/daangn"
+      "svg_source": "vibers-vector/daangn",
+      "variant_of": "daangn"
     },
     {
       "id": "musinsa",
@@ -120330,6 +120331,37 @@
           "provider": "self",
           "file": "logo.png",
           "label": "심볼+워드마크 (원본)"
+        }
+      ]
+    },
+    {
+      "id": "daangn",
+      "name_ko": "당근",
+      "name_en": "Daangn",
+      "category": "유통·쇼핑",
+      "folder": "_clients/daangn",
+      "website": "daangn.com",
+      "domain": "daangn.com",
+      "logo_svg": "logo.svg",
+      "svg_source": "official-ci",
+      "logo_png": true,
+      "aliases": [
+        "당근마켓",
+        "Karrot",
+        "카롯",
+        "당근이"
+      ],
+      "added_at": "2026-08-13",
+      "sources": [
+        {
+          "provider": "official-ci",
+          "file": "logo.svg",
+          "label": "시그니처 (심볼+워드마크)"
+        },
+        {
+          "provider": "official-ci",
+          "file": "sources/official/white.svg",
+          "label": "화이트 (다크 배경용)"
         }
       ]
     }

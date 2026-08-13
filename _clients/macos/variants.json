@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "macos",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "f07712bd4a4df5d4",
+  "sources/iconify/macos.svg": "d172bde0c171eae6",
+  "sources/wvl/macOS.svg": "5531ebe1951df1b7"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.863,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/macos.svg"
+    },
+    {
+     "provider": "wvl",
+     "file": "sources/wvl/macOS.svg"
+    }
+   ]
+  }
+ ]
+}

@@ -5,3 +5,8 @@ tistory-bot/__pycache__/
 tistory-bot/debug_*.py
 *.DS_Store
 .firebase-sa.json
+
+# 로고 원본(.ai/.eps/CI zip) — 용량이 크고 재생성 불가.
+# 로컬 보관 + 드라이브 백업으로 관리한다. README 만 추적한다.
+/_sources/*
+!/_sources/README.md

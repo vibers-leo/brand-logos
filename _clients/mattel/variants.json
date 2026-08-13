@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mattel",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "1a9670e10db1dbc3"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.007,
+   "provider": "worldvectorlogo/mattel",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "parexel",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "71a19f7a83d506bc"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 4.618,
+   "provider": "worldvectorlogo/parexel",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

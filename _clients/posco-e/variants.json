@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "posco-e",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "a395fb581a8f5433"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.55,
+   "provider": "worldvectorlogo/ec",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

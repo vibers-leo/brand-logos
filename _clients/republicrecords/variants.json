@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "republicrecords",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "5031d8b39e329efc"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg"
+   },
+   "aspect": 5.202,
+   "provider": "worldvectorlogo/republic",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "general-motors-gm",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "e54f58de391f5578"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 8.093,
+   "provider": "worldvectorlogo/general",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

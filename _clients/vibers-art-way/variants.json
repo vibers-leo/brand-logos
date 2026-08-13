@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vibers-art-way",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "866e2048aa3180c8"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.618,
+   "provider": "worldvectorlogo/art",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

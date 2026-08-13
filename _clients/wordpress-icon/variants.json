@@ -4,7 +4,8 @@
  "id": "wordpress-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "31672a58990b1f2f"
+  "logo.svg": "31672a58990b1f2f",
+  "sources/wordpress-icon-alt.svg": "ebfba1ce1982d8f9"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.001,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/wordpress-icon-alt.svg"
+    }
+   ]
   }
  ]
 }

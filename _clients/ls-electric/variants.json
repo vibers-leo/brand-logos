@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ls-electric",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "a678e8381d92f1c5"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.0,
+   "provider": "worldvectorlogo/ls",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

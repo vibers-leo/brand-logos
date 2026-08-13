@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kbstar",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "67bf0e41337cec26"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.0,
+   "provider": "worldvectorlogo/kb",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

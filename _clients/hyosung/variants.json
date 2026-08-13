@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hyosung",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "96ac12953322ac54"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 9.133,
+   "provider": "worldvectorlogo/hyosung",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

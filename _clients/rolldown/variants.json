@@ -12,7 +12,8 @@
   "sources/wvl/rolldown.svg": "7392343779dbb2b7",
   "sources/wvl/rolldown-icon-dark.svg": "e6f005bd1368a839",
   "sources/wvl/rolldown-dark.svg": "8d0aead5bbf80dc7",
-  "sources/rolldown-icon.svg": "6e37a30fb924d6df"
+  "sources/rolldown-icon.svg": "6e37a30fb924d6df",
+  "sources/rolldown-dark.svg": "8d0aead5bbf80dc7"
  },
  "variants": [
   {
@@ -85,6 +86,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/rolldown-dark.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/rolldown-dark.svg"
     }
    ]
   }

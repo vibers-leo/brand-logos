@@ -4,7 +4,8 @@
  "id": "hyundai",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "e9f585c109fd1d41"
+  "logo.svg": "e9f585c109fd1d41",
+  "sources/hyundai-symbol.svg": "cda0ba8d39940313"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/hyundai-symbol.svg"
+   },
+   "aspect": 1.961,
+   "provider": "merged",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

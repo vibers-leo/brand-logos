@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "925ba7d40de58b5d",
   "sources/iconify/monero.svg": "925ba7d40de58b5d",
-  "sources/wvl/monero.svg": "075268d172fd48f3"
+  "sources/wvl/monero.svg": "075268d172fd48f3",
+  "sources/monero-original.svg": "aed8ed45896fcab5"
  },
  "variants": [
   {
@@ -31,6 +32,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/monero.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/monero-original.svg"
     }
    ]
   }

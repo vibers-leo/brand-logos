@@ -2,8 +2,9 @@
  "schema": 1,
  "algo_v": 1,
  "id": "slack",
- "primary": "symbol",
+ "primary": "wordmark",
  "fingerprint": {
+  "logo.svg": "3d209774d5335d2e",
   "sources/fa.svg": "89f9bbc458b11911",
   "sources/iconify/slack.svg": "6812845f7d427bb8",
   "sources/iconify/slack-icon.svg": "158b716f049121ee",
@@ -44,18 +45,22 @@
   {
    "key": "wordmark",
    "form": "wordmark",
-   "lang": "en",
+   "lang": "unknown",
    "color": "color",
    "label": "워드마크형",
    "files": {
-    "svg": "sources/iconify/slack.svg",
-    "png": "sources/iconify/slack.png"
+    "svg": "logo.svg",
+    "png": "logo.png"
    },
-   "aspect": 3.943,
-   "provider": "iconify",
+   "aspect": 3.333,
+   "provider": "worldvectorlogo/slack",
    "origin": "collected",
    "order": 40,
    "alts": [
+    {
+     "provider": "iconify",
+     "file": "sources/iconify/slack.svg"
+    },
     {
      "provider": "wvl",
      "file": "sources/wvl/slack.svg"

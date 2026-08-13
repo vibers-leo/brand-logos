@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ncloud",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "7dc82a84863a32df"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 6.144,
+   "provider": "brand-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

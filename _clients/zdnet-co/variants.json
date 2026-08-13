@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zdnet-co",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "d8989b14487293a8"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.925,
+   "provider": "worldvectorlogo/zdnet",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

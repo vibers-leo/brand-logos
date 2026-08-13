@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yoplait-co",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "5a6608d1af242628"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.041,
+   "provider": "brand-site",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

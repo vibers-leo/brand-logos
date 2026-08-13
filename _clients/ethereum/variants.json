@@ -4,7 +4,8 @@
  "id": "ethereum",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "737b230337fa0a9e"
+  "logo.svg": "737b230337fa0a9e",
+  "sources/ethereum-color.svg": "313496d6039824b8"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.618,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 20
+   "order": 20,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/ethereum-color.svg"
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cafe24",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "148b6c3c0decb290"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.293,
+   "provider": "worldvectorlogo/24",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

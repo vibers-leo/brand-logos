@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lxhausys",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "6f4d2e821290c532"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 3.567,
+   "provider": "worldvectorlogo/lx",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

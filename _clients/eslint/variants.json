@@ -7,7 +7,8 @@
   "logo.svg": "55f5f364223795d7",
   "sources/iconify/eslint.svg": "55f5f364223795d7",
   "sources/devicons/eslint-original.svg": "a49d3da53f7f2228",
-  "sources/wvl/eslint.svg": "a1d74d5ce26c62d8"
+  "sources/wvl/eslint.svg": "a1d74d5ce26c62d8",
+  "sources/eslint-old.svg": "439fc4f6692d61fe"
  },
  "variants": [
   {
@@ -36,6 +37,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/eslint-original.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/eslint-old.svg"
     }
    ]
   }

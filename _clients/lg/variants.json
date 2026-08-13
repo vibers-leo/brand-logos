@@ -4,7 +4,8 @@
  "id": "lg",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "e3382367e4132073"
+  "logo.svg": "e3382367e4132073",
+  "sources/lg-symbol.svg": "dc526fa7d2924887"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/lg-symbol.svg"
+   },
+   "aspect": 1.0,
+   "provider": "merged",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

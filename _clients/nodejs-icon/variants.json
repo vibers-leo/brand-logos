@@ -4,7 +4,8 @@
  "id": "nodejs-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "14fb2ee58e4afbc5"
+  "logo.svg": "14fb2ee58e4afbc5",
+  "sources/nodejs-icon-alt.svg": "8a7daf761c89402e"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.887,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "merged",
+     "file": "sources/nodejs-icon-alt.svg"
+    }
+   ]
   }
  ]
 }

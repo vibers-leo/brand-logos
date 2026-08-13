@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hyundaihmall",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "de2c844027e4ff34"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.006,
+   "provider": "worldvectorlogo/h",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "band",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "42ac6e25e07b8f9d"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.964,
+   "provider": "worldvectorlogo/band",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

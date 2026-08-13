@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jype",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "5060d96d460fff84"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.923,
+   "provider": "worldvectorlogo/jyp-1",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

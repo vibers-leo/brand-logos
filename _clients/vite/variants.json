@@ -9,7 +9,8 @@
   "sources/iconify/vite-dark.svg": "8b78a521d288e544",
   "sources/iconify/vite-icon.svg": "c171dc7bd9020987",
   "sources/devicons/vite-original.svg": "f71ecbe45851082f",
-  "sources/vite-icon.svg": "356a3c9b26dd53bb"
+  "sources/vite-icon.svg": "356a3c9b26dd53bb",
+  "sources/vite-dark.svg": "1936692a94dfcc73"
  },
  "variants": [
   {
@@ -59,6 +60,10 @@
     {
      "provider": "iconify",
      "file": "sources/iconify/vite-dark.svg"
+    },
+    {
+     "provider": "merged",
+     "file": "sources/vite-dark.svg"
     }
    ]
   }

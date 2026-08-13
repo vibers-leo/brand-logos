@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dmcmedia-co",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "2ef0506d306eda65"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 2.326,
+   "provider": "worldvectorlogo/dmc",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

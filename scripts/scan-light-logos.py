@@ -17,9 +17,16 @@ logo-transparent.png 로는 판정할 수 없다 — 그 파일은 흰색을 이
 사용:
   python3 scripts/scan-light-logos.py          # 스캔 + brands.json 갱신
 """
-sys.path.insert(0,'scripts')
+import sys
+import json
+import collections
 from pathlib import Path
+
 import numpy as np
+
+# logoform 은 같은 scripts/ 안에 있다. 레포 루트에서 실행하든 scripts/ 안에서
+# 실행하든 찾도록 이 파일의 위치를 기준으로 넣는다.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import logoform as L
 C=Path('_clients')
 brands=json.load(open(C/'brands.json'))['brands']
@@ -39,7 +46,6 @@ json.dump(frac, open('/tmp/svg_lum.json','w'))
 
 THRESHOLD = 0.4
 light = {k for k, v in frac.items() if v > THRESHOLD}
-import collections
 data = json.load(open(C/'brands.json'), object_pairs_hook=collections.OrderedDict)
 changed = 0
 for b in data['brands']:

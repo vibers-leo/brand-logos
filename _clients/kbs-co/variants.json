@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kbs-co",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "4c36242689b49a48"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.753,
+   "provider": "worldvectorlogo/kbs",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

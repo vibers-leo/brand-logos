@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dongwonfnb",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "d3912fdfe0e78f8e"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.073,
+   "provider": "worldvectorlogo/fb",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

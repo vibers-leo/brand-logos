@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mbc-co",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "bbde687bebd86a87"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.0,
+   "provider": "worldvectorlogo/mbc",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

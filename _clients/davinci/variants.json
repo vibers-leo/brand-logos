@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "davinci",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "df618bfdfbd39b26"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.969,
+   "provider": "worldvectorlogo/ai",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

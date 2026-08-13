@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "seezn",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "7485929bc119c4eb"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.0,
+   "provider": "worldvectorlogo/seezn",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

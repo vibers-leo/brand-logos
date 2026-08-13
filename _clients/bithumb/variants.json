@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bithumb",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "c81eb8546f330315"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.761,
+   "provider": "worldvectorlogo/bithumb",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

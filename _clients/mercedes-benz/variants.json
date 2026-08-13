@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "mercedes-benz",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "4dca84f1a922a351"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 1.012,
+   "provider": "worldvectorlogo/mercedes-benz-1",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

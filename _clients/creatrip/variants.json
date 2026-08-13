@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "creatrip",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "68710738bfdf4a07"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 3.947,
+   "provider": "brand-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

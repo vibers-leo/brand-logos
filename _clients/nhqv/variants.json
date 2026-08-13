@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nhqv",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "904463395ff566bc"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.93,
+   "provider": "worldvectorlogo/nh",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

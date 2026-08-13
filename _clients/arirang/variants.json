@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arirang",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "79f804583f2b3f33"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.982,
+   "provider": "worldvectorlogo/tv-1",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

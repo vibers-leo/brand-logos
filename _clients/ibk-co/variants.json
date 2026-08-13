@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ibk-co",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "f75bbbc896243a1d"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.87,
+   "provider": "worldvectorlogo/ibk",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -13,6 +13,12 @@ ai-to-svg.py — Illustrator(.ai)·PDF·EPS 를 로고용 SVG 로 변환한다.
   `--export-area-drawing` 이 여백을 잘라 내용에 딱 맞춘다. 좌표를 다시
   쓰는 게 아니라 **캔버스를 줄이는 것**이라 벡터가 손상되지 않는다.
 
+인쇄용 색상 프로파일 제거 (기본값):
+  인쇄용 CI 파일(.ai)에는 CMYK ICC 프로파일이 통째로 박혀 있는 경우가 많다.
+  실측: 애터미 CI → 변환 결과 922KB 중 **915KB 가 ICC 프로파일**이었다
+  (`Japan Color 2001 Coated`). 웹에서는 쓰이지 않고 `icc-color()` 참조도 0건이라
+  순수한 죽은 무게다. 지우면 922KB → 7KB. 참조가 있으면 지우지 않는다.
+
 텍스트 → 윤곽선 (기본값):
   변환하면 글자가 `<text font-family="Helvetica">` 로 남는다. 그 폰트가 없는
   기기에서는 **로고가 다른 글꼴로 렌더된다** — 로고 파일로는 치명적이다.
@@ -27,6 +33,7 @@ ai-to-svg.py — Illustrator(.ai)·PDF·EPS 를 로고용 SVG 로 변환한다.
 """
 from __future__ import annotations
 import argparse
+import re
 import shutil
 import subprocess
 import sys
@@ -86,6 +93,23 @@ def convert(src: Path, dst: Path, crop: bool = True, outline_text: bool = True) 
     return False, "Inkscape 가 없다 (brew install --cask inkscape)"
 
 
+def strip_icc(svg: Path) -> int:
+    """참조되지 않는 ICC 색상 프로파일을 걷어낸다. 줄어든 바이트를 돌려준다.
+
+    `icc-color(...)` 로 실제 참조하는 곳이 있으면 색이 달라질 수 있으므로
+    건드리지 않는다."""
+    t = svg.read_text(errors="ignore")
+    if "icc-color(" in t:
+        return 0                      # 실제로 쓰고 있다 — 손대지 않는다
+    before = len(t)
+    out = re.sub(r"<color-profile\b[^>]*/>", "", t)
+    out = re.sub(r"<color-profile\b.*?</color-profile>", "", out, flags=re.S)
+    if len(out) == before:
+        return 0
+    svg.write_text(out)
+    return before - len(out)
+
+
 def describe(svg: Path) -> str:
     """변환 결과가 쓸만한지 — 경로가 실제로 들어있는지 본다."""
     t = svg.read_text(errors="ignore")
@@ -110,6 +134,8 @@ def main() -> int:
     ap.add_argument("-o", "--out", help="출력 파일 (입력이 하나일 때)")
     ap.add_argument("--outdir", help="출력 폴더 (여러 개일 때)")
     ap.add_argument("--no-crop", action="store_true", help="여백을 자르지 않는다")
+    ap.add_argument("--keep-icc", action="store_true",
+                    help="인쇄용 ICC 색상 프로파일을 남긴다 (기본은 참조 없으면 제거)")
     ap.add_argument("--keep-text", action="store_true",
                     help="글자를 <text> 로 남긴다 (기본은 윤곽선 변환 — 폰트 없는 기기에서 깨지지 않게)")
     a = ap.parse_args()
@@ -132,6 +158,10 @@ def main() -> int:
             dst = s.with_suffix(".svg")
 
         good, how = convert(s, dst, crop=not a.no_crop, outline_text=not a.keep_text)
+        if good and not a.keep_icc:
+            saved = strip_icc(dst)
+            if saved:
+                print(f"      🧹 참조 없는 색상 프로파일 제거 — {saved/1024:.0f}KB 절약")
         if good:
             print(f"  ✅ {s.name} [{kind}] → {dst}  ({how}, {dst.stat().st_size:,}B)")
             print(f"      {describe(dst)}")

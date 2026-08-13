@@ -120274,6 +120274,30 @@
       "aliases": [
         "이랜드"
       ]
+    },
+    {
+      "id": "atomy",
+      "name_ko": "애터미",
+      "name_en": "Atomy",
+      "category": "유통·쇼핑",
+      "folder": "_clients/atomy",
+      "website": "atomy.com",
+      "domain": "atomy.com",
+      "logo_svg": "logo.svg",
+      "svg_source": "official-ci",
+      "logo_png": true,
+      "aliases": [
+        "아토미",
+        "ATOMY"
+      ],
+      "added_at": "2026-08-13",
+      "sources": [
+        {
+          "provider": "official-ci",
+          "file": "logo.svg",
+          "label": "공식 CI (.ai 변환)"
+        }
+      ]
     }
   ],
   "generated_at": "2026-07-27",

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "daangn",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "ebbefd970b12da27",
+  "sources/official/white.svg": "7f91f7e2eeea760e"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 2.031,
+   "provider": "official-ci",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "official-ci",
+     "file": "sources/official/white.svg"
+    }
+   ]
+  }
+ ]
+}

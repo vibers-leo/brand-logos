@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "semologo",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d00c817bf2ed4aa3"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 3.007,
+   "provider": "traced-wordmark",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

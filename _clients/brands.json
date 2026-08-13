@@ -120302,6 +120302,36 @@
           "label": "공식 CI (.ai 변환)"
         }
       ]
+    },
+    {
+      "id": "semologo",
+      "name_ko": "세모로고",
+      "name_en": "SemoLogo",
+      "category": "Vibers 생태계",
+      "folder": "_clients/semologo",
+      "website": "semologo.com",
+      "domain": "semologo.com",
+      "logo_svg": "logo.svg",
+      "svg_source": "traced-wordmark",
+      "logo_png": true,
+      "aliases": [
+        "세상모든로고",
+        "semo",
+        "세모"
+      ],
+      "added_at": "2026-08-13",
+      "sources": [
+        {
+          "provider": "self",
+          "file": "logo.svg",
+          "label": "워드마크형 (벡터)"
+        },
+        {
+          "provider": "self",
+          "file": "logo.png",
+          "label": "심볼+워드마크 (원본)"
+        }
+      ]
     }
   ],
   "generated_at": "2026-07-27",

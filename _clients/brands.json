@@ -120313,7 +120313,7 @@
       "website": "semologo.com",
       "domain": "semologo.com",
       "logo_svg": "logo.svg",
-      "svg_source": "traced-wordmark",
+      "svg_source": "traced-full",
       "logo_png": true,
       "aliases": [
         "세상모든로고",
@@ -120325,12 +120325,17 @@
         {
           "provider": "self",
           "file": "logo.svg",
-          "label": "워드마크형 (벡터)"
+          "label": "시그니처 (심볼+워드마크)"
+        },
+        {
+          "provider": "self",
+          "file": "sources/self/symbol.svg",
+          "label": "심볼형"
         },
         {
           "provider": "self",
           "file": "logo.png",
-          "label": "심볼+워드마크 (원본)"
+          "label": "3D 원본"
         }
       ]
     },

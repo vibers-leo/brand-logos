@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write      # 실패 시 알림 이슈를 연다
 
 jobs:
   collect:
@@ -21,7 +22,10 @@ jobs:
           python-version: '3.11'
 
       - name: 의존성 설치
-        run: pip install cairosvg Pillow requests lxml
+        # numpy 는 logoform.py(심볼 크롭·밝기 판정)가 쓴다. 2026-08-08 에
+        # logoform 을 도입하면서 여기 추가를 빠뜨려 build-logo-variants 부터
+        # 뒤 4단계가 5일간(8/8~8/12) 통째로 안 돌았다.
+        run: pip install cairosvg Pillow requests lxml numpy
 
       - name: SVG 자동 수집 + 파이프라인
         run: python3 collect-auto.py --source all --commit
@@ -76,3 +80,30 @@ jobs:
           brands = raw['brands']
           print(f'총 {len(brands)}개 브랜드 수록')
           " >> $GITHUB_STEP_SUMMARY
+
+      # 조용한 실패를 막는다.
+      # 2026-08-08 에 numpy 를 빠뜨려 5일간 매일 실패했는데 아무도 몰랐다.
+      # 커밋 로그에는 "로고 자동수집 YYYY-MM-DD" 가 계속 찍혀서 겉으로는
+      # 정상으로 보였다(수집 단계는 성공하고 그 뒤에서 죽었기 때문).
+      # 실패하면 이슈를 열어 GitHub 알림이 오게 한다. 새 시크릿이 필요 없다.
+      - name: 실패 알림
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `자동수집 실패 — ${new Date().toISOString().slice(0,10)}`;
+            const body = [
+              `[실행 로그](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
+              '',
+              '수집 단계는 성공하고 뒤 단계에서 죽는 경우가 있다.',
+              '커밋이 찍혔다고 정상이라고 판단하지 말 것.',
+            ].join('\n');
+            // 같은 제목의 열린 이슈가 있으면 중복 생성하지 않는다
+            const { data: open } = await github.rest.issues.listForRepo({
+              ...context.repo, state: 'open', labels: 'collect-failure', per_page: 20,
+            });
+            if (open.some(i => i.title === title)) return;
+            await github.rest.issues.create({
+              ...context.repo, title, body, labels: ['collect-failure'],
+            });
+

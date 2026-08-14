@@ -2,23 +2,38 @@
  "schema": 1,
  "algo_v": 1,
  "id": "semologo",
- "primary": "wordmark",
+ "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "d00c817bf2ed4aa3"
+  "logo.svg": "7eb7263da9ba8681",
+  "sources/self/symbol.svg": "609ce0abba3e02fe"
  },
  "variants": [
   {
-   "key": "wordmark",
-   "form": "wordmark",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "unknown",
    "color": "mono-dark",
-   "label": "워드마크형",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/self/symbol.svg"
+   },
+   "aspect": 1.113,
+   "provider": "self",
+   "origin": "collected",
+   "order": 30
+  },
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "시그니처 (심볼+워드마크)",
    "files": {
     "svg": "logo.svg",
     "png": "logo.png"
    },
-   "aspect": 3.007,
-   "provider": "traced-wordmark",
+   "aspect": 3.809,
+   "provider": "traced-full",
    "origin": "collected",
    "order": 40
   }

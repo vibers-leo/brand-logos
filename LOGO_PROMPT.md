@@ -156,6 +156,12 @@ cd ~/Desktop/macminim4/brand-logos && source ~/.secrets && python3 upload-to-buc
 # 5. GitHub Pages CDN 반영 (logo.vibers.co.kr)
 git -C ~/Desktop/macminim4/brand-logos add _clients/$BRAND/ _clients/brands.json && git -C ~/Desktop/macminim4/brand-logos commit -m "feat: $BRAND 로고 추가" && git -C ~/Desktop/macminim4/brand-logos push
 
+# ⚠️ 배포 대기 중 폴링은 반드시 무작위 파라미터로 한다 (2026-08-14 사고)
+#   ❌ curl ".../variants.json?v=$NEW_VERSION"   ← 확인 행위가 옛 응답을 그 URL에 캐시로 박는다
+#   ✅ curl ".../variants.json?probe=$RANDOM"
+# CF 캐시 규칙의 엣지 TTL(1시간)이 오리진 max-age=600 을 덮어쓴다. 한 번 오염되면
+# 퍼지 권한이 없어(현재 토큰) 1시간을 기다리거나 VERSION 을 새로 올려야 한다.
+
 # 6. 검증
 python3 ~/Desktop/macminim4/brand-logos/validate-logos.sh
 

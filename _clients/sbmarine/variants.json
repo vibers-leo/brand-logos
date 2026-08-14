@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sbmarine",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "e72ffb00576a7d4c",
+  "sources/official/symbol.svg": "f309ec884ca91e8d",
+  "sources/official/signature-en.svg": "d95b363df851ce90"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼형 (SB 마크)",
+   "files": {
+    "svg": "sources/official/symbol.svg",
+    "png": "sources/official/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "manual",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 0.733
+  },
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "ko",
+   "label": "국문 시그니처 (심볼+워드마크)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "order": 10,
+   "color": "color",
+   "origin": "manual"
+  },
+  {
+   "key": "horizontal-en",
+   "form": "horizontal",
+   "lang": "en",
+   "label": "영문 시그니처 (심볼+워드마크)",
+   "files": {
+    "svg": "sources/official/signature-en.svg",
+    "png": "sources/official/signature-en-800.png"
+   },
+   "order": 20,
+   "color": "color",
+   "origin": "manual"
+  }
+ ]
+}

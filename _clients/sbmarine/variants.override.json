@@ -1,0 +1,37 @@
+{
+ "note": "자동 분류는 종횡비만 본다. logo.svg 는 7.2 라 'wordmark' 로, 공식 심볼(타원 SB)은 1.48 이라 'horizontal' 로 잘못 잡혔다. 실물을 보고 바로잡는다.",
+ "primary": "horizontal",
+ "drop": ["wordmark", "horizontal"],
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "ko",
+   "label": "국문 시그니처 (심볼+워드마크)",
+   "files": { "svg": "logo.svg", "png": "logo-800.png" },
+   "order": 10
+  },
+  {
+   "key": "horizontal-en",
+   "form": "horizontal",
+   "lang": "en",
+   "label": "영문 시그니처 (심볼+워드마크)",
+   "files": {
+    "svg": "sources/official/signature-en.svg",
+    "png": "sources/official/signature-en-800.png"
+   },
+   "order": 20
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "none",
+   "label": "심볼형 (SB 마크)",
+   "files": {
+    "svg": "sources/official/symbol.svg",
+    "png": "sources/official/symbol-512.png"
+   },
+   "order": 30
+  }
+ ]
+}

@@ -347,6 +347,14 @@ def build_brand(brand: dict, force: bool, dry: bool):
     if override_path.exists():
         try:
             ov = json.loads(override_path.read_text())
+
+            # 자동 분류는 종횡비만 본다. 그래서 심볼+워드마크 로크업이 가로로 길면
+            # 'wordmark' 로, 타원 심볼이 조금 납작하면 'horizontal' 로 잘못 잡힌다.
+            # 파일을 눈으로 본 사람만 아는 사실이라 override 로 바로잡는다.
+            drop = set(ov.get("drop") or [])
+            if drop:
+                manifest["variants"] = [v for v in manifest["variants"] if v["key"] not in drop]
+
             by_key = {v["key"]: v for v in manifest["variants"]}
             for o in ov.get("variants", []):
                 if o.get("key") in by_key:
@@ -361,8 +369,16 @@ def build_brand(brand: dict, force: bool, dry: bool):
                     o.setdefault("order", 90)
                     o["origin"] = "manual"
                     manifest["variants"].append(o)
+
+            if ov.get("primary"):
+                manifest["primary"] = ov["primary"]
         except Exception:
             pass
+
+    # 존재하지 않는 키를 대표로 두면 화면이 대표 변형을 못 찾는다
+    keys = {v["key"] for v in manifest["variants"]}
+    if manifest["primary"] not in keys and manifest["variants"]:
+        manifest["primary"] = manifest["variants"][0]["key"]
 
     if not dry:
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1))

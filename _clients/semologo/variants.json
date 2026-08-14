@@ -11,7 +11,7 @@
   {
    "key": "symbol",
    "form": "symbol",
-   "lang": "unknown",
+   "lang": "none",
    "color": "mono-dark",
    "label": "심볼형",
    "files": {
@@ -20,23 +20,21 @@
    },
    "aspect": 1.113,
    "provider": "self",
-   "origin": "collected",
-   "order": 30
+   "origin": "manual",
+   "order": 20
   },
   {
    "key": "horizontal",
    "form": "horizontal",
-   "lang": "unknown",
-   "color": "mono-dark",
+   "lang": "ko",
    "label": "시그니처 (심볼+워드마크)",
    "files": {
     "svg": "logo.svg",
     "png": "logo.png"
    },
-   "aspect": 3.809,
-   "provider": "traced-full",
-   "origin": "collected",
-   "order": 40
+   "order": 10,
+   "color": "color",
+   "origin": "manual"
   }
  ]
 }

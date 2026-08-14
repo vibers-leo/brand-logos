@@ -21,5 +21,28 @@ Illustrator 에서 다시 저장해야 한다. 자세한 건 `scripts/ai-to-svg.
 | `daehan-shipbuilding.ai` | 대한조선 | 공식 CI |
 | `hd-korea-shipbuilding.ai` | HD한국조선해양 | 공식 CI |
 | `ibk.ai` | IBK기업은행 | 공식 CI |
+| `sbmarine/에스비마린로고.eps` | 에스비마린 | 공식 CI (국문 시그니처, 그라데이션) |
+| `sbmarine/SB_영문만로고.ai` | 에스비마린 | 공식 CI (영문, 단색 1도) |
 
-전부 PDF 호환 `.ai` 라 `ai-to-svg.py` 로 바로 변환된다 (2026-08-13 확인).
+위쪽 4개는 PDF 호환 `.ai` 라 `ai-to-svg.py` 로 바로 변환된다 (2026-08-13 확인).
+
+## ⚠️ 변환이 안 되는 두 가지 (2026-08-14 에스비마린에서 겪음)
+
+**① 진짜 EPS 는 Inkscape 가 직접 못 읽는다.** ghostscript 를 거치면 된다:
+```bash
+ps2pdf -dEPSCrop 원본.eps out.pdf && pdftocairo -svg out.pdf out.svg
+```
+국문 로고는 이 경로로 그라데이션까지 온전히 벡터 변환됐다 (path 32개).
+
+**② sK1 로 내보낸 `.ai` 는 ghostscript 도 못 읽는다** (`/undefined in XR`).
+확장자만 `.ai` 지 내용은 Illustrator 고유 연산자(`XR`·`Lb`·`k`·`C`)를 쓰는
+PostScript 이고, 그 연산자를 정의하는 prolog 가 빠져 있다.
+연산자가 몇 개 안 되면(`m`·`L`·`C`·`f`·`k`) 직접 파싱하는 게 빠르다.
+
+이때 **`*u`…`*U` 컴파운드 패스 그룹을 반드시 지켜야 한다.** 무시하고 전부
+한 패스로 합치면 글자 속 구멍이 메워져 마크가 뭉갠 덩어리가 된다.
+
+## svgo 는 그라데이션을 깨뜨릴 수 있다
+`preset-default` 를 돌렸더니 SB 마크의 블루 그라데이션이 눈에 띄게 바뀌었다
+(평균 픽셀차 2.4). 플러그인을 골라 꺼도 마찬가지였다.
+**최적화 후에는 반드시 원본과 픽셀 대조**하고, 다르면 쓰지 않는다.

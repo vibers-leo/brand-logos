@@ -1,5 +1,5 @@
 {
-  "total": 6837,
+  "total": 6838,
   "source": "Be The Line Event Operation Partner",
   "brands": [
     {
@@ -120410,6 +120410,17 @@
         }
       ],
       "dark_variant": "transparent"
+    },
+    {
+      "id": "bi-exchange-light",
+      "name_ko": "Bi exchange light",
+      "name_en": "Bi exchange light",
+      "category": "기업",
+      "domain": "",
+      "logo_svg": true,
+      "source": "wikimedia:Bi-exchange-light.svg",
+      "status": "raw",
+      "dark_variant": "white"
     }
   ],
   "generated_at": "2026-07-27",

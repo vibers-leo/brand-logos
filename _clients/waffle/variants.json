@@ -6,9 +6,7 @@
  "fingerprint": {
   "logo.svg": "0ba5887f296a654f",
   "sources/iconify/waffle.svg": "0ba5887f296a654f",
-  "sources/wvl/waffle-icon.svg": "879a50861779dbb3",
-  "sources/wvl/waffle.svg": "03a5bb269f2f4280",
-  "sources/waffle-icon.svg": "879a50861779dbb3"
+  "sources/wvl/waffle.svg": "03a5bb269f2f4280"
  },
  "variants": [
   {
@@ -33,27 +31,6 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/waffle.svg"
-    }
-   ]
-  },
-  {
-   "key": "symbol",
-   "form": "symbol",
-   "lang": "en",
-   "color": "color",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/wvl/waffle-icon.svg",
-    "png": "sources/wvl/waffle-icon.png"
-   },
-   "aspect": 1.525,
-   "provider": "wvl",
-   "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "merged",
-     "file": "sources/waffle-icon.svg"
     }
    ]
   }

@@ -229,6 +229,12 @@ def build_brand(brand: dict, force: bool, dry: bool):
         candidates.append((f, provider_of(s.get("provider", ""))))
 
     if not candidates:
+        # 낡은 매니페스트를 남겨두면 안 된다. SVG 가 사라진 브랜드(비트맵 껍데기라
+        # 내린 경우 등)의 variants.json 이 그대로 남아 없는 파일을 가리키고,
+        # 화면에는 눌러도 안 받아지는 SVG 버튼이 뜬다. 지우면 컴포넌트가
+        # 기본 파일 목록으로 폴백한다.
+        if manifest_path.exists() and not dry:
+            manifest_path.unlink()
         return None, "SVG 없음"
 
     # 멱등성: 입력 파일이 그대로고 알고리즘도 그대로면 건너뛴다

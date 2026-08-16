@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "big-hit-music-q106296918",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "f7b9a29799d93469"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼+워드마크 (가로형)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.651,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "none",
+   "color": "mono-dark",
+   "label": "심볼만",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   },
+   "aspect": null,
+   "provider": "derived:autocrop",
+   "origin": "derived",
+   "order": 30,
+   "derived_from": "logo.svg",
+   "confidence": 1.0
+  }
+ ]
+}

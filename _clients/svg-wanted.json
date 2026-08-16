@@ -1,7 +1,7 @@
 {
  "note": "worldvectorlogo 단일 소스·id를 slug로 그대로 사용해 실패한 목록. SVG 부재 확정 아님 — 재수집 타겟. / 2026-08-16: 비트맵이 박힌 '가짜 벡터' 를 PNG 로 내리고 여기 추가했다 — 진짜 SVG 가 수집되면(약간 다른 버전이라도) 그때 올린다.",
  "generated_at": "2026-08-16",
- "count": 536,
+ "count": 461,
  "brands": [
   {
    "id": "mcdfit-co",
@@ -58,15 +58,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "kbcard",
-   "name_ko": "KB국민카드",
-   "name_en": "KB국민카드",
-   "category": "금융·결제",
-   "domain": "kbcard.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "veo",
    "name_ko": "Veo",
    "name_en": "Veo",
@@ -94,29 +85,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "sbs-co",
-   "name_ko": "SBS",
-   "name_en": "SBS",
-   "category": "미디어·엔터",
-   "domain": "sbs.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "ably",
    "name_ko": "에이블리",
    "name_en": "에이블리",
    "category": "유통·쇼핑",
    "domain": "ably.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "vibers-art-way",
-   "name_ko": "아트웨이",
-   "name_en": "Art Way",
-   "category": "라이프스타일",
-   "domain": "vibers.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -238,15 +211,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "tvchosun",
-   "name_ko": "TV조선",
-   "name_en": "TV조선",
-   "category": "미디어·엔터",
-   "domain": "tvchosun.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "medicube",
    "name_ko": "메디큐브",
    "name_en": "메디큐브",
@@ -364,38 +328,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "cohere",
-   "name_ko": "Cohere",
-   "name_en": "Cohere",
-   "category": "AI·머신러닝",
-   "domain": "cohere.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "yungjin",
    "name_ko": "영진약품",
    "name_en": "영진약품",
    "category": "의료·바이오",
    "domain": "yungjin.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "lxhausys",
-   "name_ko": "LX하우시스",
-   "name_en": "LX하우시스",
-   "category": "에너지·화학",
-   "domain": "lxhausys.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "nhbank",
-   "name_ko": "NH농협은행",
-   "name_en": "NH농협은행",
-   "category": "금융·결제",
-   "domain": "nhbank.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -409,47 +346,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "ls-electric",
-   "name_ko": "LS일렉트릭",
-   "name_en": "LS일렉트릭",
-   "category": "제조·그룹",
-   "domain": "ls-electric.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "pharmicell",
    "name_ko": "파미셀",
    "name_en": "파미셀",
    "category": "의료·바이오",
    "domain": "pharmicell.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "blind",
-   "name_ko": "블라인드",
-   "name_en": "블라인드",
-   "category": "IT·테크",
-   "domain": "blind.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "kbinsure-co",
-   "name_ko": "KB손해보험",
-   "name_en": "KB손해보험",
-   "category": "금융·결제",
-   "domain": "kbinsure.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "lxinternational",
-   "name_ko": "LX인터내셔널",
-   "name_en": "LX인터내셔널",
-   "category": "제조·그룹",
-   "domain": "lxinternational.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -472,29 +373,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "skii",
-   "name_ko": "SK-II",
-   "name_en": "SK-II",
-   "category": "뷰티·패션",
-   "domain": "skii.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "cosrx",
    "name_ko": "코스알엑스",
    "name_en": "코스알엑스",
    "category": "뷰티·패션",
    "domain": "cosrx.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "kticloud",
-   "name_ko": "KT클라우드",
-   "name_en": "KT클라우드",
-   "category": "IT·테크",
-   "domain": "kticloud.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -522,15 +405,6 @@
    "name_en": "지니뮤직",
    "category": "미디어·엔터",
    "domain": "genie.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "cyworld",
-   "name_ko": "싸이월드",
-   "name_en": "싸이월드",
-   "category": "IT·테크",
-   "domain": "cyworld.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -643,15 +517,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "arirang",
-   "name_ko": "아리랑TV",
-   "name_en": "아리랑TV",
-   "category": "미디어·엔터",
-   "domain": "arirang.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "tutorvista",
    "name_ko": "튜터비스타",
    "name_en": "튜터비스타",
@@ -760,29 +625,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "seezn",
-   "name_ko": "시즌",
-   "name_en": "시즌",
-   "category": "미디어·엔터",
-   "domain": "seezn.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "sendbird",
    "name_ko": "센드버드",
    "name_en": "센드버드",
    "category": "IT·테크",
    "domain": "sendbird.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "kbs-co",
-   "name_ko": "KBS",
-   "name_en": "KBS",
-   "category": "미디어·엔터",
-   "domain": "kbs.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -931,15 +778,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "vibers-faneasy",
-   "name_ko": "팬이지",
-   "name_en": "Faneasy",
-   "category": "미디어·엔터",
-   "domain": "vibers.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "tourvis",
    "name_ko": "투어비스",
    "name_en": "투어비스",
@@ -990,15 +828,6 @@
    "name_en": "카카오워크",
    "category": "IT·테크",
    "domain": "kakaowork.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "colosseum",
-   "name_ko": "콜로세움",
-   "name_en": "콜로세움",
-   "category": "IT·테크",
-   "domain": "colosseum.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -1093,15 +922,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "emart24-co",
-   "name_ko": "이마트24",
-   "name_en": "이마트24",
-   "category": "유통·쇼핑",
-   "domain": "emart24.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "taeyoung",
    "name_ko": "태영건설",
    "name_en": "태영건설",
@@ -1161,15 +981,6 @@
    "name_en": "게임빌",
    "category": "게임",
    "domain": "gamevil.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "dongwonfnb",
-   "name_ko": "동원F&B",
-   "name_en": "동원F&B",
-   "category": "식품·음료",
-   "domain": "dongwonfnb.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -1278,15 +1089,6 @@
    "name_en": "JW중외제약",
    "category": "의료·바이오",
    "domain": "jw.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "inicis",
-   "name_ko": "KG이니시스",
-   "name_en": "KG이니시스",
-   "category": "금융·결제",
-   "domain": "inicis.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -1417,24 +1219,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "rocketpunch",
-   "name_ko": "로켓펀치",
-   "name_en": "로켓펀치",
-   "category": "IT·테크",
-   "domain": "rocketpunch.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "kgmobility",
-   "name_ko": "KG모빌리티",
-   "name_en": "KG모빌리티",
-   "category": "자동차",
-   "domain": "kgmobility.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "celltrion",
    "name_ko": "셀트리온",
    "name_en": "셀트리온",
@@ -1462,15 +1246,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "ssfshop",
-   "name_ko": "SSF샵",
-   "name_en": "SSF샵",
-   "category": "뷰티·패션",
-   "domain": "ssfshop.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "skinfood",
    "name_ko": "스킨푸드",
    "name_en": "스킨푸드",
@@ -1485,24 +1260,6 @@
    "name_en": "삼성생명",
    "category": "금융·결제",
    "domain": "samsunglife.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "gsshop",
-   "name_ko": "GS샵",
-   "name_en": "GS샵",
-   "category": "유통·쇼핑",
-   "domain": "gsshop.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "general-motors-gm",
-   "name_ko": "제너럴 모터스 GM",
-   "name_en": "General Motors GM",
-   "category": "자동차",
-   "domain": "",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -1579,15 +1336,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "band",
-   "name_ko": "밴드",
-   "name_en": "밴드",
-   "category": "암호화폐·블록체인",
-   "domain": "band.us",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "mlit-go",
    "name_ko": "국토교통부",
    "name_en": "국토교통부",
@@ -1660,15 +1408,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "hyosung",
-   "name_ko": "효성",
-   "name_en": "효성",
-   "category": "제조·그룹",
-   "domain": "hyosung.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "abib-co",
    "name_ko": "어비브",
    "name_en": "어비브",
@@ -1696,15 +1435,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "jype",
-   "name_ko": "JYP엔터테인먼트",
-   "name_en": "JYP엔터테인먼트",
-   "category": "미디어·엔터",
-   "domain": "jype.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "vibe-naver",
    "name_ko": "네이버 바이브",
    "name_en": "네이버 바이브",
@@ -1719,15 +1449,6 @@
    "name_en": "Kling AI",
    "category": "AI·머신러닝",
    "domain": "klingai.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "cloudz-co",
-   "name_ko": "kt cloud",
-   "name_en": "kt cloud",
-   "category": "IT·테크",
-   "domain": "cloudz.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -1863,15 +1584,6 @@
    "name_en": "몰로코",
    "category": "IT·테크",
    "domain": "moloco.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "groq",
-   "name_ko": "Groq",
-   "name_en": "Groq",
-   "category": "AI·머신러닝",
-   "domain": "groq.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -2083,15 +1795,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "primera",
-   "name_ko": "프리메라",
-   "name_en": "프리메라",
-   "category": "뷰티·패션",
-   "domain": "primera.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "airbridge",
    "name_ko": "에어브릿지",
    "name_en": "에어브릿지",
@@ -2164,15 +1867,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "agoda",
-   "name_ko": "아고다",
-   "name_en": "아고다",
-   "category": "숙박·여행",
-   "domain": "agoda.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "kakaoent",
    "name_ko": "카카오엔터",
    "name_en": "카카오엔터",
@@ -2205,15 +1899,6 @@
    "name_en": "롯데아이몰",
    "category": "유통·쇼핑",
    "domain": "lotteimall.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "dmcmedia-co",
-   "name_ko": "DMC미디어",
-   "name_en": "DMC미디어",
-   "category": "미디어·엔터",
-   "domain": "dmcmedia.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -2344,15 +2029,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "hema",
-   "name_ko": "허마(헤마)",
-   "name_en": "허마(헤마)",
-   "category": "유통·쇼핑",
-   "domain": "hema.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "petfriends-co",
    "name_ko": "펫프렌즈",
    "name_en": "펫프렌즈",
@@ -2367,15 +2043,6 @@
    "name_en": "카카오페이지",
    "category": "IT·테크",
    "domain": "kakaopage.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "knoc-co",
-   "name_ko": "한국석유공사",
-   "name_en": "한국석유공사",
-   "category": "에너지·화학",
-   "domain": "knoc.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -2452,29 +2119,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "db-fi",
-   "name_ko": "DB손해보험",
-   "name_en": "DB손해보험",
-   "category": "금융·결제",
-   "domain": "db-fi.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "homeplus-co",
    "name_ko": "홈플러스",
    "name_en": "홈플러스",
    "category": "유통·쇼핑",
    "domain": "homeplus.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "posco-e",
-   "name_ko": "포스코E&C",
-   "name_en": "포스코E&C",
-   "category": "건설·부동산",
-   "domain": "posco-e.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -2551,29 +2200,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "hmall",
-   "name_ko": "H몰",
-   "name_en": "H몰",
-   "category": "유통·쇼핑",
-   "domain": "hmall.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "dlive-co",
    "name_ko": "딜라이브",
    "name_en": "딜라이브",
    "category": "통신",
    "domain": "dlive.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "gscaltex",
-   "name_ko": "GS건설",
-   "name_en": "GS건설",
-   "category": "건설·부동산",
-   "domain": "gscaltex.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -2610,15 +2241,6 @@
    "name_en": "티웨이항공",
    "category": "물류·교통",
    "domain": "twayair.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "parexel",
-   "name_ko": "패렉셀",
-   "name_en": "패렉셀",
-   "category": "의료·바이오",
-   "domain": "parexel.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -2686,15 +2308,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "hyundaihmall",
-   "name_ko": "현대H몰",
-   "name_en": "현대H몰",
-   "category": "유통·쇼핑",
-   "domain": "hyundaihmall.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "namyang-co",
    "name_ko": "남양유업",
    "name_en": "남양유업",
@@ -2731,24 +2344,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "bbo-co",
-   "name_ko": "BBQ",
-   "name_en": "BBQ",
-   "category": "식품·음료",
-   "domain": "bbo.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "wconcept-co",
-   "name_ko": "W컨셉",
-   "name_en": "W컨셉",
-   "category": "유통·쇼핑",
-   "domain": "wconcept.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "kakaogames",
    "name_ko": "카카오게임즈",
    "name_en": "카카오게임즈",
@@ -2781,15 +2376,6 @@
    "name_en": "한국정보화진흥원",
    "category": "공공·기관",
    "domain": "nia.or.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "samsonite",
-   "name_ko": "쌤소나이트",
-   "name_en": "쌤소나이트",
-   "category": "뷰티·패션",
-   "domain": "samsonite.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -2848,15 +2434,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "lego",
-   "name_ko": "레고코리아",
-   "name_en": "레고코리아",
-   "category": "라이프스타일",
-   "domain": "lego.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "lezhin",
    "name_ko": "레진코믹스",
    "name_en": "레진코믹스",
@@ -2907,15 +2484,6 @@
    "name_en": "파리바게뜨",
    "category": "식품·음료",
    "domain": "parisbaguette.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "ocn-co",
-   "name_ko": "OCN",
-   "name_en": "OCN",
-   "category": "미디어·엔터",
-   "domain": "ocn.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3006,15 +2574,6 @@
    "name_en": "하나투어",
    "category": "숙박·여행",
    "domain": "hanatour.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "vibers-ai-recipe",
-   "name_ko": "AI Recipe",
-   "name_en": "AI Recipe",
-   "category": "AI·머신러닝",
-   "domain": "vibers.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3118,24 +2677,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "cafe24",
-   "name_ko": "카페24",
-   "name_en": "카페24",
-   "category": "IT·테크",
-   "domain": "cafe24.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "kbstar",
-   "name_ko": "KB국민은행",
-   "name_en": "KB국민은행",
-   "category": "금융·결제",
-   "domain": "kbstar.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "fss-or",
    "name_ko": "금융감독원",
    "name_en": "금융감독원",
@@ -3181,15 +2722,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "adobe-firefly",
-   "name_ko": "Adobe Firefly",
-   "name_en": "Adobe Firefly",
-   "category": "AI·머신러닝",
-   "domain": "adobe.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "genexine",
    "name_ko": "제넥신",
    "name_en": "제넥신",
@@ -3204,15 +2736,6 @@
    "name_en": "YES24",
    "category": "유통·쇼핑",
    "domain": "yes24.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "gs-co",
-   "name_ko": "GS그룹",
-   "name_en": "GS그룹",
-   "category": "제조·그룹",
-   "domain": "gs.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3325,29 +2848,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "smentertainment",
-   "name_ko": "SM엔터테인먼트",
-   "name_en": "SM엔터테인먼트",
-   "category": "미디어·엔터",
-   "domain": "smentertainment.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "zigbang",
    "name_ko": "직방",
    "name_en": "직방",
    "category": "IT·테크",
    "domain": "zigbang.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "flo",
-   "name_ko": "FLO",
-   "name_en": "FLO",
-   "category": "암호화폐·블록체인",
-   "domain": "flo.io",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3442,24 +2947,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "davinci",
-   "name_ko": "다빈치AI",
-   "name_en": "다빈치AI",
-   "category": "IT·테크",
-   "domain": "davinci.ai",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "bithumb",
-   "name_ko": "빗썸",
-   "name_en": "빗썸",
-   "category": "금융·결제",
-   "domain": "bithumb.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "hanjinkal",
    "name_ko": "한진칼",
    "name_en": "한진칼",
@@ -3505,29 +2992,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "nhqv",
-   "name_ko": "NH투자증권",
-   "name_en": "NH투자증권",
-   "category": "금융·결제",
-   "domain": "nhqv.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "vibers-richlychee",
    "name_ko": "리치리치",
    "name_en": "Richlychee",
    "category": "IT·테크",
    "domain": "vibers.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "okfinancialgroup",
-   "name_ko": "OK금융그룹",
-   "name_en": "OK금융그룹",
-   "category": "금융·결제",
-   "domain": "okfinancialgroup.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3546,15 +3015,6 @@
    "name_en": "옥션",
    "category": "유통·쇼핑",
    "domain": "auction.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "slack",
-   "name_ko": "슬랙",
-   "name_en": "슬랙",
-   "category": "IT·테크",
-   "domain": "slack.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3640,29 +3100,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "ob-co",
-   "name_ko": "OB맥주",
-   "name_en": "OB맥주",
-   "category": "식품·음료",
-   "domain": "ob.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "kream-co",
    "name_ko": "크림",
    "name_en": "크림",
    "category": "유통·쇼핑",
    "domain": "kream.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "jaguar",
-   "name_ko": "재규어",
-   "name_en": "Jaguar",
-   "category": "자동차",
-   "domain": "",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3744,15 +3186,6 @@
    "name_en": "세아제강",
    "category": "철강·중공업",
    "domain": "seoahn.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "hera",
-   "name_ko": "헤라",
-   "name_en": "헤라",
-   "category": "뷰티·패션",
-   "domain": "hera.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -3910,15 +3343,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "siren24",
-   "name_ko": "사이렌24",
-   "name_en": "사이렌24",
-   "category": "금융·결제",
-   "domain": "siren24.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "pinkfong",
    "name_ko": "핑크퐁",
    "name_en": "핑크퐁",
@@ -3955,15 +3379,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "socar",
-   "name_ko": "쏘카",
-   "name_en": "쏘카",
-   "category": "IT·테크",
-   "domain": "socar.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "lotteria",
    "name_ko": "롯데리아",
    "name_en": "롯데리아",
@@ -3987,33 +3402,6 @@
    "name_en": "압캠",
    "category": "의료·바이오",
    "domain": "abcam.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "appsflyer",
-   "name_ko": "앱스플라이어",
-   "name_en": "앱스플라이어",
-   "category": "IT·테크",
-   "domain": "appsflyer.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "travelog",
-   "name_ko": "트래블로그",
-   "name_en": "트래블로그",
-   "category": "숙박·여행",
-   "domain": "travelog.me",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "mercedes-benz",
-   "name_ko": "메르세데스-벤츠",
-   "name_en": "Mercedes-Benz",
-   "category": "자동차",
-   "domain": "",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -4072,15 +3460,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "zdnet-co",
-   "name_ko": "ZDNet Korea",
-   "name_en": "ZDNet Korea",
-   "category": "미디어·엔터",
-   "domain": "zdnet.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "starbucks-co",
    "name_ko": "스타벅스코리아",
    "name_en": "스타벅스코리아",
@@ -4113,15 +3492,6 @@
    "name_en": "한국관광공사",
    "category": "공공·기관",
    "domain": "kto.visitkorea.or.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "ibk-co",
-   "name_ko": "IBK기업은행",
-   "name_en": "IBK기업은행",
-   "category": "금융·결제",
-   "domain": "ibk.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -4189,38 +3559,11 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "leonardoai",
-   "name_ko": "Leonardo AI",
-   "name_en": "Leonardo AI",
-   "category": "AI·머신러닝",
-   "domain": "leonardo.ai",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "donga-pharm",
    "name_ko": "동아제약",
    "name_en": "동아제약",
    "category": "의료·바이오",
    "domain": "donga-pharm.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "mbc-co",
-   "name_ko": "MBC",
-   "name_en": "MBC",
-   "category": "미디어·엔터",
-   "domain": "mbc.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "ebsi-co",
-   "name_ko": "EBS영어",
-   "name_en": "EBS영어",
-   "category": "공공·기관",
-   "domain": "ebsi.co.kr",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -4252,15 +3595,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "genesis",
-   "name_ko": "제네시스",
-   "name_en": "제네시스",
-   "category": "자동차",
-   "domain": "genesis.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "korea-ac",
    "name_ko": "고려대학교",
    "name_en": "고려대학교",
@@ -4284,15 +3618,6 @@
    "name_en": "Jasper",
    "category": "AI·머신러닝",
    "domain": "jasper.ai",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "daesang",
-   "name_ko": "대상",
-   "name_en": "대상",
-   "category": "식품·음료",
-   "domain": "daesang.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -4378,15 +3703,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "smartstore-naver",
-   "name_ko": "네이버스마트스토어",
-   "name_en": "네이버스마트스토어",
-   "category": "IT·테크",
-   "domain": "smartstore.naver.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "triple",
    "name_ko": "트리플",
    "name_en": "트리플",
@@ -4405,15 +3721,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "channela",
-   "name_ko": "채널A",
-   "name_en": "채널A",
-   "category": "미디어·엔터",
-   "domain": "channela.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "scinai",
    "name_ko": "사이나이이뮤노",
    "name_en": "사이나이이뮤노",
@@ -4428,15 +3735,6 @@
    "name_en": "한국전력",
    "category": "에너지·화학",
    "domain": "kepco.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "creatrip",
-   "name_ko": "크리에이트립",
-   "name_en": "크리에이트립",
-   "category": "숙박·여행",
-   "domain": "creatrip.com",
    "failed_source": "worldvectorlogo",
    "failed_at": "2026-08-07"
   },
@@ -4540,15 +3838,6 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "mattel",
-   "name_ko": "마텔코리아",
-   "name_en": "마텔코리아",
-   "category": "라이프스타일",
-   "domain": "mattel.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "kbank-co",
    "name_ko": "케이뱅크",
    "name_en": "케이뱅크",
@@ -4648,48 +3937,12 @@
    "failed_at": "2026-08-07"
   },
   {
-   "id": "aptner",
-   "name_ko": "아파트너",
-   "name_en": "아파트너",
-   "category": "건설·부동산",
-   "domain": "aptner.com",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "ebs-co",
-   "name_ko": "EBS",
-   "name_en": "EBS",
-   "category": "미디어·엔터",
-   "domain": "ebs.co.kr",
-   "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
    "id": "medilive-co",
    "name_ko": "메디라이브",
    "name_en": "메디라이브",
    "category": "의료·바이오",
    "domain": "medilive.co.kr",
    "failed_source": "worldvectorlogo",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "republicrecords",
-   "name_ko": "리퍼블릭 레코드",
-   "name_en": "Republic Records",
-   "category": "엔터·미디어",
-   "domain": "",
-   "failed_source": "unknown-html",
-   "failed_at": "2026-08-07"
-  },
-  {
-   "id": "interscope",
-   "name_ko": "인터스코프",
-   "name_en": "Interscope Records",
-   "category": "엔터·미디어",
-   "domain": "",
-   "failed_source": "unknown-html",
    "failed_at": "2026-08-07"
   },
   {
@@ -4826,6 +4079,78 @@
    "category": "공공·기관",
    "domain": "kocsc.or.kr",
    "failed_source": "raster-wrapped-svg",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "daisyUI",
+   "name_ko": "Daisyui",
+   "name_en": "Daisyui",
+   "category": "IT·테크",
+   "domain": null,
+   "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "mfds",
+   "name_ko": "식품의약품안전처",
+   "name_en": "Ministry of Food and Drug Safety",
+   "category": "공공·기관",
+   "domain": "mfds.go.kr",
+   "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "ssg-payments",
+   "name_ko": "SSG페이먼츠",
+   "name_en": "SSG PAYMENTS",
+   "category": "금융·결제",
+   "domain": "ssgpay.com",
+   "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "kona-i",
+   "name_ko": "코나아이",
+   "name_en": "KONA I",
+   "category": "금융·결제",
+   "domain": "konai.com",
+   "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "sk-planet",
+   "name_ko": "SK플래닛",
+   "name_en": "SK planet",
+   "category": "IT·테크",
+   "domain": "skplanet.com",
+   "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "travel-wallet",
+   "name_ko": "트래블월렛",
+   "name_en": "Travel Wallet",
+   "category": "금융·결제",
+   "domain": "travel-wallet.com",
+   "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "incheon-airport",
+   "name_ko": "인천국제공항공사",
+   "name_en": "Incheon International Airport",
+   "category": "공공·기관",
+   "domain": "airport.kr",
+   "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "eland-retail",
+   "name_ko": "이랜드리테일",
+   "name_en": "E-LAND RETAIL",
+   "category": "유통·쇼핑",
+   "domain": "elandretail.com",
+   "failed_source": "png-only",
    "failed_at": "2026-08-16"
   }
  ]

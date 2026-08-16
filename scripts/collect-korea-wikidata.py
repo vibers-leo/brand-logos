@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -44,7 +45,8 @@ from assetguard import safe_write  # noqa: E402
 
 BASE = SCRIPT_DIR.parent / "_clients"
 BRANDS = BASE / "brands.json"
-STAGE = SCRIPT_DIR.parent / "_staging" / "korea-wikidata"
+STAGE = Path(os.environ.get("SEMOLOGO_STAGE",
+             str(SCRIPT_DIR.parent / "_staging" / "korea-wikidata")))
 REPORT = BASE / "korea-wikidata-report.json"
 QUEUE = BASE / "korea-wikidata-review.json"
 
@@ -162,6 +164,40 @@ def categorize(item: dict) -> str:
     return "기타"
 
 
+def initials(name: str) -> str:
+    """'Korea National University of Education' → 'knue' (약어 대조용)."""
+    words = [w for w in re.split(r"[^A-Za-z]+", name or "") if w and w[0].isupper()]
+    return "".join(w[0] for w in words).lower()
+
+
+def matches_filename(en: str, fname: str, common: set[str]) -> bool:
+    """파일명이 이 브랜드의 것이라고 믿을 만한가.
+
+    처음엔 '흔하지 않은 단어가 하나라도 겹치면 통과'로 했는데 두 방향 모두 틀렸다.
+      · 롯데하이마트 ← "Lotte Mart 2018.svg"  ('lotte' 하나로 통과. 다른 회사다)
+      · 부산 도시철도 1호선 ← "Busan Metro Line 1.svg"  (완벽히 같은데 단어가
+        전부 흔하다는 이유로 탈락. 이런 오탈락이 177건 중 대부분이었다)
+
+    그래서 '겹치는 게 있는가'가 아니라 **'브랜드를 특정하는 말이 파일명에
+    빠짐없이 들어 있는가'** 를 본다.
+    """
+    if not en:
+        return False
+    name_t, file_t = tokens(en), tokens(fname)
+    if not name_t:
+        return False
+    # 셋 중 하나라도 만족하면 인정한다. 약어 경로를 뒤에 두면 안 된다 —
+    # 'Korea National University of Education' 은 'education' 이 구분력 있는
+    # 말이라 첫 분기에서 끝나버려 KNUE 대조까지 못 갔다.
+    distinctive = name_t - common
+    if distinctive and distinctive <= file_t:
+        return True                            # 특정하는 말이 전부 있다
+    if name_t <= file_t:
+        return True                            # 이름 전체가 파일명에 있다
+    ini = initials(en)                          # KNUE logotype.svg ← Korea National…
+    return len(ini) >= 3 and ini in file_t
+
+
 def fetch(url: str, timeout: int = 60) -> bytes | None:
     try:
         with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
@@ -254,8 +290,7 @@ def main() -> int:
         # 단, 겹친 단어가 그룹명처럼 흔한 것뿐이면 인정하지 않는다 —
         # 롯데하이마트에 "Lotte Mart 2018.svg" 가 붙어 있었고 'lotte' 만 겹쳐
         # 통과해버렸다(대조 시트에서 발견). 구분력 있는 단어가 하나는 겹쳐야 한다.
-        shared = tokens(fname) & tokens(it["en"] or "") if it["en"] else set()
-        overlap = bool(shared - common_tokens)
+        overlap = matches_filename(it["en"], fname, common_tokens)
         it["file"] = fname
         it["slug"] = slugify(it["en"] or it["ko"]) or it["qid"].lower()
         if it["slug"] in have_id:

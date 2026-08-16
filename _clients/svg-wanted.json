@@ -1,7 +1,7 @@
 {
  "note": "worldvectorlogo 단일 소스·id를 slug로 그대로 사용해 실패한 목록. SVG 부재 확정 아님 — 재수집 타겟. / 2026-08-16: 비트맵이 박힌 '가짜 벡터' 를 PNG 로 내리고 여기 추가했다 — 진짜 SVG 가 수집되면(약간 다른 버전이라도) 그때 올린다.",
  "generated_at": "2026-08-16",
- "count": 461,
+ "count": 462,
  "brands": [
   {
    "id": "mcdfit-co",
@@ -4151,6 +4151,15 @@
    "category": "유통·쇼핑",
    "domain": "elandretail.com",
    "failed_source": "png-only",
+   "failed_at": "2026-08-16"
+  },
+  {
+   "id": "korea-national-university-of-education",
+   "name_ko": "한국교원대학교",
+   "name_en": "Korea National University of Education",
+   "category": "교육",
+   "domain": "knue.ac.kr",
+   "failed_source": "raster-wrapped-svg",
    "failed_at": "2026-08-16"
   }
  ]

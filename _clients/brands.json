@@ -1,5 +1,5 @@
 {
- "total": 7070,
+ "total": 7116,
  "source": "Be The Line Event Operation Partner",
  "brands": [
   {
@@ -120363,7 +120363,8 @@
     }
    ],
    "variant_of": "million",
-   "has_png": true
+   "has_png": true,
+   "dark_variant": "white"
   },
   {
    "id": "milvus-icon",
@@ -120919,7 +120920,8 @@
     }
    ],
    "variant_of": "obsidian",
-   "has_png": true
+   "has_png": true,
+   "dark_variant": "white"
   },
   {
    "id": "okta-icon",
@@ -130446,7 +130448,8 @@
    "sources": [],
    "logo_png": true,
    "has_png": true,
-   "svg_note": "비트맵이 박힌 SVG 라 벡터로 쓸 수 없다. sources/raster-wrapped/ 에 보관."
+   "svg_note": "비트맵이 박힌 SVG 라 벡터로 쓸 수 없다. sources/raster-wrapped/ 에 보관.",
+   "dark_variant": "white"
   },
   {
    "id": "paris-croissant",
@@ -133751,6 +133754,1128 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "위키미디어 커먼즈 (Sejong City Office of Education Logo (horizontal).svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "kumho",
+   "name_ko": "금호그룹",
+   "name_en": "KUMHO",
+   "category": "기타",
+   "folder": "_clients/kumho",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q489188",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Kumho Asiana logo.svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "seoul",
+   "name_ko": "서울특별시",
+   "name_en": "Seoul",
+   "category": "미디어·엔터",
+   "folder": "_clients/seoul",
+   "website": "seoul.go.kr",
+   "domain": "seoul.go.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q8684",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Logo of Seoul, South Korea.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "u-line",
+   "name_ko": "의정부 경전철",
+   "name_en": "U Line",
+   "category": "물류·교통",
+   "folder": "_clients/u-line",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q491655",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Seoul Metro Line U Line.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "sbs-tv",
+   "name_ko": "SBS TV",
+   "name_en": "SBS TV",
+   "category": "미디어·엔터",
+   "folder": "_clients/sbs-tv",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q16172404",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (SBS Korea Logo (Word Only).svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "sejong",
+   "name_ko": "세종특별자치시",
+   "name_en": "Sejong",
+   "category": "기타",
+   "folder": "_clients/sejong",
+   "website": "sejong.go.kr",
+   "domain": "sejong.go.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q20929",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Sejong City symbol.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "air-seoul",
+   "name_ko": "에어서울",
+   "name_en": "Air Seoul",
+   "category": "물류·교통",
+   "folder": "_clients/air-seoul",
+   "website": "flyairseoul.com",
+   "domain": "flyairseoul.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q24867828",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Logo of Air Seoul.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "hyundai-l-c",
+   "name_ko": "현대L&C",
+   "name_en": "Hyundai L&C",
+   "category": "기타",
+   "folder": "_clients/hyundai-l-c",
+   "website": "hyundailncglobal.com",
+   "domain": "hyundailncglobal.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q5651422",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Hyundai L&C Logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "people-party",
+   "name_ko": "국민의당",
+   "name_en": "People Party",
+   "category": "공공·기관",
+   "folder": "_clients/people-party",
+   "website": "people21.kr",
+   "domain": "people21.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q22262466",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Logo of the people's party (south korea).svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "arex-express",
+   "name_ko": "인천국제공항철도 급행",
+   "name_en": "AREX express",
+   "category": "물류·교통",
+   "folder": "_clients/arex-express",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q110769087",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Seoul Metro Line Arex.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "hyundai-q29311",
+   "name_ko": "현대",
+   "name_en": "Hyundai",
+   "category": "기타",
+   "folder": "_clients/hyundai-q29311",
+   "website": "hyundaigroup.com",
+   "domain": "hyundaigroup.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q29311",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Hyundai logo (english).svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "democratic-party",
+   "name_ko": "민주당",
+   "name_en": "Democratic Party",
+   "category": "공공·기관",
+   "folder": "_clients/democratic-party",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q4423134",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Logo of Democratic Party (South Korea, 1991).svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "shinsegae-q490787",
+   "name_ko": "신세계백화점",
+   "name_en": "Shinsegae",
+   "category": "유통·쇼핑",
+   "folder": "_clients/shinsegae-q490787",
+   "website": "shinsegae.com",
+   "domain": "shinsegae.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q490787",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Shinsegae logo.svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "busan-metro-line-1",
+   "name_ko": "부산 도시철도 1호선",
+   "name_en": "Busan Metro Line 1",
+   "category": "물류·교통",
+   "folder": "_clients/busan-metro-line-1",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q86356",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Busan Metro Line 1.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "busan-metro-line-2",
+   "name_ko": "부산 도시철도 2호선",
+   "name_en": "Busan Metro Line 2",
+   "category": "물류·교통",
+   "folder": "_clients/busan-metro-line-2",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q86467",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Busan Metro Line 2.svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "busan-metro-line-3",
+   "name_ko": "부산 도시철도 3호선",
+   "name_en": "Busan Metro Line 3",
+   "category": "물류·교통",
+   "folder": "_clients/busan-metro-line-3",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q86468",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Busan Metro Line 3.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "busan-metro-line-4",
+   "name_ko": "부산 도시철도 4호선",
+   "name_en": "Busan Metro Line 4",
+   "category": "물류·교통",
+   "folder": "_clients/busan-metro-line-4",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q86469",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Busan Metro Line 4.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "daegu-metro-line-1",
+   "name_ko": "대구 도시철도 1호선",
+   "name_en": "Daegu Metro Line 1",
+   "category": "물류·교통",
+   "folder": "_clients/daegu-metro-line-1",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q200331",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Daegu Metro Line 1.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "daegu-metro-line-2",
+   "name_ko": "대구 도시철도 2호선",
+   "name_en": "Daegu Metro Line 2",
+   "category": "물류·교통",
+   "folder": "_clients/daegu-metro-line-2",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q200332",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Daegu Metro Line 2.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "daegu-metro-line-3",
+   "name_ko": "대구 도시철도 3호선",
+   "name_en": "Daegu Metro Line 3",
+   "category": "물류·교통",
+   "folder": "_clients/daegu-metro-line-3",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q4706906",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Daegu Metro Line 3.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "hd-hyundai-q626638",
+   "name_ko": "HD현대",
+   "name_en": "HD Hyundai",
+   "category": "기타",
+   "folder": "_clients/hd-hyundai-q626638",
+   "website": "hd.com",
+   "domain": "hd.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q626638",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (HD Hyundai logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "people-power-party",
+   "name_ko": "국민의힘",
+   "name_en": "People Power Party",
+   "category": "공공·기관",
+   "folder": "_clients/people-power-party",
+   "website": "peoplepowerparty.kr",
+   "domain": "peoplepowerparty.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q85412437",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Logo of People Power Party of Korea.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "samsung-engineering",
+   "name_ko": "삼성엔지니어링",
+   "name_en": "Samsung Engineering",
+   "category": "건설·부동산",
+   "folder": "_clients/samsung-engineering",
+   "website": "samsungengineering.com",
+   "domain": "samsungengineering.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q2998661",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Samsung Engineering logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "asia-motors-q484849",
+   "name_ko": "아시아자동차공업",
+   "name_en": "Asia Motors",
+   "category": "자동차",
+   "folder": "_clients/asia-motors-q484849",
+   "website": "asia.co.kr",
+   "domain": "asia.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q484849",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Asia Motors Logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "university-of-seoul",
+   "name_ko": "서울시립대학교",
+   "name_en": "University of Seoul",
+   "category": "교육",
+   "folder": "_clients/university-of-seoul",
+   "website": "uos.ac.kr",
+   "domain": "uos.ac.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q488334",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (University of Seoul.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "samyang-corporation",
+   "name_ko": "삼양사",
+   "name_en": "Samyang Corporation",
+   "category": "기타",
+   "folder": "_clients/samyang-corporation",
+   "website": "samyang.co.kr",
+   "domain": "samyang.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q12600282",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Samyang Corporation 2024.svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "kg-group-q114243585",
+   "name_ko": "KG그룹",
+   "name_en": "KG Group",
+   "category": "공공·기관",
+   "folder": "_clients/kg-group-q114243585",
+   "website": "kggroup.co.kr",
+   "domain": "kggroup.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q114243585",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (KG Group.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "hyundai-motor-group",
+   "name_ko": "현대자동차그룹",
+   "name_en": "Hyundai Motor Group",
+   "category": "자동차",
+   "folder": "_clients/hyundai-motor-group",
+   "website": "hyundaimotorgroup.com",
+   "domain": "hyundaimotorgroup.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q59243",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Hyundai Motor Group CI.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "incheon-metro-line-2",
+   "name_ko": "인천 도시철도 2호선",
+   "name_en": "Incheon Metro Line 2",
+   "category": "물류·교통",
+   "folder": "_clients/incheon-metro-line-2",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q484739",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Incheon Metro Line 2.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "korean-national-party",
+   "name_ko": "한국국민당",
+   "name_en": "Korean National Party",
+   "category": "공공·기관",
+   "folder": "_clients/korean-national-party",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q625109",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Korean National Party.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "metro-gyeonggang-line",
+   "name_ko": "수도권 전철 경강선",
+   "name_en": "Metro Gyeonggang Line",
+   "category": "물류·교통",
+   "folder": "_clients/metro-gyeonggang-line",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q24044969",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Gyeonggang Line.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "yonhap-television-news",
+   "name_ko": "YTN",
+   "name_en": "Yonhap Television News",
+   "category": "기타",
+   "folder": "_clients/yonhap-television-news",
+   "website": "ytn.co.kr",
+   "domain": "ytn.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q487590",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (YTN logo 2014.svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "democratic-korea-party",
+   "name_ko": "민주한국당",
+   "name_en": "Democratic Korea Party",
+   "category": "공공·기관",
+   "folder": "_clients/democratic-korea-party",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q11242645",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Democratic Korea Party.svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "ministry-of-unification",
+   "name_ko": "대한민국 통일부",
+   "name_en": "Ministry of Unification",
+   "category": "공공·기관",
+   "folder": "_clients/ministry-of-unification",
+   "website": "unikorea.go.kr",
+   "domain": "unikorea.go.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q276612",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Emblem of the Ministry of Unification (English).svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "combined-forces-command",
+   "name_ko": "한미연합군사령부",
+   "name_en": "Combined Forces Command",
+   "category": "기타",
+   "folder": "_clients/combined-forces-command",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q5150856",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (ROK-US CFC logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "democratic-party-of-korea",
+   "name_ko": "더불어민주당",
+   "name_en": "Democratic Party of Korea",
+   "category": "공공·기관",
+   "folder": "_clients/democratic-party-of-korea",
+   "website": "theminjoo.kr",
+   "domain": "theminjoo.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q15978686",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (2024 Logo of the Democratic Party of Korea.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "incheon-national-university",
+   "name_ko": "인천대학교",
+   "name_en": "Incheon National University",
+   "category": "교육",
+   "folder": "_clients/incheon-national-university",
+   "website": "inu.ac.kr",
+   "domain": "inu.ac.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q497488",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Logo of INCHEON NATIONAL UNIVERSITY.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "hana-financial-group-q490601",
+   "name_ko": "하나금융그룹",
+   "name_en": "Hana Financial Group",
+   "category": "금융·결제",
+   "folder": "_clients/hana-financial-group-q490601",
+   "website": "hanafn.com",
+   "domain": "hanafn.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q490601",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Hana Financial Group Logo (eng).svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "kcc-engineering-construction",
+   "name_ko": "KCC건설",
+   "name_en": "KCC Engineering & Construction",
+   "category": "건설·부동산",
+   "folder": "_clients/kcc-engineering-construction",
+   "website": "kccworld.net",
+   "domain": "kccworld.net",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q129254819",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (KCC logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "ulsan-broadcasting-corporation",
+   "name_ko": "울산방송",
+   "name_en": "Ulsan Broadcasting Corporation",
+   "category": "미디어·엔터",
+   "folder": "_clients/ulsan-broadcasting-corporation",
+   "website": "ubc.co.kr",
+   "domain": "ubc.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q7879923",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (UBC 울산방송.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "agency-for-defense-development",
+   "name_ko": "국방과학연구소",
+   "name_en": "Agency for Defense Development",
+   "category": "공공·기관",
+   "folder": "_clients/agency-for-defense-development",
+   "website": "add.re.kr",
+   "domain": "add.re.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q626610",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (ADD Logo (CI).svg)"
+    }
+   ],
+   "dark_variant": "white",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "kwangju-broadcasting-corporation",
+   "name_ko": "광주방송",
+   "name_en": "Kwangju Broadcasting Corporation",
+   "category": "미디어·엔터",
+   "folder": "_clients/kwangju-broadcasting-corporation",
+   "website": "ikbc.co.kr",
+   "domain": "ikbc.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q624341",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Kbc logo2.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "korea-aerospace-industries-q488470",
+   "name_ko": "한국항공우주산업",
+   "name_en": "Korea Aerospace Industries",
+   "category": "항공·우주·방산",
+   "folder": "_clients/korea-aerospace-industries-q488470",
+   "website": "koreaaero.com",
+   "domain": "koreaaero.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q488470",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Korea Aerospace Industries logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "seoul-metropolitan-subway-seohae-line",
+   "name_ko": "수도권 전철 서해선",
+   "name_en": "Seoul Metropolitan Subway Seohae Line",
+   "category": "물류·교통",
+   "folder": "_clients/seoul-metropolitan-subway-seohae-line",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q626243",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Seoul Metro Line Seohae Bilingual.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "korea-national-university-of-education",
+   "name_ko": "한국교원대학교",
+   "name_en": "Korea National University of Education",
+   "category": "교육",
+   "folder": "_clients/korea-national-university-of-education",
+   "website": "knue.ac.kr",
+   "domain": "knue.ac.kr",
+   "has_svg": false,
+   "svg_source": "wikimedia",
+   "wikidata": "Q484090",
+   "added_at": "2026-08-16",
+   "sources": [],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true,
+   "svg_note": "비트맵이 박힌 SVG 라 벡터로 쓸 수 없다. sources/raster-wrapped/ 에 보관."
+  },
+  {
+   "id": "jeju-international-broadcasting-system",
+   "name_ko": "제주방송",
+   "name_en": "Jeju International Broadcasting System",
+   "category": "미디어·엔터",
+   "folder": "_clients/jeju-international-broadcasting-system",
+   "website": "jibs.co.kr",
+   "domain": "jibs.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q6176559",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (JIBS 제주방송.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "kongju-national-university-high-school",
+   "name_ko": "공주대학교 사범대학 부설고등학교",
+   "name_en": "Kongju National University High School",
+   "category": "교육",
+   "folder": "_clients/kongju-national-university-high-school",
+   "website": "cnehs.kr",
+   "domain": "cnehs.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q14847464",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (KNUHS Logo.svg)"
+    }
+   ],
+   "dark_variant": "transparent",
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "national-agricultural-cooperative-federation",
+   "name_ko": "농업협동조합",
+   "name_en": "National Agricultural Cooperative Federation",
+   "category": "기타",
+   "folder": "_clients/national-agricultural-cooperative-federation",
+   "website": "nonghyup.com",
+   "domain": "nonghyup.com",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q490382",
+   "added_at": "2026-08-16",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (NACF (NongHyup) Logo with wordmark.svg)"
     }
    ],
    "dark_variant": "transparent",

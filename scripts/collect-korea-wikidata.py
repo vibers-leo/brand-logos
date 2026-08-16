@@ -85,28 +85,53 @@ def tokens(s: str) -> set[str]:
     return {t for t in re.split(r"[^a-z0-9]+", (s or "").lower()) if len(t) > 2}
 
 
-CATEGORY_RULES = [
-    ("공공·기관", ("정부", "청", "위원회", "공사", "공단", "재단", "기관", "부처", "군", "경찰", "국립")),
-    ("금융·결제", ("은행", "금융", "보험", "증권", "카드", "캐피탈")),
-    ("미디어·엔터", ("방송", "신문", "언론", "레이블", "연예", "음반", "그룹", "가수", "아이돌", "영화", "채널")),
-    ("물류·교통", ("철도", "노선", "항공", "지하철", "운송", "물류", "해운", "공항")),
-    ("교육", ("대학", "학교", "교육")),
-    ("의료·바이오", ("병원", "제약", "의료", "바이오")),
-    ("스포츠", ("구단", "축구", "야구", "스포츠", "e스포츠")),
-    ("유통·쇼핑", ("백화점", "마트", "유통", "편의점", "쇼핑")),
-    ("식품·음료", ("식품", "음료", "커피", "제과", "주류")),
-    ("제조·그룹", ("전자", "중공업", "화학", "제조", "자동차", "기업집단", "재벌")),
+# 위키데이터 분류(P31)를 우리 카테고리로 옮긴다. 구체적인 것부터 본다.
+# '사업'·'기업'·'상장 기업'·'회사' 는 절반 가까이에 붙어 있어 근거가 못 된다
+# (실측 254/144/101/18건) — 이런 건 이름으로 다시 판단한다.
+KIND_RULES = [
+    ("미디어·엔터", ("레코드 레이블", "연예 기획사", "방송국", "텔레비전 채널", "신문",
+                 "걸 그룹", "보이 그룹", "음악 그룹", "아이돌", "영화", "라디오",
+                 "미디어", "잡지", "출판사", "가수", "배우")),
+    ("게임", ("게임 개발사", "게임 회사", "비디오 게임", "게임 퍼블리셔")),
+    ("물류·교통", ("항공사", "지하철 노선", "철도", "rapid transit", "노선", "공항",
+                "해운", "물류", "택배", "버스")),
+    ("스포츠", ("야구단", "축구단", "스포츠 클럽", "구단", "리그", "체육")),
+    ("의료·바이오", ("병원", "제약", "의료기관", "바이오")),
+    ("교육", ("대학", "학교", "학원", "교육기관")),
+    ("공공·기관", ("정당", "공공기관", "행정각부", "정부 기관", "외청", "지방자치단체",
+                "공기업", "군사", "경찰", "위원회", "재단", "협회", "단체", "노동조합")),
+    ("금융·결제", ("은행", "보험", "증권", "금융")),
+    ("자동차", ("자동차 제조사", "자동차")),
+    ("IT·테크", ("웹사이트", "소프트웨어", "포털", "통신사", "인터넷")),
+]
+
+# 분류가 일반적일 때 쓰는 이름 기반 보조 규칙
+NAME_RULES = [
+    ("금융·결제", ("은행", "금융", "보험", "증권", "카드", "캐피탈", "저축")),
+    ("의료·바이오", ("병원", "제약", "의료", "바이오", "헬스")),
+    ("교육", ("대학", "학교", "교육", "학습", "학원")),
+    ("물류·교통", ("항공", "철도", "선", "해운", "물류", "택배", "공항", "고속")),
+    ("식품·음료", ("식품", "음료", "커피", "제과", "주류", "우유", "맥주", "라면")),
+    ("유통·쇼핑", ("백화점", "마트", "유통", "편의점", "쇼핑", "면세")),
+    ("건설·부동산", ("건설", "산업개발", "부동산", "엔지니어링")),
+    ("에너지·화학", ("에너지", "화학", "석유", "가스", "전력")),
+    ("제조·그룹", ("전자", "중공업", "제조", "정밀", "소재", "지주", "홀딩스")),
+    ("미디어·엔터", ("엔터", "방송", "신문", "미디어", "뮤직", "필름")),
 ]
 
 
 def categorize(item: dict) -> str:
-    """위키데이터 분류(P31) 라벨로 카테고리를 고른다.
+    """위키데이터 분류(P31) → 우리 카테고리. 못 맞히면 '기타'.
 
-    맞히지 못하면 '기타' 로 둔다 — 억지로 넣으면 목록 필터가 거짓말을 한다.
+    억지로 채우지 않는다 — 틀린 카테고리는 목록 필터를 거짓말시킨다.
     """
-    blob = " ".join(item.get("kinds") or []) + " " + (item.get("ko") or "")
-    for cat, words in CATEGORY_RULES:
-        if any(w in blob for w in words):
+    kinds = " ".join(item.get("kinds") or [])
+    for cat, words in KIND_RULES:
+        if any(w in kinds for w in words):
+            return cat
+    name = (item.get("ko") or "") + " " + (item.get("en") or "")
+    for cat, words in NAME_RULES:
+        if any(w in name for w in words):
             return cat
     return "기타"
 
@@ -131,6 +156,8 @@ def main() -> int:
     ap.add_argument("--limit", type=int)
     ap.add_argument("--download", action="store_true")
     ap.add_argument("--apply", action="store_true", help="검증 통과분을 brands.json 에 반영")
+    ap.add_argument("--recategorize", action="store_true",
+                    help="이미 반영된 위키미디어 브랜드의 카테고리만 다시 매긴다")
     args = ap.parse_args()
 
     data = json.loads(BRANDS.read_text())
@@ -225,6 +252,24 @@ def main() -> int:
                 stats["guard_rejected"] += 1
                 c["error"] = f"{type(e).__name__}: {e}"
             time.sleep(0.2)
+
+    if args.recategorize:
+        by_qid = {v["qid"]: v for v in items.values()}
+        moved = Counter()
+        for b in brands:
+            it = by_qid.get(b.get("wikidata"))
+            if not it:
+                continue
+            new_cat = categorize(it | {"en": b.get("name_en")})
+            if new_cat != b.get("category"):
+                moved[f'{b.get("category")} → {new_cat}'] += 1
+                b["category"] = new_cat
+        BRANDS.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
+        print("카테고리 재분류:")
+        for k, n in moved.most_common(15):
+            print(f"  {k:26} {n:>4}")
+        print(f"  총 {sum(moved.values())}건 이동")
+        return 0
 
     if args.apply:
         import hashlib

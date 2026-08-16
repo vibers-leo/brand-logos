@@ -54,10 +54,11 @@ MULTI_TLD = {"co.kr", "or.kr", "ne.kr", "go.kr", "re.kr", "ac.kr", "pe.kr"}
 GENERIC_TLD = {"com", "net", "org", "io", "co", "ai", "app", "dev", "me", "tv",
                "info", "biz", "shop", "store", "cloud", "tech", "xyz", "edu", "gov"}
 
-SPARQL = """SELECT ?item ?ko ?en ?logo ?site ?kindLabel WHERE {
+SPARQL = """SELECT ?item ?ko ?en ?logo ?site ?kindLabel ?industryLabel WHERE {
   ?item wdt:P17 wd:Q884 ; wdt:P154 ?logo .
   OPTIONAL { ?item wdt:P856 ?site }
   OPTIONAL { ?item wdt:P31 ?kind }
+  OPTIONAL { ?item wdt:P452 ?industry }
   OPTIONAL { ?item rdfs:label ?ko FILTER(LANG(?ko)="ko") }
   OPTIONAL { ?item rdfs:label ?en FILTER(LANG(?en)="en") }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "ko,en". }
@@ -120,11 +121,36 @@ NAME_RULES = [
 ]
 
 
+# 산업분류(P452)가 가장 정확하다 — 안랩→'보안 산업', 이자녹스→'화장품 산업'.
+# 분류(P31)는 '기업' 처럼 뭉뚱그린 값이 많아 두 번째로 본다.
+INDUSTRY_RULES = [
+    ("IT·테크", ("소프트웨어", "computer hardware", "정보기술", "인터넷", "보안", "전자공학",
+              "consumer electronics", "반도체", "클라우드", "information technology")),
+    ("게임", ("비디오 게임", "게임 산업", "video game")),
+    ("자동차", ("자동차 산업", "automotive")),
+    ("미디어·엔터", ("음악", "영화", "엔터테인먼트", "entertainment", "방송", "출판", "미디어")),
+    ("금융·결제", ("금융", "financial", "은행", "보험", "증권")),
+    ("유통·쇼핑", ("소매", "편의점", "retail", "백화점", "전자상거래")),
+    ("식품·음료", ("식품", "음료", "커피", "제과", "주류", "외식", "restaurant")),
+    ("에너지·화학", ("화학", "석유", "에너지", "전력", "배터리", "가스")),
+    ("철강·중공업", ("제철", "조선", "중공업", "철강")),
+    ("항공·우주·방산", ("항공우주", "군수", "방위", "aerospace", "defense")),
+    ("의료·바이오", ("제약", "바이오", "의료", "헬스케어", "화장품")),
+    ("물류·교통", ("물류", "운송", "항공사", "철도", "해운", "택배")),
+    ("통신", ("전기통신", "원거리 통신", "telecommunication", "이동통신")),
+    ("건설·부동산", ("건설", "부동산", "engineering", "공학")),
+]
+
+
 def categorize(item: dict) -> str:
-    """위키데이터 분류(P31) → 우리 카테고리. 못 맞히면 '기타'.
+    """위키데이터 산업분류(P452) → 분류(P31) → 이름 순으로 카테고리를 고른다.
 
     억지로 채우지 않는다 — 틀린 카테고리는 목록 필터를 거짓말시킨다.
     """
+    industries = " ".join(item.get("industries") or []).lower()
+    for cat, words in INDUSTRY_RULES:
+        if any(w.lower() in industries for w in words):
+            return cat
     kinds = " ".join(item.get("kinds") or [])
     for cat, words in KIND_RULES:
         if any(w in kinds for w in words):
@@ -175,10 +201,12 @@ def main() -> int:
         it = items.setdefault(qid, {
             "qid": qid, "ko": r.get("ko", {}).get("value"), "en": r.get("en", {}).get("value"),
             "logo": r["logo"]["value"], "domain": registrable(r.get("site", {}).get("value", "")),
-            "kinds": set(),
+            "kinds": set(), "industries": set(),
         })
         if r.get("kindLabel"):
             it["kinds"].add(r["kindLabel"]["value"])
+        if r.get("industryLabel"):
+            it["industries"].add(r["industryLabel"]["value"])
 
     # 그룹명·업종어처럼 여러 브랜드에 공통으로 나오는 단어는 매칭 근거가 못 된다.
     # 후보 전체에서 빈도를 세어 4회 이상 나오면 '흔한 단어'로 본다.

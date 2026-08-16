@@ -5132,5 +5132,934 @@
  "googlejules": {
   "status": "no_entity",
   "domain": "jules.google"
+ },
+ "ena": {
+  "status": "name_only",
+  "domain": "skylifetv.co.kr",
+  "qid": "Q273579",
+  "ko": "국립행정학교",
+  "aliases": [
+   "프랑스 국립행정학교",
+   "국립행정학교 (프랑스)"
+  ],
+  "sites": [
+   "ena.fr"
+  ]
+ },
+ "cj-cgv": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q5012261",
+  "domain": "cgv.co.kr"
+ },
+ "googlelens": {
+  "status": "verified",
+  "qid": "Q30309023",
+  "ko": "구글 렌즈",
+  "aliases": [],
+  "domain": "google.com"
+ },
+ "googlemessages": {
+  "status": "verified",
+  "qid": "Q85785022",
+  "ko": "메시지",
+  "aliases": [
+   "구글 메시지"
+  ],
+  "domain": "google.com"
+ },
+ "googlenearby": {
+  "status": "no_entity",
+  "domain": "google.com"
+ },
+ "googlenews": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q60755206",
+  "domain": "withgoogle.com"
+ },
+ "googlepubsub": {
+  "status": "no_entity",
+  "domain": "google.com"
+ },
+ "googlesheets": {
+  "status": "verified",
+  "qid": "Q46261310",
+  "ko": "구글 시트",
+  "aliases": [],
+  "domain": "google.com"
+ },
+ "googleslides": {
+  "status": "verified",
+  "qid": "Q46272775",
+  "ko": "구글 슬라이드",
+  "aliases": [],
+  "domain": "google.com"
+ },
+ "googlestreetview": {
+  "status": "verified",
+  "qid": "Q213602",
+  "ko": "구글 스트리트 뷰",
+  "aliases": [
+   "스트리트 뷰"
+  ],
+  "domain": "google.com"
+ },
+ "googlesummerofcode": {
+  "status": "verified",
+  "qid": "Q1324301",
+  "ko": "구글 서머 오브 코드",
+  "aliases": [],
+  "domain": "withgoogle.com"
+ },
+ "googletasks": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q113288788",
+  "domain": "google.com"
+ },
+ "googletv": {
+  "status": "name_only",
+  "domain": "withgoogle.com",
+  "qid": "Q19599426",
+  "ko": "구글 TV",
+  "aliases": [],
+  "sites": [
+   "tv.google",
+   "google.com"
+  ]
+ },
+ "gotomeeting": {
+  "status": "no_entity",
+  "domain": "gotomeeting.com"
+ },
+ "gplv3": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q10513445",
+  "domain": "gnu.org"
+ },
+ "grandfrais": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q3114675",
+  "domain": "grandfrais.com"
+ },
+ "graphite": {
+  "status": "name_only",
+  "domain": "graphite.dev",
+  "qid": "Q5309",
+  "ko": "흑연",
+  "aliases": [],
+  "sites": []
+ },
+ "greatlearning": {
+  "status": "name_only",
+  "domain": "mygreatlearning.com",
+  "qid": "Q1069886",
+  "ko": "대학",
+  "aliases": [],
+  "sites": []
+ },
+ "greenhouse": {
+  "status": "name_only",
+  "domain": "greenhouse.io",
+  "qid": "Q165044",
+  "ko": "온실",
+  "aliases": [],
+  "sites": []
+ },
+ "groupme": {
+  "status": "verified",
+  "qid": "Q4391517",
+  "ko": "그룹미",
+  "aliases": [],
+  "domain": "groupme.com"
+ },
+ "groupon": {
+  "status": "verified",
+  "qid": "Q852787",
+  "ko": "그루폰",
+  "aliases": [],
+  "domain": "groupon.com"
+ },
+ "gsap": {
+  "status": "no_korean",
+  "domain": "gsap.com"
+ },
+ "gsk": {
+  "status": "name_only",
+  "domain": "gskbrandhub.com",
+  "qid": "Q212322",
+  "ko": "글락소스미스클라인",
+  "aliases": [
+   "글락소 스미스 클라인",
+   "글락스 스미스 클라인",
+   "스미스클라인",
+   "글락소웰컴",
+   "스미스클라인 비첨",
+   "글락소 스미스클라인",
+   "스미스 클라인 비첨",
+   "스미스 클라인",
+   "GlaxoSmithKline",
+   "GSK",
+   "gsk"
+  ],
+  "sites": [
+   "gsk.com"
+  ]
+ },
+ "gsma": {
+  "status": "verified",
+  "qid": "Q795901",
+  "ko": "GSM 협회",
+  "aliases": [],
+  "domain": "gsma.com"
+ },
+ "gsmarenadotcom": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q47141541",
+  "domain": "gsmarena.com"
+ },
+ "gstreamer": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q860213",
+  "domain": "freedesktop.org"
+ },
+ "guilded": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q107271495",
+  "domain": "guilded.gg"
+ },
+ "guitarpro": {
+  "status": "verified",
+  "qid": "Q917871",
+  "ko": "기타 프로",
+  "aliases": [],
+  "domain": "guitar-pro.com"
+ },
+ "gumroad": {
+  "status": "verified",
+  "qid": "Q11221981",
+  "ko": "검로드",
+  "aliases": [],
+  "domain": "gumroad.com"
+ },
+ "gumtree": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q5618258",
+  "domain": "gumtree.com"
+ },
+ "gurobi": {
+  "status": "verified",
+  "qid": "Q5620239",
+  "ko": "구로비",
+  "aliases": [],
+  "domain": "gurobi.com"
+ },
+ "handm": {
+  "status": "verified",
+  "qid": "Q188326",
+  "ko": "에이치앤엠",
+  "aliases": [],
+  "domain": "hm.com"
+ },
+ "habr": {
+  "status": "no_korean",
+  "domain": "habr.com"
+ },
+ "hackclub": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q98127305",
+  "domain": "hackclub.com"
+ },
+ "hackthebox": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q130479865",
+  "domain": "hackthebox.com"
+ },
+ "hackaday": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q5637185",
+  "domain": "hackaday.com"
+ },
+ "hackernoon": {
+  "status": "no_entity",
+  "domain": "hackernoon.com"
+ },
+ "hackerearth": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q24007029",
+  "domain": "hackerearth.com"
+ },
+ "hackerone": {
+  "status": "verified",
+  "qid": "Q22022648",
+  "ko": "해커원",
+  "aliases": [],
+  "domain": "hackerone.com"
+ },
+ "hackerrank": {
+  "status": "verified",
+  "qid": "Q20926425",
+  "ko": "해커랭크",
+  "aliases": [],
+  "domain": "hackerrank.com"
+ },
+ "hackmd": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q69861075",
+  "domain": "hackmd.io"
+ },
+ "hackster": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q63852448",
+  "domain": "hackster.io"
+ },
+ "hal": {
+  "status": "name_only",
+  "domain": "cnrs.fr",
+  "qid": "Q210003",
+  "ko": "할레",
+  "aliases": [],
+  "sites": [
+   "halle.be"
+  ]
+ },
+ "handshake": {
+  "status": "name_only",
+  "domain": "joinhandshake.com",
+  "qid": "Q830043",
+  "ko": "악수",
+  "aliases": [],
+  "sites": []
+ },
+ "happycow": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q28126753",
+  "domain": "happycow.net"
+ },
+ "harmonyos": {
+  "status": "verified",
+  "qid": "Q63986220",
+  "ko": "훙멍",
+  "aliases": [],
+  "domain": "harmonyos.com"
+ },
+ "hashcat": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q17081377",
+  "domain": "hashcat.net"
+ },
+ "hatenabookmark": {
+  "status": "no_entity",
+  "domain": "hatenacorp.jp"
+ },
+ "havells": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q5683558",
+  "domain": "havells.com"
+ },
+ "hcl": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q1418936",
+  "domain": "hcl.com"
+ },
+ "hdfcbank": {
+  "status": "no_korean",
+  "domain": "hdfcsales.com"
+ },
+ "headphonezone": {
+  "status": "no_entity",
+  "domain": "headphonezone.in"
+ },
+ "headspace": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q16927669",
+  "domain": "headspace.com"
+ },
+ "hearth": {
+  "status": "name_only",
+  "domain": "gethearth.com",
+  "qid": "Q585473",
+  "ko": "불구덩이",
+  "aliases": [],
+  "sites": []
+ },
+ "hearthisdotat": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q21116538",
+  "domain": "hearthis.at"
+ },
+ "hedera": {
+  "status": "name_only",
+  "domain": "hedera.com",
+  "qid": "Q26771",
+  "ko": "송악속",
+  "aliases": [],
+  "sites": []
+ },
+ "helium": {
+  "status": "name_only",
+  "domain": "helium.com",
+  "qid": "Q560",
+  "ko": "헬륨",
+  "aliases": [],
+  "sites": []
+ },
+ "helix": {
+  "status": "name_only",
+  "domain": "helix-editor.com",
+  "qid": "Q245314",
+  "ko": "에스카르고큰달팽이",
+  "aliases": [],
+  "sites": []
+ },
+ "hellofresh": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q23014836",
+  "domain": "hellofreshgroup.com"
+ },
+ "hellyhansen": {
+  "status": "verified",
+  "qid": "Q1603114",
+  "ko": "헬리한센",
+  "aliases": [],
+  "domain": "hellyhansen.com"
+ },
+ "helpdesk": {
+  "status": "name_only",
+  "domain": "helpdesk.design",
+  "qid": "Q16738649",
+  "ko": "기술 지원 사기",
+  "aliases": [],
+  "sites": []
+ },
+ "hepsiemlak": {
+  "status": "no_entity",
+  "domain": "hepsiemlak.com"
+ },
+ "here": {
+  "status": "name_only",
+  "domain": "here.com",
+  "qid": "Q27137569",
+  "ko": "Here (앨리샤 키스의 음반)",
+  "aliases": [],
+  "sites": []
+ },
+ "heroui": {
+  "status": "no_korean",
+  "domain": "heroui.com"
+ },
+ "hetzner": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q18349346",
+  "domain": "hetzner.com"
+ },
+ "hevy": {
+  "status": "no_korean",
+  "domain": "hevyapp.com"
+ },
+ "hexlet": {
+  "status": "no_korean",
+  "domain": "hexlet.io"
+ },
+ "hey": {
+  "status": "name_only",
+  "domain": "hey.com",
+  "qid": "Q45594",
+  "ko": "인사",
+  "aliases": [],
+  "sites": []
+ },
+ "hibob": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q122766625",
+  "domain": "hibob.com"
+ },
+ "hiltonhotelsandresorts": {
+  "status": "verified",
+  "qid": "Q598884",
+  "ko": "힐튼 호텔",
+  "aliases": [
+   "힐턴 호텔",
+   "힐톤 호텔"
+  ],
+  "domain": "hilton.com"
+ },
+ "hive": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q28324915",
+  "domain": "hivehome.com"
+ },
+ "hivemq": {
+  "status": "no_entity",
+  "domain": "hivemq.com"
+ },
+ "homeassistantcommunitystore": {
+  "status": "no_entity",
+  "domain": "hacs.xyz"
+ },
+ "homeadvisor": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q5887921",
+  "domain": "homeadvisor.com"
+ },
+ "homify": {
+  "status": "no_entity",
+  "domain": "homify.com"
+ },
+ "honey": {
+  "status": "no_korean",
+  "domain": "joinhoney.com"
+ },
+ "honeybadger": {
+  "status": "no_korean",
+  "domain": "honeybadger.io"
+ },
+ "honeygain": {
+  "status": "no_entity",
+  "domain": "honeygain.com"
+ },
+ "honor": {
+  "status": "verified",
+  "qid": "Q27070331",
+  "ko": "아너",
+  "aliases": [],
+  "domain": "hihonor.com"
+ },
+ "hostinger": {
+  "status": "verified",
+  "qid": "Q55613975",
+  "ko": "호스팅어",
+  "aliases": [],
+  "domain": "hostinger.com"
+ },
+ "hotelsdotcom": {
+  "status": "verified",
+  "qid": "Q3068067",
+  "ko": "호텔스닷컴",
+  "aliases": [],
+  "domain": "hotels.com"
+ },
+ "hotwire": {
+  "status": "no_korean",
+  "domain": "hotwired.dev"
+ },
+ "houdini": {
+  "status": "name_only",
+  "domain": "sidefx.com",
+  "qid": "Q623368",
+  "ko": "Houdini (음반)",
+  "aliases": [],
+  "sites": []
+ },
+ "houzz": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q17055479",
+  "domain": "houzz.com"
+ },
+ "hp": {
+  "status": "name_only",
+  "domain": "hp.com",
+  "qid": "Q1177",
+  "ko": "히마찰프라데시주",
+  "aliases": [],
+  "sites": [
+   "nic.in"
+  ]
+ },
+ "hsbc": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q190464",
+  "domain": "hsbc.com"
+ },
+ "htc": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q186012",
+  "domain": "htc.com"
+ },
+ "htcvive": {
+  "status": "verified",
+  "qid": "Q19414112",
+  "ko": "HTC 바이브",
+  "aliases": [],
+  "domain": "vive.com"
+ },
+ "htmlacademy": {
+  "status": "no_entity",
+  "domain": "htmlacademy.ru"
+ },
+ "humblebundle": {
+  "status": "verified",
+  "qid": "Q267427",
+  "ko": "험블 번들",
+  "aliases": [],
+  "domain": "humblebundle.com"
+ },
+ "hungryjacks": {
+  "status": "verified",
+  "qid": "Q3036373",
+  "ko": "헝그리 잭스",
+  "aliases": [],
+  "domain": "hungryjacks.com.au"
+ },
+ "husqvarna": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q899356",
+  "domain": "husqvarna.com"
+ },
+ "hyperskill": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q134954299",
+  "domain": "hyperskill.org"
+ },
+ "hyperx": {
+  "status": "no_korean",
+  "domain": "hyperx.com"
+ },
+ "hypothesis": {
+  "status": "name_only",
+  "domain": "hypothes.is",
+  "qid": "Q41719",
+  "ko": "가설",
+  "aliases": [],
+  "sites": []
+ },
+ "hyprland": {
+  "status": "no_korean",
+  "domain": "hyprland.org"
+ },
+ "ibeacon": {
+  "status": "no_korean",
+  "domain": "apple.com"
+ },
+ "iberia": {
+  "status": "verified",
+  "qid": "Q187972",
+  "ko": "이베리아 항공",
+  "aliases": [],
+  "domain": "iberia.com"
+ },
+ "iced": {
+  "status": "name_only",
+  "domain": "iced.rs",
+  "qid": "Q1753315",
+  "ko": "Iced Earth (음반)",
+  "aliases": [],
+  "sites": []
+ },
+ "iceland": {
+  "status": "name_only",
+  "domain": "iceland.co.uk",
+  "qid": "Q189",
+  "ko": "아이슬란드",
+  "aliases": [
+   "아이슬란드 공화국"
+  ],
+  "sites": [
+   "iceland.is"
+  ]
+ },
+ "icicibank": {
+  "status": "verified",
+  "qid": "Q1653258",
+  "ko": "ICICI 뱅크",
+  "aliases": [],
+  "domain": "icicibank.com"
+ },
+ "icomoon": {
+  "status": "no_entity",
+  "domain": "icomoon.io"
+ },
+ "icon": {
+  "status": "name_only",
+  "domain": "icon.foundation",
+  "qid": "Q132137",
+  "ko": "이콘",
+  "aliases": [
+   "성상",
+   "성화상"
+  ],
+  "sites": []
+ },
+ "iconfinder": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q5986568",
+  "domain": "iconfinder.com"
+ },
+ "iconify": {
+  "status": "no_korean",
+  "domain": "iconify.design"
+ },
+ "iconjar": {
+  "status": "no_entity",
+  "domain": "geticonjar.com"
+ },
+ "icons8": {
+  "status": "no_entity",
+  "domain": "icons8.com"
+ },
+ "ifixit": {
+  "status": "verified",
+  "qid": "Q984913",
+  "ko": "아이픽스잇",
+  "aliases": [],
+  "domain": "ifixit.com"
+ },
+ "ifood": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q56346600",
+  "domain": "ifood.com.br"
+ },
+ "ign": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q207708",
+  "domain": "ign.com"
+ },
+ "iheartradio": {
+  "status": "verified",
+  "qid": "Q793699",
+  "ko": "아이하트라디오",
+  "aliases": [],
+  "domain": "iheart.com"
+ },
+ "iledefrancemobilites": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q1747944",
+  "domain": "iledefrance-mobilites.fr"
+ },
+ "ilovepdf": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q130772808",
+  "domain": "ilovepdf.com"
+ },
+ "imagedotsc": {
+  "status": "no_entity",
+  "domain": "image.sc"
+ },
+ "imdb": {
+  "status": "verified",
+  "qid": "Q37312",
+  "ko": "인터넷 영화 데이터베이스",
+  "aliases": [
+   "인터넷 영화 DB",
+   "인터넷 무비 데이터베이스"
+  ],
+  "domain": "imdb.com"
+ },
+ "imgur": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q355022",
+  "domain": "imgurinc.com"
+ },
+ "immersivetranslate": {
+  "status": "no_entity",
+  "domain": "immersivetranslate.com"
+ },
+ "imou": {
+  "status": "no_korean",
+  "domain": "imoulife.com"
+ },
+ "improvmx": {
+  "status": "no_entity",
+  "domain": "improvmx.com"
+ },
+ "indeed": {
+  "status": "name_only",
+  "domain": "indeed.design",
+  "qid": "Q1045367",
+  "ko": "인디드",
+  "aliases": [],
+  "sites": [
+   "indeed.com",
+   "indeed.com",
+   "indeed.com",
+   "indeed.com",
+   "indeed.com"
+  ]
+ },
+ "indiansuperleague": {
+  "status": "verified",
+  "qid": "Q16056350",
+  "ko": "인도 슈퍼리그",
+  "aliases": [],
+  "domain": "indiansuperleague.com"
+ },
+ "indiehackers": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q110573949",
+  "domain": "indiehackers.com"
+ },
+ "indieweb": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q18216860",
+  "domain": "indieweb.org"
+ },
+ "indigo": {
+  "status": "name_only",
+  "domain": "goindigo.in",
+  "qid": "Q165213",
+  "ko": "인디고페라 틴토리아",
+  "aliases": [],
+  "sites": []
+ },
+ "inductiveautomation": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q6027299",
+  "domain": "inductiveautomation.com"
+ },
+ "inertia": {
+  "status": "name_only",
+  "domain": "inertiajs.com",
+  "qid": "Q122508",
+  "ko": "관성",
+  "aliases": [
+   "관성의 법칙",
+   "운동 제1법칙"
+  ],
+  "sites": []
+ },
+ "infiniti": {
+  "status": "verified",
+  "qid": "Q29714",
+  "ko": "인피니티",
+  "aliases": [],
+  "domain": "infiniti.com"
+ },
+ "infinityfree": {
+  "status": "no_entity",
+  "domain": "infinityfree.com"
+ },
+ "infomaniak": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q21117293",
+  "domain": "infomaniak.com"
+ },
+ "infoq": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q96369452",
+  "domain": "infoq.com"
+ },
+ "infosys": {
+  "status": "verified",
+  "qid": "Q26989",
+  "ko": "인포시스",
+  "aliases": [],
+  "domain": "infosys.com"
+ },
+ "infracost": {
+  "status": "no_entity",
+  "domain": "infracost.io"
+ },
+ "infuse": {
+  "status": "name_only",
+  "domain": "firecore.com",
+  "qid": "Q2142257",
+  "ko": "차망",
+  "aliases": [],
+  "sites": []
+ },
+ "ingress": {
+  "status": "verified",
+  "qid": "Q63352",
+  "ko": "인그레스",
+  "aliases": [],
+  "domain": "ingress.com"
+ },
+ "inkdrop": {
+  "status": "no_entity",
+  "domain": "inkdrop.app"
+ },
+ "inoreader": {
+  "status": "verified",
+  "qid": "Q22909226",
+  "ko": "이노리더",
+  "aliases": [],
+  "domain": "inoreader.com"
+ },
+ "inspire": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q5972440",
+  "domain": "inspirehep.net"
+ },
+ "insta360": {
+  "status": "verified",
+  "qid": "Q48147014",
+  "ko": "인스타360",
+  "aliases": [],
+  "domain": "insta360.com"
+ },
+ "instacart": {
+  "status": "verified",
+  "qid": "Q22909236",
+  "ko": "인스타카트",
+  "aliases": [],
+  "domain": "instacart.com"
+ },
+ "instapaper": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q4022396",
+  "domain": "instapaper.com"
+ },
+ "instatus": {
+  "status": "no_entity",
+  "domain": "instatus.com"
+ },
+ "instructables": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q3788533",
+  "domain": "instructables.com"
+ },
+ "instructure": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q3019900",
+  "domain": "instructure.com"
+ },
+ "interactiondesignfoundation": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q17148424",
+  "domain": "interaction-design.org"
+ },
+ "interbase": {
+  "status": "verified",
+  "qid": "Q166751",
+  "ko": "인터베이스",
+  "aliases": [],
+  "domain": "embarcadero.com"
+ },
+ "intermarche": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q3153200",
+  "domain": "intermarche.com"
+ },
+ "internetarchive": {
+  "status": "verified",
+  "qid": "Q461",
+  "ko": "인터넷 아카이브",
+  "aliases": [
+   "인터넷 기록 보관소",
+   "인터넷 기록소",
+   "인터넷 기록관",
+   "인터넷 어카이브"
+  ],
+  "domain": "archive.org"
+ },
+ "intigriti": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q104435388",
+  "domain": "intigriti.com"
+ },
+ "intuit": {
+  "status": "verified",
+  "qid": "Q1318848",
+  "ko": "인튜이트",
+  "aliases": [],
+  "domain": "intuit.com"
+ },
+ "ionos": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q882107",
+  "domain": "ionos.de"
+ },
+ "iota": {
+  "status": "domain_ok_no_ko",
+  "qid": "Q30504331",
+  "domain": "iota.org"
  }
 }

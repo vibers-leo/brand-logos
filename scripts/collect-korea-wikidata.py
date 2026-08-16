@@ -216,7 +216,7 @@ def main() -> int:
     stats = {"wikidata": len(items), "already_have": 0, "not_kr_domain": 0, "no_korean_name": 0,
              "not_svg": 0, "name_file_mismatch": 0, "candidate": 0,
              "downloaded": 0, "guard_rejected": 0, "applied": 0}
-    cands, review = [], []
+    cands, review, png_wanted = [], [], []
 
     for it in items.values():
         name = it["ko"] or it["en"]
@@ -234,7 +234,16 @@ def main() -> int:
             stats["not_kr_domain"] += 1
             continue
         if not it["logo"].lower().endswith(".svg"):
+            # SVG 가 원본이고 PNG 는 언제든 파생할 수 있다. 반대로 PNG 만 있는 건
+            # 애매하므로 **서비스에 넣지 않고 대기 목록에만** 둔다. 나중에 진짜
+            # 벡터가 수집되면 — 약간 다른 버전이라도 — 그때 함께 올린다.
             stats["not_svg"] += 1
+            png_wanted.append({
+                "name_ko": it["ko"], "name_en": it["en"],
+                "domain": it["domain"], "category": categorize(it),
+                "wikidata": it["qid"], "png_only": urllib.parse.unquote(
+                    it["logo"].rsplit("/", 1)[-1]),
+            })
             continue
         if not it["ko"]:
             stats["no_korean_name"] += 1
@@ -253,7 +262,7 @@ def main() -> int:
             it["slug"] = f"{it['slug']}-{it['qid'].lower()}"
         if not overlap:
             stats["name_file_mismatch"] += 1
-            review.append({k: v for k, v in it.items() if k != "kinds"} |
+            review.append({k: v for k, v in it.items() if k not in ("kinds", "industries")} |
                           {"reason": "파일명이 영문명과 겹치지 않음 — 다른 회사 로고일 수 있다"})
             continue
         stats["candidate"] += 1
@@ -350,7 +359,22 @@ def main() -> int:
         "generated_at": time.strftime("%Y-%m-%d"),
         "count": len(review), "items": review[:400],
     }, ensure_ascii=False, indent=1) + "\n")
-    print(f"\n스테이징: {STAGE}")
+    # PNG 만 있는 후보를 수집 대기 목록에 합친다 (서비스에는 넣지 않는다)
+    wanted_path = BASE / "collect-wanted.json"
+    w = json.loads(wanted_path.read_text()) if wanted_path.exists() else {"brands": []}
+    have_key = {(x.get("wikidata") or "") + "|" + (x.get("name_ko") or "") for x in w["brands"]}
+    fresh = [x for x in png_wanted
+             if (x.get("wikidata") or "") + "|" + (x.get("name_ko") or "") not in have_key]
+    if fresh and not args.limit:
+        w["brands"] += fresh
+        w["count"] = len(w["brands"])
+        w["generated_at"] = time.strftime("%Y-%m-%d")
+        w["note"] = (w.get("note", "") + " / 2026-08-16: 위키데이터에 PNG 로고만 있는 한국 브랜드를 "
+                     "추가했다. SVG 가 원본이고 PNG 는 파생할 수 있으므로, 이들은 서비스에 넣지 않고 "
+                     "대기시켰다가 진짜 벡터가 수집되면 그때 올린다.")
+        wanted_path.write_text(json.dumps(w, ensure_ascii=False, indent=1) + "\n")
+    print(f"\nPNG 만 있는 후보 {len(png_wanted)}건 → 수집 대기 목록에 {len(fresh)}건 추가")
+    print(f"스테이징: {STAGE}")
     print(f"검수 대기: {QUEUE.name} ({len(review)}건)")
     if not args.apply:
         print("반영하지 않았다 — 확인 후 --apply 로 반영한다.")

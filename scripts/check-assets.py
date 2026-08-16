@@ -135,10 +135,19 @@ def main() -> int:
         if low in seen and seen[low] != b["id"]:
             case_dupes.append(f'{b["id"]} ↔ {seen[low]}')
         seen.setdefault(low, b["id"])
+    # 경고가 아니라 실패로 다룬다. 맥은 대소문자를 구분하지 않아 로컬에서는
+    # 두 폴더가 하나로 보이고, 리눅스·CDN 에서만 갈라진다. 실제로 daisyUI 는
+    # 파일이 하나도 없는 채로 브랜드만 등록돼 CDN 404 였고 아무도 몰랐다
+    # (2026-08-06 생성 → 2026-08-16 발견).
+    #
+    # ⚠️ 지울 때 `git rm -r _clients/{대문자}` 를 쓰면 안 된다. 맥에서는 같은
+    #    파일이라 **소문자 원본까지 디스크에서 지워진다**(실제로 겪었다).
+    #    `git rm --cached --sparse` 로 인덱스에서만 뺀다.
     if case_dupes:
-        print(f"⚠️  대소문자만 다른 중복 id {len(case_dupes)}건 (대문자 쪽은 CDN 404)")
+        print(f"❌ 대소문자만 다른 중복 id {len(case_dupes)}건 (대문자 쪽은 CDN 404)")
         for c in case_dupes[:10]:
             print(f"   {c}")
+        print("   → git rm --cached --sparse 로 인덱스에서만 뺀다 (git rm -r 은 원본까지 지운다)")
 
     if corrupt:
         print(f"❌ 내용이 확장자와 다른 파일 {len(corrupt)}개")
@@ -191,7 +200,7 @@ def main() -> int:
     report(dead_variants, "변형 매니페스트가 없는 파일을 가리킴",
            "python3 scripts/build-logo-variants.py --force 로 재생성한다")
 
-    if corrupt or mismatch or missing_png or fake_vector or dead_variants:
+    if corrupt or mismatch or missing_png or fake_vector or dead_variants or case_dupes:
         return 1
     print(f"✅ 에셋 검사 통과 — 브랜드 {len(brands):,}개")
     return 0

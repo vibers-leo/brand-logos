@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "busan-metro-line-2",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "91900d2dd90f149b"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

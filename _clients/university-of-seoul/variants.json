@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "university-of-seoul",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "1d7f4128fd1e2583"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

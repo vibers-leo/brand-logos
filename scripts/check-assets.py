@@ -72,6 +72,7 @@ def icon_ink_ratio(path: Path) -> float | None:
 def main() -> int:
     brands = json.loads((BASE / "brands.json").read_text())["brands"]
     corrupt, mismatch, weak_icons = [], [], []
+    missing_png, fake_vector, dead_variants = [], [], []
 
     for b in brands:
         bid = b["id"]
@@ -90,6 +91,33 @@ def main() -> int:
         # brands.json 이 SVG 있다고 하는데 실제로 없거나 깨진 경우
         if (b.get("logo_svg") or b.get("has_svg")) and sniff(d / "logo.svg") != "SVG":
             mismatch.append(f"{bid}: logo_svg=true 인데 실제 SVG 없음")
+
+        # ── 2026-08-16 에 실제로 터진 세 가지. 다시 나면 여기서 잡는다 ──
+
+        # ① logo.png 가 없으면 PNG 다운로드 버튼이 404 를 받는다.
+        #    build-variants 는 logo-800/icon/transparent 만 만들고 logo.png 는
+        #    이미 있다고 전제한다. SVG 만 받아오는 수집기가 이걸 깨뜨렸고
+        #    신규 231개 전부 다운로드가 실패했다.
+        if (d / "logo.svg").exists() and not (d / "logo.png").exists():
+            missing_png.append(bid)
+
+        # ② 비트맵이 박힌 SVG 를 '벡터'라고 표시하면 거짓말이다.
+        #    "확대해도 깨짐 없음" 이라고 안내하는데 실제로는 깨진다.
+        if (b.get("logo_svg") or b.get("has_svg")) and (d / "logo.svg").exists():
+            head = (d / "logo.svg").read_text(errors="replace")
+            if "data:image/" in head or "<image" in head:
+                fake_vector.append(bid)
+
+        # ③ 변형 매니페스트가 없는 파일을 가리키면 눌러도 안 받아지는 버튼이 뜬다.
+        vf = d / "variants.json"
+        if vf.exists():
+            try:
+                for v in json.loads(vf.read_text()).get("variants", []):
+                    for rel in (v.get("files") or {}).values():
+                        if not (d / rel).exists():
+                            dead_variants.append(f"{bid}: {rel}")
+            except json.JSONDecodeError:
+                corrupt.append(f"{bid}/variants.json → JSON 파싱 실패")
 
         # 파비콘이 판독 가능한가 — 가로형 로고를 통째로 욱여넣으면 얇은 띠가 된다
         icon = d / "logo-icon.png"
@@ -146,7 +174,24 @@ def main() -> int:
         }, ensure_ascii=False, indent=2))
         print(f"   → {wanted.relative_to(BASE.parent)} 에 기록")
 
-    if corrupt or mismatch:
+    def report(items, title, hint):
+        if not items:
+            return
+        print(f"❌ {title} {len(items)}개")
+        for x in items[:20]:
+            print(f"   {x}")
+        if len(items) > 20:
+            print(f"   ... 외 {len(items)-20}개")
+        print(f"   → {hint}")
+
+    report(missing_png, "logo.png 없음 (PNG 다운로드가 404 난다)",
+           "python3 scripts/ensure-logo-png.py 로 SVG 에서 생성한다")
+    report(fake_vector, "비트맵이 박힌 SVG 를 벡터라고 표시",
+           "python3 scripts/ensure-logo-png.py --demote-fake 로 PNG 로 내린다")
+    report(dead_variants, "변형 매니페스트가 없는 파일을 가리킴",
+           "python3 scripts/build-logo-variants.py --force 로 재생성한다")
+
+    if corrupt or mismatch or missing_png or fake_vector or dead_variants:
         return 1
     print(f"✅ 에셋 검사 통과 — 브랜드 {len(brands):,}개")
     return 0

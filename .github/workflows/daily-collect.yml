@@ -36,6 +36,20 @@ jobs:
           GIT_COMMITTER_NAME: "vibers-bot"
           GIT_COMMITTER_EMAIL: "vibers.leo@gmail.com"
 
+      # 위키데이터의 '국가=대한민국 + 공식로고(P154)'. 기존 소스(Simple Icons·
+      # Font Awesome·위키미디어 카테고리)는 포화라 여기서만 신규가 나온다.
+      # 파일명 대조·도메인·중복 가드를 통과한 것만 반영하고, 애매한 것은
+      # korea-wikidata-review.json 에 남긴다. 위키데이터가 자라면 여기서 늘어난다.
+      - name: 한국 브랜드 수집 (위키데이터)
+        run: python3 scripts/collect-korea-wikidata.py --download --apply
+        continue-on-error: true    # 외부 API 다. 실패해도 뒤 단계는 돌아야 한다
+
+      # SVG 만 받아온 브랜드는 logo.png 가 없어 PNG 다운로드가 404 난다.
+      # build-variants 가 logo.png 를 이미 있다고 전제하기 때문이다.
+      # 비트맵이 박힌 가짜 벡터도 여기서 PNG 로 내린다. (2026-08-16 사고)
+      - name: logo.png 보정 + 가짜 벡터 정리
+        run: python3 scripts/ensure-logo-png.py --demote-fake
+
       - name: 변형 매니페스트 갱신
         run: python3 scripts/build-logo-variants.py
 
@@ -60,9 +74,11 @@ jobs:
         run: |
           git config user.name  "vibers-bot"
           git config user.email "vibers.leo@gmail.com"
-          git add _clients/*/variants.json _clients/*/variants \
-                  _clients/variants-index.json _clients/brands-slim.json \
-                  _clients/brands.json _clients/variant-wanted.json 2>/dev/null || true
+          # _clients 를 통째로 담는다. 예전엔 파일을 하나하나 나열했는데,
+          # 새 브랜드를 추가하는 수집기가 붙으면 **폴더가 커밋에서 빠져**
+          # brands.json 만 올라가고 로고 파일은 CDN 에 없는 상태가 된다.
+          # (_staging 은 .gitignore 로 빠지므로 통째로 담아도 안전하다)
+          git add _clients 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변형 산출물 변경 없음"
           else

@@ -1,9 +1,9 @@
 name: Daily Brand SVG Collect
 
 on:
-  schedule:
-    - cron: '0 21 * * *'   # 매일 KST 06:00 (UTC 21:00 전날)
-  workflow_dispatch:         # 수동 실행 허용
+  # 수집 스케줄은 ZeroClaw가 단일 소스로 관리한다.
+  # GitHub Actions 자체 schedule과 중복되면 같은 배치가 동시에 실행될 수 있다.
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -106,4 +106,3 @@ jobs:
             await github.rest.issues.create({
               ...context.repo, title, body, labels: ['collect-failure'],
             });
-

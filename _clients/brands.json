@@ -5771,7 +5771,7 @@
    "name_ko": "네이버",
    "name_en": "Naver",
    "category": "IT·테크",
-   "domain": "",
+   "domain": "navercorp.com",
    "logo_svg": true,
    "source": "wikimedia:Naver Logotype.svg",
    "status": "raw",
@@ -5787,7 +5787,18 @@
    "logo_quality_score": 901.0,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "NAVER",
+    "Naver Corporation",
+    "네이버",
+    "네이버 (기업)",
+    "네이버 주식회사",
+    "네이버주식회사",
+    "엔에이치엔"
+   ],
+   "wikidata": "Q489247",
+   "website": "navercorp.com"
   },
   {
    "id": "ncsoft",
@@ -10919,12 +10930,24 @@
      "provider": "logo.dev",
      "file": "logo.png",
      "label": "실물형"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 1034.9,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "NEXON Korea",
+    "NEXON Korea Corporation",
+    "넥슨 코리아",
+    "넥슨코리아"
+   ],
+   "wikidata": "Q15139437"
   },
   {
    "id": "neowiz",
@@ -15002,7 +15025,17 @@
    "logo_quality_score": 420.8,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Financial Supervisory Service",
+    "金監院",
+    "금감원",
+    "금융감독원",
+    "대한민국 금융감독원",
+    "은행감독원",
+    "증권감독원"
+   ],
+   "wikidata": "Q5449673"
   },
   {
    "id": "kbia-or",
@@ -20654,7 +20687,7 @@
    "name_en": "현대엘리베이터",
    "category": "건설·부동산",
    "domain": "hyundaielevator.com",
-   "logo_svg": false,
+   "logo_svg": "logo.svg",
    "source": "logo.dev:hyundaielevator.com",
    "status": "raw",
    "dark_variant": "transparent",
@@ -20664,12 +20697,23 @@
      "provider": "logo.dev",
      "file": "logo.png",
      "label": "실물형"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 541.8,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "has_svg": true,
+   "aliases": [
+    "Hyundai Elevator",
+    "현대엘리베이터 (주)"
+   ],
+   "wikidata": "Q11286389"
   },
   {
    "id": "otis-co",
@@ -125883,11 +125927,26 @@
     {
      "provider": "wikimedia",
      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Emblem_of_the_Ministry_of_Culture%2C_Sports_and_Tourism_%28English%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "has_svg": true,
    "dark_variant": "white",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "MCST",
+    "Ministry of Culture, Sports and Tourism",
+    "대한민국 문화체육관광부",
+    "문체부",
+    "문화체육관광부"
+   ],
+   "wikidata": "Q488744",
+   "domain": "mcst.go.kr",
+   "website": "mcst.go.kr"
   },
   {
    "id": "kr-npa",
@@ -126211,7 +126270,23 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "MOJ",
+    "Ministry of Justice",
+    "대한민국 법무부",
+    "법무부"
+   ],
+   "wikidata": "Q482789",
+   "domain": "moj.go.kr",
+   "website": "moj.go.kr"
   },
   {
    "id": "kr-mod",
@@ -126234,7 +126309,24 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "MOIS",
+    "Ministry of the Interior and Safety",
+    "대한민국 행정안전부",
+    "행안부",
+    "행정안전부"
+   ],
+   "wikidata": "Q488954",
+   "domain": "mois.go.kr",
+   "website": "mois.go.kr"
   },
   {
    "id": "kr-mafra",
@@ -126245,7 +126337,25 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "Ministry of Agriculture",
+    "Ministry of Agriculture, Food and Rural Affairs",
+    "Nongnim Chucksan Sikpum-bu",
+    "농림축산식품부",
+    "농식품부",
+    "대한민국 농림축산식품부"
+   ],
+   "wikidata": "Q624460",
+   "domain": "mafra.go.kr",
+   "website": "mafra.go.kr"
   },
   {
    "id": "kr-motie",
@@ -126289,7 +126399,24 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "MOEL",
+    "Ministry of Employment and Labor",
+    "고용노동부",
+    "고용부",
+    "대한민국 고용노동부"
+   ],
+   "wikidata": "Q488949",
+   "domain": "moel.go.kr",
+   "website": "moel.go.kr"
   },
   {
    "id": "kr-mogef",
@@ -126322,7 +126449,23 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "Ministry of Oceans and Fisheries",
+    "대한민국 해양수산부",
+    "해수부",
+    "해양수산부"
+   ],
+   "wikidata": "Q625097",
+   "domain": "mof.go.kr",
+   "website": "mof.go.kr"
   },
   {
    "id": "kr-smba",
@@ -126344,7 +126487,25 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "MOU",
+    "Ministry of Unification",
+    "National Unification Board",
+    "T'ongilbu",
+    "대한민국 통일부",
+    "통일부"
+   ],
+   "wikidata": "Q276612",
+   "domain": "unikorea.go.kr",
+   "website": "unikorea.go.kr"
   },
   {
    "id": "kr-nts",
@@ -126355,7 +126516,28 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "official",
+     "file": "sources/official/signature.svg",
+     "label": "가로 시그니처 (국세청 + National Tax Service)"
+    },
+    {
+     "provider": "official",
+     "file": "sources/official/vertical.svg",
+     "label": "세로형"
+    }
+   ],
+   "aliases": [
+    "Hometax",
+    "NTS",
+    "National Tax Service",
+    "국세청",
+    "홈택스"
+   ],
+   "domain": "nts.go.kr",
+   "website": "nts.go.kr"
   },
   {
    "id": "kr-customs",
@@ -126388,7 +126570,25 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "Fair Trade Commission",
+    "KFTC",
+    "Korea Fair Trade Commission",
+    "공정거래위원회",
+    "공정위",
+    "대한민국 공정거래위원회"
+   ],
+   "wikidata": "Q624479",
+   "domain": "ftc.go.kr",
+   "website": "ftc.go.kr"
   },
   {
    "id": "kr-fsc",
@@ -126399,7 +126599,25 @@
    "has_png": true,
    "source": "wikimedia-commons",
    "dark_variant": "white",
-   "logo_png": true
+   "logo_png": true,
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "aliases": [
+    "FSC",
+    "Financial Services Commission",
+    "Financial Supervisory Commission",
+    "금융위",
+    "금융위원회",
+    "대한민국 금융위원회"
+   ],
+   "wikidata": "Q624674",
+   "domain": "fsc.go.kr",
+   "website": "fsc.go.kr"
   },
   {
    "id": "kr-kepco",
@@ -131307,34 +131525,6 @@
    ]
   },
   {
-   "id": "nexon-korea",
-   "name_ko": "넥슨 코리아",
-   "name_en": "NEXON Korea",
-   "category": "게임",
-   "folder": "_clients/nexon-korea",
-   "website": "nexon.com",
-   "domain": "nexon.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q15139437",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Nexon.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "넥슨코리아",
-    "NEXON Korea Corporation"
-   ]
-  },
-  {
    "id": "mama-awards",
    "name_ko": "Mnet 아시안 뮤직 어워드",
    "name_en": "MAMA Awards",
@@ -132949,37 +133139,6 @@
    ]
   },
   {
-   "id": "naver-corporation",
-   "name_ko": "네이버 주식회사",
-   "name_en": "Naver Corporation",
-   "category": "기타",
-   "folder": "_clients/naver-corporation",
-   "website": "navercorp.com",
-   "domain": "navercorp.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q489247",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Naver Logotype.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "네이버",
-    "NAVER",
-    "엔에이치엔",
-    "네이버주식회사",
-    "네이버 (기업)"
-   ]
-  },
-  {
    "id": "korea-coast-guard",
    "name_ko": "대한민국 해양경찰청",
    "name_en": "Korea Coast Guard",
@@ -133483,34 +133642,6 @@
    "aliases": [
     "KOFA",
     "한국 영상 자료원"
-   ]
-  },
-  {
-   "id": "ministry-of-justice",
-   "name_ko": "대한민국 법무부",
-   "name_en": "Ministry of Justice",
-   "category": "공공·기관",
-   "folder": "_clients/ministry-of-justice",
-   "website": "moj.go.kr",
-   "domain": "moj.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q482789",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Ministry of Justice of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "MOJ",
-    "법무부"
    ]
   },
   {
@@ -134950,30 +135081,6 @@
    ]
   },
   {
-   "id": "hyundai-elevator-q11286389",
-   "name_ko": "현대엘리베이터 (주)",
-   "name_en": "Hyundai Elevator",
-   "category": "기타",
-   "folder": "_clients/hyundai-elevator-q11286389",
-   "website": "hyundaielevator.co.kr",
-   "domain": "hyundaielevator.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q11286389",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hyundai Elevator logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true
-  },
-  {
    "id": "2024-winter-youth-olympics",
    "name_ko": "2024년 동계 청소년 올림픽",
    "name_en": "2024 Winter Youth Olympics",
@@ -135030,36 +135137,6 @@
     "해남석유",
     "현대정유",
     "한국연료"
-   ]
-  },
-  {
-   "id": "korea-fair-trade-commission",
-   "name_ko": "대한민국 공정거래위원회",
-   "name_en": "Korea Fair Trade Commission",
-   "category": "기타",
-   "folder": "_clients/korea-fair-trade-commission",
-   "website": "ftc.go.kr",
-   "domain": "ftc.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q624479",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Korea Fair Trade Commission Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "공정위",
-    "KFTC",
-    "공정거래위원회",
-    "Fair Trade Commission"
    ]
   },
   {
@@ -135284,61 +135361,6 @@
    "dark_variant": "white",
    "logo_png": true,
    "has_png": true
-  },
-  {
-   "id": "financial-supervisory-service",
-   "name_ko": "대한민국 금융감독원",
-   "name_en": "Financial Supervisory Service",
-   "category": "금융·결제",
-   "folder": "_clients/financial-supervisory-service",
-   "website": "",
-   "domain": "",
-   "has_svg": false,
-   "svg_source": "wikimedia",
-   "wikidata": "Q5449673",
-   "added_at": "2026-08-16",
-   "sources": [],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "svg_note": "비트맵이 박힌 SVG 라 벡터로 쓸 수 없다. sources/raster-wrapped/ 에 보관.",
-   "aliases": [
-    "金監院",
-    "금감원",
-    "증권감독원",
-    "은행감독원",
-    "금융감독원"
-   ]
-  },
-  {
-   "id": "financial-services-commission",
-   "name_ko": "대한민국 금융위원회",
-   "name_en": "Financial Services Commission",
-   "category": "금융·결제",
-   "folder": "_clients/financial-services-commission",
-   "website": "fsc.go.kr",
-   "domain": "fsc.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q624674",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Financial Services Commission of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "금융위",
-    "FSC",
-    "금융위원회",
-    "Financial Supervisory Commission"
-   ]
   },
   {
    "id": "hyundai-marine-fire-insurance",
@@ -135566,63 +135588,6 @@
    ]
   },
   {
-   "id": "ministry-of-employment-and-labor",
-   "name_ko": "대한민국 고용노동부",
-   "name_en": "Ministry of Employment and Labor",
-   "category": "공공·기관",
-   "folder": "_clients/ministry-of-employment-and-labor",
-   "website": "moel.go.kr",
-   "domain": "moel.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q488949",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Ministry of Employment and Labor of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "고용부",
-    "MOEL",
-    "고용노동부"
-   ]
-  },
-  {
-   "id": "ministry-of-oceans-and-fisheries",
-   "name_ko": "대한민국 해양수산부",
-   "name_en": "Ministry of Oceans and Fisheries",
-   "category": "공공·기관",
-   "folder": "_clients/ministry-of-oceans-and-fisheries",
-   "website": "mof.go.kr",
-   "domain": "mof.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q625097",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Ministry of Oceans and Fisheries of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "해수부",
-    "해양수산부"
-   ]
-  },
-  {
    "id": "attrakt-entertainment-q123841093",
    "name_ko": "어트랙트",
    "name_en": "ATTRAKT Entertainment",
@@ -135732,34 +135697,6 @@
    ]
   },
   {
-   "id": "national-tax-service-of-south-korea",
-   "name_ko": "대한민국 국세청",
-   "name_en": "National Tax Service of South Korea",
-   "category": "공공·기관",
-   "folder": "_clients/national-tax-service-of-south-korea",
-   "website": "nts.go.kr",
-   "domain": "nts.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q624717",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (National Tax Service of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "NTS",
-    "국세청"
-   ]
-  },
-  {
    "id": "korea-ginseng-corporation-q16256202",
    "name_ko": "한국인삼공사",
    "name_en": "Korea Ginseng Corporation",
@@ -135784,35 +135721,6 @@
    "has_png": true,
    "aliases": [
     "韓國人蔘公社"
-   ]
-  },
-  {
-   "id": "ministry-of-the-interior-and-safety",
-   "name_ko": "대한민국 행정안전부",
-   "name_en": "Ministry of the Interior and Safety",
-   "category": "공공·기관",
-   "folder": "_clients/ministry-of-the-interior-and-safety",
-   "website": "mois.go.kr",
-   "domain": "mois.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q488954",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Ministry of the Interior and Safety of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "행안부",
-    "MOIS",
-    "행정안전부"
    ]
   },
   {
@@ -135895,35 +135803,6 @@
    "aliases": [
     "변혁당",
     "Revolutionary party"
-   ]
-  },
-  {
-   "id": "ministry-of-culture-sports-and-tourism",
-   "name_ko": "대한민국 문화체육관광부",
-   "name_en": "Ministry of Culture, Sports and Tourism",
-   "category": "스포츠",
-   "folder": "_clients/ministry-of-culture-sports-and-tourism",
-   "website": "mcst.go.kr",
-   "domain": "mcst.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q488744",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Ministry of Culture, Sports and Tourism of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "문체부",
-    "MCST",
-    "문화체육관광부"
    ]
   },
   {
@@ -136209,36 +136088,6 @@
     "미래부",
     "미래창조과학부",
     "Ministry of Science and Technology"
-   ]
-  },
-  {
-   "id": "ministry-of-agriculture-food-and-rural-affairs",
-   "name_ko": "대한민국 농림축산식품부",
-   "name_en": "Ministry of Agriculture, Food and Rural Affairs",
-   "category": "공공·기관",
-   "folder": "_clients/ministry-of-agriculture-food-and-rural-affairs",
-   "website": "mafra.go.kr",
-   "domain": "mafra.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q624460",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Ministry of Agriculture, Food and Rural Affairs of the Republic of Korea Logo (vertical).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "농식품부",
-    "농림축산식품부",
-    "Ministry of Agriculture",
-    "Nongnim Chucksan Sikpum-bu"
    ]
   },
   {
@@ -137295,36 +137144,6 @@
    "dark_variant": "white",
    "logo_png": true,
    "has_png": true
-  },
-  {
-   "id": "ministry-of-unification",
-   "name_ko": "대한민국 통일부",
-   "name_en": "Ministry of Unification",
-   "category": "공공·기관",
-   "folder": "_clients/ministry-of-unification",
-   "website": "unikorea.go.kr",
-   "domain": "unikorea.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q276612",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Emblem of the Ministry of Unification (English).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "통일부",
-    "MOU",
-    "T'ongilbu",
-    "National Unification Board"
-   ]
   },
   {
    "id": "combined-forces-command",
@@ -144483,35 +144302,6 @@
     }
    ],
    "dark_variant": "transparent"
-  },
-  {
-   "id": "hometax",
-   "name_ko": "국세청",
-   "name_en": "National Tax Service",
-   "category": "공공·기관",
-   "folder": "_clients/hometax",
-   "website": "nts.go.kr",
-   "domain": "nts.go.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "logo_png": true,
-   "has_png": true,
-   "svg_source": "official-site",
-   "svg_note": "공식 사이트에서 수집한 SVG (렌더 후 DOM 추출).",
-   "aliases": [
-    "국세청",
-    "홈택스",
-    "Hometax",
-    "NTS"
-   ],
-   "added_at": "2026-08-17",
-   "sources": [
-    {
-     "provider": "official-site",
-     "file": "logo.svg",
-     "label": "공식 사이트"
-    }
-   ]
   }
  ],
  "generated_at": "2026-07-27",

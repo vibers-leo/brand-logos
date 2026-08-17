@@ -1,27 +1,13 @@
 {
  "schema": 1,
  "algo_v": 1,
- "id": "kr-mafra",
+ "id": "hyundaielevator",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "224d7a177e3326d7",
-  "sources/wikimedia/logo.svg": "5848828c3e81a6bf"
+  "logo.svg": "5e756a43162ed7ae",
+  "sources/wikimedia/logo.svg": "5e756a43162ed7ae"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/wikimedia/logo.svg"
-   },
-   "aspect": 1.337,
-   "provider": "wikimedia",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -30,12 +16,18 @@
    "label": "심볼+워드마크 (가로형)",
    "files": {
     "svg": "logo.svg",
-    "png": "logo-800.png"
+    "png": "logo.png"
    },
-   "aspect": 4.576,
-   "provider": "wikimedia-commons",
+   "aspect": 5.202,
+   "provider": "logo.dev",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -52,7 +44,7 @@
    "origin": "derived",
    "order": 30,
    "derived_from": "logo.svg",
-   "confidence": 0.864
+   "confidence": 1.0
   }
  ]
 }

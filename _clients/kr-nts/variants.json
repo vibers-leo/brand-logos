@@ -4,7 +4,9 @@
  "id": "kr-nts",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "1c1852cd0e9aab54"
+  "logo.svg": "1c1852cd0e9aab54",
+  "sources/official/signature.svg": "d4b6a2918e184993",
+  "sources/official/vertical.svg": "bf963c42f859054f"
  },
  "variants": [
   {
@@ -21,6 +23,20 @@
    "provider": "wikimedia-commons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/official/vertical.svg"
+   },
+   "aspect": 0.67,
+   "provider": "official",
+   "origin": "collected",
+   "order": 20
   },
   {
    "key": "symbol",

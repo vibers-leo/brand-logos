@@ -4,15 +4,30 @@
  "id": "kr-fsc",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "d2fe7aaec4ffa4fe"
+  "logo.svg": "d2fe7aaec4ffa4fe",
+  "sources/wikimedia/logo.svg": "a1b276cb1dc05653"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/wikimedia/logo.svg"
+   },
+   "aspect": 0.937,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -20,24 +35,7 @@
    "aspect": 3.719,
    "provider": "wikimedia-commons",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "symbol",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 1.0
+   "order": 40
   }
  ]
 }

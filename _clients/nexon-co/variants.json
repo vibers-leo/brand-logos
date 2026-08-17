@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "0101e9cc85c7ef05",
-  "sources/si.svg": "0101e9cc85c7ef05"
+  "sources/si.svg": "0101e9cc85c7ef05",
+  "sources/wikimedia/logo.svg": "827e90c2419b74e5"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/si.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/wikimedia/logo.svg"
+   },
+   "aspect": 3.285,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

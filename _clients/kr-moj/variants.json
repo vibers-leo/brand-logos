@@ -4,7 +4,8 @@
  "id": "kr-moj",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "7f357e5286a8c264"
+  "logo.svg": "7f357e5286a8c264",
+  "sources/wikimedia/logo.svg": "e283d898a8b51f8e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia-commons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/wikimedia/logo.svg"
+   },
+   "aspect": 0.674,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 20
   },
   {
    "key": "symbol",

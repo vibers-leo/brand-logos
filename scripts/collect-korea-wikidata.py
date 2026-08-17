@@ -296,8 +296,19 @@ def main() -> int:
     data = json.loads(BRANDS.read_text())
     brands = data["brands"] if isinstance(data, dict) else data
     have_dom = {registrable(b.get("domain") or b.get("website") or "") for b in brands} - {""}
-    have_name = {(b.get("name_ko") or "").strip().lower() for b in brands}
-    have_name |= {(b.get("name_en") or "").strip().lower() for b in brands}
+    # 이름 비교는 정규화해서 한다. 예전엔 그대로 비교해서 **이미 있는 브랜드의
+    # 중복을 13개 만들었다** — 수집 당시 기존 항목의 name_ko 가 영문("Naver")이라
+    # 새로 가져온 한글명("네이버")과 매칭되지 않았기 때문이다.
+    # 별칭까지 넣어야 한글명을 나중에 채운 브랜드도 걸린다.
+    def name_key(v: str) -> str:
+        return re.sub(r"[\s()（）·]|주식회사|대한민국|주\)", "", (v or "")).strip().lower()
+
+    have_name = set()
+    for b in brands:
+        for v in [b.get("name_ko"), b.get("name_en"), *(b.get("aliases") or [])]:
+            k = name_key(v)
+            if len(k) >= 2:
+                have_name.add(k)
     have_id = {b["id"] for b in brands}
 
     label, where, require_ko = PRESETS[args.preset]
@@ -331,7 +342,8 @@ def main() -> int:
         if not name:
             stats["no_korean_name"] += 1
             continue
-        if (it["domain"] and it["domain"] in have_dom) or name.strip().lower() in have_name:
+        cand_keys = {name_key(x) for x in (it.get("ko"), it.get("en")) if x}
+        if (it["domain"] and it["domain"] in have_dom) or (cand_keys & have_name):
             stats["already_have"] += 1
             continue
         # 외국 국가코드 도메인은 한국 조직이 아닐 가능성이 크다 (112 → gov.it).

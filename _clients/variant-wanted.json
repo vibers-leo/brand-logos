@@ -1,7 +1,7 @@
 {
   "note": "파비콘으로 쓸 심볼이 없는 브랜드. 심볼형 로고 재수집 타겟. logo-icon.png 의 잉크가 캔버스의 20% 미만인 경우.",
   "threshold": 0.2,
-  "count": 445,
+  "count": 497,
   "brands": [
     {
       "id": "vibers-matecheck",
@@ -12,8 +12,16 @@
       "icon_ink": 0.0
     },
     {
+      "id": "new-jeans",
+      "icon_ink": 0.0
+    },
+    {
       "id": "msit-go",
       "icon_ink": 0.0439
+    },
+    {
+      "id": "intellectual-ventures",
+      "icon_ink": 0.0461
     },
     {
       "id": "korea-baseball-organization---2022-wordmark-full",
@@ -21,6 +29,10 @@
     },
     {
       "id": "generaldynamics",
+      "icon_ink": 0.0469
+    },
+    {
+      "id": "chuck-lorre-productions",
       "icon_ink": 0.0469
     },
     {
@@ -38,6 +50,10 @@
     {
       "id": "kona-i",
       "icon_ink": 0.0625
+    },
+    {
+      "id": "pixar",
+      "icon_ink": 0.0645
     },
     {
       "id": "ssg-payments",
@@ -73,6 +89,14 @@
     },
     {
       "id": "paris-croissant",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "lehman-brothers",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "softbank-vision-fund",
       "icon_ink": 0.0781
     },
     {
@@ -161,6 +185,26 @@
     },
     {
       "id": "the-black-label",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "heyday-films",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "rooster-teeth",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "endemol-shine-group",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "87north-productions",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "tenaya-capital",
       "icon_ink": 0.0938
     },
     {
@@ -353,6 +397,30 @@
     },
     {
       "id": "samsung-engineering",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "cbs-films",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "zero-tolerance",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "sweetheart-video",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "private-media-group",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "sony-pictures-classics",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "founders-fund",
       "icon_ink": 0.1094
     },
     {
@@ -680,6 +748,18 @@
       "icon_ink": 0.125
     },
     {
+      "id": "lionsgate-films",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "credit-suisse",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "khosla-ventures",
+      "icon_ink": 0.125
+    },
+    {
       "id": "ohui",
       "icon_ink": 0.126
     },
@@ -936,6 +1016,38 @@
       "icon_ink": 0.1406
     },
     {
+      "id": "shondaland",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "imagemovers",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "tva-productions",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "dimension-films",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "mtv-entertainment-studios",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "thoma-bravo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "sequoia-capital",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "general-catalyst",
+      "icon_ink": 0.1406
+    },
+    {
       "id": "miumiu",
       "icon_ink": 0.1416
     },
@@ -985,6 +1097,10 @@
     },
     {
       "id": "formulaone",
+      "icon_ink": 0.1514
+    },
+    {
+      "id": "intermedia",
       "icon_ink": 0.1514
     },
     {
@@ -1173,6 +1289,38 @@
     },
     {
       "id": "democratic-korea-party",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "new-future-democratic-party",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "thinkfilm",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "skydance-media",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "maran-film-gmbh",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "imagine-entertainment",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "the-walt-disney-company",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "apollo-global-management",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "meritech-capital-partners",
       "icon_ink": 0.1562
     },
     {
@@ -1445,6 +1593,30 @@
     },
     {
       "id": "tata-daewoo",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "fremantle",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "studiocanal",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "devil-s-film",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "bron-studios",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "needham-company",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "coupang-eats",
       "icon_ink": 0.1719
     },
     {
@@ -1736,6 +1908,38 @@
       "icon_ink": 0.1875
     },
     {
+      "id": "allspark",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hbo-films",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "imax-corporation",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "aardman-animations",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "universal-television",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "abc-signature-studios",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "idg-capital",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "watcha-pedia",
+      "icon_ink": 0.1875
+    },
+    {
       "id": "amgen",
       "icon_ink": 0.188
     },
@@ -1781,6 +1985,10 @@
     },
     {
       "id": "logo-hankook-tire-2025",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "harbourvest-partners",
       "icon_ink": 0.2
     }
   ]

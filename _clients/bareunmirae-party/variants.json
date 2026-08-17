@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bareunmirae-party",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "165393a8356b906f"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.333,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "star-life",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "4c892ee3c1f25566"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.741,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

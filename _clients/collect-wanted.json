@@ -5434,7 +5434,106 @@
    "note": "현존 정당. 위키데이터에 로고 없음",
    "failed_source": "wikidata-no-logo",
    "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "요기요",
+   "name_en": "Yogiyo",
+   "category": "식품·음료",
+   "domain": "yogiyo.co.kr",
+   "failed_source": "official-site",
+   "note": "봇 차단 — 렌더 후에도 SVG 미노출",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "쿠팡플레이",
+   "name_en": "Coupang Play",
+   "category": "미디어·엔터",
+   "domain": "coupangplay.com",
+   "failed_source": "official-site",
+   "note": "봇 차단",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "정부24",
+   "name_en": "Gov24",
+   "category": "공공·기관",
+   "domain": "gov.kr",
+   "failed_source": "official-site",
+   "note": "봇 차단",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "스파오",
+   "name_en": "SPAO",
+   "category": "뷰티·패션",
+   "domain": "spao.com",
+   "failed_source": "official-site",
+   "note": "봇 차단",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "뚜레쥬르",
+   "name_en": "TOUS les JOURS",
+   "category": "식품·음료",
+   "domain": "touslesjours.co.kr",
+   "failed_source": "official-site",
+   "note": "도메인 확인 필요",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "탑텐",
+   "name_en": "TOPTEN",
+   "category": "뷰티·패션",
+   "domain": "topten10.co.kr",
+   "failed_source": "official-site",
+   "note": "SSL 인증서 오류",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "캐시워크",
+   "name_en": "Cashwalk",
+   "category": "의료·바이오",
+   "domain": "cashwalk.io",
+   "failed_source": "official-site",
+   "note": "SSL 오류",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "BC카드",
+   "name_en": "BC Card",
+   "category": "금융·결제",
+   "domain": "bccard.com",
+   "failed_source": "official-site",
+   "note": "수집 중 오류",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "국민건강보험공단",
+   "name_en": "NHIS",
+   "category": "공공·기관",
+   "domain": "nhis.or.kr",
+   "failed_source": "official-site",
+   "note": "잡힌 SVG 가 정부 상징이라 부적합",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "노브랜드",
+   "name_en": "No Brand",
+   "category": "유통·쇼핑",
+   "domain": "emart.ssg.com",
+   "failed_source": "official-site",
+   "note": "잡힌 SVG 가 다른 회사(삼성카드) 배너",
+   "failed_at": "2026-08-17"
+  },
+  {
+   "name_ko": "맘스터치",
+   "name_en": "Mom's Touch",
+   "category": "식품·음료",
+   "domain": "momstouch.co.kr",
+   "failed_source": "official-site",
+   "note": "로고 일부만 잡힘",
+   "failed_at": "2026-08-17"
   }
  ],
- "count": 685
+ "count": 696
 }

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "new-jeans",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "ea4fbc9dbc636f2d"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.808,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

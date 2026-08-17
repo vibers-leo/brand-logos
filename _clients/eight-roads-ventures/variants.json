@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eight-roads-ventures",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "1538cb0695dabc9a"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.426,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

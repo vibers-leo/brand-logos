@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sweetheart-video",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "f29e4e9f06329aa6"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 10.384,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fox-kids",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "e5871bc81dcb9f70"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.136,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

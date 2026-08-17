@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "warner-bros-domestic-television-distribution",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "2b5ee0c2eb0150c7"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.804,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

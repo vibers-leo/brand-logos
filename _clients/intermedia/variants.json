@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "intermedia",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "b8c0b5fcd2e8f1cb"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.207,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

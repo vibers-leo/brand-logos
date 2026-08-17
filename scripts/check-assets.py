@@ -92,6 +92,15 @@ def main() -> int:
         if (b.get("logo_svg") or b.get("has_svg")) and sniff(d / "logo.svg") != "SVG":
             mismatch.append(f"{bid}: logo_svg=true 인데 실제 SVG 없음")
 
+        # 표시 이름이 비면 화면이 죽는다. 2026-08-17 에 해외 영화사·투자사
+        # 프리셋이 name_ko 에 null 을 그대로 써서, 초성을 한 글자만 쳐도
+        # "Cannot read properties of null" 로 사이트 전체가 멈췄다.
+        for k in ("name_ko", "name_en"):
+            if not (b.get(k) or "").strip():
+                mismatch.append(f"{bid}: {k} 가 비어 있다 (검색·표시가 깨진다)")
+        if any(not isinstance(a, str) or not a.strip() for a in (b.get("aliases") or [])):
+            mismatch.append(f"{bid}: aliases 에 빈 값이 있다")
+
         # ── 2026-08-16 에 실제로 터진 세 가지. 다시 나면 여기서 잡는다 ──
 
         # ① logo.png 가 없으면 PNG 다운로드 버튼이 404 를 받는다.

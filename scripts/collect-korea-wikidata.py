@@ -444,7 +444,10 @@ def main() -> int:
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(src.read_bytes())
             brands.append({
-                "id": c["slug"], "name_ko": c["ko"], "name_en": c["en"] or c["ko"],
+                # 한글명이 없는 프리셋(해외 영화사·투자사)에서 None 이 그대로 들어가
+                # 화면이 죽었다(2026-08-17). 표시 이름은 절대 비우지 않는다.
+                "id": c["slug"], "name_ko": c["ko"] or c["en"] or c["slug"],
+                "name_en": c["en"] or c["ko"] or c["slug"],
                 "category": categorize(c), "folder": f"_clients/{c['slug']}",
                 "website": c["domain"], "domain": c["domain"],
                 "logo_svg": "logo.svg", "has_svg": True,

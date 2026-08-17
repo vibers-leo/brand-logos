@@ -1,7 +1,7 @@
 {
   "note": "파비콘으로 쓸 심볼이 없는 브랜드. 심볼형 로고 재수집 타겟. logo-icon.png 의 잉크가 캔버스의 20% 미만인 경우.",
   "threshold": 0.2,
-  "count": 444,
+  "count": 445,
   "brands": [
     {
       "id": "vibers-matecheck",
@@ -1173,6 +1173,10 @@
     },
     {
       "id": "democratic-korea-party",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "ateez",
       "icon_ink": 0.1562
     },
     {

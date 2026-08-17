@@ -28,6 +28,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -50,6 +51,7 @@ STAGE_ROOT = SCRIPT_DIR.parent / "_staging"
 REPORT = BASE / "korea-wikidata-report.json"
 QUEUE = BASE / "korea-wikidata-review.json"
 
+FETCH_ERRORS: dict[str, int] = {}
 UA = {"User-Agent": "semologo-bot/1.0 (https://semologo.com; vibers.leo@gmail.com)"}
 MULTI_TLD = {"co.kr", "or.kr", "ne.kr", "go.kr", "re.kr", "ac.kr", "pe.kr"}
 # 국가에 매이지 않는 TLD. 여기 속하면 한국 브랜드일 수 있으므로 통과시킨다.
@@ -101,6 +103,69 @@ PRESETS: dict[str, tuple[str, str, bool, bool]] = {
                "wd:Q11032611 wd:Q15911314 wd:Q163740 }"
                " ?item wdt:P31/wdt:P279* ?cls ; wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True, True),
 }
+
+# 분류(P31)·산업(P452)까지 한 질의에 넣으면 **교차곱으로 행이 폭증**한다.
+# 전세계 대상에서 5.2만 항목이 20.9만 행이 되면서 WDQS 가 60초 한도를 넘겨
+# 504 를 뱉었다. MD5 로 잘게 쪼개도 소용없었다 — 조각마다 같은 조인을 하기
+# 때문이다. 분류를 빼면 **전량 64,183행이 20초**에 들어온다(실측 2026-08-18).
+#
+# 그래서 큰 프리셋은 2단계로 간다:
+#   1단계 코어(항목·로고·사이트·이름) → 중복·가드로 후보를 걸러낸 뒤
+#   2단계 그 후보의 QID 만 모아 분류·산업을 배치로 받는다
+
+# ── 수집 우선순위 ─────────────────────────────────────────────
+# 5만 개를 한 번에 못 넣고 중간에 멈출 수도 있으므로 **순서가 곧 품질**이다.
+#
+# 지명도(위키백과 언어판 수)만으로 정렬했더니 상위 48개 중 37개가 **도시**였다
+# (아부다비·암스테르담·도쿄…). 언어판 수는 백과사전적 유명도라 도시가
+# 압도적으로 유리하다. 진짜 로고이긴 하지만 "브랜드가 다 있다"는 체감과는 다르다.
+# 그래서 분류(P31)로 계층을 먼저 나누고, 계층 안에서 지명도로 정렬한다.
+CLASS_TIER: dict[str, int] = {}
+for _tier, _qids in {
+    # 1계층 — 기업·브랜드·서비스. 사람들이 '로고'라고 하면 먼저 떠올리는 것들
+    1: ("Q4830453 Q6881511 Q891723 Q783794 Q431289 Q167270 Q507619 Q18043413 "
+        "Q786820 Q22687 Q46970 Q658255 Q219577 Q740752 Q18127 Q210167 Q2085381 "
+        "Q1320047 Q45400320 Q341 Q7397 Q620615 Q166142 Q506883"),
+    # 2계층 — 미디어·조직·스포츠
+    2: ("Q1616075 Q14350 Q2001305 Q561068 Q11032 Q1110794 Q41298 Q1002697 "
+        "Q1153191 Q43229 Q163740 Q327333 Q157031 Q708676 Q31855 Q1666019 Q35127 "
+        "Q7278 Q476028 Q847017 Q2367225 Q215380"),
+    # 3계층 — 교육·의료·문화 시설
+    3: ("Q3918 Q875538 Q902104 Q23002039 Q23002054 Q16917 Q33506"),
+    # 4계층 — 작품·시설. 로고는 있지만 '브랜드'로는 가장 약하다
+    4: ("Q5398426 Q7889 Q11424 Q55488 Q94993988 Q7835189"),
+}.items():
+    for _q in _qids.split():
+        CLASS_TIER[_q] = _tier
+
+# 아예 안 받는 분류. 브랜드가 아니고 목록만 흐린다.
+CLASS_SKIP = {
+    "Q10876391",   # 위키백과 언어판 (339건)
+}
+# 장소는 장소로 취급한다. 계층을 '가장 낮은 값'으로 정하면 분류가 하나만
+# 튀어도 끌려온다 — 파르두비체(체코 도시)에 '출판사' 분류가 붙어 있어서
+# 1계층 기업들 사이에 껴 있었다. 아래 분류가 하나라도 있으면 무조건 강등한다.
+CLASS_DEMOTE = set("""
+Q515 Q3957 Q486972 Q1549591 Q5119 Q6256 Q35657 Q10864048 Q56061 Q15284
+Q532 Q262166 Q1637706 Q1093829 Q1187811 Q747074 Q3957 Q17343829
+""".split())
+DEMOTED_TIER = 4
+
+DEFAULT_TIER = 3   # 분류를 모르면 중간에 둔다
+
+SPARQL_CORE = """SELECT ?item ?ko ?en ?logo ?site ?n WHERE {
+  %(where)s
+  OPTIONAL { ?item wikibase:sitelinks ?n }
+  OPTIONAL { ?item rdfs:label ?ko FILTER(LANG(?ko)="ko") }
+  OPTIONAL { ?item rdfs:label ?en FILTER(LANG(?en)="en") }
+}"""
+
+SPARQL_KINDS = """SELECT ?item ?kindLabel ?industryLabel WHERE {
+  VALUES ?item { %(values)s }
+  OPTIONAL { ?item wdt:P31 ?kind }
+  OPTIONAL { ?item wdt:P452 ?industry }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "ko,en". }
+}"""
 
 SPARQL_TEMPLATE = """SELECT ?item ?ko ?en ?logo ?site ?kindLabel ?industryLabel WHERE {
   %(where)s
@@ -256,12 +321,151 @@ def matches_filename(en: str, fname: str, common: set[str], ko: str = "") -> boo
     return len(ini) >= 3 and ini in file_t
 
 
-def fetch(url: str, timeout: int = 60) -> bytes | None:
-    try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-            return r.read()
-    except Exception:
-        return None
+def fetch(url: str, timeout: int = 60, tries: int = 3) -> bytes | None:
+    """실패 사유를 삼키지 않는다.
+
+    예전엔 어떤 예외든 None 을 돌려줘서, 429(레이트리밋)로 무더기 실패해도
+    '가드 거절'로만 집계됐다. 60개 표본에서 38개가 이렇게 사라졌는데
+    원인을 알 방법이 없었다. 사유를 FETCH_ERRORS 에 남기고 재시도한다.
+    """
+    last = ""
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            last = f"HTTP {e.code}"
+            if e.code in (429, 503) and i < tries - 1:
+                time.sleep(5 * (i + 1))
+                continue
+            break
+        except Exception as e:
+            last = type(e).__name__
+            if i < tries - 1:
+                time.sleep(3 * (i + 1))
+                continue
+    FETCH_ERRORS[last] = FETCH_ERRORS.get(last, 0) + 1
+    return None
+
+
+def sparql_core(where: str, slices: int = 16, tries: int = 4) -> list[dict]:
+    """분류를 뺀 가벼운 질의.
+
+    전량(6.4만 행)을 한 번에 받으면 응답이 20MB 를 넘어 **중간에 잘린다**
+    (JSONDecodeError 로 나타난다 — 서버 오류로 안 보여서 헷갈린다).
+    코어 질의는 조각당 7초로 싸므로 MD5 로 나눠 받는다.
+
+    조각은 디스크에 캐시한다. 한 조각이 실패했다고 앞의 20분을 다시
+    받는 일이 없어야 한다 (실제로 두 번 겪었다).
+    """
+    cache = STAGE_ROOT / "wdqs-cache"
+    cache.mkdir(parents=True, exist_ok=True)
+    key = hashlib.md5((where + SPARQL_CORE).encode()).hexdigest()[:10]
+    hexd = "0123456789abcdef"
+    prefixes = [hexd[i] for i in range(16)] if slices >= 16 else \
+               [hexd[i] for i in range(0, 16, max(16 // max(slices, 1), 1))]
+
+    rows: list[dict] = []
+    for i, pref in enumerate(prefixes, 1):
+        cf = cache / f"{key}-{pref}.json"
+        if cf.exists():
+            r = json.loads(cf.read_text())
+            rows.extend(r)
+            print(f"  조각 {i}/{len(prefixes)} '{pref}' → 캐시 {len(r):,}행  누적 {len(rows):,}", flush=True)
+            continue
+        q = SPARQL_CORE % {"where": f'{where} FILTER(STRSTARTS(MD5(STR(?item)), "{pref}"))'}
+        u = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q})
+        req = urllib.request.Request(u, headers={**UA, "Accept": "application/sparql-results+json"})
+        last = None
+        for t in range(tries):
+            try:
+                with urllib.request.urlopen(req, timeout=300) as resp:
+                    r = json.loads(resp.read())["results"]["bindings"]
+                break
+            except Exception as e:
+                last = e
+                # 잘린 응답·시간초과 모두 재시도한다. 조용히 넘기면 그 MD5
+                # 범위가 통째로 빠지고, 다음 수집이 영영 못 찾는다.
+                print(f"  조각 '{pref}' {type(e).__name__} — {12*(t+1)}초 후 재시도 ({t+1}/{tries-1})")
+                time.sleep(12 * (t + 1))
+        else:
+            raise RuntimeError(f"조각 '{pref}' 조회 실패: {last}")
+        cf.write_text(json.dumps(r))
+        rows.extend(r)
+        print(f"  조각 {i}/{len(prefixes)} '{pref}' → {len(r):,}행  누적 {len(rows):,}", flush=True)
+    return rows
+
+
+def fetch_classes(where: str, slices: int = 16) -> dict[str, set[str]]:
+    """항목별 분류(P31) QID 만 받는다. 라벨을 안 붙이면 조각당 5초로 싸다.
+
+    카테고리 판정용이 아니라 **수집 순서를 정하기 위한** 것이다.
+    """
+    cache = STAGE_ROOT / "wdqs-cache"
+    cache.mkdir(parents=True, exist_ok=True)
+    key = hashlib.md5((where + "P31").encode()).hexdigest()[:10]
+    out: dict[str, set[str]] = {}
+    for pref in "0123456789abcdef"[:slices] or ["" ]:
+        cf = cache / f"cls-{key}-{pref}.json"
+        if cf.exists():
+            for k, v in json.loads(cf.read_text()).items():
+                out.setdefault(k, set()).update(v)
+            continue
+        q = ("SELECT ?item ?c WHERE { %s ?item wdt:P31 ?c ."
+             ' FILTER(STRSTARTS(MD5(STR(?item)), "%s")) }' % (where, pref))
+        u = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q})
+        req = urllib.request.Request(u, headers={**UA, "Accept": "application/sparql-results+json"})
+        got: dict[str, list[str]] = {}
+        for t in range(4):
+            try:
+                with urllib.request.urlopen(req, timeout=300) as r:
+                    for row in json.loads(r.read())["results"]["bindings"]:
+                        qid = row["item"]["value"].rsplit("/", 1)[-1]
+                        got.setdefault(qid, []).append(row["c"]["value"].rsplit("/", 1)[-1])
+                break
+            except Exception:
+                time.sleep(10 * (t + 1))
+        else:
+            print(f"  ⚠️ 분류 사전조회 조각 '{pref}' 실패 — 그 범위는 기본 계층으로 둔다")
+            continue
+        cf.write_text(json.dumps(got))
+        for k, v in got.items():
+            out.setdefault(k, set()).update(v)
+    return out
+
+
+def enrich_kinds(items: dict, qids: list[str], batch: int = 300) -> None:
+    """후보의 분류(P31)·산업(P452)만 배치로 받아 items 에 채운다.
+
+    전체가 아니라 **살아남은 후보에만** 한다. 5만 개 전부에 하면 처음의
+    교차곱 문제로 되돌아간다. 배치가 실패해도 카테고리만 덜 정확해질 뿐이라
+    수집 자체는 진행한다 — 다만 몇 개가 실패했는지는 반드시 남긴다.
+    """
+    failed = 0
+    for i in range(0, len(qids), batch):
+        chunk = qids[i:i + batch]
+        values = " ".join(f"wd:{q}" for q in chunk)
+        q = SPARQL_KINDS % {"values": values}
+        u = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q})
+        req = urllib.request.Request(u, headers={**UA, "Accept": "application/sparql-results+json"})
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                rows = json.load(r)["results"]["bindings"]
+        except Exception:
+            failed += len(chunk)
+            continue
+        for row in rows:
+            qid = row["item"]["value"].rsplit("/", 1)[-1]
+            it = items.get(qid)
+            if not it:
+                continue
+            if row.get("kindLabel"):
+                it["kinds"].add(row["kindLabel"]["value"])
+            if row.get("industryLabel"):
+                it["industries"].add(row["industryLabel"]["value"])
+        print(f"  분류 보강 {min(i+batch, len(qids)):,}/{len(qids):,}", flush=True)
+    if failed:
+        print(f"  ⚠️ 분류 보강 실패 {failed:,}건 — 카테고리가 이름 기준으로만 매겨진다")
 
 
 def sparql_all(where: str, slices: int = 1) -> list[dict]:
@@ -327,7 +531,16 @@ def main() -> int:
     ap.add_argument("--jobs", type=int, default=6,
                     help="로고 동시 다운로드 수 (커먼즈 예의상 과하게 올리지 않는다)")
     ap.add_argument("--slices", type=int, default=0,
-                    help="WDQS 분할 조회 조각 수 (0=프리셋 기본값, global 은 16)")
+                    help="WDQS 분할 조회 조각 수 (0=분할 안 함)")
+    ap.add_argument("--max-tier", type=int, default=0,
+                    help="이 계층까지만 수집 (1=기업·브랜드, 2=+미디어·조직, 3=+교육·의료, 4=전부)")
+    ap.add_argument("--min-fame", type=int, default=0,
+                    help="위키백과 언어판 수 하한 (0=제한없음). 장기꼬리를 자를 때 쓴다")
+    ap.add_argument("--sample", type=int, default=0,
+                    help="후보에서 무작위 N개만 (대조 시트 눈검사용)")
+    ap.add_argument("--seed", type=int, default=1)
+    ap.add_argument("--two-pass", action="store_true",
+                    help="분류를 뺀 코어 질의로 받고 후보에만 분류를 보강한다 (global 기본)")
     ap.add_argument("--download", action="store_true")
     ap.add_argument("--apply", action="store_true", help="검증 통과분을 brands.json 에 반영")
     ap.add_argument("--stage-review", action="store_true",
@@ -362,11 +575,16 @@ def main() -> int:
     have_id = {b["id"] for b in brands}
 
     label, where, require_ko, korea_only = PRESETS[args.preset]
-    # 5만 건짜리 global 은 한 번에 받으면 시간초과다. 기본 16조각.
-    slices = args.slices if args.slices else (16 if args.preset == "global" else 1)
+    # 큰 프리셋은 분류를 뺀 코어 질의로 받는다. 분류까지 한 번에 받으면
+    # 교차곱으로 행이 폭증해 WDQS 60초 한도를 넘긴다 (SPARQL_CORE 주석 참고).
+    two_pass = args.two_pass or args.preset == "global"
     print(f"위키데이터 조회 중… [{args.preset}] {label}"
-          + (f" — {slices}조각으로 나눠 받는다" if slices > 1 else ""))
-    rows = sparql_all(where, slices)
+          + (" — 코어 질의 후 분류를 따로 받는다" if two_pass else ""))
+    rows = sparql_core(where) if two_pass else sparql_all(where, args.slices or 1)
+    classes: dict[str, set[str]] = {}
+    if two_pass:
+        print("분류(P31) 사전 조회 — 수집 순서를 정하기 위한 것")
+        classes = fetch_classes(where)
     items: dict[str, dict] = {}
     for r in rows:
         qid = r["item"]["value"].rsplit("/", 1)[-1]
@@ -374,6 +592,8 @@ def main() -> int:
             "qid": qid, "ko": r.get("ko", {}).get("value"), "en": r.get("en", {}).get("value"),
             "logo": r["logo"]["value"], "domain": registrable(r.get("site", {}).get("value", "")),
             "kinds": set(), "industries": set(),
+            # 위키백과 언어판 수 = 지명도. 유명한 것부터 넣기 위해 쓴다.
+            "fame": int(r.get("n", {}).get("value") or 0),
         })
         if r.get("kindLabel"):
             it["kinds"].add(r["kindLabel"]["value"])
@@ -444,11 +664,42 @@ def main() -> int:
                           {"reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
                            "category": categorize(it)})
             continue
+        cls = classes.get(it["qid"], set())
+        if cls and cls <= CLASS_SKIP:
+            stats["skip_class"] = stats.get("skip_class", 0) + 1
+            continue
+        if cls & CLASS_DEMOTE:
+            it["tier"] = DEMOTED_TIER
+        else:
+            it["tier"] = min((CLASS_TIER.get(c, DEFAULT_TIER) for c in cls), default=DEFAULT_TIER)
+        if args.max_tier and it["tier"] > args.max_tier:
+            stats["low_tier"] = stats.get("low_tier", 0) + 1
+            continue
+        if args.min_fame and it.get("fame", 0) < args.min_fame:
+            stats["low_fame"] = stats.get("low_fame", 0) + 1
+            continue
         stats["candidate"] += 1
         cands.append(it)
 
+    # 지명도(위키백과 언어판 수) 내림차순. 5만 개를 한 번에 다 넣을 수는
+    # 없고 중간에 멈출 수도 있으므로, **유명한 것부터** 들어와야 한다.
+    # 표본 검사에서 확인했듯 원본에는 드라마·폰 모델·컨퍼런스도 섞여 있는데
+    # 그런 항목은 대체로 언어판이 적어 자연히 뒤로 밀린다.
+    cands.sort(key=lambda c: (c.get("tier", DEFAULT_TIER), -c.get("fame", 0), c["slug"]))
+
+    if args.sample:
+        # 무작위 표본. 앞에서 자르면(--limit) 알파벳 앞쪽만 보게 되어
+        # 품질 판단이 왜곡된다. 대조 시트로 눈검사할 때 이걸 쓴다.
+        import random as _r
+        _r.seed(args.seed)
+        cands = _r.sample(cands, min(args.sample, len(cands)))
     if args.limit:
         cands = cands[:args.limit]
+
+    if two_pass and cands:
+        # 살아남은 후보에만 분류를 받는다. 카테고리 판정에 필요하기 때문이다.
+        print(f"분류·산업 보강 — 후보 {len(cands):,}개")
+        enrich_kinds(items, [c["qid"] for c in cands])
 
     wanted_ids = {x.strip() for x in (args.apply_ids or "").split(",") if x.strip()}
     if args.stage_review or wanted_ids:
@@ -581,6 +832,10 @@ def main() -> int:
                      "추가했다. SVG 가 원본이고 PNG 는 파생할 수 있으므로, 이들은 서비스에 넣지 않고 "
                      "대기시켰다가 진짜 벡터가 수집되면 그때 올린다.")
         wanted_path.write_text(json.dumps(w, ensure_ascii=False, indent=1) + "\n")
+    if FETCH_ERRORS:
+        print("\n다운로드 실패 사유:")
+        for k, v in sorted(FETCH_ERRORS.items(), key=lambda x: -x[1]):
+            print(f"  {k}: {v}건")
     print(f"\nPNG 만 있는 후보 {len(png_wanted)}건 → 수집 대기 목록에 {len(fresh)}건 추가")
     print(f"스테이징: {STAGE}")
     print(f"검수 대기: {QUEUE.name} ({len(review)}건)")

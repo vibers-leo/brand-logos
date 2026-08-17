@@ -255,6 +255,39 @@ INDUSTRY_RULES = [
 ]
 
 
+
+# 해외 브랜드는 위키데이터에 업종 정보가 거의 없다 — 분류가 '사업'·'기업'
+# 뿐이고 산업(P452)은 28% 에만 있다. 그래서 영문 이름의 업종어로 보완한다
+# (실측: 스테이징 16,346개 중 21% 를 추가로 분류할 수 있다).
+#
+# ⚠️ group·corporation·holdings·company 는 **넣지 않는다.** 업종 정보가 아니라
+#    법인 형태다. 넣으면 'Zoho Corporation' 이 제조업이 된다.
+NAME_RULES_EN = [
+    ("금융·결제", "bank banking bancorp insurance assurance capital financial finance "
+                "credit securities asset invest bourse"),
+    ("물류·교통", "airlines airways aviation logistics shipping express railway railways "
+                "transport transit cargo freight seaways ferries"),
+    ("의료·바이오", "pharma pharmaceutical pharmaceuticals biotech bioscience biosciences "
+                 "health healthcare medical hospital clinic therapeutics diagnostics genomics"),
+    ("식품·음료", "foods beverage beverages brewery brewing distillery coffee dairy "
+                "confectionery bakery winery"),
+    ("유통·쇼핑", "retail supermarket supermarkets hypermarket grocery ecommerce"),
+    ("에너지·화학", "energy petroleum petrochemical chemicals chemical refinery solar "
+                 "renewables electricity"),
+    ("철강·중공업", "steel metallurgical shipbuilding heavy foundry"),
+    ("제조·그룹", "manufacturing industries industrial machinery instruments"),
+    ("미디어·엔터", "broadcasting broadcaster television radio records recordings music "
+                 "studios pictures entertainment publishing publishers newspaper magazine"),
+    ("IT·테크", "software technologies semiconductor semiconductors electronics computing "
+              "cybersecurity datacenter networks robotics"),
+    ("통신", "telecom telecommunications telekom telecommunication wireless"),
+    ("자동차", "motors automotive automobiles autoworks"),
+    ("건설·부동산", "construction engineering properties realty infrastructure contractors"),
+    ("교육", "university universitat universite college academy polytechnic schule"),
+    ("스포츠", "athletic athletics stadium"),
+    ("게임", "gaming interactive"),
+]
+
 def categorize(item: dict) -> str:
     """위키데이터 산업분류(P452) → 분류(P31) → 이름 순으로 카테고리를 고른다.
 
@@ -271,6 +304,12 @@ def categorize(item: dict) -> str:
     name = (item.get("ko") or "") + " " + (item.get("en") or "")
     for cat, words in NAME_RULES:
         if any(w in name for w in words):
+            return cat
+    # 해외 브랜드는 여기까지 오는 비율이 높다 — 위키데이터에 업종 정보가
+    # 28% 에만 있기 때문이다. 영문 이름의 업종어로 한 번 더 건진다.
+    en_tokens = set(re.split(r"[^a-z0-9]+", (item.get("en") or "").lower()))
+    for cat, words in NAME_RULES_EN:
+        if en_tokens & set(words.split()):
             return cat
     return "기타"
 

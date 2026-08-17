@@ -167,7 +167,10 @@ def main() -> int:
     if qid_dupes:
         print(f"❌ QID 접미사 중복 {len(qid_dupes)}개 (같은 브랜드가 둘로 갈라져 있다)")
         for x in qid_dupes[:10]:
-            print(f"   {x}  ↔  {re.sub(r'-q\\d{4,}$', '', x)}")
+            # 정규식을 f-string 안에 두면 안 된다 — 파이썬 3.11 은 f-string
+            # 표현식에 백슬래시를 허용하지 않는다 (CI 는 3.11, 로컬은 3.14였다)
+            base = re.sub(r"-q\d{4,}$", "", x)
+            print(f"   {x}  ↔  {base}")
         print("   → 기존 id 를 대표로 두고 신규 로고는 sources/ 변형으로 흡수한다")
 
     if corrupt:

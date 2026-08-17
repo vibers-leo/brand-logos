@@ -11,3 +11,11 @@ tistory-bot/__pycache__/
 tistory-bot/debug_*.py
 tistory-bot/posted.json
 tistory-bot/session.json
+
+# ── PNG 는 NCP 버킷이 서빙한다 (2026-08-18) ──────────────────────
+# GitHub Pages 는 사이트 1GB 가 하드 리밋인데 PNG 파생물이 79%(640MB)를
+# 먹고 있었다. 원본 SVG(70MB)만 남기고 PNG 는 버킷으로 내보냈다.
+# 서빙: logo-guard 워커가 버킷에서 가져오고, 없으면 Pages 로 폴백한다.
+# 업로드: scripts/sync-png-bucket.py (멱등)
+# 로컬 파일은 지우지 않는다 — build-variants 가 재생성 여부를 판단하는 근거다.
+_clients/**/*.png

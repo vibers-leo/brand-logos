@@ -60,35 +60,46 @@ GENERIC_TLD = {"com", "net", "org", "io", "co", "ai", "app", "dev", "me", "tv",
 # 처음엔 '국가=대한민국' 하나로 고정돼 있었다. 그러면 디즈니·폭스 같은 해외
 # 영화사나 글로벌 투자사는 **애초에 들어올 수가 없다.** 축을 바꿔 끼운다.
 #
-# each preset: (설명, WHERE 절, 한글명 필수 여부)
+# each preset: (설명, WHERE 절, 한글명 필수 여부, 한국 도메인만 여부)
 #   한글명 필수: 한국 대상은 켠다(우리 차별점). 해외 스튜디오·투자사는 끈다 —
 #   한글 라벨이 없다고 디즈니를 버릴 이유가 없다.
-PRESETS: dict[str, tuple[str, str, bool]] = {
+#   한국 도메인만: 한국 프리셋은 외국 국가코드 도메인을 버린다. 전세계 대상에
+#   이걸 켜면 수집 대상이 통째로 사라지므로 프리셋마다 따로 정한다.
+PRESETS: dict[str, tuple[str, str, bool, bool]] = {
     "korea": ("한국 조직 전반",
-              "?item wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True),
+              "?item wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True, True),
+
+    # 전세계 — SVG 로고와 공식 웹사이트를 **둘 다** 가진 항목.
+    # 웹사이트를 필수로 두는 이유는 두 가지다. ①우리 도메인 검증 가드를 그대로
+    # 태울 수 있다 ②사이트가 없는 항목은 대개 소멸했거나 실체가 희미하다.
+    # 실측 55,601개(2026-08-18). 한 번에 받으면 WDQS 가 시간초과 나므로
+    # MD5 로 16조각 내어 받는다 — 조각당 7,400행/10초.
+    "global": ("전세계 — SVG 로고 + 공식 웹사이트 보유",
+               "?item wdt:P154 ?logo ; wdt:P856 ?anysite ."
+               ' FILTER(STRENDS(LCASE(STR(?logo)),".svg"))', False, False),
 
     # 해산한 정당을 빼야 한다. 안 그러면 민주노동당·신민당·선진통일당 같은
     # 옛 정당이 잔뜩 들어온다(실측: 58건 중 36건이 해산).
     "party": ("현존 정당 (한국)",
               "?item wdt:P31/wdt:P279* wd:Q7278 ; wdt:P17 wd:Q884 ; wdt:P154 ?logo ."
-              " FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }", True),
+              " FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }", True, True),
 
     "idol": ("K-pop 그룹",
-             "?item wdt:P31/wdt:P279* wd:Q215380 ; wdt:P495 wd:Q884 ; wdt:P154 ?logo .", False),
+             "?item wdt:P31/wdt:P279* wd:Q215380 ; wdt:P495 wd:Q884 ; wdt:P154 ?logo .", False, False),
 
     "film": ("영화 제작사 (전세계)",
-             "?item wdt:P31/wdt:P279* wd:Q1762059 ; wdt:P154 ?logo .", False),
+             "?item wdt:P31/wdt:P279* wd:Q1762059 ; wdt:P154 ?logo .", False, False),
 
     "investor": ("투자사 (벤처캐피털·투자은행·사모펀드)",
                  "VALUES ?cls { wd:Q3487908 wd:Q319845 wd:Q5418962 wd:Q4230006 }"
-                 " ?item wdt:P31/wdt:P279* ?cls ; wdt:P154 ?logo .", False),
+                 " ?item wdt:P31/wdt:P279* ?cls ; wdt:P154 ?logo .", False, False),
 
     # 중앙부처는 정부상징 통일 체계라 대부분 이미 있다. 빠진 건 자체 CI 를 쓰는
     # 공공기관·공기업(공단·공사)이라 그 분류를 함께 넣는다 (실측 115개, SVG 85).
     "public": ("공공기관·공기업 (한국)",
                "VALUES ?cls { wd:Q327333 wd:Q2659904 wd:Q15916930 wd:Q270791 "
                "wd:Q11032611 wd:Q15911314 wd:Q163740 }"
-               " ?item wdt:P31/wdt:P279* ?cls ; wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True),
+               " ?item wdt:P31/wdt:P279* ?cls ; wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True, True),
 }
 
 SPARQL_TEMPLATE = """SELECT ?item ?ko ?en ?logo ?site ?kindLabel ?industryLabel WHERE {
@@ -253,6 +264,29 @@ def fetch(url: str, timeout: int = 60) -> bytes | None:
         return None
 
 
+def sparql_all(where: str, slices: int = 1) -> list[dict]:
+    """분할 조회. 큰 프리셋은 한 번에 받으면 WDQS 가 시간초과 난다.
+
+    QID 문자열의 MD5 앞자리로 나눈다 — 결정적이고 고르게 갈라지며,
+    OFFSET 페이징과 달리 깊은 오프셋에서 느려지지 않는다.
+    조각 하나가 끝내 실패하면 예외를 던진다. 조용히 빠뜨리면 '수집이
+    끝났다'고 오해하게 되고, 빠진 조각은 영영 안 들어온다.
+    """
+    if slices <= 1:
+        return sparql(where)
+    hexd = "0123456789abcdef"
+    step = 16 // slices if slices <= 16 else 1
+    prefixes = [hexd[i] for i in range(0, 16, max(step, 1))] if slices <= 16 else \
+               [a + b for a in hexd for b in hexd][:slices]
+    rows: list[dict] = []
+    for i, pref in enumerate(prefixes, 1):
+        chunk = f'{where} FILTER(STRSTARTS(MD5(STR(?item)), "{pref}"))'
+        r = sparql(chunk)
+        rows.extend(r)
+        print(f"  조각 {i}/{len(prefixes)} (MD5 '{pref}') → {len(r):,}행  누적 {len(rows):,}", flush=True)
+    return rows
+
+
 def sparql(where: str, tries: int = 4) -> list[dict]:
     """위키데이터 질의. 429 는 흔하다 — 장애 중에는 분당 1회까지 조인다.
 
@@ -281,6 +315,10 @@ def main() -> int:
     ap.add_argument("--preset", default="korea", choices=sorted(PRESETS),
                     help="수집 축. korea|party|idol|film|investor|public")
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--jobs", type=int, default=6,
+                    help="로고 동시 다운로드 수 (커먼즈 예의상 과하게 올리지 않는다)")
+    ap.add_argument("--slices", type=int, default=0,
+                    help="WDQS 분할 조회 조각 수 (0=프리셋 기본값, global 은 16)")
     ap.add_argument("--download", action="store_true")
     ap.add_argument("--apply", action="store_true", help="검증 통과분을 brands.json 에 반영")
     ap.add_argument("--stage-review", action="store_true",
@@ -314,9 +352,12 @@ def main() -> int:
                 have_name.add(k)
     have_id = {b["id"] for b in brands}
 
-    label, where, require_ko = PRESETS[args.preset]
-    print(f"위키데이터 조회 중… [{args.preset}] {label}")
-    rows = sparql(where)
+    label, where, require_ko, korea_only = PRESETS[args.preset]
+    # 5만 건짜리 global 은 한 번에 받으면 시간초과다. 기본 16조각.
+    slices = args.slices if args.slices else (16 if args.preset == "global" else 1)
+    print(f"위키데이터 조회 중… [{args.preset}] {label}"
+          + (f" — {slices}조각으로 나눠 받는다" if slices > 1 else ""))
+    rows = sparql_all(where, slices)
     items: dict[str, dict] = {}
     for r in rows:
         qid = r["item"]["value"].rsplit("/", 1)[-1]
@@ -353,7 +394,7 @@ def main() -> int:
         # .com/.org 까지 막으면 안 된다 — 하나은행(hanabank.com)·채널A·아리랑처럼
         # 진짜 한국 브랜드를 통째로 버리게 된다 (실측 334개).
         tld = it["domain"].rsplit(".", 1)[-1] if it["domain"] else ""
-        if tld and tld not in GENERIC_TLD and not it["domain"].endswith(".kr"):
+        if korea_only and tld and tld not in GENERIC_TLD and not it["domain"].endswith(".kr"):
             stats["not_kr_domain"] += 1
             continue
         if not it["logo"].lower().endswith(".svg"):
@@ -407,22 +448,42 @@ def main() -> int:
 
     if args.download and cands:
         STAGE.mkdir(parents=True, exist_ok=True)
-        for c in cands:
-            body = fetch(it_url := c["logo"])
-            if not body:
-                stats["guard_rejected"] += 1
-                c["error"] = "다운로드 실패"
-                continue
+        # 순차로 받으면 4만 건에 몇 시간이 걸린다. 커먼즈는 정상적인
+        # User-Agent 를 붙인 소수 병렬은 허용한다 — 과하게 올리지 않는다.
+        # 이미 받아 둔 파일은 건너뛴다. 중간에 끊겨도 다시 돌리면 이어진다.
+        lock = __import__("threading").Lock()
+        n = [0]
+
+        def grab(c):
             dest = STAGE / c["slug"] / "logo.svg"
+            if dest.exists() and dest.stat().st_size > 0:
+                with lock:
+                    stats["downloaded"] += 1
+                return
+            body = fetch(c["logo"])
+            with lock:
+                n[0] += 1
+                if n[0] % 500 == 0:
+                    print(f"  받는 중 {n[0]:,}/{len(cands):,}", flush=True)
+            if not body:
+                with lock:
+                    stats["guard_rejected"] += 1
+                c["error"] = "다운로드 실패"
+                return
             dest.parent.mkdir(parents=True, exist_ok=True)
             try:
                 # HTML 오류페이지·래스터 내장·빈 파일을 여기서 막는다
                 safe_write(dest, body)
-                stats["downloaded"] += 1
+                with lock:
+                    stats["downloaded"] += 1
             except Exception as e:
-                stats["guard_rejected"] += 1
+                with lock:
+                    stats["guard_rejected"] += 1
                 c["error"] = f"{type(e).__name__}: {e}"
-            time.sleep(0.2)
+
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=args.jobs) as ex:
+            list(ex.map(grab, cands))
 
     if args.recategorize:
         by_qid = {v["qid"]: v for v in items.values()}

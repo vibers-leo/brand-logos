@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ministry-of-foreign-affairs-and-trade",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "50438925910258ae"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 0.956,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

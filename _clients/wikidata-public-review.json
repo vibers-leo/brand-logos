@@ -1,18 +1,18 @@
 {
  "note": "위키데이터에 로고는 있으나 파일명이 브랜드 영문명과 겹치지 않아 자동 수집하지 않은 목록. 위키데이터 쪽 연결 오류가 섞여 있다(롯데하이마트→Lotte Mart).",
  "generated_at": "2026-08-17",
- "count": 12,
+ "count": 11,
  "items": [
   {
-   "qid": "Q488542",
-   "ko": "대한민국 국방부",
-   "en": "Ministry of National Defense of South Korea",
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ministry%20of%20National%20Defense%20of%20the%20Republic%20of%20Korea%20Logo%20%28horizontal%29.svg",
-   "domain": "mnd.go.kr",
-   "file": "Ministry of National Defense of the Republic of Korea Logo (horizontal).svg",
-   "slug": "ministry-of-national-defense-of-south-korea",
+   "qid": "Q27951951",
+   "ko": "대한민국 고위공직자범죄수사처",
+   "en": "Corruption Investigation Office For High-ranking Officials",
+   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%EA%B3%A0%EC%9C%84%EA%B3%B5%EC%A7%81%EC%9E%90%EB%B2%94%EC%A3%84%EC%88%98%EC%82%AC%EC%B2%98%20%EB%A1%9C%EA%B3%A0.svg",
+   "domain": "cio.go.kr",
+   "file": "고위공직자범죄수사처 로고.svg",
+   "slug": "corruption-investigation-office-for-high-ranking-officials",
    "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
-   "category": "공공·기관"
+   "category": "기타"
   },
   {
    "qid": "Q490373",
@@ -26,13 +26,24 @@
    "category": "기타"
   },
   {
-   "qid": "Q9405654",
-   "ko": "대한민국 외교부",
-   "en": "Ministry of Foreign Affairs of the Republic of Korea",
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Ministry%20of%20Foreign%20Affairs%20logo.svg",
-   "domain": "mofa.go.kr",
-   "file": "Ministry of Foreign Affairs logo.svg",
-   "slug": "ministry-of-foreign-affairs-of-the-republic-of-korea",
+   "qid": "Q126199836",
+   "ko": "질병관리청",
+   "en": "Korea Disease Control and Prevention Agency",
+   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Symbol%20of%20KDCA.svg",
+   "domain": "kdca.go.kr",
+   "file": "Symbol of KDCA.svg",
+   "slug": "korea-disease-control-and-prevention-agency",
+   "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
+   "category": "공공·기관"
+  },
+  {
+   "qid": "Q6664142",
+   "ko": "지방자치인재개발원",
+   "en": "Local Government Officials Development Institute",
+   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LOGODI%20symbol%20mark%20and%20logotype%20%28English%29.svg",
+   "domain": "logodi.go.kr",
+   "file": "LOGODI symbol mark and logotype (English).svg",
+   "slug": "local-government-officials-development-institute",
    "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
    "category": "공공·기관"
   },
@@ -46,17 +57,6 @@
    "slug": "provincial-councils-of-south-korea",
    "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
    "category": "기타"
-  },
-  {
-   "qid": "Q6664142",
-   "ko": "지방자치인재개발원",
-   "en": "Local Government Officials Development Institute",
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LOGODI%20symbol%20mark%20and%20logotype%20%28English%29.svg",
-   "domain": "logodi.go.kr",
-   "file": "LOGODI symbol mark and logotype (English).svg",
-   "slug": "local-government-officials-development-institute",
-   "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
-   "category": "공공·기관"
   },
   {
    "qid": "Q11233101",
@@ -81,6 +81,28 @@
    "category": "공공·기관"
   },
   {
+   "qid": "Q11233074",
+   "ko": "대한민국 중앙인사위원회",
+   "en": null,
+   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%A4%91%EC%95%99%EC%9D%B8%EC%82%AC%EC%9C%84%EC%9B%90%ED%9A%8C%20%EB%A1%9C%EA%B3%A0.svg",
+   "domain": "",
+   "file": "중앙인사위원회 로고.svg",
+   "slug": "q11233074",
+   "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
+   "category": "기타"
+  },
+  {
+   "qid": "Q12603185",
+   "ko": "수산업협동조합",
+   "en": "National Federation of Fisheries Cooperatives (South Korea)",
+   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/NFFC%20%28SuHyup%29%20Logo.svg",
+   "domain": "suhyup.co.kr",
+   "file": "NFFC (SuHyup) Logo.svg",
+   "slug": "national-federation-of-fisheries-cooperatives-south-korea",
+   "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
+   "category": "공공·기관"
+  },
+  {
    "qid": "Q12592079",
    "ko": "대한민국 산업자원부",
    "en": "Ministry of Commerce Industry and Energy",
@@ -101,39 +123,6 @@
    "slug": "ministry-of-knowledge-economy",
    "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
    "category": "기타"
-  },
-  {
-   "qid": "Q27951951",
-   "ko": "대한민국 고위공직자범죄수사처",
-   "en": "Corruption Investigation Office For High-ranking Officials",
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%EA%B3%A0%EC%9C%84%EA%B3%B5%EC%A7%81%EC%9E%90%EB%B2%94%EC%A3%84%EC%88%98%EC%82%AC%EC%B2%98%20%EB%A1%9C%EA%B3%A0.svg",
-   "domain": "cio.go.kr",
-   "file": "고위공직자범죄수사처 로고.svg",
-   "slug": "corruption-investigation-office-for-high-ranking-officials",
-   "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
-   "category": "기타"
-  },
-  {
-   "qid": "Q11233074",
-   "ko": "대한민국 중앙인사위원회",
-   "en": null,
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%A4%91%EC%95%99%EC%9D%B8%EC%82%AC%EC%9C%84%EC%9B%90%ED%9A%8C%20%EB%A1%9C%EA%B3%A0.svg",
-   "domain": "",
-   "file": "중앙인사위원회 로고.svg",
-   "slug": "q11233074",
-   "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
-   "category": "기타"
-  },
-  {
-   "qid": "Q126199836",
-   "ko": "질병관리청",
-   "en": "Korea Disease Control and Prevention Agency",
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Symbol%20of%20KDCA.svg",
-   "domain": "kdca.go.kr",
-   "file": "Symbol of KDCA.svg",
-   "slug": "korea-disease-control-and-prevention-agency",
-   "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
-   "category": "공공·기관"
   }
  ]
 }

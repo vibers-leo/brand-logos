@@ -9,7 +9,7 @@
 
 실패 시 exit 1. CI에서 이 스크립트가 통과해야 커밋한다.
 """
-import json, sys
+import json, re, sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent / "_clients"
@@ -158,6 +158,18 @@ def main() -> int:
             print(f"   {c}")
         print("   → git rm --cached --sparse 로 인덱스에서만 뺀다 (git rm -r 은 원본까지 지운다)")
 
+    # slug 에 QID 가 붙어 있으면 대개 중복이다. 예전 수집기가 slug 충돌을
+    # QID 를 붙여 회피하는 바람에 daum ↔ daum-q493104 같은 중복이 41개 생겼다
+    # (기존 항목 이름이 영문이라 이름 대조에도 안 걸렸다).
+    ids = {b["id"] for b in brands}
+    qid_dupes = [b["id"] for b in brands
+                 if re.search(r"-q\d{4,}$", b["id"]) and re.sub(r"-q\d{4,}$", "", b["id"]) in ids]
+    if qid_dupes:
+        print(f"❌ QID 접미사 중복 {len(qid_dupes)}개 (같은 브랜드가 둘로 갈라져 있다)")
+        for x in qid_dupes[:10]:
+            print(f"   {x}  ↔  {re.sub(r'-q\\d{4,}$', '', x)}")
+        print("   → 기존 id 를 대표로 두고 신규 로고는 sources/ 변형으로 흡수한다")
+
     if corrupt:
         print(f"❌ 내용이 확장자와 다른 파일 {len(corrupt)}개")
         for c in corrupt[:40]:
@@ -209,7 +221,7 @@ def main() -> int:
     report(dead_variants, "변형 매니페스트가 없는 파일을 가리킴",
            "python3 scripts/build-logo-variants.py --force 로 재생성한다")
 
-    if corrupt or mismatch or missing_png or fake_vector or dead_variants or case_dupes:
+    if corrupt or mismatch or missing_png or fake_vector or dead_variants or case_dupes or qid_dupes:
         return 1
     print(f"✅ 에셋 검사 통과 — 브랜드 {len(brands):,}개")
     return 0

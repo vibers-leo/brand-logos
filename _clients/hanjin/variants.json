@@ -4,7 +4,8 @@
  "id": "hanjin",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "f9fa8896fa8eb245"
+  "logo.svg": "f9fa8896fa8eb245",
+  "sources/wikimedia/logo.svg": "7fd20f5795af2494"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 4.839,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg"
+    }
+   ]
   },
   {
    "key": "symbol",

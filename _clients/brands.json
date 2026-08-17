@@ -19,12 +19,23 @@
      "provider": "merged:hyundai-symbol",
      "file": "sources/hyundai-symbol.svg",
      "label": "아이콘형"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 1109.2,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Hyundai",
+    "現代",
+    "현대"
+   ],
+   "wikidata": "Q29311"
   },
   {
    "id": "kia",
@@ -314,7 +325,7 @@
   },
   {
    "id": "bts",
-   "name_ko": "BTS",
+   "name_ko": "방탄소년단",
    "name_en": "BTS (HYBE)",
    "category": "암호화폐·블록체인",
    "folder": "_clients/bts",
@@ -344,12 +355,26 @@
      "provider": "wikimedia:bts-horizontal",
      "file": "sources/bts-horizontal.svg",
      "label": "텍스트형 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 1185.1,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "BTS",
+    "Bangtan",
+    "Bangtan Sonyeondan",
+    "防彈少年團",
+    "방탄소년단",
+    "비티에스"
+   ],
+   "wikidata": "Q13580495"
   },
   {
    "id": "hikr-hybe",
@@ -517,10 +542,10 @@
   },
   {
    "id": "asia-motors",
-   "name_ko": "Asia Motors",
+   "name_ko": "아시아자동차공업",
    "name_en": "Asia Motors",
    "category": "자동차",
-   "domain": "",
+   "domain": "asia.co.kr",
    "logo_svg": true,
    "source": "wikimedia:Asia Motors Logo.svg",
    "status": "raw",
@@ -538,8 +563,14 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "Asia Motors",
+    "아세아자동차",
+    "아시아 자동차",
+    "아시아자동차",
     "아시아자동차공업"
-   ]
+   ],
+   "wikidata": "Q484849",
+   "website": "asia.co.kr"
   },
   {
    "id": "astellkern",
@@ -618,10 +649,10 @@
   },
   {
    "id": "big-hit-music",
-   "name_ko": "Big Hit Music",
+   "name_ko": "빅히트 뮤직",
    "name_en": "Big Hit Music",
    "category": "미디어·엔터",
-   "domain": "",
+   "domain": "ibighit.com",
    "logo_svg": true,
    "source": "wikimedia:Big Hit Music Logo.svg",
    "status": "raw",
@@ -639,8 +670,13 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "Big Hit",
+    "Big Hit Entertainment",
+    "Big Hit Music",
     "빅히트 뮤직"
-   ]
+   ],
+   "wikidata": "Q106296918",
+   "website": "ibighit.com"
   },
   {
    "id": "big-planet-made",
@@ -716,10 +752,10 @@
   },
   {
    "id": "bizpass",
-   "name_ko": "BizPass",
+   "name_ko": "비즈패스",
    "name_en": "BizPass",
    "category": "IT·테크",
-   "domain": "",
+   "domain": "bizpass.me",
    "logo_svg": true,
    "source": "wikimedia:BizPass logo.svg",
    "status": "raw",
@@ -737,8 +773,13 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "BizPass",
+    "BizPass access control",
+    "BizPass 출입통제",
     "비즈패스"
-   ]
+   ],
+   "wikidata": "Q139584373",
+   "website": "bizpass.me"
   },
   {
    "id": "booyoung-group",
@@ -912,10 +953,10 @@
   },
   {
    "id": "cheil-worldwide",
-   "name_ko": "Cheil Worldwide",
+   "name_ko": "제일기획",
    "name_en": "Cheil Worldwide",
    "category": "미디어·엔터",
-   "domain": "",
+   "domain": "cheil.com",
    "logo_svg": true,
    "source": "wikimedia:Cheil Worldwide logo.svg",
    "status": "raw",
@@ -933,8 +974,11 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "Cheil Worldwide",
     "제일기획"
-   ]
+   ],
+   "wikidata": "Q5089641",
+   "website": "cheil.com"
   },
   {
    "id": "chungcheongnam-do-developement-corpoation",
@@ -1319,7 +1363,7 @@
   },
   {
    "id": "daum",
-   "name_ko": "Daum",
+   "name_ko": "다음",
    "name_en": "Daum",
    "category": "IT·테크",
    "domain": "",
@@ -1333,12 +1377,27 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 308.5,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Daum",
+    "다움",
+    "다음",
+    "다음 메일",
+    "다음넷",
+    "다음서비스",
+    "한메일"
+   ],
+   "wikidata": "Q493104"
   },
   {
    "id": "dawonsys",
@@ -1414,10 +1473,10 @@
   },
   {
    "id": "dear-u",
-   "name_ko": "DEAR U",
+   "name_ko": "디어유",
    "name_en": "DEAR U",
    "category": "미디어·엔터",
-   "domain": "",
+   "domain": "dear-u.co",
    "logo_svg": true,
    "source": "wikimedia:DEAR U Logo.svg",
    "status": "raw",
@@ -1433,7 +1492,15 @@
    "logo_quality_score": 5097.7,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Bubble",
+    "Dear U",
+    "bubble",
+    "디어유"
+   ],
+   "wikidata": "Q131188997",
+   "website": "dear-u.co"
   },
   {
    "id": "dearu",
@@ -2058,10 +2125,10 @@
   },
   {
    "id": "hana-financial-group",
-   "name_ko": "Hana Financial Group",
+   "name_ko": "하나금융그룹",
    "name_en": "Hana Financial Group",
    "category": "금융·결제",
-   "domain": "",
+   "domain": "hanafn.com",
    "logo_svg": true,
    "source": "wikimedia:Hana Financial Group Logo (eng).svg",
    "status": "raw",
@@ -2079,8 +2146,12 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "하나금융그룹"
-   ]
+    "Hana Financial Group",
+    "하나금융그룹",
+    "하나금융지주"
+   ],
+   "wikidata": "Q490601",
+   "website": "hanafn.com"
   },
   {
    "id": "hanbo-group",
@@ -2156,7 +2227,7 @@
    "name_ko": "한진",
    "name_en": "Hanjin",
    "category": "물류·교통",
-   "domain": "",
+   "domain": "hanjin.co.kr",
    "logo_svg": true,
    "source": "wikimedia:Hanjin logo.svg",
    "status": "raw",
@@ -2167,19 +2238,32 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 2655.4,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Hanjin",
+    "Hanjin Group",
+    "한진 그룹",
+    "한진그룹"
+   ],
+   "wikidata": "Q483274",
+   "website": "hanjin.co.kr"
   },
   {
    "id": "hanjin-shipping",
-   "name_ko": "Hanjin Shipping",
+   "name_ko": "한진해운",
    "name_en": "Hanjin Shipping",
    "category": "물류·교통",
-   "domain": "",
+   "domain": "hanjin.com",
    "logo_svg": true,
    "source": "wikimedia:Hanjin Shipping Logo.svg",
    "status": "raw",
@@ -2197,8 +2281,13 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "Hanjin Shipping",
+    "Hanjin Shipping Co. Ltd",
+    "대한해운공사",
     "한진해운"
-   ]
+   ],
+   "wikidata": "Q494904",
+   "website": "hanjin.com"
   },
   {
    "id": "hankook",
@@ -2297,10 +2386,10 @@
   },
   {
    "id": "hanssem",
-   "name_ko": "Hanssem",
+   "name_ko": "한샘",
    "name_en": "Hanssem",
    "category": "제조·그룹",
-   "domain": "",
+   "domain": "hanssem.com",
    "logo_svg": true,
    "source": "wikimedia:Hanssem logo (1970-1973).svg",
    "status": "raw",
@@ -2311,12 +2400,23 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 1655.6,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "HANSSEM",
+    "한샘"
+   ],
+   "wikidata": "Q21060742",
+   "website": "hanssem.com"
   },
   {
    "id": "hanwha-aerospace",
@@ -2421,10 +2521,10 @@
   },
   {
    "id": "hanwha-vision",
-   "name_ko": "Hanwha Vision",
+   "name_ko": "한화비전",
    "name_en": "Hanwha Vision",
    "category": "철강·중공업",
-   "domain": "",
+   "domain": "hanwhavision.com",
    "logo_svg": true,
    "source": "wikimedia:Hanwha Vision Logo.svg",
    "status": "raw",
@@ -2442,15 +2542,21 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "한화비전"
-   ]
+    "Hanwha Vision",
+    "Samsung Techwin",
+    "삼성테크윈",
+    "한화비전",
+    "한화테크윈"
+   ],
+   "wikidata": "Q52112789",
+   "website": "hanwhavision.com"
   },
   {
    "id": "hd-hyundai",
-   "name_ko": "HD Hyundai",
+   "name_ko": "HD현대",
    "name_en": "HD Hyundai",
    "category": "철강·중공업",
-   "domain": "",
+   "domain": "hd.com",
    "logo_svg": true,
    "source": "wikimedia:HD Hyundai logo.svg",
    "status": "raw",
@@ -2468,8 +2574,16 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "HD현대"
-   ]
+    "HD Hyundai",
+    "HD Hyundai Group",
+    "HD현대",
+    "HHI Group",
+    "에이치디현대",
+    "현대중공업그룹",
+    "현대중공업지주"
+   ],
+   "wikidata": "Q626638",
+   "website": "hd.com"
   },
   {
    "id": "hdc-hyundai-development-company",
@@ -3095,10 +3209,10 @@
   },
   {
    "id": "hyundai-mobis",
-   "name_ko": "Hyundai Mobis",
+   "name_ko": "현대모비스",
    "name_en": "Hyundai Mobis",
    "category": "자동차",
-   "domain": "",
+   "domain": "mobis.co.kr",
    "logo_svg": true,
    "source": "wikimedia:Hyundai Mobis Logo.svg",
    "status": "raw",
@@ -3116,8 +3230,15 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "현대모비스"
-   ]
+    "Hyundai Mobis",
+    "고려정공",
+    "현대모비스",
+    "현대모비스 주식회사",
+    "현대정공",
+    "현정"
+   ],
+   "wikidata": "Q497534",
+   "website": "mobis.co.kr"
   },
   {
    "id": "hyundai-motor-company",
@@ -3193,10 +3314,10 @@
   },
   {
    "id": "hyundai-rotem",
-   "name_ko": "Hyundai Rotem",
+   "name_ko": "현대로템",
    "name_en": "Hyundai Rotem",
    "category": "자동차",
-   "domain": "",
+   "domain": "hyundai-rotem.co.kr",
    "logo_svg": true,
    "source": "wikimedia:Hyundai Rotem logo.svg",
    "status": "raw",
@@ -3214,8 +3335,16 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "HRC",
+    "Hyundai Rotem",
+    "ROTEM",
+    "Rotem",
+    "로템",
+    "한국철도차량",
     "현대로템"
-   ]
+   ],
+   "wikidata": "Q152517",
+   "website": "hyundai-rotem.co.kr"
   },
   {
    "id": "hyundai-samho-heavy-industries",
@@ -3289,10 +3418,10 @@
   },
   {
    "id": "hyundai-transys",
-   "name_ko": "Hyundai Transys",
+   "name_ko": "현대트랜시스",
    "name_en": "Hyundai Transys",
    "category": "자동차",
-   "domain": "",
+   "domain": "hyundai-transys.com",
    "logo_svg": true,
    "source": "wikimedia:Hyundai Transys logo.svg",
    "status": "raw",
@@ -3310,15 +3439,20 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "Hyundai Dymos",
+    "Hyundai Transys",
+    "현대다이모스",
     "현대트랜시스"
-   ]
+   ],
+   "wikidata": "Q19795115",
+   "website": "hyundai-transys.com"
   },
   {
    "id": "hyundai-wia",
-   "name_ko": "Hyundai Wia",
+   "name_ko": "현대위아",
    "name_en": "Hyundai Wia",
    "category": "자동차",
-   "domain": "",
+   "domain": "hyundai-wia.com",
    "logo_svg": true,
    "source": "wikimedia:Hyundai Wia logo.svg",
    "status": "raw",
@@ -3334,7 +3468,17 @@
    "logo_quality_score": 1901.5,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Hyundai WIA",
+    "WIA",
+    "World Industries Ace",
+    "위아",
+    "현대WIA",
+    "현대위아"
+   ],
+   "wikidata": "Q493997",
+   "website": "hyundai-wia.com"
   },
   {
    "id": "iconix-entertainment",
@@ -3830,10 +3974,10 @@
   },
   {
    "id": "kg-group",
-   "name_ko": "KG Group",
+   "name_ko": "KG그룹",
    "name_en": "KG Group",
    "category": "제조·그룹",
-   "domain": "",
+   "domain": "kggroup.co.kr",
    "logo_svg": true,
    "source": "wikimedia:KG Group.svg",
    "status": "raw",
@@ -3851,8 +3995,11 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "KG Group",
     "KG그룹"
-   ]
+   ],
+   "wikidata": "Q114243585",
+   "website": "kggroup.co.kr"
   },
   {
    "id": "kg-mobility-brand",
@@ -3971,10 +4118,10 @@
   },
   {
    "id": "konnect-entertainment",
-   "name_ko": "KONNECT Entertainment",
+   "name_ko": "커넥트 엔터테인먼트",
    "name_en": "KONNECT Entertainment",
    "category": "미디어·엔터",
-   "domain": "",
+   "domain": "konnectent.com",
    "logo_svg": true,
    "source": "wikimedia:KONNECT Entertainment Logo.svg",
    "status": "raw",
@@ -3990,7 +4137,14 @@
    "logo_quality_score": 5867.1,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Konnect Entertainment",
+    "커넥트 엔터테인먼트",
+    "커넥트ENT"
+   ],
+   "wikidata": "Q97339243",
+   "website": "konnectent.com"
   },
   {
    "id": "korail",
@@ -4013,14 +4167,18 @@
    "logo_quality_score": 2038.9,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "코레일",
+    "한국철도공사"
+   ]
   },
   {
    "id": "korea-aerospace-industries",
-   "name_ko": "Korea Aerospace Industries",
+   "name_ko": "한국항공우주산업",
    "name_en": "Korea Aerospace Industries",
    "category": "철강·중공업",
-   "domain": "",
+   "domain": "koreaaero.com",
    "logo_svg": true,
    "source": "wikimedia:Korea Aerospace Industries logo.svg",
    "status": "raw",
@@ -4038,8 +4196,13 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "KAI",
+    "Korea Aerospace Industries",
+    "한국항공우주",
     "한국항공우주산업"
-   ]
+   ],
+   "wikidata": "Q488470",
+   "website": "koreaaero.com"
   },
   {
    "id": "korea-airports-corporation",
@@ -4138,10 +4301,10 @@
   },
   {
    "id": "korea-ginseng-corporation",
-   "name_ko": "Korea Ginseng Corporation",
+   "name_ko": "한국인삼공사",
    "name_en": "Korea Ginseng Corporation",
    "category": "의료·바이오",
-   "domain": "",
+   "domain": "kgc.or.kr",
    "logo_svg": true,
    "source": "wikimedia:Korea Ginseng Corporation Logo (1999-2011).svg",
    "status": "raw",
@@ -4152,6 +4315,11 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 4618.4,
@@ -4159,8 +4327,12 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "Korea Ginseng Corporation",
+    "韓國人蔘公社",
     "한국인삼공사"
-   ]
+   ],
+   "wikidata": "Q16256202",
+   "website": "kgc.or.kr"
   },
   {
    "id": "korea-zinc",
@@ -4332,10 +4504,10 @@
   },
   {
    "id": "kt-skylife",
-   "name_ko": "KT SkyLife",
+   "name_ko": "KT스카이라이프",
    "name_en": "KT SkyLife",
    "category": "IT·테크",
-   "domain": "",
+   "domain": "skylife.co.kr",
    "logo_svg": true,
    "source": "wikimedia:KT SkyLife logo.svg",
    "status": "raw",
@@ -4351,7 +4523,18 @@
    "logo_quality_score": 1547.4,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "KT Skylife",
+    "KT스카이라이프",
+    "Sky Life",
+    "SkyLife",
+    "스카이 라이프",
+    "스카이라이프",
+    "한국디지털위성방송"
+   ],
+   "wikidata": "Q624648",
+   "website": "skylife.co.kr"
   },
   {
    "id": "kt-tech",
@@ -4801,10 +4984,10 @@
   },
   {
    "id": "lg-energy-solution",
-   "name_ko": "LG Energy Solution",
+   "name_ko": "LG에너지솔루션",
    "name_en": "LG Energy Solution",
    "category": "IT·테크",
-   "domain": "",
+   "domain": "lgensol.com",
    "logo_svg": true,
    "source": "wikimedia:LG Energy Solution logo EN.svg",
    "status": "raw",
@@ -4822,8 +5005,12 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "LG에너지솔루션"
-   ]
+    "LG Energy Solution",
+    "LG에너지솔루션",
+    "LG엔솔"
+   ],
+   "wikidata": "Q109464416",
+   "website": "lgensol.com"
   },
   {
    "id": "lg",
@@ -5229,10 +5416,10 @@
   },
   {
    "id": "lotte-chemical",
-   "name_ko": "Lotte Chemical",
+   "name_ko": "롯데케미칼",
    "name_en": "Lotte Chemical",
    "category": "에너지·화학",
-   "domain": "",
+   "domain": "lottechem.com",
    "logo_svg": true,
    "source": "wikimedia:Lotte Chemical Logo.svg",
    "status": "raw",
@@ -5250,8 +5437,15 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "롯데케미칼"
-   ]
+    "Lotte Chemical",
+    "Lotte Chemical Corporation",
+    "롯데대산유화",
+    "롯데케미칼",
+    "케이피케미칼",
+    "호남석유화학"
+   ],
+   "wikidata": "Q12594201",
+   "website": "lottechem.com"
   },
   {
    "id": "lotte-chilsung-beverage",
@@ -5569,7 +5763,7 @@
    "name_ko": "미래에셋",
    "name_en": "Mirae Asset Group",
    "category": "금융·결제",
-   "domain": "",
+   "domain": "miraeasset.co.kr",
    "logo_svg": true,
    "source": "wikimedia:Mirae Asset Group logo.svg",
    "status": "raw",
@@ -5580,16 +5774,26 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 3892.6,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
    "aliases": [
-    "미래에셋증권",
-    "미래에셋그룹"
+    "Mirae Asset Group",
+    "미래에셋",
+    "미래에셋그룹",
+    "미래에셋금융그룹",
+    "미래에셋증권"
    ],
-   "has_png": true
+   "has_png": true,
+   "wikidata": "Q6872554",
+   "website": "miraeasset.co.kr"
   },
   {
    "id": "mirae-asset",
@@ -5665,10 +5869,10 @@
   },
   {
    "id": "monami",
-   "name_ko": "Monami",
+   "name_ko": "모나미",
    "name_en": "Monami",
    "category": "뷰티·패션",
-   "domain": "",
+   "domain": "monami.com",
    "logo_svg": true,
    "source": "wikimedia:Monami Logo.svg",
    "status": "raw",
@@ -5686,8 +5890,11 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "Monami",
     "모나미"
-   ]
+   ],
+   "wikidata": "Q6897937",
+   "website": "monami.com"
   },
   {
    "id": "mpio",
@@ -6360,10 +6567,10 @@
   },
   {
    "id": "s-oil",
-   "name_ko": "S OIL",
+   "name_ko": "S-Oil",
    "name_en": "S OIL",
    "category": "에너지·화학",
-   "domain": "",
+   "domain": "s-oil.com",
    "logo_svg": true,
    "source": "wikimedia:S-OIL Logo.svg",
    "status": "raw",
@@ -6379,7 +6586,15 @@
    "logo_quality_score": 1059.5,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "S-Oil",
+    "Ssangyong Oil",
+    "쌍용정유",
+    "에쓰-오일"
+   ],
+   "wikidata": "Q185564",
+   "website": "s-oil.com"
   },
   {
    "id": "samchuly-bicycle",
@@ -6832,7 +7047,7 @@
    "name_ko": "신세계",
    "name_en": "Shinsegae",
    "category": "유통·쇼핑",
-   "domain": "",
+   "domain": "shinsegae.com",
    "logo_svg": true,
    "source": "wikimedia:Shinsegae logo.svg",
    "status": "raw",
@@ -6849,9 +7064,15 @@
    "logo_quality": "ok",
    "added_at": "2026-07-27",
    "aliases": [
+    "SHINSEGAE Co.Ltd",
+    "Shinsegae",
+    "동화백화점",
+    "신세계 백화점",
     "신세계백화점"
    ],
-   "has_png": true
+   "has_png": true,
+   "wikidata": "Q490787",
+   "website": "shinsegae.com"
   },
   {
    "id": "sidushq",
@@ -6940,10 +7161,10 @@
   },
   {
    "id": "sk-innovation",
-   "name_ko": "SK Innovation",
+   "name_ko": "SK이노베이션",
    "name_en": "SK Innovation",
    "category": "에너지·화학",
-   "domain": "",
+   "domain": "skinnovation.com",
    "logo_svg": true,
    "source": "wikimedia:SK Innovation.svg",
    "status": "raw",
@@ -6961,8 +7182,12 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "SK이노베이션"
-   ]
+    "SK Innovation",
+    "SK이노베이션",
+    "에스케이이노베이션"
+   ],
+   "wikidata": "Q16172809",
+   "website": "skinnovation.com"
   },
   {
    "id": "sm-culture--contents",
@@ -7134,10 +7359,10 @@
   },
   {
    "id": "snt-dynamics",
-   "name_ko": "SNT Dynamics",
+   "name_ko": "SNT중공업",
    "name_en": "SNT Dynamics",
    "category": "자동차",
-   "domain": "",
+   "domain": "hisntd.com",
    "logo_svg": true,
    "source": "wikimedia:SNT Dynamics Logo.svg",
    "status": "raw",
@@ -7155,8 +7380,14 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "S&T Dynamics",
+    "S&T중공업",
+    "SNT",
+    "SNT Dynamics",
     "SNT중공업"
-   ]
+   ],
+   "wikidata": "Q7387008",
+   "website": "hisntd.com"
   },
   {
    "id": "snt-motiv",
@@ -7186,10 +7417,10 @@
   },
   {
    "id": "sr-corporation",
-   "name_ko": "SR Corporation",
+   "name_ko": "SR",
    "name_en": "SR Corporation",
    "category": "물류·교통",
-   "domain": "",
+   "domain": "srail.co.kr",
    "logo_svg": true,
    "source": "wikimedia:SR Corporation logo.svg",
    "status": "raw",
@@ -7200,12 +7431,25 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 1004.5,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "SR",
+    "SR Corporation",
+    "Supreme Railways",
+    "주식회사 에스알"
+   ],
+   "wikidata": "Q15615204",
+   "website": "srail.co.kr"
   },
   {
    "id": "srt",
@@ -7442,10 +7686,10 @@
   },
   {
    "id": "trigem",
-   "name_ko": "TriGem",
+   "name_ko": "TG삼보컴퓨터",
    "name_en": "TriGem",
    "category": "IT·테크",
-   "domain": "",
+   "domain": "trigem.co.kr",
    "logo_svg": true,
    "source": "wikimedia:TriGem logo.svg",
    "status": "raw",
@@ -7463,8 +7707,13 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "TG삼보컴퓨터"
-   ]
+    "TG삼보컴퓨터",
+    "TriGem",
+    "삼보 컴퓨터",
+    "삼보컴퓨터"
+   ],
+   "wikidata": "Q624203",
+   "website": "trigem.co.kr"
   },
   {
    "id": "upbit",
@@ -7589,10 +7838,10 @@
   },
   {
    "id": "yg-plus",
-   "name_ko": "YG Plus",
+   "name_ko": "YG플러스",
    "name_en": "YG Plus",
    "category": "미디어·엔터",
-   "domain": "",
+   "domain": "ygplus.com",
    "logo_svg": true,
    "source": "wikimedia:YG Plus.svg",
    "status": "raw",
@@ -7610,8 +7859,11 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
+    "YG Plus",
     "YG플러스"
-   ]
+   ],
+   "wikidata": "Q21057587",
+   "website": "ygplus.com"
   },
   {
    "id": "yuhan",
@@ -7730,10 +7982,10 @@
   },
   {
    "id": "defense-agency-for-technology-and-quality",
-   "name_ko": "Defense Agency for Technology and Quality",
+   "name_ko": "국방기술품질원",
    "name_en": "Defense Agency for Technology and Quality",
    "category": "공공·기관",
-   "domain": "",
+   "domain": "dtaq.re.kr",
    "logo_svg": true,
    "source": "wikimedia:Defense Agency for Technology and Quality Logo.svg",
    "status": "raw",
@@ -7751,15 +8003,20 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "국방기술품질원"
-   ]
+    "DTaQ",
+    "Defense Agency for Technology and Quality",
+    "국방기술품질원",
+    "기품원"
+   ],
+   "wikidata": "Q127811913",
+   "website": "dtaq.re.kr"
   },
   {
    "id": "game-rating-and-administration-committee",
-   "name_ko": "Game Rating and Administration Committee",
+   "name_ko": "게임물관리위원회",
    "name_en": "Game Rating and Administration Committee",
    "category": "게임",
-   "domain": "",
+   "domain": "grac.or.kr",
    "logo_svg": true,
    "source": "wikimedia:Game Rating and Administration Committee logo hangug-eo.svg",
    "status": "raw",
@@ -7770,6 +8027,11 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 4273.2,
@@ -7777,8 +8039,16 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "게임물관리위원회"
-   ]
+    "GRAC",
+    "GRB",
+    "Game Rating and Administration Committee",
+    "게관위",
+    "게등위",
+    "게임물관리위원회",
+    "게임위"
+   ],
+   "wikidata": "Q483838",
+   "website": "grac.or.kr"
   },
   {
    "id": "k-startup-grand-challenge",
@@ -8366,10 +8636,10 @@
   },
   {
    "id": "attrakt-entertainment",
-   "name_ko": "Attrakt Entertainment",
+   "name_ko": "어트랙트",
    "name_en": "Attrakt Entertainment",
    "category": "미디어·엔터",
-   "domain": "",
+   "domain": "theattrakt.com",
    "logo_svg": true,
    "source": "wikimedia:Attrakt Entertainment Logo.svg",
    "status": "raw",
@@ -8385,7 +8655,13 @@
    "logo_quality_score": 5486.2,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "ATTRAKT Entertainment",
+    "어트랙트"
+   ],
+   "wikidata": "Q123841093",
+   "website": "theattrakt.com"
   },
   {
    "id": "bi-img",
@@ -8435,10 +8711,10 @@
   },
   {
    "id": "blockberry-creative",
-   "name_ko": "BlockBerry Creative",
+   "name_ko": "블록베리크리에이티브",
    "name_en": "BlockBerry Creative",
    "category": "미디어·엔터",
-   "domain": "",
+   "domain": "blockberrycreative.com",
    "logo_svg": true,
    "source": "wikimedia:BlockBerry Creative logo.svg",
    "status": "raw",
@@ -8454,7 +8730,13 @@
    "logo_quality_score": 8142.1,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "Blockberry Creative",
+    "블록베리크리에이티브"
+   ],
+   "wikidata": "Q48989772",
+   "website": "blockberrycreative.com"
   },
   {
    "id": "ci-lifesquare",
@@ -8619,10 +8901,10 @@
   },
   {
    "id": "hd-hyundai-oilbank",
-   "name_ko": "HD Hyundai Oilbank",
+   "name_ko": "HD현대오일뱅크",
    "name_en": "HD Hyundai Oilbank",
    "category": "철강·중공업",
-   "domain": "",
+   "domain": "hd-hyundaioilbank.co.kr",
    "logo_svg": true,
    "source": "wikimedia:HD Hyundai Oilbank logo.svg",
    "status": "raw",
@@ -8640,8 +8922,16 @@
    "added_at": "2026-07-27",
    "has_png": true,
    "aliases": [
-    "HD현대오일뱅크"
-   ]
+    "HD Hyundai Oilbank",
+    "HD현대오일뱅크",
+    "극동정유",
+    "동양연료",
+    "한국연료",
+    "해남석유",
+    "현대정유"
+   ],
+   "wikidata": "Q5962649",
+   "website": "hd-hyundaioilbank.co.kr"
   },
   {
    "id": "hd",
@@ -21606,7 +21896,7 @@
   },
   {
    "id": "ktv",
-   "name_ko": "KTV",
+   "name_ko": "KTV 국민방송",
    "name_en": "KTV",
    "category": "제조·그룹",
    "domain": "",
@@ -21620,12 +21910,24 @@
      "provider": "wikimedia",
      "file": "logo.svg",
      "label": "공식 SVG"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
     }
    ],
    "logo_quality_score": 2074.0,
    "logo_quality": "ok",
    "added_at": "2026-07-27",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "KTV",
+    "KTV 국민방송",
+    "Korea TV",
+    "한국정책방송 KTV"
+   ],
+   "wikidata": "Q11664024"
   },
   {
    "id": "mx",
@@ -98532,7 +98834,7 @@
   },
   {
    "id": "showtime",
-   "name_ko": "Showtime",
+   "name_ko": "쇼타임",
    "name_en": "Showtime",
    "category": "IT·테크",
    "logo_svg": true,
@@ -98541,8 +98843,24 @@
    "dark_variant": "white",
    "has_png": true,
    "aliases": [
+    "SHO",
+    "Showtime",
+    "Showtime (TV network)",
+    "Showtime Network",
+    "Showtime Networks",
+    "Showtime TV",
     "쇼타임"
-   ]
+   ],
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg",
+     "label": "위키미디어 판"
+    }
+   ],
+   "wikidata": "Q23589",
+   "domain": "paramountpluswithshowtime.com",
+   "website": "paramountpluswithshowtime.com"
   },
   {
    "id": "showwcase",
@@ -125990,7 +126308,11 @@
     }
    ],
    "dark_variant": "transparent",
-   "has_png": true
+   "has_png": true,
+   "aliases": [
+    "코레일",
+    "한국철도공사"
+   ]
   },
   {
    "id": "kr-ulsan",
@@ -131750,37 +132072,6 @@
    ]
   },
   {
-   "id": "daum-q493104",
-   "name_ko": "다음",
-   "name_en": "Daum",
-   "category": "IT·테크",
-   "folder": "_clients/daum-q493104",
-   "website": "",
-   "domain": "",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q493104",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Daum logo (2026–).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "다움",
-    "다음넷",
-    "한메일",
-    "다음서비스",
-    "다음 메일"
-   ]
-  },
-  {
    "id": "doosan-bears",
    "name_ko": "두산 베어스",
    "name_en": "Doosan Bears",
@@ -132000,63 +132291,6 @@
    ]
   },
   {
-   "id": "s-oil-q185564",
-   "name_ko": "S-Oil",
-   "name_en": "S-Oil",
-   "category": "에너지·화학",
-   "folder": "_clients/s-oil-q185564",
-   "website": "s-oil.com",
-   "domain": "s-oil.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q185564",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (S-OIL Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "쌍용정유",
-    "에쓰-오일",
-    "Ssangyong Oil"
-   ]
-  },
-  {
-   "id": "ktv-q11664024",
-   "name_ko": "KTV 국민방송",
-   "name_en": "KTV",
-   "category": "미디어·엔터",
-   "folder": "_clients/ktv-q11664024",
-   "website": "",
-   "domain": "",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q11664024",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (KTV logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "Korea TV",
-    "한국정책방송 KTV"
-   ]
-  },
-  {
    "id": "samsung-lions",
    "name_ko": "삼성 라이온즈",
    "name_en": "Samsung Lions",
@@ -132085,36 +132319,6 @@
     "삼성라이온즈",
     "대구라이온즈",
     "삼성 라이언즈"
-   ]
-  },
-  {
-   "id": "bts-q13580495",
-   "name_ko": "방탄소년단",
-   "name_en": "BTS",
-   "category": "기타",
-   "folder": "_clients/bts-q13580495",
-   "website": "ibighit.com",
-   "domain": "ibighit.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q13580495",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (BTS logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "비티에스",
-    "防彈少年團",
-    "Bangtan",
-    "Bangtan Sonyeondan"
    ]
   },
   {
@@ -132309,34 +132513,6 @@
    ]
   },
   {
-   "id": "trigem-q624203",
-   "name_ko": "TG삼보컴퓨터",
-   "name_en": "TriGem",
-   "category": "IT·테크",
-   "folder": "_clients/trigem-q624203",
-   "website": "trigem.co.kr",
-   "domain": "trigem.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q624203",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (TriGem logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "삼보컴퓨터",
-    "삼보 컴퓨터"
-   ]
-  },
-  {
    "id": "dong-wha-pharm",
    "name_ko": "동화약품",
    "name_en": "Dong Wha Pharm",
@@ -132363,34 +132539,6 @@
     "同和藥品",
     "同和藥品株式會社",
     "Dong Wha Pharmaceuticals Co. Ltd."
-   ]
-  },
-  {
-   "id": "hanjin-q483274",
-   "name_ko": "한진그룹",
-   "name_en": "Hanjin",
-   "category": "기타",
-   "folder": "_clients/hanjin-q483274",
-   "website": "hanjin.co.kr",
-   "domain": "hanjin.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q483274",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hanjin Group 2025.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "한진 그룹",
-    "Hanjin Group"
    ]
   },
   {
@@ -132571,30 +132719,6 @@
     "더 코리아 타임즈",
     "더 코리안 타임즈"
    ]
-  },
-  {
-   "id": "monami-q6897937",
-   "name_ko": "모나미",
-   "name_en": "Monami",
-   "category": "기타",
-   "folder": "_clients/monami-q6897937",
-   "website": "monami.com",
-   "domain": "monami.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q6897937",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Monami Logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true
   },
   {
    "id": "ssangyong-group",
@@ -133201,54 +133325,6 @@
    ]
   },
   {
-   "id": "yg-plus-q21057587",
-   "name_ko": "YG플러스",
-   "name_en": "YG Plus",
-   "category": "미디어·엔터",
-   "folder": "_clients/yg-plus-q21057587",
-   "website": "ygplus.com",
-   "domain": "ygplus.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q21057587",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (YG Plus.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true
-  },
-  {
-   "id": "hanssem-q21060742",
-   "name_ko": "한샘",
-   "name_en": "HANSSEM",
-   "category": "유통·쇼핑",
-   "folder": "_clients/hanssem-q21060742",
-   "website": "hanssem.com",
-   "domain": "hanssem.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q21060742",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hanssem logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true
-  },
-  {
    "id": "satrec-initiative",
    "name_ko": "쎄트렉아이",
    "name_en": "Satrec Initiative",
@@ -133276,34 +133352,6 @@
     "Satrec I",
     "주식회사 쎄트렉아이",
     "Satrec Initiative Co., Ltd."
-   ]
-  },
-  {
-   "id": "dear-u-q131188997",
-   "name_ko": "디어유",
-   "name_en": "Dear U",
-   "category": "IT·테크",
-   "folder": "_clients/dear-u-q131188997",
-   "website": "dear-u.co",
-   "domain": "dear-u.co",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q131188997",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (DEAR U Logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "bubble",
-    "Bubble"
    ]
   },
   {
@@ -133423,37 +133471,6 @@
    ]
   },
   {
-   "id": "kt-skylife-q624648",
-   "name_ko": "KT스카이라이프",
-   "name_en": "KT Skylife",
-   "category": "통신",
-   "folder": "_clients/kt-skylife-q624648",
-   "website": "skylife.co.kr",
-   "domain": "skylife.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q624648",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (KT SkyLife logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "스카이라이프",
-    "스카이 라이프",
-    "SkyLife",
-    "Sky Life",
-    "한국디지털위성방송"
-   ]
-  },
-  {
    "id": "kyunghyang-shinmun",
    "name_ko": "경향신문",
    "name_en": "Kyunghyang Shinmun",
@@ -133505,34 +133522,6 @@
    "has_png": true
   },
   {
-   "id": "bizpass-q139584373",
-   "name_ko": "비즈패스",
-   "name_en": "BizPass",
-   "category": "IT·테크",
-   "folder": "_clients/bizpass-q139584373",
-   "website": "bizpass.me",
-   "domain": "bizpass.me",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q139584373",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (BizPass logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "BizPass 출입통제",
-    "BizPass access control"
-   ]
-  },
-  {
    "id": "future-korea-party",
    "name_ko": "미래한국당",
    "name_en": "Future Korea Party",
@@ -133555,36 +133544,6 @@
    "dark_variant": "white",
    "logo_png": true,
    "has_png": true
-  },
-  {
-   "id": "hyundai-wia-q493997",
-   "name_ko": "현대위아",
-   "name_en": "Hyundai WIA",
-   "category": "자동차",
-   "folder": "_clients/hyundai-wia-q493997",
-   "website": "hyundai-wia.com",
-   "domain": "hyundai-wia.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q493997",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hyundai Wia logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "위아",
-    "WIA",
-    "현대WIA",
-    "World Industries Ace"
-   ]
   },
   {
    "id": "sm-culture-contents",
@@ -134077,96 +134036,6 @@
    ]
   },
   {
-   "id": "hyundai-rotem-q152517",
-   "name_ko": "현대로템",
-   "name_en": "Hyundai Rotem",
-   "category": "기타",
-   "folder": "_clients/hyundai-rotem-q152517",
-   "website": "hyundai-rotem.co.kr",
-   "domain": "hyundai-rotem.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q152517",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hyundai Rotem logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "로템",
-    "HRC",
-    "Rotem",
-    "ROTEM",
-    "한국철도차량"
-   ]
-  },
-  {
-   "id": "snt-dynamics-q7387008",
-   "name_ko": "SNT중공업",
-   "name_en": "SNT Dynamics",
-   "category": "자동차",
-   "folder": "_clients/snt-dynamics-q7387008",
-   "website": "hisntd.com",
-   "domain": "hisntd.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q7387008",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (SNT Dynamics Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "SNT",
-    "S&T중공업",
-    "S&T Dynamics"
-   ]
-  },
-  {
-   "id": "hyundai-mobis-q497534",
-   "name_ko": "현대모비스",
-   "name_en": "Hyundai Mobis",
-   "category": "자동차",
-   "folder": "_clients/hyundai-mobis-q497534",
-   "website": "mobis.co.kr",
-   "domain": "mobis.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q497534",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hyundai Mobis Logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "현정",
-    "현대정공",
-    "고려정공",
-    "현대모비스 주식회사"
-   ]
-  },
-  {
    "id": "new-progressive-party",
    "name_ko": "진보신당",
    "name_en": "New Progressive Party",
@@ -134475,34 +134344,6 @@
    ]
   },
   {
-   "id": "hanjin-shipping-q494904",
-   "name_ko": "한진해운",
-   "name_en": "Hanjin Shipping",
-   "category": "물류·교통",
-   "folder": "_clients/hanjin-shipping-q494904",
-   "website": "hanjin.com",
-   "domain": "hanjin.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q494904",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hanjin Shipping Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "대한해운공사",
-    "Hanjin Shipping Co. Ltd"
-   ]
-  },
-  {
    "id": "capital-defense-command",
    "name_ko": "수도방위사령부",
    "name_en": "Capital Defense Command",
@@ -134560,33 +134401,6 @@
     "CJ E&M 픽쳐스",
     "CJ E&M 픽처스",
     "CGV Arthouse"
-   ]
-  },
-  {
-   "id": "sk-innovation-q16172809",
-   "name_ko": "SK이노베이션",
-   "name_en": "SK Innovation",
-   "category": "에너지·화학",
-   "folder": "_clients/sk-innovation-q16172809",
-   "website": "skinnovation.com",
-   "domain": "skinnovation.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q16172809",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (SK Innovation.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "에스케이이노베이션"
    ]
   },
   {
@@ -134648,35 +134462,6 @@
    ]
   },
   {
-   "id": "hanwha-vision-q52112789",
-   "name_ko": "한화비전",
-   "name_en": "Hanwha Vision",
-   "category": "항공·우주·방산",
-   "folder": "_clients/hanwha-vision-q52112789",
-   "website": "hanwhavision.com",
-   "domain": "hanwhavision.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q52112789",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hanwha Vision Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "삼성테크윈",
-    "한화테크윈",
-    "Samsung Techwin"
-   ]
-  },
-  {
    "id": "korea-media-rating-board",
    "name_ko": "영상물등급위원회",
    "name_en": "Korea Media Rating Board",
@@ -134705,60 +134490,6 @@
     "KMRB",
     "영상등급위원회",
     "공연윤리위원회"
-   ]
-  },
-  {
-   "id": "cheil-worldwide-q5089641",
-   "name_ko": "제일기획",
-   "name_en": "Cheil Worldwide",
-   "category": "기타",
-   "folder": "_clients/cheil-worldwide-q5089641",
-   "website": "cheil.com",
-   "domain": "cheil.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q5089641",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Cheil Worldwide logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true
-  },
-  {
-   "id": "lotte-chemical-q12594201",
-   "name_ko": "롯데케미칼",
-   "name_en": "Lotte Chemical",
-   "category": "기타",
-   "folder": "_clients/lotte-chemical-q12594201",
-   "website": "lottechem.com",
-   "domain": "lottechem.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q12594201",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Lotte Chemical Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "호남석유화학",
-    "롯데대산유화",
-    "케이피케미칼",
-    "Lotte Chemical Corporation"
    ]
   },
   {
@@ -134817,34 +134548,6 @@
    "aliases": [
     "民正黨",
     "民主正義黨"
-   ]
-  },
-  {
-   "id": "big-hit-music-q106296918",
-   "name_ko": "빅히트 뮤직",
-   "name_en": "Big Hit Music",
-   "category": "미디어·엔터",
-   "folder": "_clients/big-hit-music-q106296918",
-   "website": "ibighit.com",
-   "domain": "ibighit.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q106296918",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Big Hit Music Logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "Big Hit",
-    "Big Hit Entertainment"
    ]
   },
   {
@@ -134968,34 +134671,6 @@
    ]
   },
   {
-   "id": "hyundai-transys-q19795115",
-   "name_ko": "현대트랜시스",
-   "name_en": "Hyundai Transys",
-   "category": "자동차",
-   "folder": "_clients/hyundai-transys-q19795115",
-   "website": "hyundai-transys.com",
-   "domain": "hyundai-transys.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q19795115",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hyundai Transys logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "현대다이모스",
-    "Hyundai Dymos"
-   ]
-  },
-  {
    "id": "pusan-national-university",
    "name_ko": "부산대학교",
    "name_en": "Pusan National University",
@@ -135054,33 +134729,6 @@
    ]
   },
   {
-   "id": "mirae-asset-group-q6872554",
-   "name_ko": "미래에셋금융그룹",
-   "name_en": "Mirae Asset Group",
-   "category": "금융·결제",
-   "folder": "_clients/mirae-asset-group-q6872554",
-   "website": "miraeasset.co.kr",
-   "domain": "miraeasset.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q6872554",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Mirae Asset Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "미래에셋"
-   ]
-  },
-  {
    "id": "2024-winter-youth-olympics",
    "name_ko": "2024년 동계 청소년 올림픽",
    "name_en": "2024 Winter Youth Olympics",
@@ -135106,37 +134754,6 @@
    "light_logo": true,
    "aliases": [
     "Gangwon 2024"
-   ]
-  },
-  {
-   "id": "hd-hyundai-oilbank-q5962649",
-   "name_ko": "HD현대오일뱅크",
-   "name_en": "HD Hyundai Oilbank",
-   "category": "에너지·화학",
-   "folder": "_clients/hd-hyundai-oilbank-q5962649",
-   "website": "hd-hyundaioilbank.co.kr",
-   "domain": "hd-hyundaioilbank.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q5962649",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (HD Hyundai Oilbank logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "극동정유",
-    "동양연료",
-    "해남석유",
-    "현대정유",
-    "한국연료"
    ]
   },
   {
@@ -135423,57 +135040,6 @@
    ]
   },
   {
-   "id": "lg-energy-solution-q109464416",
-   "name_ko": "LG에너지솔루션",
-   "name_en": "LG Energy Solution",
-   "category": "에너지·화학",
-   "folder": "_clients/lg-energy-solution-q109464416",
-   "website": "lgensol.com",
-   "domain": "lgensol.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q109464416",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (LG Energy Solution logo EN.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "LG엔솔"
-   ]
-  },
-  {
-   "id": "blockberry-creative-q48989772",
-   "name_ko": "블록베리크리에이티브",
-   "name_en": "Blockberry Creative",
-   "category": "미디어·엔터",
-   "folder": "_clients/blockberry-creative-q48989772",
-   "website": "blockberrycreative.com",
-   "domain": "blockberrycreative.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q48989772",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (BlockBerry Creative logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true
-  },
-  {
    "id": "busan-gimhae-light-rail-transit",
    "name_ko": "부산-김해 경전철",
    "name_en": "Busan-Gimhae Light Rail Transit",
@@ -135533,33 +135099,6 @@
    ]
   },
   {
-   "id": "konnect-entertainment-q97339243",
-   "name_ko": "커넥트 엔터테인먼트",
-   "name_en": "Konnect Entertainment",
-   "category": "미디어·엔터",
-   "folder": "_clients/konnect-entertainment-q97339243",
-   "website": "konnectent.com",
-   "domain": "konnectent.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q97339243",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (KONNECT Entertainment Logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "커넥트ENT"
-   ]
-  },
-  {
    "id": "military-manpower-administration",
    "name_ko": "대한민국 병무청",
    "name_en": "Military Manpower Administration",
@@ -135586,30 +135125,6 @@
     "병무청",
     "MMA"
    ]
-  },
-  {
-   "id": "attrakt-entertainment-q123841093",
-   "name_ko": "어트랙트",
-   "name_en": "ATTRAKT Entertainment",
-   "category": "미디어·엔터",
-   "folder": "_clients/attrakt-entertainment-q123841093",
-   "website": "theattrakt.com",
-   "domain": "theattrakt.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q123841093",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Attrakt Entertainment Logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true
   },
   {
    "id": "national-congress-for-new-politics",
@@ -135694,33 +135209,6 @@
     "법제처",
     "Pŏpchech'ŏ",
     "Office of Government Legislation"
-   ]
-  },
-  {
-   "id": "korea-ginseng-corporation-q16256202",
-   "name_ko": "한국인삼공사",
-   "name_en": "Korea Ginseng Corporation",
-   "category": "기타",
-   "folder": "_clients/korea-ginseng-corporation-q16256202",
-   "website": "kgc.or.kr",
-   "domain": "kgc.or.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q16256202",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Korea Ginseng Corporation Logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "韓國人蔘公社"
    ]
   },
   {
@@ -136122,37 +135610,6 @@
    ]
   },
   {
-   "id": "game-rating-and-administration-committee-q483838",
-   "name_ko": "게임물관리위원회",
-   "name_en": "Game Rating and Administration Committee",
-   "category": "공공·기관",
-   "folder": "_clients/game-rating-and-administration-committee-q483838",
-   "website": "grac.or.kr",
-   "domain": "grac.or.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q483838",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Game Rating and Administration Committee logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "GRB",
-    "게등위",
-    "게관위",
-    "게임위",
-    "GRAC"
-   ]
-  },
-  {
    "id": "ministry-of-education-human-resources-development",
    "name_ko": "대한민국 교육인적자원부",
    "name_en": "Ministry of Education & Human Resources Development",
@@ -136177,34 +135634,6 @@
    "has_png": true,
    "aliases": [
     "교육인적자원부"
-   ]
-  },
-  {
-   "id": "defense-agency-for-technology-and-quality-q127811913",
-   "name_ko": "국방기술품질원",
-   "name_en": "Defense Agency for Technology and Quality",
-   "category": "공공·기관",
-   "folder": "_clients/defense-agency-for-technology-and-quality-q127811913",
-   "website": "dtaq.re.kr",
-   "domain": "dtaq.re.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q127811913",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Defense Agency for Technology and Quality Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "기품원",
-    "DTaQ"
    ]
   },
   {
@@ -136491,33 +135920,6 @@
    "has_png": true
   },
   {
-   "id": "hyundai-q29311",
-   "name_ko": "현대",
-   "name_en": "Hyundai",
-   "category": "기타",
-   "folder": "_clients/hyundai-q29311",
-   "website": "hyundaigroup.com",
-   "domain": "hyundaigroup.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q29311",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hyundai logo (english).svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "現代"
-   ]
-  },
-  {
    "id": "democratic-party",
    "name_ko": "민주당",
    "name_en": "Democratic Party",
@@ -136540,35 +135942,6 @@
    "dark_variant": "white",
    "logo_png": true,
    "has_png": true
-  },
-  {
-   "id": "shinsegae-q490787",
-   "name_ko": "신세계백화점",
-   "name_en": "Shinsegae",
-   "category": "유통·쇼핑",
-   "folder": "_clients/shinsegae-q490787",
-   "website": "shinsegae.com",
-   "domain": "shinsegae.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q490787",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Shinsegae logo.svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "동화백화점",
-    "신세계 백화점",
-    "SHINSEGAE Co.Ltd"
-   ]
   },
   {
    "id": "busan-metro-line-1",
@@ -136776,37 +136149,6 @@
    ]
   },
   {
-   "id": "hd-hyundai-q626638",
-   "name_ko": "HD현대",
-   "name_en": "HD Hyundai",
-   "category": "기타",
-   "folder": "_clients/hd-hyundai-q626638",
-   "website": "hd.com",
-   "domain": "hd.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q626638",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (HD Hyundai logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "에이치디현대",
-    "현대중공업지주",
-    "현대중공업그룹",
-    "HHI Group",
-    "HD Hyundai Group"
-   ]
-  },
-  {
    "id": "people-power-party",
    "name_ko": "국민의힘",
    "name_en": "People Power Party",
@@ -136862,35 +136204,6 @@
    "aliases": [
     "삼성전기",
     "Samsung E&A"
-   ]
-  },
-  {
-   "id": "asia-motors-q484849",
-   "name_ko": "아시아자동차공업",
-   "name_en": "Asia Motors",
-   "category": "자동차",
-   "folder": "_clients/asia-motors-q484849",
-   "website": "asia.co.kr",
-   "domain": "asia.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q484849",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Asia Motors Logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "아시아자동차",
-    "아세아자동차",
-    "아시아 자동차"
    ]
   },
   {
@@ -136954,30 +136267,6 @@
     "삼양그룹",
     "株式會社三養社"
    ]
-  },
-  {
-   "id": "kg-group-q114243585",
-   "name_ko": "KG그룹",
-   "name_en": "KG Group",
-   "category": "공공·기관",
-   "folder": "_clients/kg-group-q114243585",
-   "website": "kggroup.co.kr",
-   "domain": "kggroup.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q114243585",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (KG Group.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true
   },
   {
    "id": "hyundai-motor-group",
@@ -137235,33 +136524,6 @@
    ]
   },
   {
-   "id": "hana-financial-group-q490601",
-   "name_ko": "하나금융그룹",
-   "name_en": "Hana Financial Group",
-   "category": "금융·결제",
-   "folder": "_clients/hana-financial-group-q490601",
-   "website": "hanafn.com",
-   "domain": "hanafn.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q490601",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Hana Financial Group Logo (eng).svg)"
-    }
-   ],
-   "dark_variant": "white",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "하나금융지주"
-   ]
-  },
-  {
    "id": "kcc-engineering-construction",
    "name_ko": "KCC건설",
    "name_en": "KCC Engineering & Construction",
@@ -137375,34 +136637,6 @@
     "KBC",
     "광주 방송",
     "KBC TV"
-   ]
-  },
-  {
-   "id": "korea-aerospace-industries-q488470",
-   "name_ko": "한국항공우주산업",
-   "name_en": "Korea Aerospace Industries",
-   "category": "항공·우주·방산",
-   "folder": "_clients/korea-aerospace-industries-q488470",
-   "website": "koreaaero.com",
-   "domain": "koreaaero.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q488470",
-   "added_at": "2026-08-16",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Korea Aerospace Industries logo.svg)"
-    }
-   ],
-   "dark_variant": "transparent",
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "KAI",
-    "한국항공우주"
    ]
   },
   {
@@ -139981,37 +139215,6 @@
     "20th Century Fox Television"
    ],
    "dark_variant": "white"
-  },
-  {
-   "id": "showtime-q23589",
-   "name_ko": "쇼타임",
-   "name_en": "Showtime",
-   "category": "미디어·엔터",
-   "folder": "_clients/showtime-q23589",
-   "website": "paramountpluswithshowtime.com",
-   "domain": "paramountpluswithshowtime.com",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q23589",
-   "added_at": "2026-08-17",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (Showtime.svg)"
-    }
-   ],
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "SHO",
-    "Showtime TV",
-    "Showtime Network",
-    "Showtime Networks",
-    "Showtime (TV network)"
-   ],
-   "dark_variant": "transparent"
   },
   {
    "id": "dimension-films",
@@ -143798,34 +143001,6 @@
    "dark_variant": "white"
   },
   {
-   "id": "sr-corporation-q15615204",
-   "name_ko": "SR",
-   "name_en": "SR Corporation",
-   "category": "물류·교통",
-   "folder": "_clients/sr-corporation-q15615204",
-   "website": "srail.co.kr",
-   "domain": "srail.co.kr",
-   "logo_svg": "logo.svg",
-   "has_svg": true,
-   "svg_source": "wikimedia",
-   "wikidata": "Q15615204",
-   "added_at": "2026-08-17",
-   "sources": [
-    {
-     "provider": "wikimedia",
-     "file": "logo.svg",
-     "label": "위키미디어 커먼즈 (SRT logo.svg)"
-    }
-   ],
-   "logo_png": true,
-   "has_png": true,
-   "aliases": [
-    "주식회사 에스알",
-    "Supreme Railways"
-   ],
-   "dark_variant": "white"
-  },
-  {
    "id": "ulsan-metropolitan-council",
    "name_ko": "울산광역시의회",
    "name_en": "Ulsan Metropolitan Council",
@@ -144302,6 +143477,274 @@
     }
    ],
    "dark_variant": "transparent"
+  },
+  {
+   "id": "q11233074",
+   "name_ko": "대한민국 중앙인사위원회",
+   "name_en": "대한민국 중앙인사위원회",
+   "category": "기타",
+   "folder": "_clients/q11233074",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q11233074",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (중앙인사위원회 로고.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "roh-moo-hyun-foundation",
+   "name_ko": "사람사는 세상",
+   "name_en": "Roh Moo Hyun Foundation",
+   "category": "공공·기관",
+   "folder": "_clients/roh-moo-hyun-foundation",
+   "website": "knowhow.or.kr",
+   "domain": "knowhow.or.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q12599628",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (노무현 사람사는세상 서명.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "ministry-of-knowledge-economy",
+   "name_ko": "대한민국 지식경제부",
+   "name_en": "Ministry of Knowledge Economy",
+   "category": "기타",
+   "folder": "_clients/ministry-of-knowledge-economy",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q12592229",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (지식경제부 로고.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "ministry-of-data-and-statistics",
+   "name_ko": "대한민국 국가데이터처",
+   "name_en": "Ministry of Data and Statistics",
+   "category": "기타",
+   "folder": "_clients/ministry-of-data-and-statistics",
+   "website": "kostat.go.kr",
+   "domain": "kostat.go.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q11233101",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Emblem of the Government of the Republic of Korea.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "provincial-councils-of-south-korea",
+   "name_ko": "대한민국의 지방의회",
+   "name_en": "Provincial councils of South Korea",
+   "category": "기타",
+   "folder": "_clients/provincial-councils-of-south-korea",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q10115557",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (지방의회 휘장.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "ministry-of-foreign-affairs-and-trade",
+   "name_ko": "대한민국 외교통상부",
+   "name_en": "Ministry of Foreign Affairs and Trade",
+   "category": "기타",
+   "folder": "_clients/ministry-of-foreign-affairs-and-trade",
+   "website": "",
+   "domain": "",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q490373",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (외교통상부 로고 (2005-2013).svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "ministry-of-commerce-industry-and-energy",
+   "name_ko": "대한민국 산업자원부",
+   "name_en": "Ministry of Commerce Industry and Energy",
+   "category": "기타",
+   "folder": "_clients/ministry-of-commerce-industry-and-energy",
+   "website": "",
+   "domain": "",
+   "has_svg": false,
+   "svg_source": "wikimedia",
+   "wikidata": "Q12592079",
+   "added_at": "2026-08-17",
+   "sources": [],
+   "svg_note": "비트맵이 박힌 SVG 라 벡터로 쓸 수 없다. sources/raster-wrapped/ 에 보관."
+  },
+  {
+   "id": "korea-disease-control-and-prevention-agency",
+   "name_ko": "질병관리청",
+   "name_en": "Korea Disease Control and Prevention Agency",
+   "category": "기타",
+   "folder": "_clients/korea-disease-control-and-prevention-agency",
+   "website": "kdca.go.kr",
+   "domain": "kdca.go.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q126199836",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (Symbol of KDCA.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "kobaco-korea-broadcast-adversing-corporation",
+   "name_ko": "Kobaco(한국방송광고진흥공사)",
+   "name_en": "KOBACO(Korea Broadcast Adversing Corporation)",
+   "category": "미디어·엔터",
+   "folder": "_clients/kobaco-korea-broadcast-adversing-corporation",
+   "website": "kobaco.co.kr",
+   "domain": "kobaco.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q11285042",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (KOBACO Logo.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "local-government-officials-development-institute",
+   "name_ko": "지방자치인재개발원",
+   "name_en": "Local Government Officials Development Institute",
+   "category": "기타",
+   "folder": "_clients/local-government-officials-development-institute",
+   "website": "logodi.go.kr",
+   "domain": "logodi.go.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q6664142",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (LOGODI symbol mark and logotype (English).svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "national-federation-of-fisheries-cooperatives-south-korea",
+   "name_ko": "수산업협동조합",
+   "name_en": "National Federation of Fisheries Cooperatives (South Korea)",
+   "category": "기타",
+   "folder": "_clients/national-federation-of-fisheries-cooperatives-south-korea",
+   "website": "suhyup.co.kr",
+   "domain": "suhyup.co.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q12603185",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (NFFC (SuHyup) Logo.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
+  },
+  {
+   "id": "corruption-investigation-office-for-high-ranking-officials",
+   "name_ko": "대한민국 고위공직자범죄수사처",
+   "name_en": "Corruption Investigation Office For High-ranking Officials",
+   "category": "기타",
+   "folder": "_clients/corruption-investigation-office-for-high-ranking-officials",
+   "website": "cio.go.kr",
+   "domain": "cio.go.kr",
+   "logo_svg": "logo.svg",
+   "has_svg": true,
+   "svg_source": "wikimedia",
+   "wikidata": "Q27951951",
+   "added_at": "2026-08-17",
+   "sources": [
+    {
+     "provider": "wikimedia",
+     "file": "logo.svg",
+     "label": "위키미디어 커먼즈 (고위공직자범죄수사처 로고.svg)"
+    }
+   ],
+   "logo_png": true,
+   "has_png": true
   }
  ],
  "generated_at": "2026-07-27",

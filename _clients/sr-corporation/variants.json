@@ -4,7 +4,8 @@
  "id": "sr-corporation",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "270b1c72de2a9b1b"
+  "logo.svg": "270b1c72de2a9b1b",
+  "sources/wikimedia/logo.svg": "98aa14328dbb5741"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/wikimedia/logo.svg"
+   },
+   "aspect": 3.782,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

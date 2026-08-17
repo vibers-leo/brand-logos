@@ -83,8 +83,11 @@ PRESETS: dict[str, tuple[str, str, bool]] = {
                  "VALUES ?cls { wd:Q3487908 wd:Q319845 wd:Q5418962 wd:Q4230006 }"
                  " ?item wdt:P31/wdt:P279* ?cls ; wdt:P154 ?logo .", False),
 
-    "public": ("공공기관 (한국)",
-               "VALUES ?cls { wd:Q327333 wd:Q2659904 wd:Q15916930 }"
+    # 중앙부처는 정부상징 통일 체계라 대부분 이미 있다. 빠진 건 자체 CI 를 쓰는
+    # 공공기관·공기업(공단·공사)이라 그 분류를 함께 넣는다 (실측 115개, SVG 85).
+    "public": ("공공기관·공기업 (한국)",
+               "VALUES ?cls { wd:Q327333 wd:Q2659904 wd:Q15916930 wd:Q270791 "
+               "wd:Q11032611 wd:Q15911314 wd:Q163740 }"
                " ?item wdt:P31/wdt:P279* ?cls ; wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True),
 }
 
@@ -379,8 +382,12 @@ def main() -> int:
         overlap = matches_filename(it["en"], fname, common_tokens, it.get("ko") or "")
         it["file"] = fname
         it["slug"] = slugify(it["en"] or it["ko"]) or it["qid"].lower()
+        # slug 충돌은 **이미 같은 브랜드가 있다는 신호**다. 예전엔 QID 를 붙여
+        # 회피했는데, 그 바람에 daum ↔ daum-q493104 같은 중복이 41개 생겼다
+        # (기존 항목 이름이 영문이라 이름 대조에도 안 걸렸다).
         if it["slug"] in have_id:
-            it["slug"] = f"{it['slug']}-{it['qid'].lower()}"
+            stats["already_have"] += 1
+            continue
         if not overlap:
             stats["name_file_mismatch"] += 1
             review.append({k: v for k, v in it.items() if k not in ("kinds", "industries")} |

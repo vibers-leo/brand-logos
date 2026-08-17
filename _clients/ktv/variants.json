@@ -4,7 +4,8 @@
  "id": "ktv",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "4d648cb6dfd53d70"
+  "logo.svg": "4d648cb6dfd53d70",
+  "sources/wikimedia/logo.svg": "f398a99a881550ec"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 3.83,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg"
+    }
+   ]
   },
   {
    "key": "symbol",

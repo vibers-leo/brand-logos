@@ -4,7 +4,8 @@
  "id": "game-rating-and-administration-committee",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "43c928c846f5b229"
+  "logo.svg": "43c928c846f5b229",
+  "sources/wikimedia/logo.svg": "a57230c45006939c"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 7.087,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg"
+    }
+   ]
   },
   {
    "key": "symbol",

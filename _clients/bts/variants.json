@@ -7,7 +7,8 @@
   "logo.svg": "d33d379fad08caf5",
   "sources/bts-symbol-wordmark.svg": "8ecefceb6bdc6ef2",
   "sources/bts-symbol-only.svg": "663b02e7cd75e010",
-  "sources/bts-horizontal.svg": "b3142536019d14ba"
+  "sources/bts-horizontal.svg": "b3142536019d14ba",
+  "sources/wikimedia/logo.svg": "f7d35bee9427695f"
  },
  "variants": [
   {
@@ -43,6 +44,10 @@
     {
      "provider": "wikimedia",
      "file": "sources/bts-symbol-only.svg"
+    },
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg"
     }
    ]
   },

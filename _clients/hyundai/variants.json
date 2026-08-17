@@ -5,7 +5,8 @@
  "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e9f585c109fd1d41",
-  "sources/hyundai-symbol.svg": "cda0ba8d39940313"
+  "sources/hyundai-symbol.svg": "cda0ba8d39940313",
+  "sources/wikimedia/logo.svg": "ba0a314df7b28308"
  },
  "variants": [
   {
@@ -36,6 +37,20 @@
    "provider": "merged",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/wikimedia/logo.svg"
+   },
+   "aspect": 6.87,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

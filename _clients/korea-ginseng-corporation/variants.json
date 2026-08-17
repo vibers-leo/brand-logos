@@ -4,7 +4,8 @@
  "id": "korea-ginseng-corporation",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "97170fbec75a511c"
+  "logo.svg": "97170fbec75a511c",
+  "sources/wikimedia/logo.svg": "8bb0ee69f863ed7a"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 5.455,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/wikimedia/logo.svg"
+    }
+   ]
   },
   {
    "key": "symbol",

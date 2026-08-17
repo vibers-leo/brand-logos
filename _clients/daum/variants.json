@@ -4,7 +4,8 @@
  "id": "daum",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "1d48e87f09db4178"
+  "logo.svg": "1d48e87f09db4178",
+  "sources/wikimedia/logo.svg": "217de73a96bf2004"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/wikimedia/logo.svg"
+   },
+   "aspect": 4.446,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

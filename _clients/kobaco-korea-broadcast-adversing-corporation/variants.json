@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kobaco-korea-broadcast-adversing-corporation",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "5d0eee31ed3a7e1e"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "aspect": 6.767,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

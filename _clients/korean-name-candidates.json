@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
- "generated_at": "2026-08-16",
- "count": 373,
+ "generated_at": "2026-08-17",
+ "count": 375,
  "candidates": [
   {
    "id": "mnet",
@@ -1157,16 +1157,6 @@
    "our_domain": "about.google",
    "wikidata_sites": [
     "google.com"
-   ]
-  },
-  {
-   "id": "ena",
-   "name_en": "ENA",
-   "ko": "국립행정학교",
-   "qid": "Q273579",
-   "our_domain": "skylifetv.co.kr",
-   "wikidata_sites": [
-    "ena.fr"
    ]
   },
   {
@@ -3558,6 +3548,35 @@
    "qid": "Q22282939",
    "our_domain": "github.io",
    "wikidata_sites": []
+  },
+  {
+   "id": "speed",
+   "name_en": "Speed",
+   "ko": "스피드",
+   "qid": "Q1207328",
+   "our_domain": "speedtv.com",
+   "wikidata_sites": [
+    "avexnet.or.jp",
+    "avex.jp"
+   ]
+  },
+  {
+   "id": "antler",
+   "name_en": "Antler",
+   "ko": "사슴뿔",
+   "qid": "Q834007",
+   "our_domain": "antler.co",
+   "wikidata_sites": []
+  },
+  {
+   "id": "hongshan",
+   "name_en": "HongShan",
+   "ko": "훙산구",
+   "qid": "Q1337284",
+   "our_domain": "hsgcap.com",
+   "wikidata_sites": [
+    "gov.cn"
+   ]
   }
  ]
 }

@@ -56,9 +56,15 @@ def build() -> list:
     light: set[str] = {b["id"] for b in brands if b.get("light_logo")}
 
     out = []
-    for b in brands:
+    # seq = brands.json 에서의 위치 = 추가 순서.
+    # added_at 이 날짜 단위라 같은 날 추가분끼리 순서가 없는데, 배열 위치를
+    # 그때그때 계산하면 **이미 정렬된 목록을 다시 정렬할 때 순서가 뒤집힌다**
+    # (2026-08-17: 서버가 정렬한 60개를 클라이언트가 재정렬해 역순이 됐다).
+    # 데이터에 실어 보내면 몇 번을 정렬해도 결과가 같다.
+    for i, b in enumerate(brands):
         row = OrderedDict([
             ("id", b["id"]),
+            ("seq", i),
             ("name_ko", b.get("name_ko", "")),
             ("name_en", b.get("name_en", "")),
             ("category", b.get("category", "")),

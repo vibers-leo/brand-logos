@@ -54,10 +54,24 @@ def prepare(text: str) -> str:
     text = DOCTYPE.sub("", text)
     text = re.sub(r'preserveAspectRatio\s*=\s*"(x[A-Za-z]+)"',
                   r'preserveAspectRatio="\1 meet"', text)
-    text = re.sub(r'((?:gradient|patternT|t)ransform="\s*)([^"]*)(")',
-                  lambda m: m.group(1) + re.sub(r"(?<=\d),(?=\d)", ".", m.group(2)) + m.group(3),
+    text = re.sub(r'((?:gradient|patternT|t)ransform="\s*)([^"]*)(")', _fix_decimal_comma,
                   text, flags=re.I)
     return text
+
+
+def _fix_decimal_comma(m: re.Match) -> str:
+    """유럽 로케일이 만든 소수점 쉼표만 되돌린다.
+
+    ⚠️ 무조건 바꾸면 안 된다. `matrix(0.503,0,0,0.503,-11,-15)` 처럼 정상적인
+    transform 의 **인자 구분 쉼표**까지 점이 되어 인자가 합쳐지고,
+    cairosvg 가 'Matrix.__init__() takes from 1 to 7' 로 죽는다(실제로 겪었다).
+
+    구분 기준: 이미 소수점(.)이 있으면 그 파일은 로케일 문제가 아니다.
+    """
+    body = m.group(2)
+    if "." in body:
+        return m.group(0)
+    return m.group(1) + re.sub(r"(?<=\d),(?=\d)", ".", body) + m.group(3)
 
 
 def is_raster_wrapped(svg: Path) -> bool:

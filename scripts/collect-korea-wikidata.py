@@ -34,6 +34,7 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -45,8 +46,7 @@ from assetguard import safe_write  # noqa: E402
 
 BASE = SCRIPT_DIR.parent / "_clients"
 BRANDS = BASE / "brands.json"
-STAGE = Path(os.environ.get("SEMOLOGO_STAGE",
-             str(SCRIPT_DIR.parent / "_staging" / "korea-wikidata")))
+STAGE_ROOT = SCRIPT_DIR.parent / "_staging"
 REPORT = BASE / "korea-wikidata-report.json"
 QUEUE = BASE / "korea-wikidata-review.json"
 
@@ -56,8 +56,40 @@ MULTI_TLD = {"co.kr", "or.kr", "ne.kr", "go.kr", "re.kr", "ac.kr", "pe.kr"}
 GENERIC_TLD = {"com", "net", "org", "io", "co", "ai", "app", "dev", "me", "tv",
                "info", "biz", "shop", "store", "cloud", "tech", "xyz", "edu", "gov"}
 
-SPARQL = """SELECT ?item ?ko ?en ?logo ?site ?kindLabel ?industryLabel WHERE {
-  ?item wdt:P17 wd:Q884 ; wdt:P154 ?logo .
+# ── 수집 축(preset) ─────────────────────────────────────────────
+# 처음엔 '국가=대한민국' 하나로 고정돼 있었다. 그러면 디즈니·폭스 같은 해외
+# 영화사나 글로벌 투자사는 **애초에 들어올 수가 없다.** 축을 바꿔 끼운다.
+#
+# each preset: (설명, WHERE 절, 한글명 필수 여부)
+#   한글명 필수: 한국 대상은 켠다(우리 차별점). 해외 스튜디오·투자사는 끈다 —
+#   한글 라벨이 없다고 디즈니를 버릴 이유가 없다.
+PRESETS: dict[str, tuple[str, str, bool]] = {
+    "korea": ("한국 조직 전반",
+              "?item wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True),
+
+    # 해산한 정당을 빼야 한다. 안 그러면 민주노동당·신민당·선진통일당 같은
+    # 옛 정당이 잔뜩 들어온다(실측: 58건 중 36건이 해산).
+    "party": ("현존 정당 (한국)",
+              "?item wdt:P31/wdt:P279* wd:Q7278 ; wdt:P17 wd:Q884 ; wdt:P154 ?logo ."
+              " FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }", True),
+
+    "idol": ("K-pop 그룹",
+             "?item wdt:P31/wdt:P279* wd:Q215380 ; wdt:P495 wd:Q884 ; wdt:P154 ?logo .", False),
+
+    "film": ("영화 제작사 (전세계)",
+             "?item wdt:P31/wdt:P279* wd:Q1762059 ; wdt:P154 ?logo .", False),
+
+    "investor": ("투자사 (벤처캐피털·투자은행·사모펀드)",
+                 "VALUES ?cls { wd:Q3487908 wd:Q319845 wd:Q5418962 wd:Q4230006 }"
+                 " ?item wdt:P31/wdt:P279* ?cls ; wdt:P154 ?logo .", False),
+
+    "public": ("공공기관 (한국)",
+               "VALUES ?cls { wd:Q327333 wd:Q2659904 wd:Q15916930 }"
+               " ?item wdt:P31/wdt:P279* ?cls ; wdt:P17 wd:Q884 ; wdt:P154 ?logo .", True),
+}
+
+SPARQL_TEMPLATE = """SELECT ?item ?ko ?en ?logo ?site ?kindLabel ?industryLabel WHERE {
+  %(where)s
   OPTIONAL { ?item wdt:P856 ?site }
   OPTIONAL { ?item wdt:P31 ?kind }
   OPTIONAL { ?item wdt:P452 ?industry }
@@ -170,7 +202,13 @@ def initials(name: str) -> str:
     return "".join(w[0] for w in words).lower()
 
 
-def matches_filename(en: str, fname: str, common: set[str]) -> bool:
+def korean_core(name: str) -> str:
+    """한글 이름에서 대조에 쓸 알맹이만 남긴다 (공백·괄호주석 제거)."""
+    n = re.sub(r"\s*[（(][^）)]*[）)]", "", name or "")
+    return re.sub(r"\s+", "", n)
+
+
+def matches_filename(en: str, fname: str, common: set[str], ko: str = "") -> bool:
     """파일명이 이 브랜드의 것이라고 믿을 만한가.
 
     처음엔 '흔하지 않은 단어가 하나라도 겹치면 통과'로 했는데 두 방향 모두 틀렸다.
@@ -181,6 +219,12 @@ def matches_filename(en: str, fname: str, common: set[str]) -> bool:
     그래서 '겹치는 게 있는가'가 아니라 **'브랜드를 특정하는 말이 파일명에
     빠짐없이 들어 있는가'** 를 본다.
     """
+    # 한글 파일명을 먼저 본다. 커먼즈에는 "조국혁신당 로고.svg" 처럼 한글로만
+    # 이름 붙은 파일이 많고, 영문 토큰만 대조하면 **완벽히 일치하는데도 전부
+    # 떨어진다** (정당 22건 중 13건이 이렇게 검수 큐로 빠졌다).
+    core = korean_core(ko)
+    if len(core) >= 2 and core in korean_core(fname):
+        return True
     if not en:
         return False
     name_t, file_t = tokens(en), tokens(fname)
@@ -206,21 +250,48 @@ def fetch(url: str, timeout: int = 60) -> bytes | None:
         return None
 
 
-def sparql() -> list[dict]:
-    u = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": SPARQL})
+def sparql(where: str, tries: int = 4) -> list[dict]:
+    """위키데이터 질의. 429 는 흔하다 — 장애 중에는 분당 1회까지 조인다.
+
+    조용히 빈 결과를 돌려주면 '수집할 게 없다'로 오해하게 되므로, 끝내
+    실패하면 예외를 던진다.
+    """
+    q = SPARQL_TEMPLATE % {"where": where}
+    u = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q})
     req = urllib.request.Request(u, headers={**UA, "Accept": "application/sparql-results+json"})
-    with urllib.request.urlopen(req, timeout=180) as r:
-        return json.load(r)["results"]["bindings"]
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=240) as r:
+                return json.load(r)["results"]["bindings"]
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and i < tries - 1:
+                wait = 70 * (i + 1)
+                print(f"  429 — {wait}초 대기 후 재시도 ({i+1}/{tries-1})")
+                time.sleep(wait)
+                continue
+            raise
+    raise RuntimeError("위키데이터 질의 실패")
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--preset", default="korea", choices=sorted(PRESETS),
+                    help="수집 축. korea|party|idol|film|investor|public")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--download", action="store_true")
     ap.add_argument("--apply", action="store_true", help="검증 통과분을 brands.json 에 반영")
+    ap.add_argument("--stage-review", action="store_true",
+                    help="검수 큐 항목도 스테이징에 받는다 (대조 시트로 눈검사용)")
+    ap.add_argument("--apply-ids",
+                    help="눈으로 확인한 slug 를 쉼표로 나열해 반영한다 (검수 큐 포함)")
     ap.add_argument("--recategorize", action="store_true",
                     help="이미 반영된 위키미디어 브랜드의 카테고리만 다시 매긴다")
     args = ap.parse_args()
+
+    global STAGE, REPORT, QUEUE
+    STAGE = Path(os.environ.get("SEMOLOGO_STAGE", str(STAGE_ROOT / f"wikidata-{args.preset}")))
+    REPORT = BASE / f"wikidata-{args.preset}-report.json"
+    QUEUE = BASE / f"wikidata-{args.preset}-review.json"
 
     data = json.loads(BRANDS.read_text())
     brands = data["brands"] if isinstance(data, dict) else data
@@ -229,8 +300,9 @@ def main() -> int:
     have_name |= {(b.get("name_en") or "").strip().lower() for b in brands}
     have_id = {b["id"] for b in brands}
 
-    print("위키데이터 조회 중…")
-    rows = sparql()
+    label, where, require_ko = PRESETS[args.preset]
+    print(f"위키데이터 조회 중… [{args.preset}] {label}")
+    rows = sparql(where)
     items: dict[str, dict] = {}
     for r in rows:
         qid = r["item"]["value"].rsplit("/", 1)[-1]
@@ -281,7 +353,9 @@ def main() -> int:
                     it["logo"].rsplit("/", 1)[-1]),
             })
             continue
-        if not it["ko"]:
+        # 한국 대상은 한글명을 필수로 본다(우리 차별점). 해외 스튜디오·투자사는
+        # 한글 라벨이 없다고 버릴 이유가 없다 — 프리셋이 정한다.
+        if require_ko and not it["ko"]:
             stats["no_korean_name"] += 1
             continue
 
@@ -290,7 +364,7 @@ def main() -> int:
         # 단, 겹친 단어가 그룹명처럼 흔한 것뿐이면 인정하지 않는다 —
         # 롯데하이마트에 "Lotte Mart 2018.svg" 가 붙어 있었고 'lotte' 만 겹쳐
         # 통과해버렸다(대조 시트에서 발견). 구분력 있는 단어가 하나는 겹쳐야 한다.
-        overlap = matches_filename(it["en"], fname, common_tokens)
+        overlap = matches_filename(it["en"], fname, common_tokens, it.get("ko") or "")
         it["file"] = fname
         it["slug"] = slugify(it["en"] or it["ko"]) or it["qid"].lower()
         if it["slug"] in have_id:
@@ -298,13 +372,19 @@ def main() -> int:
         if not overlap:
             stats["name_file_mismatch"] += 1
             review.append({k: v for k, v in it.items() if k not in ("kinds", "industries")} |
-                          {"reason": "파일명이 영문명과 겹치지 않음 — 다른 회사 로고일 수 있다"})
+                          {"reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
+                           "category": categorize(it)})
             continue
         stats["candidate"] += 1
         cands.append(it)
 
     if args.limit:
         cands = cands[:args.limit]
+
+    wanted_ids = {x.strip() for x in (args.apply_ids or "").split(",") if x.strip()}
+    if args.stage_review or wanted_ids:
+        # 검수 큐도 후보로 올린다. 반영은 --apply-ids 로 지목한 것만 된다.
+        cands = cands + [r for r in review if r["slug"] not in {c["slug"] for c in cands}]
 
     if args.download and cands:
         STAGE.mkdir(parents=True, exist_ok=True)
@@ -343,10 +423,11 @@ def main() -> int:
         print(f"  총 {sum(moved.values())}건 이동")
         return 0
 
-    if args.apply:
+    if args.apply or wanted_ids:
         import hashlib
         seen_hash: dict[str, str] = {}
-        for c in sorted(cands, key=lambda x: len(x["slug"])):   # 짧은 slug 를 대표로
+        pool = [c for c in cands if not wanted_ids or c["slug"] in wanted_ids]
+        for c in sorted(pool, key=lambda x: len(x["slug"])):   # 짧은 slug 를 대표로
             src = STAGE / c["slug"] / "logo.svg"
             if not src.exists() or c.get("error"):
                 continue

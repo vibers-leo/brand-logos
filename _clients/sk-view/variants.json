@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sk-view",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "5a134a800b93c0a7"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.389,
+   "provider": "official-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

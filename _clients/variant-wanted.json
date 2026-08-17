@@ -1,7 +1,7 @@
 {
   "note": "파비콘으로 쓸 심볼이 없는 브랜드. 심볼형 로고 재수집 타겟. logo-icon.png 의 잉크가 캔버스의 20% 미만인 경우.",
   "threshold": 0.2,
-  "count": 490,
+  "count": 494,
   "brands": [
     {
       "id": "vibers-matecheck",
@@ -201,6 +201,10 @@
     },
     {
       "id": "tenaya-capital",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "ssg-pay",
       "icon_ink": 0.0938
     },
     {
@@ -1592,6 +1596,10 @@
       "icon_ink": 0.1719
     },
     {
+      "id": "hanpass",
+      "icon_ink": 0.1719
+    },
+    {
       "id": "whoo",
       "icon_ink": 0.1758
     },
@@ -1665,6 +1673,10 @@
     },
     {
       "id": "alpine",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "lazard",
       "icon_ink": 0.1846
     },
     {
@@ -1909,6 +1921,10 @@
     },
     {
       "id": "local-government-officials-development-institute",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "sk-view",
       "icon_ink": 0.1875
     },
     {

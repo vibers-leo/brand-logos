@@ -36,13 +36,31 @@ jobs:
           GIT_COMMITTER_NAME: "vibers-bot"
           GIT_COMMITTER_EMAIL: "vibers.leo@gmail.com"
 
-      # 위키데이터의 '국가=대한민국 + 공식로고(P154)'. 기존 소스(Simple Icons·
-      # Font Awesome·위키미디어 카테고리)는 포화라 여기서만 신규가 나온다.
-      # 파일명 대조·도메인·중복 가드를 통과한 것만 반영하고, 애매한 것은
-      # korea-wikidata-review.json 에 남긴다. 위키데이터가 자라면 여기서 늘어난다.
-      - name: 한국 브랜드 수집 (위키데이터)
-        run: python3 scripts/collect-korea-wikidata.py --download --apply
+      # 프리셋을 전부 돈다. 예전엔 korea 하나만 돌아서 정당·아이돌·영화사·투자사·
+      # 공공기관은 **자동으로는 절대 안 들어왔다**(세션에서 수동으로만 했다).
+      # 가드(파일명 대조·도메인·중복·QID충돌)를 통과한 것만 반영하고, 애매한 것은
+      # wikidata-{preset}-review.json 에 남는다 — 사람이 볼 몫이다.
+      - name: 위키데이터 수집 (프리셋 전체)
+        run: |
+          for P in korea party idol film investor public; do
+            echo "── preset=$P ──"
+            python3 scripts/collect-korea-wikidata.py --preset "$P" --download --apply || true
+          done
         continue-on-error: true    # 외부 API 다. 실패해도 뒤 단계는 돌아야 한다
+
+      # 한글로 못 찾는 브랜드에 별칭을 채운다. 이름·분류·웹사이트 3중 가드를
+      # 통과하고 **여러 단어로 된 이름**만 자동 반영한다 (한 단어는 검수 파일로).
+      - name: 한글 별칭 채우기
+        run: |
+          python3 scripts/fill-korean-names-wikidata.py --limit 400 || true
+          python3 scripts/fill-korean-names-noweb.py --limit 400 --apply || true
+        continue-on-error: true
+
+      # 위키데이터가 가진 공식 별칭(skos:altLabel)을 QID 기준으로 가져온다.
+      # QID 조회라 동음이의 위험이 없다 (KKR ← Kohlberg Kravis Roberts).
+      - name: 공식 별칭 보강
+        run: python3 scripts/backfill-wikidata-aliases.py || true
+        continue-on-error: true
 
       # SVG 만 받아온 브랜드는 logo.png 가 없어 PNG 다운로드가 404 난다.
       # build-variants 가 logo.png 를 이미 있다고 전제하기 때문이다.
@@ -86,16 +104,44 @@ jobs:
             git push
           fi
 
+      # 요약에 '지금 상태'를 싣는다. 총 개수만 찍으면 대기 목록이 쌓이는지
+      # 줄어드는지 알 수 없어, 자동화가 헛돌고 있어도 정상처럼 보인다.
       - name: 결과 요약
         run: |
-          echo "### 수집 결과" >> $GITHUB_STEP_SUMMARY
-          python3 -c "
-          import json
-          with open('_clients/brands.json') as f:
-              raw = json.load(f)
-          brands = raw['brands']
-          print(f'총 {len(brands)}개 브랜드 수록')
-          " >> $GITHUB_STEP_SUMMARY
+          python3 - >> $GITHUB_STEP_SUMMARY <<'PY'
+          import json, glob, os
+          from pathlib import Path
+          B = Path("_clients")
+          bs = json.loads((B / "brands.json").read_text())["brands"]
+          han = lambda s: any("가" <= c <= "힣" for c in (s or ""))
+          ko = [b for b in bs
+                if han(b.get("name_ko")) or any(han(a) for a in (b.get("aliases") or []))]
+          svg = sum(1 for b in bs if b.get("logo_svg") or b.get("has_svg"))
+          print("### 수집 결과\n")
+          print(f"- 브랜드 **{len(bs):,}** / 진짜 SVG {svg:,} / PNG만 {len(bs)-svg:,}")
+          print(f"- 한글로 찾을 수 있는 브랜드 **{len(ko):,}** ({len(ko)/len(bs):.0%})")
+          def count(name, key="brands"):
+              f = B / name
+              if not f.exists(): return None
+              d = json.loads(f.read_text())
+              return len(d.get(key) or d.get("items") or d.get("candidates") or [])
+          print("\n**대기 목록** (쌓이기만 하면 자동화가 헛도는 것이다)\n")
+          for label, name, key in [
+              ("미보유 후보", "collect-wanted.json", "brands"),
+              ("SVG 대기(보유)", "svg-wanted.json", "brands"),
+              ("심볼 미수집", "variant-wanted.json", "brands"),
+          ]:
+              n = count(name, key)
+              if n is not None: print(f"- {label}: {n:,}")
+          rev = sorted(glob.glob(str(B / "wikidata-*-review.json")))
+          if rev:
+              print("\n**검수 대기** (사람이 볼 몫)\n")
+              for f in rev:
+                  d = json.loads(Path(f).read_text())
+                  print(f"- {os.path.basename(f)}: {d.get('count', len(d.get('items') or []))}")
+          print("\n> 공식 사이트 SVG 수집(`collect-site-svg.mjs`)은 자동화하지 않는다 —")
+          print("> 메뉴 아이콘·다른 회사 배너를 잡는 일이 잦아 눈검사가 필요하다.")
+          PY
 
       # 조용한 실패를 막는다.
       # 2026-08-08 에 numpy 를 빠뜨려 5일간 매일 실패했는데 아무도 몰랐다.

@@ -1,0 +1,2396 @@
+{
+ "note": "한 단어 영문명이라 자동 반영하지 않은 후보. Vector→벡터 처럼 흔한 명사가 섞일 수 있어 사람이 훑는다. 확인 후 --apply-review 로 반영.",
+ "generated_at": "2026-08-17",
+ "auto_count": 177,
+ "review_count": 398,
+ "items": [
+  {
+   "id": "astellkern",
+   "name_en": "Astell&Kern",
+   "ko": "아스텔앤컨",
+   "category": "IT·테크"
+  },
+  {
+   "id": "binggrae",
+   "name_en": "Binggrae",
+   "ko": "빙그레",
+   "category": "식품·음료"
+  },
+  {
+   "id": "bizpass",
+   "name_en": "BizPass",
+   "ko": "비즈패스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "dawonsys",
+   "name_en": "Dawonsys",
+   "ko": "다원시스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "devsisters",
+   "name_en": "Devsisters",
+   "ko": "데브시스터즈",
+   "category": "게임"
+  },
+  {
+   "id": "hansol",
+   "name_en": "Hansol",
+   "ko": "한솔그룹",
+   "category": "제조·그룹"
+  },
+  {
+   "id": "meritz",
+   "name_en": "Meritz",
+   "ko": "메리츠화재해상보험",
+   "category": "금융·결제"
+  },
+  {
+   "id": "mkiscore",
+   "name_en": "MKISCORE",
+   "ko": "엠키스코어",
+   "category": "금융·결제"
+  },
+  {
+   "id": "monami",
+   "name_en": "Monami",
+   "ko": "모나미",
+   "category": "뷰티·패션"
+  },
+  {
+   "id": "trigem",
+   "name_en": "TriGem",
+   "ko": "TG삼보컴퓨터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "upstage",
+   "name_en": "Upstage",
+   "ko": "업스테이지",
+   "category": "IT·테크"
+  },
+  {
+   "id": "artbox",
+   "name_en": "Artbox",
+   "ko": "아트박스",
+   "category": "라이프스타일"
+  },
+  {
+   "id": "kakaotalk",
+   "name_en": "KakaoTalk",
+   "ko": "카카오톡",
+   "category": "IT·테크"
+  },
+  {
+   "id": "nokia",
+   "name_en": "Nokia",
+   "ko": "노키아",
+   "category": "자동차"
+  },
+  {
+   "id": "facebook",
+   "name_en": "Facebook",
+   "ko": "페이스북",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "twitter",
+   "name_en": "Twitter",
+   "ko": "주식회사 트위터",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "linkedin",
+   "name_en": "LinkedIn",
+   "ko": "링크드인",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "bluesky",
+   "name_en": "Bluesky",
+   "ko": "블루스카이",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "mastodon",
+   "name_en": "Mastodon",
+   "ko": "마스토돈",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "microsoft",
+   "name_en": "Microsoft",
+   "ko": "마이크로소프트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "amazon",
+   "name_en": "Amazon",
+   "ko": "아마존닷컴",
+   "category": "유통·쇼핑"
+  },
+  {
+   "id": "dropbox",
+   "name_en": "Dropbox",
+   "ko": "드롭박스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "spotify",
+   "name_en": "Spotify",
+   "ko": "스포티파이",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "soundcloud",
+   "name_en": "SoundCloud",
+   "ko": "사운드클라우드",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "vimeo",
+   "name_en": "Vimeo",
+   "ko": "비메오",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "bilibili",
+   "name_en": "Bilibili",
+   "ko": "빌리빌리",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "angular",
+   "name_en": "Angular",
+   "ko": "앵귤러",
+   "category": "IT·테크"
+  },
+  {
+   "id": "bootstrap",
+   "name_en": "Bootstrap",
+   "ko": "부트스트랩",
+   "category": "IT·테크"
+  },
+  {
+   "id": "airbnb",
+   "name_en": "Airbnb",
+   "ko": "에어비앤비",
+   "category": "숙박·여행"
+  },
+  {
+   "id": "artstation",
+   "name_en": "ArtStation",
+   "ko": "아트스테이션",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "adobe",
+   "name_en": "Adobe",
+   "ko": "어도비 시스템즈",
+   "category": "IT·테크"
+  },
+  {
+   "id": "adyen",
+   "name_en": "Adyen",
+   "ko": "아디옌",
+   "category": "IT·테크"
+  },
+  {
+   "id": "airtable",
+   "name_en": "Airtable",
+   "ko": "에어테이블",
+   "category": "IT·테크"
+  },
+  {
+   "id": "arc",
+   "name_en": "Arc",
+   "ko": "아크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "arduino",
+   "name_en": "Arduino",
+   "ko": "아두이노",
+   "category": "IT·테크"
+  },
+  {
+   "id": "astro",
+   "name_en": "Astro",
+   "ko": "아스트로",
+   "category": "IT·테크"
+  },
+  {
+   "id": "atom",
+   "name_en": "Atom",
+   "ko": "아톰",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "babel",
+   "name_en": "Babel",
+   "ko": "바벨",
+   "category": "IT·테크"
+  },
+  {
+   "id": "bitbucket",
+   "name_en": "Bitbucket",
+   "ko": "빗버킷",
+   "category": "IT·테크"
+  },
+  {
+   "id": "bitnami",
+   "name_en": "Bitnami",
+   "ko": "비트나미",
+   "category": "IT·테크"
+  },
+  {
+   "id": "blender",
+   "name_en": "Blender",
+   "ko": "블렌더",
+   "category": "IT·테크"
+  },
+  {
+   "id": "blogger",
+   "name_en": "Blogger",
+   "ko": "블로거",
+   "category": "IT·테크"
+  },
+  {
+   "id": "box",
+   "name_en": "Box",
+   "ko": "박스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "brackets",
+   "name_en": "Brackets",
+   "ko": "브래킷츠",
+   "category": "IT·테크"
+  },
+  {
+   "id": "broccoli",
+   "name_en": "Broccoli",
+   "ko": "브로콜리",
+   "category": "IT·테크"
+  },
+  {
+   "id": "chef",
+   "name_en": "Chef",
+   "ko": "셰프",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cinder",
+   "name_en": "Cinder",
+   "ko": "신더",
+   "category": "IT·테크"
+  },
+  {
+   "id": "claude",
+   "name_en": "Claude",
+   "ko": "클로드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "clojure",
+   "name_en": "Clojure",
+   "ko": "클로저",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cloud9",
+   "name_en": "Cloud9",
+   "ko": "클라우드 나인 (e스포츠)",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cobalt",
+   "name_en": "Cobalt",
+   "ko": "코발트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "codecademy",
+   "name_en": "Codecademy",
+   "ko": "코드카데미",
+   "category": "IT·테크"
+  },
+  {
+   "id": "composer",
+   "name_en": "Composer",
+   "ko": "컴포저",
+   "category": "IT·테크"
+  },
+  {
+   "id": "consul",
+   "name_en": "Consul",
+   "ko": "콘술",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cordova",
+   "name_en": "Cordova",
+   "ko": "코르도바",
+   "category": "IT·테크"
+  },
+  {
+   "id": "coursera",
+   "name_en": "Coursera",
+   "ko": "코세라",
+   "category": "IT·테크"
+  },
+  {
+   "id": "crystal",
+   "name_en": "Crystal",
+   "ko": "크리스털",
+   "category": "IT·테크"
+  },
+  {
+   "id": "curl",
+   "name_en": "Curl",
+   "ko": "컬",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cypress",
+   "name_en": "Cypress",
+   "ko": "사이프러스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "datadog",
+   "name_en": "Datadog",
+   "ko": "데이터도그",
+   "category": "IT·테크"
+  },
+  {
+   "id": "derby",
+   "name_en": "Derby",
+   "ko": "더비",
+   "category": "IT·테크"
+  },
+  {
+   "id": "discourse",
+   "name_en": "Discourse",
+   "ko": "디스코스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "discover",
+   "name_en": "Discover",
+   "ko": "디스커버",
+   "category": "IT·테크"
+  },
+  {
+   "id": "django",
+   "name_en": "Django",
+   "ko": "장고",
+   "category": "IT·테크"
+  },
+  {
+   "id": "dribbble",
+   "name_en": "Dribbble",
+   "ko": "드리블",
+   "category": "IT·테크"
+  },
+  {
+   "id": "drools",
+   "name_en": "Drools",
+   "ko": "드룰스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "elasticsearch",
+   "name_en": "Elasticsearch",
+   "ko": "일래스틱서치",
+   "category": "IT·테크"
+  },
+  {
+   "id": "electron",
+   "name_en": "Electron",
+   "ko": "일렉트론",
+   "category": "IT·테크"
+  },
+  {
+   "id": "element",
+   "name_en": "Element",
+   "ko": "엘리먼트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "eleventy",
+   "name_en": "Eleventy",
+   "ko": "일레븐티",
+   "category": "IT·테크"
+  },
+  {
+   "id": "emmet",
+   "name_en": "Emmet",
+   "ko": "젠코딩",
+   "category": "IT·테크"
+  },
+  {
+   "id": "eventbrite",
+   "name_en": "Eventbrite",
+   "ko": "이벤트브라이트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "fastly",
+   "name_en": "Fastly",
+   "ko": "패스틀리",
+   "category": "IT·테크"
+  },
+  {
+   "id": "flask",
+   "name_en": "Flask",
+   "ko": "플라스크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "flickr",
+   "name_en": "Flickr",
+   "ko": "플리커",
+   "category": "IT·테크"
+  },
+  {
+   "id": "flow",
+   "name_en": "Flow",
+   "ko": "플로",
+   "category": "IT·테크"
+  },
+  {
+   "id": "flutter",
+   "name_en": "Flutter",
+   "ko": "플러터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "flux",
+   "name_en": "Flux",
+   "ko": "플럭스",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "fortran",
+   "name_en": "Fortran",
+   "ko": "포트란",
+   "category": "IT·테크"
+  },
+  {
+   "id": "fuchsia",
+   "name_en": "Fuchsia",
+   "ko": "구글 푸크시아",
+   "category": "IT·테크"
+  },
+  {
+   "id": "godot",
+   "name_en": "Godot",
+   "ko": "고도",
+   "category": "IT·테크"
+  },
+  {
+   "id": "grammarly",
+   "name_en": "Grammarly",
+   "ko": "그래멀리",
+   "category": "IT·테크"
+  },
+  {
+   "id": "gravatar",
+   "name_en": "Gravatar",
+   "ko": "그라바타",
+   "category": "IT·테크"
+  },
+  {
+   "id": "grove",
+   "name_en": "Grove",
+   "ko": "그로브",
+   "category": "IT·테크"
+  },
+  {
+   "id": "grunt",
+   "name_en": "Grunt",
+   "ko": "그런트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "hack",
+   "name_en": "Hack",
+   "ko": "핵",
+   "category": "IT·테크"
+  },
+  {
+   "id": "haiku",
+   "name_en": "Haiku",
+   "ko": "하이쿠",
+   "category": "IT·테크"
+  },
+  {
+   "id": "haskell",
+   "name_en": "Haskell",
+   "ko": "해스컬",
+   "category": "IT·테크"
+  },
+  {
+   "id": "heroku",
+   "name_en": "Heroku",
+   "ko": "헤로쿠",
+   "category": "IT·테크"
+  },
+  {
+   "id": "hibernate",
+   "name_en": "Hibernate",
+   "ko": "하이버네이트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "homebrew",
+   "name_en": "Homebrew",
+   "ko": "홈브루",
+   "category": "IT·테크"
+  },
+  {
+   "id": "hootsuite",
+   "name_en": "Hootsuite",
+   "ko": "훗스위트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "hugo",
+   "name_en": "Hugo",
+   "ko": "휴고",
+   "category": "IT·테크"
+  },
+  {
+   "id": "hyper",
+   "name_en": "Hyper",
+   "ko": "하이퍼",
+   "category": "IT·테크"
+  },
+  {
+   "id": "inferno",
+   "name_en": "Inferno",
+   "ko": "인페르노 (운영체제)",
+   "category": "IT·테크"
+  },
+  {
+   "id": "ionic",
+   "name_en": "Ionic",
+   "ko": "아이오닉",
+   "category": "IT·테크"
+  },
+  {
+   "id": "ios",
+   "name_en": "Ios",
+   "ko": "이오스섬",
+   "category": "IT·테크"
+  },
+  {
+   "id": "java",
+   "name_en": "Java",
+   "ko": "자바",
+   "category": "IT·테크"
+  },
+  {
+   "id": "jekyll",
+   "name_en": "Jekyll",
+   "ko": "지킬",
+   "category": "IT·테크"
+  },
+  {
+   "id": "jenkins",
+   "name_en": "Jenkins",
+   "ko": "젠킨스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "jest",
+   "name_en": "Jest",
+   "ko": "제스트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "joomla",
+   "name_en": "Joomla",
+   "ko": "줌라",
+   "category": "IT·테크"
+  },
+  {
+   "id": "julia",
+   "name_en": "Julia",
+   "ko": "줄리아",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kallithea",
+   "name_en": "Kallithea",
+   "ko": "칼리테아",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kibana",
+   "name_en": "Kibana",
+   "ko": "키바나",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kirby",
+   "name_en": "Kirby",
+   "ko": "커비",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kotlin",
+   "name_en": "Kotlin",
+   "ko": "코틀린",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kubernetes",
+   "name_en": "Kubernetes",
+   "ko": "쿠버네티스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "laravel",
+   "name_en": "Laravel",
+   "ko": "라라벨",
+   "category": "IT·테크"
+  },
+  {
+   "id": "leaflet",
+   "name_en": "Leaflet",
+   "ko": "리플릿",
+   "category": "IT·테크"
+  },
+  {
+   "id": "linode",
+   "name_en": "Linode",
+   "ko": "리노드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "lit",
+   "name_en": "Lit",
+   "ko": "릿",
+   "category": "IT·테크"
+  },
+  {
+   "id": "lua",
+   "name_en": "Lua",
+   "ko": "루아 (프로그래밍 언어)",
+   "category": "IT·테크"
+  },
+  {
+   "id": "mageia",
+   "name_en": "Mageia",
+   "ko": "마제야",
+   "category": "IT·테크"
+  },
+  {
+   "id": "markdown",
+   "name_en": "Markdown",
+   "ko": "마크다운",
+   "category": "IT·테크"
+  },
+  {
+   "id": "matomo",
+   "name_en": "Matomo",
+   "ko": "마토모",
+   "category": "IT·테크"
+  },
+  {
+   "id": "matter",
+   "name_en": "Matter",
+   "ko": "매터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "mattermost",
+   "name_en": "Mattermost",
+   "ko": "매터모스트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "medium",
+   "name_en": "Medium",
+   "ko": "미디엄 (웹사이트)",
+   "category": "IT·테크"
+  },
+  {
+   "id": "mercurial",
+   "name_en": "Mercurial",
+   "ko": "머큐리얼",
+   "category": "IT·테크"
+  },
+  {
+   "id": "messenger",
+   "name_en": "Messenger",
+   "ko": "페이스북 메신저",
+   "category": "IT·테크"
+  },
+  {
+   "id": "meteor",
+   "name_en": "Meteor",
+   "ko": "미티어",
+   "category": "IT·테크"
+  },
+  {
+   "id": "miro",
+   "name_en": "Miro",
+   "ko": "미로",
+   "category": "IT·테크"
+  },
+  {
+   "id": "modernizr",
+   "name_en": "Modernizr",
+   "ko": "모더나이저",
+   "category": "IT·테크"
+  },
+  {
+   "id": "mono",
+   "name_en": "Mono",
+   "ko": "모노",
+   "category": "IT·테크"
+  },
+  {
+   "id": "namecheap",
+   "name_en": "Namecheap",
+   "ko": "네임칩",
+   "category": "IT·테크"
+  },
+  {
+   "id": "neon",
+   "name_en": "Neon",
+   "ko": "네온",
+   "category": "IT·테크"
+  },
+  {
+   "id": "nomad",
+   "name_en": "Nomad",
+   "ko": "노매드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "obsidian",
+   "name_en": "Obsidian",
+   "ko": "옵시디언",
+   "category": "IT·테크"
+  },
+  {
+   "id": "okta",
+   "name_en": "Okta",
+   "ko": "옥타",
+   "category": "IT·테크"
+  },
+  {
+   "id": "origin",
+   "name_en": "Origin",
+   "ko": "오리진",
+   "category": "IT·테크"
+  },
+  {
+   "id": "phalcon",
+   "name_en": "Phalcon",
+   "ko": "팰컨",
+   "category": "IT·테크"
+  },
+  {
+   "id": "phoenix",
+   "name_en": "Phoenix",
+   "ko": "피닉스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "polymer",
+   "name_en": "Polymer",
+   "ko": "폴리머",
+   "category": "IT·테크"
+  },
+  {
+   "id": "presto",
+   "name_en": "Presto",
+   "ko": "프레스토",
+   "category": "IT·테크"
+  },
+  {
+   "id": "prisma",
+   "name_en": "Prisma",
+   "ko": "프리즈마",
+   "category": "IT·테크"
+  },
+  {
+   "id": "processing",
+   "name_en": "Processing",
+   "ko": "프로세싱",
+   "category": "IT·테크"
+  },
+  {
+   "id": "puppet",
+   "name_en": "Puppet",
+   "ko": "퍼핏",
+   "category": "IT·테크"
+  },
+  {
+   "id": "python",
+   "name_en": "Python",
+   "ko": "파이썬",
+   "category": "IT·테크"
+  },
+  {
+   "id": "quora",
+   "name_en": "Quora",
+   "ko": "쿼라",
+   "category": "IT·테크"
+  },
+  {
+   "id": "redis",
+   "name_en": "Redis",
+   "ko": "레디스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "redux",
+   "name_en": "Redux",
+   "ko": "리덕스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "replay",
+   "name_en": "Replay",
+   "ko": "리플레이",
+   "category": "IT·테크"
+  },
+  {
+   "id": "replit",
+   "name_en": "Replit",
+   "ko": "리플릿",
+   "category": "IT·테크"
+  },
+  {
+   "id": "rum",
+   "name_en": "Rum",
+   "ko": "룸",
+   "category": "IT·테크"
+  },
+  {
+   "id": "rush",
+   "name_en": "Rush",
+   "ko": "러시",
+   "category": "IT·테크"
+  },
+  {
+   "id": "rust",
+   "name_en": "Rust",
+   "ko": "러스트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "salesforce",
+   "name_en": "Salesforce",
+   "ko": "세일즈포스닷컴",
+   "category": "IT·테크"
+  },
+  {
+   "id": "scala",
+   "name_en": "Scala",
+   "ko": "스칼라",
+   "category": "IT·테크"
+  },
+  {
+   "id": "scribd",
+   "name_en": "Scribd",
+   "ko": "스크리브드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "selenium",
+   "name_en": "Selenium",
+   "ko": "셀레늄",
+   "category": "IT·테크"
+  },
+  {
+   "id": "sherlock",
+   "name_en": "Sherlock",
+   "ko": "셜록",
+   "category": "IT·테크"
+  },
+  {
+   "id": "signal",
+   "name_en": "Signal",
+   "ko": "시그널",
+   "category": "IT·테크"
+  },
+  {
+   "id": "sinatra",
+   "name_en": "Sinatra",
+   "ko": "시나트라",
+   "category": "IT·테크"
+  },
+  {
+   "id": "sketch",
+   "name_en": "Sketch",
+   "ko": "스케치",
+   "category": "IT·테크"
+  },
+  {
+   "id": "skype",
+   "name_en": "Skype",
+   "ko": "스카이프",
+   "category": "IT·테크"
+  },
+  {
+   "id": "snowflake",
+   "name_en": "Snowflake",
+   "ko": "스노플레이크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "solid",
+   "name_en": "Solid",
+   "ko": "솔리드 프로젝트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "solidity",
+   "name_en": "Solidity",
+   "ko": "솔리디티",
+   "category": "IT·테크"
+  },
+  {
+   "id": "squarespace",
+   "name_en": "Squarespace",
+   "ko": "스퀘어스페이스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "stylus",
+   "name_en": "Stylus",
+   "ko": "스타일러스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "swagger",
+   "name_en": "Swagger",
+   "ko": "스웨거",
+   "category": "IT·테크"
+  },
+  {
+   "id": "swift",
+   "name_en": "Swift",
+   "ko": "스위프트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "symfony",
+   "name_en": "Symfony",
+   "ko": "심포니",
+   "category": "IT·테크"
+  },
+  {
+   "id": "tauri",
+   "name_en": "Tauri",
+   "ko": "타우리",
+   "category": "IT·테크"
+  },
+  {
+   "id": "terminal",
+   "name_en": "Terminal",
+   "ko": "터미널",
+   "category": "IT·테크"
+  },
+  {
+   "id": "todoist",
+   "name_en": "Todoist",
+   "ko": "투두이스트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "tor",
+   "name_en": "Tor",
+   "ko": "토르",
+   "category": "IT·테크"
+  },
+  {
+   "id": "tsuru",
+   "name_en": "Tsuru",
+   "ko": "쓰루시",
+   "category": "IT·테크"
+  },
+  {
+   "id": "udacity",
+   "name_en": "Udacity",
+   "ko": "유다시티",
+   "category": "IT·테크"
+  },
+  {
+   "id": "udemy",
+   "name_en": "Udemy",
+   "ko": "유데미",
+   "category": "IT·테크"
+  },
+  {
+   "id": "upwork",
+   "name_en": "Upwork",
+   "ko": "업워크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "vector",
+   "name_en": "Vector",
+   "ko": "벡터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "vivaldi",
+   "name_en": "Vivaldi",
+   "ko": "비발디",
+   "category": "IT·테크"
+  },
+  {
+   "id": "vulkan",
+   "name_en": "Vulkan",
+   "ko": "벌컨",
+   "category": "IT·테크"
+  },
+  {
+   "id": "webmin",
+   "name_en": "Webmin",
+   "ko": "웹민",
+   "category": "IT·테크"
+  },
+  {
+   "id": "weebly",
+   "name_en": "Weebly",
+   "ko": "위블리",
+   "category": "IT·테크"
+  },
+  {
+   "id": "wire",
+   "name_en": "Wire",
+   "ko": "와이어",
+   "category": "IT·테크"
+  },
+  {
+   "id": "xamarin",
+   "name_en": "Xamarin",
+   "ko": "자마린",
+   "category": "IT·테크"
+  },
+  {
+   "id": "xcode",
+   "name_en": "Xcode",
+   "ko": "엑스코드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "yahoo",
+   "name_en": "Yahoo",
+   "ko": "야후!",
+   "category": "IT·테크"
+  },
+  {
+   "id": "zendesk",
+   "name_en": "Zendesk",
+   "ko": "젠데스크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "zig",
+   "name_en": "Zig",
+   "ko": "지그",
+   "category": "IT·테크"
+  },
+  {
+   "id": "apex",
+   "name_en": "Apex",
+   "ko": "에이펙스 (대회)",
+   "category": "IT·테크"
+  },
+  {
+   "id": "bazel",
+   "name_en": "Bazel",
+   "ko": "바젤",
+   "category": "IT·테크"
+  },
+  {
+   "id": "blazor",
+   "name_en": "Blazor",
+   "ko": "블레이저",
+   "category": "IT·테크"
+  },
+  {
+   "id": "delphi",
+   "name_en": "Delphi",
+   "ko": "델파이",
+   "category": "IT·테크"
+  },
+  {
+   "id": "firebird",
+   "name_en": "Firebird",
+   "ko": "파이어버드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kaggle",
+   "name_en": "Kaggle",
+   "ko": "캐글",
+   "category": "IT·테크"
+  },
+  {
+   "id": "keras",
+   "name_en": "Keras",
+   "ko": "케라스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "laminas",
+   "name_en": "Laminas",
+   "ko": "젠드 프레임워크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "minitab",
+   "name_en": "Minitab",
+   "ko": "미니탭",
+   "category": "IT·테크"
+  },
+  {
+   "id": "mongoose",
+   "name_en": "Mongoose",
+   "ko": "몽구스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "moodle",
+   "name_en": "Moodle",
+   "ko": "무들",
+   "category": "IT·테크"
+  },
+  {
+   "id": "nim",
+   "name_en": "Nim",
+   "ko": "님",
+   "category": "IT·테크"
+  },
+  {
+   "id": "racket",
+   "name_en": "Racket",
+   "ko": "래킷",
+   "category": "IT·테크"
+  },
+  {
+   "id": "travis",
+   "name_en": "Travis",
+   "ko": "트래비스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "turbo",
+   "name_en": "Turbo",
+   "ko": "터보",
+   "category": "IT·테크"
+  },
+  {
+   "id": "vala",
+   "name_en": "Vala",
+   "ko": "발라",
+   "category": "IT·테크"
+  },
+  {
+   "id": "forest",
+   "name_en": "Forest",
+   "ko": "포레",
+   "category": "IT·테크"
+  },
+  {
+   "id": "micropython",
+   "name_en": "MicroPython",
+   "ko": "마이크로파이썬",
+   "category": "IT·테크"
+  },
+  {
+   "id": "9gag",
+   "name_en": "9GAG",
+   "ko": "나인개그",
+   "category": "IT·테크"
+  },
+  {
+   "id": "asterisk",
+   "name_en": "Asterisk",
+   "ko": "아스테리스크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "audiotechnica",
+   "name_en": "Audio-Technica",
+   "ko": "오디오 테크니카",
+   "category": "IT·테크"
+  },
+  {
+   "id": "bentley",
+   "name_en": "Bentley",
+   "ko": "벤틀리",
+   "category": "자동차"
+  },
+  {
+   "id": "bitcomet",
+   "name_en": "BitComet",
+   "ko": "비트코멧",
+   "category": "IT·테크"
+  },
+  {
+   "id": "boeing",
+   "name_en": "Boeing",
+   "ko": "보잉",
+   "category": "IT·테크"
+  },
+  {
+   "id": "carrefour",
+   "name_en": "Carrefour",
+   "ko": "까르푸",
+   "category": "IT·테크"
+  },
+  {
+   "id": "celery",
+   "name_en": "Celery",
+   "ko": "셀러리",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cts",
+   "name_en": "CTS",
+   "ko": "CTS기독교TV",
+   "category": "IT·테크"
+  },
+  {
+   "id": "dacia",
+   "name_en": "Dacia",
+   "ko": "다치아",
+   "category": "IT·테크"
+  },
+  {
+   "id": "dolphin",
+   "name_en": "Dolphin",
+   "ko": "돌핀",
+   "category": "IT·테크"
+  },
+  {
+   "id": "fifa",
+   "name_en": "FIFA",
+   "ko": "국제 축구 연맹",
+   "category": "게임"
+  },
+  {
+   "id": "grab",
+   "name_en": "Grab",
+   "ko": "그랩",
+   "category": "IT·테크"
+  },
+  {
+   "id": "jeep",
+   "name_en": "Jeep",
+   "ko": "지프",
+   "category": "자동차"
+  },
+  {
+   "id": "joplin",
+   "name_en": "Joplin",
+   "ko": "조플린",
+   "category": "IT·테크"
+  },
+  {
+   "id": "keycloak",
+   "name_en": "Keycloak",
+   "ko": "키클록",
+   "category": "IT·테크"
+  },
+  {
+   "id": "konami",
+   "name_en": "Konami",
+   "ko": "코나미",
+   "category": "게임"
+  },
+  {
+   "id": "lequipe",
+   "name_en": "L'Équipe",
+   "ko": "레키프",
+   "category": "IT·테크"
+  },
+  {
+   "id": "lens",
+   "name_en": "Lens",
+   "ko": "랑스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "lightning",
+   "name_en": "Lightning",
+   "ko": "라이트닝",
+   "category": "IT·테크"
+  },
+  {
+   "id": "meizu",
+   "name_en": "Meizu",
+   "ko": "메이주",
+   "category": "IT·테크"
+  },
+  {
+   "id": "metasploit",
+   "name_en": "Metasploit",
+   "ko": "메타스플로이트 프로젝트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "nec",
+   "name_en": "NEC",
+   "ko": "닛폰 전기",
+   "category": "IT·테크"
+  },
+  {
+   "id": "newpipe",
+   "name_en": "NewPipe",
+   "ko": "뉴파이프",
+   "category": "IT·테크"
+  },
+  {
+   "id": "odin",
+   "name_en": "Odin",
+   "ko": "오딘",
+   "category": "IT·테크"
+  },
+  {
+   "id": "onnx",
+   "name_en": "ONNX",
+   "ko": "개방형 신경망 교환",
+   "category": "IT·테크"
+  },
+  {
+   "id": "polestar",
+   "name_en": "Polestar",
+   "ko": "폴스타",
+   "category": "IT·테크"
+  },
+  {
+   "id": "quarto",
+   "name_en": "Quarto",
+   "ko": "콰르토",
+   "category": "IT·테크"
+  },
+  {
+   "id": "rainmeter",
+   "name_en": "Rainmeter",
+   "ko": "레인미터",
+   "category": "금융·결제"
+  },
+  {
+   "id": "reason",
+   "name_en": "Reason",
+   "ko": "리즌",
+   "category": "IT·테크"
+  },
+  {
+   "id": "redox",
+   "name_en": "Redox",
+   "ko": "레독스 OS",
+   "category": "IT·테크"
+  },
+  {
+   "id": "rye",
+   "name_en": "Rye",
+   "ko": "라이",
+   "category": "IT·테크"
+  },
+  {
+   "id": "scrapy",
+   "name_en": "Scrapy",
+   "ko": "스크래피 (웹 프레임워크)",
+   "category": "IT·테크"
+  },
+  {
+   "id": "scratch",
+   "name_en": "Scratch",
+   "ko": "스크래치",
+   "category": "IT·테크"
+  },
+  {
+   "id": "shell",
+   "name_en": "Shell",
+   "ko": "로열 더치 쉘",
+   "category": "IT·테크"
+  },
+  {
+   "id": "showtime",
+   "name_en": "Showtime",
+   "ko": "쇼타임",
+   "category": "IT·테크"
+  },
+  {
+   "id": "slashdot",
+   "name_en": "Slashdot",
+   "ko": "슬래시닷",
+   "category": "IT·테크"
+  },
+  {
+   "id": "softpedia",
+   "name_en": "Softpedia",
+   "ko": "소프트피디아",
+   "category": "IT·테크"
+  },
+  {
+   "id": "sphinx",
+   "name_en": "Sphinx",
+   "ko": "스핑크스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "subaru",
+   "name_en": "Subaru",
+   "ko": "스바루",
+   "category": "자동차"
+  },
+  {
+   "id": "sway",
+   "name_en": "Sway",
+   "ko": "마이크로소프트 스웨이",
+   "category": "IT·테크"
+  },
+  {
+   "id": "tampermonkey",
+   "name_en": "Tampermonkey",
+   "ko": "탬퍼몽키",
+   "category": "IT·테크"
+  },
+  {
+   "id": "techcrunch",
+   "name_en": "TechCrunch",
+   "ko": "테크크런치",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "telefonica",
+   "name_en": "Telefónica",
+   "ko": "텔레포니카",
+   "category": "IT·테크"
+  },
+  {
+   "id": "teradata",
+   "name_en": "Teradata",
+   "ko": "테라데이터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "toshiba",
+   "name_en": "Toshiba",
+   "ko": "도시바",
+   "category": "IT·테크"
+  },
+  {
+   "id": "transmission",
+   "name_en": "Transmission",
+   "ko": "트랜스미션",
+   "category": "IT·테크"
+  },
+  {
+   "id": "treyarch",
+   "name_en": "Treyarch",
+   "ko": "트레이아크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "trino",
+   "name_en": "Trino",
+   "ko": "트리노",
+   "category": "IT·테크"
+  },
+  {
+   "id": "tuta",
+   "name_en": "Tuta",
+   "ko": "투타",
+   "category": "IT·테크"
+  },
+  {
+   "id": "valorant",
+   "name_en": "Valorant",
+   "ko": "발로란트",
+   "category": "게임"
+  },
+  {
+   "id": "vestel",
+   "name_en": "Vestel",
+   "ko": "베스텔",
+   "category": "IT·테크"
+  },
+  {
+   "id": "wikibooks",
+   "name_en": "Wikibooks",
+   "ko": "위키책",
+   "category": "IT·테크"
+  },
+  {
+   "id": "wikidata",
+   "name_en": "Wikidata",
+   "ko": "위키데이터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "wikiquote",
+   "name_en": "Wikiquote",
+   "ko": "위키인용집",
+   "category": "IT·테크"
+  },
+  {
+   "id": "wikisource",
+   "name_en": "Wikisource",
+   "ko": "위키문헌",
+   "category": "IT·테크"
+  },
+  {
+   "id": "wikiversity",
+   "name_en": "Wikiversity",
+   "ko": "위키배움터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "wikivoyage",
+   "name_en": "Wikivoyage",
+   "ko": "위키여행",
+   "category": "IT·테크"
+  },
+  {
+   "id": "xubuntu",
+   "name_en": "Xubuntu",
+   "ko": "주분투",
+   "category": "IT·테크"
+  },
+  {
+   "id": "aeon",
+   "name_en": "Aeon",
+   "ko": "이온",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "aion",
+   "name_en": "Aion",
+   "ko": "아이온: 영원의 탑",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "aragon",
+   "name_en": "Aragon",
+   "ko": "아라곤주",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "bytom",
+   "name_en": "Bytom",
+   "ko": "비톰",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "comet",
+   "name_en": "Comet",
+   "ko": "코멧",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "enigma",
+   "name_en": "Enigma",
+   "ko": "이니그마",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "eos",
+   "name_en": "EOS",
+   "ko": "이오스",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "kin",
+   "name_en": "Kin",
+   "ko": "긴정",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "komodo",
+   "name_en": "Komodo",
+   "ko": "코모도 (체스)",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "namecoin",
+   "name_en": "Namecoin",
+   "ko": "네임코인",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "peercoin",
+   "name_en": "Peercoin",
+   "ko": "피어코인",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "populous",
+   "name_en": "Populous",
+   "ko": "퍼퓰러스",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "syscoin",
+   "name_en": "Syscoin",
+   "ko": "시스코인",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "uniswap",
+   "name_en": "Uniswap",
+   "ko": "유니스왑",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "flag-aw",
+   "name_en": "Aruba",
+   "ko": "아루바",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-bb",
+   "name_en": "Barbados",
+   "ko": "바베이도스",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-bz",
+   "name_en": "Belize",
+   "ko": "벨리즈",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-bj",
+   "name_en": "Benin",
+   "ko": "베냉",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-bm",
+   "name_en": "Bermuda",
+   "ko": "버뮤다",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-bt",
+   "name_en": "Bhutan",
+   "ko": "부탄",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-bw",
+   "name_en": "Botswana",
+   "ko": "보츠와나",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-bi",
+   "name_en": "Burundi",
+   "ko": "부룬디",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-cm",
+   "name_en": "Cameroon",
+   "ko": "카메룬",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-es-ct",
+   "name_en": "Catalonia",
+   "ko": "카탈루냐",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-km",
+   "name_en": "Comoros",
+   "ko": "코모로",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-cw",
+   "name_en": "Curaçao",
+   "ko": "퀴라소",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-dj",
+   "name_en": "Djibouti",
+   "ko": "지부티",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-dm",
+   "name_en": "Dominica",
+   "ko": "도미니카 연방",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gb-eng",
+   "name_en": "England",
+   "ko": "잉글랜드",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-er",
+   "name_en": "Eritrea",
+   "ko": "에리트레아",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-sz",
+   "name_en": "Eswatini",
+   "ko": "에스와티니",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-eu",
+   "name_en": "Europe",
+   "ko": "유럽",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-fj",
+   "name_en": "Fiji",
+   "ko": "피지",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-ga",
+   "name_en": "Gabon",
+   "ko": "가봉",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-es-ga",
+   "name_en": "Galicia",
+   "ko": "갈리시아 지방",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gi",
+   "name_en": "Gibraltar",
+   "ko": "지브롤터",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gd",
+   "name_en": "Grenada",
+   "ko": "그레나다",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gu",
+   "name_en": "Guam",
+   "ko": "괌",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gg",
+   "name_en": "Guernsey",
+   "ko": "건지 행정관 관할구",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gn",
+   "name_en": "Guinea",
+   "ko": "기니",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gw",
+   "name_en": "Guinea-Bissau",
+   "ko": "기니비사우",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gy",
+   "name_en": "Guyana",
+   "ko": "가이아나",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-ht",
+   "name_en": "Haiti",
+   "ko": "아이티",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-ki",
+   "name_en": "Kiribati",
+   "ko": "키리바시",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-ls",
+   "name_en": "Lesotho",
+   "ko": "레소토",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-mo",
+   "name_en": "Macau",
+   "ko": "마카오",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-mw",
+   "name_en": "Malawi",
+   "ko": "말라위",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-mv",
+   "name_en": "Maldives",
+   "ko": "몰디브",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-ml",
+   "name_en": "Mali",
+   "ko": "말리",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-mq",
+   "name_en": "Martinique",
+   "ko": "마르티니크",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-mu",
+   "name_en": "Mauritius",
+   "ko": "모리셔스",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-yt",
+   "name_en": "Mayotte",
+   "ko": "마요트",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-mz",
+   "name_en": "Mozambique",
+   "ko": "모잠비크",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-na",
+   "name_en": "Namibia",
+   "ko": "나미비아",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-ni",
+   "name_en": "Nicaragua",
+   "ko": "니카라과",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-nu",
+   "name_en": "Niue",
+   "ko": "니우에",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-pw",
+   "name_en": "Palau",
+   "ko": "팔라우",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-rw",
+   "name_en": "Rwanda",
+   "ko": "르완다",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-re",
+   "name_en": "Réunion",
+   "ko": "레위니옹",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-ws",
+   "name_en": "Samoa",
+   "ko": "사모아",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gb-sct",
+   "name_en": "Scotland",
+   "ko": "스코틀랜드",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-sn",
+   "name_en": "Senegal",
+   "ko": "세네갈",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-sc",
+   "name_en": "Seychelles",
+   "ko": "세이셸",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-sr",
+   "name_en": "Suriname",
+   "ko": "수리남",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-tz",
+   "name_en": "Tanzania",
+   "ko": "탄자니아",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-tl",
+   "name_en": "Timor-Leste",
+   "ko": "동티모르",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-tg",
+   "name_en": "Togo",
+   "ko": "토고",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-to",
+   "name_en": "Tonga",
+   "ko": "통가",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-vu",
+   "name_en": "Vanuatu",
+   "ko": "바누아투",
+   "category": "국가·지역"
+  },
+  {
+   "id": "flag-gb-wls",
+   "name_en": "Wales",
+   "ko": "웨일스",
+   "category": "국가·지역"
+  },
+  {
+   "id": "adobe-icon",
+   "name_en": "Adobe",
+   "ko": "어도비 시스템즈",
+   "category": "IT·테크"
+  },
+  {
+   "id": "airbnb-icon",
+   "name_en": "Airbnb",
+   "ko": "에어비앤비",
+   "category": "IT·테크"
+  },
+  {
+   "id": "angular-icon",
+   "name_en": "Angular",
+   "ko": "앵귤러",
+   "category": "IT·테크"
+  },
+  {
+   "id": "anthropic-icon",
+   "name_en": "Anthropic",
+   "ko": "앤스로픽",
+   "category": "AI·머신러닝"
+  },
+  {
+   "id": "astro-icon",
+   "name_en": "Astro",
+   "ko": "아스트로",
+   "category": "IT·테크"
+  },
+  {
+   "id": "atom-icon",
+   "name_en": "Atom",
+   "ko": "아톰",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cardano-icon",
+   "name_en": "Cardano",
+   "ko": "카르다노",
+   "category": "IT·테크"
+  },
+  {
+   "id": "claude-icon",
+   "name_en": "Claude",
+   "ko": "클로드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "cypress-icon",
+   "name_en": "Cypress",
+   "ko": "사이프러스",
+   "category": "개발도구"
+  },
+  {
+   "id": "datadog-icon",
+   "name_en": "Datadog",
+   "ko": "데이터도그",
+   "category": "IT·테크"
+  },
+  {
+   "id": "discord-icon",
+   "name_en": "Discord",
+   "ko": "디스코드",
+   "category": "게임"
+  },
+  {
+   "id": "discourse-icon",
+   "name_en": "Discourse",
+   "ko": "디스코스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "django-icon",
+   "name_en": "Django",
+   "ko": "장고",
+   "category": "IT·테크"
+  },
+  {
+   "id": "dribbble-icon",
+   "name_en": "Dribbble",
+   "ko": "드리블",
+   "category": "IT·테크"
+  },
+  {
+   "id": "drools-icon",
+   "name_en": "Drools",
+   "ko": "드룰스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "ethereum-color",
+   "name_en": "Ethereum",
+   "ko": "이더리움",
+   "category": "암호화폐·블록체인"
+  },
+  {
+   "id": "eventbrite-icon",
+   "name_en": "Eventbrite",
+   "ko": "이벤트브라이트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "firebase-icon",
+   "name_en": "Firebase",
+   "ko": "파이어베이스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "flickr-icon",
+   "name_en": "Flickr",
+   "ko": "플리커",
+   "category": "IT·테크"
+  },
+  {
+   "id": "godot-icon",
+   "name_en": "Godot",
+   "ko": "고도",
+   "category": "IT·테크"
+  },
+  {
+   "id": "grammarly-icon",
+   "name_en": "Grammarly",
+   "ko": "그래멀리",
+   "category": "IT·테크"
+  },
+  {
+   "id": "gravatar-icon",
+   "name_en": "Gravatar",
+   "ko": "그라바타",
+   "category": "IT·테크"
+  },
+  {
+   "id": "haiku-icon",
+   "name_en": "Haiku",
+   "ko": "하이쿠",
+   "category": "IT·테크"
+  },
+  {
+   "id": "haskell-icon",
+   "name_en": "Haskell",
+   "ko": "해스컬",
+   "category": "IT·테크"
+  },
+  {
+   "id": "heroku-icon",
+   "name_en": "Heroku",
+   "ko": "헤로쿠",
+   "category": "IT·테크"
+  },
+  {
+   "id": "hootsuite-icon",
+   "name_en": "Hootsuite",
+   "ko": "훗스위트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "ionic-icon",
+   "name_en": "Ionic",
+   "ko": "아이오닉",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kirby-icon",
+   "name_en": "Kirby",
+   "ko": "커비",
+   "category": "IT·테크"
+  },
+  {
+   "id": "kotlin-icon",
+   "name_en": "Kotlin",
+   "ko": "코틀린",
+   "category": "IT·테크"
+  },
+  {
+   "id": "lit-icon",
+   "name_en": "Lit",
+   "ko": "릿",
+   "category": "IT·테크"
+  },
+  {
+   "id": "mastodon-icon",
+   "name_en": "Mastodon",
+   "ko": "마스토돈",
+   "category": "IT·테크"
+  },
+  {
+   "id": "matomo-icon",
+   "name_en": "Matomo",
+   "ko": "마토모",
+   "category": "IT·테크"
+  },
+  {
+   "id": "matter-icon",
+   "name_en": "Matter",
+   "ko": "매터",
+   "category": "IT·테크"
+  },
+  {
+   "id": "mattermost-icon",
+   "name_en": "Mattermost",
+   "ko": "매터모스트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "medium-icon",
+   "name_en": "Medium",
+   "ko": "미디엄 (웹사이트)",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "meta-icon",
+   "name_en": "Meta",
+   "ko": "메타",
+   "category": "IT·테크"
+  },
+  {
+   "id": "meteor-icon",
+   "name_en": "Meteor",
+   "ko": "미티어",
+   "category": "IT·테크"
+  },
+  {
+   "id": "microsoft-icon",
+   "name_en": "Microsoft",
+   "ko": "마이크로소프트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "miro-icon",
+   "name_en": "Miro",
+   "ko": "미로",
+   "category": "IT·테크"
+  },
+  {
+   "id": "neon-icon",
+   "name_en": "Neon",
+   "ko": "네온",
+   "category": "IT·테크"
+  },
+  {
+   "id": "netflix-icon",
+   "name_en": "Netflix",
+   "ko": "넷플릭스",
+   "category": "IT·테크"
+  },
+  {
+   "id": "nomad-icon",
+   "name_en": "Nomad",
+   "ko": "노매드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "notion-icon",
+   "name_en": "Notion",
+   "ko": "노션",
+   "category": "IT·테크"
+  },
+  {
+   "id": "obsidian-icon",
+   "name_en": "Obsidian",
+   "ko": "옵시디언",
+   "category": "IT·테크"
+  },
+  {
+   "id": "okta-icon",
+   "name_en": "Okta",
+   "ko": "옥타",
+   "category": "IT·테크"
+  },
+  {
+   "id": "postman-icon",
+   "name_en": "Postman",
+   "ko": "포스트맨",
+   "category": "IT·테크"
+  },
+  {
+   "id": "presto-icon",
+   "name_en": "Presto",
+   "ko": "프레스토",
+   "category": "IT·테크"
+  },
+  {
+   "id": "puppet-icon",
+   "name_en": "Puppet",
+   "ko": "퍼핏",
+   "category": "IT·테크"
+  },
+  {
+   "id": "reddit-icon",
+   "name_en": "Reddit",
+   "ko": "레딧",
+   "category": "미디어·엔터"
+  },
+  {
+   "id": "replay-icon",
+   "name_en": "Replay",
+   "ko": "리플레이",
+   "category": "IT·테크"
+  },
+  {
+   "id": "replit-icon",
+   "name_en": "Replit",
+   "ko": "리플릿",
+   "category": "IT·테크"
+  },
+  {
+   "id": "rush-icon",
+   "name_en": "Rush",
+   "ko": "러시",
+   "category": "IT·테크"
+  },
+  {
+   "id": "scribd-icon",
+   "name_en": "Scribd",
+   "ko": "스크리브드",
+   "category": "IT·테크"
+  },
+  {
+   "id": "sherlock-icon",
+   "name_en": "Sherlock",
+   "ko": "셜록",
+   "category": "IT·테크"
+  },
+  {
+   "id": "slack-icon",
+   "name_en": "Slack",
+   "ko": "슬랙",
+   "category": "IT·테크"
+  },
+  {
+   "id": "snowflake-icon",
+   "name_en": "Snowflake",
+   "ko": "스노플레이크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "spotify-icon",
+   "name_en": "Spotify",
+   "ko": "스포티파이",
+   "category": "IT·테크"
+  },
+  {
+   "id": "threads-icon",
+   "name_en": "Threads",
+   "ko": "스레드",
+   "category": "게임"
+  },
+  {
+   "id": "todoist-icon",
+   "name_en": "Todoist",
+   "ko": "투두이스트",
+   "category": "IT·테크"
+  },
+  {
+   "id": "udacity-icon",
+   "name_en": "Udacity",
+   "ko": "유다시티",
+   "category": "IT·테크"
+  },
+  {
+   "id": "udemy-icon",
+   "name_en": "Udemy",
+   "ko": "유데미",
+   "category": "IT·테크"
+  },
+  {
+   "id": "vimeo-icon",
+   "name_en": "Vimeo",
+   "ko": "비메오",
+   "category": "개발도구"
+  },
+  {
+   "id": "vivaldi-icon",
+   "name_en": "Vivaldi",
+   "ko": "비발디",
+   "category": "IT·테크"
+  },
+  {
+   "id": "zendesk-icon",
+   "name_en": "Zendesk",
+   "ko": "젠데스크",
+   "category": "IT·테크"
+  },
+  {
+   "id": "zoom-icon",
+   "name_en": "Zoom",
+   "ko": "줌",
+   "category": "IT·테크"
+  },
+  {
+   "id": "hm",
+   "name_en": "H&M",
+   "ko": "에이치앤엠",
+   "category": "뷰티·패션"
+  },
+  {
+   "id": "hm-retail",
+   "name_en": "H&M",
+   "ko": "에이치앤엠",
+   "category": "유통·리테일"
+  },
+  {
+   "id": "pwc",
+   "name_en": "PricewaterhouseCoopers",
+   "ko": "프라이스워터하우스쿠퍼스",
+   "category": "컨설팅·법무"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hrdkorea",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "ec003aafc5b71acd"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 8.889,
+   "provider": "official-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

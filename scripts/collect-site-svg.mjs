@@ -94,7 +94,22 @@ async function collectFrom(page, url) {
       });
     }
 
-    // ② 헤더의 인라인 <svg>
+    // ② CSS 배경이미지 — 한국 공공기관·기업 사이트에 아주 흔한 패턴이다.
+    //    <img> 만 보면 국민체육진흥공단·한국산업인력공단·심평원의 logo.svg 를
+    //    통째로 놓친다 (실측 2026-08-17).
+    for (const el of document.querySelectorAll(
+        "h1, h1 *, [class*=logo], [id*=logo], header a, .head *")) {
+      const m = (getComputedStyle(el).backgroundImage || "").match(/url\(["']?([^"')]+)/);
+      if (!m || !/\.svg(\?|$)/i.test(m[1])) continue;
+      const r = el.getBoundingClientRect();
+      out.push({
+        kind: "img", url: new URL(m[1], location.href).href,
+        w: Math.round(r.width), h: Math.round(r.height), top: Math.round(r.top),
+        score: (looksLogo(m[1]) ? 10 : 0) + (r.top < 250 ? 5 : 0) + 2,
+      });
+    }
+
+    // ③ 헤더의 인라인 <svg>
     for (const svg of document.querySelectorAll("svg")) {
       const r = svg.getBoundingClientRect();
       if (r.width < 24 || r.width > 500 || r.height < 12) continue;  // 아이콘·배경 제외

@@ -25,7 +25,7 @@ jobs:
         # numpy 는 logoform.py(심볼 크롭·밝기 판정)가 쓴다. 2026-08-08 에
         # logoform 을 도입하면서 여기 추가를 빠뜨려 build-logo-variants 부터
         # 뒤 4단계가 5일간(8/8~8/12) 통째로 안 돌았다.
-        run: pip install cairosvg Pillow requests lxml numpy
+        run: pip install cairosvg Pillow requests lxml numpy boto3
 
       - name: SVG 자동 수집 + 파이프라인
         run: python3 collect-auto.py --source all --commit
@@ -68,6 +68,17 @@ jobs:
       - name: logo.png 보정 + 가짜 벡터 정리
         run: python3 scripts/ensure-logo-png.py --demote-fake
 
+      # PNG 는 저장소에 없다 (NCP 버킷이 서빙한다 — Pages 1GB 리밋 때문).
+      # 이걸 안 받아 오면 build-variants 가 "없으니 만들자"로 판단해 매 실행마다
+      # 3만 개를 다시 만든다. 결과물은 같지만 몇십 분을 통째로 버린다.
+      - name: 버킷에서 기존 PNG 내려받기
+        run: python3 scripts/sync-png-bucket.py --pull --workers 24
+        env: &ncp
+          NCP_ACCESS_KEY: ${{ secrets.NCP_ACCESS_KEY }}
+          NCP_SECRET_KEY: ${{ secrets.NCP_SECRET_KEY }}
+          NCP_BUCKET: ${{ secrets.NCP_BUCKET }}
+          NCP_ENDPOINT: ${{ secrets.NCP_ENDPOINT }}
+
       - name: 변형 매니페스트 갱신
         run: python3 scripts/build-logo-variants.py
 
@@ -82,6 +93,12 @@ jobs:
       # 흡수된 -icon 브랜드가 목록에 되살아난 적이 있다.
       - name: brands-slim 동기 확인
         run: python3 scripts/build-slim.py --check
+
+      # 새로 만들어진 PNG 를 버킷에 올린다. 이게 빠지면 신규 브랜드의
+      # PNG 다운로드가 404 다 — 저장소에도 없고 버킷에도 없기 때문이다.
+      - name: 신규 PNG 버킷 업로드
+        run: python3 scripts/sync-png-bucket.py --workers 24 --verify 20
+        env: *ncp
 
       - name: 에셋 무결성 검사
         run: python3 scripts/check-assets.py

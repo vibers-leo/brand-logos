@@ -13,6 +13,12 @@ PNG 를 버킷으로 내보내면 브랜드를 5만 개까지 늘려도 Pages �
   python3 scripts/sync-png-bucket.py            # 올릴 것만 올린다
   python3 scripts/sync-png-bucket.py --dry-run  # 무엇이 올라갈지만 본다
   python3 scripts/sync-png-bucket.py --verify   # 업로드분 표본 대조
+  python3 scripts/sync-png-bucket.py --pull     # 버킷 → 로컬 (없는 것만)
+
+⚠️ --pull 은 CI 에서 **build-variants 앞에** 반드시 돌려야 한다.
+저장소에 PNG 가 없으므로, 안 받아 오면 build-variants 가 "없으니 만들자"로
+판단해 매 실행마다 3만 개를 다시 만든다. 결과물은 같지만 몇십 분을 버린다.
+로컬에서도 마찬가지다 — rebase 로 워킹트리가 정리되면 PNG 가 사라진다.
 """
 import argparse
 import os
@@ -83,6 +89,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--verify", type=int, default=0, help="표본 N개를 CDN 으로 대조")
+    ap.add_argument("--pull", action="store_true",
+                    help="버킷에 있고 로컬에 없는 PNG 를 내려받는다 (CI 필수)")
     ap.add_argument("--workers", type=int, default=16)
     args = ap.parse_args()
 
@@ -94,6 +102,43 @@ def main() -> int:
     print(f"로컬 PNG {len(files):,}개 / {total/1024/1024:.0f}MB")
 
     have = remote_sizes(s3, bucket)
+
+    if args.pull:
+        local = {k for k, _, _ in files}
+        want = [(k, sz) for k, sz in have.items() if k not in local]
+        print(f"내려받을 것 {len(want):,}개 ({sum(sz for _, sz in want)/1024/1024:.0f}MB)")
+        if not want:
+            print("✅ 로컬이 이미 최신")
+            return 0
+        lock2 = threading.Lock()
+        got = [0]
+        bad2: list[str] = []
+
+        def pull_one(item):
+            key, _ = item
+            dest = BASE / key[len(PREFIX):]
+            try:
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                body = s3.get_object(Bucket=bucket, Key=key)["Body"].read()
+                dest.write_bytes(body)
+            except Exception as e:
+                with lock2:
+                    bad2.append(f"{key}: {e}")
+                return
+            with lock2:
+                got[0] += 1
+                if got[0] % 2000 == 0:
+                    print(f"  {got[0]:,}/{len(want):,}", flush=True)
+
+        with ThreadPoolExecutor(max_workers=args.workers) as ex:
+            list(ex.map(pull_one, want))
+        if bad2:
+            print(f"❌ 내려받기 실패 {len(bad2)}개")
+            for b in bad2[:10]:
+                print("   " + b)
+            return 1
+        print(f"✅ 내려받기 {got[0]:,}개 완료")
+        return 0
     todo = [(k, p, s) for k, p, s in files if have.get(k) != s]
     print(f"버킷 보유 {len(have):,}개 → 올릴 것 {len(todo):,}개 "
           f"({sum(s for _,_,s in todo)/1024/1024:.0f}MB)")

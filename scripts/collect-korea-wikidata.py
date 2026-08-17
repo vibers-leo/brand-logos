@@ -280,8 +280,15 @@ def sparql_all(where: str, slices: int = 1) -> list[dict]:
                [a + b for a in hexd for b in hexd][:slices]
     rows: list[dict] = []
     for i, pref in enumerate(prefixes, 1):
-        chunk = f'{where} FILTER(STRSTARTS(MD5(STR(?item)), "{pref}"))'
-        r = sparql(chunk)
+        try:
+            r = sparql(f'{where} FILTER(STRSTARTS(MD5(STR(?item)), "{pref}"))')
+        except Exception as e:
+            # 조각이 커서 시간초과가 나는 경우가 있다. 그 조각만 16등분해
+            # 다시 시도한다 — 조용히 건너뛰면 그 범위는 영영 안 들어온다.
+            print(f"  조각 '{pref}' 실패({type(e).__name__}) — 16등분해 재시도")
+            r = []
+            for d in "0123456789abcdef":
+                r.extend(sparql(f'{where} FILTER(STRSTARTS(MD5(STR(?item)), "{pref}{d}"))'))
         rows.extend(r)
         print(f"  조각 {i}/{len(prefixes)} (MD5 '{pref}') → {len(r):,}행  누적 {len(rows):,}", flush=True)
     return rows
@@ -301,9 +308,11 @@ def sparql(where: str, tries: int = 4) -> list[dict]:
             with urllib.request.urlopen(req, timeout=240) as r:
                 return json.load(r)["results"]["bindings"]
         except urllib.error.HTTPError as e:
-            if e.code == 429 and i < tries - 1:
-                wait = 70 * (i + 1)
-                print(f"  429 — {wait}초 대기 후 재시도 ({i+1}/{tries-1})")
+            # 429=레이트리밋, 504=질의 시간초과, 503=일시 장애. 셋 다 재시도로 넘어간다.
+            # 504 를 안 잡으면 조각 하나가 죽으면서 수집 전체가 멈춘다(실제로 겪음).
+            if e.code in (429, 503, 504) and i < tries - 1:
+                wait = (70 if e.code == 429 else 15) * (i + 1)
+                print(f"  {e.code} — {wait}초 대기 후 재시도 ({i+1}/{tries-1})")
                 time.sleep(wait)
                 continue
             raise

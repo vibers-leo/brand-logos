@@ -61,19 +61,53 @@ def remove_white_bg(img: Image.Image, threshold: int = 235) -> Image.Image:
     return result
 
 
+def is_monochrome(img: Image.Image, tol: int = 40) -> bool:
+    """불투명 픽셀이 전부 검정 계열 아니면 흰색 계열인가 (회색 포함).
+
+    컬러가 조금이라도 섞여 있으면 False. 이 판정으로 '통째로 반전해도 되는
+    로고'와 '색을 지키면서 검은 부분만 바꿔야 하는 로고'를 가른다.
+    """
+    import numpy as np
+    a = np.asarray(img.convert("RGBA"))
+    m = a[..., 3] > 20
+    if not m.any():
+        return True
+    rgb = a[..., :3][m].astype(int)
+    chroma = rgb.max(1) - rgb.min(1)          # 채도 대용 — 0이면 무채색
+    if (chroma > tol).mean() > 0.02:          # 유채색 픽셀이 2% 넘으면 컬러 로고
+        return False
+    lum = rgb.mean(1)
+    mid = ((lum > 90) & (lum < 165)).mean()   # 중간 밝기 회색이 많으면 사진·그라데이션
+    return mid < 0.25
+
+
 def make_white_version(img: Image.Image) -> Image.Image:
-    """투명 배경 + 모든 불투명 픽셀을 흰색으로 (다크 배경 전용)"""
+    """다크 배경용 버전.
+
+    예전엔 **불투명 픽셀을 전부 흰색으로** 칠했다. 그래서 색이 있는 로고가
+    흰 덩어리가 되어 정체를 잃었다(국세청 태극·에이티즈 주황 등).
+
+    규칙:
+      · 흰/검(무채색) 로고 → 통째로 흰색으로 반전한다
+      · 색이 있는 로고 → **색은 그대로 두고 어두운 부분만 흰색으로** 바꾼다
+        (검정 배경에 얹었을 때 까맣게 묻히는 글씨만 살리는 것)
+    """
+    import numpy as np
     base = remove_white_bg(img)
-    result = base.copy()
-    data = result.getdata()
-    new_data = []
-    for r, g, b, a in data:
-        if a < 20:
-            new_data.append((0, 0, 0, 0))  # 완전 투명 유지
-        else:
-            new_data.append((255, 255, 255, a))  # 흰색
-    result.putdata(new_data)
-    return result
+    a = np.asarray(base.convert("RGBA")).copy()
+    m = a[..., 3] > 20
+
+    if is_monochrome(base):
+        a[..., 0][m] = a[..., 1][m] = a[..., 2][m] = 255
+        return Image.fromarray(a)
+
+    rgb = a[..., :3].astype(int)
+    lum = rgb.mean(2)
+    chroma = rgb.max(2) - rgb.min(2)
+    # 어둡고 무채색인 픽셀 = 검은 글씨·윤곽. 이것만 흰색으로 돌린다.
+    dark = m & (lum < 110) & (chroma < 40)
+    a[..., 0][dark] = a[..., 1][dark] = a[..., 2][dark] = 255
+    return Image.fromarray(a)
 
 
 def paint_white(img: Image.Image) -> Image.Image:

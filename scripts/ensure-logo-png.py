@@ -120,6 +120,17 @@ def main() -> int:
             demoted.append(b)
             if args.dry_run:
                 continue
+            # ⚠️ 내리기 **전에** PNG 를 만든다. 안 그러면 SVG 를 옮긴 뒤
+            #    "SVG 가 없어서" PNG 생성 루프가 건너뛰고, 브랜드에 자산이
+            #    하나도 안 남는다 — 목록에서 사라지고 페이지가 죽는다
+            #    (2026-08-17: 미라맥스·cnn-films 등 4건이 실제로 그렇게 됐다).
+            png = BASE / b["id"] / "logo.png"
+            if not png.exists():
+                why = render_png(svg, png)
+                if why:
+                    print(f"   ⚠️ {b['id']}: 내리기 전 PNG 생성 실패 ({why}) — 건너뛴다")
+                    demoted.pop()
+                    continue
             keep = BASE / b["id"] / "sources" / "raster-wrapped" / "logo.svg"
             keep.parent.mkdir(parents=True, exist_ok=True)
             shutil.move(str(svg), str(keep))      # 버리지 않는다 — 원본은 남긴다

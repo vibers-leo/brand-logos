@@ -1,7 +1,7 @@
 {
   "note": "파비콘으로 쓸 심볼이 없는 브랜드. 심볼형 로고 재수집 타겟. logo-icon.png 의 잉크가 캔버스의 20% 미만인 경우.",
   "threshold": 0.2,
-  "count": 496,
+  "count": 490,
   "brands": [
     {
       "id": "vibers-matecheck",
@@ -112,6 +112,10 @@
       "icon_ink": 0.082
     },
     {
+      "id": "hyosung",
+      "icon_ink": 0.085
+    },
+    {
       "id": "wsj",
       "icon_ink": 0.0864
     },
@@ -144,10 +148,6 @@
       "icon_ink": 0.0938
     },
     {
-      "id": "posco-e",
-      "icon_ink": 0.0938
-    },
-    {
       "id": "petproduct-co",
       "icon_ink": 0.0938
     },
@@ -173,10 +173,6 @@
     },
     {
       "id": "rolldown-dark",
-      "icon_ink": 0.0938
-    },
-    {
-      "id": "seah-aerospace--defense",
       "icon_ink": 0.0938
     },
     {
@@ -216,19 +212,11 @@
       "icon_ink": 0.0977
     },
     {
-      "id": "lxhausys",
-      "icon_ink": 0.0977
-    },
-    {
       "id": "87mm",
       "icon_ink": 0.0977
     },
     {
       "id": "binggrae-co",
-      "icon_ink": 0.0996
-    },
-    {
-      "id": "bbo-co",
       "icon_ink": 0.0996
     },
     {
@@ -246,10 +234,6 @@
     {
       "id": "nhn",
       "icon_ink": 0.1025
-    },
-    {
-      "id": "seezn",
-      "icon_ink": 0.1038
     },
     {
       "id": "sh-or",
@@ -305,10 +289,6 @@
     },
     {
       "id": "renaultkorea",
-      "icon_ink": 0.1055
-    },
-    {
-      "id": "lxinternational",
       "icon_ink": 0.1055
     },
     {
@@ -373,6 +353,10 @@
     },
     {
       "id": "amg",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "seah-aerospace--defense",
       "icon_ink": 0.1094
     },
     {
@@ -453,10 +437,6 @@
     },
     {
       "id": "kba-or",
-      "icon_ink": 0.1113
-    },
-    {
-      "id": "kticloud",
       "icon_ink": 0.1113
     },
     {
@@ -564,6 +544,10 @@
       "icon_ink": 0.1208
     },
     {
+      "id": "general-motors-gm",
+      "icon_ink": 0.1211
+    },
+    {
       "id": "celine",
       "icon_ink": 0.1211
     },
@@ -574,10 +558,6 @@
     {
       "id": "moma",
       "icon_ink": 0.1211
-    },
-    {
-      "id": "gsshop",
-      "icon_ink": 0.1221
     },
     {
       "id": "coffeebean-co",
@@ -601,10 +581,6 @@
     },
     {
       "id": "vibers-agency-landing",
-      "icon_ink": 0.1221
-    },
-    {
-      "id": "vibers-ai-recipe",
       "icon_ink": 0.1221
     },
     {
@@ -820,15 +796,7 @@
       "icon_ink": 0.1318
     },
     {
-      "id": "ocn-co",
-      "icon_ink": 0.1343
-    },
-    {
       "id": "orion-co",
-      "icon_ink": 0.1343
-    },
-    {
-      "id": "okfinancialgroup",
       "icon_ink": 0.1343
     },
     {
@@ -1042,6 +1010,18 @@
     {
       "id": "general-catalyst",
       "icon_ink": 0.1406
+    },
+    {
+      "id": "kgmobility",
+      "icon_ink": 0.1416
+    },
+    {
+      "id": "inicis",
+      "icon_ink": 0.1416
+    },
+    {
+      "id": "leonardoai",
+      "icon_ink": 0.1416
     },
     {
       "id": "miumiu",
@@ -1344,6 +1324,10 @@
       "icon_ink": 0.1641
     },
     {
+      "id": "primera",
+      "icon_ink": 0.1641
+    },
+    {
       "id": "jumpit-co",
       "icon_ink": 0.165
     },
@@ -1352,24 +1336,12 @@
       "icon_ink": 0.165
     },
     {
-      "id": "ls-electric",
-      "icon_ink": 0.1665
-    },
-    {
       "id": "soldout-co",
       "icon_ink": 0.1675
     },
     {
-      "id": "emart24-co",
-      "icon_ink": 0.1699
-    },
-    {
       "id": "raytheon",
       "icon_ink": 0.1699
-    },
-    {
-      "id": "gscaltex",
-      "icon_ink": 0.1709
     },
     {
       "id": "guju",
@@ -1644,10 +1616,6 @@
       "icon_ink": 0.1809
     },
     {
-      "id": "parexel",
-      "icon_ink": 0.1812
-    },
-    {
       "id": "kcp-co",
       "icon_ink": 0.1816
     },
@@ -1680,6 +1648,10 @@
       "icon_ink": 0.1841
     },
     {
+      "id": "korea-national-university-of-education",
+      "icon_ink": 0.1841
+    },
+    {
       "id": "hankook-tire",
       "icon_ink": 0.1846
     },
@@ -1694,6 +1666,10 @@
     {
       "id": "alpine",
       "icon_ink": 0.1846
+    },
+    {
+      "id": "parexel",
+      "icon_ink": 0.1873
     },
     {
       "id": "hanjin-shipping",

@@ -79,6 +79,14 @@ jobs:
           NCP_BUCKET: ${{ secrets.NCP_BUCKET }}
           NCP_ENDPOINT: ${{ secrets.NCP_ENDPOINT }}
 
+      # ⚠️ 이 단계가 워크플로에 **없었다.** collect-auto.py 는 자기가 받은
+      # 브랜드마다 build-variants 를 부르지만, 위키데이터 프리셋 수집기는
+      # logo.svg 만 넣는다. 그래서 위키데이터로 들어온 브랜드는 logo-800·
+      # transparent·white·icon 이 통째로 없었다(2026-08-18 확인: 485개 중
+      # logo-800 25개 누락). CDN 에서 404 로 나타난다.
+      - name: PNG 파생물 생성 (logo-800·icon·transparent·white)
+        run: python3 build-variants.py
+
       - name: 변형 매니페스트 갱신
         run: python3 scripts/build-logo-variants.py
 

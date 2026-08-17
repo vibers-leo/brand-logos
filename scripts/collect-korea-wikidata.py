@@ -321,6 +321,20 @@ def matches_filename(en: str, fname: str, common: set[str], ko: str = "") -> boo
     return len(ini) >= 3 and ini in file_t
 
 
+def commons_cdn(filepath_url: str) -> str:
+    """Special:FilePath → upload.wikimedia.org 직접 경로.
+
+    `Special:FilePath` 는 커먼즈 웹서버가 리다이렉트로 처리하는 경로라
+    레이트리밋이 빡빡하다 — 건당 2.0초에 절반이 429 였다. 커먼즈는 파일명
+    (밑줄 형태)의 MD5 앞 1·2자로 디렉토리를 나누므로 CDN 경로를 직접 계산할
+    수 있다. 같은 파일이 **건당 0.30초**로 온다(실측 2026-08-18).
+    """
+    name = urllib.parse.unquote(filepath_url.rsplit("/", 1)[-1]).replace(" ", "_")
+    h = hashlib.md5(name.encode("utf-8")).hexdigest()
+    return (f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/"
+            + urllib.parse.quote(name))
+
+
 def fetch(url: str, timeout: int = 60, tries: int = 3) -> bytes | None:
     """실패 사유를 삼키지 않는다.
 
@@ -328,23 +342,36 @@ def fetch(url: str, timeout: int = 60, tries: int = 3) -> bytes | None:
     '가드 거절'로만 집계됐다. 60개 표본에서 38개가 이렇게 사라졌는데
     원인을 알 방법이 없었다. 사유를 FETCH_ERRORS 에 남기고 재시도한다.
     """
+    # 커먼즈 파일이면 CDN 직접 경로를 먼저 쓴다. 실패하면 원래 URL 로 떨어진다
+    # (파일명 규칙에서 벗어난 예외가 있을 수 있다).
+    targets = [commons_cdn(url), url] if "Special:FilePath" in url else [url]
     last = ""
     for i in range(tries):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-                return r.read()
-        except urllib.error.HTTPError as e:
-            last = f"HTTP {e.code}"
-            if e.code in (429, 503) and i < tries - 1:
-                time.sleep(5 * (i + 1))
-                continue
+        for u in targets:
+            try:
+                with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=timeout) as r:
+                    return r.read()
+            except urllib.error.HTTPError as e:
+                last = f"HTTP {e.code}"
+                if e.code == 404:
+                    continue          # 다음 후보 URL 로
+                if e.code in (429, 503):
+                    # Retry-After 를 지킨다. 무시하고 밀어붙이면 더 오래 막힌다.
+                    ra = e.headers.get("Retry-After") if e.headers else None
+                    try:
+                        wait = min(int(ra), 60) if ra else 4 * (i + 1)
+                    except ValueError:
+                        wait = 4 * (i + 1)
+                    time.sleep(wait)
+                    break             # 재시도 라운드로
+                break
+            except Exception as e:
+                last = type(e).__name__
+                time.sleep(2 * (i + 1))
+                break
+        else:
             break
-        except Exception as e:
-            last = type(e).__name__
-            if i < tries - 1:
-                time.sleep(3 * (i + 1))
-                continue
-    FETCH_ERRORS[last] = FETCH_ERRORS.get(last, 0) + 1
+    FETCH_ERRORS[last or "unknown"] = FETCH_ERRORS.get(last or "unknown", 0) + 1
     return None
 
 

@@ -93,6 +93,12 @@ jobs:
       - name: 밝은 로고 판정 갱신
         run: python3 scripts/scan-light-logos.py
 
+      # 상세 페이지가 brands.json 전체(4만 개면 18MB)를 받지 않도록 브랜드별
+      # 단일 파일을 만든다. Next 데이터 캐시는 2MB 초과를 저장하지 않아
+      # 없으면 렌더마다 통째로 다시 받는다.
+      - name: 브랜드별 brand.json 생성
+        run: python3 scripts/build-brand-json.py
+
       - name: brands-slim 재생성
         run: python3 scripts/build-slim.py
 

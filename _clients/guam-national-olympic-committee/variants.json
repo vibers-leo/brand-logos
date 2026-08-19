@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "guam-national-olympic-committee",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "d95aa52bb1c7d9ab"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.56,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

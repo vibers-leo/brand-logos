@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "national-research-and-innovation-agency",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "308f1900af97d959"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.747,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gan-chinese-wikipedia",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "06c117f9e03325ca"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.774,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="224.67" height="258.34" version="1.1" viewBox="0 0 224.67 258.34" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient4780">
+<stop stop-opacity="0" offset=".77238"/>
+<stop offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient4871" cx="76.367" cy="183.12" r="74.221" gradientTransform="matrix(1.2839 0 0 1.5015 -23.053 -129.04)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4780"/>
+<radialGradient id="radialGradient4784" cx="76.367" cy="183.12" r="74.221" gradientTransform="matrix(1.0442 0 0 1.5015 84.738 -208.96)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4780"/>
+<radialGradient id="radialGradient4788" cx="76.367" cy="183.12" r="74.221" gradientTransform="matrix(1.0442 0 0 1.5015 -18.16 -261.5)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4780"/>
+<mask id="mask1" x="0" y="0" width="224.67" height="258.34">
+<circle cx="62.407" cy="62.407" r="61.407" fill="#fff"/>
+</mask>
+<mask id="mask2" x="0" y="0" width="224.67" height="258.34">
+<circle cx="164.55" cy="117.88" r="59.111" fill="#fff"/>
+</mask>
+<mask id="mask3" x="0" y="0" width="224.67" height="258.34">
+<circle cx="76.367" cy="183.12" r="74.221" fill="#fff"/>
+</mask>
+</defs>
+<circle cx="62.407" cy="62.407" r="61.407" fill="#f7ff00"/>
+<ellipse cx="61.585" cy="30" rx="77.505" ry="111.44" fill="url(#radialGradient4788)" mask="url(#mask1)" opacity=".3"/>
+<circle cx="164.55" cy="117.88" r="59.111" fill="#005eff"/>
+<ellipse cx="164.48" cy="65.991" rx="77.505" ry="111.44" fill="url(#radialGradient4784)" mask="url(#mask2)" opacity=".3"/>
+<circle cx="76.367" cy="183.12" r="74.221" fill="#ff1b00"/>
+<ellipse cx="74.995" cy="145.9" rx="95.293" ry="111.44" fill="url(#radialGradient4871)" mask="url(#mask3)" opacity=".3"/>
+</svg>

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "koekisha",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "8a885a4fe198e84d"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.233,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

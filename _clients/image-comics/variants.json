@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "image-comics",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "7fa5b21731b3155a"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.442,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

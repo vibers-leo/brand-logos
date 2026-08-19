@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gulp-js",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "27120bdccdcd16c0"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.452,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

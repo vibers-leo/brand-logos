@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg height="48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#e05e4c"/>
+      <stop offset="1" stop-color="#ffc169"/>
+    </linearGradient>
+    <linearGradient id="b" gradientTransform="matrix(.75 0 0 .73333332 -10 13.4)" gradientUnits="userSpaceOnUse" x1="-43.628" x2="-2.763" xlink:href="#a" y1="34.886" y2="15.577"/>
+    <linearGradient id="c" gradientTransform="matrix(.75 0 0 .73333332 -3 .4)" gradientUnits="userSpaceOnUse" x1="-43.628" x2="-2.763" xlink:href="#a" y1="34.886" y2="15.577"/>
+    <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="16.994" x2="35.477" y1="6.148" y2="24.631">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect fill="url(#b)" height="22" rx="1.022" ry=".999" transform="rotate(-90)" width="30" x="-43" y="20"/>
+    <path d="m23.428699 16.500119h5.1426l-2.5713 4.279874zm0 7.999762h5.1426l-2.5713-4.199876z" fill="none" stroke="#edf573" stroke-linejoin="bevel" stroke-width="1.000238"/>
+    <path d="m33.428699 16.500119h5.1426l-2.5713 4.279874zm0 7.999762h5.1426l-2.5713-4.199876z" fill="none" stroke="#1e6f43" stroke-linejoin="bevel" stroke-width="1.000238"/>
+    <path d="m33.428699 31.500119h5.1426l-2.5713 4.279874zm0 7.999762h5.1426l-2.5713-4.199876z" fill="none" stroke="#1e6f43" stroke-linejoin="bevel" stroke-width="1.000238"/>
+    <path d="m28.421875 6.0800781-5.886719 2.1015625-14.4511716 18.2890624-.7382813 9.230469.1171875.117187c.1572266.10501.3345613.181641.5371094.181641h12v5.978516c0 .566223.446359 1.021484 1 1.021484h20c.553641 0 1-.455261 1-1.021484v-22.320313z" fill="url(#d)" opacity=".25"/>
+    <rect fill="url(#c)" height="22" rx="1.022" ry=".999" transform="rotate(-90)" width="30" x="-36" y="7"/>
+    <g fill="none" stroke-linejoin="bevel" stroke-width="1.000238">
+      <path d="m10.428699 9.500119h5.1426l-2.5713 4.279874zm0 7.999762h5.1426l-2.5713-4.199876z" stroke="#e84731"/>
+      <path d="m20.428699 9.500119h5.1426l-2.5713 4.279874zm0 7.999762h5.1426l-2.5713-4.199876z" stroke="#e84731"/>
+      <path d="m10.428699 24.500119h5.1426l-2.5713 4.279874zm0 7.999762h5.1426l-2.5713-4.199876z" stroke="#1e6f43"/>
+      <path d="m20.428699 24.500119h5.1426l-2.5713 4.279874zm0 7.999762h5.1426l-2.5713-4.199876z" stroke="#1e6f43"/>
+    </g>
+    <path d="m20 40.978516v1c0 .566223.446359 1.021484 1 1.021484h20c.553641 0 1-.455261 1-1.021484v-1c0 .566223-.446359 1.021484-1 1.021484h-20c-.553641 0-1-.455261-1-1.021484z" opacity=".15"/>
+    <path d="m7 33.978516v1c0 .566223.4463595 1.021484 1 1.021484h20c.553641 0 1-.455261 1-1.021484v-1c0 .566223-.446359 1.021484-1 1.021484h-20c-.5536405 0-1-.455261-1-1.021484z" opacity=".15"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140"><svg viewBox="0 0 300.01 300" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="animated-base-m" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#268599"></stop>
+                  <stop offset="35%" stop-color="#1f6b7a"></stop>
+                  <stop offset="50%" stop-color="#618480"></stop>
+                  <stop offset="75%" stop-color="#c87a5a"></stop>
+                  <stop offset="100%" stop-color="#e8885e"></stop>
+                </linearGradient>
+                <radialGradient id="animated-teal-tl-m" cx="0%" cy="0%" r="70%" fx="5%" fy="5%">
+                  <stop offset="0%" stop-color="#5ec4c4" stop-opacity="0.85"></stop>
+                  <stop offset="40%" stop-color="#3ba8a8" stop-opacity="0.5"></stop>
+                  <stop offset="100%" stop-color="#268599" stop-opacity="0"></stop>
+                </radialGradient>
+                <radialGradient id="animated-coral-br-m" cx="95%" cy="90%" r="50%" fx="90%" fy="85%">
+                  <stop offset="0%" stop-color="#e87850" stop-opacity="0.9"></stop>
+                  <stop offset="50%" stop-color="#d06848" stop-opacity="0.5"></stop>
+                  <stop offset="100%" stop-color="#b05840" stop-opacity="0"></stop>
+                </radialGradient>
+                <radialGradient id="animated-center-m" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#618480" stop-opacity="0.5"></stop>
+                  <stop offset="60%" stop-color="#4a7a78" stop-opacity="0.3"></stop>
+                  <stop offset="100%" stop-color="#3a6a6a" stop-opacity="0"></stop>
+                </radialGradient>
+                <clipPath id="logo-clip-animated-m">
+                  <path d="M272.81,0H27.2C12.18,0,0,12.18,0,27.2h0v245.61c0,15.02,12.18,27.19,27.2,27.19h245.61c15.02,0,27.2-12.18,27.2-27.2h0V27.2C300.01,12.18,287.83,0,272.81,0h0ZM180.13,192.43l-5.07-6.82s-30.39-42.11-41.47-55.4c-5.76-6.92-14.78-10.82-24.5-10.82-18.53-.1-33.63,14.85-33.72,33.38-.1,18.53,14.85,33.63,33.38,33.72,12.83.07,24.58-7.19,30.26-18.7l19.36,25.74s-3,4.65-12.26,12c-8.47,6.71-23.19,11.78-37,11.78-35.56,0-64.37-28.84-64.37-64.39,0-35.55,28.82-64.36,64.37-64.37,13.68,0,27.58,2.78,36.72,11.62,3.62,3.48,51.12,67.77,51.12,67.77l-16.81,24.49ZM209.66,149.15l-16.46-21.41,30.19-45h31.78l-45.51,66.41Z"></path>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#logo-clip-animated-m)">
+                <rect width="300.01" height="300" fill="url(#animated-base-m)"></rect>
+                <rect width="300.01" height="300" fill="url(#animated-teal-tl-m)"></rect>
+                <rect width="300.01" height="300" fill="url(#animated-center-m)"></rect>
+                <rect width="300.01" height="300" fill="url(#animated-coral-br-m)"></rect>
+              </g>
+            </svg></svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

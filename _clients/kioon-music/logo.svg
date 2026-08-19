@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xml:lang="ja" version="1.1"
+  width="801.5px" height="192.5px" viewBox="0 0 801.5 192.5"
+  xmlns="http://www.w3.org/2000/svg"
+>
+	<title>キューンミュージックのロゴ</title>
+
+	<desc>
+	キューンミュージック (Ki/oon Music) &lt;http://www.kioon.com/&gt;のロゴ画像
+	</desc>
+
+	<metadata>
+	<rdf:RDF
+	  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	  xmlns:dc="http://purl.org/dc/elements/1.1/"
+	>
+		<rdf:Description rdf:about="">
+			<dc:title xml:lang="ja">キューンミュージックのロゴ</dc:title>
+			<dc:creator rdf:resource="https://meta.wikimedia.org/?curid=10484470"/>
+			<dc:subject rdf:datatype="http://ndl.go.jp/dcndl/terms/NIISubject">音楽</dc:subject>
+			<dc:description xml:lang="ja">キューンミュージック (Ki/oon Music) &lt;http://www.kioon.com/&gt;のロゴ画像</dc:description>
+			<dc:publisher>Wikimedia Foundation</dc:publisher>
+			<dc:contributor>Ki/oon Music</dc:contributor>
+			<dc:date rdf:datatype="http://www.w3.org/2001/XMLSchemadate">2019-08-30</dc:date>
+			<dc:type rdf:datatype="http://purl.org/dc/terms/DCMIType">StillImage</dc:type>
+			<dc:format rdf:datatype="http://purl.org/dc/terms/IMT">image/svg+xml</dc:format>
+			<dc:source rdf:resource="https://www.kioon.com/images/logo.jpg"/>
+			<dc:language rdf:datatype="http://purl.org/dc/terms/ISO639-2">jpn</dc:language>
+			<dc:rights rdf:resource="http://www.wtfpl.net/about/"/>
+		</rdf:Description>
+	</rdf:RDF>
+	</metadata>
+
+	<g
+	  fill="white"
+	  stroke="black" stroke-width="1" stroke-miterlimit="5"
+	  transform="scale(3.5)">
+	<g>
+		<title>文字“K”</title>
+		<polygon
+		  points="18.5,6.5 18.5,46.5 25.5,46.5 25.5,34.5 35.5,26.5 54,46.5 63,46.5 41.5,22.5 62,6.5 52,6.5 25.5,26 25.5,6.5"
+		 />
+	</g>
+	<g>
+		<title>文字“i”及び“/”</title>
+		<rect
+		  x="66.5" y="6.5" width="7" height="6"
+		/>
+		<polygon
+		  points="66.5,15.5 66.5,49 108,6.5 103.5,6.5 73.5,37.5 73.5,15.5"
+		/>
+	</g>
+	<g>
+		<title>文字“o”</title>
+		<path
+		  fill-rule="evenodd"
+		  d="M 115,21
+		     a 12.5,10.5 180 1,0 0,21 a 12.5,10.5 180 1,0 0,-21
+		     M 115,15
+		     a 19.5,16.5 180 1,0 0,33 a 19.5,16.5 180 1,0 0,-33"
+		/>
+	</g>
+	<g transform="translate(40.5,0)">
+		<title>文字“o”</title>
+		<path
+		  fill-rule="evenodd"
+		  d="M 115,21
+		     a 12.5,10.5 180 1,0 0,21 a 12.5,10.5 180 1,0 0,-21
+		     M 115,15
+		     a 19.5,16.5 180 1,0 0,33 a 19.5,16.5 180 1,0 0,-33"
+		/>
+	</g>
+	<g>
+		<title>文字“n”</title>
+		<path
+		  d="M 176.5,15.5 L 176.5,46.5 L 183.5,46.5 L 183.5,26.5
+		     C 183.5,24.5 187.5,20 194.5,20 C 201.5,20 204.5,25 204.5,27.5
+		     L 204.5,46.5 L 210.5,46.5 L 210.5,26.5
+		     C 210.5,19 202,14 195,14 C 190,14 183.5,17 183.5,18
+		     L 183.5,15.5 z"
+		/>
+	</g>
+	</g>
+</svg>

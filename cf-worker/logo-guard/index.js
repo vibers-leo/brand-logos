@@ -58,6 +58,9 @@ const ALLOWED_DOMAINS = [
   "xn--o39a53dg0bv12b6ecs6p.kr", // 이가네양꼬치.kr
   "xn--2f5b212a.com", // 야화.com
   "xn--bb0b37am4cuob.com", // 세모폰.com
+  // Cloudflare Pages 미리보기 — 우리 프로젝트 것만 (와일드카드 pages.dev 는
+  // 남의 사이트까지 핫링크를 허용하므로 넣지 않는다)
+  "semologo.pages.dev",
   // localhost 개발환경
   "localhost",
   "127.0.0.1",

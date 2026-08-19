@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="75px" viewBox="0 0 1065 535" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M59.4349113,496 C26.6647426,496 0,469.35682 0,436.490791 L0,49.6 C0,22.0156953 22.1518854,0 49.4776207,0 L397,0 L397,19.84 L386.982015,19.84 C370.74061,19.84 357.3,33.1640059 357.3,49.6 C357.3,66.150583 370.589091,79.36 386.982015,79.36 L397,79.36 L397,496 L99.25,496 L99.25,79.36 L347.375,79.36 C347.375,79.36 337.45,63.6960131 337.45,49.0753211 C337.45,34.4546291 347.375,19.84 347.375,19.84 L49.4933201,19.84 C33.1217664,19.84 19.85,33.049417 19.85,49.6 C19.85,66.0359941 33.0950209,79.36 49.4933201,79.36 L79.4,79.36 L79.4,496 L59.4349113,496 Z M270.92,322.18 L168.02,322.18 L112.16,266.32 L112.16,163 L168.02,106.72 L322.16,106.72 L378.02,163 L378.02,231.88 L281.84,231.88 L281.84,197.02 L270.92,185.68 L219.68,185.68 L208.34,197.02 L208.34,232.3 L219.68,243.22 L322.16,243.22 L378.02,299.5 L378.02,401.14 L322.16,457 L168.02,457 L112.16,401.14 L112.16,333.94 L208.34,333.94 L208.34,366.7 L219.68,378.04 L270.92,378.04 L281.84,367.12 L281.84,333.52 L270.92,322.18 Z" id="path-2"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="1498170090_icon-30-book" transform="translate(24.000000, 18.000000)">
+                <g id="Group">
+                    <g id="Page-1">
+                        <g id="icon-30-book">
+                            <g id="Combined-Shape">
+                                <use fill="#FF0000" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <use fill-opacity="0.7" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            </g>
+                            <path d="M607.8,378.04 L607.8,320.08 L539.34,320.08 L539.34,378.04 L560.34,378.04 L560.34,457 L422.16,457 L422.16,378.04 L443.16,378.04 L443.16,185.68 L422.16,185.68 L422.16,106.72 L560.34,106.72 L560.34,185.68 L539.34,185.68 L539.34,233.56 L607.8,233.56 L607.8,185.68 L586.8,185.68 L586.8,106.72 L724.98,106.72 L724.98,185.68 L703.98,185.68 L703.98,378.04 L724.98,378.04 L724.98,457 L586.8,457 L586.8,378.04 L607.8,378.04 Z M907.26,322.18 L804.36,322.18 L748.5,266.32 L748.5,163 L804.36,106.72 L958.5,106.72 L1014.36,163 L1014.36,231.88 L918.18,231.88 L918.18,197.02 L907.26,185.68 L856.02,185.68 L844.68,197.02 L844.68,232.3 L856.02,243.22 L958.5,243.22 L1014.36,299.5 L1014.36,401.14 L958.5,457 L804.36,457 L748.5,401.14 L748.5,333.94 L844.68,333.94 L844.68,366.7 L856.02,378.04 L907.26,378.04 L918.18,367.12 L918.18,333.52 L907.26,322.18 Z" id="HS" fill="#D02B2B"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" version="1.0">
+  <defs>
+    <radialGradient xlink:href="#a" id="d" cx=".5" cy=".953125" r=".74541003" fx=".5" fy=".953125"/>
+    <radialGradient xlink:href="#b" id="c" cx=".5" cy=".953125" r=".74541003" fx=".5" fy=".953125"/>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#02000d" stop-opacity=".60390002"/>
+      <stop offset="1" stop-color="#970000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#4c0000" stop-opacity=".60390002"/>
+      <stop offset="1" stop-color="#970000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill-rule="evenodd" font-size="12" transform="translate(-287.5354 -381.0181) scale(1.09535)">
+    <g transform="translate(3.526687 -2.015259)">
+      <circle cx="297.5" cy="418.61221" r="30" fill="#0000b3" transform="translate(72.49998 -36.25)"/>
+      <circle cx="297.5" cy="418.61221" r="30" fill="#fff" fill-opacity=".45669998" transform="matrix(.44142 .12335 -.0841 .30097 280.1325 205.3008)"/>
+      <circle cx="297.5" cy="418.61221" r="30" fill="url(#c)" transform="translate(71.4733 -36.59851)"/>
+    </g>
+    <path fill="#040000" d="m350.8661 383.4841-44.725 24.2687c.5344 6.9706 4.371 11.5762 8.8529 15.2584l44.9275-24.9518c-.6018-6.7429-2.6969-10.956-9.0554-14.5753z"/>
+    <circle cx="297.5" cy="418.61221" r="30"/>
+    <circle cx="297.5" cy="418.61221" r="30" fill="#fff" fill-opacity=".45669998" transform="matrix(.44142 .12335 -.0841 .30097 206.5758 241.2266)"/>
+    <path fill="#040000" d="m386.3464 448.6343-1.7572-50.8548c-6.4764-2.6328-12.3102-1.2549-17.6056 1.1126l2.2782 51.3408c6.3027 2.4708 11.008 2.4762 17.0846-1.5986z"/>
+    <g transform="translate(3.02288 2.015137)">
+      <circle cx="297.5" cy="418.61221" r="30" fill="#ab0000" transform="translate(74.99999 42.49994)"/>
+      <circle cx="297.5" cy="418.61221" r="30" fill="#fff" fill-opacity=".45669998" transform="matrix(.44142 .12335 -.0841 .30097 280.1325 284.0507)"/>
+      <circle cx="297.5" cy="418.61221" r="30" fill="#fff" fill-opacity=".45669998" transform="matrix(.44142 .12335 -.0841 .30097 280.1325 284.0507)"/>
+      <circle cx="297.5" cy="418.61221" r="30" fill="url(#d)" transform="translate(74.99999 42.49994)"/>
+    </g>
+    <path fill="#040000" d="m356.3334 448.0147-44.9279-23.8911c-5.5168 4.2941-7.2385 10.0358-7.8341 15.8057l45.6092 23.6828c5.2897-4.2246 7.6457-8.2976 7.1528-15.5974z"/>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+
+<!-- unit multiples -->
+<!ENTITY U1   "20">
+<!ENTITY U2   "40">
+<!ENTITY U4   "80">
+<!ENTITY U6  "120">
+<!ENTITY U8  "160">
+<!ENTITY U10 "200">
+<!ENTITY U12 "240">
+<!ENTITY U16 "320">
+
+<!-- colors -->
+<!ENTITY color-logo-T "#3d78b5">
+<!ENTITY color-logo-W "#013467">
+
+]>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+	id="TranslateWiki_Logo"
+	viewBox="-&U6; -&U8; &U12; &U16;"
+	width="&U12;"
+	height="&U16;"
+>
+
+
+<title>translatewiki.net logo</title>
+
+<desc>
+<![CDATA[
+
+	translatewiki.net (<http://www.translatewiki.net>) logo
+	
+	Logo author: © 2008 Danny B., <http://meta.wikimedia.org/wiki/User:Danny_B.>
+	Logo license: All rights reserved. translatewiki.net staff has been granted a perpetual free use license.
+	This representation author: © 2009 Danny B., <http://meta.wikimedia.org/wiki/User:Danny_B.>
+	This representation license: All rights reserved. translatewiki.net staff has been granted a perpetual free use license.
+	
+]]>
+</desc>
+
+
+<g>
+	
+	<g id="Logo">
+		
+		<polygon id="Logo-T"
+			points="-&U6;,-&U8; &U6;,-&U8; &U6;,-&U4; &U4;,-&U4; &U4;,-&U6; &U1;,-&U6; &U1;,&U2; -&U1;,&U2; -&U1;,-&U6; -&U4;,-&U6; -&U4;,-&U4; -&U6;,-&U4;"
+			fill="&color-logo-T;"
+		/>
+		
+		<polygon id="Logo-W"
+			points="-&U6;,-&U2; -&U4;,-&U2; -&U4;,&U6; -&U1;,&U6; -&U1;,&U4; &U1;,&U4; &U1;,&U6; &U4;,&U6; &U4;,-&U2; &U6;,-&U2; &U6;,&U8; -&U6;,&U8;"
+			fill="&color-logo-W;"
+		/>
+		
+	</g><!-- #Logo -->
+	
+</g>
+
+</svg>

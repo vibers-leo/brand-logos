@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="499px"
+  height="260px"
+  version="1.1">
+ <defs>
+  <style type="text/css">
+    .vorne  {fill:#FFFFFF;stroke:#000000;stroke-width:4.9074}
+    .hinten {fill:#000000;stroke:#000000;stroke-width:4.9074}
+  </style>
+ </defs>
+  <path class="hinten" d="M433 228l-51 0 0 -37 -12 21c-4,7 -11,16 -26,16 -14,0 -25,-10 -25,-24l0 -16 -24 40 -61 0 87 -148c4,-7 15,-14 24,-14 14,0 23,11 24,24l0 16 15 -26c5,-7 16,-14 25,-14 13,0 23,11 24,24l0 138z"/>
+  <path class="hinten" d="M172 66l-85 146c-4,7 -11,16 -26,16 -14,0 -25,-10 -25,-24l0 -138 52 0 0 39 23 -39 61 0z"/>
+  <path class="hinten" d="M252 66l-65 111 58 0 -30 51 -74 0c-28,0 -31,-23 -25,-34l75 -128 61 0z"/>
+  <path class="vorne" d="M463 202l-50 0 0 -37 -12 21c-4,7 -11,16 -26,16 -14,0 -26,-10 -26,-24l0 -16 -23 40 -62 0 88 -148c4,-8 15,-14 24,-14 14,0 23,11 24,24l0 16 15 -26c5,-8 16,-14 24,-14 14,0 24,11 24,24l0 138z"/>
+  <path class="vorne" d="M203 40l-85 146c-4,7 -11,16 -26,16 -14,0 -26,-10 -26,-24l0 -138 53 0 0 39 23 -39 61 0z"/>
+  <path class="vorne" d="M283 40l-65 111 58 0 -30 51 -74 0c-28,0 -31,-24 -25,-34l75 -128 61 0z"/>
+</svg>

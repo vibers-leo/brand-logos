@@ -48,6 +48,8 @@ from pathlib import Path
 import cairosvg
 from PIL import Image
 
+import safesvg
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import logoform as L  # noqa: E402
 
@@ -185,8 +187,7 @@ def derive_symbol(brand_dir: Path, svg_rel: str, arr, dry: bool):
     out_dir.mkdir(exist_ok=True)
     (out_dir / "symbol.svg").write_text(cropped)
     try:
-        raw = cairosvg.svg2png(bytestring=cropped.encode(), output_width=512)
-        img = Image.open(io.BytesIO(raw)).convert("RGBA")
+        img = _safe_render(cropped, 512, transparent=True)
         if img.getbbox() is None:
             (out_dir / "symbol.svg").unlink(missing_ok=True)
             return None
@@ -459,3 +460,21 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+def _safe_render(src, width: int, *, transparent: bool = False):
+    """safesvg 를 거쳐 PIL Image 를 돌려준다. 실패 시 예외를 던진다.
+
+    cairosvg 를 직접 부르면 병적 SVG 하나에 배치가 멈춘다 —
+    2026-08-18~19 에 두 스크립트에서 각각 6시간 40분·3시간 3분을 날렸다.
+    """
+    import tempfile
+    from pathlib import Path as _P
+    from PIL import Image as _I
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as t:
+        tmp = _P(t.name)
+    try:
+        safesvg.render_to_file(src, tmp, width, transparent=transparent)
+        return _I.open(tmp).convert("RGBA")
+    finally:
+        tmp.unlink(missing_ok=True)

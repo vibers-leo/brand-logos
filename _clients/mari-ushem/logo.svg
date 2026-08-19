@@ -1,0 +1,9 @@
+<svg width="880" height="586" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="880" height="293" fill="#FFF"/>
+<rect y="293" width="880" height="69" fill="#D40000"/>
+<rect y="362" width="880" height="224" fill="#006435"/>
+<g fill="#D40000">
+<path id="motif" d="M252 293a188 188 0 0 1 376 0H596a156 156 0 0 0-312 0Zm111 0-33-33 33-33 24 24-11 11-13-13-11 11 22 22 55-55-22-22-11 11 13 13-11 11-24-24 33-33 33 33 33-33 33 33-24 24-11-11 13-13-11-11-22 22 55 55 22-22-11-11-13 13-11-11 24-24 33 33-33 33H495l-55-55-55 55Zm77-33 33 33h-66Z"/>
+</g>
+<use xlink:href="#motif" fill="#FFF" transform="matrix(1,0,0,-1,0,586)"/>
+</svg>

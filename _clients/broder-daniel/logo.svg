@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0">
+
+<rect width="250" height="250" x="0" y="0" fill="black" />
+
+<g transform="translate(125, 125)">
+  <circle cx="0" cy="0" r="92" fill="none" stroke="white" stroke-width="9" />
+
+  <g transform="scale(0.9, 1.1)">
+    <text x="-75" y="40" font-size="110" fill="white" font-family="Arial">B</text>
+
+    <g transform="scale(-1, 1)">
+      <text x="-75" y="40" font-size="110" fill="white" font-family="Arial">D</text>
+    </g>
+  </g>
+
+</g>
+
+</svg>

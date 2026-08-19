@@ -72,6 +72,9 @@ viewBox만 바꾸므로 path는 하나도 건드리지 않는다 = 무손실이�
 
 from __future__ import annotations
 
+import safesvg
+from PIL import Image
+
 import io
 import re
 from dataclasses import dataclass
@@ -136,18 +139,33 @@ def _svg_bytes(path: Path) -> bytes | None:
     return raw
 
 
+
+def _safe_render(src, width: int, *, transparent: bool = False):
+    """safesvg 를 거쳐 PIL Image 를 돌려준다. 실패 시 예외를 던진다.
+
+    cairosvg 를 직접 부르면 병적 SVG 하나에 배치가 멈춘다 —
+    2026-08-18~19 에 두 스크립트에서 각각 6시간 40분·3시간 3분을 날렸다.
+    """
+    import tempfile
+    from pathlib import Path as _P
+    from PIL import Image as _I
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as t:
+        tmp = _P(t.name)
+    try:
+        safesvg.render_to_file(src, tmp, width, transparent=transparent)
+        return _I.open(tmp).convert("RGBA")
+    finally:
+        tmp.unlink(missing_ok=True)
+
+
 def render(path: Path, width: int = 1200) -> np.ndarray | None:
     """SVG/PNG → RGBA ndarray. 렌더가 비었거나 꽉 찼으면 None (분석 불가)."""
-    import cairosvg
-    from PIL import Image
-
     p = Path(path)
     try:
         if p.suffix.lower() == ".svg":
             if _svg_bytes(p) is None:
                 return None
-            raw = cairosvg.svg2png(url=str(p), output_width=width)
-            img = Image.open(io.BytesIO(raw)).convert("RGBA")
+            img = _safe_render(p, width, transparent=True)
         else:
             img = Image.open(p).convert("RGBA")
             if img.width != width:

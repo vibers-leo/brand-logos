@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>VinoScan</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2A0A14"/>
+      <stop offset="0.55" stop-color="#14060B"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <linearGradient id="wine" x1="256" y1="206" x2="256" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f43f5e"/>
+      <stop offset="1" stop-color="#9f1239"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="256" cy="232" r="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e11d48" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#e11d48" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+
+  <!-- Viewfinder corner brackets (motivo de "scan", ecoa a UI da câmera) -->
+  <g stroke="#f43f5e" stroke-width="16" stroke-linecap="round" fill="none">
+    <path d="M96 150 V112 Q96 96 112 96 H150"/>
+    <path d="M416 150 V112 Q416 96 400 96 H362"/>
+    <path d="M96 362 V400 Q96 416 112 416 H150"/>
+    <path d="M416 362 V400 Q416 416 400 416 H362"/>
+  </g>
+
+  <!-- Taça de vinho -->
+  <g>
+    <!-- Vinho (preenchimento da parte inferior do bojo) -->
+    <path d="M196 206 L316 206 C314 246 292 282 256 300 C220 282 198 246 196 206 Z" fill="url(#wine)"/>
+    <!-- Contorno do bojo + vidro (cream) -->
+    <path d="M176 150 L336 150 C334 232 304 286 256 304 C208 286 178 232 176 150 Z"
+          fill="none" stroke="#F4E9CE" stroke-width="15" stroke-linejoin="round"/>
+    <!-- Haste -->
+    <rect x="250" y="300" width="12" height="62" rx="5" fill="#F4E9CE"/>
+    <!-- Base -->
+    <rect x="196" y="372" width="120" height="15" rx="7.5" fill="#F4E9CE"/>
+    <!-- Brilho/scan-line sutil no vidro -->
+    <path d="M206 168 C214 210 232 244 256 260" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

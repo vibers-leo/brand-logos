@@ -1,0 +1,13 @@
+<svg width="160" height="40" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="zawjiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8356D"/>
+      <stop offset="50%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#E8A0FF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(15,20) scale(0.15)">
+    <path d="M50 0 L61.8 30.9 L93.3 25 L69.1 50 L93.3 75 L61.8 69.1 L50 100 L38.2 69.1 L6.7 75 L30.9 50 L6.7 25 L38.2 30.9 Z" fill="url(#zawjiGradient)"/>
+  </g>
+  <text x="32" y="28" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="24" fill="url(#zawjiGradient)">Zawji</text>
+</svg>

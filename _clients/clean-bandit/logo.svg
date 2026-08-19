@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f301;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #01ce35;
+      }
+
+      .cls-3 {
+        fill: #fe0000;
+      }
+
+      .cls-4 {
+        fill: #005fea;
+      }
+    </style>
+  </defs>
+  <path id="Triangle" class="cls-1" d="M12.549,456.784L96.7,309.639l83.429,147.145H12.549Z"/>
+  <path id="Diamond" class="cls-2" d="M255.582,55.216L151.114,237.879l104.468,173.24,104.467-173.24Z"/>
+  <path id="Square" class="cls-3" d="M368.758,327.033H498.614V456.784H368.758V327.033Z"/>
+  <path id="Circle" class="cls-4" d="M432.235,55.216c36.66,0,66.379,29.532,66.379,65.96s-29.719,65.961-66.379,65.961-66.379-29.531-66.379-65.961S395.575,55.216,432.235,55.216Z"/>
+</svg>

@@ -24,7 +24,20 @@ UPLOAD=1
 step() { printf '\n\033[1m── %s\033[0m\n' "$1"; }
 
 step "1/7 logo.png 보정 + 가짜 벡터 정리"
+# ensure-logo-png 는 **일부 실패가 있으면 exit 1** 을 낸다(빈 렌더·시간초과 등).
+# 그건 "이 브랜드는 PNG 없이 SVG 만 서비스" 라는 정상 처리지 치명적 오류가
+# 아니다. set -e 로 여기서 멈추면 뒤 6단계가 통째로 안 돈다 —
+# 실제로 2026-08-18 에 실패 170건 때문에 파이프라인이 1단계에서 끊겼다.
+# 다만 조용히 넘기지는 않는다: 종료코드가 1 이 아니면(크래시) 중단한다.
+set +e
 python3 scripts/ensure-logo-png.py --demote-fake
+rc=$?
+set -e
+if [ "$rc" -gt 1 ]; then
+  echo "❌ 1단계가 비정상 종료했다 (exit $rc) — 중단한다"
+  exit "$rc"
+fi
+[ "$rc" = "1" ] && echo "⚠️ 일부 PNG 생성 실패 (위 목록) — 나머지 단계는 계속한다"
 
 step "2/7 PNG 파생물 생성 (logo-800·icon·transparent·white)"
 python3 build-variants.py

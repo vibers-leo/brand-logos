@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 55 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #ffd200;
+      }
+
+      .cls-3 {
+        fill: #0b3254;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-83.133" y1="146.794" x2="-81.785" y2="146.794" gradientTransform="matrix(18.265, 0, 0, -5.102, 1552.756, 751.492)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.09" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.19" stop-color="#fff8da" stop-opacity="0.15"/>
+      <stop offset="0.4" stop-color="#ffeb8d" stop-opacity="0.45"/>
+      <stop offset="0.59" stop-color="#ffe051" stop-opacity="0.68"/>
+      <stop offset="0.76" stop-color="#ffd925" stop-opacity="0.86"/>
+      <stop offset="0.88" stop-color="#ffd40a" stop-opacity="0.96"/>
+      <stop offset="0.95" stop-color="#ffd200"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path class="cls-1" d="M36.437,0V.018a2.506,2.506,0,0,0-2.11,2.533,2.505,2.505,0,0,0,2.11,2.533V5.1H52.592V0Z"/>
+        <ellipse class="cls-2" cx="52.592" cy="2.553" rx="2.408" ry="2.553"/>
+        <ellipse class="cls-2" cx="52.592" cy="2.553" rx="2.408" ry="2.553"/>
+        <path class="cls-3" d="M6.828,24H3.048l2.033-5.1L0,7.4H3.777l3.093,7,2.784-7H13.41Zm42.8-11.73v6.485H46.047V12.878c0-1.615-.773-2.388-1.966-2.388a2.64,2.64,0,0,0-1.944,1.124v7.141h-3.6V7.4h3.6v.749a4.464,4.464,0,0,1,2.936-1.1C47.77,7.048,49.625,9.038,49.625,12.27Zm4.711,6.485H50.758V7.4h3.578ZM21.036,7.4v.608A5.077,5.077,0,0,0,18.1,7.14c-2.894,0-5.326,2.528-5.326,5.924,0,3.371,2.43,5.923,5.326,5.923a5.046,5.046,0,0,0,2.936-.868v.632h3.579V7.4Zm-2.117,8.54a2.8,2.8,0,0,1-2.71-2.873,2.715,2.715,0,1,1,5.42,0,2.793,2.793,0,0,1-2.707,2.87ZM33.632,7.4v.608A5.077,5.077,0,0,0,30.7,7.14c-2.894,0-5.326,2.528-5.326,5.924,0,3.371,2.43,5.923,5.326,5.923a5.046,5.046,0,0,0,2.936-.868v.632h3.579V7.4H33.632Zm-2.117,8.54a2.8,2.8,0,0,1-2.71-2.873,2.715,2.715,0,1,1,5.42,0,2.792,2.792,0,0,1-2.707,2.87Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

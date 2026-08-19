@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7.05 8.42 152.08 66.17">
+  <title>Eneco</title>
+  <defs>
+    <radialGradient id="a" cx="70.58" cy="41.35" r="15.01" gradientTransform="matrix(.92 0 0 .92 -34 -1.44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe199"/>
+      <stop offset=".12" stop-color="#fdda8e"/>
+      <stop offset=".32" stop-color="#f8c771"/>
+      <stop offset=".59" stop-color="#f1a841"/>
+      <stop offset=".71" stop-color="#ed992a"/>
+    </radialGradient>
+    <radialGradient id="b" cx="-110.06" cy=".59" r="13.76" gradientTransform="matrix(1.5 0 0 1.5 178.37 41.45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcda8a"/>
+      <stop offset=".08" stop-color="#f9cc83"/>
+      <stop offset=".23" stop-color="#f1a871"/>
+      <stop offset=".43" stop-color="#e46e53"/>
+      <stop offset=".67" stop-color="#d31e2a"/>
+      <stop offset=".75" stop-color="#cc001b"/>
+    </radialGradient>
+    <radialGradient id="c" cx="107.39" cy="60.85" r="13.76" gradientTransform="matrix(.83 0 0 .83 -53.48 13.41)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8d9c4"/>
+      <stop offset=".71" stop-color="#cd0035"/>
+    </radialGradient>
+    <radialGradient id="d" cx="97.39" cy="-3.83" r="8.26" gradientTransform="matrix(.83 0 0 .83 -53.48 13.41)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fad59f"/>
+      <stop offset=".88" stop-color="#d43f4d"/>
+    </radialGradient>
+    <radialGradient id="e" cx="167.98" cy="44.73" r="13.76" gradientTransform="matrix(.67 0 0 .67 -95.44 -6.86)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8cfa0"/>
+      <stop offset="1" stop-color="#dd6317"/>
+    </radialGradient>
+  </defs>
+  <path fill="none" d="M0 0h170.08v85.04H0z"/>
+  <path fill="#d20f42" d="M101 32.83c-6.53 0-11 2.68-11 12s5.18 12.24 11.49 12.24a29.7 29.7 0 0 0 8.51-1.23l-1.42-6a39.6 39.6 0 0 1-6 .57c-2.68 0-4.12-.41-4.2-2.81h13.27c.84-12.5-2.65-14.77-10.65-14.77m-3.11 10.31c.14-2.58 1.32-4.55 3.55-4.55s3.77 1.08 3.81 4.22Zm-21.2-10.31A41.8 41.8 0 0 0 64.27 35v21.46h8.17V40.37a13.5 13.5 0 0 1 2.45-.31c2.78 0 3.23 1.08 3.23 4.3v12.1h8.17V43.81c0-8.18-3.35-10.98-9.6-10.98m50.66 6.87a19.9 19.9 0 0 1 5.06.89l1.6-6.78a26.3 26.3 0 0 0-7.46-1c-6.76 0-11.58 2.67-11.58 12s4.78 12.25 11.58 12.25A24 24 0 0 0 134 56l-1.6-6.79a15.3 15.3 0 0 1-5.06 1c-2.72 0-4.2-.49-4.2-5.18.01-5.03 1.49-5.33 4.21-5.33m-66.74-6.29-1.76-7.51H39.29v19.72c0 8 3.29 10.76 9.34 10.84h11.53V49H51c-2.06-.16-3.17-1.31-3.17-4.24h9.84v-7.42h-9.85v-3.93Zm87-.58c-7.42 0-11.39 2.62-11.39 12s3.88 12.25 11.39 12.25 11.49-2.82 11.49-12.25-3.97-12-11.52-12Zm0 18c-2.55 0-3.22-.62-3.22-5.85 0-5.41.67-5.9 3.22-5.9s3.26.49 3.26 5.9c-.03 5.23-.7 5.85-3.29 5.85Z"/>
+  <path fill="url(#a)" d="M42.72 40.87a8.08 8.08 0 1 1-8.08-8.08 8.08 8.08 0 0 1 8.08 8.08"/>
+  <path fill="url(#b)" d="M31.3 49a12.12 12.12 0 1 1-12.12-12.17A12.12 12.12 0 0 1 31.3 49"/>
+  <path fill="url(#c)" d="M46 67.8a6.74 6.74 0 1 1-6.73-6.73A6.73 6.73 0 0 1 46 67.8"/>
+  <path fill="url(#d)" d="M33.68 12.43a4 4 0 1 1-4-4 4 4 0 0 1 4 4"/>
+  <path fill="url(#e)" d="M24.57 25.9a5.39 5.39 0 1 1-5.39-5.39 5.38 5.38 0 0 1 5.39 5.39"/>
+</svg>

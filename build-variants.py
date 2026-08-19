@@ -31,11 +31,38 @@ try:
 except ImportError:
     logoform = None
 
+# cairosvg 렌더는 반드시 이걸 거친다 — 거대·병적 SVG 하나가 배치 전체를
+# 멈추는 걸 막는다. 2026-08-18 에 ensure-logo-png 가 6시간 40분,
+# 2026-08-19 에 이 파일이 3시간 3분을 한 파일에 날렸다.
+import safesvg  # noqa: E402
+
 
 def svg_to_pil(svg_path: Path, width: int) -> Image.Image:
-    """SVG → PIL Image (지정 너비 기준, 비율 유지, 흰 배경)"""
-    png_bytes = cairosvg.svg2png(url=str(svg_path), output_width=width, background_color="white")
-    return Image.open(io.BytesIO(png_bytes)).convert("RGBA")
+    """SVG → PIL Image (지정 너비 기준, 비율 유지, 흰 배경)
+
+    safesvg 를 거친다 — 크기·시간 가드가 걸리면 SvgRenderError 를 던지고,
+    호출부(process_brand)가 그 브랜드만 실패로 기록하고 넘어간다.
+    """
+    import tempfile
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as t:
+        tmp = Path(t.name)
+    try:
+        safesvg.render_to_file(svg_path, tmp, width)
+        return Image.open(tmp).convert("RGBA")
+    finally:
+        tmp.unlink(missing_ok=True)
+
+
+def svg_bytes_to_pil(svg_text: str, width: int) -> Image.Image:
+    """메모리 SVG(심볼 크롭 결과)를 렌더한다. 파일과 같은 가드를 받는다."""
+    import tempfile
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as t:
+        tmp = Path(t.name)
+    try:
+        safesvg.render_to_file(svg_text, tmp, width, transparent=True)
+        return Image.open(tmp).convert("RGBA")
+    finally:
+        tmp.unlink(missing_ok=True)
 
 
 def png_to_pil(png_path: Path, width: int) -> Image.Image:
@@ -163,8 +190,14 @@ def svg_to_pil_alpha(svg_path: Path, width: int) -> Image.Image:
     실제로 그래서 sony·arsenal·railway 등 흰색 fill 로고 수백 개의
     파비콘이 remove_white_bg() 에 통째로 지워져 빈 파일이 돼 있었다.
     """
-    raw = cairosvg.svg2png(url=str(svg_path), output_width=width)
-    return Image.open(io.BytesIO(raw)).convert("RGBA")
+    import tempfile
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as t:
+        tmp = Path(t.name)
+    try:
+        safesvg.render_to_file(svg_path, tmp, width, transparent=True)
+        return Image.open(tmp).convert("RGBA")
+    finally:
+        tmp.unlink(missing_ok=True)
 
 
 def _fit_icon(img: Image.Image, size: int) -> Image.Image:
@@ -231,10 +264,7 @@ def build_icon(svg_path: Path, png_path: Path, size: int = 64):
                         (arr.shape[1], arr.shape[0]),
                     )
                     if cropped:
-                        raw = cairosvg.svg2png(
-                            bytestring=cropped.encode(), output_width=size * 4
-                        )
-                        sym = Image.open(io.BytesIO(raw)).convert("RGBA")
+                        sym = svg_bytes_to_pil(cropped, size * 4)
                         return _icon_from_image(sym, size), "symbol"
         except Exception:
             pass  # 어떤 이유로든 실패하면 조용히 전체 로고 경로로
@@ -341,6 +371,19 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
     return results
 
 
+def _process_one(arg):
+    """ProcessPoolExecutor 워커. 브랜드 하나를 처리하고 결과 dict 를 돌려준다.
+
+    한 브랜드가 죽어도 배치는 계속 간다 — 예외를 결과로 바꿔 돌려준다.
+    """
+    brand, dry_run = arg
+    try:
+        return process_brand(brand, dry_run=dry_run)
+    except Exception as e:  # noqa: BLE001
+        return {"brand": brand["id"], "name": brand.get("name_ko") or brand["id"],
+                "created": [], "skipped": [], "errors": [f"{type(e).__name__}: {e}"]}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--brand", help="특정 브랜드 ID만")
@@ -349,6 +392,11 @@ def main():
     parser.add_argument("--force-icon", action="store_true",
                         help="logo-icon.png만 재생성 (나머지 변형은 보존)")
     parser.add_argument("--report", help="심볼/통짜 판정 결과를 JSON으로 저장할 경로")
+    # 브랜드 4만 개 × 변형 4종을 단일 프로세스로 돌리면 분당 77개, 약 5시간이다
+    # (실측 2026-08-19, 코어 10개 중 1개만 사용). process_brand 는 브랜드마다
+    # 독립적이고 brands.json 쓰기는 루프가 끝난 뒤 한 번만 하므로 병렬화가 안전하다.
+    parser.add_argument("--jobs", type=int, default=1,
+                        help="동시 처리 프로세스 수 (기본 1, 권장 코어수-2)")
     args = parser.parse_args()
 
     brands = json.loads(BRANDS_JSON.read_text())["brands"]
@@ -376,8 +424,9 @@ def main():
     total_created = 0
     icon_stats = {"symbol": [], "whole": []}
 
-    for brand in brands:
-        r = process_brand(brand, dry_run=args.dry_run)
+    def _emit(r):
+        """한 브랜드 결과를 집계·출력한다. 순차·병렬 양쪽에서 같은 코드를 쓴다."""
+        nonlocal updated, total_created
         if r.get("icon_method"):
             icon_stats[r["icon_method"]].append(r["brand"])
         status = []
@@ -397,7 +446,21 @@ def main():
                 updated += 1
                 status.append(f"🎨 dark={r['dark_variant']}")
 
-        print(f"[{r['name']}] {' | '.join(status) if status else '변경 없음'}")
+        print(f"[{r['name']}] {' | '.join(status) if status else '변경 없음'}", flush=True)
+
+    if args.jobs > 1 and not args.brand:
+        # fork 로 자식에서 렌더하고 결과 dict 만 돌려받는다. 파일 쓰기는
+        # 브랜드 폴더별로 갈라져 충돌하지 않고, brands.json 은 부모만 쓴다.
+        from concurrent.futures import ProcessPoolExecutor
+        import multiprocessing as _mp
+        ctx = _mp.get_context("fork")
+        with ProcessPoolExecutor(max_workers=args.jobs, mp_context=ctx) as ex:
+            for r in ex.map(_process_one, [(b, args.dry_run) for b in brands], chunksize=8):
+                if r is not None:
+                    _emit(r)
+    else:
+        for brand in brands:
+            _emit(process_brand(brand, dry_run=args.dry_run))
 
     if updated and not args.dry_run:
         all_brands_data["total"] = len(all_brands_data["brands"])

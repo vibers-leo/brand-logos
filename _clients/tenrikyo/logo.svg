@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="680" id="svg2" version="1.0">
+<circle cx="340" cy="340" r="311" fill="#fff" stroke-width="57" stroke="#000"/>
+<path d="M326,299v-38a96,96 0 1 1 28,0V299a45,45 0 0 0 -28,0zM345.5,382.75l21,28.5a105,105 0 0 0 -26.5,53.5a105,105 0 0 0 -26.5-53.5l21-28.5a45,45 0 0 0 11,0z" id="figs"/>
+<use xlink:href="#figs" transform="rotate(72 340 340)"/>
+<use xlink:href="#figs" transform="rotate(144 340 340)"/>
+<use xlink:href="#figs" transform="rotate(217 340 340)"/>
+<use xlink:href="#figs" transform="rotate(288 340 340)"/>
+<circle cx="340" cy="340" r="35.5"/>
+</svg>

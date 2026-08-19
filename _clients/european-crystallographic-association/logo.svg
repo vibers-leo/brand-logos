@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="47.67 -11.83 485.16 473.66">
+<defs>
+<radialGradient id="b" cx="30%" cy="70%" r="75%" fx="30%" fy="70%">
+<stop offset="0%" stop-color="#f0f4fa" stop-opacity=".6"/>
+<stop offset="40%" stop-color="#9bb3de" stop-opacity=".85"/>
+<stop offset="100%" stop-color="#309" stop-opacity=".99"/>
+</radialGradient>
+<path id="a" d="M520 0H288a223.5 223.5 0 0 0-183 358l26-54A178 178 0 0 1 288 51h210zM68 450l95-191h50l-71 148a199.94 199.94 0 0 0 78 43zm104-87a179.13 179.13 1 0 0 243-9l-46-95h53l50 100a226.74 226.74 0 0 1-319 45zm194 87a236.72 236.72 1 0 0 80-45h71l-22 45zM167 251l86-173a46.61 46.61 0 0 1 76 0l59 115h-51l-46-88-48 97h272l-20 49z"/>
+<clipPath id="c"><use xlink:href="#a"/></clipPath>
+</defs>
+<circle cx="277" cy="263" r="360" fill="url(#b)" clip-path="url(#c)"/>
+<use fill="none" stroke="#71778D" stroke-width="5" xlink:href="#a"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="500px" width="360px">
+	<!--25 squares on the background-->
+	<rect   x="9px"   y="9px" width="62px" height="62px" fill="#125480"/>
+	<rect  x="79px"   y="9px" width="62px" height="62px" fill="#125480"/>
+	<rect x="149px"   y="9px" width="62px" height="62px" fill="#125480"/>
+	<rect x="219px"   y="9px" width="62px" height="62px" fill="#125480"/>
+	<rect x="289px"   y="9px" width="62px" height="62px" fill="#125480"/>
+
+	<rect   x="9px"  y="79px" width="62px" height="62px" fill="#125480"/>
+	<rect  x="79px"  y="79px" width="62px" height="62px" fill="#125480"/>
+	<rect x="219px"  y="79px" width="62px" height="62px" fill="#125480"/>
+	<rect x="289px"  y="79px" width="62px" height="62px" fill="#125480"/>
+
+	<rect   x="9px" y="149px" width="62px" height="62px" fill="#125480"/>
+	<rect x="289px" y="149px" width="62px" height="62px" fill="#125480"/>
+
+	<rect   x="9px" y="219px" width="62px" height="62px" fill="#125480"/>
+	<rect  x="79px" y="219px" width="62px" height="62px" fill="#125480"/>
+	<rect x="219px" y="219px" width="62px" height="62px" fill="#125480"/>
+	<rect x="289px" y="219px" width="62px" height="62px" fill="#125480"/>
+
+	<rect   x="9px" y="289px" width="62px" height="62px" fill="#125480"/>
+	<rect  x="79px" y="289px" width="62px" height="62px" fill="#125480"/>
+	<rect x="149px" y="289px" width="62px" height="62px" fill="#125480"/>
+	<rect x="219px" y="289px" width="62px" height="62px" fill="#125480"/>
+	<rect x="289px" y="289px" width="62px" height="62px" fill="#125480"/>
+
+
+	<!--circles in the middle-->
+	<circle cx="180px" cy="180px" r="130px" fill="white" stroke="black" stroke-width="5"/>
+	<ellipse cx="180px" cy="180px" rx="124px" ry="60px" stroke="#60A0F0" stroke-width="7" fill="none"/>
+	<ellipse cx="180px" cy="180px" rx="60px" ry="124px" stroke="#60A0F0" stroke-width="7" fill="none"/>
+
+
+	<!--letter I-->
+	<rect x="18px" y="376px" width="36px" height="110px" fill="#125480"/>
+
+	<!--letter P-->
+	<rect x="68px" y="376px" width="36px" height="110px" fill="#125480"/>
+	<rect x="120px" y="376px" width="36px" height="110px" fill="#125480"/>
+	<rect x="70px" y="376px" width="80px" height="7px" fill="#125480"/>
+
+	<!--letter S-->
+	<path d="M212,486 A42,55,0,0,1,212,376 V486 z" fill="#125480"/>
+	<polygon points="216,376, 246,376, 246,406" fill="#125480"/>
+	<polygon points="216,486, 246,486, 246,456" fill="#125480"/>
+
+	<!--letter A-->
+	<polygon points="260,486, 300,486, 280,416" fill="#125480"/>
+	<polygon points="281,376, 317,376, 348,486, 312,486" fill="#125480"/>
+	<rect x="280px" y="446px" width="32px" height="7px" fill="#125480"/>
+</svg>

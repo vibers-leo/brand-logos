@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+  <defs>
+    <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%" >
+
+      <stop offset="0%" stop-color="#3DE6FD">
+        <animate attributeName="stop-color" values="#3DE6FD; #5CECA2; #FF6C63; #FF6C63; #5CECA2; #3DE6FD;" dur="45s" repeatCount="indefinite"></animate>
+      </stop>
+
+      <stop offset="100%" stop-color="#1C87F6">
+        <animate attributeName="stop-color" values="#1C87F6; #034A9D; #1C87F6; #5CECA2; #1C87F6; #1C87F6;" dur="45s" repeatCount="indefinite"></animate>
+      </stop>
+
+    </linearGradient>
+
+  </defs>
+  <path fill='url("#logo-gradient")' d="M58,68.2l9.6,16.3L30,84.8L58,68.2z M32.8,21.4L33,48.3l15.5-0.1l7.6-13.4L32.8,21.4z M56.3,65.2
+    l-7.8-13.3L33,51.9l0.2,26.9L56.3,65.2z M82.2,49.8l-23-13.2L51.6,50l7.8,13.3L82.2,49.8z M70.3,17l-9.4,16.5l28.2,16.2l-28,16.6
+    l9.6,16.4l18.7-33L70.3,17z M67.1,15.2l-37.6,0.3l28.3,16.2L67.1,15.2z M10.5,52.1l19.2,32.7h0L29.5,52L10.5,52.1z M29.2,15.5
+    L29.2,15.5l-18.7,33l19-0.1L29.2,15.5z"/>
+</svg>

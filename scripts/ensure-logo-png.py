@@ -79,16 +79,47 @@ def is_raster_wrapped(svg: Path) -> bool:
     return "data:image/" in t or "<image" in t
 
 
+# 한 파일이 배치 전체를 멈추는 걸 막는다.
+# 2026-08-18: 4만 개 일괄 생성 중 cairosvg 가 거대 SVG 를 파싱하다 이차
+# 시간 복잡도에 빠져 **6시간 40분을 한 파일에** 썼다(CPU 97%, 산출물 0).
+# 스택은 tuple_contains + 문자열 비교 반복이었다. 크기 상한과 시간 제한을
+# 함께 둔다 — 크기만으로는 '작지만 경로가 미친 SVG' 를 못 막는다.
+MAX_SVG_BYTES = 2_000_000     # 2MB 초과는 로고로 보기 어렵다(지도·사진 트레이스)
+RENDER_TIMEOUT = 25           # 초
+
+
+def _render_worker(svg_text: str, out: str, width: int) -> None:
+    import cairosvg
+    cairosvg.svg2png(bytestring=svg_text.encode(), write_to=out, output_width=width)
+
+
 def render_png(svg: Path, out: Path) -> str | None:
     """성공하면 None, 실패하면 사유를 돌려준다."""
-    import cairosvg
+    import multiprocessing as mp
     from PIL import Image
+    size = svg.stat().st_size
+    if size > MAX_SVG_BYTES:
+        return f"SVG 가 너무 큼 ({size/1024/1024:.1f}MB > {MAX_SVG_BYTES/1024/1024:.0f}MB)"
     try:
-        cairosvg.svg2png(bytestring=prepare(svg.read_text(errors="replace")).encode(),
-                         write_to=str(out), output_width=PNG_WIDTH)
+        text = prepare(svg.read_text(errors="replace"))
     except Exception as e:
-        out.unlink(missing_ok=True)
         return f"{type(e).__name__}: {str(e)[:60]}"
+    # 별도 프로세스로 돌려야 시간 초과 시 확실히 끊을 수 있다 —
+    # 스레드로는 C 확장 안에서 도는 루프를 중단시킬 수 없다.
+    ctx = mp.get_context("fork")
+    proc = ctx.Process(target=_render_worker, args=(text, str(out), PNG_WIDTH))
+    proc.start()
+    proc.join(RENDER_TIMEOUT)
+    if proc.is_alive():
+        proc.terminate()
+        proc.join(5)
+        if proc.is_alive():
+            proc.kill()
+        out.unlink(missing_ok=True)
+        return f"렌더 시간 초과 ({RENDER_TIMEOUT}초)"
+    if proc.exitcode != 0 or not out.exists():
+        out.unlink(missing_ok=True)
+        return f"렌더 실패 (exit {proc.exitcode})"
     # cairosvg 는 렌더에 실패해도 조용히 빈 이미지를 뱉는다 — 잉크로 확인한다.
     # 상한은 두지 않는다: 블랙핑크·기아타이거즈처럼 배경이 꽉 찬 로고는
     # 잉크 100% 가 정상이다(예전에 상한 가드가 이런 걸 죽였다).
@@ -113,7 +144,11 @@ def main() -> int:
     demoted, made, failed = [], 0, []
 
     if args.demote_fake:
-        for b in brands:
+        # 진행 표시가 없으면 멈춘 건지 도는 건지 알 수 없다.
+        # 실제로 한 파일에 6시간 40분을 쓰면서도 아무도 몰랐다(2026-08-18).
+        for _i, b in enumerate(brands, 1):
+            if _i % 2000 == 0:
+                print(f"   가짜벡터 검사 {_i:,}/{len(brands):,}", flush=True)
             svg = BASE / b["id"] / "logo.svg"
             if not svg.exists() or not is_raster_wrapped(svg):
                 continue
@@ -140,7 +175,9 @@ def main() -> int:
                              "sources/raster-wrapped/ 에 보관.")
             b["sources"] = [s for s in (b.get("sources") or []) if s.get("file") != "logo.svg"]
 
-    for b in brands:
+    for _i, b in enumerate(brands, 1):
+        if _i % 1000 == 0:
+            print(f"   PNG 생성 {_i:,}/{len(brands):,} (생성 {made:,})", flush=True)
         d = BASE / b["id"]
         svg, png = d / "logo.svg", d / "logo.png"
         if png.exists() or not svg.exists():

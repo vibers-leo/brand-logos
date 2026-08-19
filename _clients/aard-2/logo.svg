@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg height="708.57141" width="708.57141" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<radialGradient id="a" cx="457.12268" cy="474.74438" gradientTransform="matrix(-.01055869 1.8915975 -2.210132 -.01233684 1662.6457 -163.61588)" gradientUnits="userSpaceOnUse" r="350.28571">
+		<stop offset="0" stop-color="#0c3762"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".392157"/>
+	</radialGradient>
+	<linearGradient id="b">
+		<stop offset="0" stop-color="#285d6f"/>
+		<stop offset="1" stop-color="#285d6f" stop-opacity="0"/>
+	</linearGradient>
+	<clipPath id="c">
+		<circle cx="387.14285" cy="596.64789" r="344.28571" transform="matrix(-.00668355 .83045391 -.63516647 -.02370332 919.29031 334.67844)"/>
+	</clipPath>
+	<radialGradient cx="317.30756" cy="647.39795" gradientTransform="matrix(1.8501699 -1.8973217 1.3004236 2.1350193 -1080.9849 299.12898)" gradientUnits="userSpaceOnUse" r="350.28571" xlink:href="#b"/>
+	<clipPath id="d">
+		<circle cx="387.14285" cy="596.64789" r="344.28571" transform="matrix(-.00668355 .83045391 -.64272699 -.02398546 642.69069 324.35621)"/>
+	</clipPath>
+	<radialGradient cx="317.30756" cy="647.39795" gradientTransform="matrix(1.8501699 -1.8750031 1.3004236 2.1099046 -1080.9849 -134.74295)" gradientUnits="userSpaceOnUse" r="350.28571" xlink:href="#b"/>
+	<filter id="e">
+		<feGaussianBlur stdDeviation="10.750001"/>
+	</filter>
+	<g stroke="#000" stroke-linecap="round" transform="translate(-31.428574 -242.36212)">
+		<circle cx="387.14285" cy="596.64789" fill="url(#a)" r="344.28571" stroke-linejoin="round" stroke-width="20" transform="translate(-1.428574 -.00006)"/>
+		<ellipse cx="397.14285" cy="630.93359" fill="none" rx="77.14286" ry="287.14285" stroke-linejoin="round" stroke-width="3.39605" transform="matrix(2.5925925 0 0 1.20398 -642.48673 -162.9836)"/>
+		<path d="m382.85714 250.9336 2.85715 688.5714" fill="none" stroke-width="6"/>
+		<g stroke-linejoin="round">
+			<path d="m42.857132 595.2193h685.71429v2.857117h-685.71429z" fill="#fff" fill-opacity=".745098" stroke-width="4"/>
+			<ellipse clip-path="url(#d)" cx="397.14285" cy="630.93359" fill="none" rx="77.14286" ry="287.14285" stroke-width="4.38417" transform="matrix(-.04492371 -1.5554034 1.2037992 -.01251799 -361.5877 1002.275)"/>
+			<ellipse clip-path="url(#c)" cx="397.14285" cy="630.93359" fill="none" rx="77.14286" ry="287.14285" stroke-width="4.35831" transform="matrix(-.04492371 -1.5739177 1.2037992 -.012667 -361.5877 1449.6981)"/>
+			<path d="m144.85713 414.64789h488.57144v371.42862h-488.57144z" fill="#fff" filter="url(#e)" stroke-width="20.4987" transform="matrix(.97591872 0 0 .97542265 12.153576 14.78671)"/>
+			<path d="m142.85713 410.93353h488.57144v371.42862h-488.57144z" fill="#fff" stroke-width="12"/>
+			<path d="m182.85715 496.64789h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m182.85715 595.57648h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m182.85715 645.04077h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m182.85715 694.50507h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m182.85715 546.11218h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m417.14285 496.64789h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m417.14285 595.57648h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m417.14285 645.04077h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m417.14285 694.50507h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+			<path d="m417.14285 546.11218h162.85715v1.428572h-162.85715z" fill="#fff" fill-opacity=".745098" stroke-width="6"/>
+		</g>
+	</g>
+</svg>

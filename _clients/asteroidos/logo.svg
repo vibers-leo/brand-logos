@@ -1,0 +1,35 @@
+<svg width="2000" height="2000" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs><rect id="T" width="2" height="2"/></defs>
+<g transform="matrix(100 100 -100 100 1000 0)">
+ <g id="row1">
+  <use xlink:href="#T" fill="#be3729"/>
+  <use xlink:href="#T" x="2" fill="#dc2919"/>
+  <use xlink:href="#T" x="4" fill="#e54b3a"/>
+  <use xlink:href="#T" x="6" fill="#e56934"/>
+  <use xlink:href="#T" x="8" fill="#e57c21"/>
+ </g>
+ <g id="row2" transform="translate(-2,2)">
+  <use xlink:href="#T" x="2" fill="#dc2919"/>
+  <use xlink:href="#T" x="4" fill="#e54b3a"/>
+  <use xlink:href="#T" x="10" fill="#e58a21"/>
+ </g>
+ <g id="row3" transform="translate(-4,4)">
+  <use xlink:href="#T" x="4" fill="#e54b3a"/>
+  <use xlink:href="#T" x="8" fill="#e57c21"/>
+  <use xlink:href="#T" x="12" fill="#f19a11"/>
+ </g>
+ <g id="row4" transform="translate(-6,6)">
+  <use xlink:href="#T" x="6" fill="#e56934"/>
+  <use xlink:href="#T" x="8" fill="#e57c21"/>
+  <use xlink:href="#T" x="10" fill="#e58a21"/>
+  <use xlink:href="#T" x="14" fill="#f0ae0e"/>
+ </g>
+ <g id="row5" transform="translate(-8,8)">
+  <use xlink:href="#T" x="8" fill="#e57c21"/>
+  <use xlink:href="#T" x="10" fill="#e58a21"/>
+  <use xlink:href="#T" x="12" fill="#f19a11"/>
+  <use xlink:href="#T" x="14" fill="#f0ae0e"/>
+  <use xlink:href="#T" x="16" fill="#f0c30e"/>
+ </g>
+</g>
+</svg>

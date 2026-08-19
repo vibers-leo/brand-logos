@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape by VulcanSphere (http://www.inkscape.org/ and https://vulcansphere.com) -->
+<svg width="420" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<title>rEFInd Boot Management</title>
+<desc>Boot manager for UEFI and Mac computers</desc>
+ <defs>
+  <filter id="vlcnc" x="-.081961" y="-.060276" width="1.2028" height="1.1491" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".7" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite" result="blur" stdDeviation="3"/>
+   <feOffset dx="3" dy="3" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <filter id="vlcnb" x="-.028102" y="-.11196" width="1.0679" height="1.2706" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".7" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite" result="blur" stdDeviation="3"/>
+   <feOffset dx="3" dy="3" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <filter id="vlcna" x="-.025918" y="-.2221" width="1.0626" height="1.5367" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".7" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite" result="blur" stdDeviation="3"/>
+   <feOffset dx="3" dy="3" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0,64)">
+  <g transform="translate(-3.0027 -3.0672)" fill="#0000bc" filter="url(#vlcnc)" stroke="#0000bc">
+   <path transform="matrix(.9248 0 0 1.0146 3.6793 -74.869)" d="m114.23 62.798a7.0145 5.8831 0 1 1 2e-3 -0.0442l-7.0112-0.17964z"/>
+   <path transform="matrix(-.36198 -1.0984 1.2009 -.52325 92.632 -15.195)" d="m25.234 15.543-11.826-1.44-11.874-0.96869 7.1599-9.5213 6.7757-9.7985 4.6658 10.961z"/>
+   <path transform="matrix(1.0624 0 0 1.0939 -25.695 -96.297)" d="m128.91 140.03a6.4 6.1257 0 1 1 2e-3 -0.046l-6.397-0.18705z"/>
+   <rect transform="matrix(.87626 -.48183 .50478 .86325 0 0)" x="54.812" y="62.894" width="13.591" height="36.636" stroke-width=".97056"/>
+   <path transform="translate(0,-64)" d="m62.247 93.834c-18.205-1.5811-33.701-14.449-38.513-31.982-1.2327-4.4911-1.4326-6.107-1.4362-11.611-0.003595-5.5049 0.2264-7.3809 1.4534-11.855 4.2559-15.519 17.317-27.784 33.102-31.086 6.2509-1.3076 12.923-1.2503 18.926 0.16244 7.2255 1.7007 13.52 4.9325 19.153 9.8334l1.5071 1.3113-9.7463 9.7518-1.2968-1.0973c-6.1179-5.1769-14.177-7.7964-21.868-7.108-6.6781 0.59768-12.126 2.8355-17.212 7.0694-8.3436 6.9464-12.204 18.453-9.8503 29.357 1.7301 8.0134 6.9213 15.164 14.116 19.444 4.2686 2.5392 8.8752 3.8701 14.06 4.062 7.7386 0.28654 14.749-2.0963 20.647-7.0178 5.6444-4.7103 9.6705-12.247 10.415-19.498 0.08051-0.78401 0.19312-1.4722 0.25025-1.5293 0.13361-0.13361 13.406 0.33269 13.644 0.47933 0.44025 0.27209-0.49058 6.2244-1.5477 9.8973-2.3965 8.3261-7.6739 16.285-14.409 21.73-8.8226 7.1329-20.239 10.656-31.392 9.687z" stroke-width=".18286"/>
+  </g>
+  <g transform="translate(1.4629 -2.1943)" filter="url(#vlcnb)">
+   <path d="m147.49-25.683v-0.552c0-3.312-1.472-4.416-4.14-4.416-3.68 0-5.612 1.748-6.256 5.796l-5.704 34.684c-0.092 0.552-0.092 1.012-0.092 1.472 0 3.036 1.748 4.876 4.876 4.876 3.496 0 5.428-2.116 6.164-6.348l3.036-17.664c1.288-7.636 2.116-11.224 8.188-11.868 2.3-0.276 5.06 0.276 7.544-1.288 1.748-1.104 2.76-2.852 2.76-4.968 0-3.312-1.932-4.968-5.796-4.968-4.14 0-7.636 1.748-10.58 5.244"/>
+   <g fill="#0000bc">
+    <path d="m176.97 4.8606 3.68-22.356h22.08c5.704 0 8.28-1.748 8.28-5.98 0-3.128-1.84-4.416-5.796-4.416h-22.816l1.38-7.912h21.804c5.796 0 8.648-1.932 8.648-5.98 0-3.496-1.932-4.784-6.072-4.784h-25.944c-6.44 0-8.556 1.472-9.476 6.992l-8.004 47.472c-0.184 0.92-0.184 1.656-0.184 2.392 0 4.416 2.944 5.612 8.832 5.612h24.84c5.06 0 8.096-2.576 8.096-6.624 0-2.852-2.024-4.416-5.888-4.416h-23.46"/>
+    <path d="m232.22-17.495h18.032c5.704 0 8.372-1.748 8.372-5.98 0-3.128-1.932-4.416-5.888-4.416h-18.768l1.38-7.912h18.216c5.796 0 8.74-1.932 8.74-5.98 0-3.496-1.932-4.784-6.072-4.784h-22.448c-6.44 0-8.556 1.472-9.476 6.992l-8.28 48.852c-0.092 0.644-0.184 1.196-0.184 1.748 0 3.312 1.84 5.06 5.244 5.06 4.048 0 5.796-2.208 6.624-6.808l4.508-26.772"/>
+    <path d="m264.01 9.2766c-0.092 0.644-0.184 1.288-0.184 1.84 0 3.22 1.748 4.968 4.876 4.968 4.416 0 6.164-2.024 6.992-6.808l8.464-50.048c0.092-0.46 0.092-0.92 0.092-1.38 0-2.944-1.84-4.692-5.244-4.692-3.68 0-5.98 2.116-6.624 6.072l-8.372 50.048"/>
+   </g>
+   <path d="m304.2-25.407c0.092-0.368 0.092-0.736 0.092-1.012 0-2.76-1.748-4.324-4.692-4.324-3.956 0-5.98 1.748-6.624 5.888l-5.796 34.684c-0.092 0.552-0.092 1.012-0.092 1.472 0 3.036 1.84 4.876 4.968 4.876 3.496 0 5.428-2.116 6.164-6.348l3.22-18.952c1.288-7.544 5.796-11.868 12.144-11.868 4.508 0 6.716 2.116 6.716 6.256 0 0.828-0.092 2.392-0.46 4.508l-3.22 20.056c-0.092 0.46-0.092 0.92-0.092 1.38 0 2.944 1.932 4.876 5.152 4.876 3.404 0 5.428-2.024 6.164-6.256l3.68-21.988c0.276-1.84 0.368-3.68 0.368-5.52 0-7.912-5.52-13.156-13.984-13.156-4.692 0-9.108 1.84-13.708 5.428"/>
+   <path d="m372.51-20.531-4.232 25.852c-2.668 0.184-4.784 0.184-6.348 0.184-8.096 0-11.776-1.84-11.776-7.544 0-10.12 8.464-18.124 22.356-18.492m1.656-9.844h-0.736c-8.74 0-15.824 1.656-21.068 4.968-8.832 5.52-14.26 15.088-14.26 24.472 0 5.98 2.392 10.948 6.808 13.984 3.404 2.3 8.648 2.852 16.1 2.852h11.684c3.312 0 5.244-1.84 5.888-5.52l8.832-52.624c0.092-0.552 0.092-1.012 0.092-1.472 0-2.852-1.748-4.416-4.968-4.416-3.312 0-5.52 1.932-6.164 5.428l-2.208 12.328"/>
+  </g>
+  <text x="260.42313" y="49.695934" fill="#ff0000" filter="url(#vlcna)" font-family="BouganSSi" font-style="italic" font-weight="600" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:0%" xml:space="preserve"><tspan x="260.42313" y="49.695934" font-size="36px" style="line-height:1.25">Boot Management</tspan></text>
+ </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3807">
+   <stop stop-color="#c3d6eb" offset="0"/>
+   <stop stop-color="#a2c0df" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3799">
+   <stop stop-color="#95b7db" offset="0"/>
+   <stop stop-color="#729fcf" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3805" x1="12.682" x2="13" y1="13.244" y2="18" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3799"/>
+  <linearGradient id="linearGradient3813" x1="12.04" x2="13" y1="13.726" y2="17" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3807"/>
+
+  <filter id="dropShadow" x="-.37857" y="-.96" width="1.9" height="3.52">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+    <feOffset in="blur" dx="2" dy="3" result="offsetBlur"/>
+    <feFlood flood-color="black" flood-opacity="0.5" result="shadowColor"/>
+    <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="coloredShadow"/>
+    <feMerge>
+      <feMergeNode in="coloredShadow"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+ </defs>
+ <g>
+  <g filter="url(#dropShadow)">
+   <rect x="3.5" y="12.5" width="25" height="6" fill="url(#linearGradient3805)" stroke="#182f4e"/>
+   <rect x="4.5" y="13.5" width="23" height="4" fill="none" stroke="url(#linearGradient3813)"/>
+  </g>
+  <g transform="translate(18,10)" filter="url(#dropShadow)">
+   <rect x="3.5" y="12.5" width="18" height="6" fill="url(#linearGradient3805)" stroke="#182f4e"/>
+   <rect x="4.5" y="13.5" width="16" height="4" fill="none" stroke="url(#linearGradient3813)"/>
+  </g>
+  <g transform="translate(7,20)" filter="url(#dropShadow)">
+   <rect x="3.5" y="12.5" width="14" height="6" fill="url(#linearGradient3805)" stroke="#182f4e"/>
+   <rect x="4.5" y="13.5" width="12" height="4" fill="none" stroke="url(#linearGradient3813)"/>
+  </g>
+  <path d="m3 9v-5h37v5h-1c0-1.2019-0.79815-3-2-3h-31c-1.2019 0-2 1.7981-2 3z" filter="url(#dropShadow)"/>
+ </g>
+</svg>

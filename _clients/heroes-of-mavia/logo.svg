@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1147" height="300" viewBox="0 0 1147 300">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="361.25" cy="292.39" r="1" gradientTransform="translate(44008 -54038) rotate(90) scale(150)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c54c2"/>
+      <stop offset="1" stop-color="#215dd6"/>
+    </radialGradient>
+  </defs>
+  <path class="cls-1" d="M150,300A150,150,0,1,0,0,150,150.1,150.1,0,0,0,150,300ZM110,73.2l39.8,29.6v.2l39.9-29.5v37.3l-39.9,29.5L110,110.7Zm0,50.1,39.8,29.6v.2l39.9-29.5v-.3L233,90.2v104l-43.3,33.1V160.9l-39.9,29.5L110,160.8v66.5L66.7,194.2V90.2Z"/>
+  <path d="M437.6,126.1V233H404V72h33.6L488,142.8,541.2,72H572V233H538.4V126.1l-50.4,68Z"/>
+  <path class="cls-2" d="M590,232,658.9,72h28.9L758,232H722.2l-16.5-37.6H641L625.8,232Zm60.6-65.4,20.6-51.5L696,166.6Z"/>
+  <path d="M807.9,232,741,70h36.2l46,111.7L866.4,70H904L838.5,232Z"/>
+  <path d="M921,233V69h37V233Z"/>
+  <path class="cls-2" d="M977,232l69.7-160h29.2L1147,232h-36.2l-16.7-37.6h-65.5L1013.2,232Zm61.3-65.4,20.9-51.5,25.1,51.5Z"/>
+</svg>

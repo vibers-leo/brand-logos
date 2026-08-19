@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="900.00006"
+   height="343.64169"
+   viewBox="0 0 238.12501 90.921867"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="OWE Logo.svg"
+   inkscape:export-filename="F:\OWE (White) Logo.png"
+   inkscape:export-xdpi="384"
+   inkscape:export-ydpi="384">
+  <title
+     id="title839">OWE Logo</title>
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter22">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood12" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite14" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.5"
+         result="blur"
+         id="feGaussianBlur16" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset18" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite20" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.476"
+     inkscape:cx="51.890763"
+     inkscape:cy="69.930113"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>OWE Logo</dc:title>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Piotr Bart (shadow)</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-13.229165,-119.2474)">
+    <g
+       id="g946"
+       style="filter:url(#filter22)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path841"
+         d="m 88.170075,126.82422 16.142985,75.76822 14.84152,-8.85253 -12.10759,-60.66754 z m 88.243185,0 -18.87691,6.24815 -12.10759,60.66754 14.84151,8.85253 z m -44.12159,12.75833 -17.44445,22.65173 4.03539,21.73471 13.40906,-19.13037 13.40905,19.13037 4.03539,-21.73471 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.72904706px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path828"
+         d="m 33.072915,142.31648 6.104349,16.6983 c 8.275872,-0.39326 25.926722,0.0383 35.549589,0.32608 l 3.865939,16.47761 15.534972,-0.0769 -6.588478,-29.84536 c -17.788134,-0.8257 -35.941788,-2.01757 -54.466371,-3.57972 z m 23.634227,19.1574 -16.614299,0.0441 11.970897,32.74305 c 14.765076,-2.02159 30.94508,-2.99449 45.304865,-3.83603 l -2.715416,-12.29982 -32.630551,0.17938 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.72904706px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path853"
+         d="m 231.51042,142.18689 c -19.52145,1.87624 -37.39278,2.92742 -54.46637,3.57975 l -9.82932,44.52882 c 14.99483,0.99389 29.18609,1.52456 45.21231,3.47294 l 5.85231,-15.39257 c -10.9772,-0.18792 -21.95546,-0.23476 -32.93384,-0.29475 l 4.51098,-18.86981 35.54958,-0.32606 z m -39.229,19.41942 -3.81611,13.80917 25.35717,-0.27623 5.15602,-13.53294 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.72904706px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

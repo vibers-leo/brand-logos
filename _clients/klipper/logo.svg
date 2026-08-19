@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48">
+  <defs>
+    <linearGradient id="c">
+      <stop stop-color="#977a5c"/>
+      <stop offset="1" stop-color="#9d8062"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop stop-color="#bd8d48"/>
+      <stop offset="1" stop-color="#e8b971"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="e" x2="0" y1="543.79797" y2="503.798" gradientTransform="matrix(1.125 0 0 .925 -51.07197 40.784727)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="g" x2="0" y1="541.79797" y2="505.798" gradientTransform="matrix(1 0 0 .91667 0 45.14974)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="f" x2="0" y1="542.79797" y2="504.798" gradientTransform="matrix(1 0 0 .92105 0 42.851946)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="d">
+      <stop stop-color="#383e51"/>
+      <stop offset="1" stop-color="#655c6f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient xlink:href="#d" id="h" x1="391.57144" x2="418.57144" y1="504.798" y2="531.79797" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g transform="translate(-384.57143 -499.798)">
+    <rect width="35.999992" height="37.00001" x="390.57144" y="506.79816" fill="url(#e)" rx="0"/>
+    <path fill="url(#f)" d="M391.57144 507.798h34v35h-34z" opacity=".5"/>
+    <path fill="url(#g)" d="M392.57144 508.798h32v32.999985h-32z"/>
+    <path fill="#afc0c6" d="m404.57143 503.798-2 2h-7v4h26v-4h-7l-2-2h-8zm4 1c.554 0 1 .446 1 1s-.446 1-1 1-1-.446-1-1 .446-1 1-1z"/>
+    <path fill="#96aab5" d="M395.57144 508.798h26v1h-26z"/>
+    <path fill="#d1dbdf" d="M395.57144 512.79797h17.999989v1.00003H395.57144zm0 4h7.999989v1.00003h-7.999989zm0 4h17.999989v1.00003H395.57144zm0 4h12.999989v1.00003H395.57144zm0 12.00025h10.00001v.999974h-10.00001z"/>
+    <path fill="#aa7f41" d="M390.57144 542.79797h35.999992v.999974H390.57144z"/>
+    <path fill="url(#h)" fill-rule="evenodd" d="m421.57143 509.798 5 5v28.99997h-7l7 .00003v-4 1l-31-31z" opacity=".2"/>
+    <path fill="#2d2110" fill-opacity=".313725" d="M392.57141 539.79773h32.00003v1.999974h-32.00003z"/>
+    <path fill="#2d2110" fill-opacity=".313725" d="M392.57141 540.79773h32.00003v.999974h-32.00003z"/>
+  </g>
+</svg>

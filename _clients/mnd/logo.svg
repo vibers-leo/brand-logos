@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="102" height="31" viewBox="0 0 102 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g>
+        <path d="M29.4,0.2L35.2,0.2L30.9,30.2L22.4,30.2L24.7,14.5L17,24.1L15.9,24.1L10.8,14.5L8.6,30.2L0.2,30.2L4.1,3.3C4.5,1.5 6,0.2 7.9,0.2L12.8,0.2L18.1,10.3C19.9,8.1 24.1,2.9 24.5,2.4C25.9,0.8 27.2,0.2 29.4,0.2M92.1,4.6C90.3,1.7 87.2,0.1 83.4,0.1C82.2,0.1 75.5,0.1 75.5,0.1C73.6,0.1 72.1,1.4 71.7,3.2L67.8,30.1C73.7,29.6 81,26.6 86.6,21.9C85.2,22.5 83.6,22.7 81.4,22.7C79.3,22.7 77.3,22.7 77.3,22.7L79.5,7.4L83.6,7.4C86.6,7.4 88.3,8 89.6,9.6C90.8,11 91.4,12.9 91.1,15.2C91,16.2 90.8,17 90.5,17.6C91.5,16.3 92.2,15 92.7,13.4C94,10.2 93.6,7 92.1,4.6M62.2,0.2C60.3,0.2 58.8,1.5 58.4,3.3C58.4,3.3 57.3,10.6 56.7,15.1L47.5,0.1L43.5,0.1C41.6,0.1 40.1,1.4 39.7,3.2L35.8,30.1L44,30.1L46.3,14.3L55.9,30.1L62.8,30.1L67.1,0.1L62.2,0.2Z" style="fill:rgb(88,91,91);fill-rule:nonzero;"/>
+        <clipPath id="_clip1">
+            <path d="M93.4,24.5C95,22.5 96.4,19.9 97,17.3C98.2,12.4 97.4,7.1 94,3.3C97,6.8 96.7,11.9 95.6,15.1C93.9,20.1 88.8,26.9 79.9,30.1C80.5,30.1 82.9,30.2 85.3,30C86.7,29.8 88.2,29.2 89.5,28.3C91.3,27.1 92.1,26.1 93.4,24.5"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <rect x="79.8" y="3.3" width="18.4" height="26.9" style="fill:url(#_Radial2);"/>
+        </g>
+        <clipPath id="_clip3">
+            <path d="M97,3.4C94.7,1.4 91.9,0.3 88.1,0.1C90.8,0.7 92.7,1.8 94,3.3C97.4,7.1 98.2,12.4 97,17.3C96.4,19.9 95,22.5 93.4,24.5C92.1,26.1 91.3,27.1 89.5,28.3C88.1,29.2 86.7,29.8 85.3,30C86.3,29.9 87.3,29.8 88.1,29.7C95.4,28.2 101,22.2 101.6,14.7C101.8,11 100.6,6.5 97,3.4"/>
+        </clipPath>
+        <g clip-path="url(#_clip3)">
+            <rect x="85.2" y="0.1" width="16.6" height="29.9" style="fill:url(#_Radial4);"/>
+        </g>
+    </g>
+    <defs>
+        <radialGradient id="_Radial2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(24.6731,0,0,-25.0641,77.8198,32.3003)"><stop offset="0" style="stop-color:rgb(147,184,46);stop-opacity:1"/><stop offset="0.2" style="stop-color:rgb(147,184,46);stop-opacity:1"/><stop offset="0.5" style="stop-color:rgb(147,184,46);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,113,62);stop-opacity:1"/></radialGradient>
+        <radialGradient id="_Radial4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(27.5102,0,0,-27.9462,89.0827,35.5693)"><stop offset="0" style="stop-color:rgb(147,184,46);stop-opacity:1"/><stop offset="0.33" style="stop-color:rgb(147,184,46);stop-opacity:1"/><stop offset="0.61" style="stop-color:rgb(147,184,46);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,113,62);stop-opacity:1"/></radialGradient>
+    </defs>
+</svg>

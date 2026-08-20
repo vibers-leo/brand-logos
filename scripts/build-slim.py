@@ -72,6 +72,10 @@ def build() -> list:
             ("has_png", bool(b.get("logo_png") or b.get("has_png"))),
             ("added_at", b.get("added_at", "")),
         ])
+        # 국내/해외 필터용. Wikidata P17(국가) 근거이며 값이 있을 때만 싣는다.
+        # ⚠️ 한글명 유무로 대체하면 안 된다 — '스타벅스'는 한글명이 있어도 미국이다.
+        if b.get("origin"):
+            row["origin"] = b["origin"]
         # variant_of 는 부모로 흡수된 중복 항목이다. 그리드에서 빼기 위해
         # slim 에도 실어 보낸다 (페이지는 살아 있으므로 404 는 나지 않는다).
         if b.get("variant_of"):

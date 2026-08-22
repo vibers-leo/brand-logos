@@ -60,7 +60,9 @@ def client():
         endpoint = "https://" + endpoint
     env["NCP_ENDPOINT"] = endpoint.rstrip("/")
     parsed = urlsplit(env["NCP_ENDPOINT"])
-    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+    hostname = parsed.hostname or ""
+    if (parsed.scheme not in ("http", "https") or not parsed.netloc
+            or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9.-]*", hostname)):
         # NCP Object Storage 한국 리전의 표준 S3 endpoint. 잘못 등록된 endpoint
         # 시크릿이 전체 수집을 막지 않게 하되, 액세스 키·버킷은 기존 시크릿을 쓴다.
         print("⚠️ NCP_ENDPOINT 형식 오류 — 한국 리전 표준 endpoint로 폴백", file=sys.stderr)

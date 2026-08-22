@@ -23,6 +23,7 @@ PNG 를 버킷으로 내보내면 브랜드를 5만 개까지 늘려도 Pages �
 import argparse
 import os
 import random
+import re
 import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor
@@ -42,6 +43,13 @@ def client():
     # GitHub Secrets를 웹 UI에서 등록하면 끝 개행이 섞일 수 있다. endpoint URL은
     # 개행 하나로 boto3 초기화가 즉시 실패하므로, 경계에서 한 번만 정규화한다.
     env = {name: os.environ.get(name, "").strip() for name in need}
+    endpoint = env["NCP_ENDPOINT"].strip("'\"")
+    # Secret을 `.env` 줄 전체(`NCP_ENDPOINT=https://…`)로 붙여 넣은 경우와
+    # 호스트만 넣은 경우를 모두 받아 준다. 실제 값은 로그에 절대 찍지 않는다.
+    endpoint = re.sub(r"^NCP_ENDPOINT\\s*=\\s*", "", endpoint, flags=re.I).strip("'\"")
+    if endpoint and not re.match(r"^https?://", endpoint, flags=re.I):
+        endpoint = "https://" + endpoint
+    env["NCP_ENDPOINT"] = endpoint.rstrip("/")
     miss = [name for name, value in env.items() if not value]
     if miss:
         # 조용히 넘어가면 '올릴 게 없다'로 보여서 이관이 안 된 걸 모른다

@@ -14,6 +14,33 @@
 └── ...
 ```
 
+## 공용 로고 자산 운영 계약 (모든 프로젝트 공통)
+
+로고를 새로 추가하거나 교체할 때는 **프로젝트 폴더에만 저장하지 않는다.** 먼저 이
+저장소를 원본·배포 자산의 단일 기준점으로 만든 뒤, 사이트는 CDN 주소를 사용한다.
+
+1. `brands.json`에서 기존 ID를 먼저 찾는다. 있으면 같은 ID·기존 원본을 재사용한다.
+2. 없으면 `_clients/{brand-id}/logo.svg`(검증된 순수 벡터)와 `logo.png`(표시 실패용
+   폴백)를 함께 둔다. SVG를 구하지 못했어도 PNG를 먼저 보관하고
+   `_clients/svg-wanted.json`에 `reason: "png_only"` 또는 사유를 적어 SVG 수집 대기열에 넣는다.
+3. 전달받은 AI·EPS·원본 SVG·CI ZIP은 `_sources/{brand-id}/`에 원본 파일명으로 보관한다.
+   이 폴더는 Git·공개 CDN에 올리지 않는다. 로컬 외장 SSD와 드라이브에 백업한다.
+4. 프로젝트의 화면에는 `https://logo.vibers.co.kr/_clients/{brand-id}/logo.svg`를 우선
+   사용하고, SVG 실패 시 같은 경로의 `logo.png`를 폴백으로 사용한다. 개별 프로젝트의
+   임시 `public/logos` 복제본을 새 기준점으로 만들지 않는다.
+5. `logo.png` 및 필요한 PNG 변형은 `vibers-bucket`에 동기화한다. 원본 AI/EPS는 공개
+   버킷 경로에 올리지 않는다.
+6. SVG는 반드시 아래 품질 규칙을 통과한 실제 벡터여야 한다. PNG를 추적하거나 비트맵을
+   감싼 SVG는 만들지 않는다.
+
+다른 프로젝트에 그대로 전달할 짧은 요청문:
+
+> 이 로고를 공용 `brand-logos` 저장소에 먼저 등록해 주세요. 검증된 원본 SVG와 PNG
+> 폴백을 `_clients/{brand-id}/`에 보관하고, AI/EPS/원본 파일은 비공개 `_sources/{brand-id}/`에
+> 아카이빙해 주세요. SVG가 없으면 PNG를 먼저 NCP `vibers-bucket`에 동기화하고
+> `svg-wanted.json`에 수집 요청을 추가해 주세요. 사이트는 공용 CDN의 SVG 우선·PNG 폴백을
+> 표시하도록 연결해 주세요. 비트맵을 SVG로 변환하지 말고, 원본 AI/EPS는 공개하지 마세요.
+
 ---
 
 ## ⚠️ SVG 품질 규칙 (반드시 읽을 것)

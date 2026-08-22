@@ -190,7 +190,10 @@ def main() -> int:
         try:
             s3.put_object(
                 Bucket=bucket, Key=key, Body=path.read_bytes(),
-                ContentType="image/png", ACL="public-read",
+                # 이 버킷은 버킷 정책으로 CDN 읽기를 공개한다. Object ACL은
+                # 비활성화되어 있어 `public-read`를 함께 보내면 PutObject가
+                # AccessDenied로 거절된다 (2026-08-22, 신규 15개에서 확인).
+                ContentType="image/png",
                 CacheControl="public, max-age=31536000, immutable",
             )
         except Exception as e:

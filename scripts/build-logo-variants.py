@@ -131,7 +131,11 @@ def rel(p: Path) -> str:
 # 제공자가 슬러그로 형태를 명시한 경우 — 종횡비 추정보다 이쪽이 확실하다.
 # 예: YouTube 재생버튼 아이콘은 가로로 넓어서 종횡비로는 'horizontal' 이 되고
 # 본체와 같은 키로 합쳐져버린다. 파일명이 -icon 이면 그건 심볼이다.
-SLUG_FORM = {"-icon": "symbol", "-wordmark": "wordmark", "-symbol": "symbol"}
+SLUG_FORM = {
+    "-wordmark-light": "wordmark", "-wordmark-dark": "wordmark",
+    "-icon-light": "symbol", "-icon-dark": "symbol", "-icon-mono": "symbol",
+    "-icon": "symbol", "-wordmark": "wordmark", "-symbol": "symbol",
+}
 
 
 def form_from_slug(rel_path: str) -> str | None:

@@ -39,16 +39,19 @@ def client():
     except ImportError:
         sys.exit("boto3 가 없다: pip install boto3")
     need = ("NCP_ACCESS_KEY", "NCP_SECRET_KEY", "NCP_BUCKET", "NCP_ENDPOINT")
-    miss = [n for n in need if not os.environ.get(n)]
+    # GitHub Secrets를 웹 UI에서 등록하면 끝 개행이 섞일 수 있다. endpoint URL은
+    # 개행 하나로 boto3 초기화가 즉시 실패하므로, 경계에서 한 번만 정규화한다.
+    env = {name: os.environ.get(name, "").strip() for name in need}
+    miss = [name for name, value in env.items() if not value]
     if miss:
         # 조용히 넘어가면 '올릴 게 없다'로 보여서 이관이 안 된 걸 모른다
         sys.exit(f"환경변수 없음: {', '.join(miss)} — .secrets/보안.env 를 source 한다")
     return boto3.client(
         "s3",
         region_name="kr-standard",
-        endpoint_url=os.environ["NCP_ENDPOINT"],
-        aws_access_key_id=os.environ["NCP_ACCESS_KEY"],
-        aws_secret_access_key=os.environ["NCP_SECRET_KEY"],
+        endpoint_url=env["NCP_ENDPOINT"],
+        aws_access_key_id=env["NCP_ACCESS_KEY"],
+        aws_secret_access_key=env["NCP_SECRET_KEY"],
         # 스레드로 병렬 업로드하므로 커넥션 풀을 넉넉히 잡는다
         config=Config(signature_version="s3v4", max_pool_connections=40,
                       retries={"max_attempts": 5, "mode": "standard"}),
@@ -95,7 +98,7 @@ def main() -> int:
     args = ap.parse_args()
 
     s3 = client()
-    bucket = os.environ["NCP_BUCKET"]
+    bucket = os.environ["NCP_BUCKET"].strip()
 
     files = local_pngs()
     total = sum(s for _, _, s in files)

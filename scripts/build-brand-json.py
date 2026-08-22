@@ -27,9 +27,15 @@ BASE = Path(__file__).resolve().parent.parent / "_clients"
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--brand", help="특정 브랜드만 동기화 (국소 수집·수정용)")
     args = ap.parse_args()
 
     brands = json.loads((BASE / "brands.json").read_text())["brands"]
+    if args.brand:
+        brands = [b for b in brands if b["id"] == args.brand]
+        if not brands:
+            print(f"❌ 브랜드 없음: {args.brand}")
+            return 1
     written = stale = missing = 0
 
     for b in brands:

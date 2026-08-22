@@ -5,7 +5,14 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "ce1ed1f0769da69d",
-  "sources/vercel-icon.svg": "fb8d870c856ec720"
+  "sources/vercel-icon.svg": "fb8d870c856ec720",
+  "sources/thesvg/vercel-icon.svg": "352ee3ed7a33bdb9",
+  "sources/thesvg/vercel-icon-mono.svg": "cefe0d9213917859",
+  "sources/thesvg/vercel-icon-light.svg": "4aec38d86ce39ea1",
+  "sources/thesvg/vercel-icon-dark.svg": "352ee3ed7a33bdb9",
+  "sources/thesvg/vercel-wordmark.svg": "00b67b72171c1176",
+  "sources/thesvg/vercel-wordmark-light.svg": "b79f445dc58be3ce",
+  "sources/thesvg/vercel-wordmark-dark.svg": "00b67b72171c1176"
  },
  "variants": [
   {
@@ -26,6 +33,47 @@
     {
      "provider": "merged",
      "file": "sources/vercel-icon.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/vercel-icon.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/vercel-icon-mono.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/vercel-icon-light.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/vercel-icon-dark.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/vercel-wordmark.svg",
+    "png": "sources/thesvg/vercel-wordmark.png"
+   },
+   "aspect": 4.994,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/vercel-wordmark-light.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/vercel-wordmark-dark.svg"
     }
    ]
   }

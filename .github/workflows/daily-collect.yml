@@ -27,6 +27,16 @@ jobs:
         # 뒤 4단계가 5일간(8/8~8/12) 통째로 안 돌았다.
         run: pip install cairosvg Pillow requests lxml numpy boto3
 
+      # PNG는 저장소에 없고 버킷이 원본이다. 수집·별칭 API를 오래 호출한 뒤에
+      # 인증 오류를 발견하지 않도록 가장 먼저 복원한다.
+      - name: 버킷에서 기존 PNG 내려받기
+        run: python3 scripts/sync-png-bucket.py --pull --workers 24
+        env: &ncp
+          NCP_ACCESS_KEY: ${{ secrets.NCP_ACCESS_KEY }}
+          NCP_SECRET_KEY: ${{ secrets.NCP_SECRET_KEY }}
+          NCP_BUCKET: ${{ secrets.NCP_BUCKET }}
+          NCP_ENDPOINT: ${{ secrets.NCP_ENDPOINT }}
+
       - name: SVG 자동 수집 + 파이프라인
         run: python3 collect-auto.py --source all --commit
         working-directory: .
@@ -66,17 +76,6 @@ jobs:
       # 대기열로 남겨 수집 확장 기회를 계속 관찰한다.
       - name: 대량 신규 소스 후보 발굴
         run: python3 scripts/discover-logos-apps.py
-
-      # PNG는 저장소에 없다 (NCP 버킷이 서빙한다). 먼저 복원해야
-      # ensure-logo-png가 기존 3만여 장을 매 실행마다 다시 렌더링하지 않는다.
-      # 이전 순서는 반대여서 한 번에 3시간 이상 걸리고, 중복 실행까지 유발했다.
-      - name: 버킷에서 기존 PNG 내려받기
-        run: python3 scripts/sync-png-bucket.py --pull --workers 24
-        env: &ncp
-          NCP_ACCESS_KEY: ${{ secrets.NCP_ACCESS_KEY }}
-          NCP_SECRET_KEY: ${{ secrets.NCP_SECRET_KEY }}
-          NCP_BUCKET: ${{ secrets.NCP_BUCKET }}
-          NCP_ENDPOINT: ${{ secrets.NCP_ENDPOINT }}
 
       # SVG 만 받아온 브랜드는 logo.png 가 없어 PNG 다운로드가 404 난다.
       # build-variants 가 logo.png 를 이미 있다고 전제하기 때문이다.

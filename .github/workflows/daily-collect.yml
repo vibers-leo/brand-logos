@@ -30,7 +30,7 @@ jobs:
       # PNG는 저장소에 없고 버킷이 원본이다. 수집·별칭 API를 오래 호출한 뒤에
       # 인증 오류를 발견하지 않도록 가장 먼저 복원한다.
       - name: 버킷에서 기존 PNG 내려받기
-        run: python3 scripts/sync-png-bucket.py --pull --workers 24
+        run: python3 scripts/sync-png-bucket.py --pull --workers 48
         env: &ncp
           NCP_ACCESS_KEY: ${{ secrets.NCP_ACCESS_KEY }}
           NCP_SECRET_KEY: ${{ secrets.NCP_SECRET_KEY }}
@@ -118,7 +118,7 @@ jobs:
       # 새로 만들어진 PNG 를 버킷에 올린다. 이게 빠지면 신규 브랜드의
       # PNG 다운로드가 404 다 — 저장소에도 없고 버킷에도 없기 때문이다.
       - name: 신규 PNG 버킷 업로드
-        run: python3 scripts/sync-png-bucket.py --workers 24 --verify 20
+        run: python3 scripts/sync-png-bucket.py --workers 48 --verify 20
         env: *ncp
 
       - name: 에셋 무결성 검사

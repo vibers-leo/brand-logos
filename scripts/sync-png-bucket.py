@@ -26,11 +26,13 @@ import random
 import re
 import sys
 import threading
+from urllib.parse import urlsplit
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent / "_clients"
 PREFIX = "_clients/"
+DEFAULT_ENDPOINT = "https://kr.object.ncloudstorage.com"
 
 
 def client():
@@ -57,6 +59,12 @@ def client():
     if endpoint and not re.match(r"^https?://", endpoint, flags=re.I):
         endpoint = "https://" + endpoint
     env["NCP_ENDPOINT"] = endpoint.rstrip("/")
+    parsed = urlsplit(env["NCP_ENDPOINT"])
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        # NCP Object Storage 한국 리전의 표준 S3 endpoint. 잘못 등록된 endpoint
+        # 시크릿이 전체 수집을 막지 않게 하되, 액세스 키·버킷은 기존 시크릿을 쓴다.
+        print("⚠️ NCP_ENDPOINT 형식 오류 — 한국 리전 표준 endpoint로 폴백", file=sys.stderr)
+        env["NCP_ENDPOINT"] = DEFAULT_ENDPOINT
     miss = [name for name, value in env.items() if not value]
     if miss:
         # 조용히 넘어가면 '올릴 게 없다'로 보여서 이관이 안 된 걸 모른다

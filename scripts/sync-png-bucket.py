@@ -78,7 +78,8 @@ def client():
         aws_access_key_id=env["NCP_ACCESS_KEY"],
         aws_secret_access_key=env["NCP_SECRET_KEY"],
         # 스레드로 병렬 업로드하므로 커넥션 풀을 넉넉히 잡는다
-        config=Config(signature_version="s3v4", max_pool_connections=40,
+        config=Config(signature_version="s3v4", max_pool_connections=48,
+                      connect_timeout=10, read_timeout=60,
                       retries={"max_attempts": 5, "mode": "standard"}),
     )
 

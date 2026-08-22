@@ -46,7 +46,14 @@ def client():
     endpoint = env["NCP_ENDPOINT"].strip("'\"")
     # Secret을 `.env` 줄 전체(`NCP_ENDPOINT=https://…`)로 붙여 넣은 경우와
     # 호스트만 넣은 경우를 모두 받아 준다. 실제 값은 로그에 절대 찍지 않는다.
-    endpoint = re.sub(r"^NCP_ENDPOINT\\s*=\\s*", "", endpoint, flags=re.I).strip("'\"")
+    # 일부 시크릿 관리 도구는 `.env` 파일 조각을 통째로 저장한다. endpoint 행만
+    # 고른다. 행이 하나뿐인 정상 값도 그대로 유지된다.
+    endpoint_lines = [line.strip() for line in endpoint.splitlines() if line.strip()]
+    endpoint = next((re.sub(r"^(?:export\\s+)?NCP_ENDPOINT\\s*=\\s*", "", line, flags=re.I)
+                     for line in endpoint_lines
+                     if re.match(r"^(?:export\\s+)?NCP_ENDPOINT\\s*=", line, flags=re.I)),
+                    endpoint_lines[0] if endpoint_lines else "")
+    endpoint = endpoint.strip("'\"")
     if endpoint and not re.match(r"^https?://", endpoint, flags=re.I):
         endpoint = "https://" + endpoint
     env["NCP_ENDPOINT"] = endpoint.rstrip("/")

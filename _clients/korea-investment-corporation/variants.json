@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "korea-investment-corporation",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d088c959947014ca"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.2,
+   "provider": "official-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

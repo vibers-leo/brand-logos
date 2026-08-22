@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lg-cns",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "4724014534265195"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.217,
+   "provider": "official-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

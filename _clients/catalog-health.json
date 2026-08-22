@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-08-22T09:03:44.913652+00:00",
+ "catalog": {
+  "brands": 40279,
+  "svg": 38790,
+  "png_only": 1489,
+  "detail_metadata_expected": 40279,
+  "variant_manifests": 37600,
+  "multiple_forms": 672
+ },
+ "backlog": {
+  "svg_needed": 1489,
+  "additional_forms_needed": 6175,
+  "png_render_failures": 0,
+  "external_source_candidates": 7956
+ },
+ "source_coverage": {
+  "wikimedia": 33823,
+  "iconify": 1790,
+  "wvl": 1755,
+  "devicons": 558,
+  "logo.dev": 540,
+  "merged": 441,
+  "gilbarbara-logos": 441,
+  "font-awesome": 40,
+  "simple-icons": 33,
+  "official-site": 32,
+  "official-ci": 6,
+  "official": 5,
+  "project-scan": 4,
+  "simpleicons": 3,
+  "self": 3,
+  "traced-commons": 2,
+  "manual": 1
+ },
+ "policy": "SVG·다중 형태·상세 메타 비율을 유지하고, 대기열은 검토 후에만 반영한다."
+}

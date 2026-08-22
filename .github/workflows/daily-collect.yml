@@ -113,6 +113,9 @@ jobs:
       - name: brands-slim 동기 확인
         run: python3 scripts/build-slim.py --check
 
+      - name: 카탈로그 활용 건강도 기록
+        run: python3 scripts/audit-catalog-health.py
+
       # 새로 만들어진 PNG 를 버킷에 올린다. 이게 빠지면 신규 브랜드의
       # PNG 다운로드가 404 다 — 저장소에도 없고 버킷에도 없기 때문이다.
       - name: 신규 PNG 버킷 업로드

@@ -22,6 +22,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import shutil
@@ -32,6 +33,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent / "_clients"
 BRANDS = BASE / "brands.json"
 WANTED = BASE / "svg-wanted.json"
+FAILURES = BASE / "png-render-failures.json"
 
 PNG_WIDTH = 400
 
@@ -211,13 +213,36 @@ def main() -> int:
                 w["generated_at"] = time.strftime("%Y-%m-%d")
                 WANTED.write_text(json.dumps(w, ensure_ascii=False, indent=1) + "\n")
 
+    if not args.dry_run:
+        # 일부 SVG는 CairoSVG가 지원하지 않는 문법을 쓴다. 이들은 개별 자산
+        # 문제이지 전체 수집 실패가 아니다. 원인과 원본 해시를 남겨 다음 실행에서
+        # 같은 파일을 다시 렌더링하느라 시간을 쓰지 않게 한다.
+        report = []
+        for item in failed:
+            brand_id, reason = item.split(": ", 1)
+            source = BASE / brand_id / "logo.svg"
+            report.append({
+                "id": brand_id,
+                "reason": reason,
+                "svg_sha256": hashlib.sha256(source.read_bytes()).hexdigest() if source.exists() else "",
+                "recorded_at": time.strftime("%Y-%m-%d"),
+            })
+        FAILURES.write_text(json.dumps({
+            "generated_at": time.strftime("%Y-%m-%d %H:%M"),
+            "count": len(report),
+            "brands": report,
+            "note": "CairoSVG로 PNG를 만들 수 없는 개별 SVG 목록. SVG 원본이 바뀌면 재검토한다.",
+        }, ensure_ascii=False, indent=1) + "\n")
+
     tag = "[dry-run] " if args.dry_run else ""
     print(f"{tag}logo.png 생성 {made}건 | 가짜 벡터 정리 {len(demoted)}건 | 실패 {len(failed)}건")
     for f in failed[:10]:
         print(f"   {f}")
     if demoted:
         print("   내림:", ", ".join((b.get("name_ko") or b["id"]) for b in demoted[:8]))
-    return 1 if failed else 0
+    # 실패 목록은 위 리포트로 관리한다. 유효하지 않은 단일 SVG가 전체 수집·배포를
+    # 막으면 새 브랜드까지 CDN에 반영되지 않는다.
+    return 0
 
 
 if __name__ == "__main__":

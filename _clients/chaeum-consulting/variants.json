@@ -1,26 +1,40 @@
 {
- "schema": 1,
- "algo_v": 1,
- "id": "chaeum-consulting",
- "primary": "wordmark",
- "fingerprint": {
-  "logo.svg": "9bad2c1dd3723fb5"
- },
- "variants": [
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo-800.png"
-   },
-   "aspect": 3.209,
-   "provider": "traced",
-   "origin": "collected",
-   "order": 40
-  }
- ]
+  "schema": 1,
+  "algo_v": 1,
+  "id": "chaeum-consulting",
+  "primary": "symbol",
+  "fingerprint": {
+    "logo.svg": "9bad2c1dd3723fb5"
+  },
+  "variants": [
+    {
+      "key": "symbol",
+      "form": "symbol",
+      "lang": "unknown",
+      "color": "color",
+      "label": "심볼형",
+      "files": {
+        "png": "variants/symbol-512.png"
+      },
+      "aspect": 1.0,
+      "provider": "official",
+      "origin": "provided",
+      "order": 10
+    },
+    {
+      "key": "wordmark",
+      "form": "wordmark",
+      "lang": "unknown",
+      "color": "color",
+      "label": "워드마크형",
+      "files": {
+        "svg": "logo.svg",
+        "png": "logo-800.png"
+      },
+      "aspect": 3.209,
+      "provider": "traced",
+      "origin": "collected",
+      "order": 40
+    }
+  ]
 }

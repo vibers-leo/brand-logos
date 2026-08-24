@@ -121,16 +121,37 @@ def main() -> int:
     ap.add_argument("--pull", action="store_true",
                     help="버킷에 있고 로컬에 없는 PNG 를 내려받는다 (CI 필수)")
     ap.add_argument("--workers", type=int, default=16)
+    ap.add_argument("--brand", action="append", default=[],
+                    help="특정 브랜드 ID만 동기화한다 (여러 번 지정 가능)")
     args = ap.parse_args()
 
     s3 = client()
     bucket = os.environ["NCP_BUCKET"].strip()
 
     files = local_pngs()
+    if args.brand:
+        requested = set(args.brand)
+        files = [item for item in files if item[0].split("/", 2)[1] in requested]
+        found = {item[0].split("/", 2)[1] for item in files}
+        missing = sorted(requested - found)
+        if missing:
+            print(f"⚠️ 로컬 PNG 없음: {', '.join(missing)}")
     total = sum(s for _, _, s in files)
     print(f"로컬 PNG {len(files):,}개 / {total/1024/1024:.0f}MB")
 
-    have = remote_sizes(s3, bucket)
+    # 전체 버킷 목록(20만+ 객체)을 먼저 읽으면 소수의 긴급 복구도 수 분이 걸린다.
+    # --brand 는 선택 파일만 HEAD로 확인해 404 복구를 바로 처리한다.
+    if args.brand and not args.pull:
+        have: dict[str, int] = {}
+        for key, _, _ in files:
+            try:
+                have[key] = s3.head_object(Bucket=bucket, Key=key)["ContentLength"]
+            except Exception as error:
+                code = getattr(error, "response", {}).get("Error", {}).get("Code", "")
+                if str(code) not in {"404", "NoSuchKey", "NotFound"}:
+                    raise
+    else:
+        have = remote_sizes(s3, bucket)
 
     if args.pull:
         local = {k for k, _, _ in files}
@@ -190,9 +211,14 @@ def main() -> int:
         try:
             s3.put_object(
                 Bucket=bucket, Key=key, Body=path.read_bytes(),
-                # 이 버킷은 버킷 정책으로 CDN 읽기를 공개한다. Object ACL은
-                # 비활성화되어 있어 `public-read`를 함께 보내면 PutObject가
-                # AccessDenied로 거절된다 (2026-08-22, 신규 15개에서 확인).
+                # ⚠️ public-read 를 빼면 안 된다. 이 버킷에는 **버킷 정책이 없고**
+                #    (get_bucket_policy → NoSuchBucketPolicy), 공개는 개별 객체
+                #    ACL 로만 이뤄진다. 한때 "버킷 정책이 공개한다"고 보고 이 인자를
+                #    뺐는데, 그 뒤 올라간 파일이 전부 비공개가 되어 CDN 404 가 났다
+                #    (2026-08-21 야화 로고 5개 + 최근 업로드 22개에서 확인).
+                #    AccessDenied 가 난다면 ACL 이 막힌 게 아니라 **출발 IP 제한**을
+                #    의심할 것 — 같은 키로 맥은 되고 NCP 서버는 거절된다.
+                ACL="public-read",
                 ContentType="image/png",
                 CacheControl="public, max-age=31536000, immutable",
             )

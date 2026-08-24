@@ -18,6 +18,10 @@
  */
 
 const BUCKET = "https://kr.object.ncloudstorage.com/vibers-bucket";
+// GitHub Pages의 custom domain(CNAME)은 logo.vibers.co.kr 자체다. Worker에서
+// fetch(request)로 폴백하면 Pages가 다시 이 도메인으로 리다이렉트해 순환 404가
+// 난다. 원본 저장소를 직접 읽어 이관 중 누락 PNG도 안전하게 서빙한다.
+const GITHUB_RAW = "https://raw.githubusercontent.com/vibers-leo/brand-logos/main";
 
 // _clients 아래 PNG 전부 — logo.png·logo-800·transparent·white·icon 과
 // sources/·variants/ 하위 PNG 까지 포함한다.
@@ -100,6 +104,12 @@ async function fromBucket(path) {
   return res.ok ? res : null;
 }
 
+function fromRepository(path, search) {
+  return fetch(`${GITHUB_RAW}${path}${search}`, {
+    cf: { cacheEverything: true, cacheTtl: 300 },
+  });
+}
+
 export default {
   async fetch(request) {
     const url = new URL(request.url);
@@ -121,7 +131,7 @@ export default {
         response = null; // 버킷 장애 시 원본으로 폴백한다
       }
     }
-    if (!response) response = await fetch(request);
+    if (!response) response = await fromRepository(path, url.search);
 
     const out = new Response(response.body, response);
     out.headers.set("Access-Control-Allow-Origin", "*");

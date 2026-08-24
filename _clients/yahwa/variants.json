@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "yahwa",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "61bd59a3945aed68",
+  "sources/horizontal-dark.svg": "e5ca4b9701b25705",
+  "sources/vertical.svg": "9afe589b46ccf9c7",
+  "sources/vertical-dark.svg": "ccb2db40f2239b01"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/vertical.svg"
+   },
+   "aspect": 0.436,
+   "provider": "official",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.063,
+   "provider": "official-ai",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zer0makers",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "7145894fdd2b859b",
+  "logo-alt.svg": "0074a72cb6d978e6"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo-alt.svg"
+   },
+   "aspect": 1.606,
+   "provider": "zer0makers-official",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.773,
+   "provider": "official-original",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

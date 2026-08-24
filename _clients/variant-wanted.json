@@ -1,7 +1,7 @@
 {
   "note": "파비콘으로 쓸 심볼이 없는 브랜드. 심볼형 로고 재수집 타겟. logo-icon.png 의 잉크가 캔버스의 20% 미만인 경우.",
   "threshold": 0.2,
-  "count": 6175,
+  "count": 6179,
   "brands": [
     {
       "id": "vibers-matecheck",
@@ -54,6 +54,10 @@
     {
       "id": "fibercop",
       "icon_ink": 0.0137
+    },
+    {
+      "id": "kb-financial-group",
+      "icon_ink": 0.0154
     },
     {
       "id": "no-verca",
@@ -11804,6 +11808,14 @@
       "icon_ink": 0.1406
     },
     {
+      "id": "korea-investment-securities",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "korea-investment-corporation",
+      "icon_ink": 0.1406
+    },
+    {
       "id": "kgmobility",
       "icon_ink": 0.1416
     },
@@ -19905,6 +19917,10 @@
     },
     {
       "id": "deutsche-gesellschaft-fu-r-parkinson-und-bewegungssto-rungen",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "zer0makers",
       "icon_ink": 0.1719
     },
     {

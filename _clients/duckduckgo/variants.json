@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "a0c2e296bf5e5064",
   "sources/iconify/duckduckgo.svg": "a0c2e296bf5e5064",
-  "sources/wvl/duckduckgo.svg": "5ae4730f55c38763"
+  "sources/wvl/duckduckgo.svg": "5ae4730f55c38763",
+  "sources/thesvg/wordmark.svg": "a3be333246fc34f4"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/duckduckgo.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.571,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

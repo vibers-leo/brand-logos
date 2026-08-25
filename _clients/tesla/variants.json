@@ -4,7 +4,8 @@
  "id": "tesla",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0d60e75e6727657d"
+  "logo.svg": "0d60e75e6727657d",
+  "sources/thesvg/wordmark.svg": "9faaec6d1c0fd4bd"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 9.772,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

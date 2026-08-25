@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "2c1045e7ccd8e0d6",
-  "sources/devicons/netbox-original.svg": "2c1045e7ccd8e0d6"
+  "sources/devicons/netbox-original.svg": "2c1045e7ccd8e0d6",
+  "sources/thesvg/wordmark.svg": "23099e82fdcb3cde"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/netbox-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.543,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

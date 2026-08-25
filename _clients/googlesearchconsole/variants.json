@@ -4,7 +4,8 @@
  "id": "googlesearchconsole",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "997c3ea3bc34e5a8"
+  "logo.svg": "997c3ea3bc34e5a8",
+  "sources/thesvg/wordmark.svg": "be1e1e3ba23af608"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simpleicons/googlesearchconsole",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 8.571,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

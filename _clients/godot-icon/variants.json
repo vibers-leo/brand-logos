@@ -4,7 +4,8 @@
  "id": "godot-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6ef9a22cebe2430a"
+  "logo.svg": "6ef9a22cebe2430a",
+  "sources/thesvg/wordmark.svg": "c16c65cdaefc86c3"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.06,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "0b1015ff51522f4c",
-  "sources/wvl/nodewebkit.svg": "0b1015ff51522f4c"
+  "sources/wvl/nodewebkit.svg": "0b1015ff51522f4c",
+  "sources/thesvg/wordmark.svg": "4fa78d1f8ccba7d6"
  },
  "variants": [
   {
@@ -26,6 +27,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/nodewebkit.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

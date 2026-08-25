@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "dded2f30d0569ac1",
-  "sources/devicons/gazebo-original.svg": "dded2f30d0569ac1"
+  "sources/devicons/gazebo-original.svg": "dded2f30d0569ac1",
+  "sources/thesvg/wordmark.svg": "74fd5f69f939f533"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 0.695,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",

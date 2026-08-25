@@ -4,7 +4,8 @@
  "id": "turborepo-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f609b6bbfa8c68d8"
+  "logo.svg": "f609b6bbfa8c68d8",
+  "sources/thesvg/wordmark.svg": "055dba4112e2a6c5"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 7.369,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

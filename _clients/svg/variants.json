@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "d1ece2b9555382ee",
   "sources/iconify/svg.svg": "d1ece2b9555382ee",
-  "sources/wvl/svg.svg": "6890f4ed0dbbc7f9"
+  "sources/wvl/svg.svg": "6890f4ed0dbbc7f9",
+  "sources/thesvg/wordmark.svg": "2f4324f3e8f18702"
  },
  "variants": [
   {
@@ -31,6 +32,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/svg.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

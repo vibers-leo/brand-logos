@@ -4,7 +4,8 @@
  "id": "tiktok-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1e3d430f4211b367"
+  "logo.svg": "1e3d430f4211b367",
+  "sources/thesvg/wordmark.svg": "74f79f0a29b3803c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.422,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

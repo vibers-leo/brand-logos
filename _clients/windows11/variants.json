@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "a26579c98408de2d",
-  "sources/devicons/windows11-original.svg": "a26579c98408de2d"
+  "sources/devicons/windows11-original.svg": "a26579c98408de2d",
+  "sources/thesvg/wordmark.svg": "138d5fc6a209cb0b"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 1.335,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

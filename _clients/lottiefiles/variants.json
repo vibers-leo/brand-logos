@@ -4,7 +4,8 @@
  "id": "lottiefiles",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "47b471920391aa4c"
+  "logo.svg": "47b471920391aa4c",
+  "sources/thesvg/wordmark.svg": "f6b4028dafeceb23"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.108,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

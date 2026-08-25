@@ -4,7 +4,8 @@
  "id": "postman-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a2451f46db4a9bd5"
+  "logo.svg": "a2451f46db4a9bd5",
+  "sources/thesvg/wordmark.svg": "f59b9a222bc6bd1d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.297,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

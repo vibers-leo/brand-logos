@@ -4,7 +4,8 @@
  "id": "turso",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b5ebdb1cf4437d49"
+  "logo.svg": "b5ebdb1cf4437d49",
+  "sources/thesvg/wordmark.svg": "96a2f5c4d6bfe343"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.359,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

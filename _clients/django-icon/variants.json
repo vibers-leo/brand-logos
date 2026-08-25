@@ -4,9 +4,24 @@
  "id": "django-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ceb4e60f51defc5b"
+  "logo.svg": "ceb4e60f51defc5b",
+  "sources/thesvg/wordmark.svg": "0bf1894fdafdfe4d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.857,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

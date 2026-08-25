@@ -4,7 +4,8 @@
  "id": "fastapi-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "76d30515951e0e2d"
+  "logo.svg": "76d30515951e0e2d",
+  "sources/thesvg/wordmark.svg": "83f70de195be533f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.389,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

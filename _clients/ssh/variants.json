@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "3bf320460261f103",
-  "sources/devicons/ssh-original.svg": "3bf320460261f103"
+  "sources/devicons/ssh-original.svg": "3bf320460261f103",
+  "sources/thesvg/wordmark.svg": "8d3d9b1dd08ee0c2"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 1.857,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

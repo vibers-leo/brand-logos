@@ -36,9 +36,9 @@ def filename(slug: str, variant: str) -> str:
     if normalized.startswith("wordmark"):
         suffix = normalized[len("wordmark"):]
         return f"{slug}-wordmark{suffix}.svg"
-    if normalized in ("default", "color"):
-        return f"{slug}-icon.svg"
-    return f"{slug}-icon-{normalized}.svg"
+    # default/color/mono는 '대표 색상'일 뿐 형태를 뜻하지 않는다. 파일명으로
+    # 심볼을 강제하면 macOS처럼 가로 워드마크를 심볼로 오분류하게 된다.
+    return f"{slug}-{normalized}.svg"
 
 
 def url_variant(variant: str) -> str:
@@ -71,6 +71,7 @@ def main() -> int:
     parser.add_argument("--brand", required=True, help="세모로고 기존 브랜드 ID")
     parser.add_argument("--source-id", required=True, help="theSVG registry slug")
     parser.add_argument("--variants", help="쉼표로 제한 (기본: source가 제공하는 전체 형태)")
+    parser.add_argument("--remove", action="store_true", help="이 브랜드의 기존 theSVG 반입본을 제거")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -81,6 +82,18 @@ def main() -> int:
     source = next((item for item in get_registry() if item.get("slug") == args.source_id), None)
     if not source:
         raise SystemExit(f"theSVG slug 없음: {args.source_id}")
+    if args.remove:
+        target = CLIENTS / args.brand / "sources" / "thesvg"
+        for path in target.glob("*") if target.exists() else []:
+            path.unlink()
+        if target.exists():
+            target.rmdir()
+        prefix = f"thesvg:{args.source_id}"
+        brand["sources"] = [entry for entry in (brand.get("sources") or [])
+                            if entry.get("provider") != prefix]
+        BRANDS.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+        print(f"✅ {args.brand}의 theSVG:{args.source_id} 반입본 제거")
+        return 0
     available = [value for value in (source.get("variants") or []) if isinstance(value, str)]
     wanted = [value.strip() for value in args.variants.split(",")] if args.variants else available
     missing = sorted(set(wanted) - set(available))

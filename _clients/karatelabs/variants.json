@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "fb9014f7dfcec88b",
-  "sources/devicons/karatelabs-original.svg": "fb9014f7dfcec88b"
+  "sources/devicons/karatelabs-original.svg": "fb9014f7dfcec88b",
+  "sources/thesvg/wordmark.svg": "b432daa8ccc0929a"
  },
  "variants": [
   {
@@ -26,6 +27,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/karatelabs-original.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

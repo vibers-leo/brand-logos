@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "6b9496ddb7d43559",
-  "sources/instagram-icon.svg": "e9acf6e5447bc6f5"
+  "sources/instagram-icon.svg": "e9acf6e5447bc6f5",
+  "sources/thesvg/wordmark.svg": "5551fb904071dcbf"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/instagram-icon.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.508,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

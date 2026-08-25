@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "08d1d65a40972d16",
-  "sources/devicons/laminas-original.svg": "08d1d65a40972d16"
+  "sources/devicons/laminas-original.svg": "08d1d65a40972d16",
+  "sources/thesvg/wordmark.svg": "0c50a2130d1282de"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.812,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

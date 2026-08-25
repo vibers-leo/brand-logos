@@ -4,7 +4,8 @@
  "id": "glide",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "75a4d7eb2df45509"
+  "logo.svg": "75a4d7eb2df45509",
+  "sources/thesvg/wordmark.svg": "6de95ea95986a80c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.219,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

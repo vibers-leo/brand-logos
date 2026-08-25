@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "253f56ce100ce850",
-  "sources/devicons/devicon-original.svg": "253f56ce100ce850"
+  "sources/devicons/devicon-original.svg": "253f56ce100ce850",
+  "sources/thesvg/wordmark.svg": "fec2f05753b1e495"
  },
  "variants": [
   {
@@ -26,6 +27,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/devicon-original.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

@@ -4,7 +4,8 @@
  "id": "airbnb-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6914baad9e456030"
+  "logo.svg": "6914baad9e456030",
+  "sources/thesvg/wordmark.svg": "093eb3917e554df6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.203,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

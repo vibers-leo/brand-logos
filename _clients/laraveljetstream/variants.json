@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d83211cdbad650ba",
-  "sources/devicons/laraveljetstream-original.svg": "d83211cdbad650ba"
+  "sources/devicons/laraveljetstream-original.svg": "d83211cdbad650ba",
+  "sources/thesvg/wordmark.svg": "620c0b4978dba05d"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/laraveljetstream-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 6.522,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

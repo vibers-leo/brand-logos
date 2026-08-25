@@ -4,7 +4,8 @@
  "id": "vercel-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fb8d870c856ec720"
+  "logo.svg": "fb8d870c856ec720",
+  "sources/thesvg/wordmark.svg": "00b67b72171c1176"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.994,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

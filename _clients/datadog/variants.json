@@ -10,7 +10,8 @@
   "sources/devicons/datadog-original.svg": "eda6ed8e86598c0d",
   "sources/wvl/datadog-icon.svg": "cc0a6668fe5b4f8c",
   "sources/wvl/datadog.svg": "74a14472a6ede4da",
-  "sources/datadog-icon.svg": "cc0a6668fe5b4f8c"
+  "sources/datadog-icon.svg": "cc0a6668fe5b4f8c",
+  "sources/thesvg/wordmark.svg": "92c95c8ffc95c99c"
  },
  "variants": [
   {
@@ -51,6 +52,10 @@
     {
      "provider": "merged",
      "file": "sources/datadog-icon.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

@@ -7,7 +7,8 @@
   "logo.svg": "95be61b3220438b5",
   "sources/iconify/trpc.svg": "95be61b3220438b5",
   "sources/devicons/trpc-original.svg": "aaec76d535102a91",
-  "sources/wvl/trpc.svg": "706e0c3193907403"
+  "sources/wvl/trpc.svg": "706e0c3193907403",
+  "sources/thesvg/wordmark.svg": "605e7f95b6d07c96"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/trpc-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.323,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

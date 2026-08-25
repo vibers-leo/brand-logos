@@ -4,7 +4,8 @@
  "id": "dazn",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e1ce4d4fb611d54c"
+  "logo.svg": "e1ce4d4fb611d54c",
+  "sources/thesvg/wordmark.svg": "b13b8386cba25657"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

@@ -7,7 +7,8 @@
   "logo.svg": "b34a57847af3bc51",
   "sources/iconify/ansible.svg": "b34a57847af3bc51",
   "sources/devicons/ansible-original.svg": "c790ed5662b51e45",
-  "sources/wvl/ansible.svg": "dac09142b7777f02"
+  "sources/wvl/ansible.svg": "dac09142b7777f02",
+  "sources/thesvg/wordmark.svg": "abe646230ae42a5a"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/ansible-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.048,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

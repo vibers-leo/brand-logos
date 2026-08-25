@@ -4,7 +4,8 @@
  "id": "slack-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9d28ec39296339aa"
+  "logo.svg": "9d28ec39296339aa",
+  "sources/thesvg/wordmark.svg": "58f08a8c55715a2e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.943,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

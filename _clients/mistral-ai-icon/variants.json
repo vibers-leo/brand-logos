@@ -4,7 +4,8 @@
  "id": "mistral-ai-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "487c641d586f9397"
+  "logo.svg": "487c641d586f9397",
+  "sources/thesvg/wordmark.svg": "50a6bf4e2c7c1de9"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.125,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

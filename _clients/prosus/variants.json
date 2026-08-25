@@ -4,7 +4,8 @@
  "id": "prosus",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fd7c30622720c8b5"
+  "logo.svg": "fd7c30622720c8b5",
+  "sources/thesvg/wordmark.svg": "b4acbfde726dd5a6"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.012,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

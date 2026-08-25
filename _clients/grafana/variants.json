@@ -7,9 +7,24 @@
   "logo.svg": "61f839a6657c2687",
   "sources/iconify/grafana.svg": "61f839a6657c2687",
   "sources/devicons/grafana-original.svg": "c8d73553046d3db8",
-  "sources/wvl/grafana.svg": "ce2fc288ff528df4"
+  "sources/wvl/grafana.svg": "ce2fc288ff528df4",
+  "sources/thesvg/wordmark.svg": "8e4e043fc1a6ea37"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.792,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

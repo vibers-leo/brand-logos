@@ -4,7 +4,8 @@
  "id": "typescript-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0182c67f50a6db10"
+  "logo.svg": "0182c67f50a6db10",
+  "sources/thesvg/wordmark.svg": "fe886982267fe44a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

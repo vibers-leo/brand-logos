@@ -4,7 +4,8 @@
  "id": "spring-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a13cc9b3d2189bef"
+  "logo.svg": "a13cc9b3d2189bef",
+  "sources/thesvg/wordmark.svg": "4cab0e2bc9b0afc4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.704,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

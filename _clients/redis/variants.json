@@ -7,7 +7,8 @@
   "logo.svg": "d0b84171ecb09d58",
   "sources/iconify/redis.svg": "d0b84171ecb09d58",
   "sources/devicons/redis-original.svg": "86a3e208bfbc04cf",
-  "sources/wvl/redis.svg": "1e616c2ba2309269"
+  "sources/wvl/redis.svg": "1e616c2ba2309269",
+  "sources/thesvg/wordmark.svg": "653dda9c8345b715"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/redis-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.123,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

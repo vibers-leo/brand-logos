@@ -4,7 +4,8 @@
  "id": "protonmail",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "71f101754df81fd8"
+  "logo.svg": "71f101754df81fd8",
+  "sources/thesvg/wordmark.svg": "938e7106fa9a120c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.882,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

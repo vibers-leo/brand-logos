@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "e6e916cf7f37c6fc",
-  "sources/devicons/appcelerator-original.svg": "e6e916cf7f37c6fc"
+  "sources/devicons/appcelerator-original.svg": "e6e916cf7f37c6fc",
+  "sources/thesvg/wordmark.svg": "37e53300178b22f2"
  },
  "variants": [
   {
@@ -26,6 +27,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/appcelerator-original.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

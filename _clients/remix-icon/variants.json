@@ -4,7 +4,8 @@
  "id": "remix-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b9cea615454f1ad7"
+  "logo.svg": "b9cea615454f1ad7",
+  "sources/thesvg/wordmark.svg": "338bf6d50715b975"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

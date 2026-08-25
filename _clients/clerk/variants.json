@@ -4,7 +4,8 @@
  "id": "clerk",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "345155790b35e59a"
+  "logo.svg": "345155790b35e59a",
+  "sources/thesvg/wordmark.svg": "ec3600e8a608726d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.441,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

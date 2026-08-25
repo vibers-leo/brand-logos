@@ -4,7 +4,8 @@
  "id": "crunchyroll",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "98ed6c434e0ee3b3"
+  "logo.svg": "98ed6c434e0ee3b3",
+  "sources/thesvg/wordmark.svg": "44545e2fc7f27aa8"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.302,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

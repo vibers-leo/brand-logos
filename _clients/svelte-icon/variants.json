@@ -4,7 +4,8 @@
  "id": "svelte-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b6f68c1085e229a1"
+  "logo.svg": "b6f68c1085e229a1",
+  "sources/thesvg/wordmark.svg": "5a85cbf45a657b96"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.086,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "openapi-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "94f2f79dba102d24"
+  "logo.svg": "94f2f79dba102d24",
+  "sources/thesvg/wordmark.svg": "923352eb3b4cff2d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.689,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

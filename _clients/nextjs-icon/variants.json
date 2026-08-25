@@ -4,7 +4,8 @@
  "id": "nextjs-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a9cc8f7a265f5f84"
+  "logo.svg": "a9cc8f7a265f5f84",
+  "sources/thesvg/wordmark.svg": "ed8601b0ec6659c3"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.945,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

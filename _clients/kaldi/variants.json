@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "f996d8196b600235",
-  "sources/devicons/kaldi-original.svg": "f996d8196b600235"
+  "sources/devicons/kaldi-original.svg": "f996d8196b600235",
+  "sources/thesvg/wordmark.svg": "084387a457c0c90f"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/kaldi-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.327,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

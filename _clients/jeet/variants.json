@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "ae95f1dd87160852",
-  "sources/devicons/jeet-original.svg": "ae95f1dd87160852"
+  "sources/devicons/jeet-original.svg": "ae95f1dd87160852",
+  "sources/thesvg/wordmark.svg": "a371d4d45ef1df0c"
  },
  "variants": [
   {
@@ -26,6 +27,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/jeet-original.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

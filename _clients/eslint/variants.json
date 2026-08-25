@@ -8,7 +8,8 @@
   "sources/iconify/eslint.svg": "55f5f364223795d7",
   "sources/devicons/eslint-original.svg": "a49d3da53f7f2228",
   "sources/wvl/eslint.svg": "a1d74d5ce26c62d8",
-  "sources/eslint-old.svg": "439fc4f6692d61fe"
+  "sources/eslint-old.svg": "439fc4f6692d61fe",
+  "sources/thesvg/wordmark.svg": "fa968b6a509e5a9f"
  },
  "variants": [
   {
@@ -43,6 +44,20 @@
      "file": "sources/eslint-old.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.494,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

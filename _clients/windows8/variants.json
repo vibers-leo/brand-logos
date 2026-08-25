@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d27db5a20b1c4e63",
-  "sources/devicons/windows8-original.svg": "d27db5a20b1c4e63"
+  "sources/devicons/windows8-original.svg": "d27db5a20b1c4e63",
+  "sources/thesvg/wordmark.svg": "1ce58d24f0e97fb5"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/windows8-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.228,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

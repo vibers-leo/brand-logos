@@ -4,7 +4,8 @@
  "id": "milanote",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "95b319c15c93eb03"
+  "logo.svg": "95b319c15c93eb03",
+  "sources/thesvg/wordmark.svg": "ec133e6bf0689d76"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.711,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

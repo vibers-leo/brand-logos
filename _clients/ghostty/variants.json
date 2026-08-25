@@ -4,7 +4,8 @@
  "id": "ghostty",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "990a4e22c5f1c3f5"
+  "logo.svg": "990a4e22c5f1c3f5",
+  "sources/thesvg/wordmark.svg": "829cc9b86fb3e7ad"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.106,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

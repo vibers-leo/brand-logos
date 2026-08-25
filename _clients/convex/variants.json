@@ -4,7 +4,8 @@
  "id": "convex",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9fa377c6b7802e7e"
+  "logo.svg": "9fa377c6b7802e7e",
+  "sources/thesvg/wordmark.svg": "9dcc9e1d54c65663"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.784,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

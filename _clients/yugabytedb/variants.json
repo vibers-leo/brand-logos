@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "084cdd9ea146c586",
-  "sources/devicons/yugabytedb-original.svg": "084cdd9ea146c586"
+  "sources/devicons/yugabytedb-original.svg": "084cdd9ea146c586",
+  "sources/thesvg/wordmark.svg": "6345045ce775bee9"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/yugabytedb-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 7.377,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

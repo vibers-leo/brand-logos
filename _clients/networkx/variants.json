@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "e792f70a195bda50",
-  "sources/devicons/networkx-original.svg": "e792f70a195bda50"
+  "sources/devicons/networkx-original.svg": "e792f70a195bda50",
+  "sources/thesvg/wordmark.svg": "1f050aa65191a329"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/networkx-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.455,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

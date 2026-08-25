@@ -4,7 +4,8 @@
  "id": "mintlify",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4ce38f56877d424c"
+  "logo.svg": "4ce38f56877d424c",
+  "sources/thesvg/wordmark.svg": "8d771da7b1025a4f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.485,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

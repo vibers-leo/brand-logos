@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "8a26e48b1282996e",
-  "sources/devicons/awk-original.svg": "8a26e48b1282996e"
+  "sources/devicons/awk-original.svg": "8a26e48b1282996e",
+  "sources/thesvg/wordmark.svg": "2911a6c1d1c156f3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 1.926,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

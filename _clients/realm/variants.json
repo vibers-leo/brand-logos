@@ -7,9 +7,24 @@
   "logo.svg": "43f4fdc710e7d99d",
   "sources/iconify/realm.svg": "43f4fdc710e7d99d",
   "sources/devicons/realm-original.svg": "0bd5699e91de583a",
-  "sources/wvl/realm.svg": "cbca763061dafdc8"
+  "sources/wvl/realm.svg": "cbca763061dafdc8",
+  "sources/thesvg/wordmark.svg": "6bd3da5274f7a88e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.884,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

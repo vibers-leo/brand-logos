@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "b1bcd0999ed6c4f7",
-  "sources/devicons/angularjs-original.svg": "b1bcd0999ed6c4f7"
+  "sources/devicons/angularjs-original.svg": "b1bcd0999ed6c4f7",
+  "sources/thesvg/wordmark.svg": "1b8a471c7453ca62"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/angularjs-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.92,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "mysql-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d4bee24ff22745ec"
+  "logo.svg": "d4bee24ff22745ec",
+  "sources/thesvg/wordmark.svg": "d3cf019fa172b01a"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 1.468,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

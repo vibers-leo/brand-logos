@@ -7,7 +7,8 @@
   "logo.svg": "96b9c31676ef4b88",
   "sources/fa.svg": "96b9c31676ef4b88",
   "sources/iconify/dropbox.svg": "b156135a2d4bf071",
-  "sources/wvl/dropbox.svg": "df22010f5934d87f"
+  "sources/wvl/dropbox.svg": "df22010f5934d87f",
+  "sources/thesvg/wordmark.svg": "6b0504fc3a804edc"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/fa.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.069,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

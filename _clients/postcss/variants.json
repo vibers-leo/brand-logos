@@ -7,7 +7,8 @@
   "logo.svg": "b3336e72776d44ae",
   "sources/iconify/postcss.svg": "b3336e72776d44ae",
   "sources/devicons/postcss-original.svg": "b676a03070657554",
-  "sources/wvl/postcss.svg": "3d2615e97891696d"
+  "sources/wvl/postcss.svg": "3d2615e97891696d",
+  "sources/thesvg/wordmark.svg": "9ab52b330d555485"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/postcss-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.14,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

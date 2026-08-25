@@ -4,7 +4,8 @@
  "id": "paypal",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "62732ac4dbef388f"
+  "logo.svg": "62732ac4dbef388f",
+  "sources/thesvg/wordmark.svg": "d38d9b4a8f652a8d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.128,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

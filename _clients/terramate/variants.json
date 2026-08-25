@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "811b4216feb035d7",
-  "sources/devicons/terramate-original.svg": "811b4216feb035d7"
+  "sources/devicons/terramate-original.svg": "811b4216feb035d7",
+  "sources/thesvg/wordmark.svg": "3e03373f66b3d00c"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/terramate-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 6.618,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

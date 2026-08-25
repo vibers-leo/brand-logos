@@ -4,7 +4,8 @@
  "id": "replit-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "89902b1cec49b819"
+  "logo.svg": "89902b1cec49b819",
+  "sources/thesvg/wordmark.svg": "cece63262931386f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.273,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "model-context-protocol-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a41f1341eba34e24"
+  "logo.svg": "a41f1341eba34e24",
+  "sources/thesvg/wordmark.svg": "0e63f2939b2255ff"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 14.85,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

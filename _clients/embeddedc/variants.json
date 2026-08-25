@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "da0a97a50c5e2b4f",
-  "sources/devicons/embeddedc-original.svg": "da0a97a50c5e2b4f"
+  "sources/devicons/embeddedc-original.svg": "da0a97a50c5e2b4f",
+  "sources/thesvg/wordmark.svg": "d5f46c866112c444"
  },
  "variants": [
   {
@@ -26,6 +27,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/embeddedc-original.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

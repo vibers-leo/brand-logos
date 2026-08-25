@@ -4,7 +4,8 @@
  "id": "unicharm",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f1b0f0ff9fc0cef1"
+  "logo.svg": "f1b0f0ff9fc0cef1",
+  "sources/thesvg/wordmark.svg": "eeae247f16d479c9"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.237,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

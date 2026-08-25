@@ -4,9 +4,24 @@
  "id": "groq",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "328e24ae340362e5"
+  "logo.svg": "328e24ae340362e5",
+  "sources/thesvg/wordmark.svg": "a3750a0e5fcb87c9"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.932,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

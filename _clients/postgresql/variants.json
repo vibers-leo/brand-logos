@@ -7,7 +7,8 @@
   "logo.svg": "7e2605b8715f12b3",
   "sources/iconify/postgresql.svg": "7e2605b8715f12b3",
   "sources/devicons/postgresql-original.svg": "fc1df683a15230d3",
-  "sources/wvl/postgresql.svg": "c08bf1ce1ae0125a"
+  "sources/wvl/postgresql.svg": "c08bf1ce1ae0125a",
+  "sources/thesvg/wordmark.svg": "b6f9bfdfbfc17e81"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/postgresql-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.18,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "271214be5d569efc",
-  "sources/devicons/css3-original.svg": "271214be5d569efc"
+  "sources/devicons/css3-original.svg": "271214be5d569efc",
+  "sources/thesvg/wordmark.svg": "10549fa21ef8cea4"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 0.708,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",

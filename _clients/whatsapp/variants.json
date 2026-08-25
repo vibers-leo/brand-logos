@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "df279fd6b2dd53e3",
-  "sources/whatsapp-icon.svg": "d76328daa7221237"
+  "sources/whatsapp-icon.svg": "d76328daa7221237",
+  "sources/thesvg/wordmark.svg": "46235b48728a3a21"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/whatsapp-icon.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.306,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

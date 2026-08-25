@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "ca24793733e226c2",
   "sources/iconify/nodewebkit.svg": "ca24793733e226c2",
-  "sources/devicons/nodewebkit-original.svg": "b612f9f7ada61b0e"
+  "sources/devicons/nodewebkit-original.svg": "b612f9f7ada61b0e",
+  "sources/thesvg/wordmark.svg": "4fa78d1f8ccba7d6"
  },
  "variants": [
   {
@@ -31,6 +32,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/nodewebkit-original.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

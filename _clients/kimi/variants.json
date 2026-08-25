@@ -4,9 +4,24 @@
  "id": "kimi",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e6f8a416a11aa23a"
+  "logo.svg": "e6f8a416a11aa23a",
+  "sources/thesvg/wordmark.svg": "d57bee03a02ce716"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.558,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

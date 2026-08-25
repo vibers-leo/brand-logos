@@ -4,7 +4,8 @@
  "id": "homeassistant",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9f7ffdcb606ea206"
+  "logo.svg": "9f7ffdcb606ea206",
+  "sources/thesvg/wordmark.svg": "85b4f8f24e199bb3"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 7.258,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

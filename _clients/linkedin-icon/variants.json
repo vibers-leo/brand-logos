@@ -4,7 +4,8 @@
  "id": "linkedin-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1bec810d7ffa93d6"
+  "logo.svg": "1bec810d7ffa93d6",
+  "sources/thesvg/wordmark.svg": "d66df50fc49bfeb4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

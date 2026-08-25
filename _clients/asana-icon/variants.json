@@ -4,7 +4,8 @@
  "id": "asana-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9eb8e16fa65d993e"
+  "logo.svg": "9eb8e16fa65d993e",
+  "sources/thesvg/wordmark.svg": "57f3c9dd5d3e1503"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.056,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

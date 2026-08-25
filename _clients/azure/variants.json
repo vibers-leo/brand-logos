@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "ad6e77004eaa0ee7",
-  "sources/devicons/azure-original.svg": "ad6e77004eaa0ee7"
+  "sources/devicons/azure-original.svg": "ad6e77004eaa0ee7",
+  "sources/thesvg/wordmark.svg": "35b92c10e1508d7b"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/azure-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.462,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

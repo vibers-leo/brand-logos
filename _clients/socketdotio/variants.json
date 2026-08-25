@@ -4,9 +4,24 @@
  "id": "socketdotio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0af937cd061751ec"
+  "logo.svg": "0af937cd061751ec",
+  "sources/thesvg/wordmark.svg": "d5f90829834e5e52"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.763,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "spotify-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ad08a904377bd97b"
+  "logo.svg": "ad08a904377bd97b",
+  "sources/thesvg/wordmark.svg": "d48e8b566886c8f7"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.214,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

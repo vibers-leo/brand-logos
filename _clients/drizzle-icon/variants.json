@@ -4,9 +4,24 @@
  "id": "drizzle-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6ad313ece61cc817"
+  "logo.svg": "6ad313ece61cc817",
+  "sources/thesvg/wordmark.svg": "5431f1ed060b6bdc"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 0.75,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",

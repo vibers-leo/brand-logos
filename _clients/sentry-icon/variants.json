@@ -4,7 +4,8 @@
  "id": "sentry-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6f676985d1386a42"
+  "logo.svg": "6f676985d1386a42",
+  "sources/thesvg/wordmark.svg": "5b9d366b697add7f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.523,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

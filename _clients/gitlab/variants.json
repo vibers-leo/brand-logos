@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d361595bc4f8cbb6",
-  "sources/gitlab-icon.svg": "94d7d516f3db448e"
+  "sources/gitlab-icon.svg": "94d7d516f3db448e",
+  "sources/thesvg/wordmark.svg": "01474f71d1a205de"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/gitlab-icon.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.615,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

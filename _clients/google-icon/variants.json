@@ -4,7 +4,8 @@
  "id": "google-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2b76a6c190d0216c"
+  "logo.svg": "2b76a6c190d0216c",
+  "sources/thesvg/wordmark.svg": "e92a0a47963a3733"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.044,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -7,7 +7,8 @@
   "logo.svg": "a9a6c865f54b37a0",
   "sources/iconify/tensorflow.svg": "a9a6c865f54b37a0",
   "sources/devicons/tensorflow-original.svg": "1cdaf01f02c18baf",
-  "sources/wvl/tensorflow.svg": "413441cb96a813bb"
+  "sources/wvl/tensorflow.svg": "413441cb96a813bb",
+  "sources/thesvg/wordmark.svg": "67d5bf1294c6e85c"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/tensorflow-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.397,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

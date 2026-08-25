@@ -4,9 +4,24 @@
  "id": "kroger",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "04b59661fc25873c"
+  "logo.svg": "04b59661fc25873c",
+  "sources/thesvg/wordmark.svg": "d3fdc0c60c048fc5"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.695,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

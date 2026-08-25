@@ -4,7 +4,8 @@
  "id": "datadog-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cc0a6668fe5b4f8c"
+  "logo.svg": "cc0a6668fe5b4f8c",
+  "sources/thesvg/wordmark.svg": "92c95c8ffc95c99c"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.934,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

@@ -7,7 +7,8 @@
   "logo.svg": "8af5460a26febc2d",
   "sources/iconify/mocha.svg": "8af5460a26febc2d",
   "sources/devicons/mocha-original.svg": "0d8483827e3bc18b",
-  "sources/wvl/mocha.svg": "2b01ef910e2144cf"
+  "sources/wvl/mocha.svg": "2b01ef910e2144cf",
+  "sources/thesvg/wordmark.svg": "c96afbfdcdf2a99e"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/mocha-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 6.716,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "microsoft-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a8a5d2fd9c7816bf"
+  "logo.svg": "a8a5d2fd9c7816bf",
+  "sources/thesvg/wordmark.svg": "a61efb3584c7f80b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.663,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

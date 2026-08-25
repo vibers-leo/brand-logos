@@ -4,7 +4,8 @@
  "id": "vault-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "460fa00b3137aad6"
+  "logo.svg": "460fa00b3137aad6",
+  "sources/thesvg/wordmark.svg": "21c75a70f3669a4a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.249,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

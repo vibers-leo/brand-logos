@@ -4,7 +4,8 @@
  "id": "chase",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "46a01287e06dad1b"
+  "logo.svg": "46a01287e06dad1b",
+  "sources/thesvg/wordmark.svg": "0a781ee3339ec5ae"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 7.031,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

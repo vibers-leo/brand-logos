@@ -4,7 +4,8 @@
  "id": "turbopack-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c34d3f8cb4c8f9e4"
+  "logo.svg": "c34d3f8cb4c8f9e4",
+  "sources/thesvg/wordmark.svg": "dd81044581a4ee7a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 6.767,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

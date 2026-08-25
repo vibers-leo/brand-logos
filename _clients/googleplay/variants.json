@@ -4,7 +4,8 @@
  "id": "googleplay",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "dd3fa8bb801075aa"
+  "logo.svg": "dd3fa8bb801075aa",
+  "sources/thesvg/wordmark.svg": "b267037abd824a65"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simpleicons/googleplay",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.085,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

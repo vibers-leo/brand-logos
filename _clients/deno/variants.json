@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "bbcff890537a24f6",
   "sources/iconify/deno.svg": "bbcff890537a24f6",
-  "sources/wvl/deno.svg": "13181d5bfd376c4b"
+  "sources/wvl/deno.svg": "13181d5bfd376c4b",
+  "sources/thesvg/wordmark.svg": "912fc70500e70097"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/deno.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.655,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

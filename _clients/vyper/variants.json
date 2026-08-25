@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "b4ac6fdb913e888e",
-  "sources/devicons/vyper-original.svg": "b4ac6fdb913e888e"
+  "sources/devicons/vyper-original.svg": "b4ac6fdb913e888e",
+  "sources/thesvg/wordmark.svg": "00e19ae1d8fec885"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 0.711,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",

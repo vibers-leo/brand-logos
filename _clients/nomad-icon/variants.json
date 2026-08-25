@@ -4,7 +4,8 @@
  "id": "nomad-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "adf2706ca787c061"
+  "logo.svg": "adf2706ca787c061",
+  "sources/thesvg/wordmark.svg": "621ddce046e92574"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.782,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

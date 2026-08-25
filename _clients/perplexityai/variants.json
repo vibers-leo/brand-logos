@@ -4,7 +4,8 @@
  "id": "perplexityai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9674839db0d4b6e0"
+  "logo.svg": "9674839db0d4b6e0",
+  "sources/thesvg/wordmark.svg": "6cddde1963bc7b69"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.626,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

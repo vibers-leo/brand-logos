@@ -7,7 +7,8 @@
   "logo.svg": "4a9b816225fec749",
   "sources/iconify/dataspell.svg": "4a9b816225fec749",
   "sources/devicons/dataspell-original.svg": "704982b9877e7abe",
-  "sources/wvl/dataspell.svg": "8d1b6db0f3f42b95"
+  "sources/wvl/dataspell.svg": "8d1b6db0f3f42b95",
+  "sources/thesvg/wordmark.svg": "3168a1b67d5eea49"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/dataspell-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 6.015,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "twilio-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "15f3687fd026df7e"
+  "logo.svg": "15f3687fd026df7e",
+  "sources/thesvg/wordmark.svg": "615afcb8375af7df"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.321,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

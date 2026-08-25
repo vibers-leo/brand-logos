@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "25f6c875b4fb89fe",
-  "sources/devicons/prolog-original.svg": "25f6c875b4fb89fe"
+  "sources/devicons/prolog-original.svg": "25f6c875b4fb89fe",
+  "sources/thesvg/wordmark.svg": "927f95f266910de7"
  },
  "variants": [
   {
@@ -26,6 +27,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/prolog-original.svg"
+    },
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
     }
    ]
   }

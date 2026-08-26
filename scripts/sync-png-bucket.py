@@ -155,7 +155,14 @@ def main() -> int:
 
     if args.pull:
         local = {k for k, _, _ in files}
-        want = [(k, sz) for k, sz in have.items() if k not in local]
+        # ⚠️ 반드시 .png 로 걸러야 한다. 로컬 목록(files)은 PNG 만 담는데
+        #    버킷 목록(have)은 _clients/ 아래 전부(SVG·JSON)를 담는다.
+        #    거르지 않으면 비-PNG 가 전부 '로컬에 없는 것'으로 잡혀 내려받아진다.
+        #    그 결과 **git 에서 지운 파일이 버킷에 남아 있으면 되살아난다** —
+        #    2026-08-26 에 흰색 전용 워드마크 4건이 이렇게 부활했고, 러너가
+        #    그걸 다시 커밋했다. 삭제가 영영 안 먹는 상태였다.
+        want = [(k, sz) for k, sz in have.items()
+                if k not in local and k.lower().endswith(".png")]
         print(f"내려받을 것 {len(want):,}개 ({sum(sz for _, sz in want)/1024/1024:.0f}MB)")
         if not want:
             print("✅ 로컬이 이미 최신")

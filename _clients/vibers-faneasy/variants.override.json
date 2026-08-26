@@ -1,25 +1,61 @@
 {
- "note": "세로 로크업 심볼. 자동 세로 분리는 정밀도가 낮아 파이프라인에서 꺼져 있어 수동 등록 (2026-08-08 육안 확인).",
+ "note": "세로 로크업 심볼은 자동 분리 정밀도가 낮아 수동 등록 (2026-08-08 육안 확인).\n한글 태그라인 조합 2종은 제공받은 PNG 를 potrace 로 벡터화 (2026-08-26 육안 확인).\n⚠️ key 는 자동 생성기가 만드는 키와 반드시 일치해야 한다. 안 맞으면 라벨이 덧씌워지는 대신 files 가 빈 유령 항목이 생겨 파일 없는 카드가 뜬다 (예전 'vertical' 항목이 그랬다).",
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "vertical",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "세로조합형 (영문)",
+   "order": 10,
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "note": "자동 분류가 종횡비 1.378 을 보고 '가로'로 판정했으나 실제로는 심볼이 글자 위에 있는 세로 로크업이다."
+  },
+  {
+   "key": "vertical-ko",
+   "form": "vertical",
+   "lang": "ko",
+   "color": "mono-dark",
+   "label": "세로조합형 (한글)",
+   "order": 11,
+   "files": {
+    "svg": "variants/vertical-ko.svg",
+    "png": "variants/vertical-ko-800.png"
+   },
+   "provider": "manual:potrace",
+   "origin": "manual"
+  },
+  {
+   "key": "horizontal-ko",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "mono-dark",
+   "label": "가로조합형 (한글)",
+   "order": 20,
+   "files": {
+    "svg": "variants/horizontal-ko.svg",
+    "png": "variants/horizontal-ko-800.png"
+   },
+   "provider": "manual:potrace",
+   "origin": "manual"
+  },
   {
    "key": "symbol",
    "form": "symbol",
    "lang": "none",
    "color": "mono-dark",
    "label": "심볼만",
+   "order": 30,
    "files": {
     "svg": "variants/symbol.svg",
     "png": "variants/symbol-512.png"
    },
    "provider": "derived:autocrop-vertical",
-   "order": 30,
    "confidence": 0.757,
    "derived_from": "logo.svg"
-  },
-  {
-   "key": "vertical",
-   "label": "심볼+워드마크 (세로형)",
-   "order": 10
   }
  ]
 }

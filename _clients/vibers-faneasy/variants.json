@@ -38,20 +38,6 @@
    "origin": "manual"
   },
   {
-   "key": "vertical-en",
-   "form": "vertical",
-   "lang": "en",
-   "color": "mono-dark",
-   "label": "세로조합형 (영문 태그라인)",
-   "order": 12,
-   "files": {
-    "svg": "variants/vertical-en.svg",
-    "png": "variants/vertical-en-800.png"
-   },
-   "provider": "manual:potrace",
-   "origin": "manual"
-  },
-  {
    "key": "horizontal-ko",
    "form": "horizontal",
    "lang": "ko",
@@ -64,48 +50,6 @@
    },
    "provider": "manual:potrace",
    "origin": "manual"
-  },
-  {
-   "key": "vertical-ko-white",
-   "form": "vertical",
-   "lang": "ko",
-   "color": "mono-light",
-   "label": "세로조합형 (한글) · 화이트",
-   "order": 21,
-   "files": {
-    "png": "variants/vertical-ko-white-800.png"
-   },
-   "provider": "manual",
-   "origin": "derived",
-   "derived_from": "variants/vertical-ko.svg"
-  },
-  {
-   "key": "horizontal-ko-white",
-   "form": "horizontal",
-   "lang": "ko",
-   "color": "mono-light",
-   "label": "가로조합형 (한글) · 화이트",
-   "order": 22,
-   "files": {
-    "png": "variants/horizontal-ko-white-800.png"
-   },
-   "provider": "manual",
-   "origin": "derived",
-   "derived_from": "variants/horizontal-ko.svg"
-  },
-  {
-   "key": "vertical-en-white",
-   "form": "vertical",
-   "lang": "en",
-   "color": "mono-light",
-   "label": "세로조합형 (영문) · 화이트",
-   "order": 23,
-   "files": {
-    "png": "variants/vertical-en-white-800.png"
-   },
-   "provider": "manual",
-   "origin": "derived",
-   "derived_from": "variants/vertical-en.svg"
   },
   {
    "key": "symbol",
@@ -122,42 +66,6 @@
    "confidence": 0.757,
    "derived_from": "logo.svg",
    "origin": "manual"
-  },
-  {
-   "key": "symbol-white",
-   "form": "symbol",
-   "lang": "none",
-   "color": "mono-light",
-   "label": "심볼만 · 화이트",
-   "order": 31,
-   "files": {
-    "png": "variants/symbol-white-800.png"
-   },
-   "provider": "manual",
-   "origin": "derived",
-   "derived_from": "variants/symbol.svg"
-  },
-  {
-   "key": "app-icon",
-   "form": "symbol",
-   "lang": "none",
-   "color": "mono-dark",
-   "label": "앱아이콘·파비콘 세트",
-   "order": 40,
-   "files": {
-    "png": "icons/icon-512.png"
-   },
-   "sizes": {
-    "512": "icons/icon-512.png",
-    "192": "icons/icon-192.png",
-    "180": "icons/icon-180.png",
-    "64": "icons/symbol-64.png",
-    "32": "icons/symbol-32.png"
-   },
-   "provider": "manual",
-   "origin": "derived",
-   "derived_from": "variants/symbol.svg",
-   "note": "정사각 캔버스 + 여백 12%. 32px 에서도 F 형태가 살아남는 것을 육안 확인함."
   }
  ]
 }

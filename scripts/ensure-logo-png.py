@@ -61,6 +61,30 @@ def prepare(text: str) -> str:
     return text
 
 
+ARGC = {"matrix": (6,), "translate": (1, 2), "scale": (1, 2),
+        "rotate": (1, 3), "skewx": (1,), "skewy": (1,)}
+
+
+def _args_valid(body: str) -> bool:
+    """transform 값의 각 함수가 올바른 인자 개수와 형식을 갖췄는지 본다."""
+    fns = re.findall(r"([A-Za-z]+)\s*\(([^)]*)\)", body)
+    if not fns:
+        return False
+    for name, args in fns:
+        want = ARGC.get(name.lower())
+        if want is None:
+            return False
+        toks = [t for t in re.split(r"[\s,]+", args.strip()) if t]
+        if len(toks) not in want:
+            return False
+        for t in toks:
+            try:
+                float(t)
+            except ValueError:
+                return False
+    return True
+
+
 def _fix_decimal_comma(m: re.Match) -> str:
     """유럽 로케일이 만든 소수점 쉼표만 되돌린다.
 
@@ -68,12 +92,22 @@ def _fix_decimal_comma(m: re.Match) -> str:
     transform 의 **인자 구분 쉼표**까지 점이 되어 인자가 합쳐지고,
     cairosvg 가 'Matrix.__init__() takes from 1 to 7' 로 죽는다(실제로 겪었다).
 
-    구분 기준: 이미 소수점(.)이 있으면 그 파일은 로케일 문제가 아니다.
+    ⚠️ 예전 기준('점이 하나라도 있으면 건드리지 않는다')은 부족했다.
+    `matrix(1,0,0,1,-70,-243)` 은 점이 없어서 통과했고 `matrix(1.0.0.1,...)` 로
+    망가졌다 — 일러스트레이터가 늘 뱉는 형태라 165개 브랜드의 logo.png 가
+    통째로 생성되지 않았고, 그 여파로 자동수집 워크플로까지 실패했다
+    (2026-08-26).
+
+    이제 **인자 개수로 판정한다.** 이미 유효하면 손대지 않고, 유효하지 않을
+    때만 변환해 보고, 변환 결과가 유효해질 때만 채택한다. 개수는 모호하지 않다.
     """
     body = m.group(2)
-    if "." in body:
+    if _args_valid(body):
         return m.group(0)
-    return m.group(1) + re.sub(r"(?<=\d),(?=\d)", ".", body) + m.group(3)
+    fixed = re.sub(r"(?<=\d),(?=\d)", ".", body)
+    if _args_valid(fixed):
+        return m.group(1) + fixed + m.group(3)
+    return m.group(0)
 
 
 def is_raster_wrapped(svg: Path) -> bool:

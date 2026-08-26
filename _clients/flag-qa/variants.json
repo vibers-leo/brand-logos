@@ -4,7 +4,8 @@
  "id": "flag-qa",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "19fd90828274d416"
+  "logo.svg": "19fd90828274d416",
+  "sources/commons-wm/wordmark.svg": "764cf02b1ca7ee36"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.846,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

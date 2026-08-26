@@ -4,9 +4,24 @@
  "id": "teal",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "749218385ce649e5"
+  "logo.svg": "749218385ce649e5",
+  "sources/commons-wm/wordmark.svg": "a3997adccc5a343d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.778,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

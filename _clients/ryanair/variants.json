@@ -4,7 +4,8 @@
  "id": "ryanair",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3864e07601ef60c9"
+  "logo.svg": "3864e07601ef60c9",
+  "sources/commons-wm/wordmark.svg": "e7215228973b0762"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 8.182,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

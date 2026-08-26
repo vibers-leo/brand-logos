@@ -7,7 +7,8 @@
   "logo.svg": "e3368ed8603af50d",
   "sources/iconify/electron.svg": "e3368ed8603af50d",
   "sources/devicons/electron-original.svg": "67d3018afe5edd80",
-  "sources/wvl/electron.svg": "c4f9d13a91a68878"
+  "sources/wvl/electron.svg": "c4f9d13a91a68878",
+  "sources/commons-wm/wordmark.svg": "ba8cd104541e278e"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/electron-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 6.522,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

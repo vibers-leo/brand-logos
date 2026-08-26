@@ -4,7 +4,8 @@
  "id": "deepin",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b5cfeb06100112af"
+  "logo.svg": "b5cfeb06100112af",
+  "sources/commons-wm/wordmark.svg": "2a0ef994ccb9d49b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.913,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

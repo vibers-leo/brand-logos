@@ -4,7 +4,8 @@
  "id": "kyoto-university",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4c39838b51631e1b"
+  "logo.svg": "4c39838b51631e1b",
+  "sources/commons-wm/wordmark.svg": "90cf8b1d40ccaf15"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 13.636,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "44465970efe8ba89",
   "sources/iconify/spark.svg": "44465970efe8ba89",
-  "sources/wvl/spark.svg": "486edfa2cb7d0ed5"
+  "sources/wvl/spark.svg": "486edfa2cb7d0ed5",
+  "sources/commons-wm/wordmark.svg": "185ebce4986ab88c"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/spark.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.574,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

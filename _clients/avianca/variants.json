@@ -4,7 +4,8 @@
  "id": "avianca",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c5f0a94efeba93e2"
+  "logo.svg": "c5f0a94efeba93e2",
+  "sources/commons-wm/wordmark.svg": "63875e0085a0052e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.5,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

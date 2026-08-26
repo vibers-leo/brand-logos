@@ -4,7 +4,8 @@
  "id": "bainbridge-island-museum-of-art",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2da0ac4255c2305f"
+  "logo.svg": "2da0ac4255c2305f",
+  "sources/commons-wm/wordmark.svg": "436645400467af98"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 5.769,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

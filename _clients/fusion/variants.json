@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d3795c787915e572",
-  "sources/devicons/fusion-original.svg": "d3795c787915e572"
+  "sources/devicons/fusion-original.svg": "d3795c787915e572",
+  "sources/commons-wm/wordmark.svg": "82bacee805c50f1c"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/fusion-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.946,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

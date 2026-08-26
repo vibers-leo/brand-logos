@@ -4,7 +4,8 @@
  "id": "kudu",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "593a7a6acbecabff"
+  "logo.svg": "593a7a6acbecabff",
+  "sources/commons-wm/wordmark.svg": "7376a50de1ade8a8"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.154,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/commons-wm/wordmark.svg"
+    }
+   ]
   }
  ]
 }

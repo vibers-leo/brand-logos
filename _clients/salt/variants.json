@@ -4,7 +4,8 @@
  "id": "salt",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f8834ef17955face"
+  "logo.svg": "f8834ef17955face",
+  "sources/commons-wm/wordmark.svg": "1480bc2b47c3c70b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 9.783,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

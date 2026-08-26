@@ -4,7 +4,8 @@
  "id": "islandrecords",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "790687f5750395d1"
+  "logo.svg": "790687f5750395d1",
+  "sources/commons-wm/wordmark.svg": "93cc5137376abda6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "kpop-curated",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.265,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

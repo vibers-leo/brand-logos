@@ -4,9 +4,24 @@
  "id": "wiki-workers-united",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5b0963daf15b2b3a"
+  "logo.svg": "5b0963daf15b2b3a",
+  "sources/commons-wm/wordmark.svg": "13ad13158758bb89"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.368,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "houston-cougars",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2161c56fc5e1cbe0"
+  "logo.svg": "2161c56fc5e1cbe0",
+  "sources/commons-wm/wordmark.svg": "ff5f65224f732208"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.288,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

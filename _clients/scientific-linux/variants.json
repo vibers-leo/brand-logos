@@ -4,7 +4,8 @@
  "id": "scientific-linux",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "db9dc98d36218933"
+  "logo.svg": "db9dc98d36218933",
+  "sources/commons-wm/wordmark.svg": "db9dc98d36218933"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.879,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/commons-wm/wordmark.svg"
+    }
+   ]
   }
  ]
 }

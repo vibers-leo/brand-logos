@@ -4,9 +4,24 @@
  "id": "professional-referee-organization",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5107011824dd441a"
+  "logo.svg": "5107011824dd441a",
+  "sources/commons-wm/wordmark.svg": "b9c56028a2284cf8"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 1.969,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

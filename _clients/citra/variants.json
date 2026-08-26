@@ -4,7 +4,8 @@
  "id": "citra",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6f62d9594d48859b"
+  "logo.svg": "6f62d9594d48859b",
+  "sources/commons-wm/wordmark.svg": "5d3f41fe6a887fc0"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.467,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

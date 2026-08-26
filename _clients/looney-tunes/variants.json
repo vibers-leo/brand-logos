@@ -4,9 +4,24 @@
  "id": "looney-tunes",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "67dd1400ff19df29"
+  "logo.svg": "67dd1400ff19df29",
+  "sources/commons-wm/wordmark.svg": "8441ffae607ed1a6"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.098,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

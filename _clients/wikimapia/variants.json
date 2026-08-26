@@ -4,7 +4,8 @@
  "id": "wikimapia",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e13f8c0a5134627c"
+  "logo.svg": "e13f8c0a5134627c",
+  "sources/commons-wm/wordmark.svg": "e13f8c0a5134627c"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.155,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/commons-wm/wordmark.svg"
+    }
+   ]
   }
  ]
 }

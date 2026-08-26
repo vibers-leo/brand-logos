@@ -7,7 +7,8 @@
   "logo.svg": "9ea0f4a6f42bb8b4",
   "sources/iconify/dart.svg": "9ea0f4a6f42bb8b4",
   "sources/devicons/dart-original.svg": "027a09d4c83952d5",
-  "sources/wvl/dart.svg": "7d51b44795db3dba"
+  "sources/wvl/dart.svg": "7d51b44795db3dba",
+  "sources/commons-wm/wordmark.svg": "dd2fb683d1ab568e"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/dart-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.766,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

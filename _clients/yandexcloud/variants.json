@@ -4,7 +4,8 @@
  "id": "yandexcloud",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "efa204b2b4fb57d0"
+  "logo.svg": "efa204b2b4fb57d0",
+  "sources/commons-wm/wordmark.svg": "4d926f43a07cbb08"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 7.429,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

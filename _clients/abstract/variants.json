@@ -4,7 +4,8 @@
  "id": "abstract",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5b91aa66da5c7ac8"
+  "logo.svg": "5b91aa66da5c7ac8",
+  "sources/commons-wm/wordmark.svg": "47eaac9d8680a519"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.187,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "hewitt-associates",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "63915b046c3d3619"
+  "logo.svg": "63915b046c3d3619",
+  "sources/commons-wm/wordmark.svg": "9e58370bb31cda36"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.598,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

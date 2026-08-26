@@ -4,7 +4,8 @@
  "id": "genius",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d5302bf3fa2d8378"
+  "logo.svg": "d5302bf3fa2d8378",
+  "sources/commons-wm/wordmark.svg": "8e2f4933c93f7e65"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 7.453,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

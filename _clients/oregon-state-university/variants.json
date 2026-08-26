@@ -4,7 +4,8 @@
  "id": "oregon-state-university",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "64c80ceae4217568"
+  "logo.svg": "64c80ceae4217568",
+  "sources/commons-wm/wordmark.svg": "64c80ceae4217568"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.948,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/commons-wm/wordmark.svg"
+    }
+   ]
   }
  ]
 }

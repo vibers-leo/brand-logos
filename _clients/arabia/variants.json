@@ -4,7 +4,8 @@
  "id": "arabia",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "be14610504c0db6b"
+  "logo.svg": "be14610504c0db6b",
+  "sources/commons-wm/wordmark.svg": "8f557156c3e51def"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.223,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/commons-wm/wordmark.svg"
+    }
+   ]
   }
  ]
 }

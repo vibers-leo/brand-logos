@@ -4,9 +4,24 @@
  "id": "copa-del-rey",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "dca5d1222ba9b0f7"
+  "logo.svg": "dca5d1222ba9b0f7",
+  "sources/commons-wm/wordmark.svg": "7e759e9c131e6941"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 1.812,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "lotpolishairlines",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9463416c79da71c9"
+  "logo.svg": "9463416c79da71c9",
+  "sources/commons-wm/wordmark.svg": "7836305859be4db1"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.951,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "wikifunctions",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "26e3f9fec18d00b2"
+  "logo.svg": "26e3f9fec18d00b2",
+  "sources/commons-wm/wordmark.svg": "afb28841ab7f984d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 10.387,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

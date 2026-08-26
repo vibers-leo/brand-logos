@@ -4,7 +4,8 @@
  "id": "auchan",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "82768317ce029f84"
+  "logo.svg": "82768317ce029f84",
+  "sources/commons-wm/wordmark.svg": "74cbb61fa01d29de"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.762,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

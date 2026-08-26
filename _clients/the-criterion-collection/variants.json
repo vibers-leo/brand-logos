@@ -4,7 +4,8 @@
  "id": "the-criterion-collection",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d3dad1df5c2c58b4"
+  "logo.svg": "d3dad1df5c2c58b4",
+  "sources/commons-wm/wordmark.svg": "bef1228099fd3cd4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.128,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

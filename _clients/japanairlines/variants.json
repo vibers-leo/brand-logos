@@ -4,7 +4,8 @@
  "id": "japanairlines",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0ac24cbe86757506"
+  "logo.svg": "0ac24cbe86757506",
+  "sources/commons-wm/wordmark.svg": "94f29ef01124adbc"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 16.981,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

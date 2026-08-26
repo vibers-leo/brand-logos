@@ -4,7 +4,8 @@
  "id": "twenty",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "918d8deeb2b784e0"
+  "logo.svg": "918d8deeb2b784e0",
+  "sources/commons-wm/wordmark.svg": "aa19a6740f4ccbd7"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.769,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

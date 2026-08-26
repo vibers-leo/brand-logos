@@ -4,9 +4,24 @@
  "id": "common-desktop-environment",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f960efcd640af686"
+  "logo.svg": "f960efcd640af686",
+  "sources/commons-wm/wordmark.svg": "1cc494ca39e49a48"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 0.642,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",

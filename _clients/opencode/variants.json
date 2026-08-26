@@ -4,7 +4,8 @@
  "id": "opencode",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "984a3dae34939c73"
+  "logo.svg": "984a3dae34939c73",
+  "sources/svgl/wordmark.svg": "dbbec24288d5ea5e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 5.556,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

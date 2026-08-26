@@ -4,9 +4,24 @@
  "id": "new-york-excelsior",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "24603f2c5cf40003"
+  "logo.svg": "24603f2c5cf40003",
+  "sources/commons-wm/wordmark.svg": "aca17001a1c1ebbb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.421,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

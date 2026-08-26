@@ -4,9 +4,24 @@
  "id": "university-of-pennsylvania",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "46dab5b2fdee1561"
+  "logo.svg": "46dab5b2fdee1561",
+  "sources/commons-wm/wordmark.svg": "73d71b345d8f4e58"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.153,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

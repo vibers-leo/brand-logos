@@ -4,7 +4,8 @@
  "id": "bangla-wikimoitree",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "dc606b0321ade4dd"
+  "logo.svg": "dc606b0321ade4dd",
+  "sources/commons-wm/wordmark.svg": "9fc6f72591088fe7"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 5.671,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

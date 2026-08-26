@@ -4,7 +4,8 @@
  "id": "americanairlines",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e4c431332eb80c63"
+  "logo.svg": "e4c431332eb80c63",
+  "sources/commons-wm/wordmark.svg": "65205d6d5d03549a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 10.43,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

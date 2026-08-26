@@ -4,7 +4,8 @@
  "id": "peru-state-college",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a78cf1d9db3d3188"
+  "logo.svg": "a78cf1d9db3d3188",
+  "sources/commons-wm/wordmark.svg": "a78cf1d9db3d3188"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.069,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/commons-wm/wordmark.svg"
+    }
+   ]
   }
  ]
 }

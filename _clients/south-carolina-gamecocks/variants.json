@@ -4,9 +4,24 @@
  "id": "south-carolina-gamecocks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1b72c9d10ba6db18"
+  "logo.svg": "1b72c9d10ba6db18",
+  "sources/commons-wm/wordmark.svg": "bf49ef60769c469c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.663,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

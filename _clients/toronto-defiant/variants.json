@@ -4,7 +4,8 @@
  "id": "toronto-defiant",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "15ee879a4ce31a8d"
+  "logo.svg": "15ee879a4ce31a8d",
+  "sources/commons-wm/wordmark.svg": "b44a6731740e2274"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.548,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

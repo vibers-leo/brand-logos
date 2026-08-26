@@ -4,7 +4,8 @@
  "id": "pontiac",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "47942a69a6e2ac03"
+  "logo.svg": "47942a69a6e2ac03",
+  "sources/commons-wm/wordmark.svg": "6ee90c7b1b13e110"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 7.258,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

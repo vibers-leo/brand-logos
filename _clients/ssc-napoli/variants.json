@@ -4,7 +4,8 @@
  "id": "ssc-napoli",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "18e840bb83252b9d"
+  "logo.svg": "18e840bb83252b9d",
+  "sources/commons-wm/wordmark.svg": "c225824966173f78"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.369,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

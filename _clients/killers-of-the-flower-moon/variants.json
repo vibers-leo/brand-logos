@@ -4,7 +4,8 @@
  "id": "killers-of-the-flower-moon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3627140ef2ac1747"
+  "logo.svg": "3627140ef2ac1747",
+  "sources/commons-wm/wordmark.svg": "1ba728c93664c4d4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 8.571,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

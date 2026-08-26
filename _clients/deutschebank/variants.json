@@ -4,7 +4,8 @@
  "id": "deutschebank",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fa48a497141e1a09"
+  "logo.svg": "fa48a497141e1a09",
+  "sources/commons-wm/wordmark.svg": "9a7a0b035f3df43a"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "wikimedia",
+     "file": "sources/commons-wm/wordmark.svg"
+    }
+   ]
   }
  ]
 }

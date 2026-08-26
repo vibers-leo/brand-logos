@@ -4,7 +4,8 @@
  "id": "yandex-tracker",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5860c428341bcb01"
+  "logo.svg": "5860c428341bcb01",
+  "sources/commons-wm/wordmark.svg": "bf0440aadc47e70d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 6.884,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

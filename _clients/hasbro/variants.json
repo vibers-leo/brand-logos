@@ -4,9 +4,24 @@
  "id": "hasbro",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4289a421c2ea587c"
+  "logo.svg": "4289a421c2ea587c",
+  "sources/commons-wm/wordmark.svg": "0fc3769cc702b3ee"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 1.848,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

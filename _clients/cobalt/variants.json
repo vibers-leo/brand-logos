@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "8787f5cb8142c1dc",
   "sources/iconify/cobalt.svg": "8787f5cb8142c1dc",
-  "sources/wvl/cobalt.svg": "26cda62fa1e65896"
+  "sources/wvl/cobalt.svg": "26cda62fa1e65896",
+  "sources/commons-wm/wordmark.svg": "a446192b6d65d409"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/cobalt.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 9.89,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

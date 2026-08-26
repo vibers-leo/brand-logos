@@ -4,7 +4,8 @@
  "id": "eagle",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ddfbf309744ddd34"
+  "logo.svg": "ddfbf309744ddd34",
+  "sources/commons-wm/wordmark.svg": "32a8ba1ed695fa16"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 14.883,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

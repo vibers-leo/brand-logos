@@ -4,9 +4,24 @@
  "id": "cbs-news-sunday-morning",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "14bda5b7c85be337"
+  "logo.svg": "14bda5b7c85be337",
+  "sources/commons-wm/wordmark.svg": "4f170eab51a67109"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.2,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

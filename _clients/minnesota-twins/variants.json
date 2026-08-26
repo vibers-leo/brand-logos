@@ -4,9 +4,24 @@
  "id": "minnesota-twins",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ca1fa148545252c6"
+  "logo.svg": "ca1fa148545252c6",
+  "sources/commons-wm/wordmark.svg": "321d8c90be1609ea"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 1.758,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "young-communist-league",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b8d9ce30ec9db722"
+  "logo.svg": "b8d9ce30ec9db722",
+  "sources/commons-wm/wordmark.svg": "7ccaa5f59728c6c3"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.093,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

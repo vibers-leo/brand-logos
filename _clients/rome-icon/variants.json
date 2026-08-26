@@ -4,7 +4,8 @@
  "id": "rome-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "653ba6520c28e204"
+  "logo.svg": "653ba6520c28e204",
+  "sources/commons-wm/wordmark.svg": "f64b168f3f8ef210"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.225,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

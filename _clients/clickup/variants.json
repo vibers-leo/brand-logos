@@ -4,7 +4,8 @@
  "id": "clickup",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b58e59d5972b2b79"
+  "logo.svg": "b58e59d5972b2b79",
+  "sources/svgl/wordmark.svg": "9d3960fa8c4fac0e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 4.054,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

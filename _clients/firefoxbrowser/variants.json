@@ -4,7 +4,8 @@
  "id": "firefoxbrowser",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5b4a5b8262b3ea20"
+  "logo.svg": "5b4a5b8262b3ea20",
+  "sources/commons-wm/wordmark.svg": "0530d34031925b81"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 5.682,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

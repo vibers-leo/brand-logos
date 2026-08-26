@@ -4,7 +4,8 @@
  "id": "xmonad",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a8f0db0f49abf517"
+  "logo.svg": "a8f0db0f49abf517",
+  "sources/commons-wm/wordmark.svg": "408f37a6238f48ce"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 5.114,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

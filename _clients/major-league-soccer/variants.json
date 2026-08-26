@@ -4,7 +4,8 @@
  "id": "major-league-soccer",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f0fbb8e3dc0a3407"
+  "logo.svg": "f0fbb8e3dc0a3407",
+  "sources/commons-wm/wordmark.svg": "da98841d9a629c64"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 5.357,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

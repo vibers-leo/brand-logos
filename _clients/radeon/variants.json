@@ -4,7 +4,8 @@
  "id": "radeon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7a17a37d808c3436"
+  "logo.svg": "7a17a37d808c3436",
+  "sources/commons-wm/wordmark.svg": "fac8039fb1d28ddd"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 9.091,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

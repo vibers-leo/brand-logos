@@ -4,7 +4,8 @@
  "id": "beretta",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0d6d0f2f798a1142"
+  "logo.svg": "0d6d0f2f798a1142",
+  "sources/commons-wm/wordmark.svg": "64a7c90ee1e11675"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 5.233,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

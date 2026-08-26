@@ -4,7 +4,8 @@
  "id": "figshare",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "143878d2ebd975bc"
+  "logo.svg": "143878d2ebd975bc",
+  "sources/commons-wm/wordmark.svg": "865272ef14252693"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.662,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

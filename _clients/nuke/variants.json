@@ -4,7 +4,8 @@
  "id": "nuke",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d6928ecc4054d399"
+  "logo.svg": "d6928ecc4054d399",
+  "sources/commons-wm/wordmark.svg": "1b808db73396a47d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.346,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "aqua",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1b8b9a06dbcb9053"
+  "logo.svg": "1b8b9a06dbcb9053",
+  "sources/commons-wm/wordmark.svg": "268f6b6a344f86ad"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 6.324,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "motorola",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6b224a47fb27788a"
+  "logo.svg": "6b224a47fb27788a",
+  "sources/commons-wm/wordmark.svg": "80f2517c8022c21c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 11.842,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

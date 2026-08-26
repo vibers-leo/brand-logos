@@ -4,7 +4,8 @@
  "id": "kansas-jayhawks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "416c77035c9ffcf3"
+  "logo.svg": "416c77035c9ffcf3",
+  "sources/commons-wm/wordmark.svg": "e917c7ee64b1651d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 5.068,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

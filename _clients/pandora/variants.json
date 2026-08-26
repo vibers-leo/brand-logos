@@ -4,7 +4,8 @@
  "id": "pandora",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5b0b9061e2871544"
+  "logo.svg": "5b0b9061e2871544",
+  "sources/commons-wm/wordmark.svg": "10f8727d708e5e65"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 10.588,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

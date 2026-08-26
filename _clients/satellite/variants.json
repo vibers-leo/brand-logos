@@ -4,9 +4,24 @@
  "id": "satellite",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5b5a23e8e046e123"
+  "logo.svg": "5b5a23e8e046e123",
+  "sources/commons-wm/wordmark.svg": "5b03c2814d89e20e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.961,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

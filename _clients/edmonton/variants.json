@@ -4,7 +4,8 @@
  "id": "edmonton",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d8c16b2b8bec826a"
+  "logo.svg": "d8c16b2b8bec826a",
+  "sources/commons-wm/wordmark.svg": "7d6d7d7310ad7fc6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.712,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

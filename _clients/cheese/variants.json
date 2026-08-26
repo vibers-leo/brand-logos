@@ -4,9 +4,24 @@
  "id": "cheese",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2e933285df1890a3"
+  "logo.svg": "2e933285df1890a3",
+  "sources/commons-wm/wordmark.svg": "47698ec15589ae34"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.48,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

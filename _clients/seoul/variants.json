@@ -4,7 +4,8 @@
  "id": "seoul",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b57f60a1c3aa4172"
+  "logo.svg": "b57f60a1c3aa4172",
+  "sources/commons-wm/wordmark.svg": "b2506af6d22efb80"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 8.491,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

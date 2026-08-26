@@ -4,7 +4,8 @@
  "id": "odysee",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5e3e133cd6aa30b8"
+  "logo.svg": "5e3e133cd6aa30b8",
+  "sources/commons-wm/wordmark.svg": "91a8608612cadcdb"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.177,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

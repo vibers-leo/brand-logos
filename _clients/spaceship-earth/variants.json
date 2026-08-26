@@ -4,7 +4,8 @@
  "id": "spaceship-earth",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "10455a8b2887d931"
+  "logo.svg": "10455a8b2887d931",
+  "sources/commons-wm/wordmark.svg": "28873f1c67c94eec"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 16.071,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

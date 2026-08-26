@@ -4,7 +4,8 @@
  "id": "jpeg",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d5f65548086ea148"
+  "logo.svg": "d5f65548086ea148",
+  "sources/commons-wm/wordmark.svg": "f917b0a2236855e5"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.079,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

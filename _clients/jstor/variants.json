@@ -4,7 +4,8 @@
  "id": "jstor",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "63e964a85a510c51"
+  "logo.svg": "63e964a85a510c51",
+  "sources/commons-wm/wordmark.svg": "df5076dd41cd7393"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.734,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "codex",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9f420f4b04a59033"
+  "logo.svg": "9f420f4b04a59033",
+  "sources/svgl/wordmark.svg": "5ba3ac40af4a06f8"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 3.925,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

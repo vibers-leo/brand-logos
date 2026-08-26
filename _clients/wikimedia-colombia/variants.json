@@ -4,7 +4,8 @@
  "id": "wikimedia-colombia",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "962da3ffbbf5f45d"
+  "logo.svg": "962da3ffbbf5f45d",
+  "sources/commons-wm/wordmark.svg": "d432cced5bcf559d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.552,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

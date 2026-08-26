@@ -4,7 +4,8 @@
  "id": "ukraina",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8675f9ba93cee102"
+  "logo.svg": "8675f9ba93cee102",
+  "sources/commons-wm/wordmark.svg": "9b53ddb6b7a8d90a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 6.164,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

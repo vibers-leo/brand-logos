@@ -4,9 +4,24 @@
  "id": "arizona-diamondbacks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b7adf93b3f0ab7a8"
+  "logo.svg": "b7adf93b3f0ab7a8",
+  "sources/commons-wm/wordmark.svg": "cfb9b721bb6813fe"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 2.778,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

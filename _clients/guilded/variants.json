@@ -4,7 +4,8 @@
  "id": "guilded",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9398e027ca31fe76"
+  "logo.svg": "9398e027ca31fe76",
+  "sources/commons-wm/wordmark.svg": "cd3ba49f1d670043"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.545,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

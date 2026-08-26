@@ -4,7 +4,8 @@
  "id": "apacheopenoffice",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d481f296142ed6e7"
+  "logo.svg": "d481f296142ed6e7",
+  "sources/commons-wm/wordmark.svg": "a63db129decce015"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 4.672,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

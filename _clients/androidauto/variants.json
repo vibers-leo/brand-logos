@@ -4,9 +4,24 @@
  "id": "androidauto",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e3c32bb31bfe2d52"
+  "logo.svg": "e3c32bb31bfe2d52",
+  "sources/commons-wm/wordmark.svg": "f941925d05a1b9e6"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 1.989,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

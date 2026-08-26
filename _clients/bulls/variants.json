@@ -4,9 +4,24 @@
  "id": "bulls",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2b005eade70db263"
+  "logo.svg": "2b005eade70db263",
+  "sources/commons-wm/wordmark.svg": "700e1bd8574ffdcd"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 1.938,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

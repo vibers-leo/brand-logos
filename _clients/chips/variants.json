@@ -4,7 +4,8 @@
  "id": "chips",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b2844cb09b44c7f8"
+  "logo.svg": "b2844cb09b44c7f8",
+  "sources/commons-wm/wordmark.svg": "cbc060cc37d37437"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.529,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "freecad",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8f28832d1db9fa97"
+  "logo.svg": "8f28832d1db9fa97",
+  "sources/commons-wm/wordmark.svg": "6da49e1f13bc8d84"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.696,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

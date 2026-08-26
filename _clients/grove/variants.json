@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "4a7012112e732da8",
   "sources/iconify/grove.svg": "4a7012112e732da8",
-  "sources/wvl/grove.svg": "acaa613885f0541b"
+  "sources/wvl/grove.svg": "acaa613885f0541b",
+  "sources/commons-wm/wordmark.svg": "b6adaacee327be18"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/grove.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-wm/wordmark.svg"
+   },
+   "aspect": 3.83,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

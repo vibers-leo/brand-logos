@@ -1,5 +1,5 @@
 {
- "note": "세로 로크업 심볼은 자동 분리 정밀도가 낮아 수동 등록 (2026-08-08 육안 확인).\n한글 태그라인 조합 2종은 제공받은 PNG 를 potrace 로 벡터화 (2026-08-26 육안 확인).\n⚠️ key 는 자동 생성기가 만드는 키와 반드시 일치해야 한다. 안 맞으면 라벨이 덧씌워지는 대신 files 가 빈 유령 항목이 생겨 파일 없는 카드가 뜬다 (예전 'vertical' 항목이 그랬다).",
+ "note": "세로 로크업 심볼은 자동 분리 정밀도가 낮아 수동 등록 (2026-08-08 육안 확인).\n한글 조합 3종은 제공받은 PNG 를 potrace 로 벡터화 (2026-08-26 육안 확인).\n⚠️ key 는 자동 생성기가 만드는 키와 반드시 일치해야 한다. 안 맞으면 라벨이 덧씌워지는 대신 files 가 빈 유령 항목이 생겨 파일 없는 카드가 뜬다.\n⚠️ 라벨은 '태그라인'과 '워드마크'를 구분한다. 예전엔 FanEasy(영문) 워드마크에 한글 태그라인만 붙은 것을 '(한글)' 이라 불러서, 진짜 한글 워드마크판이 오자 구분이 불가능했다.\n⚠️ variants/ 에 파일을 두면 override 에 없어도 생성기가 집어넣는다. vertical-en.svg 가 logo.svg 와 같은 조합인 채로 목록에 중복 노출됐다 — 지웠다.",
  "variants": [
   {
    "key": "horizontal",
@@ -19,7 +19,7 @@
    "form": "vertical",
    "lang": "ko",
    "color": "mono-dark",
-   "label": "세로조합형 (한글)",
+   "label": "세로조합형 (한글 태그라인)",
    "order": 11,
    "files": {
     "svg": "variants/vertical-ko.svg",
@@ -33,7 +33,7 @@
    "form": "horizontal",
    "lang": "ko",
    "color": "mono-dark",
-   "label": "가로조합형 (한글)",
+   "label": "가로조합형 (한글 태그라인)",
    "order": 20,
    "files": {
     "svg": "variants/horizontal-ko.svg",
@@ -41,6 +41,21 @@
    },
    "provider": "manual:potrace",
    "origin": "manual"
+  },
+  {
+   "key": "horizontal-hangul",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "mono-dark",
+   "label": "가로조합형 (한글 워드마크)",
+   "order": 21,
+   "files": {
+    "svg": "variants/horizontal-hangul.svg",
+    "png": "variants/horizontal-hangul-800.png"
+   },
+   "provider": "manual:potrace",
+   "origin": "manual",
+   "note": "워드마크 자체가 한글('팬이지')인 유일한 판. 나머지는 FanEasy 영문 워드마크다."
   },
   {
    "key": "symbol",

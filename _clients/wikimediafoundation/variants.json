@@ -4,7 +4,8 @@
  "id": "wikimediafoundation",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4032910c82a753de"
+  "logo.svg": "4032910c82a753de",
+  "sources/commons-rev/wordmark.svg": "841356216ef24617"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-rev/wordmark.svg"
+   },
+   "aspect": 4.561,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

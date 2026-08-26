@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "0b3589677da4d87b",
   "sources/iconify/crucible.svg": "0b3589677da4d87b",
-  "sources/wvl/crucible.svg": "b3b1a5cd26c8872e"
+  "sources/wvl/crucible.svg": "b3b1a5cd26c8872e",
+  "sources/commons-rev/wordmark.svg": "91afb5a29719c912"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/crucible.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-rev/wordmark.svg"
+   },
+   "aspect": 9.17,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

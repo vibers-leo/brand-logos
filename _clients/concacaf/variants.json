@@ -4,7 +4,8 @@
  "id": "concacaf",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ea3c761e320d2a7a"
+  "logo.svg": "ea3c761e320d2a7a",
+  "sources/commons-rev/wordmark.svg": "4ae6798eec3cac8d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-rev/wordmark.svg"
+   },
+   "aspect": 5.844,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

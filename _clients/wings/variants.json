@@ -4,7 +4,8 @@
  "id": "wings",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3baa61b78193d4cb"
+  "logo.svg": "3baa61b78193d4cb",
+  "sources/commons-rev/wordmark.svg": "caae67d83cdc9b42"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/commons-rev/wordmark.svg"
+   },
+   "aspect": 5.603,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

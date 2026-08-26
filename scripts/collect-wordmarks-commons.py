@@ -61,6 +61,22 @@ def aspect(path_or_bytes):
     except ValueError:
         return None
 
+def ink_ratio(svg_bytes):
+    """흰 배경에 렌더했을 때의 잉크 비율. 0 이면 흰색 전용 판이라 카드에서 안 보인다.
+    실측: 'Wisconsin Badgers full wordmark white.svg' 가 0.00% 로 빈 화면이었다.
+    파일명 'white' 를 수식어로 허용했다가 통과시킨 것 — 파일명만으론 못 거른다."""
+    try:
+        import io
+        import cairosvg
+        from PIL import Image
+        import numpy as np
+        im = Image.open(io.BytesIO(cairosvg.svg2png(
+            bytestring=svg_bytes, output_width=300, background_color="white"))).convert("L")
+        return float((np.array(im) < 200).mean())
+    except Exception:
+        return -1.0        # 판정 불가 — 통과시키되 아래에서 구분한다
+
+
 def norm(s):
     return re.sub(r"[^a-z0-9]", "", str(s or "").lower())
 
@@ -112,7 +128,7 @@ def main():
 
     print(f"대상 {len(cands):,}개 (심볼만 + 영문명 보유, 인지도순)", flush=True)
 
-    ok = fail = skip = nomatch = 0
+    ok = fail = skip = nomatch = blank = 0
     picked = []
     for i, (bid, name, _f) in enumerate(cands, 1):
         try:
@@ -166,6 +182,11 @@ def main():
             if cur and new_ar and abs(new_ar - cur) < 0.4:
                 skip += 1
                 continue
+            r = ink_ratio(data)
+            if 0 <= r < 0.002:
+                blank += 1
+                print(f"  ⬜ {bid} ← {fname}: 잉크 {r*100:.2f}% (흰색 전용판)")
+                continue
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_bytes(data)
             ok += 1
@@ -195,7 +216,7 @@ def main():
         reg += 1
     bp.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
 
-    print(f"\n✅ 수집 {ok}건 · 등록 {reg}건 · 중복 {skip}건 · 매칭없음 {nomatch}건 · 실패 {fail}건")
+    print(f"\n✅ 수집 {ok}건 · 등록 {reg}건 · 중복 {skip}건 · 흰색전용 {blank}건 · 매칭없음 {nomatch}건 · 실패 {fail}건")
     print("   다음: build-logo-variants.py → build-slim.py → sync-all-bucket.py")
     return 0
 

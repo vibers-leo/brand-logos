@@ -7,7 +7,8 @@
   "logo.svg": "185338425378ef98",
   "sources/iconify/pypi.svg": "185338425378ef98",
   "sources/devicons/pypi-original.svg": "12eeaff257891cab",
-  "sources/wvl/pypi.svg": "06e76112b337d912"
+  "sources/wvl/pypi.svg": "06e76112b337d912",
+  "sources/vlz/wide.svg": "5feb4d6046bc042a"
  },
  "variants": [
   {
@@ -36,6 +37,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/pypi-original.svg"
+    },
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
     }
    ]
   }

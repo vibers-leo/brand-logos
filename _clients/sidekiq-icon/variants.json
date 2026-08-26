@@ -4,9 +4,24 @@
  "id": "sidekiq-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9407bcedac8bd744"
+  "logo.svg": "9407bcedac8bd744",
+  "sources/gilbarbara/full.svg": "50d41786c1f4f1f9"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.727,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

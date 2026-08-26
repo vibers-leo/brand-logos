@@ -4,9 +4,24 @@
  "id": "matrix",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c37f515f1329978e"
+  "logo.svg": "c37f515f1329978e",
+  "sources/vlz/wide.svg": "d5ce59eba256956f"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.324,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

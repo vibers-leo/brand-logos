@@ -4,7 +4,8 @@
  "id": "mautic-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "556ee7bbc4f9a718"
+  "logo.svg": "556ee7bbc4f9a718",
+  "sources/gilbarbara/full.svg": "320cfba68643c6f3"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.83,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

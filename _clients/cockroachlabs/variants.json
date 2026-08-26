@@ -4,7 +4,8 @@
  "id": "cockroachlabs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9b4449b52fd4a9b7"
+  "logo.svg": "9b4449b52fd4a9b7",
+  "sources/vlz/wide.svg": "8519704e462cf6ab"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.932,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

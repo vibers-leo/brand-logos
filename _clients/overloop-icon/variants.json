@@ -4,7 +4,8 @@
  "id": "overloop-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e0eff0220d50e989"
+  "logo.svg": "e0eff0220d50e989",
+  "sources/gilbarbara/full.svg": "cffc874a98ffdeff"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.143,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

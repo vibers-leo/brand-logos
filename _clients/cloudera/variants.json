@@ -4,7 +4,8 @@
  "id": "cloudera",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9370b0235633903a"
+  "logo.svg": "9370b0235633903a",
+  "sources/vlz/wide.svg": "d576f8dac9ca1f39"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.119,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

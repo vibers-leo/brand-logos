@@ -4,7 +4,8 @@
  "id": "scribd-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "671f6540290b043b"
+  "logo.svg": "671f6540290b043b",
+  "sources/gilbarbara/full.svg": "2c0a4ecdb2db5b9e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.5,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

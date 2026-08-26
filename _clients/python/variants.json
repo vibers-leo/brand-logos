@@ -7,7 +7,8 @@
   "logo.svg": "5c4905aaa7b1a9b4",
   "sources/iconify/python.svg": "5c4905aaa7b1a9b4",
   "sources/devicons/python-original.svg": "7ef53dceb8bc32cd",
-  "sources/wvl/python.svg": "37b4be3b7d0f0f2b"
+  "sources/wvl/python.svg": "37b4be3b7d0f0f2b",
+  "sources/vlz/wide.svg": "ea775d896245245b"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/python-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.523,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

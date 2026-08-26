@@ -4,7 +4,8 @@
  "id": "huggingface",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "793a1c8281fbd1c4"
+  "logo.svg": "793a1c8281fbd1c4",
+  "sources/gilbarbara/full.svg": "eb62a689309becfb"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simpleicons/huggingface",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.523,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "521c56ae5f826ccd",
   "sources/iconify/codacy.svg": "521c56ae5f826ccd",
-  "sources/wvl/codacy.svg": "dfd49098184ad9f5"
+  "sources/wvl/codacy.svg": "dfd49098184ad9f5",
+  "sources/vlz/wide.svg": "05188f9c043cc723"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/codacy.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.627,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

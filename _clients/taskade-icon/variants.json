@@ -4,7 +4,8 @@
  "id": "taskade-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "55cd4134ad056980"
+  "logo.svg": "55cd4134ad056980",
+  "sources/gilbarbara/full.svg": "353ff1d3e29da4d7"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.689,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

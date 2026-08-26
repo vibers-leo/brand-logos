@@ -4,7 +4,8 @@
  "id": "mapbox-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fbe9ed1de7a0bae3"
+  "logo.svg": "fbe9ed1de7a0bae3",
+  "sources/vlz/wide.svg": "b5e734cfdcf11607"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.53,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "bitwarden",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b044db83d0de22e2"
+  "logo.svg": "b044db83d0de22e2",
+  "sources/vlz/wide.svg": "39076dcf776b5e64"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.992,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

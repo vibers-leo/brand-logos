@@ -4,7 +4,8 @@
  "id": "itsalive-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1b113553aeac16ce"
+  "logo.svg": "1b113553aeac16ce",
+  "sources/gilbarbara/full.svg": "c820fce3e3379bb1"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.863,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "reddit-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "47b77e1b1388a24a"
+  "logo.svg": "47b77e1b1388a24a",
+  "sources/vlz/wide.svg": "47f31edc073e18bb"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.164,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

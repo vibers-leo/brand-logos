@@ -8,9 +8,24 @@
   "sources/fa.svg": "d3c6cf4811a3a125",
   "sources/iconify/firefox.svg": "32aad3a2b25eb5f9",
   "sources/devicons/firefox-original.svg": "accc85dd88e9e36b",
-  "sources/wvl/firefox.svg": "8714c1440bc93b8a"
+  "sources/wvl/firefox.svg": "8714c1440bc93b8a",
+  "sources/vlz/wide.svg": "5a53059b305c13c8"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.972,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

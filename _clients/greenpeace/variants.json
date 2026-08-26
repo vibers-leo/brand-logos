@@ -4,7 +4,8 @@
  "id": "greenpeace",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5346ef8228e57760"
+  "logo.svg": "5346ef8228e57760",
+  "sources/vlz/wide.svg": "54db765dd160ec25"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "ngo-curated",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 6.463,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

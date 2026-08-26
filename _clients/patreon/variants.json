@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "84ce9ee8c03cbf5e",
   "sources/iconify/patreon.svg": "84ce9ee8c03cbf5e",
-  "sources/wvl/patreon.svg": "009b0c0c35d04ea2"
+  "sources/wvl/patreon.svg": "009b0c0c35d04ea2",
+  "sources/vlz/wide.svg": "53117bfa1e4ae4f0"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/patreon.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.738,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

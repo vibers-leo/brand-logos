@@ -4,9 +4,24 @@
  "id": "wikisource",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0113ec379822e383"
+  "logo.svg": "0113ec379822e383",
+  "sources/vlz/wide.svg": "63a5ab5944ae9dd7"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.651,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

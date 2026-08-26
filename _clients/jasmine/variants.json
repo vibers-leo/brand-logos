@@ -7,7 +7,8 @@
   "logo.svg": "9a690c3ec6f0efca",
   "sources/iconify/jasmine.svg": "9a690c3ec6f0efca",
   "sources/devicons/jasmine-original.svg": "90d61bb42edaabe6",
-  "sources/wvl/jasmine.svg": "f72507f64d8e8970"
+  "sources/wvl/jasmine.svg": "f72507f64d8e8970",
+  "sources/vlz/wide.svg": "33e1fa3e18a3f848"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/jasmine-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.696,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

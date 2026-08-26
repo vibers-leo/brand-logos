@@ -7,7 +7,8 @@
   "logo.svg": "d4db31302f0c2cdc",
   "sources/iconify/copyleft.svg": "d4db31302f0c2cdc",
   "sources/wvl/copyleft.svg": "5c8825f12fbf4055",
-  "sources/wvl/copyleft-pirate.svg": "5c12863d17679a27"
+  "sources/wvl/copyleft-pirate.svg": "5c12863d17679a27",
+  "sources/vlz/wide.svg": "9ec88ed72a9fe560"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/wvl/copyleft-pirate.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.244,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

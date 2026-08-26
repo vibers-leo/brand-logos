@@ -4,7 +4,8 @@
  "id": "stackexchange",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "af984d43de837366"
+  "logo.svg": "af984d43de837366",
+  "sources/vlz/wide.svg": "da91f7382fb25a3b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.326,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

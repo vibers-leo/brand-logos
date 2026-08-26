@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "7382bb6530663d79",
-  "sources/devicons/apollographql-original.svg": "7382bb6530663d79"
+  "sources/devicons/apollographql-original.svg": "7382bb6530663d79",
+  "sources/vlz/wide.svg": "59a9cc386a831611"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/apollographql-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.41,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

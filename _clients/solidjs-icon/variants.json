@@ -4,9 +4,24 @@
  "id": "solidjs-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "82783c7e66336656"
+  "logo.svg": "82783c7e66336656",
+  "sources/gilbarbara/full.svg": "a44120fd580d9475"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.857,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

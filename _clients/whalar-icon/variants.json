@@ -4,7 +4,8 @@
  "id": "whalar-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2786f2b36dd22d6c"
+  "logo.svg": "2786f2b36dd22d6c",
+  "sources/gilbarbara/full.svg": "b0cd619f600f980c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.056,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

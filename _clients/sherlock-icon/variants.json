@@ -4,7 +4,8 @@
  "id": "sherlock-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4d5b2bd5262ff6f9"
+  "logo.svg": "4d5b2bd5262ff6f9",
+  "sources/gilbarbara/full.svg": "8cf45a0c6cdefbdb"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.455,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

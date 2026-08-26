@@ -4,7 +4,8 @@
  "id": "optimizely-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3a6f55071f88fef3"
+  "logo.svg": "3a6f55071f88fef3",
+  "sources/gilbarbara/full.svg": "8d3150e0e3078146"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.327,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -7,7 +7,8 @@
   "logo.svg": "535653c489076f33",
   "sources/iconify/couchbase.svg": "535653c489076f33",
   "sources/devicons/couchbase-original.svg": "a684ce6c59b0de10",
-  "sources/wvl/couchbase.svg": "8bc48d741392973f"
+  "sources/wvl/couchbase.svg": "8bc48d741392973f",
+  "sources/vlz/wide.svg": "0044030bc8a011a8"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/couchbase-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.718,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "appcenter-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a75271fa31afcbdc"
+  "logo.svg": "a75271fa31afcbdc",
+  "sources/gilbarbara/full.svg": "16497cc4cecb41b6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.658,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "falco",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6825cc23bedf8616"
+  "logo.svg": "6825cc23bedf8616",
+  "sources/vlz/wide.svg": "5fa1512580b34ef2"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.275,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "jwt-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fb6a39166233227b"
+  "logo.svg": "fb6a39166233227b",
+  "sources/gilbarbara/full.svg": "a3fd92304913fb16"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.99,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

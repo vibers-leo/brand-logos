@@ -4,9 +4,24 @@
  "id": "apachecordova",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "93ce6babf7c463a3"
+  "logo.svg": "93ce6babf7c463a3",
+  "sources/vlz/wide.svg": "00481fa9e7d910d3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.938,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

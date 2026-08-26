@@ -4,7 +4,8 @@
  "id": "dell",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1c74e5dcd19040e4"
+  "logo.svg": "1c74e5dcd19040e4",
+  "sources/vlz/wide.svg": "c410f8d5bbe3a19b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.192,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

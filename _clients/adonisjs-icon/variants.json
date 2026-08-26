@@ -4,7 +4,8 @@
  "id": "adonisjs-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ba20240e3a605f52"
+  "logo.svg": "ba20240e3a605f52",
+  "sources/vlz/wide.svg": "dabd696875c548e5"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.054,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

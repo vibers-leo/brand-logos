@@ -4,9 +4,24 @@
  "id": "ripple",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5878317489afe694"
+  "logo.svg": "5878317489afe694",
+  "sources/vlz/wide.svg": "3e2512e241b34660"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.609,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

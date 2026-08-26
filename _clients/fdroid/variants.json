@@ -4,7 +4,8 @@
  "id": "fdroid",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2124a4bfd2b532e2"
+  "logo.svg": "2124a4bfd2b532e2",
+  "sources/vlz/wide.svg": "6ba2e48a42ed52d9"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.358,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

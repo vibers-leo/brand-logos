@@ -4,7 +4,8 @@
  "id": "armory-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "712547b0fc3323b0"
+  "logo.svg": "712547b0fc3323b0",
+  "sources/gilbarbara/full.svg": "19f048d7a30bc8fd"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.689,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

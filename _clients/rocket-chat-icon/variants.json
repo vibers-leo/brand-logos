@@ -4,7 +4,8 @@
  "id": "rocket-chat-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "43bd964eae526433"
+  "logo.svg": "43bd964eae526433",
+  "sources/gilbarbara/full.svg": "a48b61011052c8ba"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.921,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "twitch",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b55d26a13d802cc6"
+  "logo.svg": "b55d26a13d802cc6",
+  "sources/vlz/wide.svg": "89189fbc4b9a4fb1"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.617,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

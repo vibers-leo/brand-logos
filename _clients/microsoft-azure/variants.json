@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "668162d37ba3c8f5",
   "sources/iconify/microsoft-azure.svg": "668162d37ba3c8f5",
-  "sources/wvl/microsoft-azure.svg": "73b468cd7c73286e"
+  "sources/wvl/microsoft-azure.svg": "73b468cd7c73286e",
+  "sources/vlz/wide.svg": "0e1157a8262ed804"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/microsoft-azure.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.59,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "drupal-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b2ae360bd8e8a522"
+  "logo.svg": "b2ae360bd8e8a522",
+  "sources/vlz/wide.svg": "7cacadf47dc48199"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.783,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

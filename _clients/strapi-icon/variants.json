@@ -4,7 +4,8 @@
  "id": "strapi-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "66503e09fa56e8ea"
+  "logo.svg": "66503e09fa56e8ea",
+  "sources/gilbarbara/full.svg": "c88a74a5e7fc6bfe"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.128,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

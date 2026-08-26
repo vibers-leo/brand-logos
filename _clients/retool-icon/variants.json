@@ -4,7 +4,8 @@
  "id": "retool-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "06fcecc81bcd6d04"
+  "logo.svg": "06fcecc81bcd6d04",
+  "sources/gilbarbara/full.svg": "72c4f69be92ec4e2"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.663,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

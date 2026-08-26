@@ -4,9 +4,24 @@
  "id": "circle",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b6e711c5795e4662"
+  "logo.svg": "b6e711c5795e4662",
+  "sources/vlz/wide.svg": "7d2fb4c0577e1c9f"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.946,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

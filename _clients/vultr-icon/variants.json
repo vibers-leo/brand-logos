@@ -4,7 +4,8 @@
  "id": "vultr-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0b9d0124b190e12c"
+  "logo.svg": "0b9d0124b190e12c",
+  "sources/gilbarbara/full.svg": "efee522a4a7bf543"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.167,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

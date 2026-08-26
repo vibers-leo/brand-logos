@@ -7,9 +7,24 @@
   "logo.svg": "767c50b5dd777d31",
   "sources/iconify/clojure.svg": "767c50b5dd777d31",
   "sources/devicons/clojure-original.svg": "8d46289da8970b1b",
-  "sources/wvl/clojure.svg": "498da0a98ba3101f"
+  "sources/wvl/clojure.svg": "498da0a98ba3101f",
+  "sources/vlz/wide.svg": "4e16b98685f8dd19"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.64,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

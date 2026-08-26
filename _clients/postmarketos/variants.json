@@ -4,7 +4,8 @@
  "id": "postmarketos",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cb33bae1d655a817"
+  "logo.svg": "cb33bae1d655a817",
+  "sources/vlz/wide.svg": "5726c59cccb8227c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.685,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

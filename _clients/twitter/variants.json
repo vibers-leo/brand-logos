@@ -8,7 +8,8 @@
   "sources/fa.svg": "6fc00db21a6a38bc",
   "sources/iconify/twitter.svg": "8e6f890e78654d5b",
   "sources/devicons/twitter-original.svg": "e9d2cf78687666be",
-  "sources/wvl/twitter.svg": "dc050ef9b573893b"
+  "sources/wvl/twitter.svg": "dc050ef9b573893b",
+  "sources/vlz/wide.svg": "14f276e4aa5c516c"
  },
  "variants": [
   {
@@ -43,6 +44,20 @@
      "file": "sources/fa.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.051,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

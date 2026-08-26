@@ -4,9 +4,24 @@
  "id": "litecoin",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b7816361b9c30016"
+  "logo.svg": "b7816361b9c30016",
+  "sources/vlz/wide.svg": "0df683f47e304520"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.967,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "exoscale",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fe8ef3fe69184e11"
+  "logo.svg": "fe8ef3fe69184e11",
+  "sources/vlz/wide.svg": "c4132ae3e9e28578"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.13,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "adobe-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cf54a94519650ef4"
+  "logo.svg": "cf54a94519650ef4",
+  "sources/vlz/wide.svg": "deb1532d7a2f962a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.624,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

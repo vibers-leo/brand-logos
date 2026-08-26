@@ -4,9 +4,24 @@
  "id": "framework7-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "053d534a51b955be"
+  "logo.svg": "053d534a51b955be",
+  "sources/gilbarbara/full.svg": "82a5728de016b376"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 1.863,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

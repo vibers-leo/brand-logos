@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "7411a2139823cbb1",
-  "sources/devicons/nuget-original.svg": "7411a2139823cbb1"
+  "sources/devicons/nuget-original.svg": "7411a2139823cbb1",
+  "sources/vlz/wide.svg": "16c081c46a14c9df"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.992,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

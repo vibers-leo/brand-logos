@@ -4,9 +4,24 @@
  "id": "sysdig-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a5d30702debf1b06"
+  "logo.svg": "a5d30702debf1b06",
+  "sources/vlz/wide.svg": "b97a086770b6763c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.676,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

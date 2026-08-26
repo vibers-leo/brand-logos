@@ -4,7 +4,8 @@
  "id": "web.dev-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cf66424fc5ac859b"
+  "logo.svg": "cf66424fc5ac859b",
+  "sources/gilbarbara/full.svg": "92baf54143e797ea"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.488,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

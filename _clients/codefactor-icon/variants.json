@@ -4,7 +4,8 @@
  "id": "codefactor-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d49d8acb87363520"
+  "logo.svg": "d49d8acb87363520",
+  "sources/gilbarbara/full.svg": "2fe37c91b2945a3c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 6.767,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "1878a34633f83d2f",
-  "sources/fa.svg": "1878a34633f83d2f"
+  "sources/fa.svg": "1878a34633f83d2f",
+  "sources/vlz/wide.svg": "5e90a25e24f27663"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/fa.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.309,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

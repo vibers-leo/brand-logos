@@ -4,9 +4,24 @@
  "id": "eta-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c061235880ad3b90"
+  "logo.svg": "c061235880ad3b90",
+  "sources/gilbarbara/full.svg": "d9c02fa349d81c54"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.267,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

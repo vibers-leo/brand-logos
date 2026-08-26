@@ -4,7 +4,8 @@
  "id": "elasticpath-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8e8c28cbdb15f4cb"
+  "logo.svg": "8e8c28cbdb15f4cb",
+  "sources/gilbarbara/full.svg": "cda5091b81bcdf51"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.488,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

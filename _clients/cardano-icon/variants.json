@@ -4,7 +4,8 @@
  "id": "cardano-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4ae3ee9b037616c3"
+  "logo.svg": "4ae3ee9b037616c3",
+  "sources/gilbarbara/full.svg": "49a33cacbfa9bbba"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.972,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

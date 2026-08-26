@@ -4,7 +4,8 @@
  "id": "sonarcloud-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "564bdbb42bcff32a"
+  "logo.svg": "564bdbb42bcff32a",
+  "sources/gilbarbara/full.svg": "7aa5941760c28100"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 6.767,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

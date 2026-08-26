@@ -4,7 +4,8 @@
  "id": "graylog-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "09da1fa927909130"
+  "logo.svg": "09da1fa927909130",
+  "sources/vlz/wide.svg": "9fed095f6cc08e93"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.419,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

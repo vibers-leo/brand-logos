@@ -7,7 +7,8 @@
   "logo.svg": "2192d722412fccf1",
   "sources/iconify/grails.svg": "2192d722412fccf1",
   "sources/devicons/grails-original.svg": "fe531137282807dc",
-  "sources/wvl/grails.svg": "b6987d3525511110"
+  "sources/wvl/grails.svg": "b6987d3525511110",
+  "sources/vlz/wide.svg": "74f10c385b6b9141"
  },
  "variants": [
   {
@@ -36,6 +37,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/grails-original.svg"
+    },
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
     }
    ]
   }

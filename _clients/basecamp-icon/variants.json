@@ -4,7 +4,8 @@
  "id": "basecamp-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "52d2d682adf6978e"
+  "logo.svg": "52d2d682adf6978e",
+  "sources/gilbarbara/full.svg": "643c160947da3f19"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.545,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

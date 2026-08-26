@@ -4,7 +4,8 @@
  "id": "virustotal",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3b584fda9bc3b9e7"
+  "logo.svg": "3b584fda9bc3b9e7",
+  "sources/vlz/wide.svg": "f56ec50dfe4e3cc4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.936,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

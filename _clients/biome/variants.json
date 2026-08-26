@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d399402961c55b07",
-  "sources/devicons/biome-original.svg": "d399402961c55b07"
+  "sources/devicons/biome-original.svg": "d399402961c55b07",
+  "sources/gilbarbara/full.svg": "01ebcf4133bc7b55"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/biome-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.206,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

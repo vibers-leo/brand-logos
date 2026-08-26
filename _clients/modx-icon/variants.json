@@ -4,9 +4,24 @@
  "id": "modx-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1c0576ffb1627051"
+  "logo.svg": "1c0576ffb1627051",
+  "sources/vlz/wide.svg": "7e6dfef4d22c6297"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.597,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "wireguard",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "50ca7ab2dc066b75"
+  "logo.svg": "50ca7ab2dc066b75",
+  "sources/vlz/wide.svg": "d5999c5dd3505bba"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.393,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

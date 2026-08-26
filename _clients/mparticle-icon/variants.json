@@ -4,7 +4,8 @@
  "id": "mparticle-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "df1b983aca5577af"
+  "logo.svg": "df1b983aca5577af",
+  "sources/gilbarbara/full.svg": "55a5dea8a27503f5"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.762,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

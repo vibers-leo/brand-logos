@@ -4,7 +4,8 @@
  "id": "gumroad",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0d5fca90b0d86f46"
+  "logo.svg": "0d5fca90b0d86f46",
+  "sources/vlz/wide.svg": "6ebd4c37f89d6af8"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.398,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

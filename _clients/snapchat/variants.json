@@ -4,7 +4,8 @@
  "id": "snapchat",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "189bf6355b1e5002"
+  "logo.svg": "189bf6355b1e5002",
+  "sources/vlz/wide.svg": "41b724298d98f19d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.405,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

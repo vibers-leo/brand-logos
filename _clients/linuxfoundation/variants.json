@@ -4,7 +4,8 @@
  "id": "linuxfoundation",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6123d9165d66b0f5"
+  "logo.svg": "6123d9165d66b0f5",
+  "sources/vlz/wide.svg": "b0533a781454de04"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.008,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

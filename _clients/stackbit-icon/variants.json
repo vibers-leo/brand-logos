@@ -4,7 +4,8 @@
  "id": "stackbit-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0c46d706cc6deb12"
+  "logo.svg": "0c46d706cc6deb12",
+  "sources/gilbarbara/full.svg": "ef366b46e40d74d9"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.882,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

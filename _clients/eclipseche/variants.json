@@ -4,7 +4,8 @@
  "id": "eclipseche",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "871c87acbda0ea30"
+  "logo.svg": "871c87acbda0ea30",
+  "sources/vlz/wide.svg": "a0af131b8fd4a7d1"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.474,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

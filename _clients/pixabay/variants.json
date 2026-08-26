@@ -4,9 +4,24 @@
  "id": "pixabay",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c6d7adf73c3f0d2b"
+  "logo.svg": "c6d7adf73c3f0d2b",
+  "sources/vlz/wide.svg": "dadb067171e89645"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.51,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

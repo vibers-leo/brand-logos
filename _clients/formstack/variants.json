@@ -4,7 +4,8 @@
  "id": "formstack",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1ebc24b5067efbc5"
+  "logo.svg": "1ebc24b5067efbc5",
+  "sources/vlz/wide.svg": "32fc073761b04856"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.451,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

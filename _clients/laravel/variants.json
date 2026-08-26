@@ -7,7 +7,8 @@
   "logo.svg": "4ddf1175a9ebb831",
   "sources/iconify/laravel.svg": "4ddf1175a9ebb831",
   "sources/devicons/laravel-original.svg": "85fddc8de66ce73c",
-  "sources/wvl/laravel.svg": "903a80dfc2c50d49"
+  "sources/wvl/laravel.svg": "903a80dfc2c50d49",
+  "sources/vlz/wide.svg": "11b84f694d6254bb"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/laravel-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.769,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

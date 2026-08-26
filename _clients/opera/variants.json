@@ -7,9 +7,24 @@
   "logo.svg": "617f91aaab847059",
   "sources/iconify/opera.svg": "617f91aaab847059",
   "sources/devicons/opera-original.svg": "0849d005df1e0a51",
-  "sources/wvl/opera.svg": "ea9380b610834f05"
+  "sources/wvl/opera.svg": "ea9380b610834f05",
+  "sources/vlz/wide.svg": "416c1c46d31c308b"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.735,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

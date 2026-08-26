@@ -7,7 +7,8 @@
   "logo.svg": "4071392974c13e65",
   "sources/iconify/perl.svg": "4071392974c13e65",
   "sources/devicons/perl-original.svg": "d4c7e0257cec16dd",
-  "sources/wvl/perl.svg": "4cebaed58eb19d36"
+  "sources/wvl/perl.svg": "4cebaed58eb19d36",
+  "sources/vlz/wide.svg": "b4f067c2cfe66ec8"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/wvl/perl.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.025,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

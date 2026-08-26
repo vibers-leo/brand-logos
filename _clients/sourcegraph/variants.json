@@ -6,9 +6,24 @@
  "fingerprint": {
   "logo.svg": "ad4a1bd620dee445",
   "sources/iconify/sourcegraph.svg": "ad4a1bd620dee445",
-  "sources/wvl/sourcegraph.svg": "89c6bf4a78ae2de7"
+  "sources/wvl/sourcegraph.svg": "89c6bf4a78ae2de7",
+  "sources/vlz/wide.svg": "5ccea324fcf2fab1"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.029,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

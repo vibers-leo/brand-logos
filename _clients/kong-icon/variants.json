@@ -4,7 +4,8 @@
  "id": "kong-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "50a6c88eee0b2031"
+  "logo.svg": "50a6c88eee0b2031",
+  "sources/gilbarbara/full.svg": "55b48f6f9be131f9"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.072,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

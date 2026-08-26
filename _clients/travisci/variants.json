@@ -4,9 +4,24 @@
  "id": "travisci",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b2063948b9962e5d"
+  "logo.svg": "b2063948b9962e5d",
+  "sources/vlz/wide.svg": "ef45e0f76c251c3e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.924,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "qwen-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "952f4f012bc98b3b"
+  "logo.svg": "952f4f012bc98b3b",
+  "sources/gilbarbara/full.svg": "ed89f1b111a7a9c5"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.422,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

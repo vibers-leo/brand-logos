@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "a0bd57ded7705b8c",
   "sources/iconify/formkeep.svg": "a0bd57ded7705b8c",
-  "sources/wvl/formkeep.svg": "2ab26273edfc5356"
+  "sources/wvl/formkeep.svg": "2ab26273edfc5356",
+  "sources/vlz/wide.svg": "e307a49808431ccd"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/formkeep.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.171,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

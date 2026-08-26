@@ -4,7 +4,8 @@
  "id": "snaplet-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3781348ae8dc0162"
+  "logo.svg": "3781348ae8dc0162",
+  "sources/gilbarbara/full.svg": "67ddc55cf2918fda"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.659,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

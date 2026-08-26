@@ -6,9 +6,24 @@
  "fingerprint": {
   "logo.svg": "db985b0ed675561e",
   "sources/iconify/yeoman.svg": "db985b0ed675561e",
-  "sources/wvl/yeoman.svg": "69652de28c412e44"
+  "sources/wvl/yeoman.svg": "69652de28c412e44",
+  "sources/vlz/wide.svg": "5e5e1ab5b6135685"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.022,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

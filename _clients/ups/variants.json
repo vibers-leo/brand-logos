@@ -4,7 +4,8 @@
  "id": "ups",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b30979b880197c1b"
+  "logo.svg": "b30979b880197c1b",
+  "sources/vlz/wide.svg": "771cd85d2b9a9a51"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.844,
    "provider": "simple-icons/ups",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

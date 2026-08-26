@@ -4,9 +4,24 @@
  "id": "xing",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "65c75ec4b10831c4"
+  "logo.svg": "65c75ec4b10831c4",
+  "sources/vlz/wide.svg": "87d9b87ed7fc9d97"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.53,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

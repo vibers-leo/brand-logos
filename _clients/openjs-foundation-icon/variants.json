@@ -4,7 +4,8 @@
  "id": "openjs-foundation-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4bc6d6d1d8276d55"
+  "logo.svg": "4bc6d6d1d8276d55",
+  "sources/gilbarbara/full.svg": "b9e99e300b6639c8"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.18,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

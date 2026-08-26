@@ -4,9 +4,24 @@
  "id": "pytorch-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "934f7ddb082ead1b"
+  "logo.svg": "934f7ddb082ead1b",
+  "sources/vlz/wide.svg": "46832e664475f583"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.992,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

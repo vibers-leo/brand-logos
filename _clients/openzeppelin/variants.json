@@ -4,7 +4,8 @@
  "id": "openzeppelin",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "53fb6f26c7bf34b0"
+  "logo.svg": "53fb6f26c7bf34b0",
+  "sources/gilbarbara/full.svg": "e5edf04d61e401d7"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 6.383,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

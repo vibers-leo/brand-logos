@@ -4,9 +4,24 @@
  "id": "edgio-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b8c1da4355df46c5"
+  "logo.svg": "b8c1da4355df46c5",
+  "sources/gilbarbara/full.svg": "0d46acfa50939a7e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.419,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

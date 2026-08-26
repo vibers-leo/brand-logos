@@ -4,9 +4,24 @@
  "id": "new-relic-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9e4845a68fb36ff1"
+  "logo.svg": "9e4845a68fb36ff1",
+  "sources/vlz/wide.svg": "358488685a5fc564"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.589,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

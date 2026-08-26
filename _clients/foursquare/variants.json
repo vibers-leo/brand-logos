@@ -4,7 +4,8 @@
  "id": "foursquare",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2371ab855ae0c2db"
+  "logo.svg": "2371ab855ae0c2db",
+  "sources/vlz/wide.svg": "d355ba4fe9ec7239"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.612,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

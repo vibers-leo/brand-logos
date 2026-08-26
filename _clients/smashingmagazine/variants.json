@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "44fdd3eaf2265ea4",
   "sources/iconify/smashingmagazine.svg": "44fdd3eaf2265ea4",
-  "sources/wvl/smashingmagazine.svg": "1a8e4af3cf36a45e"
+  "sources/wvl/smashingmagazine.svg": "1a8e4af3cf36a45e",
+  "sources/vlz/wide.svg": "a88975aaf9f8de74"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/smashingmagazine.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.86,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

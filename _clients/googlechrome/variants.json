@@ -4,7 +4,8 @@
  "id": "googlechrome",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "75ddc40acf862d4c"
+  "logo.svg": "75ddc40acf862d4c",
+  "sources/vlz/wide.svg": "7d994bac60451888"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simpleicons/googlechrome",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.487,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

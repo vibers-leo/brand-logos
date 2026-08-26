@@ -4,7 +4,8 @@
  "id": "webix-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3169ad19b0937e51"
+  "logo.svg": "3169ad19b0937e51",
+  "sources/gilbarbara/full.svg": "a2e435ee7d390cee"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.147,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

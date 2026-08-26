@@ -4,7 +4,8 @@
  "id": "evergreen-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "55e93481e7c21419"
+  "logo.svg": "55e93481e7c21419",
+  "sources/gilbarbara/full.svg": "9555600dc56fcd43"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.782,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

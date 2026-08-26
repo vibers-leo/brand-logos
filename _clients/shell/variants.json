@@ -4,9 +4,24 @@
  "id": "shell",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cc9319c253255eda"
+  "logo.svg": "cc9319c253255eda",
+  "sources/vlz/wide.svg": "5e768689e0ce5e4c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.78,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

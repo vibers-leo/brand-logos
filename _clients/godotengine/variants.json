@@ -4,9 +4,24 @@
  "id": "godotengine",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "013d5c3f83898dd2"
+  "logo.svg": "013d5c3f83898dd2",
+  "sources/vlz/wide.svg": "8c82e04a497be1a4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.928,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

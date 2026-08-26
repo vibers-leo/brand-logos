@@ -8,7 +8,8 @@
   "sources/iconify/browserstack.svg": "66e033b148e1f8e7",
   "sources/devicons/browserstack-original.svg": "46a62e48e35b7585",
   "sources/wvl/browserstack.svg": "5e7a24a6e7cd6b94",
-  "sources/thesvg/wordmark.svg": "e25ace4ca35a8bf7"
+  "sources/thesvg/wordmark.svg": "e25ace4ca35a8bf7",
+  "sources/vlz/wide.svg": "91cd91bfdc027120"
  },
  "variants": [
   {
@@ -43,6 +44,20 @@
      "file": "sources/thesvg/wordmark.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.596,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

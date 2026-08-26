@@ -4,7 +4,8 @@
  "id": "freedcamp-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7ad46bc63df458b4"
+  "logo.svg": "7ad46bc63df458b4",
+  "sources/gilbarbara/full.svg": "acb35579b20912e8"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.383,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

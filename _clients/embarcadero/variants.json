@@ -4,7 +4,8 @@
  "id": "embarcadero",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "384de5d2ce1a11e0"
+  "logo.svg": "384de5d2ce1a11e0",
+  "sources/vlz/wide.svg": "1df70b9fc82826d4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.809,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "hasura-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1be25cd438152307"
+  "logo.svg": "1be25cd438152307",
+  "sources/gilbarbara/full.svg": "5a246c1ab3f7c430"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.409,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

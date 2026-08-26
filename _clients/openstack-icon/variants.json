@@ -4,9 +4,24 @@
  "id": "openstack-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fa01c5d7820b03d7"
+  "logo.svg": "fa01c5d7820b03d7",
+  "sources/vlz/wide.svg": "6ef33e3ddd242d2d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.703,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

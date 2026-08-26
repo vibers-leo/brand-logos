@@ -4,7 +4,8 @@
  "id": "unbounce-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7aed7cf34e1eba57"
+  "logo.svg": "7aed7cf34e1eba57",
+  "sources/gilbarbara/full.svg": "513bace4dedf7bad"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.056,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

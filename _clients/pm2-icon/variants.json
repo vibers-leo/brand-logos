@@ -4,7 +4,8 @@
  "id": "pm2-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d6b45c205521e4a8"
+  "logo.svg": "d6b45c205521e4a8",
+  "sources/gilbarbara/full.svg": "debe7dcbac5dd502"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.11,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "f0520b1ab0a6e778",
   "sources/iconify/airtable.svg": "f0520b1ab0a6e778",
-  "sources/wvl/airtable.svg": "9a299b54118aeb62"
+  "sources/wvl/airtable.svg": "9a299b54118aeb62",
+  "sources/vlz/wide.svg": "38080918e9afbebb"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/airtable.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.739,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

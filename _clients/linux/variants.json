@@ -6,9 +6,24 @@
  "fingerprint": {
   "logo.svg": "e47394e37565a4da",
   "sources/fa.svg": "e47394e37565a4da",
-  "sources/devicons/linux-original.svg": "22c2ffa02d49a7f5"
+  "sources/devicons/linux-original.svg": "22c2ffa02d49a7f5",
+  "sources/vlz/wide.svg": "c80ac5dd41424e79"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.688,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

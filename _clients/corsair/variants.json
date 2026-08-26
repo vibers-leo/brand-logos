@@ -4,7 +4,8 @@
  "id": "corsair",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "688eafb61f1ffaf7"
+  "logo.svg": "688eafb61f1ffaf7",
+  "sources/vlz/wide.svg": "26e2cbb9f35c7844"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.225,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

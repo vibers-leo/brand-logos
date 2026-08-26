@@ -4,9 +4,24 @@
  "id": "cbs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "006853e75ff44e58"
+  "logo.svg": "006853e75ff44e58",
+  "sources/vlz/wide.svg": "c0881bc17587e37d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.685,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "udacity-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7a305249cd0c3925"
+  "logo.svg": "7a305249cd0c3925",
+  "sources/vlz/wide.svg": "044f4824cfc42328"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.82,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "gradio-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "24623862062d4655"
+  "logo.svg": "24623862062d4655",
+  "sources/gilbarbara/full.svg": "f542e6f72fb7d89f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.128,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

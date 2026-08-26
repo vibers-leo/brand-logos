@@ -4,7 +4,8 @@
  "id": "calibre-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2cb37166340a5ed5"
+  "logo.svg": "2cb37166340a5ed5",
+  "sources/gilbarbara/full.svg": "a3da532c374d088c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.478,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

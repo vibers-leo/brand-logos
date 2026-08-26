@@ -4,7 +4,8 @@
  "id": "barclays",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6fe8a5f37d2805b0"
+  "logo.svg": "6fe8a5f37d2805b0",
+  "sources/vlz/wide.svg": "40c69b730adffaad"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.68,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "us-nasa",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "dd2c770c0f6d1eb5"
+  "logo.svg": "dd2c770c0f6d1eb5",
+  "sources/vlz/wide.svg": "1dfaff8a2c3411f1"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.22,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

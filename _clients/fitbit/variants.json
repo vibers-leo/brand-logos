@@ -4,9 +4,24 @@
  "id": "fitbit",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eb969b1242880a22"
+  "logo.svg": "eb969b1242880a22",
+  "sources/vlz/wide.svg": "8769642540fef0d4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.85,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

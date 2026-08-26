@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "43c57d0b2b039783",
-  "sources/devicons/capacitor-original.svg": "43c57d0b2b039783"
+  "sources/devicons/capacitor-original.svg": "43c57d0b2b039783",
+  "sources/gilbarbara/full.svg": "72fa73e1bd1bac7b"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/capacitor-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.233,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

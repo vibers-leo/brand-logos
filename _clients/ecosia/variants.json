@@ -4,9 +4,24 @@
  "id": "ecosia",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f73e4708fc2076a4"
+  "logo.svg": "f73e4708fc2076a4",
+  "sources/vlz/wide.svg": "ac6d8e1febb83844"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.396,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

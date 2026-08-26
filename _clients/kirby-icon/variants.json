@@ -4,9 +4,24 @@
  "id": "kirby-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8b0014a8cc2d6be3"
+  "logo.svg": "8b0014a8cc2d6be3",
+  "sources/gilbarbara/full.svg": "dc9a639aa9061f2e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.875,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

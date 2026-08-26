@@ -4,9 +4,24 @@
  "id": "eclipse-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d0b5ad35131d2756"
+  "logo.svg": "d0b5ad35131d2756",
+  "sources/vlz/wide.svg": "d4f911f81a3f6f5c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.948,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

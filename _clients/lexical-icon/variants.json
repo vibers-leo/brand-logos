@@ -4,7 +4,8 @@
  "id": "lexical-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6c17f0809b9ff5a8"
+  "logo.svg": "6c17f0809b9ff5a8",
+  "sources/gilbarbara/full.svg": "d7fb4dda80caaa65"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.455,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

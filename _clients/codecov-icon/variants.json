@@ -4,7 +4,8 @@
  "id": "codecov-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e95b348c9f8678be"
+  "logo.svg": "e95b348c9f8678be",
+  "sources/gilbarbara/full.svg": "7b2b9ad143c29d50"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.172,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

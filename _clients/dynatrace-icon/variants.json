@@ -4,7 +4,8 @@
  "id": "dynatrace-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ddad598e73db629e"
+  "logo.svg": "ddad598e73db629e",
+  "sources/vlz/wide.svg": "735b45f39522540b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.637,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

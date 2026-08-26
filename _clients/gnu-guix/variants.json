@@ -4,7 +4,8 @@
  "id": "gnu-guix",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eecaf151380cf75e"
+  "logo.svg": "eecaf151380cf75e",
+  "sources/vlz/wide.svg": "4a3893cbbc32e762"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.237,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

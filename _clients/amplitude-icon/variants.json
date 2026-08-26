@@ -4,7 +4,8 @@
  "id": "amplitude-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d6f67b555ddee2f7"
+  "logo.svg": "d6f67b555ddee2f7",
+  "sources/vlz/wide.svg": "a9288dcb7519ab0c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.814,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

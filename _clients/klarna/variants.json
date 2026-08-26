@@ -4,7 +4,8 @@
  "id": "klarna",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b253d9cd91461ea1"
+  "logo.svg": "b253d9cd91461ea1",
+  "sources/vlz/wide.svg": "6e835f4593956a5e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.299,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

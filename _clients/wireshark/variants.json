@@ -4,7 +4,8 @@
  "id": "wireshark",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a3808818d944b5ac"
+  "logo.svg": "a3808818d944b5ac",
+  "sources/vlz/wide.svg": "edcd4ac4a5929623"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.626,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

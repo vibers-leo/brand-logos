@@ -4,7 +4,8 @@
  "id": "deployhq-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fe6e92cb06ce7dd8"
+  "logo.svg": "fe6e92cb06ce7dd8",
+  "sources/vlz/wide.svg": "3b4071d49da5916b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.757,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

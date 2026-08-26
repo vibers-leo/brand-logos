@@ -4,9 +4,24 @@
  "id": "snort",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "343d6437dcaaf92e"
+  "logo.svg": "343d6437dcaaf92e",
+  "sources/vlz/wide.svg": "5362a4b48ea7835d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.184,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "perforce",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6def3ea2e8e1072d"
+  "logo.svg": "6def3ea2e8e1072d",
+  "sources/vlz/wide.svg": "a7a216261c442269"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 8.474,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

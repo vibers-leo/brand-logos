@@ -4,7 +4,8 @@
  "id": "game-analytics-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "56322dfe911ca5bf"
+  "logo.svg": "56322dfe911ca5bf",
+  "sources/gilbarbara/full.svg": "07f62725635bfcc3"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 7.759,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -8,7 +8,8 @@
   "sources/fa.svg": "2695e2b83cb9c09e",
   "sources/iconify/chrome.svg": "d1e2c63dc4d1db3c",
   "sources/devicons/chrome-original.svg": "418b398d76e5deff",
-  "sources/wvl/chrome.svg": "7ad213cd26f30325"
+  "sources/wvl/chrome.svg": "7ad213cd26f30325",
+  "sources/vlz/wide.svg": "7d994bac60451888"
  },
  "variants": [
   {
@@ -43,6 +44,20 @@
      "file": "sources/fa.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.487,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "planless-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eef04ea0bd7b9627"
+  "logo.svg": "eef04ea0bd7b9627",
+  "sources/gilbarbara/full.svg": "fc1e76c0ae7a477a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.0,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

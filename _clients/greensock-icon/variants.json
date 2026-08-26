@@ -4,9 +4,24 @@
  "id": "greensock-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e5511125629bd4e2"
+  "logo.svg": "e5511125629bd4e2",
+  "sources/gilbarbara/full.svg": "00121b15e8a7abdb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.727,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

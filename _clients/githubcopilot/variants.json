@@ -4,9 +4,24 @@
  "id": "githubcopilot",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7508f6961df1a595"
+  "logo.svg": "7508f6961df1a595",
+  "sources/vlz/wide.svg": "d50f3f76fa263b15"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.812,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

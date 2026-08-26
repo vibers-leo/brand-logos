@@ -4,9 +4,24 @@
  "id": "gnome-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c204c4df71bf9169"
+  "logo.svg": "c204c4df71bf9169",
+  "sources/vlz/wide.svg": "fd505bf9e5761e44"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.314,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "fomo-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7cf497fd2c355b8e"
+  "logo.svg": "7cf497fd2c355b8e",
+  "sources/gilbarbara/full.svg": "dcfb5b4988d391a0"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.719,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

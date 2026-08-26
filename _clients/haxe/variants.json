@@ -7,7 +7,8 @@
   "logo.svg": "45a5ed9f890327f1",
   "sources/iconify/haxe.svg": "45a5ed9f890327f1",
   "sources/devicons/haxe-original.svg": "0d7b51b9738c51ca",
-  "sources/wvl/haxe.svg": "7e77553f66a8f769"
+  "sources/wvl/haxe.svg": "7e77553f66a8f769",
+  "sources/vlz/wide.svg": "382ec7d2f3eab2be"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/haxe-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.938,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

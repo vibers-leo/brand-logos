@@ -4,9 +4,24 @@
  "id": "elsevier",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5d42760fb7746678"
+  "logo.svg": "5d42760fb7746678",
+  "sources/vlz/wide.svg": "80e4a97b25e24806"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.82,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

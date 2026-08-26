@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "e5d92e2d63b40cff",
   "sources/iconify/xero.svg": "e5d92e2d63b40cff",
-  "sources/wvl/xero.svg": "170d6c0aec3f37d2"
+  "sources/wvl/xero.svg": "170d6c0aec3f37d2",
+  "sources/vlz/wide.svg": "3fbefcd959e7e0e4"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/xero.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.44,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

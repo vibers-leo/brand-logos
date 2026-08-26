@@ -4,7 +4,8 @@
  "id": "storyblocks-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "048fffc1028ed151"
+  "logo.svg": "048fffc1028ed151",
+  "sources/gilbarbara/full.svg": "8655418c7825a2de"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.688,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

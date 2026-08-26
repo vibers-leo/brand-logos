@@ -4,9 +4,24 @@
  "id": "godaddy",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a783b5e0a4b26e2a"
+  "logo.svg": "a783b5e0a4b26e2a",
+  "sources/vlz/wide.svg": "d1388560afc1449e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.302,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

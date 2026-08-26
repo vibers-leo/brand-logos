@@ -4,9 +4,24 @@
  "id": "emberdotjs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "088b979315ee99be"
+  "logo.svg": "088b979315ee99be",
+  "sources/vlz/wide.svg": "ed990e78c64ba639"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.533,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

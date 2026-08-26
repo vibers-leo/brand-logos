@@ -7,7 +7,8 @@
   "logo.svg": "059a9dc992dd596a",
   "sources/iconify/bitbucket.svg": "059a9dc992dd596a",
   "sources/devicons/bitbucket-original.svg": "d59bc8c293355058",
-  "sources/wvl/bitbucket.svg": "dd3102d942bf239f"
+  "sources/wvl/bitbucket.svg": "dd3102d942bf239f",
+  "sources/vlz/wide.svg": "d4abcf134522a5a6"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/bitbucket-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.089,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

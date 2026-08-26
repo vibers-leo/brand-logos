@@ -4,7 +4,8 @@
  "id": "qualcomm",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0d08dae3858aae1d"
+  "logo.svg": "0d08dae3858aae1d",
+  "sources/gilbarbara/full.svg": "250dec5f92c83ec7"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.422,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

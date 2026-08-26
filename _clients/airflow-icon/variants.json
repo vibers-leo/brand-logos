@@ -4,9 +4,24 @@
  "id": "airflow-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "937f6551ceb7abda"
+  "logo.svg": "937f6551ceb7abda",
+  "sources/gilbarbara/full.svg": "9d82d84a2732cffc"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.624,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

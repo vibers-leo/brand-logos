@@ -4,7 +4,8 @@
  "id": "1and1",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "318e36f573115993"
+  "logo.svg": "318e36f573115993",
+  "sources/vlz/wide.svg": "18b79f8128791908"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

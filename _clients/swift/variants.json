@@ -2,14 +2,29 @@
  "schema": 1,
  "algo_v": 1,
  "id": "swift",
- "primary": "symbol",
+ "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "78747a3986f44c6b",
   "sources/iconify/swift.svg": "78747a3986f44c6b",
   "sources/devicons/swift-original.svg": "312ed28ce6efe155",
-  "sources/wvl/swift.svg": "f7fb2fae79adcbe9"
+  "sources/wvl/swift.svg": "f7fb2fae79adcbe9",
+  "sources/vlz/wide.svg": "a2ae590ded0713b4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.919,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

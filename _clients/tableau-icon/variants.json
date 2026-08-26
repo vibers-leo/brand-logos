@@ -4,7 +4,8 @@
  "id": "tableau-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2fbf2ee2ec8fa663"
+  "logo.svg": "2fbf2ee2ec8fa663",
+  "sources/gilbarbara/full.svg": "fa90db9a49e65de6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.712,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

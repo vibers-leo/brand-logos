@@ -4,9 +4,24 @@
  "id": "symantec",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "57deb760ce045830"
+  "logo.svg": "57deb760ce045830",
+  "sources/vlz/wide.svg": "c8d8af7d35e59b86"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.93,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

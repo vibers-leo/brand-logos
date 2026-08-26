@@ -7,7 +7,8 @@
   "logo.svg": "8a8ec00109e8bdd7",
   "sources/iconify/symfony.svg": "8a8ec00109e8bdd7",
   "sources/devicons/symfony-original.svg": "4455107fd4c26080",
-  "sources/wvl/symfony.svg": "aa4a7101831185e8"
+  "sources/wvl/symfony.svg": "aa4a7101831185e8",
+  "sources/vlz/wide.svg": "d81748f0bde3bf95"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/symfony-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.176,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

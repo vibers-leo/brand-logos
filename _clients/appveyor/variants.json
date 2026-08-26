@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "ba74a113e5101ce0",
   "sources/iconify/appveyor.svg": "ba74a113e5101ce0",
-  "sources/wvl/appveyor.svg": "095dc56e69addd51"
+  "sources/wvl/appveyor.svg": "095dc56e69addd51",
+  "sources/vlz/wide.svg": "4385569e235b13c4"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/appveyor.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.661,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

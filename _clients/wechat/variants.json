@@ -4,7 +4,8 @@
  "id": "wechat",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "823d5a52af64f937"
+  "logo.svg": "823d5a52af64f937",
+  "sources/vlz/wide.svg": "896b00df18714153"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.525,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

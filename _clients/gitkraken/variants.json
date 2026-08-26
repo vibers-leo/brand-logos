@@ -7,9 +7,24 @@
   "logo.svg": "824dfe518bd4b3db",
   "sources/iconify/gitkraken.svg": "824dfe518bd4b3db",
   "sources/devicons/gitkraken-original.svg": "36350ea9cdabc6e8",
-  "sources/wvl/gitkraken.svg": "31b01e31e1ac3252"
+  "sources/wvl/gitkraken.svg": "31b01e31e1ac3252",
+  "sources/vlz/wide.svg": "0819a091893e5c08"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.489,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

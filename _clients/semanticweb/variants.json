@@ -4,7 +4,8 @@
  "id": "semanticweb",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0e37f304e508cb41"
+  "logo.svg": "0e37f304e508cb41",
+  "sources/gilbarbara/full.svg": "e4684c625f46012a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simpleicons/semanticweb",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.273,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

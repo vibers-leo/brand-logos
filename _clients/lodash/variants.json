@@ -7,7 +7,8 @@
   "logo.svg": "0d552bcef49f5789",
   "sources/iconify/lodash.svg": "0d552bcef49f5789",
   "sources/devicons/lodash-original.svg": "231fd250af17e7a0",
-  "sources/wvl/lodash.svg": "5a6602178ebdf009"
+  "sources/wvl/lodash.svg": "5a6602178ebdf009",
+  "sources/vlz/wide.svg": "851a8f88dda9ff5c"
  },
  "variants": [
   {
@@ -36,6 +37,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/lodash-original.svg"
+    },
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
     }
    ]
   }

@@ -4,9 +4,24 @@
  "id": "deepl",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "009c516cfb02e501"
+  "logo.svg": "009c516cfb02e501",
+  "sources/vlz/wide.svg": "0488cf9955751e2e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.907,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "singlestore-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "230ddfc1bd2e2bf9"
+  "logo.svg": "230ddfc1bd2e2bf9",
+  "sources/gilbarbara/full.svg": "71112592a7158145"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.762,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "waymo",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f1550a1213278e8e"
+  "logo.svg": "f1550a1213278e8e",
+  "sources/vlz/wide.svg": "f97cb6be5581c11e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.974,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

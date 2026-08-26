@@ -4,7 +4,8 @@
  "id": "perplexity-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "22d77a282d757964"
+  "logo.svg": "22d77a282d757964",
+  "sources/gilbarbara/full.svg": "248f976a0f2e7eee"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.615,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

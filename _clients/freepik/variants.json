@@ -4,9 +4,24 @@
  "id": "freepik",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "71a60fa59e986aff"
+  "logo.svg": "71a60fa59e986aff",
+  "sources/vlz/wide.svg": "cda0b8034d19f368"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.361,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

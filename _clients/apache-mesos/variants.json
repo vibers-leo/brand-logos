@@ -4,9 +4,24 @@
  "id": "apache-mesos",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "33c021221d5576c4"
+  "logo.svg": "33c021221d5576c4",
+  "sources/vlz/wide.svg": "2b431c14455bf5d1"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.532,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

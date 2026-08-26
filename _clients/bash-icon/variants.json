@@ -4,9 +4,24 @@
  "id": "bash-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "09a9aa2372f61fe7"
+  "logo.svg": "09a9aa2372f61fe7",
+  "sources/gilbarbara/full.svg": "5a191971b51dd677"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.375,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

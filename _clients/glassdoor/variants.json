@@ -4,7 +4,8 @@
  "id": "glassdoor",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "928e08d7347d8624"
+  "logo.svg": "928e08d7347d8624",
+  "sources/vlz/wide.svg": "00ddbd776a39f307"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.154,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

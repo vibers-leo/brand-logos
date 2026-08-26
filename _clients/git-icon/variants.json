@@ -4,9 +4,24 @@
  "id": "git-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "50d518e7ea2c4c0f"
+  "logo.svg": "50d518e7ea2c4c0f",
+  "sources/gilbarbara/full.svg": "a3f5998272eb9988"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.395,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

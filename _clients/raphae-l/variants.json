@@ -4,7 +4,8 @@
  "id": "raphae-l",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8edb5d7f697e7036"
+  "logo.svg": "8edb5d7f697e7036",
+  "sources/gilbarbara/full.svg": "c74b81f99dd4ec88"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "gilbarbara",
+     "file": "sources/gilbarbara/full.svg"
+    }
+   ]
   }
  ]
 }

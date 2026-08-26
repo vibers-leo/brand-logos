@@ -4,7 +4,8 @@
  "id": "threads-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d990aaf410f522f8"
+  "logo.svg": "d990aaf410f522f8",
+  "sources/vlz/wide.svg": "913bb59a9eaafc78"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.325,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -6,9 +6,24 @@
  "fingerprint": {
   "logo.svg": "89066423134c5467",
   "sources/iconify/docusaurus.svg": "89066423134c5467",
-  "sources/wvl/docusaurus.svg": "4d08662c479e69c5"
+  "sources/wvl/docusaurus.svg": "4d08662c479e69c5",
+  "sources/vlz/wide.svg": "242aa6d6291213d0"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.713,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

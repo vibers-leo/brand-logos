@@ -9,7 +9,8 @@
   "sources/iconify/flattr-icon.svg": "6e4084893513d080",
   "sources/wvl/flattr-icon.svg": "a31f3095c477d8d2",
   "sources/wvl/flattr.svg": "396e909629719fb7",
-  "sources/flattr-icon.svg": "a31f3095c477d8d2"
+  "sources/flattr-icon.svg": "a31f3095c477d8d2",
+  "sources/vlz/wide.svg": "88eec003485d1beb"
  },
  "variants": [
   {
@@ -48,6 +49,20 @@
      "file": "sources/flattr-icon.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.788,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

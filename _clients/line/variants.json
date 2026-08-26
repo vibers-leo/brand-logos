@@ -4,7 +4,8 @@
  "id": "line",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cc4c479f99640d8c"
+  "logo.svg": "cc4c479f99640d8c",
+  "sources/vlz/wide.svg": "95b5c30671daefdd"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.049,
    "provider": "simple-icons/line",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

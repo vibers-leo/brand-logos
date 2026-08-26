@@ -4,9 +4,24 @@
  "id": "google-bard-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f50fedce6160a70e"
+  "logo.svg": "f50fedce6160a70e",
+  "sources/gilbarbara/full.svg": "ba8558583f538d91"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.903,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

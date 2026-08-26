@@ -4,9 +4,24 @@
  "id": "opentofu",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cdf56ea7967d5e59"
+  "logo.svg": "cdf56ea7967d5e59",
+  "sources/vlz/wide.svg": "695eaf0d0a1e0993"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.329,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

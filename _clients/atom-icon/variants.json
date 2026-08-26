@@ -4,7 +4,8 @@
  "id": "atom-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3ee87286a3faa3f8"
+  "logo.svg": "3ee87286a3faa3f8",
+  "sources/gilbarbara/full.svg": "84ff6a7257267223"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.839,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

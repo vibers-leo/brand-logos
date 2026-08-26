@@ -4,7 +4,8 @@
  "id": "brandfolder-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f9bf0c703befe8db"
+  "logo.svg": "f9bf0c703befe8db",
+  "sources/gilbarbara/full.svg": "c8ec799df6815cca"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.245,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

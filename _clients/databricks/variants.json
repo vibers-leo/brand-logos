@@ -4,7 +4,8 @@
  "id": "databricks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c94ef6a5d053af43"
+  "logo.svg": "c94ef6a5d053af43",
+  "sources/vlz/wide.svg": "9fa25555e86810f4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.612,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

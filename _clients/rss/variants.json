@@ -4,9 +4,24 @@
  "id": "rss",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b8b7731b201142e5"
+  "logo.svg": "b8b7731b201142e5",
+  "sources/vlz/wide.svg": "0e70c3d886dcde21"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.576,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "centos-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c6111315fb88428c"
+  "logo.svg": "c6111315fb88428c",
+  "sources/vlz/wide.svg": "655dbfb7d03cab72"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.361,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

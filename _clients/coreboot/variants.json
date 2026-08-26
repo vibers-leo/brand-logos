@@ -4,9 +4,24 @@
  "id": "coreboot",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ff93ea89e3229aeb"
+  "logo.svg": "ff93ea89e3229aeb",
+  "sources/vlz/wide.svg": "0cefdab6b68968ca"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.39,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

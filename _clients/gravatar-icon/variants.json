@@ -4,7 +4,8 @@
  "id": "gravatar-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "88123893745a7a8c"
+  "logo.svg": "88123893745a7a8c",
+  "sources/vlz/wide.svg": "e862ab5fae0829df"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.367,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -7,9 +7,24 @@
   "logo.svg": "402fe4d3401053a9",
   "sources/iconify/nestjs.svg": "402fe4d3401053a9",
   "sources/devicons/nestjs-original.svg": "1f673f535f37eea5",
-  "sources/wvl/nestjs.svg": "ce69369659248ec1"
+  "sources/wvl/nestjs.svg": "ce69369659248ec1",
+  "sources/vlz/wide.svg": "e7613e101e027450"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.583,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

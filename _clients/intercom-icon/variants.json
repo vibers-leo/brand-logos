@@ -4,9 +4,24 @@
  "id": "intercom-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "11d2860726245238"
+  "logo.svg": "11d2860726245238",
+  "sources/vlz/wide.svg": "d6385c4c2a9f4fdf"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.6,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

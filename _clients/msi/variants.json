@@ -4,7 +4,8 @@
  "id": "msi",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2cca276256597b37"
+  "logo.svg": "2cca276256597b37",
+  "sources/vlz/wide.svg": "6a84b86f6a99757d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.072,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

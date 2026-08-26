@@ -4,7 +4,8 @@
  "id": "wasabi",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8f8f64f77570f7eb"
+  "logo.svg": "8f8f64f77570f7eb",
+  "sources/vlz/wide.svg": "0a8a087704c3906b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.049,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "thymeleaf-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "35606f4b7bf89450"
+  "logo.svg": "35606f4b7bf89450",
+  "sources/gilbarbara/full.svg": "6c163e13a654e59b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.844,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "tapcart-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7a48a6400584db18"
+  "logo.svg": "7a48a6400584db18",
+  "sources/gilbarbara/full.svg": "865d76fbbde47b11"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.39,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

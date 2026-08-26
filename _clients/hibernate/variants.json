@@ -7,7 +7,8 @@
   "logo.svg": "30e1f196008039c6",
   "sources/iconify/hibernate.svg": "30e1f196008039c6",
   "sources/devicons/hibernate-original.svg": "fdff166b99f046db",
-  "sources/wvl/hibernate.svg": "c935b3ac2472d408"
+  "sources/wvl/hibernate.svg": "c935b3ac2472d408",
+  "sources/vlz/wide.svg": "40187e572fb4a781"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/hibernate-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.302,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

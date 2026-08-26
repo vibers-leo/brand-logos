@@ -4,7 +4,8 @@
  "id": "moonshot-ai-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2893197e1f754370"
+  "logo.svg": "2893197e1f754370",
+  "sources/gilbarbara/full.svg": "64f8e3d6f97a80b3"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 6.04,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

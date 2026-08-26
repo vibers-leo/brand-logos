@@ -4,9 +4,24 @@
  "id": "apachehive",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0d5294627c9a86ff"
+  "logo.svg": "0d5294627c9a86ff",
+  "sources/vlz/wide.svg": "17243475f67d4e01"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.562,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

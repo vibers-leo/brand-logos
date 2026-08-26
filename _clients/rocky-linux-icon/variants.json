@@ -4,7 +4,8 @@
  "id": "rocky-linux-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c460d7fea7104d58"
+  "logo.svg": "c460d7fea7104d58",
+  "sources/gilbarbara/full.svg": "c5ead9ef19d5e6bf"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.389,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

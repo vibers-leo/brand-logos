@@ -4,9 +4,24 @@
  "id": "cypress-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "590136ceaa927a5d"
+  "logo.svg": "590136ceaa927a5d",
+  "sources/gilbarbara/full.svg": "3274c64ef48b34e8"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.479,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

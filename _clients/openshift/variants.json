@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "2ec684bc928a3c1a",
   "sources/iconify/openshift.svg": "2ec684bc928a3c1a",
-  "sources/wvl/openshift.svg": "8616ccdc56fc9f2d"
+  "sources/wvl/openshift.svg": "8616ccdc56fc9f2d",
+  "sources/vlz/wide.svg": "42864ba9e02de8c7"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/openshift.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.244,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "meetup",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b215e3827b6c2344"
+  "logo.svg": "b215e3827b6c2344",
+  "sources/vlz/wide.svg": "8b0b5f182e4cccf4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.792,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "invision-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "af8159ee65b7f64d"
+  "logo.svg": "af8159ee65b7f64d",
+  "sources/gilbarbara/full.svg": "143b5f7a50e09ace"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.922,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -7,9 +7,24 @@
   "logo.svg": "23b9aa1f2efcd599",
   "sources/iconify/lua.svg": "23b9aa1f2efcd599",
   "sources/devicons/lua-original.svg": "99382f7a2979a3ca",
-  "sources/wvl/lua.svg": "ac40a66f4a5b28ff"
+  "sources/wvl/lua.svg": "ac40a66f4a5b28ff",
+  "sources/vlz/wide.svg": "9057b22d429cfacd"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.141,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

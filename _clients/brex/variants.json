@@ -4,9 +4,24 @@
  "id": "brex",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a560a7b64a71fd61"
+  "logo.svg": "a560a7b64a71fd61",
+  "sources/vlz/wide.svg": "6574cadfbede7a72"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.752,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

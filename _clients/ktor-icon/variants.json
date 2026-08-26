@@ -4,9 +4,24 @@
  "id": "ktor-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f873daf32a7c50f6"
+  "logo.svg": "f873daf32a7c50f6",
+  "sources/gilbarbara/full.svg": "a894f2502200abd2"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.113,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

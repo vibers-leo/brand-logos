@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "5fc8f43fbfd8b8ef",
   "sources/iconify/freebsd.svg": "5fc8f43fbfd8b8ef",
-  "sources/wvl/freebsd.svg": "73fa8264be0e7fbe"
+  "sources/wvl/freebsd.svg": "73fa8264be0e7fbe",
+  "sources/vlz/wide.svg": "92d112f08e3a5c88"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/freebsd.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.375,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

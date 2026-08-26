@@ -4,7 +4,8 @@
  "id": "reactquery",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "de96d4200e9c5d1d"
+  "logo.svg": "de96d4200e9c5d1d",
+  "sources/gilbarbara/full.svg": "7aee47b2e93be110"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simpleicons/reactquery",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.114,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

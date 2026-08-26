@@ -4,7 +4,8 @@
  "id": "percy-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6599f3f32374b805"
+  "logo.svg": "6599f3f32374b805",
+  "sources/gilbarbara/full.svg": "67d169796925719e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.614,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

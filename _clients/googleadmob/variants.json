@@ -4,9 +4,24 @@
  "id": "googleadmob",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "54efada132d0b311"
+  "logo.svg": "54efada132d0b311",
+  "sources/vlz/wide.svg": "e7163b2006b0633d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.844,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

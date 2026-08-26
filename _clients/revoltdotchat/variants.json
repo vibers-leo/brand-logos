@@ -4,7 +4,8 @@
  "id": "revoltdotchat",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b9d66951aa72cfaf"
+  "logo.svg": "b9d66951aa72cfaf",
+  "sources/vlz/wide.svg": "a901103112c541fa"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.47,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

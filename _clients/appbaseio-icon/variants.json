@@ -4,7 +4,8 @@
  "id": "appbaseio-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7a6f8d06b8b11240"
+  "logo.svg": "7a6f8d06b8b11240",
+  "sources/gilbarbara/full.svg": "1530979f8ce36694"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.891,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

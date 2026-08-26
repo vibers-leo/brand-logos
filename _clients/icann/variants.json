@@ -4,9 +4,24 @@
  "id": "icann",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f8871007e3ea7c01"
+  "logo.svg": "f8871007e3ea7c01",
+  "sources/vlz/wide.svg": "5d9d0c00063b3c18"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.344,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -7,9 +7,24 @@
   "logo.svg": "c56986c7b0d4e82f",
   "sources/iconify/debian.svg": "c56986c7b0d4e82f",
   "sources/devicons/debian-original.svg": "5fdb2deff07c9dda",
-  "sources/wvl/debian.svg": "6815d51e7333e94e"
+  "sources/wvl/debian.svg": "6815d51e7333e94e",
+  "sources/vlz/wide.svg": "a69742f58f5d1502"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.625,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

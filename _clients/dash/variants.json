@@ -4,7 +4,8 @@
  "id": "dash",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "420554d8fa420a1e"
+  "logo.svg": "420554d8fa420a1e",
+  "sources/vlz/wide.svg": "f71b67f36949344a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 6.466,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

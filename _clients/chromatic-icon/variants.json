@@ -4,7 +4,8 @@
  "id": "chromatic-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8ecf00c944300143"
+  "logo.svg": "8ecf00c944300143",
+  "sources/gilbarbara/full.svg": "eee38f034e3fbf50"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.085,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

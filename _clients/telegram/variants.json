@@ -4,7 +4,8 @@
  "id": "telegram",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "db804d26ff470d66"
+  "logo.svg": "db804d26ff470d66",
+  "sources/vlz/wide.svg": "46976b1b64ef2ec8"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.237,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

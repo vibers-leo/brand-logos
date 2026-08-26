@@ -4,9 +4,24 @@
  "id": "matillion",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "60baeffcf94ed112"
+  "logo.svg": "60baeffcf94ed112",
+  "sources/vlz/wide.svg": "c89e101903fa0c12"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.811,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

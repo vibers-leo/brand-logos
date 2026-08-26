@@ -4,9 +4,24 @@
  "id": "apache-flink-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "36cf80a49d327726"
+  "logo.svg": "36cf80a49d327726",
+  "sources/vlz/wide.svg": "5bcd7b1ea1db86fb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.516,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

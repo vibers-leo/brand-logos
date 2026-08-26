@@ -4,7 +4,8 @@
  "id": "hugging-face-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e8c8487c0ab022b8"
+  "logo.svg": "e8c8487c0ab022b8",
+  "sources/gilbarbara/full.svg": "eb62a689309becfb"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.523,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

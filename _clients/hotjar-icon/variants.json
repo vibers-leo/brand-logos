@@ -4,7 +4,8 @@
  "id": "hotjar-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c410f228ff3173ca"
+  "logo.svg": "c410f228ff3173ca",
+  "sources/gilbarbara/full.svg": "573c476605191d14"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.863,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "gnubash",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6d4ae85d17fe0df7"
+  "logo.svg": "6d4ae85d17fe0df7",
+  "sources/vlz/wide.svg": "9a108eee2ce0218a"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.371,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

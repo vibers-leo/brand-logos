@@ -4,9 +4,24 @@
  "id": "googlegemini",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e2146505a53fa588"
+  "logo.svg": "e2146505a53fa588",
+  "sources/gilbarbara/full.svg": "042e6f0f0aa74e3b"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.727,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

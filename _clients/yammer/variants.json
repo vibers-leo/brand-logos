@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "188f66dbf039f49b",
   "sources/iconify/yammer.svg": "188f66dbf039f49b",
-  "sources/wvl/yammer.svg": "f783562644c6b0b9"
+  "sources/wvl/yammer.svg": "f783562644c6b0b9",
+  "sources/vlz/wide.svg": "b3fc55e6f8d3249b"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/yammer.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.786,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

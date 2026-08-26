@@ -4,9 +4,24 @@
  "id": "bunny-net-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7595744c464a1702"
+  "logo.svg": "7595744c464a1702",
+  "sources/vlz/wide.svg": "8cc6214b0fd433a4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.616,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

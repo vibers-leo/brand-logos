@@ -4,7 +4,8 @@
  "id": "doi",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a5fae9f53d9d8e22"
+  "logo.svg": "a5fae9f53d9d8e22",
+  "sources/vlz/wide.svg": "50c690671ec5d0bd"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

@@ -7,7 +7,8 @@
   "logo.svg": "2da3370a095bd882",
   "sources/iconify/vim.svg": "2da3370a095bd882",
   "sources/devicons/vim-original.svg": "2e03a1373ba99a93",
-  "sources/wvl/vim.svg": "c036821d7394b3b5"
+  "sources/wvl/vim.svg": "c036821d7394b3b5",
+  "sources/vlz/wide.svg": "e5a8b6b713ba44cb"
  },
  "variants": [
   {
@@ -36,6 +37,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/vim-original.svg"
+    },
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
     }
    ]
   }

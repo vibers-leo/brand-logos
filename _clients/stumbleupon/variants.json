@@ -4,9 +4,24 @@
  "id": "stumbleupon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "96a30f0506c0ff19"
+  "logo.svg": "96a30f0506c0ff19",
+  "sources/vlz/wide.svg": "71103cca64077f3b"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.707,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

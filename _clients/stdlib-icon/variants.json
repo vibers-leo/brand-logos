@@ -4,7 +4,8 @@
  "id": "stdlib-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3545317c0fc33fc3"
+  "logo.svg": "3545317c0fc33fc3",
+  "sources/vlz/wide.svg": "8f4ccdd932866f89"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.981,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

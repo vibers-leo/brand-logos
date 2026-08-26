@@ -4,7 +4,8 @@
  "id": "w3schools",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e9a726e2dd1848e5"
+  "logo.svg": "e9a726e2dd1848e5",
+  "sources/vlz/wide.svg": "615ec59931c0aa83"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.917,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

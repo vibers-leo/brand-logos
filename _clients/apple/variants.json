@@ -4,9 +4,24 @@
  "id": "apple",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d64a495b151e39ce"
+  "logo.svg": "d64a495b151e39ce",
+  "sources/vlz/wide.svg": "de466982b0862f03"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.912,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

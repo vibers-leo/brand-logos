@@ -4,9 +4,24 @@
  "id": "nhost-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9f97029602472412"
+  "logo.svg": "9f97029602472412",
+  "sources/gilbarbara/full.svg": "9e3282f15bcc7ea3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.961,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

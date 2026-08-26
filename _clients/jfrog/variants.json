@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "2a7d258564d67b03",
   "sources/iconify/jfrog.svg": "2a7d258564d67b03",
-  "sources/wvl/jfrog.svg": "827525895715651d"
+  "sources/wvl/jfrog.svg": "827525895715651d",
+  "sources/vlz/wide.svg": "f42d58feaa84d246"
  },
  "variants": [
   {
@@ -31,6 +32,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/jfrog.svg"
+    },
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
     }
    ]
   }

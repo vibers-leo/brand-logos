@@ -4,7 +4,8 @@
  "id": "jetbrains-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0253da2620a32aca"
+  "logo.svg": "0253da2620a32aca",
+  "sources/vlz/wide.svg": "8c260db307bdcf84"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

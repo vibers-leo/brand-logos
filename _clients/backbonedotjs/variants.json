@@ -4,9 +4,24 @@
  "id": "backbonedotjs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b3e2b7919c5445ea"
+  "logo.svg": "b3e2b7919c5445ea",
+  "sources/vlz/wide.svg": "d35ff9c8f001c35e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.703,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "coderabbit",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d1e0c63259b66b32"
+  "logo.svg": "d1e0c63259b66b32",
+  "sources/gilbarbara/full.svg": "4ccfba20cd3bfbcc"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.59,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

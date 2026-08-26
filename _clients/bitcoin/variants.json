@@ -4,7 +4,8 @@
  "id": "bitcoin",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "21270b1b63216b19"
+  "logo.svg": "21270b1b63216b19",
+  "sources/vlz/wide.svg": "5c85e9414e3aee96"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.8,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

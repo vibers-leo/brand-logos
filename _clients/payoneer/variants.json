@@ -4,9 +4,24 @@
  "id": "payoneer",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e94819eb06f282cd"
+  "logo.svg": "e94819eb06f282cd",
+  "sources/vlz/wide.svg": "e11f1b6b07f2cbd5"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.737,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

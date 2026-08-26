@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "96533d268f8a6532",
-  "sources/devicons/bazel-original.svg": "96533d268f8a6532"
+  "sources/devicons/bazel-original.svg": "96533d268f8a6532",
+  "sources/vlz/wide.svg": "dddfe7579b59a677"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.858,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

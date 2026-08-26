@@ -4,7 +4,8 @@
  "id": "liberapay",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f6edc5617874f708"
+  "logo.svg": "f6edc5617874f708",
+  "sources/vlz/wide.svg": "e3e4c93ecb35c2a6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.189,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

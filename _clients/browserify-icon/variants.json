@@ -4,9 +4,24 @@
  "id": "browserify-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "21936c90debb9b07"
+  "logo.svg": "21936c90debb9b07",
+  "sources/vlz/wide.svg": "d9e0f1075a477632"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.593,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

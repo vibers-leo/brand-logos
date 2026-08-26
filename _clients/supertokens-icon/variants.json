@@ -4,7 +4,8 @@
  "id": "supertokens-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f18b8e2d348461dc"
+  "logo.svg": "f18b8e2d348461dc",
+  "sources/gilbarbara/full.svg": "9a579a2e1e1e40dd"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 6.569,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

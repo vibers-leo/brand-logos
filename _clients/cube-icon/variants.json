@@ -4,7 +4,8 @@
  "id": "cube-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eb4b65aed0599b44"
+  "logo.svg": "eb4b65aed0599b44",
+  "sources/gilbarbara/full.svg": "a71263e8744fa8e9"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.371,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "dask",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bce32643a6310d93"
+  "logo.svg": "bce32643a6310d93",
+  "sources/vlz/wide.svg": "37ce6bc692e2d3b3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.491,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

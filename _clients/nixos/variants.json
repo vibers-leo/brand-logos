@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "e4312a5a44cf2de7",
-  "sources/devicons/nixos-original.svg": "e4312a5a44cf2de7"
+  "sources/devicons/nixos-original.svg": "e4312a5a44cf2de7",
+  "sources/vlz/wide.svg": "39e3a3dbb3e33072"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.896,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "apachestorm",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9f00be738d7ac423"
+  "logo.svg": "9f00be738d7ac423",
+  "sources/vlz/wide.svg": "f17653012911e609"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.825,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

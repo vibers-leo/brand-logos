@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "8bead658a32c0c16",
-  "sources/wvl/socket.io.svg": "8bead658a32c0c16"
+  "sources/wvl/socket.io.svg": "8bead658a32c0c16",
+  "sources/vlz/wide.svg": "a81014f6de0b764e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.76,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

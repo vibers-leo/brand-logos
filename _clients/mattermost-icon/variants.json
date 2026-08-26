@@ -4,7 +4,8 @@
  "id": "mattermost-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "13f386bd8c6c299b"
+  "logo.svg": "13f386bd8c6c299b",
+  "sources/gilbarbara/full.svg": "5a77eda0c4491594"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 6.081,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "sonarlint-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "65072c45e6be0e12"
+  "logo.svg": "65072c45e6be0e12",
+  "sources/gilbarbara/full.svg": "c759ede5d35d367e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.586,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

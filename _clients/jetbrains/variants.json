@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "aa7397e8318b3737",
-  "sources/jetbrains-icon.svg": "0253da2620a32aca"
+  "sources/jetbrains-icon.svg": "0253da2620a32aca",
+  "sources/vlz/wide.svg": "8c260db307bdcf84"
  },
  "variants": [
   {
@@ -23,6 +24,10 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    },
     {
      "provider": "merged",
      "file": "sources/jetbrains-icon.svg"

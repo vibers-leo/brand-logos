@@ -4,9 +4,24 @@
  "id": "talend",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a9efc129df39fe4a"
+  "logo.svg": "a9efc129df39fe4a",
+  "sources/vlz/wide.svg": "e243a6fe1543f38b"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.746,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

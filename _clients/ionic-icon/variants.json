@@ -4,9 +4,24 @@
  "id": "ionic-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "298183a840dd2523"
+  "logo.svg": "298183a840dd2523",
+  "sources/gilbarbara/full.svg": "b9811be8ab597b37"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.961,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

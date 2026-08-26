@@ -4,9 +4,24 @@
  "id": "branch-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f66fbf058e8794d7"
+  "logo.svg": "f66fbf058e8794d7",
+  "sources/gilbarbara/full.svg": "f50b074fc6da09da"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.752,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

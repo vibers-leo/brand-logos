@@ -4,7 +4,8 @@
  "id": "1password",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "93bab62c629ee8d1"
+  "logo.svg": "93bab62c629ee8d1",
+  "sources/vlz/wide.svg": "5f604314970514a6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.245,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

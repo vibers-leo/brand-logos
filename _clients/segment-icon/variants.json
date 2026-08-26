@@ -4,7 +4,8 @@
  "id": "segment-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6b00aff1518e18e4"
+  "logo.svg": "6b00aff1518e18e4",
+  "sources/vlz/wide.svg": "cd3924fa4975e4c8"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.59,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

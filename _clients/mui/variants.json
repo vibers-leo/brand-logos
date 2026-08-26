@@ -4,7 +4,8 @@
  "id": "mui",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "922fb3eca1a7eacc"
+  "logo.svg": "922fb3eca1a7eacc",
+  "sources/vlz/wide.svg": "99e111d2b7ca41a0"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.332,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

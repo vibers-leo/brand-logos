@@ -7,7 +7,8 @@
   "logo.svg": "14cbae1773b23a58",
   "sources/iconify/bower.svg": "14cbae1773b23a58",
   "sources/devicons/bower-original.svg": "c2ee2ab7abab55fd",
-  "sources/wvl/bower.svg": "acd3836884882918"
+  "sources/wvl/bower.svg": "acd3836884882918",
+  "sources/vlz/wide.svg": "8ad9189784774c8d"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/bower-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.339,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

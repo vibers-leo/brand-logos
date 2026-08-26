@@ -4,7 +4,8 @@
  "id": "influxdb-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a4ec6dfd32b03392"
+  "logo.svg": "a4ec6dfd32b03392",
+  "sources/gilbarbara/full.svg": "6217ae7247ab60bf"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.972,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

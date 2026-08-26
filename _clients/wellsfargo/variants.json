@@ -4,7 +4,8 @@
  "id": "wellsfargo",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "31f18da1a8e7ea10"
+  "logo.svg": "31f18da1a8e7ea10",
+  "sources/vlz/wide.svg": "2a5b495cb5a9f668"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 11.472,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

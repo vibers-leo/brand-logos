@@ -4,7 +4,8 @@
  "id": "broadcom-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fe5a562e4dfca51c"
+  "logo.svg": "fe5a562e4dfca51c",
+  "sources/gilbarbara/full.svg": "b2290258b515a4c5"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 7.087,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

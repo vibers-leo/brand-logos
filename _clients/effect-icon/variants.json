@@ -4,7 +4,8 @@
  "id": "effect-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d05880c9ce58a899"
+  "logo.svg": "d05880c9ce58a899",
+  "sources/gilbarbara/full.svg": "f246823aa18dcfcb"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.206,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "bugherd-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "64daf306cc835829"
+  "logo.svg": "64daf306cc835829",
+  "sources/gilbarbara/full.svg": "14558d3188128f2e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.99,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

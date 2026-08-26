@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "9c5cfa015e5f84e7",
-  "sources/devicons/backbonejs-original.svg": "9c5cfa015e5f84e7"
+  "sources/devicons/backbonejs-original.svg": "9c5cfa015e5f84e7",
+  "sources/vlz/wide.svg": "d35ff9c8f001c35e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.703,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

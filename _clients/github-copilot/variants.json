@@ -6,9 +6,24 @@
  "fingerprint": {
   "logo.svg": "fc62d18d32a07556",
   "sources/iconify/github-copilot.svg": "fc62d18d32a07556",
-  "sources/wvl/github-copilot.svg": "32478c13e5580b4b"
+  "sources/wvl/github-copilot.svg": "32478c13e5580b4b",
+  "sources/vlz/wide.svg": "d50f3f76fa263b15"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.812,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

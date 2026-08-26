@@ -4,7 +4,8 @@
  "id": "glamorous-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "52be3c4546242f88"
+  "logo.svg": "52be3c4546242f88",
+  "sources/gilbarbara/full.svg": "7965999cc17033a0"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.5,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

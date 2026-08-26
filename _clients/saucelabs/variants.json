@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "80032aa8f6819296",
   "sources/iconify/saucelabs.svg": "80032aa8f6819296",
-  "sources/wvl/saucelabs.svg": "94339a71198d63e6"
+  "sources/wvl/saucelabs.svg": "94339a71198d63e6",
+  "sources/vlz/wide.svg": "3e8f350205fbce64"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/saucelabs.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.673,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

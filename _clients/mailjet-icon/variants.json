@@ -4,9 +4,24 @@
  "id": "mailjet-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5d254b673366a334"
+  "logo.svg": "5d254b673366a334",
+  "sources/vlz/wide.svg": "db1e3c9670b9850c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.562,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

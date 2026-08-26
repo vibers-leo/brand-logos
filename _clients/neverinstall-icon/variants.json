@@ -4,7 +4,8 @@
  "id": "neverinstall-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4520099c38dd1048"
+  "logo.svg": "4520099c38dd1048",
+  "sources/gilbarbara/full.svg": "01b214603f43d01c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.237,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

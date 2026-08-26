@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "369628f49fa8a2ad",
   "sources/iconify/blogger.svg": "369628f49fa8a2ad",
-  "sources/wvl/blogger.svg": "02f00bff79b39871"
+  "sources/wvl/blogger.svg": "02f00bff79b39871",
+  "sources/vlz/wide.svg": "3a06e1a60b157c93"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/blogger.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.319,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

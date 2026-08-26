@@ -4,7 +4,8 @@
  "id": "convox-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c6fc00ceeef165ac"
+  "logo.svg": "c6fc00ceeef165ac",
+  "sources/gilbarbara/full.svg": "bfab13fef9644c43"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.202,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "gdal",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1dee662e2dfe7a0f"
+  "logo.svg": "1dee662e2dfe7a0f",
+  "sources/vlz/wide.svg": "b0a33a6ab68eb8d4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.026,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

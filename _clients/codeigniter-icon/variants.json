@@ -4,7 +4,8 @@
  "id": "codeigniter-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "80829e3e90b26ada"
+  "logo.svg": "80829e3e90b26ada",
+  "sources/gilbarbara/full.svg": "3a463443941d549d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 6.081,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

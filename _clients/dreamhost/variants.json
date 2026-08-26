@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "419ba79e16f4359d",
   "sources/iconify/dreamhost.svg": "419ba79e16f4359d",
-  "sources/wvl/dreamhost.svg": "621a4ec8691c49a5"
+  "sources/wvl/dreamhost.svg": "621a4ec8691c49a5",
+  "sources/vlz/wide.svg": "9424774b978e8425"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/dreamhost.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.136,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

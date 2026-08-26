@@ -4,9 +4,24 @@
  "id": "webdriverio-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cbac925b3664c47a"
+  "logo.svg": "cbac925b3664c47a",
+  "sources/gilbarbara/full.svg": "734743208e4170b2"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 1.867,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

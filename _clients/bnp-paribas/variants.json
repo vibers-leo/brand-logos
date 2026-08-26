@@ -4,7 +4,8 @@
  "id": "bnp-paribas",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "841616eb207aa87a"
+  "logo.svg": "841616eb207aa87a",
+  "sources/vlz/wide.svg": "b6b178c488435898"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.952,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

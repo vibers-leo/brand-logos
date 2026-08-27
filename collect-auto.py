@@ -1220,11 +1220,30 @@ def main():
     # git commit
     if args.commit:
         print("\n📦 git commit...")
-        subprocess.run(["git", "add", "_clients/"], cwd=BASE)
-        msg = f"feat: 소스 비교 데이터 추가 (FA brands + sources 필드)"
-        subprocess.run(["git", "commit", "-m", msg], cwd=BASE)
-        subprocess.run(["git", "push", "origin", "main"], cwd=BASE)
-        print("  ✅ push 완료")
+        # ⚠️ 예전엔 반환값을 안 보고 무조건 "push 완료"를 찍었다. 이 잡은 5시간
+        #    돌기 때문에 그 사이 사람이 푸시하면 'fetch first' 로 거부되는데,
+        #    로그에는 성공으로 남아 수집분이 사라진 걸 아무도 몰랐다.
+        #    2026-08-27 에 'abd' 1건이 그렇게 유실됐다(로그는 push 완료).
+        subprocess.run(["git", "add", "_clients/"], cwd=BASE, check=True)
+        msg = "feat: 소스 비교 데이터 추가 (FA brands + sources 필드)"
+        c = subprocess.run(["git", "commit", "-m", msg], cwd=BASE,
+                           capture_output=True, text=True)
+        if c.returncode != 0:
+            if "nothing to commit" in (c.stdout + c.stderr):
+                print("  변경 없음 — 커밋 생략")
+                return
+            print(f"  ❌ commit 실패\n{c.stdout[-400:]}{c.stderr[-400:]}")
+            raise SystemExit(1)
+        r = subprocess.run(["git", "push", "origin", "main"], cwd=BASE,
+                           capture_output=True, text=True)
+        if r.returncode != 0:
+            # 여기서 죽이지 않는다 — 뒤 파이프라인이 만든 산출물까지 버려진다.
+            # 커밋은 로컬에 남아 있고, 워크플로 끝의 '변형 산출물 커밋' 단계가
+            # rebase 로 따라잡아 다시 올린다.
+            print(f"  ⚠️ push 거부 (뒤 커밋 단계가 rebase 로 재시도한다)\n"
+                  f"{r.stderr[-400:]}")
+        else:
+            print("  ✅ push 완료")
 
     if all_collected:
         print(f"\n✅ 완료: {len(all_collected)}개 수집")

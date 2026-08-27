@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "samsung-financial-networks",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "449d4781003abc5a",
+  "variants/wordmark-en.svg": "ad796c36d59386ea"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "영문 BI",
+   "files": {
+    "svg": "variants/wordmark-en.svg",
+    "png": "variants/wordmark-en-800.png"
+   },
+   "aspect": 2.921,
+   "provider": "official",
+   "origin": "manual",
+   "order": 20,
+   "note": "자동 분류가 종횡비 2.80 을 '가로'로 판정한다. 키를 맞춰야 라벨이 덧씌워진다."
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "ko",
+   "color": "color",
+   "label": "국문 BI",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.992,
+   "provider": "official",
+   "origin": "manual",
+   "order": 10
+  }
+ ]
+}

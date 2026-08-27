@@ -1,0 +1,34 @@
+{
+ "note": "공식 BI PDF(삼성금융BI.pdf)에서 벡터 추출. 페이지마다 주석 텍스트가 같은\n문서에 있어 회색 fill 그룹을 제거하고 viewBox 를 잉크 경계로 잘랐다.\n⚠️ key 는 생성기가 만드는 자동 키와 일치시킨다 — 안 맞으면 같은 파일이\n   두 항목으로 중복 노출된다(삼성화재에서 실제로 겪음).\n대표는 국문. 영문판(ar 2.80)이 카드에는 더 잘 맞지만 형제 브랜드\n삼성화재와 규칙을 맞췄다 — 국문 6.43 도 피어 평균(약 7)과 비슷하다.",
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "ko",
+   "color": "color",
+   "label": "국문 BI",
+   "order": 10,
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "provider": "official",
+   "origin": "manual"
+  },
+  {
+   "key": "horizontal",
+   "form": "vertical",
+   "lang": "en",
+   "color": "color",
+   "label": "영문 BI",
+   "order": 20,
+   "files": {
+    "svg": "variants/wordmark-en.svg",
+    "png": "variants/wordmark-en-800.png"
+   },
+   "provider": "official",
+   "origin": "manual",
+   "note": "자동 분류가 종횡비 2.80 을 '가로'로 판정한다. 키를 맞춰야 라벨이 덧씌워진다."
+  }
+ ]
+}

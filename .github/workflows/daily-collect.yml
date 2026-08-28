@@ -79,6 +79,26 @@ jobs:
           python3 scripts/discover-logos-apps.py
           python3 scripts/discover-thesvg.py
 
+      # ★ 실제 수집. 2026-08-26 에 이 다섯으로 748건을 넣었는데 전부 사람이
+      # 손으로 돌린 것이었고 크론엔 하나도 붙어 있지 않았다. 그래서 5시간짜리
+      # 크론이 하루 4번 돌면서 실제 반영이 0~1건이었다.
+      #
+      # 각 수집기는 '이미 채운 브랜드는 건너뛴다' 가 내장돼 있어 매번 돌려도
+      # 중복이 쌓이지 않는다. 상류(커먼즈·VLZ·gilbarbara)에 새 항목이 생기면
+      # 그때 자동으로 들어온다 — 지금은 대부분 소진 상태라 평소엔 0~수십 건이다.
+      #
+      # ⚠️ 실패해도 파이프라인을 세우지 않는다. 외부 소스가 하나 죽었다고
+      #    그날 수집 전체를 버리면 안 된다 — 어느 것이 죽었는지는 로그에 남는다.
+      - name: 워드마크·형태 보완 수집
+        continue-on-error: true
+        timeout-minutes: 90
+        run: |
+          for s in svgl vlz thesvg gilbarbara commons; do
+            echo "::group::collect-wordmarks-$s"
+            python3 "scripts/collect-wordmarks-$s.py" || echo "⚠️ $s 실패 (계속 진행)"
+            echo "::endgroup::"
+          done
+
       # SVG 만 받아온 브랜드는 logo.png 가 없어 PNG 다운로드가 404 난다.
       # build-variants 가 logo.png 를 이미 있다고 전제하기 때문이다.
       # 비트맵이 박힌 가짜 벡터도 여기서 PNG 로 내린다. (2026-08-16 사고)

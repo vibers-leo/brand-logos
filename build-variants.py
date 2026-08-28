@@ -336,8 +336,13 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
         out_path = brand_dir / filename
         if out_path.exists():
             results["skipped"].append(filename)
-            # 기존 logo-transparent.png로 채도 분석
-            if filename == "logo-transparent.png" and out_path.exists():
+            # 기존 logo-transparent.png로 채도 분석 — dark_variant 를 정하기 위해서다.
+            # ⚠️ 이미 dark_variant 가 있으면 열지 않는다. 예전엔 4종이 전부
+            #    있어서 건너뛰는 브랜드도 이 400px PNG 를 매번 열었고, 4만 개를
+            #    다 열다 보니 이 단계가 **54분(전체의 20%)** 이었다.
+            #    99%가 이미 값을 갖고 있어 대부분 열 필요가 없다.
+            if (filename == "logo-transparent.png"
+                    and not brand.get("dark_variant")):
                 try:
                     transparent_img = Image.open(out_path).convert("RGBA")
                 except Exception:

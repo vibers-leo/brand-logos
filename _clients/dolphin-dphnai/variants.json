@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dolphin-dphnai",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "09c871cc52ef4094"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.541,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

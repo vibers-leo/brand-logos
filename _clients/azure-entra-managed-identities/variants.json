@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "azure-entra-managed-identities",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "c794669d53be52e3"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.115,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

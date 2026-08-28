@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "azure-mobile-engagement",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "63a026edd8c7fc46"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.6,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gcp-cloud-media-edge",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "a5b4a3fbe487473b"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

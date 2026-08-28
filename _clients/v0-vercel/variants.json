@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "v0-vercel",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "9ba541e20927c4f2"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

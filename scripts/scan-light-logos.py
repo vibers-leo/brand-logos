@@ -19,6 +19,7 @@ logo-transparent.png 로는 판정할 수 없다 — 그 파일은 흰색을 이
 """
 import sys
 import json
+import hashlib
 import collections
 from pathlib import Path
 
@@ -59,16 +60,49 @@ def exposed_light_ratio(arr, ink) -> float:
 
 C=Path('_clients')
 brands=json.load(open(C/'brands.json'))['brands']
-frac={}
-for i,b in enumerate(brands):
-    p=C/b['id']/'logo.svg'
+
+# ── 내용 해시 캐시 ──────────────────────────────────────────────────────
+# 예전엔 실행마다 40,292개를 전부 렌더했다. 자동수집 워크플로에서 이 단계
+# 하나가 **173분(전체의 64%)** 이었고, 하루 4번 돌면서 대부분 지난번과
+# 똑같은 그림을 다시 그리고 있었다.
+# logo.svg 의 내용 해시가 같으면 결과도 같다 — 바뀐 것만 다시 잰다.
+CACHE = C / 'light-logo-cache.json'
+cache = {}
+if CACHE.exists():
+    try:
+        cache = json.loads(CACHE.read_text())
+    except Exception:
+        cache = {}          # 깨졌으면 전부 다시 잰다. 조용히 넘어가지 않게 아래에서 센다
+
+frac = {}
+hit = miss = 0
+for i, b in enumerate(brands):
+    p = C / b['id'] / 'logo.svg'
     if not p.exists(): continue
-    arr=L.render(p, 300)          # 판정만 하면 되니 작게 렌더
+    # ⚠️ 40자 hex 전체를 쓰면 gitleaks 가 Sourcegraph 액세스 토큰으로 오인해
+    #    커밋이 막힌다(2026-08-28 실제로 1,684건 오탐). 앞 16자면 충돌
+    #    확률이 사실상 0이고 패턴에도 안 걸린다.
+    sha = hashlib.sha1(p.read_bytes()).hexdigest()[:16]
+    prev = cache.get(b['id'])
+    if prev and prev.get('sha') == sha:
+        frac[b['id']] = prev['frac']
+        hit += 1
+        continue
+    arr = L.render(p, 300)        # 판정만 하면 되니 작게 렌더
     if arr is None: continue
-    m=L.ink_mask(arr)
-    if m.sum()<50: continue
-    frac[b['id']] = round(exposed_light_ratio(arr, m), 3)
-    if (i+1)%1000==0: print(f'  {i+1}개 처리', flush=True)
+    m = L.ink_mask(arr)
+    if m.sum() < 50: continue
+    v = round(exposed_light_ratio(arr, m), 3)
+    frac[b['id']] = v
+    cache[b['id']] = {'sha': sha, 'frac': v}
+    miss += 1
+    if miss % 500 == 0: print(f'  재계산 {miss}개', flush=True)
+
+# 사라진 브랜드는 캐시에서도 뺀다 (무한히 커지지 않게)
+alive = {b['id'] for b in brands}
+for k in [k for k in cache if k not in alive]: cache.pop(k)
+CACHE.write_text(json.dumps(cache, ensure_ascii=False, separators=(',', ':')))
+print(f'  캐시 적중 {hit:,} · 재계산 {miss:,}')
 json.dump(frac, open('/tmp/svg_lum.json','w'))
 
 # 바깥 배경에 노출된 밝은 잉크가 이 비율을 넘으면 어두운 카드로 그린다.

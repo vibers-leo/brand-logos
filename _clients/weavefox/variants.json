@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "weavefox",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "c6c3169c3342600d"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.396,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

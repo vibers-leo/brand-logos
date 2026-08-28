@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aizome",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "2685ce3a7481b395"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.947,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

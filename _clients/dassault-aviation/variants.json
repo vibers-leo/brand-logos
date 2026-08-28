@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dassault-aviation",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "c2831a0f8cb6d63f"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.619,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

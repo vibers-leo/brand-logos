@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "azure-education",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "47b94e1f4432dc71"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.291,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

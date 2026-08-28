@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gcp-network-security",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "1527cd16f66ff627"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.798,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

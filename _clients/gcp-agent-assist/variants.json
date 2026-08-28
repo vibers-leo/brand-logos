@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gcp-agent-assist",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "df32364b2042b0e4"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.759,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

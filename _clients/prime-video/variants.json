@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "prime-video",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "57121753033cdc4d"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.249,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

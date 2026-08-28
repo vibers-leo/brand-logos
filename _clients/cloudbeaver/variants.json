@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cloudbeaver",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "1b039ed6e2b0ba58"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.579,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

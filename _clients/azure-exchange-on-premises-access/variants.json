@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "azure-exchange-on-premises-access",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "772c3660107f2156"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.588,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

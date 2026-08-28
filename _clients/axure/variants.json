@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "axure",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "1a3ca644454dd472"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.186,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

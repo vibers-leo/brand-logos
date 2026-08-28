@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "beacon",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c4d3a86576d95500"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.629,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

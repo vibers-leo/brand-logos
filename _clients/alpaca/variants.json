@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "alpaca",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "cd77dee8377b404d"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.586,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

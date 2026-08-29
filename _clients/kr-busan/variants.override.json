@@ -1,0 +1,24 @@
+{
+ "schema": 1,
+ "origin": "manual",
+ "id": "kr-busan",
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "label": "심볼",
+   "files": {
+    "svg": "logo.svg"
+   }
+  },
+  {
+   "key": "wordmark",
+   "form": "horizontal",
+   "label": "심볼+워드마크",
+   "files": {
+    "svg": "variants/wordmark.svg",
+    "png": "variants/wordmark.png"
+   }
+  }
+ ]
+}

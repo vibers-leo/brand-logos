@@ -60,6 +60,17 @@ def ink_ratio(data, is_svg):
             prev = bool(v)
         if runs >= 3 and m.mean() < 0.15:
             return -2.0, im.size, bbox      # -2 = 문장 이미지
+
+        # ⚠️ 사진을 로고로 가져오는 사고. 2026-08-29 사용자 신고로 드러났다 —
+        #    바디텍메드(의료 사진)·대현(인물)·KR모터스(오토바이)·OCI홀딩스(건물).
+        #    사진은 색이 아주 많고 화면 대부분이 잉크다. 로고는 그렇지 않다.
+        rgb = np.array(Image.open(io.BytesIO(data)).convert("RGB").resize((48, 48))) \
+            if not is_svg else None
+        if rgb is not None:
+            colors = len({tuple(px) for px in rgb.reshape(-1, 3)[::3]})
+            if colors > 500 and m.mean() > 0.70:
+                return -3.0, im.size, bbox  # -3 = 사진
+
         return float(m.mean()), im.size, float(bbox)
     except Exception:
         return -1.0, (0, 0), -1.0

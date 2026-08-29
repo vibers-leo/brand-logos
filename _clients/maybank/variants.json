@@ -4,7 +4,8 @@
  "id": "maybank",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7434ff2a4a4c459a"
+  "logo.svg": "7434ff2a4a4c459a",
+  "sources/thesvg/wordmark.svg": "de64f35f046515e3"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 5.085,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

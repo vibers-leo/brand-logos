@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ltikorea",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "5832941f3eb45f86"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.03,
+   "provider": "kr-gov-pass2",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

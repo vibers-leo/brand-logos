@@ -4,7 +4,9 @@
  "id": "link",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d1842ba178004481"
+  "logo.svg": "d1842ba178004481",
+  "sources/svgl/wordmark.svg": "e65a246dceeae0f4",
+  "sources/thesvg/wordmark.svg": "6f3d61c598c0b697"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 3.249,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

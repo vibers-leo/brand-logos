@@ -4,9 +4,24 @@
  "id": "ubs-etracs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bbfe94c6b65ea06a"
+  "logo.svg": "bbfe94c6b65ea06a",
+  "sources/thesvg/wordmark.svg": "8d68aa0b62aa923f"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.761,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

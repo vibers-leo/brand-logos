@@ -4,7 +4,9 @@
  "id": "claude-ai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "85b09b4c7e71acd1"
+  "logo.svg": "85b09b4c7e71acd1",
+  "sources/svgl/wordmark.svg": "60c248ce5d52f454",
+  "sources/thesvg/wordmark.svg": "768e5a8a43657164"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 4.663,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

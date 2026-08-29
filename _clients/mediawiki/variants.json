@@ -4,9 +4,25 @@
  "id": "mediawiki",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "81ae9da6e48ec083"
+  "logo.svg": "81ae9da6e48ec083",
+  "sources/vlz/wide.svg": "0e9da6764b482bc9",
+  "sources/thesvg/wordmark.svg": "2bae288d31fdf6e7"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.798,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -20,7 +36,13 @@
    "aspect": 1.001,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "upleveled",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ff14fd59c09be08f"
+  "logo.svg": "ff14fd59c09be08f",
+  "sources/svgl/wordmark.svg": "f6ff8e0217ec39c1",
+  "sources/thesvg/wordmark.svg": "f6ff8e0217ec39c1"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 3.068,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

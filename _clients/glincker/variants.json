@@ -4,7 +4,8 @@
  "id": "glincker",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "52885b6bc40610e9"
+  "logo.svg": "52885b6bc40610e9",
+  "sources/thesvg/wordmark.svg": "68eca9725316c3f6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.86,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

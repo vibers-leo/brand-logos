@@ -4,9 +4,24 @@
  "id": "masan-group",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "dd301f4e9e1d656a"
+  "logo.svg": "dd301f4e9e1d656a",
+  "sources/thesvg/wordmark.svg": "b5ae3d5780d6cb30"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 2.99,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

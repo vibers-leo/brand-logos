@@ -4,7 +4,9 @@
  "id": "ahooks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2c379d0ce738fc1d"
+  "logo.svg": "2c379d0ce738fc1d",
+  "sources/svgl/wordmark.svg": "619ebc17983a767f",
+  "sources/thesvg/wordmark.svg": "f483723d2ab16a87"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 3.147,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

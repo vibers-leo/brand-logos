@@ -4,9 +4,31 @@
  "id": "abacatepay",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7fddbc386920e141"
+  "logo.svg": "7fddbc386920e141",
+  "sources/svgl/wordmark.svg": "08db661b5dc62f0e",
+  "sources/thesvg/wordmark.svg": "08db661b5dc62f0e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 2.675,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
+  },
   {
    "key": "symbol",
    "form": "symbol",

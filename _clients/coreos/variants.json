@@ -4,7 +4,8 @@
  "id": "coreos",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c5265bbe05fe786f"
+  "logo.svg": "c5265bbe05fe786f",
+  "sources/vlz/wide.svg": "084d0bdeaff1563f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.248,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

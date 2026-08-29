@@ -4,7 +4,9 @@
  "id": "perspective",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eb458cfafd001197"
+  "logo.svg": "eb458cfafd001197",
+  "sources/svgl/wordmark.svg": "177540978d55914b",
+  "sources/thesvg/wordmark.svg": "075576eda4bf863f"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 5.162,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

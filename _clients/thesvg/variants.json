@@ -4,7 +4,8 @@
  "id": "thesvg",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "674b35116b6daf1a"
+  "logo.svg": "674b35116b6daf1a",
+  "sources/thesvg/wordmark.svg": "5a6e9157e0b96f5a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 4.551,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

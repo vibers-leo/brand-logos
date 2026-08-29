@@ -4,7 +4,9 @@
  "id": "ahrefs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5545ec04da6cfe50"
+  "logo.svg": "5545ec04da6cfe50",
+  "sources/svgl/wordmark.svg": "f56e2abd2b928204",
+  "sources/thesvg/wordmark.svg": "29a87556f7c973fb"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 3.913,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

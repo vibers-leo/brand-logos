@@ -4,7 +4,8 @@
  "id": "rapid-api",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "05efb78812e10f60"
+  "logo.svg": "05efb78812e10f60",
+  "sources/vlz/wide.svg": "81b5f9f7574e1246"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.142,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

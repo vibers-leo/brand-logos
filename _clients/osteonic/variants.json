@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "osteonic",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "9899763a4fa84c7d"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.998,
+   "provider": "kr-krx-pass2",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

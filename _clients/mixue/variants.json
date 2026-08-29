@@ -4,7 +4,8 @@
  "id": "mixue",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "678698a33471de0d"
+  "logo.svg": "678698a33471de0d",
+  "sources/thesvg/wordmark.svg": "f9bf8c7b3a0fc6a2"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg"
+   },
+   "aspect": 3.169,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

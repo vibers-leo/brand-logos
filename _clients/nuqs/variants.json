@@ -4,7 +4,9 @@
  "id": "nuqs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2afa126441da42e1"
+  "logo.svg": "2afa126441da42e1",
+  "sources/svgl/wordmark.svg": "4737c728a6045949",
+  "sources/thesvg/wordmark.svg": "bba9d3011a7e5d80"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 5.455,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

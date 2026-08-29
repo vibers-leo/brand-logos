@@ -2,25 +2,25 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cosmax",
- "primary": "wordmark",
+ "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4ce883fed25722cc"
+  "logo.svg": "6416eba48bae7b39"
  },
  "variants": [
   {
-   "key": "wordmark",
-   "form": "wordmark",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
    },
-   "aspect": 5.756,
-   "provider": "kr-krx-pass2",
+   "aspect": 1.0,
+   "provider": "krx-site",
    "origin": "collected",
-   "order": 40
+   "order": 30
   }
  ]
 }

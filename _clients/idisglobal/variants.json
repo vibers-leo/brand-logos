@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "idisglobal",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c4b2a23588f2b94f"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.96,
+   "provider": "kr-krx-pass2",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-29T09:48:46.833538+00:00",
+ "generated_at": "2026-08-29T15:48:15.059109+00:00",
  "source": {
   "name": "theSVG",
   "url": "https://github.com/glincker/thesvg",
   "registry": "https://thesvg.org/api/registry.json"
  },
  "policy": "발굴 전용. 저장소 코드의 MIT와 별개로 개별 브랜드 로고는 상표일 수 있다. 각 항목의 license·공식 사용 가이드·브랜드 매핑을 검토하기 전에는 다운로드·서비스 반영 금지.",
- "known_brand_count": 43325,
+ "known_brand_count": 43344,
  "source_brand_count": 6516,
- "new_brand_candidate_count": 1177,
- "form_gap_candidate_count": 1799,
+ "new_brand_candidate_count": 1175,
+ "form_gap_candidate_count": 1787,
  "new_brands": [
   {
    "source_id": "a-frame",
@@ -139,18 +139,6 @@
    ],
    "license": "MIT",
    "url": "https://www.adobe.com/products/aftereffects"
-  },
-  {
-   "source_id": "air-algerie",
-   "title": "Air Algérie",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Unknown",
-   "url": "https://airalgerie.dz/"
   },
   {
    "source_id": "akuity",
@@ -14957,18 +14945,6 @@
    "url": "https://typora.io"
   },
   {
-   "source_id": "uchicago",
-   "title": "University of Chicago",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.uchicago.edu"
-  },
-  {
    "source_id": "unikoo",
    "title": "Unikoo",
    "variants": [
@@ -15573,28 +15549,6 @@
    ]
   },
   {
-   "source_id": "5dive",
-   "title": "5dive",
-   "variants": [
-    "default",
-    "mono",
-    "wordmark"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://5dive.ai",
-   "id": "5dive",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "7zip",
    "title": "7Zip",
    "variants": [
@@ -15649,6 +15603,7 @@
    "url": "https://abacatepay.com",
    "id": "abacatepay",
    "current_forms": [
+    "horizontal",
     "symbol"
    ],
    "missing_forms": [
@@ -16236,52 +16191,6 @@
    ]
   },
   {
-   "source_id": "ahooks",
-   "title": "ahooks",
-   "variants": [
-    "default",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://ahooks.js.org/",
-   "id": "ahooks",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
-   "source_id": "ahrefs",
-   "title": "Ahrefs",
-   "variants": [
-    "default",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://ahrefs.com/",
-   "id": "ahrefs",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "ai21labs-jamba",
    "title": "Ai21Labs (Jamba)",
    "variants": [
@@ -16358,6 +16267,25 @@
    "id": "aionlabs",
    "current_forms": [
     "vertical"
+   ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "air-algerie",
+   "title": "Air Algérie",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Unknown",
+   "url": "https://airalgerie.dz/",
+   "id": "air-alge-rie",
+   "current_forms": [
+    "wordmark"
    ],
    "missing_forms": [
     "symbol"
@@ -22447,29 +22375,6 @@
    ]
   },
   {
-   "source_id": "claude-ai",
-   "title": "Claude AI",
-   "variants": [
-    "default",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://claude.ai/",
-   "id": "claude-ai",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "claude-code",
    "title": "Claude Code",
    "variants": [
@@ -27475,31 +27380,6 @@
    ]
   },
   {
-   "source_id": "formance",
-   "title": "Formance",
-   "variants": [
-    "dark",
-    "default",
-    "light",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://www.formance.com/",
-   "id": "formance",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "formbricks",
    "title": "Formbricks",
    "variants": [
@@ -29196,32 +29076,6 @@
    ],
    "missing_forms": [
     "symbol"
-   ]
-  },
-  {
-   "source_id": "glincker",
-   "title": "GLINCKER",
-   "variants": [
-    "dark",
-    "default",
-    "light",
-    "mono",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://glincker.com/",
-   "id": "glincker",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
    ]
   },
   {
@@ -35169,6 +35023,7 @@
    "url": "https://www.masangroup.com/",
    "id": "masan-group",
    "current_forms": [
+    "horizontal",
     "symbol"
    ],
    "missing_forms": [
@@ -35256,27 +35111,6 @@
    ]
   },
   {
-   "source_id": "maxis-berhad",
-   "title": "Maxis Berhad",
-   "variants": [
-    "default",
-    "wordmark"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://www.maxis.com.my/en/home/",
-   "id": "maxis-berhad",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "maya",
    "title": "Maya",
    "variants": [
@@ -35291,28 +35125,6 @@
    "license": "MIT",
    "url": null,
    "id": "maya",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
-   "source_id": "maybank",
-   "title": "Maybank",
-   "variants": [
-    "default",
-    "mono",
-    "wordmark"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.maybank2u.com.my/home/m2u/common/login.do",
-   "id": "maybank",
    "current_forms": [
     "symbol"
    ],
@@ -35457,6 +35269,7 @@
    "url": "https://www.mediawiki.org/",
    "id": "mediawiki",
    "current_forms": [
+    "horizontal",
     "symbol"
    ],
    "missing_forms": [
@@ -36135,27 +35948,6 @@
    ],
    "missing_forms": [
     "symbol"
-   ]
-  },
-  {
-   "source_id": "mixue",
-   "title": "Mixue",
-   "variants": [
-    "default",
-    "wordmark"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.mxbc.com",
-   "id": "mixue",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
    ]
   },
   {
@@ -38142,31 +37934,6 @@
    ]
   },
   {
-   "source_id": "nuqs",
-   "title": "nuqs",
-   "variants": [
-    "dark",
-    "default",
-    "light",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://nuqs.47ng.com/",
-   "id": "nuqs",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "nushell",
    "title": "Nushell",
    "variants": [
@@ -39613,29 +39380,6 @@
    ]
   },
   {
-   "source_id": "paper",
-   "title": "Paper",
-   "variants": [
-    "default",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://paper.design/",
-   "id": "paper",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "paramount-pictures",
    "title": "Paramount Pictures",
    "variants": [
@@ -39950,31 +39694,6 @@
    ],
    "missing_forms": [
     "symbol"
-   ]
-  },
-  {
-   "source_id": "perspective",
-   "title": "Perspective",
-   "variants": [
-    "dark",
-    "default",
-    "light",
-    "wordmark",
-    "wordmarkDark",
-    "wordmarkLight"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://perspective.co/",
-   "id": "perspective",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
    ]
   },
   {
@@ -47143,31 +46862,6 @@
    ]
   },
   {
-   "source_id": "thesvg",
-   "title": "theSVG",
-   "variants": [
-    "dark",
-    "default",
-    "light",
-    "mono",
-    "wordmark",
-    "wordmarkDark"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://thesvg.org",
-   "id": "thesvg",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
-   ]
-  },
-  {
    "source_id": "thinkpad",
    "title": "ThinkPad",
    "variants": [
@@ -48275,6 +47969,7 @@
    "url": "https://etracs.ubs.com/",
    "id": "ubs-etracs",
    "current_forms": [
+    "horizontal",
     "symbol"
    ],
    "missing_forms": [
@@ -48400,6 +48095,25 @@
    ]
   },
   {
+   "source_id": "uchicago",
+   "title": "University of Chicago",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://www.uchicago.edu",
+   "id": "university-of-chicago",
+   "current_forms": [
+    "wordmark"
+   ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "unjs",
    "title": "UnJS",
    "variants": [
@@ -48514,27 +48228,6 @@
    ],
    "missing_forms": [
     "symbol"
-   ]
-  },
-  {
-   "source_id": "upleveled",
-   "title": "UpLeveled",
-   "variants": [
-    "default",
-    "wordmark"
-   ],
-   "forms": [
-    "symbol",
-    "wordmark"
-   ],
-   "license": "MIT",
-   "url": "https://upleveled.io/",
-   "id": "upleveled",
-   "current_forms": [
-    "symbol"
-   ],
-   "missing_forms": [
-    "wordmark"
    ]
   },
   {

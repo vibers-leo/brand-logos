@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
  "generated_at": "2026-08-29",
- "count": 390,
+ "count": 414,
  "candidates": [
   {
    "id": "mnet",
@@ -3719,6 +3719,218 @@
    "ko": "애저 리눅스",
    "qid": "Q105721245",
    "our_domain": "microsoft.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "nice",
+   "name_en": "NICE",
+   "ko": "니스",
+   "qid": "Q33959",
+   "our_domain": "nice.co.kr",
+   "wikidata_sites": [
+    "nice.fr"
+   ]
+  },
+  {
+   "id": "bancor",
+   "name_en": "Bancor",
+   "ko": "방코르",
+   "qid": "Q806211",
+   "our_domain": "bancor.network",
+   "wikidata_sites": []
+  },
+  {
+   "id": "beacon",
+   "name_en": "Beacon",
+   "ko": "항로표지",
+   "qid": "Q7321258",
+   "our_domain": "beacon.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "bet365",
+   "name_en": "Bet365",
+   "ko": "브리타니아 스타디움",
+   "qid": "Q500922",
+   "our_domain": "bet365.com",
+   "wikidata_sites": [
+    "stokecityfc.com"
+   ]
+  },
+  {
+   "id": "bnb",
+   "name_en": "BNB",
+   "ko": "브라질 국립도서관",
+   "qid": "Q948882",
+   "our_domain": "bnbchain.org",
+   "wikidata_sites": [
+    "gov.br"
+   ]
+  },
+  {
+   "id": "brevitas",
+   "name_en": "Brevitas",
+   "ko": "간결성과 용이성",
+   "qid": "Q44958553",
+   "our_domain": "brevitassystems.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "builder",
+   "name_en": "Builder",
+   "ko": "제작자",
+   "qid": "Q13235160",
+   "our_domain": "builder.io",
+   "wikidata_sites": []
+  },
+  {
+   "id": "cody",
+   "name_en": "Cody",
+   "ko": "코디",
+   "qid": "Q916603",
+   "our_domain": "sourcegraph.com",
+   "wikidata_sites": [
+    "cityofcody-wy.gov",
+    "codywy.gov"
+   ]
+  },
+  {
+   "id": "conductor",
+   "name_en": "Conductor",
+   "ko": "지휘자",
+   "qid": "Q158852",
+   "our_domain": "netflix.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "continue",
+   "name_en": "Continue",
+   "ko": "컨티뉴",
+   "qid": "Q1128893",
+   "our_domain": "continue.dev",
+   "wikidata_sites": []
+  },
+  {
+   "id": "contra",
+   "name_en": "Contra",
+   "ko": "내털리 윈",
+   "qid": "Q42429948",
+   "our_domain": "contra.com",
+   "wikidata_sites": [
+    "contrapoints.com"
+   ]
+  },
+  {
+   "id": "coqui",
+   "name_en": "Coqui",
+   "ko": "코킴보",
+   "qid": "Q3871",
+   "our_domain": "github.com",
+   "wikidata_sites": [
+    "municoquimbo.cl"
+   ]
+  },
+  {
+   "id": "coreos",
+   "name_en": "CoreOS",
+   "ko": "컨테이너 리눅스",
+   "qid": "Q15984850",
+   "our_domain": "getfedora.org",
+   "wikidata_sites": [
+    "fedoraproject.org"
+   ]
+  },
+  {
+   "id": "dragonfly",
+   "name_en": "Dragonfly",
+   "ko": "잠자리하목",
+   "qid": "Q80066",
+   "our_domain": "dragonflydb.io",
+   "wikidata_sites": []
+  },
+  {
+   "id": "etisalat",
+   "name_en": "Etisalat",
+   "ko": "에티살랏",
+   "qid": "Q543449",
+   "our_domain": "etisalat.ae",
+   "wikidata_sites": [
+    "eand.com"
+   ]
+  },
+  {
+   "id": "exa",
+   "name_en": "Exa",
+   "ko": "엑사",
+   "qid": "Q152411",
+   "our_domain": "exa.ai",
+   "wikidata_sites": []
+  },
+  {
+   "id": "exome",
+   "name_en": "Exome",
+   "ko": "진유전체",
+   "qid": "Q417664",
+   "our_domain": "exome.dev",
+   "wikidata_sites": []
+  },
+  {
+   "id": "fal",
+   "name_en": "Fal",
+   "ko": "팔셰핑시",
+   "qid": "Q503214",
+   "our_domain": "fal.ai",
+   "wikidata_sites": [
+    "falkoping.se",
+    "falkoping.se"
+   ]
+  },
+  {
+   "id": "feast",
+   "name_en": "Feast",
+   "ko": "축제",
+   "qid": "Q132241",
+   "our_domain": "feast.dev",
+   "wikidata_sites": []
+  },
+  {
+   "id": "fediverse",
+   "name_en": "Fediverse",
+   "ko": "연합우주",
+   "qid": "Q30325419",
+   "our_domain": "fediverse.info",
+   "wikidata_sites": []
+  },
+  {
+   "id": "fireworks",
+   "name_en": "Fireworks",
+   "ko": "불꽃놀이",
+   "qid": "Q127933",
+   "our_domain": "fireworks.ai",
+   "wikidata_sites": []
+  },
+  {
+   "id": "flora",
+   "name_en": "Flora",
+   "ko": "플로라",
+   "qid": "Q209644",
+   "our_domain": "florafauna.ai",
+   "wikidata_sites": []
+  },
+  {
+   "id": "fluvio",
+   "name_en": "Fluvio",
+   "ko": "강",
+   "qid": "Q4022",
+   "our_domain": "fluvio.io",
+   "wikidata_sites": []
+  },
+  {
+   "id": "friendli",
+   "name_en": "Friendli",
+   "ko": "친선 경기",
+   "qid": "Q493386",
+   "our_domain": "friendli.ai",
    "wikidata_sites": []
   }
  ]

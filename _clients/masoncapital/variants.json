@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "masoncapital",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d499c0afc9d2b157"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.068,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

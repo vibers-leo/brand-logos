@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "etkc",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "b74a76c71e97a6d5"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.073,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

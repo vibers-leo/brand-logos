@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hyo",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "e4165c7c6f13a11d"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.986,
+   "provider": "kr-univ-site",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

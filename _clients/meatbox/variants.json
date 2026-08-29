@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "meatbox",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "6189b22b2ab8aebe"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.335,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hanwhaengine",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "1cee39fb1611d122"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.317,
+   "provider": "kr-krx-pass2",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

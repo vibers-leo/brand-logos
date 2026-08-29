@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hdmarineengine",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "77aa294dfb02edb2"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.716,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

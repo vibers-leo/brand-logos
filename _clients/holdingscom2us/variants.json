@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "holdingscom2us",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "543682e95623623e"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 10.345,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sidiz",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "bb6a13497e76dd60"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.7,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

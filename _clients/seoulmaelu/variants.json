@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "seoulmaelu",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "044269aae7d7beb9"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.818,
+   "provider": "kr-gov-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

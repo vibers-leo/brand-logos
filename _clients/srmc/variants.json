@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "srmc",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "93af5d8b4702ac3b"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.982,
+   "provider": "kr-gov-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

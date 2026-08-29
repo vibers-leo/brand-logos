@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ontide",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "de5310f43098df91"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.967,
+   "provider": "kr-krx-pass2",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

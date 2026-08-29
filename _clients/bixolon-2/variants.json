@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bixolon-2",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "ef46b3eb12f42be8"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.846,
+   "provider": "kr-krx-pass2",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

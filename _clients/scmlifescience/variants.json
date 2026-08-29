@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "scmlifescience",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "2fb2393aa41d9b3f"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.333,
+   "provider": "kr-krx-pass2",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

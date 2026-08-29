@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "energy-2",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "5012f3474174fc2f"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.39,
+   "provider": "kr-gov-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

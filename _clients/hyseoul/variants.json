@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hyseoul",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "a52c94ef79de8f51"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.206,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

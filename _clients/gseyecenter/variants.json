@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gseyecenter",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "db83a0cdc707e35a"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.629,
+   "provider": "kr-hosp-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "knskr",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "9066a9a9fd269345"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.146,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

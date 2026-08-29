@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kicox",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "1c6735c1cef5e583"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.0,
+   "provider": "kr-gov-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

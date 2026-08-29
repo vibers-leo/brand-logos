@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ktc",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "cc35914bec02604c"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.918,
+   "provider": "kr-univ-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

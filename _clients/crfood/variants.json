@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "crfood",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "56dd3b8baf314655"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.43,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

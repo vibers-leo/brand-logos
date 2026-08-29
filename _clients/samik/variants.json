@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "samik",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "396ccf2d933d2dac"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.314,
+   "provider": "krx-site",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

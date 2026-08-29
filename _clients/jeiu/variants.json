@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jeiu",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d9c0a20254efe079"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.202,
+   "provider": "kr-univ-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

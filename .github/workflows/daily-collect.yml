@@ -99,6 +99,35 @@ jobs:
             echo "::endgroup::"
           done
 
+      # ★ 국내 수집. 2026-08-29 에 1,700건을 넣었고 그 방식을 그대로 돌린다.
+      #
+      # ⚠️ 기대치를 정확히 잡을 것 — 이건 '매일 수십 건'이 나오는 단계가 아니다.
+      #    명단이 고정된 일회성 전수조사라 이미 다 훑었다. 실측 신규 유입은
+      #    상장 연평균 106건 = **하루 0.29건**이고 지자체·대학은 더 느리다.
+      #    이 단계의 값어치는 수확량이 아니라 누락 방지에 있다:
+      #      · 접속 실패했던 곳 재시도 (일시적 장애가 많다 — 실측 529건)
+      #      · 새로 상장·개원·개교한 곳을 놓치지 않음
+      #      · 기관이 CI 를 바꿨는지 90일마다 확인 (로고 교체는 상장보다 잦다)
+      #
+      # 큐가 상태를 들고 있어 매번 3,500곳을 다시 훑지 않는다.
+      - name: 국내 브랜드 수집 (상장사·기관·지자체)
+        continue-on-error: true
+        timeout-minutes: 60
+        run: |
+          python3 scripts/kr-collect-queue.py --build || true
+          python3 scripts/kr-collect-queue.py --stats || true
+          echo "::group::상장사"
+          python3 scripts/collect-krx.py --workers 8 || echo "⚠️ 상장사 실패 (계속)"
+          echo "::endgroup::"
+          echo "::group::공공기관·대학·병원·언론사·구단·지자체"
+          python3 scripts/collect-kr-institutions.py --kind all --workers 8 \
+            || echo "⚠️ 기관 실패 (계속)"
+          echo "::endgroup::"
+          echo "::group::2차 (인라인 SVG·CSS배경·apple-touch-icon)"
+          python3 scripts/collect-kr-pass2.py --workers 8 || echo "⚠️ 2차 수집 실패 (계속)"
+          python3 scripts/collect-kr-pass2.py --merge || echo "⚠️ 2차 합치기 실패 (계속)"
+          echo "::endgroup::"
+
       # SVG 만 받아온 브랜드는 logo.png 가 없어 PNG 다운로드가 404 난다.
       # build-variants 가 logo.png 를 이미 있다고 전제하기 때문이다.
       # 비트맵이 박힌 가짜 벡터도 여기서 PNG 로 내린다. (2026-08-16 사고)

@@ -40,13 +40,28 @@ C = ROOT / "_clients"
 SPARQL = "https://query.wikidata.org/sparql"
 
 KINDS = {
-    "gov":  ("Q327333", "공공·기관",   "공공기관"),
-    "univ": ("Q3918",   "교육",        "대학"),
-    "hosp": ("Q16917",  "의료·바이오",  "병원"),
+    "gov":  ("Q327333",  "공공·기관",   "공공기관"),
+    "univ": ("Q3918",    "교육",        "대학"),
+    "hosp": ("Q16917",   "의료·바이오",  "병원"),
+    # 2026-08-29 추가. 보유율이 각각 6%·4% 였다
+    "media": ("Q1002697", "미디어·엔터", "언론사"),
+    "club":  ("Q4438121", "스포츠",      "스포츠구단"),
+}
+
+# 위키데이터로 못 뽑는 명단은 파일에서 읽는다.
+# 지자체는 위키데이터 P31 분류가 제각각이라(시·군·구가 서로 다른 타입) 쿼리로
+# 한 번에 못 모은다. 위키백과 '대한민국의 행정 구역' 링크에서 263개를 뽑고
+# 홈페이지만 위키데이터 P856 으로 채웠다.
+FILE_KINDS = {
+    "muni": ("_targets/sgg-targets.json", "공공·기관", "지자체"),
 }
 
 
 def fetch_list(kind):
+    if kind in FILE_KINDS:
+        path, _, _ = FILE_KINDS[kind]
+        rows = json.loads((ROOT / path).read_text())
+        return [{"name": r["name"], "site": r.get("site", "")} for r in rows]
     qid, _, _ = KINDS[kind]
     q = (f'SELECT ?item ?itemLabel ?site WHERE {{ '
          f'?item wdt:P31/wdt:P279* wd:{qid} ; wdt:P17 wd:Q884 . '
@@ -77,6 +92,11 @@ def work(inst):
     except Exception as e:
         return (f"site_fail:{type(e).__name__}", inst, None, None)
 
+    # 지자체는 **심볼 CI 와 브랜드 슬로건을 따로** 운영하는 곳이 많다.
+    # (예: 광진구의 심볼 마크와 'A+ 광진' 슬로건). 둘은 같은 브랜드의 다른
+    # 형태이므로 항목을 쪼개지 않고 한 브랜드의 변형 2종으로 담는다.
+    # 그래서 첫 통과분에서 멈추지 않고 최대 2개까지 모은다.
+    found = []
     for cand in pick_logo(h, u):
         try:
             data, _ = get(cand, timeout=15, limit=3_000_000)
@@ -91,16 +111,24 @@ def work(inst):
         if not is_svg and len(data) < 900:
             continue
         r, size, bbox = ink_ratio(data, is_svg)
-        if 0 <= r < 0.002 or r > 0.80:
+        if r < 0 or r < 0.002 or r > 0.80:   # r<0 은 렌더 실패·문장 이미지
             continue
-        if 0 <= bbox < 0.05:
+        if bbox < 0.05:
             continue
         if not is_svg and min(size) < 40:
             continue
         if size[1] and size[0] / size[1] > 9 and r > 0.5:
             continue
-        return ("ok", inst, data,
-                "svg" if is_svg else (cand.lower().split("?")[0].rsplit(".", 1)[-1][:4] or "png"))
+        ext = "svg" if is_svg else (cand.lower().split("?")[0].rsplit(".", 1)[-1][:4] or "png")
+        # 같은 그림을 두 번 담지 않는다 — 종횡비가 비슷하면 같은 것으로 본다
+        ar = size[0] / max(1, size[1])
+        if any(abs(ar - a) < 0.35 for _, _, a in found):
+            continue
+        found.append((data, ext, ar))
+        if len(found) >= 2:
+            break
+    if found:
+        return ("ok", inst, found, None)
     return ("no_logo", inst, None, None)
 
 
@@ -122,7 +150,7 @@ def main():
     kind = sys.argv[sys.argv.index("--kind") + 1] if "--kind" in sys.argv else "all"
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
     workers = int(sys.argv[sys.argv.index("--workers") + 1]) if "--workers" in sys.argv else 10
-    kinds = list(KINDS) if kind == "all" else [kind]
+    kinds = list(KINDS) + list(FILE_KINDS) if kind == "all" else [kind]
 
     data = json.loads((C / "brands.json").read_text())
     bl = data["brands"] if isinstance(data, dict) else data
@@ -140,7 +168,8 @@ def main():
 
     grand = 0
     for kd in kinds:
-        _, cat, label = KINDS[kd]
+        _, cat, label = (FILE_KINDS[kd] if kd in FILE_KINDS else KINDS[kd])[-3:] \
+            if kd in FILE_KINDS else KINDS[kd]
         lst = fetch_list(kd)
         todo = []
         for c in lst:
@@ -158,10 +187,12 @@ def main():
 
         ok, stats, added = 0, {}, []
         with cf.ThreadPoolExecutor(max_workers=workers) as ex:
-            for n, (st, inst, blob, ext) in enumerate(ex.map(work, todo), 1):
+            for n, (st, inst, payload, _unused) in enumerate(ex.map(work, todo), 1):
                 stats[st.split(":")[0]] = stats.get(st.split(":")[0], 0) + 1
                 if st != "ok":
                     continue
+                # payload 는 [(데이터, 확장자, 종횡비), ...] — 최대 2종
+                blob, ext, _ = payload[0]
                 bid = make_id(inst, ids, kd)
                 ids.add(bid)
                 d = C / bid
@@ -178,6 +209,33 @@ def main():
                         stats["png_fail"] = stats.get("png_fail", 0) + 1
                         shutil.rmtree(d, ignore_errors=True)
                         continue
+                # 두 번째 형태(대개 브랜드 슬로건)는 variants/ 에 둔다.
+                # build-logo-variants.py 가 variants.override.json 을 존중하므로
+                # 여기서 만든 것이 나중 실행에 덮이지 않는다.
+                if len(payload) > 1:
+                    b2, e2, _ = payload[1]
+                    vd = d / "variants"
+                    vd.mkdir(exist_ok=True)
+                    name = "slogan.svg" if e2 == "svg" else "slogan.png"
+                    (vd / name).write_bytes(b2)
+                    if e2 == "svg":
+                        try:
+                            import cairosvg
+                            cairosvg.svg2png(bytestring=b2,
+                                             write_to=str(vd / "slogan.png"), output_width=800)
+                        except Exception:
+                            pass
+                    (d / "variants.override.json").write_text(json.dumps({
+                        "schema": 1, "origin": "manual", "id": bid,
+                        "variants": [
+                            {"key": "primary", "form": "unknown", "label": "심볼·기본형",
+                             "files": {("svg" if is_svg else "png"):
+                                       ("logo.svg" if is_svg else "logo.png")}},
+                            {"key": "slogan", "form": "wordmark", "label": "브랜드 슬로건",
+                             "files": {("svg" if e2 == "svg" else "png"): f"variants/{name}"}},
+                        ],
+                    }, ensure_ascii=False, indent=1))
+                    stats["slogan"] = stats.get("slogan", 0) + 1
                 added.append({
                     "id": bid, "name_ko": inst["name"], "name_en": inst["name"],
                     "category": cat, "folder": f"_clients/{bid}",

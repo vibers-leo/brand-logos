@@ -148,11 +148,30 @@ def work(t):
     return ("no_logo", t, None, None)
 
 
+
+def wikidata(qid, timeout=150):
+    """한국 소재 {qid} 하위 항목의 한국어 라벨과 공식 홈페이지."""
+    q = (f'SELECT ?itemLabel ?site WHERE {{ ?item wdt:P31/wdt:P279* wd:{qid} ; '
+         f'wdt:P17 wd:Q884 . OPTIONAL{{?item wdt:P856 ?site}} '
+         f'SERVICE wikibase:label{{bd:serviceParam wikibase:language "ko,en".}} }} LIMIT 1500')
+    url = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q})
+    r = urllib.request.urlopen(urllib.request.Request(
+        url, headers={"User-Agent": "VibersLogoCollector/1.0 (https://semologo.com)",
+                      "Accept": "application/sparql-results+json"}), timeout=timeout)
+    out = {}
+    for x in json.loads(r.read())["results"]["bindings"]:
+        nm = x["itemLabel"]["value"]
+        if re.fullmatch(r"Q\d+", nm):
+            continue
+        out.setdefault(nm, x.get("site", {}).get("value", ""))
+    return out
+
+
 def load_targets(known, dom):
     """1차에서 못 채운 곳 = 명단에는 있는데 카탈로그에 없는 곳."""
     norm = lambda s: re.sub(r"[^가-힣a-z0-9]", "", str(s or "").lower())
     out = []
-    krx = Path("/tmp/krx.json")
+    krx = ROOT / "_targets" / "krx.json"
     if krx.exists():
         for c in json.loads(krx.read_text()):
             d = re.sub(r"^https?://(www\.)?|/.*$", "", c["site"] or "").lower()
@@ -160,15 +179,38 @@ def load_targets(known, dom):
                 continue
             out.append({"name": c["name"], "site": c["site"], "cat": None,
                         "sector": c.get("sector", ""), "kind": "krx"})
-    tg = Path("/tmp/kr-targets.json")
-    if tg.exists():
-        cat = {"gov": "공공·기관", "univ": "교육", "hosp": "의료·바이오"}
-        for k, rows in json.loads(tg.read_text()).items():
-            for nm, site in rows:
-                d = re.sub(r"^https?://(www\.)?|/.*$", "", site or "").lower()
-                if norm(nm) in known or (d and d in dom):
-                    continue
-                out.append({"name": nm, "site": site, "cat": cat[k], "kind": k})
+    # 공공기관·대학·병원·언론사·구단은 위키데이터에서 직접 받는다.
+    # ⚠️ 예전엔 /tmp 의 중간 파일을 읽었다. CI 는 매번 빈 러너라 그 파일이
+    #    없고, 조건이 조용히 거짓이 돼 **대상 0건으로 정상 종료**했다.
+    #    에러가 안 나서 아무도 모른다.
+    for kd, qid, cat in (("gov", "Q327333", "공공·기관"),
+                         ("univ", "Q3918", "교육"),
+                         ("hosp", "Q16917", "의료·바이오"),
+                         ("media", "Q1002697", "미디어·엔터"),
+                         ("club", "Q4438121", "스포츠")):
+        try:
+            rows = wikidata(qid)
+        except Exception as e:
+            print(f"  ⚠️ {kd} 명단 조회 실패 {type(e).__name__} — 이 분류는 건너뛴다")
+            continue
+        for nm, site in rows.items():
+            d = re.sub(r"^https?://(www\.)?|/.*$", "", site or "").lower()
+            if norm(nm) in known or (d and d in dom):
+                continue
+            out.append({"name": nm, "site": site, "cat": cat, "kind": kd})
+
+    # 지자체 — 이름은 이미 동명 시도 병기까지 끝난 목록을 그대로 쓴다.
+    # 여기서 다시 만들면 1차와 이름이 갈라져 같은 구가 두 항목이 된다.
+    sg = ROOT / "_targets" / "sgg-targets.json"
+    if sg.exists():
+        for r in json.loads(sg.read_text()):
+            site = r.get("site") or ""
+            d = re.sub(r"^https?://(www\.)?|/.*$", "", site).lower()
+            if norm(r["name"]) in known or (d and d in dom):
+                continue
+            out.append({"name": r["name"], "site": site,
+                        "cat": "공공·기관", "kind": "muni"})
+
     return out
 
 

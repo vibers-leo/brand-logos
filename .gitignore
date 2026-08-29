@@ -20,3 +20,5 @@ tistory-bot/session.json
 # 로컬 파일은 지우지 않는다 — build-variants 가 재생성 여부를 판단하는 근거다.
 _clients/**/*.png
 .wrangler/
+_kr-queue.json
+_staging-pass2.json

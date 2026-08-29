@@ -47,6 +47,19 @@ def ink_ratio(data, is_svg):
             return 0.0, im.size, 0.0
         ys, xs = np.where(m)
         bbox = ((xs.max() - xs.min() + 1) * (ys.max() - ys.min() + 1)) / (im.width * im.height)
+        # ⚠️ 문장 이미지 걸러내기.
+        #    관악구에서 '홈페이지의 안전한 사용을 위해 자동 로그아웃 됩니다'
+        #    안내 팝업 이미지를 로고로 가져왔다. 파일명에 logo 가 들어 있었다.
+        #    글줄이 3덩이 이상으로 끊기면서 잉크가 옅으면 문장이다.
+        #    로고도 2줄인 경우가 있어(강릉시) 줄 수만으로는 못 가른다.
+        rows_with_ink = m.sum(axis=1) > 0
+        runs, prev = 0, False
+        for v in rows_with_ink:
+            if v and not prev:
+                runs += 1
+            prev = bool(v)
+        if runs >= 3 and m.mean() < 0.15:
+            return -2.0, im.size, bbox      # -2 = 문장 이미지
         return float(m.mean()), im.size, float(bbox)
     except Exception:
         return -1.0, (0, 0), -1.0

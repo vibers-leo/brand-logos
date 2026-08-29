@@ -99,6 +99,39 @@ def muni():
     return rows
 
 
+def franchise():
+    """공정거래위원회 가맹사업 정보공개서 — 국내 프랜차이즈 전 브랜드.
+
+    ⚠️ 이 목록에는 **홈페이지가 없다.** 상장사(KRX)와 다른 점이다.
+       상세 페이지는 암호화 키와 세션이 필요한데 접근이 계속 실패했고,
+       네이버 검색 API 키는 4개 모두 인증 실패였다(2026-08-29).
+       그래서 명단만 확보해 둔다 — 로고 확보 경로가 열리면 바로 쓴다.
+       다시 훑는 데 12페이지 요청이 드니 버리지 않는다.
+    """
+    import subprocess
+    rows = {}
+    for i in range(1, 15):
+        d = (f"column=&searchKeyword=&selIndus=&selUpjong="
+             f"&pageUnit=1000&pageIndex={i}")
+        out = subprocess.run(
+            ["curl", "-s", "--max-time", "90", "-A", UA, "-X", "POST", "--data", d,
+             "https://franchise.ftc.go.kr/mnu/00013/program/userRqst/list.do"],
+            capture_output=True).stdout.decode("utf-8", "ignore")
+        got = 0
+        for r in re.findall(r"<tr[^>]*>(.*?)</tr>", out, re.S):
+            td = [H.unescape(re.sub(r"<[^>]+>", "", c)).strip()
+                  for c in re.findall(r"<td[^>]*>(.*?)</td>", r, re.S)]
+            if len(td) >= 5 and td[0].isdigit():
+                rows[td[0]] = {"no": td[0], "hq": td[1], "brand": td[2],
+                               "ceo": td[3], "reg": td[4]}
+                got += 1
+        if not got:
+            break
+    if len(rows) < 5000:
+        raise SystemExit(f"프랜차이즈가 {len(rows)}건뿐이다 — 형식을 확인할 것")
+    return sorted(rows.values(), key=lambda x: -int(x["no"]))
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     k = krx()
@@ -108,6 +141,12 @@ def main():
     (OUT / "sgg-targets.json").write_text(json.dumps(m, ensure_ascii=False))
     amb = sum(1 for r in m if r["name"] != r["short"])
     print(f"  지자체 {len(m):,}건 (동명 시도병기 {amb}건)")
+    try:
+        f = franchise()
+        (OUT / "franchise.json").write_text(json.dumps(f, ensure_ascii=False))
+        print(f"  프랜차이즈 {len(f):,}건 (홈페이지 없음 — 명단만)")
+    except SystemExit as e:
+        print(f"  ⚠️ 프랜차이즈 건너뜀: {e}")
     return 0
 
 

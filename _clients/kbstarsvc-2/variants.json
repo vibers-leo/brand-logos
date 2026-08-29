@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kbstarsvc-2",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "38ebf9e7ba76b874"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.252,
+   "provider": "kr-club-site",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

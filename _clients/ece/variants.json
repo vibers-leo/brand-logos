@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ece",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "972e262ee4cac337"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.306,
+   "provider": "kr-media-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "seoulsports",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "2d01b12cee161576"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.221,
+   "provider": "kr-club-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

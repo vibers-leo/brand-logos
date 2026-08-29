@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "earm",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d0e69e0e3e5f5176"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.972,
+   "provider": "kr-media-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

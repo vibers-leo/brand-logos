@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cycling",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "2b734524082e51bf"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.593,
+   "provider": "kr-club-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

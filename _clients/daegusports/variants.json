@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "daegusports",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d291dd81f6deb4fe"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.559,
+   "provider": "kr-club-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

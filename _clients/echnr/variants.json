@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "echnr",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "f41dd97a2e83141b"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.531,
+   "provider": "kr-media-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

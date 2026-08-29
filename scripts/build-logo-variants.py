@@ -234,6 +234,40 @@ def build_brand(brand: dict, force: bool, dry: bool):
         candidates.append((f, provider_of(s.get("provider", ""))))
 
     if not candidates:
+        # ⚠️ SVG 가 없어도 **사람이 쓴 override 가 있으면** 그것만으로 매니페스트를
+        #    만든다. 국내 지자체는 PNG 로고만 제공하는 곳이 많은데, 심볼 CI 와
+        #    브랜드 슬로건을 따로 운영한다(영월군 = CI + 'Young World 영월').
+        #    이 경로가 없으면 그 두 번째 형태가 화면에 영영 안 뜬다.
+        if override_path.exists():
+            try:
+                ov = json.loads(override_path.read_text())
+                vs = []
+                for i, v in enumerate(ov.get("variants") or []):
+                    files = v.get("files") or {}
+                    # 실제로 있는 파일만 싣는다 — 없는 파일을 가리키면
+                    # 눌러도 안 받아지는 버튼이 뜬다
+                    files = {k: rel for k, rel in files.items() if (d / rel).exists()}
+                    if not files:
+                        continue
+                    vs.append(OrderedDict([
+                        ("key", v.get("key") or f"v{i}"),
+                        ("form", v.get("form") or "unknown"),
+                        ("lang", v.get("lang") or "ko"),
+                        ("color", v.get("color") or "color"),
+                        ("label", v.get("label") or v.get("key") or ""),
+                        ("order", i),
+                        ("files", files),
+                    ]))
+                if len(vs) >= 2 and not dry:
+                    manifest_path.write_text(json.dumps(OrderedDict([
+                        ("schema", SCHEMA), ("algo_v", L.ALGO_V), ("id", bid),
+                        ("origin", "manual"),
+                        ("primary", vs[0]["key"]), ("variants", vs),
+                    ]), ensure_ascii=False, indent=1))
+                    return True, "override(SVG 없음)"
+            except Exception as e:
+                print(f"  ⚠️ {bid}: override 처리 실패 {type(e).__name__}")
+
         # 낡은 매니페스트를 남겨두면 안 된다. SVG 가 사라진 브랜드(비트맵 껍데기라
         # 내린 경우 등)의 variants.json 이 그대로 남아 없는 파일을 가리키고,
         # 화면에는 눌러도 안 받아지는 SVG 버튼이 뜬다. 지우면 컴포넌트가

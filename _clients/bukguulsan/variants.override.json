@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "origin": "manual",
+ "id": "bukguulsan",
+ "variants": [
+  {
+   "key": "primary",
+   "form": "unknown",
+   "label": "심볼·기본형",
+   "files": {
+    "svg": "logo.svg"
+   }
+  },
+  {
+   "key": "slogan",
+   "form": "wordmark",
+   "label": "브랜드 슬로건",
+   "files": {
+    "png": "variants/slogan.png"
+   }
+  }
+ ]
+}

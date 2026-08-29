@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "korswim",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "840666a9a3f43775"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.245,
+   "provider": "kr-club-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

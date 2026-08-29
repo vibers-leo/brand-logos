@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "skhawks",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "f8addf737121fead"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.472,
+   "provider": "kr-club-site",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

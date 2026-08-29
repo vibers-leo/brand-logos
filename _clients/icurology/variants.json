@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "icurology",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "8d2b5799b169f68a"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.945,
+   "provider": "kr-media-pass2",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

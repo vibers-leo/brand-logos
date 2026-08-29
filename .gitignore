@@ -19,3 +19,4 @@ tistory-bot/session.json
 # 업로드: scripts/sync-png-bucket.py (멱등)
 # 로컬 파일은 지우지 않는다 — build-variants 가 재생성 여부를 판단하는 근거다.
 _clients/**/*.png
+.wrangler/

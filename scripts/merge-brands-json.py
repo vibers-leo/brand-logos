@@ -20,9 +20,19 @@ brands.json 은 40,291개가 들어간 **한 줄짜리 압축 JSON** 이라 git 
    파일 존재 여부로만 알 수 있고, 병합 시점엔 그 정보가 없다.
    sources 합집합과 신규 브랜드 추가는 순수 추가라 안전하다.
 
+⚠️ 다만 **삭제 앞에서는 안전하지 않다.** 합집합은 '지웠다'를 모른다.
+   2026-08-29 에 로고가 아닌 항목 43건(사진·UI아이콘·타 브랜드 로고)을
+   지우고 rebase 했더니 원격 옛 데이터에서 **전부 되살아났다.**
+   그래서 `_clients/_deleted.json` 묘비를 둔다 — 여기 적힌 id 는 어느 쪽에
+   있든 결과에서 뺀다. 브랜드를 지울 때 이 파일에도 함께 적는다.
+
   python3 scripts/merge-brands-json.py OURS THEIRS OUT
 """
 import json, sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+TOMB = ROOT / "_clients" / "_deleted.json"
 
 
 def load(p):
@@ -58,10 +68,26 @@ def main():
                 ob[k] = v
                 merged_key += 1
 
+    # 묘비 — 의도적으로 지운 id 는 어느 쪽에 있든 뺀다
+    revived = 0
+    if TOMB.exists():
+        try:
+            dead = set(json.loads(TOMB.read_text()))
+        except Exception as e:
+            print(f"❌ 묘비 파일을 읽을 수 없다 ({type(e).__name__}) — 병합을 중단한다")
+            return 1
+        keep = [b for b in ours if b.get("id") not in dead]
+        revived = len(ours) - len(keep)
+        if revived:
+            ours[:] = keep
+            if isinstance(ours_doc, dict):
+                ours_doc["brands"] = ours
+
     out = sys.argv[3]
     json.dump(ours_doc, open(out, "w"), ensure_ascii=False, separators=(",", ":"))
     print(f"병합 완료 — 브랜드 {len(ours):,}개 "
-          f"(원격에서 추가 {added} · sources 합침 {merged_src} · aliases 보강 {merged_key})")
+          f"(원격에서 추가 {added} · sources 합침 {merged_src} · aliases 보강 {merged_key}"
+          + (f" · 묘비로 제거 {revived}" if revived else "") + ")")
     return 0
 
 

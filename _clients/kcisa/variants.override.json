@@ -1,17 +1,12 @@
 {
  "schema": 1,
- "algo_v": 1,
- "id": "arte-2",
  "origin": "manual",
- "primary": "primary",
+ "id": "kcisa",
  "variants": [
   {
    "key": "primary",
    "form": "unknown",
-   "lang": "ko",
-   "color": "color",
    "label": "심볼·기본형",
-   "order": 0,
    "files": {
     "png": "logo.png"
    }
@@ -19,10 +14,7 @@
   {
    "key": "slogan",
    "form": "wordmark",
-   "lang": "ko",
-   "color": "color",
    "label": "브랜드 슬로건",
-   "order": 1,
    "files": {
     "png": "variants/slogan.png"
    }

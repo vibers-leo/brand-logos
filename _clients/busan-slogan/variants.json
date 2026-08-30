@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "busan-slogan",
+ "origin": "manual",
+ "primary": "basic",
+ "variants": [
+  {
+   "key": "basic",
+   "form": "wordmark",
+   "lang": "ko",
+   "color": "color",
+   "label": "기본형",
+   "order": 0,
+   "files": {
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "applied",
+   "form": "wordmark",
+   "lang": "ko",
+   "color": "color",
+   "label": "활용형",
+   "order": 1,
+   "files": {
+    "png": "variants/applied.png"
+   }
+  }
+ ]
+}

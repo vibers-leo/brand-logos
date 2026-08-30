@@ -96,6 +96,54 @@ def muni():
                      "short": nm, "sido": par, "site": s})
     if len(rows) < 150:
         raise SystemExit(f"지자체가 {len(rows)}건뿐이다 — 쿼리를 확인할 것")
+
+    # ⚠️ 위키데이터 P856 은 낡거나 엉뚱한 페이지를 가리키는 일이 잦다.
+    #    실측(2026-08-30): 229곳 중 51곳이 접속 실패였다.
+    #      춘천시 → tour.chuncheon.go.kr (관광)
+    #      김포시 → en.gimpo.go.kr (영문)
+    #      정선군 → /JStour_EN/ (영문 관광)
+    #    명단이 부실하면 크론이 매번 그만큼 헛돈다. 여기서 고쳐서 넘긴다.
+    return _verify(rows)
+
+
+def _verify(rows):
+    """접속을 확인하고, 실패하면 표준 도메인 규칙으로 고친다.
+
+    지자체 도메인은 대체로 {로마자}.go.kr 이지만 약어를 쓰는 곳도 많다
+    (성주 sj.go.kr · 의성 usc.go.kr · 함양 hygn.go.kr).
+    그래서 도메인 문자열이 아니라 **사이트 제목에 지역명이 있는지**로 판정한다.
+    """
+    import concurrent.futures as cf
+
+    def title_of(u):
+        try:
+            h = get(u, timeout=12, limit=60000).decode("utf-8", "ignore")
+            m = re.search(r"<title[^>]*>(.*?)</title>", h, re.S | re.I)
+            return re.sub(r"<[^>]+>", "", m.group(1)).strip() if m else ""
+        except Exception:
+            return None
+
+    def fix(r):
+        t = title_of(r["site"])
+        if t is not None:
+            r["verified"] = True
+            return r
+        key = re.sub(r"(특별자치)?(시|군|구|도)$", "", r["short"])
+        host = re.sub(r"^https?://(www\.)?|/.*$", "", r["site"]).lower()
+        base = re.sub(r"^(en|english|tour)\.", "", host)
+        for c in (f"https://www.{base}", f"https://{base}"):
+            t2 = title_of(c)
+            if t2 is not None and key in t2:
+                r["site"] = c
+                r["verified"] = True
+                return r
+        r["verified"] = False
+        return r
+
+    with cf.ThreadPoolExecutor(max_workers=12) as ex:
+        rows = list(ex.map(fix, rows))
+    okn = sum(1 for r in rows if r.get("verified"))
+    print(f"  지자체 URL 검증 — 접속 가능 {okn}/{len(rows)}곳")
     return rows
 
 

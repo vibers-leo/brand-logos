@@ -6,18 +6,49 @@
   {
    "key": "symbol",
    "form": "symbol",
-   "label": "심볼",
+   "label": "심벌마크",
    "files": {
-    "svg": "logo.svg"
+    "png": "logo.png"
    }
   },
   {
-   "key": "wordmark",
+   "key": "signature-ko",
    "form": "horizontal",
-   "label": "심볼+워드마크",
+   "label": "시그니처 국문",
    "files": {
-    "svg": "variants/wordmark.svg",
-    "png": "variants/wordmark.png"
+    "png": "variants/signature-ko.png"
+   }
+  },
+  {
+   "key": "signature-en",
+   "form": "horizontal",
+   "label": "시그니처 영문",
+   "files": {
+    "png": "variants/signature-en.png"
+   }
+  },
+  {
+   "key": "signature-mixed",
+   "form": "horizontal",
+   "label": "시그니처 국영문 혼용",
+   "files": {
+    "png": "variants/signature-mixed.png"
+   }
+  },
+  {
+   "key": "symbol-line",
+   "form": "symbol",
+   "label": "심벌 라인타입",
+   "files": {
+    "png": "variants/symbol-line.png"
+   }
+  },
+  {
+   "key": "symbol-solid",
+   "form": "symbol",
+   "label": "심벌 솔리드",
+   "files": {
+    "png": "variants/symbol-solid.png"
    }
   }
  ]

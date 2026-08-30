@@ -1,0 +1,64 @@
+{
+  "note": "지자체·국가·도시의 공식 상징물 분류 체계. 한 곳에서 로고 하나만 가져오면 안 된다 — 상징물은 여러 종류가 한 세트로 운영된다.",
+  "established": "2026-08-30",
+  "rationale": [
+    "부산광역시 사례로 확립. 공식 홈페이지가 심벌마크·시그니처 3종·슬로건·캐릭터를 각각 배포한다.",
+    "이 셋은 서로 다른 것이라 한 브랜드 안 변형으로 묶으면 안 된다 — 사람들이 '부산 슬로건', '부비 캐릭터'로 따로 찾는다.",
+    "반대로 시그니처 국문/영문/혼용은 같은 마크의 조합형이라 한 브랜드의 변형이 맞다."
+  ],
+  "contents": [
+    {
+      "kind": "symbol",
+      "label": "심벌마크 · CI",
+      "id_pattern": "{base}",
+      "required": true,
+      "variants": [
+        {"key": "symbol", "label": "심벌마크"},
+        {"key": "signature-ko", "label": "시그니처 국문"},
+        {"key": "signature-en", "label": "시그니처 영문"},
+        {"key": "signature-mixed", "label": "시그니처 국영문 혼용"},
+        {"key": "symbol-line", "label": "심벌 라인타입"},
+        {"key": "symbol-solid", "label": "심벌 솔리드"}
+      ],
+      "note": "같은 마크의 조합·색상 변형이므로 한 브랜드 안에 담는다"
+    },
+    {
+      "kind": "slogan",
+      "label": "슬로건 · 브랜드",
+      "id_pattern": "{base}-slogan",
+      "required": false,
+      "variants": [
+        {"key": "basic", "label": "기본형"},
+        {"key": "applied", "label": "활용형"}
+      ],
+      "note": "심벌과 별개 콘텐츠다. '부산이라 좋다', 'I·SEOUL·U' 처럼 독립적으로 검색된다"
+    },
+    {
+      "kind": "character",
+      "label": "상징 캐릭터 · 마스코트",
+      "id_pattern": "{base}-{name}",
+      "required": false,
+      "note": "고유 이름이 있으면 그것을 쓴다(부비·해치). 활용 삽화(안내문구 포함 GIF 등)는 로고가 아니므로 제외한다"
+    },
+    {
+      "kind": "emblem",
+      "label": "휘장 · 문장",
+      "id_pattern": "{base}-emblem",
+      "required": false,
+      "note": "심벌마크 도입 이전의 전통 휘장을 따로 운영하는 곳이 있다"
+    },
+    {
+      "kind": "flag",
+      "label": "깃발",
+      "id_pattern": "{base}-flag",
+      "required": false,
+      "note": "국가는 이미 국기가 확보돼 있다. 지자체 깃발은 별도"
+    }
+  ],
+  "asset_origin_levels": [
+    {"level": "official-download", "label": "공식 배포 원본", "note": "홈페이지 상징물 페이지에서 배포하는 AI/PNG 원본. 가장 신뢰도 높다"},
+    {"level": "official-site", "label": "공식 사이트 헤더", "note": "사이트 헤더에서 추출. 정품이지만 저해상도·크롭 가능성"},
+    {"level": "wikimedia", "label": "위키미디어", "note": "제3자 업로드. 버전이 낡았을 수 있다"}
+  ],
+  "collection_rule": "한 지자체에 접근하면 상징물 페이지를 찾아 위 종류를 **전부** 확보한다. 하나만 가져오고 끝내지 않는다."
+}

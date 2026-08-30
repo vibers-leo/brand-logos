@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "origin": "manual",
+ "id": "busan-slogan",
+ "variants": [
+  {
+   "key": "basic",
+   "form": "wordmark",
+   "label": "기본형",
+   "files": {
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "applied",
+   "form": "wordmark",
+   "label": "활용형",
+   "files": {
+    "png": "variants/applied.png"
+   }
+  }
+ ]
+}

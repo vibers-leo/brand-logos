@@ -170,6 +170,17 @@ def pick_logo(page_html, base):
         r"blog|share)(?![a-z])", re.I)
     named = [s for s in named if not SNS.search(s)]
 
+    # ⚠️ 홈페이지 푸터의 **호스팅·솔루션 업체 로고**를 브랜드 로고로 가져오는
+    #    사고가 실제로 났다. 제닉스로보틱스·피씨엘·디와이덕양·보바스기념병원 등
+    #    7곳이 전부 '가비아' 로고를 달고 있었다. 서로 무관한 회사들인데
+    #    같은 호스팅을 쓴다는 공통점 하나로 같은 이미지가 박힌 것이다.
+    #    SNS 와 같은 이유로 막는다 — 남의 브랜드를 그 회사 로고로 등록하는 것이다.
+    VENDOR = re.compile(
+        r"(?<![a-z])(gabia|cafe24|godaddy|wordpress|wix|squarespace|shopify|"
+        r"imweb|makeshop|nhn|dreamline|hostway|smartstore|"
+        r"powered[_\-]?by|hosting|solution[_\-]?logo)(?![a-z])", re.I)
+    named = [s for s in named if not VENDOR.search(s)]
+
     def rank(s):
         w = 0 if s.lower().endswith(".svg") else 1
         # 흰색·역상 버전은 흰 배경에서 안 보인다 — 뒤로 민다

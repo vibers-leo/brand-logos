@@ -12,6 +12,16 @@
 #      collect/svg-wanted.json  → 합집합
 #      그 외 (_clients/*/brand.json 등) → 원격 것 (전부 재생성물)
 cd ~/Desktop/macminim4/brand-logos || exit 1
+
+# ⚠️ unstaged 가 하나라도 있으면 rebase 는 시작조차 안 한다.
+#    예전엔 그 실패를 `|| true` 가 삼켜서, 리베이스를 안 한 채 push 로 내려가
+#    "non-fast-forward" 만 세 번 찍고 끝났다. 원인이 안 보였다.
+if ! git diff --quiet || [ -n "$(git ls-files -m)" ]; then
+  echo "⛔ 커밋 안 된 변경이 있어 rebase 를 시작할 수 없다:"
+  git status --short | grep -v '^??' | head -10
+  exit 1
+fi
+
 for i in 1 2 3; do
   git fetch origin main
   git rebase origin/main || true
@@ -42,6 +52,14 @@ for i in 1 2 3; do
           git checkout --ours -- "$f" 2>/dev/null || git checkout --theirs -- "$f" 2>/dev/null ;;
       esac
     done
+    # ⚠️ 병합 스크립트가 실패해도 git add 는 충돌마커째 스테이징한다.
+    #    실제로 그렇게 깨진 brands.json 이 커밋된 적이 있다(2026-08-31).
+    if grep -q '^<<<<<<< ' _clients/brands.json 2>/dev/null; then
+      echo "⛔ brands.json 에 충돌마커가 남았다 — 병합 실패"; git rebase --abort; exit 1
+    fi
+    if ! python3 -c "import json,sys; json.load(open('_clients/brands.json'))" 2>/dev/null; then
+      echo "⛔ brands.json 이 유효한 JSON 이 아니다"; git rebase --abort; exit 1
+    fi
     git add -A _clients _targets scripts 2>/dev/null
     GIT_EDITOR=true git rebase --continue || true
   done

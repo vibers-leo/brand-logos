@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bukgugwangju",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c2d29c3e6b97eb2e"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.734,
+   "provider": "kr-muni-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

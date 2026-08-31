@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
- "generated_at": "2026-08-30",
- "count": 678,
+ "generated_at": "2026-08-31",
+ "count": 761,
  "candidates": [
   {
    "id": "mnet",
@@ -3970,6 +3970,14 @@
    ]
   },
   {
+   "id": "t1",
+   "name_en": "T1",
+   "ko": "인슐린 의존형 당뇨병",
+   "qid": "Q124407",
+   "our_domain": "t1.gg",
+   "wikidata_sites": []
+  },
+  {
    "id": "er",
    "name_en": "ER",
    "ko": "에리트레아",
@@ -6307,6 +6315,764 @@
    "ko": "사구체콩팥염",
    "qid": "Q605006",
    "our_domain": "glom.org",
+   "wikidata_sites": []
+  },
+  {
+   "id": "hark",
+   "name_en": "Hark",
+   "ko": "하르키우",
+   "qid": "Q42308",
+   "our_domain": "hark.de",
+   "wikidata_sites": [
+    "kharkiv.ua"
+   ]
+  },
+  {
+   "id": "ladr",
+   "name_en": "LADR",
+   "ko": "마리아나 제도",
+   "qid": "Q153732",
+   "our_domain": "ladr.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "lipo",
+   "name_en": "LIPO",
+   "ko": "지질다당류",
+   "qid": "Q421804",
+   "our_domain": "lipo.ch",
+   "wikidata_sites": []
+  },
+  {
+   "id": "maha",
+   "name_en": "MAHA",
+   "ko": "마하라슈트라주",
+   "qid": "Q1191",
+   "our_domain": "maha.de",
+   "wikidata_sites": [
+    "gov.in"
+   ]
+  },
+  {
+   "id": "moog",
+   "name_en": "Moog",
+   "ko": "모그 신시사이저",
+   "qid": "Q426035",
+   "our_domain": "moog.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "move",
+   "name_en": "Move",
+   "ko": "이사",
+   "qid": "Q2918584",
+   "our_domain": "move.ch",
+   "wikidata_sites": []
+  },
+  {
+   "id": "nina",
+   "name_en": "NINA",
+   "ko": "니나 하틀리",
+   "qid": "Q234271",
+   "our_domain": "bund.de",
+   "wikidata_sites": [
+    "nina.com"
+   ]
+  },
+  {
+   "id": "povo",
+   "name_en": "povo",
+   "ko": "포보아드바르징",
+   "qid": "Q200459",
+   "our_domain": "povo.jp",
+   "wikidata_sites": [
+    "cm-pvarzim.pt"
+   ]
+  },
+  {
+   "id": "rena",
+   "name_en": "Rena",
+   "ko": "르노",
+   "qid": "Q6686",
+   "our_domain": "rena.com",
+   "wikidata_sites": [
+    "renaultgroup.com",
+    "renaultgroup.com",
+    "renault.co.in",
+    "renault.it",
+    "renault.com.br",
+    "com.tr",
+    "com.ar",
+    "renault.de",
+    "retail-renault-group.fr",
+    "renault.co.kr"
+   ]
+  },
+  {
+   "id": "sata",
+   "name_en": "SATA",
+   "ko": "SATA 에어 아소르스",
+   "qid": "Q1243903",
+   "our_domain": "sata.com",
+   "wikidata_sites": [
+    "sata.pt",
+    "azoresairlines.pt"
+   ]
+  },
+  {
+   "id": "sigo",
+   "name_en": "sigo",
+   "ko": "시고니 위버",
+   "qid": "Q102124",
+   "our_domain": "sigo.green",
+   "wikidata_sites": []
+  },
+  {
+   "id": "skai",
+   "name_en": "skai",
+   "ko": "스카이 잭슨",
+   "qid": "Q297724",
+   "our_domain": "skai.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "sosh",
+   "name_en": "Sosh",
+   "ko": "소시나",
+   "qid": "Q11604519",
+   "our_domain": "sosh.fr",
+   "wikidata_sites": [
+    "universal-music.co.jp",
+    "soshina.jp"
+   ]
+  },
+  {
+   "id": "stat",
+   "name_en": "Stat",
+   "ko": "일본",
+   "qid": "Q17",
+   "our_domain": "statnews.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "unir",
+   "name_en": "UNIR",
+   "ko": "로마 라 사피엔자 대학교",
+   "qid": "Q209344",
+   "our_domain": "unirmobilidade.pt",
+   "wikidata_sites": [
+    "uniroma1.it",
+    "uniroma1.it"
+   ]
+  },
+  {
+   "id": "emmy",
+   "name_en": "emmy",
+   "ko": "에미상",
+   "qid": "Q123737",
+   "our_domain": "emmy-sharing.de",
+   "wikidata_sites": [
+    "emmys.com",
+    "emmyonline.tv"
+   ]
+  },
+  {
+   "id": "froo",
+   "name_en": "Froo",
+   "ko": "크리스 프룸",
+   "qid": "Q319591",
+   "our_domain": "froo.ro",
+   "wikidata_sites": [
+    "chris-froome.com"
+   ]
+  },
+  {
+   "id": "soma",
+   "name_en": "Soma",
+   "ko": "소마",
+   "qid": "Q15121353",
+   "our_domain": "soma.com",
+   "wikidata_sites": [
+    "somagame.com"
+   ]
+  },
+  {
+   "id": "spic",
+   "name_en": "SPIC",
+   "ko": "스파이스 걸스",
+   "qid": "Q55641",
+   "our_domain": "spic.in",
+   "wikidata_sites": [
+    "thespicegirls.com"
+   ]
+  },
+  {
+   "id": "star",
+   "name_en": "star",
+   "ko": "항성",
+   "qid": "Q523",
+   "our_domain": "star.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "vita",
+   "name_en": "Vita",
+   "ko": "플레이스테이션 비타",
+   "qid": "Q188808",
+   "our_domain": "vitaexpress.ru",
+   "wikidata_sites": [
+    "playstation.com",
+    "playstation.com",
+    "playstation.com",
+    "playstation.com"
+   ]
+  },
+  {
+   "id": "vito",
+   "name_en": "Vito",
+   "ko": "비토리아",
+   "qid": "Q14318",
+   "our_domain": "stationsvito-ag.com",
+   "wikidata_sites": [
+    "vitoria-gasteiz.org"
+   ]
+  },
+  {
+   "id": "yeme",
+   "name_en": "Yeme",
+   "ko": "예멘",
+   "qid": "Q805",
+   "our_domain": "yeme.sk",
+   "wikidata_sites": [
+    "gov.ye"
+   ]
+  },
+  {
+   "id": "exit",
+   "name_en": "Exit",
+   "ko": "죽음",
+   "qid": "Q4",
+   "our_domain": "exitfest.org",
+   "wikidata_sites": []
+  },
+  {
+   "id": "delo",
+   "name_en": "Delo",
+   "ko": "니코틴아마이드",
+   "qid": "Q192423",
+   "our_domain": "delo.si",
+   "wikidata_sites": []
+  },
+  {
+   "id": "zaka",
+   "name_en": "ZAKA",
+   "ko": "집",
+   "qid": "Q3947",
+   "our_domain": "org.il",
+   "wikidata_sites": []
+  },
+  {
+   "id": "chip",
+   "name_en": "Chip",
+   "ko": "칩",
+   "qid": "Q1074590",
+   "our_domain": "chip.de",
+   "wikidata_sites": [
+    "officialchipmunk.com"
+   ]
+  },
+  {
+   "id": "clan",
+   "name_en": "Clan",
+   "ko": "가족 이름",
+   "qid": "Q101352",
+   "our_domain": "rtve.es",
+   "wikidata_sites": []
+  },
+  {
+   "id": "good",
+   "name_en": "Good",
+   "ko": "굿리즈",
+   "qid": "Q2359213",
+   "our_domain": "org.za",
+   "wikidata_sites": [
+    "goodreads.com"
+   ]
+  },
+  {
+   "id": "timm",
+   "name_en": "TIMM",
+   "ko": "티미 시몬스",
+   "qid": "Q350306",
+   "our_domain": "timm.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "varg",
+   "name_en": "Varg",
+   "ko": "보르고르다시",
+   "qid": "Q511297",
+   "our_domain": "varg.de",
+   "wikidata_sites": [
+    "vargarda.se"
+   ]
+  },
+  {
+   "id": "gree",
+   "name_en": "GREE",
+   "ko": "그리스",
+   "qid": "Q41",
+   "our_domain": "gree.jp",
+   "wikidata_sites": [
+    "gov.gr"
+   ]
+  },
+  {
+   "id": "rada",
+   "name_en": "Rada",
+   "ko": "왕립연극학교",
+   "qid": "Q523926",
+   "our_domain": "gov.ua",
+   "wikidata_sites": [
+    "rada.ac.uk"
+   ]
+  },
+  {
+   "id": "free",
+   "name_en": "Free",
+   "ko": "프리",
+   "qid": "Q45650",
+   "our_domain": "free.fr",
+   "wikidata_sites": [
+    "freetheband.co.uk"
+   ]
+  },
+  {
+   "id": "nick",
+   "name_en": "Nick",
+   "ko": "니켈로디언",
+   "qid": "Q154958",
+   "our_domain": "nickpakistan.tv",
+   "wikidata_sites": [
+    "nick.com"
+   ]
+  },
+  {
+   "id": "adal",
+   "name_en": "Adal",
+   "ko": "아우달주",
+   "qid": "Q791667",
+   "our_domain": "pp-birlik.kz",
+   "wikidata_sites": []
+  },
+  {
+   "id": "club",
+   "name_en": "Club",
+   "ko": "동호회",
+   "qid": "Q988108",
+   "our_domain": "clubmagazine.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "moji",
+   "name_en": "Moji",
+   "ko": "모지역",
+   "qid": "Q869281",
+   "our_domain": "ochanneltv.com",
+   "wikidata_sites": [
+    "jrkyushu.co.jp"
+   ]
+  },
+  {
+   "id": "nash",
+   "name_en": "Nash",
+   "ko": "내슈빌",
+   "qid": "Q23197",
+   "our_domain": "nash.live",
+   "wikidata_sites": [
+    "nashville.gov"
+   ]
+  },
+  {
+   "id": "vive",
+   "name_en": "Vive",
+   "ko": "HTC 바이브",
+   "qid": "Q19414112",
+   "our_domain": "gob.ve",
+   "wikidata_sites": [
+    "htcvr.com",
+    "htcvive.com",
+    "vive.com",
+    "vive.com"
+   ]
+  },
+  {
+   "id": "eden",
+   "name_en": "Eden",
+   "ko": "이든구",
+   "qid": "Q301637",
+   "our_domain": "uktv.co.uk",
+   "wikidata_sites": [
+    "eden.gov.uk"
+   ]
+  },
+  {
+   "id": "june",
+   "name_en": "June",
+   "ko": "6월",
+   "qid": "Q120",
+   "our_domain": "june.fr",
+   "wikidata_sites": []
+  },
+  {
+   "id": "riks",
+   "name_en": "Riks",
+   "ko": "한국연구원",
+   "qid": "Q115763750",
+   "our_domain": "riks.se",
+   "wikidata_sites": [
+    "riks.or.kr"
+   ]
+  },
+  {
+   "id": "soho",
+   "name_en": "SoHo",
+   "ko": "소호",
+   "qid": "Q124010",
+   "our_domain": "soho.co",
+   "wikidata_sites": []
+  },
+  {
+   "id": "zing",
+   "name_en": "Zing",
+   "ko": "생강",
+   "qid": "Q35625",
+   "our_domain": "zingtv.in",
+   "wikidata_sites": []
+  },
+  {
+   "id": "hero",
+   "name_en": "Hero",
+   "ko": "영웅",
+   "qid": "Q5742606",
+   "our_domain": "herotv.fi",
+   "wikidata_sites": []
+  },
+  {
+   "id": "horn",
+   "name_en": "Horn",
+   "ko": "호른",
+   "qid": "Q163759",
+   "our_domain": "wanderszeit.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "kamc",
+   "name_en": "KAMC",
+   "ko": "캄차카 변경주",
+   "qid": "Q7948",
+   "our_domain": "everythinglubbock.com",
+   "wikidata_sites": [
+    "kamgov.ru"
+   ]
+  },
+  {
+   "id": "kare",
+   "name_en": "KARE",
+   "ko": "가렌",
+   "qid": "Q1221747",
+   "our_domain": "kare11.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "lisa",
+   "name_en": "Lisa",
+   "ko": "리사",
+   "qid": "Q1588186",
+   "our_domain": "lisa.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "volg",
+   "name_en": "Volg",
+   "ko": "볼가강",
+   "qid": "Q626",
+   "our_domain": "volg.ch",
+   "wikidata_sites": []
+  },
+  {
+   "id": "waka",
+   "name_en": "WAKA",
+   "ko": "와카",
+   "qid": "Q737148",
+   "our_domain": "waka.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "walb",
+   "name_en": "WALB",
+   "ko": "바우브지흐",
+   "qid": "Q110732",
+   "our_domain": "walb.com",
+   "wikidata_sites": [
+    "walbrzych.pl"
+   ]
+  },
+  {
+   "id": "area",
+   "name_en": "Area",
+   "ko": "아레아",
+   "qid": "Q2703857",
+   "our_domain": "area-arch.it",
+   "wikidata_sites": []
+  },
+  {
+   "id": "brut",
+   "name_en": "Brut",
+   "ko": "마르쿠스 유니우스 브루투스",
+   "qid": "Q172248",
+   "our_domain": "brut.media",
+   "wikidata_sites": []
+  },
+  {
+   "id": "cato",
+   "name_en": "Cato",
+   "ko": "카토스토무스과",
+   "qid": "Q826807",
+   "our_domain": "cato-magazin.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "euro",
+   "name_en": "Euro",
+   "ko": "유럽 펍메드 센트럴",
+   "qid": "Q5412157",
+   "our_domain": "finanzen.net",
+   "wikidata_sites": [
+    "europepmc.org"
+   ]
+  },
+  {
+   "id": "kapp",
+   "name_en": "KAPP",
+   "ko": "핵인자 카파비",
+   "qid": "Q411114",
+   "our_domain": "applevalleynewsnow.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "kens",
+   "name_en": "KENS",
+   "ko": "켄징턴 첼시 구",
+   "qid": "Q188801",
+   "our_domain": "kens5.com",
+   "wikidata_sites": [
+    "rbkc.gov.uk"
+   ]
+  },
+  {
+   "id": "kera",
+   "name_en": "KERA",
+   "ko": "케라바",
+   "qid": "Q216900",
+   "our_domain": "kera.org",
+   "wikidata_sites": [
+    "kerava.fi"
+   ]
+  },
+  {
+   "id": "kezi",
+   "name_en": "KEZI",
+   "ko": "케지아 존스",
+   "qid": "Q427884",
+   "our_domain": "kezi.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "kusa",
+   "name_en": "KUSA",
+   "ko": "쿠샤다스",
+   "qid": "Q211952",
+   "our_domain": "9news.com",
+   "wikidata_sites": [
+    "bel.tr"
+   ]
+  },
+  {
+   "id": "lisi",
+   "name_en": "LISI",
+   "ko": "리지외",
+   "qid": "Q188743",
+   "our_domain": "lisi-group.com",
+   "wikidata_sites": [
+    "ville-lisieux.fr"
+   ]
+  },
+  {
+   "id": "lynx",
+   "name_en": "Lynx",
+   "ko": "살쾡이자리",
+   "qid": "Q10443",
+   "our_domain": "golynx.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "news",
+   "name_en": "NEWS",
+   "ko": "뉴스",
+   "qid": "Q38926",
+   "our_domain": "news.at",
+   "wikidata_sites": []
+  },
+  {
+   "id": "beat",
+   "name_en": "Beat",
+   "ko": "비틀즈",
+   "qid": "Q1299",
+   "our_domain": "beat.de",
+   "wikidata_sites": [
+    "thebeatles.com"
+   ]
+  },
+  {
+   "id": "bike",
+   "name_en": "BIKE",
+   "ko": "자전거",
+   "qid": "Q11442",
+   "our_domain": "bike-magazin.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "cash",
+   "name_en": "Cash",
+   "ko": "돈",
+   "qid": "Q1368",
+   "our_domain": "cash.ch",
+   "wikidata_sites": []
+  },
+  {
+   "id": "cham",
+   "name_en": "CHAM",
+   "ko": "캄",
+   "qid": "Q257859",
+   "our_domain": "bigam820.com",
+   "wikidata_sites": [
+    "cham.de"
+   ]
+  },
+  {
+   "id": "crow",
+   "name_en": "CROW",
+   "ko": "북쪽왕관자리",
+   "qid": "Q10406",
+   "our_domain": "crow.nl",
+   "wikidata_sites": []
+  },
+  {
+   "id": "defy",
+   "name_en": "Defy",
+   "ko": "모토로라 디파이",
+   "qid": "Q1185953",
+   "our_domain": "defytvnet.com",
+   "wikidata_sites": [
+    "motorola.com"
+   ]
+  },
+  {
+   "id": "dogs",
+   "name_en": "Dogs",
+   "ko": "개",
+   "qid": "Q144",
+   "our_domain": "dogs-magazin.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "esto",
+   "name_en": "Esto",
+   "ko": "에스토니아어",
+   "qid": "Q9072",
+   "our_domain": "com.mx",
+   "wikidata_sites": []
+  },
+  {
+   "id": "form",
+   "name_en": "Form",
+   "ko": "품종",
+   "qid": "Q279749",
+   "our_domain": "form.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "four",
+   "name_en": "Four",
+   "ko": "파워 포워드",
+   "qid": "Q462471",
+   "our_domain": "co.nz",
+   "wikidata_sites": []
+  },
+  {
+   "id": "gala",
+   "name_en": "Gala",
+   "ko": "은하",
+   "qid": "Q318",
+   "our_domain": "gala.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "kiah",
+   "name_en": "KIAH",
+   "ko": "조지 부시 인터콘티넨털 공항",
+   "qid": "Q744748",
+   "our_domain": "cw39.com",
+   "wikidata_sites": [
+    "fly2houston.com"
+   ]
+  },
+  {
+   "id": "leem",
+   "name_en": "LEEM",
+   "ko": "림 루바니",
+   "qid": "Q15856557",
+   "our_domain": "leem.org",
+   "wikidata_sites": []
+  },
+  {
+   "id": "live",
+   "name_en": "Live",
+   "ko": "리버풀",
+   "qid": "Q24826",
+   "our_domain": "novyny.live",
+   "wikidata_sites": [
+    "liverpool.gov.uk"
+   ]
+  },
+  {
+   "id": "norr",
+   "name_en": "Norr",
+   "ko": "노르텔리에시",
+   "qid": "Q214048",
+   "our_domain": "norrmagazin.de",
+   "wikidata_sites": [
+    "norrtalje.se",
+    "norrtalje.se"
+   ]
+  },
+  {
+   "id": "tour",
+   "name_en": "Tour",
+   "ko": "투르",
+   "qid": "Q288",
+   "our_domain": "tour-magazin.de",
+   "wikidata_sites": [
+    "tours.fr"
+   ]
+  },
+  {
+   "id": "veto",
+   "name_en": "Veto",
+   "ko": "거부권",
+   "qid": "Q178074",
+   "our_domain": "veto.be",
    "wikidata_sites": []
   }
  ]

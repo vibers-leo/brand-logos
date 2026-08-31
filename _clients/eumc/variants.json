@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "eumc",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "2553368f33b4d8c0"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.702,
+   "provider": "kr-hosp-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

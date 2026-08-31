@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pmc",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "9c141378482965c3"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.286,
+   "provider": "kr-hosp-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

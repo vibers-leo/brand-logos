@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "namwonmedorkr19005",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "805fe5baa64aeee8"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.028,
+   "provider": "kr-hosp-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

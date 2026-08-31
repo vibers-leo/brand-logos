@@ -22,6 +22,15 @@ g = {}
 exec(compile(src.replace("\nmain()", ""), "c", "exec"), g)
 DESC_RULES = g["DESC_RULES"]
 
+# 이미 구체적인 카테고리를 더 포괄적인 것으로 바꾸면 **나빠진다.**
+# 현대자동차그룹이 '자동차'에서 '제조·그룹'으로, 코에이·에닉스가
+# '게임'에서 '미디어·엔터'로 가는 것이 그 예다. 설명문은 맞지만
+# 사용자가 찾기는 더 어려워진다. 이 방향은 막는다.
+BROAD = {"제조·그룹", "미디어·엔터", "IT·테크", "유통·쇼핑", "공공·기관"}
+SPECIFIC = {"자동차", "게임", "통신", "항공·우주·방산", "암호화폐·블록체인",
+            "철강·중공업", "뷰티·패션", "반려동물", "숙박·여행", "식품·음료",
+            "에너지·화학", "의료·바이오", "건설·부동산", "금융·결제", "교육"}
+
 def main():
     desc = json.load(open("_clients/_wikidata-desc.json"))
     doc = json.load(open("_clients/brands.json"))
@@ -36,6 +45,8 @@ def main():
         want = None
         for cc, pat in DESC_RULES:
             if re.search(pat, ds.lower(), re.I): want = cc; break
+        # 구체 → 포괄 이동은 버린다
+        if want in BROAD and cur in SPECIFIC: continue
         if want and want != cur:
             hits.append((b["id"], b.get("name_ko") or b.get("name_en"), cur, want, ds[:52]))
     print(f"  어긋남 {len(hits)}건")

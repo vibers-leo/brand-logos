@@ -105,10 +105,16 @@ MAP = {
 DESC_RULES = [
  # ⚠️ 도시를 공공·기관에 넣으면 안 된다. Menlo Park(도시)가 정부조직 옆에
  #    서게 된다. 이 서비스에서 도시는 '국가·지역'(국기·문장)과 같은 성격이다.
- ("국가·지역", r"\b(city in |town in |municipality in |commune in |village in |"
-            r"capital (city )?of|(prefecture|province|state|region|county) (in|of) )"),
- ("금융·결제", r"\b(bank|banking|insurance|insurer|financial servic|asset manage|"
-             r"investment (bank|firm|manage)|credit union|payment|fintech)\b"),
+ # ⚠️ 앵커가 없으면 '방콕 지하철'(rapid transit system serving the Bangkok
+ #    Metropolitan Region)이나 지역 TV 방송국까지 지역으로 끌려간다.
+ #    설명문이 **그 말로 시작할 때만** 지역으로 본다.
+ ("국가·지역", r"^(city|town|municipality|commune|village|borough|district)"
+            r"( and (city|town|municipality|commune|village))? (in|of) |"
+            r"^capital (city )?of|^(prefecture|province|state|county) (in|of) "),
+ ("금융·결제", r"\b((?<!voice )(?<!data )bank|banking|insurance|insurer|"
+             r"financial servic|asset manage|"
+             r"investment (bank|firm|manage)|credit union|payment|fintech|"
+             r"financial tech)"),   # \b 를 붙이면 안 된다 — technolog 뒤에 y 가 와서 경계가 아니다
  ("의료·바이오", r"\b(pharmaceutic|biotech|hospital|healthcare|health care|"
               r"medical (device|technolog|centre|center)|clinic)\b"),
  ("공공·기관", r"\b(government agency|ministry|municipalit|commune|"
@@ -126,7 +132,7 @@ DESC_RULES = [
             r"shipping (company|line)|bus (operator|company)|metro system|"
             r"public transport)\b"),
  ("에너지·화학", r"\b(energy company|electric utility|utility company|oil (and|&) gas|"
-              r"petroleum|chemical (company|manufactur)|mining company|"
+              r"petroleum|chemicals? (compan|manufactur|produc)|mining company|"
               r"power (company|plant|utility))\b"),
  ("식품·음료", r"\b(brewery|brewing company|winery|distillery|food (company|"
             r"manufactur|producer|processing)|beverage|dairy|restaurant chain|"

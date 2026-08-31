@@ -200,3 +200,85 @@ def _decode(body, ctype=""):
         except (UnicodeDecodeError, LookupError):
             continue
     return body.decode("utf-8", "ignore")
+
+
+def split_first_block(data):
+    """이미지에 로고가 **여러 벌** 들어 있으면 첫 덩어리만 잘라 돌려준다.
+
+    지자체 상징물 페이지는 컬러판·회색판을, 또는 국문·영문판을 한 이미지에
+    나란히 담는 일이 잦다. 그대로 쓰면 카드에 로고가 두 개로 보인다.
+      여주시   컬러 + 회색 그리드판
+      목포시   국문·영문·한자 4개 조합
+      청양군   로고 + 최소크기 규정
+      군포시   제목 텍스트 + 브랜드 2벌
+    세로 공백으로 제목 줄을 떼고, 가로 공백으로 첫 덩어리만 남긴다.
+
+    ⚠️ 가운데 공백이 있다고 다 두 벌이 아니다. 심볼+글자 조합(영등포구·
+       장흥군·함평군)이나 마스코트 여러 마리는 그대로 둬야 한다.
+       실측한 공백 비율:
+         정상  영등포구 8.3% · 장흥군 8.1% · 함평군 8.1% · 여주마스코트 10.1%
+         두 벌  청양군 18.4% · 목포시 15.0% · 여주시 14.3%
+       그래서 **12%** 를 경계로 둔다. 상주시(8.7%)처럼 못 잡는 것이 남지만,
+       멀쩡한 로고를 쪼개는 것보다 덜 자르는 쪽이 낫다.
+
+    돌려주는 값은 (바이트, 잘랐는지) 다. 못 자르면 원본 그대로.
+    """
+    try:
+        import io
+        import numpy as np
+        from PIL import Image
+        im = Image.open(io.BytesIO(data)).convert("RGBA")
+        bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
+        g = np.array(Image.alpha_composite(bg, im).convert("L"))
+        ink = g < 235
+        col, row = ink.sum(axis=0), ink.sum(axis=1)
+        ci, ri = np.where(col > 0)[0], np.where(row > 0)[0]
+        if len(ci) < 10 or len(ri) < 10:
+            return data, False
+        l, r, t, b = ci.min(), ci.max(), ri.min(), ri.max()
+
+        # ★ 가로 줄 단위로 덩어리를 나누고 **잉크가 가장 많은 덩어리**를 고른다.
+        #    원주시는 설명문 7줄 + 로고 1개가 한 이미지에 들어 있었는데
+        #    (1200x847), 로고 덩어리의 잉크가 49,420 으로 압도적이었다.
+        #    '위쪽 제목만 떼기'로는 중간에 낀 설명문을 못 걸러낸다.
+        blocks, start = [], None
+        for y in range(t, b + 2):
+            v = row[y] if y < len(row) else 0
+            if v > 0 and start is None:
+                start = y
+            elif v == 0 and start is not None:
+                blocks.append((start, y, int(row[start:y].sum())))
+                start = None
+        if len(blocks) > 1:
+            best = max(blocks, key=lambda x: x[2])
+            # 최다 덩어리가 전체 잉크의 40% 를 넘을 때만 그것만 남긴다.
+            # 고르게 퍼져 있으면 원래 한 덩이라는 뜻이다.
+            if best[2] > sum(x[2] for x in blocks) * 0.4:
+                t, b = best[0], best[1]
+                col = ink[t:b].sum(axis=0)
+                ci = np.where(col > 0)[0]
+                if len(ci) < 10:
+                    return data, False
+                l, r = ci.min(), ci.max()
+
+        # 가로: 폭의 6% 넘는 첫 공백에서 자른다
+        w = r - l + 1
+        cut, start = None, None
+        for x in range(l, r + 1):
+            if col[x] == 0 and start is None:
+                start = x
+            elif col[x] > 0 and start is not None:
+                if x - start > w * 0.12:
+                    cut = start
+                    break
+                start = None
+        if cut is None:
+            return data, False
+
+        p = 6
+        box = (max(0, l - p), max(0, t - p), min(im.width, cut + p), min(im.height, b + p))
+        out = io.BytesIO()
+        im.crop(box).save(out, "PNG", optimize=True)
+        return out.getvalue(), True
+    except Exception:
+        return data, False

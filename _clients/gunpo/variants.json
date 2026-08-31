@@ -1,0 +1,42 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gunpo",
+ "origin": "manual",
+ "primary": "primary",
+ "variants": [
+  {
+   "key": "primary",
+   "form": "vertical",
+   "lang": "ko",
+   "color": "color",
+   "label": "조합형 (로고타입+태그라인)",
+   "order": 0,
+   "files": {
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "logotype",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "기본형 로고타입 (GUNPO YOU)",
+   "order": 1,
+   "files": {
+    "png": "variants/logotype.png"
+   }
+  },
+  {
+   "key": "tagline",
+   "form": "wordmark",
+   "lang": "ko",
+   "color": "color",
+   "label": "태그라인 (Good for you)",
+   "order": 2,
+   "files": {
+    "png": "variants/tagline.png"
+   }
+  }
+ ]
+}

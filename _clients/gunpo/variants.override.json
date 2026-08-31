@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "origin": "manual",
+ "id": "gunpo",
+ "variants": [
+  {
+   "key": "primary",
+   "form": "vertical",
+   "label": "조합형 (로고타입+태그라인)",
+   "files": {
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "logotype",
+   "form": "horizontal",
+   "label": "기본형 로고타입 (GUNPO YOU)",
+   "files": {
+    "png": "variants/logotype.png"
+   }
+  },
+  {
+   "key": "tagline",
+   "form": "wordmark",
+   "label": "태그라인 (Good for you)",
+   "files": {
+    "png": "variants/tagline.png"
+   }
+  }
+ ]
+}

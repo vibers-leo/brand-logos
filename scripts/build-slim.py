@@ -84,6 +84,10 @@ def build() -> list:
         # slim 에도 실어 보낸다 (페이지는 살아 있으므로 404 는 나지 않는다).
         if b.get("variant_of"):
             row["variant_of"] = b["variant_of"]
+        # hidden = 로고답지 않은 이미지로 판정된 것. 목록·사이트맵에서 뺀다.
+        # slim 에 안 실으면 그리드가 그대로 보여준다.
+        if b.get("hidden"):
+            row["hidden"] = True
 
         # 검색 전용 별칭. LG·SK 처럼 로마자가 정식 이름인 브랜드를 '엘지'로
         # 찾을 수 있게 한다. 있는 것만 담아 용량을 아낀다.

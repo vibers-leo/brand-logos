@@ -10,9 +10,15 @@
   python3 scripts/scan-bad-logos.py
   python3 scripts/scan-bad-logos.py --apply   # hidden 플래그까지 적용
 """
-import json, os, sys
+import json, os, signal, sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 import collect_krx_lib as L
+
+# ⚠️ 렌더가 오래 걸리는 건 파일 크기가 아니라 path 복잡도다. 1.5MB 상한을
+#    걸었는데도 같은 자리에서 또 40분을 갇혔다. 시간으로 끊는 게 유일한 답이다.
+class Timeout(Exception): pass
+def _alarm(*_): raise Timeout()
+signal.signal(signal.SIGALRM, _alarm)
 
 OUT = "_clients/_bad-logos.json"
 MAX_SVG = 1_500_000   # 이보다 큰 SVG 는 렌더가 위험하다
@@ -40,8 +46,14 @@ def main():
             skipped.append([bid, sz]); ok.append(bid); n += 1; continue
         name = b.get("name_ko") or b.get("name_en")
         try:
+            signal.alarm(8)
             r, _, _ = L.ink_ratio(open(p, "rb").read(), p.endswith(".svg"))
+            signal.alarm(0)
+        except Timeout:
+            signal.alarm(0)
+            skipped.append([bid, sz]); ok.append(bid); n += 1; continue
         except Exception:
+            signal.alarm(0)
             bad.append([bid, name, "렌더실패", 0]); n += 1; continue
         if   r == -2.0: bad.append([bid, name, "문장이미지", 0])
         elif r == -3.0: bad.append([bid, name, "사진", 0])

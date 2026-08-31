@@ -26,3 +26,6 @@ _staging-pass2.json
 # 파이썬 캐시 — 추적하면 rebase 가 unstaged 로 막힌다
 __pycache__/
 *.pyc
+
+# 로고 품질 스캔 중간 산출물 — 브랜드 id 목록이 gitleaks 오탐을 낸다
+_clients/_bad-logos.json

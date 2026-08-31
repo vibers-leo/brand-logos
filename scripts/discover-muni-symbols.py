@@ -35,7 +35,7 @@ import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from collect_krx_lib import get   # noqa: E402
+from collect_krx_lib import get, get_text   # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TARGETS = ROOT / "_targets" / "sgg-targets.json"
@@ -63,7 +63,7 @@ def work(r):
     rec = {"name": r["name"], "site": r["site"], "page": None,
            "page_label": None, "assets": [], "status": ""}
     try:
-        h = get(r["site"], timeout=12)[0].decode("utf-8", "ignore")
+        h = get_text(r["site"], timeout=12)[0]
     except Exception as e:
         rec["status"] = f"접속실패:{type(e).__name__}"
         return rec
@@ -76,7 +76,7 @@ def work(r):
             if not (1 < len(t) < 16 and NAV.search(t)):
                 continue
             try:
-                h2 = get(u, timeout=10)[0].decode("utf-8", "ignore")
+                h2 = get_text(u, timeout=10)[0]
             except Exception:
                 continue
             hit = [(a, b) for a, b in links(h2, u) if 1 < len(a) < 24 and KEY.search(a)]
@@ -92,7 +92,7 @@ def work(r):
                      "/symbol.do", "/ci", "/kr/ci", "/intro/symbol",
                      "/introduction/symbol", "/about/symbol"):
             try:
-                hb = get(base + path, timeout=8, limit=120000)[0].decode("utf-8", "ignore")
+                hb = get_text(base + path, timeout=8, limit=120000)[0]
             except Exception:
                 continue
             # 실제 상징물 페이지인지 본문으로 확인한다 — 404 페이지도 200 을 준다
@@ -107,7 +107,7 @@ def work(r):
 
     rec["page_label"], rec["page"] = hit[0]
     try:
-        hp = get(rec["page"], timeout=15)[0].decode("utf-8", "ignore")
+        hp = get_text(rec["page"], timeout=15)[0]
     except Exception as e:
         rec["status"] = f"페이지실패:{type(e).__name__}"
         return rec

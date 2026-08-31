@@ -9,19 +9,19 @@
  },
  {
   "name": "강원특별자치도 고성군",
-  "site": "http://www.goseong.org/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.gwgs.go.kr",
+  "page": "https://www.gwgs.go.kr/kor/sub04_050301.do",
+  "page_label": "고성의 상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "동해시",
-  "site": "http://donghae.gangwon.kr/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.dh.go.kr",
+  "page": "https://www.dh.go.kr/www/contents.do?key=506",
+  "page_label": "상징물",
   "assets": [],
-  "status": "접속실패:URLError"
+  "status": "페이지만 있음"
  },
  {
   "name": "삼척시",
@@ -33,11 +33,11 @@
  },
  {
   "name": "속초시",
-  "site": "http://sokcho.gangwon.kr/",
+  "site": "https://www.sokcho.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
-  "status": "접속실패:URLError"
+  "status": "상징물 페이지 못 찾음"
  },
  {
   "name": "양구군",
@@ -66,18 +66,26 @@
  {
   "name": "원주시",
   "site": "http://www.wonju.go.kr/",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "http://www.wonju.go.kr/www/contents.do?key=235&",
+  "page_label": "원주의 상징",
+  "assets": [
+   "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file01.zip",
+   "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file02_1.zip",
+   "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file03.zip",
+   "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file04.zip",
+   "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file05.zip",
+   "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file06.zip",
+   "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file07.zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "인제군",
   "site": "http://www.inje.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.inje.go.kr/mobile/inje/localsymbol",
+  "page_label": "지역상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "정선군",
@@ -98,14 +106,14 @@
  {
   "name": "춘천시",
   "site": "https://youthzone.chuncheon.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.chuncheon.go.kr/cityhall/about-chuncheon/introduction/symbol/",
+  "page_label": "상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "태백시",
-  "site": "https://tour.taebaek.go.kr/",
+  "site": "https://www.taebaek.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
@@ -113,11 +121,11 @@
  },
  {
   "name": "평창군",
-  "site": "http://en.yes-pc.net/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.pc.go.kr",
+  "page": "https://www.pc.go.kr/cave/intro/intro-character",
+  "page_label": "캐릭터 소개",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "홍천군",
@@ -125,7 +133,7 @@
   "page": null,
   "page_label": null,
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "접속실패:OSError"
  },
  {
   "name": "화천군",
@@ -140,10 +148,10 @@
  {
   "name": "횡성군",
   "site": "https://www.hsg.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.hsg.go.kr/www/contents.do?key=727&amp;",
+  "page_label": "상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "가평군",
@@ -156,10 +164,10 @@
  {
   "name": "고양시",
   "site": "http://www.goyang.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.goyang.go.kr/www/www05/www05_3/www05_3_1.jsp",
+  "page_label": "시상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "과천시",
@@ -193,34 +201,52 @@
  {
   "name": "구리시",
   "site": "https://www.guri.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.guri.go.kr/www/contents.do?key=416",
+  "page_label": "시 상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "군포시",
   "site": "https://www.gunpo.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "https://www.gunpo.go.kr/www/contents.do?key=3943",
+  "page_label": "군포상징",
+  "assets": [
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_file1_new1.zip",
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_file1_02_new..zip",
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_slogan_jpg.zip",
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_slogan_ai.zip",
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_slogan_pdf.zip",
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_file4_new.zip",
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_file4_02_new.zip",
+   "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_brand_guide.pdf"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "김포시",
   "site": "https://www.gimpo.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "https://www.gimpo.go.kr/portal/contents.do?key=1232",
+  "page_label": "김포상징",
+  "assets": [
+   "https://www.gimpo.go.kr/site/portal/download/cts1232_file01.pdf",
+   "https://www.gimpo.go.kr/site/portal/images/contents/CI.zip",
+   "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.pdf",
+   "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.zip",
+   "https://www.gimpo.go.kr/site/portal/images/contents/BI.zip",
+   "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_bi.pdf",
+   "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_bi.zip",
+   "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi_png.zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "남양주시",
   "site": "http://www.nyj.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.nyj.go.kr/www/contents.do?key=2525",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "동두천시",
@@ -258,10 +284,10 @@
  {
   "name": "수원시",
   "site": "http://www.suwon.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.suwon.go.kr/sw-www/www05/www05-03/www05-03-10.jsp",
+  "page_label": "마스코트",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "시흥시",
@@ -289,11 +315,11 @@
  },
  {
   "name": "안양시",
-  "site": "https://www.anyang.go.kr/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.anyang.go.kr",
+  "page": "https://www.anyang.go.kr/main/contents.do?key=296",
+  "page_label": "안양의 상징",
   "assets": [],
-  "status": "접속실패:URLError"
+  "status": "페이지만 있음"
  },
  {
   "name": "양주시",
@@ -316,18 +342,27 @@
  {
   "name": "여주시",
   "site": "http://www.yj21.net/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.yj21.net/www/contents.do?key=393",
+  "page_label": "상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "연천군",
-  "site": "https://www.iyc21.net",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "접속실패:HTTPError"
+  "site": "https://www.yeoncheon.go.kr",
+  "page": "https://www.yeoncheon.go.kr/www/contents.do?key=3411",
+  "page_label": "상징",
+  "assets": [
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=cts3411_file01_220914.ai",
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=cts3411_file03.zip",
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=cts3411_file04.zip",
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=cts3411_file02.pdf",
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=www3411_3a.zip",
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=www3411_2.pdf",
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=www3411_4.zip",
+   "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=www3411_cha1-1_250404.zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "오산시",
@@ -339,11 +374,11 @@
  },
  {
   "name": "용인시",
-  "site": "http://www.yongin.go.kr/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.yongin.go.kr",
+  "page": "https://www.yongin.go.kr/home/yiIf/yiIfProd/yiIfProd04.jsp",
+  "page_label": "용인의 상징",
   "assets": [],
-  "status": "접속실패:URLError"
+  "status": "페이지만 있음"
  },
  {
   "name": "의왕시",
@@ -388,7 +423,7 @@
  },
  {
   "name": "평택시",
-  "site": "https://www.pyeongtaek.go.kr/en/main.do",
+  "site": "https://www.pyeongtaek.go.kr",
   "page": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0502000000",
   "page_label": "평택의 상징",
   "assets": [],
@@ -397,10 +432,10 @@
  {
   "name": "포천시",
   "site": "https://www.pcs21.net",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.pcs21.net/www/contents.do?key=3820",
+  "page_label": "포천의 상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "하남시",
@@ -412,11 +447,11 @@
  },
  {
   "name": "화성시",
-  "site": "https://www.hscity.go.kr",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.hscity.go.kr/www/index.do",
+  "page": "https://www.hscity.go.kr/www/intro/gnrlSttus/ctyhllSymbol/ctyhllSymbol01.jsp",
+  "page_label": "화성의 상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "거제시",
@@ -488,11 +523,11 @@
  },
  {
   "name": "산청군",
-  "site": "http://www.sancheong.ne.kr/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.sancheong.go.kr",
+  "page": "https://www.sancheong.go.kr/www/contents.do?key=177",
+  "page_label": "상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "양산시",
@@ -520,11 +555,13 @@
  },
  {
   "name": "진주시",
-  "site": "https://creativecityjinju.kr/",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "site": "https://www.jinju.go.kr",
+  "page": "https://www.jinju.go.kr/00135/01109/01119.web",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.jinju.go.kr/_res/portal/data/jinju_logo_2020.zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "창원시",
@@ -542,10 +579,10 @@
  {
   "name": "통영시",
   "site": "https://www.tongyeong.go.kr",
-  "page": "https://www.tongyeong.go.kr/00055.web",
-  "page_label": "통영의 상징",
+  "page": null,
+  "page_label": null,
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "상징물 페이지 못 찾음"
  },
  {
   "name": "하동군",
@@ -595,18 +632,21 @@
  {
   "name": "경산시",
   "site": "https://www.gbgs.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "https://www.gbgs.go.kr/open_content/ko/page.do?mnu_uid=2263&amp;",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.gbgs.go.kr/design/ko/file_down/ci_png.zip",
+   "https://www.gbgs.go.kr/design/ko/file_down/ci_ai.zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "경주시",
   "site": "http://www.gyeongju.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.gyeongju.go.kr/page.do?mnu_uid=3612&amp;",
+  "page_label": "경주의 상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "고령군",
@@ -629,18 +669,20 @@
  {
   "name": "김천시",
   "site": "https://www.gc.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "https://www.gc.go.kr/portal/contents.do?mId=1201030000",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.gc.go.kr/design/main/file/popup_240216.pdf"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "문경시",
   "site": "http://www.gbmg.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.gbmg.go.kr/portal/contents.do?mId=0501010000",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "봉화군",
@@ -661,10 +703,19 @@
  {
   "name": "성주군",
   "site": "https://www.sj.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "https://www.sj.go.kr/page.do?mnu_uid=1014&",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.sj.go.kr/download/S0001/down2.zip",
+   "https://www.sj.go.kr/download/S0001/logo2.zip",
+   "https://www.sj.go.kr/download/S0001/fun_seongju.zip",
+   "https://www.sj.go.kr/download/S0001/clean_bs2.zip",
+   "https://www.sj.go.kr/download/S0001/down4.zip",
+   "https://www.sj.go.kr/download/S0001/down3.zip",
+   "https://www.sj.go.kr/download/S0001/chambyeoli_down.zip",
+   "https://www.sj.go.kr/download/S0001/chambyeoli_ai.zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "안동시",
@@ -697,10 +748,10 @@
  {
   "name": "영주시",
   "site": "http://www.yeongju.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.yeongju.go.kr/page.do?mnu_uid=3733&amp;",
+  "page_label": "영주의 상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "영천시",
@@ -733,10 +784,10 @@
  {
   "name": "울릉군",
   "site": "http://www.ulleung.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.ulleung.go.kr/page.do?mnu_uid=454&amp;",
+  "page_label": "울릉의 상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "울진군",
@@ -749,10 +800,10 @@
  {
   "name": "의성군",
   "site": "https://www.usc.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.usc.go.kr/page.do?mnu_uid=396&amp;",
+  "page_label": "의성상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지실패:OSError"
  },
  {
   "name": "청도군",
@@ -818,10 +869,10 @@
  {
   "name": "광주광역시 동구",
   "site": "http://www.donggu.gwangju.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.donggu.gwangju.kr/menu.es?mid=a10503010100",
+  "page_label": "동구의 상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "광주광역시 북구",
@@ -842,10 +893,10 @@
  {
   "name": "군위군",
   "site": "https://www.gunwi.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.gunwi.go.kr/page.do?mnu_uid=191&amp;",
+  "page_label": "군위의 상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "대구광역시 남구",
@@ -921,7 +972,7 @@
   "page": null,
   "page_label": null,
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "접속실패:OSError"
  },
  {
   "name": "대구광역시 중구",
@@ -945,15 +996,15 @@
   "page": null,
   "page_label": null,
   "assets": [],
-  "status": "접속실패:URLError"
+  "status": "접속실패:OSError"
  },
  {
   "name": "대전광역시 동구",
   "site": "http://www.donggu.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "https://donggu.go.kr/dg/kor/contents/549",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "대전광역시 서구",
@@ -1014,7 +1065,7 @@
  },
  {
   "name": "부산광역시 남구",
-  "site": "http://www.nam.busan.kr/",
+  "site": "https://www.bsnamgu.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
@@ -1047,10 +1098,10 @@
  {
   "name": "부산광역시 북구",
   "site": "https://www.bsbukgu.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.bsbukgu.go.kr/index.bsbukgu?menuCd=DOM_000000106002004001",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "사상구",
@@ -1062,11 +1113,16 @@
  },
  {
   "name": "사하구",
-  "site": "https://www.saha.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "접속실패:HTTPError"
+  "site": "https://www.saha.go.kr/main.do",
+  "page": "https://www.saha.go.kr/portal/contents.do?mId=0602050000",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.saha.go.kr/portal/Downfiles/symbol_jpg_2022.zip",
+   "https://www.saha.go.kr/portal/Downfiles/symbol_ai_2022.zip",
+   "https://www.saha.go.kr/portal/Downfiles/ms9_pdf_goals.pdf",
+   "https://www.saha.go.kr/portal/Downfiles/ms9_ai_goals.ai"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "부산광역시 서구",
@@ -1130,10 +1186,10 @@
  {
   "name": "강동구",
   "site": "http://www.gangdong.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.gangdong.go.kr/web/newportal/contents/gdp_004_001_005_001",
+  "page_label": "강동의상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "강북구",
@@ -1172,11 +1228,14 @@
  },
  {
   "name": "구로구",
-  "site": "http://www.guro.go.kr/",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "site": "http://www.guro.go.kr/www/index.do",
+  "page": "http://www.guro.go.kr/www/contents.do?key=2092&",
+  "page_label": "상징",
+  "assets": [
+   "https://www.guro.go.kr/DATA/download/www/0618_cts_file1.pdf?",
+   "http://www.guro.go.kr/DATA/download/www/0618_cts_file2.pdf?"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "금천구",
@@ -1188,8 +1247,8 @@
  },
  {
   "name": "노원구",
-  "site": "https://nowon.go.kr",
-  "page": "https://nowon.go.kr/www/intrcn/intrcn2/intrcn2_02.jsp",
+  "site": "https://www.nowon.kr",
+  "page": "https://www.nowon.kr/www/intrcn/intrcn2/intrcn2_02.jsp",
   "page_label": "노원상징",
   "assets": [],
   "status": "페이지만 있음"
@@ -1207,15 +1266,15 @@
  {
   "name": "동대문구",
   "site": "https://www.ddm.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "https://www.ddm.go.kr/www/contents.do?key=260",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "동작구",
   "site": "http://www.dongjak.go.kr/",
-  "page": "http://www.dongjak.go.kr/portal/main/contents.do?menuNo=200650",
+  "page": "http://www.dongjak.go.kr/portal/main/contents.do?menuNo=200649",
   "page_label": "상징",
   "assets": [],
   "status": "페이지만 있음"
@@ -1239,10 +1298,13 @@
  {
   "name": "서초구",
   "site": "http://www.seocho.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "https://www.seocho.go.kr/site/seocho/05/10502050000002015070810.jsp",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.seocho.go.kr/common/files/Download.do?cfIdx=CF00000203&amp;cfGroup=COMMON&amp;cfRename=9a436094-c742-4fa4-b32f-d57c7a052825.ai",
+   "https://www.seocho.go.kr/common/files/Download.do?cfIdx=CF00095449&amp;cfGroup=COMMON&amp;cfRename=20221111132321_062yp2nnkyziaodfoekp5qi1rfdpffpf.pdf"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "성동구",
@@ -1260,15 +1322,15 @@
  },
  {
   "name": "성북구",
-  "site": "https://seongbuk.go.kr",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.sb.go.kr",
+  "page": "https://www.sb.go.kr/www/contents.do?key=5965",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "송파구",
-  "site": "http://www.songpa.go.kr/",
+  "site": "https://www.songpa.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
@@ -1302,19 +1364,19 @@
  },
  {
   "name": "용산구",
-  "site": "http://www.yongsan.go.kr/site/en/index.jsp",
-  "page": "http://www.yongsan.go.kr/portal/main/contents.do?menuNo=200223",
+  "site": "https://www.yongsan.go.kr",
+  "page": "https://www.yongsan.go.kr/portal/main/contents.do?menuNo=200223",
   "page_label": "용산의상징물",
   "assets": [],
   "status": "페이지만 있음"
  },
  {
   "name": "은평구",
-  "site": "http://www.eunpyeong.seoul.kr/en/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.ep.go.kr",
+  "page": "https://www.ep.go.kr/www/contents.do?key=777",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "종로구",
@@ -1327,15 +1389,19 @@
  {
   "name": "서울특별시 중구",
   "site": "https://www.junggu.seoul.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "page": "https://www.junggu.seoul.kr/content.do?cmsid=16048",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.junggu.seoul.kr/common/file/9color_cs4.zip",
+   "http://www.junggu.seoul.kr/cwsboard/board.do?mode=download&amp;bid=1066&amp;cid=919507932&amp;fileIndex=1&amp;filename=91950_201912241126086340.pdf",
+   "https://www.junggu.seoul.kr/convert.jsp?bid=1066&cid=1466569294&filePath=1066/&fileIndex=1&fileName=146656_202608111118077380.pdf"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "중랑구",
-  "site": "http://www.jungnang.seoul.kr/",
-  "page": "http://www.jungnang.seoul.kr/portal/main/contents.do?menuNo=200455",
+  "site": "https://www.jungnang.go.kr",
+  "page": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=200455",
   "page_label": "상징물",
   "assets": [],
   "status": "페이지만 있음"
@@ -1399,11 +1465,11 @@
  },
  {
   "name": "강화군",
-  "site": "https://ganghwa.go.kr",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.ganghwa.go.kr",
+  "page": "https://www.ganghwa.go.kr/open_content/main/ganghwa/info/symbol.jsp",
+  "page_label": "강화의상징",
   "assets": [],
-  "status": "접속실패:HTTPError"
+  "status": "페이지만 있음"
  },
  {
   "name": "계양구",
@@ -1454,11 +1520,11 @@
  },
  {
   "name": "인천광역시 서구",
-  "site": "http://www.seo.incheon.kr/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.seo.incheon.kr",
+  "page": "https://www.seo.incheon.kr/open_content/main/seogu/info/symbol.jsp",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "연수구",
@@ -1482,7 +1548,7 @@
   "page": null,
   "page_label": null,
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "접속실패:OSError"
  },
  {
   "name": "강진군",
@@ -1497,11 +1563,19 @@
  },
  {
   "name": "고흥군",
-  "site": "http://www.goheung.go.kr/gh_eng/",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "site": "https://www.goheung.go.kr",
+  "page": "https://www.goheung.go.kr/contentsView.do?pageId=www109",
+  "page_label": "상징물",
+  "assets": [
+   "https://www.goheung.go.kr/home/www/down/행정전화번호부_20260129.pdf",
+   "https://www.goheung.go.kr/home/www/down/goheung_ci.pdf",
+   "https://www.goheung.go.kr/home/www/down/goheung_ci_horizontal.ai",
+   "https://www.goheung.go.kr/home/www/down/goheung_ci_vertical.ai",
+   "https://www.goheung.go.kr/home/www/down/goheung_character_basic.ai",
+   "https://www.goheung.go.kr/home/www/down/goheung_character_text.ai",
+   "https://www.goheung.go.kr/home/www/down/www109/고흥군 캐릭터 응용형 개별파일(png).zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "곡성군",
@@ -1548,7 +1622,7 @@
  },
  {
   "name": "목포시",
-  "site": "https://www.mokpo.go.kr",
+  "site": "https://www.mokpo.go.kr/www/index.do",
   "page": "https://www.mokpo.go.kr/www/introduce/mokpo_symbol",
   "page_label": "목포시상징",
   "assets": [
@@ -1561,11 +1635,15 @@
  },
  {
   "name": "무안군",
-  "site": "https://muan.go.kr",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "site": "https://www.muan.go.kr",
+  "page": "https://www.muan.go.kr/www/abountmuan/symbol",
+  "page_label": "무안의 상징",
+  "assets": [
+   "https://www.muan.go.kr/www/abountmuan/symbol/screen_print.pdf?page%3D1",
+   "https://www.muan.go.kr/contents/27244/symbol_box.zip",
+   "https://www.muan.go.kr/contents/27244/qrcode.zip"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "보성군",
@@ -1617,7 +1695,7 @@
  },
  {
   "name": "영암군",
-  "site": "http://www.yeongam.go.kr/home/",
+  "site": "https://www.yeongam.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
@@ -1633,7 +1711,7 @@
  },
  {
   "name": "장성군",
-  "site": "http://www.jangseong.go.kr/english-2004/index.html",
+  "site": "https://www.jangseong.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
@@ -1769,8 +1847,12 @@
   "site": "http://imsil.go.kr/",
   "page": "http://imsil.go.kr/index.imsil?menuCd=DOM_000000105002000000",
   "page_label": "우리군상징",
-  "assets": [],
-  "status": "페이지실패:HTTPError"
+  "assets": [
+   "http://imsil.go.kr/images/01_potal/file/sub05/symbol_ai.zip",
+   "http://imsil.go.kr/images/01_potal/file/sub05/symbol_jpg.zip",
+   "http://imsil.go.kr/upload_data/board_data/BBS_0000008/178122686621833.pdf"
+  ],
+  "status": "배포파일 있음"
  },
  {
   "name": "장수군",
@@ -1835,7 +1917,7 @@
  },
  {
   "name": "금산군",
-  "site": "https://www.geumsan.go.kr/en/",
+  "site": "https://www.geumsan.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
@@ -1851,11 +1933,11 @@
  },
  {
   "name": "당진시",
-  "site": "https://dangjin.go.kr",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.dangjin.go.kr",
+  "page": "https://www.dangjin.go.kr/kor/sub04_01_04.do",
+  "page_label": "당진시상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "보령시",
@@ -1888,16 +1970,16 @@
  },
  {
   "name": "서산시",
-  "site": "http://www.seosantour.net/",
-  "page": null,
-  "page_label": null,
+  "site": "https://www.seosan.go.kr",
+  "page": "https://www.seosan.go.kr/www/contents.do?key=1372",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "서천군",
   "site": "http://www.seocheon.go.kr",
-  "page": "http://www.seocheon.go.kr/kor/sub05_02_01.do;jsessionid=3E59006CEF50045DE36E2B837CD3200B",
+  "page": "http://www.seocheon.go.kr/kor/sub05_02_01.do;jsessionid=D0B770342477CACA594884FA99EBCA0A",
   "page_label": "서천의 상징",
   "assets": [],
   "status": "페이지만 있음"
@@ -1937,10 +2019,10 @@
  {
   "name": "태안군",
   "site": "http://www.taean.go.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.taean.go.kr/kor/sub05_02_01.do",
+  "page_label": "태안의 상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "홍성군",
@@ -1969,26 +2051,26 @@
  {
   "name": "보은군",
   "site": "http://www.boeun.go.kr/",
+  "page": "http://www.boeun.go.kr/www/contents.do?key=311",
+  "page_label": "상징",
+  "assets": [],
+  "status": "페이지만 있음"
+ },
+ {
+  "name": "영동군",
+  "site": "https://www.yd21.go.kr",
   "page": null,
   "page_label": null,
   "assets": [],
   "status": "상징물 페이지 못 찾음"
- },
- {
-  "name": "영동군",
-  "site": "http://www.yd21.go.kr/",
-  "page": null,
-  "page_label": null,
-  "assets": [],
-  "status": "접속실패:URLError"
  },
  {
   "name": "옥천군",
   "site": "http://www.oc.go.kr",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.oc.go.kr/www/contents.do?key=2615&amp;",
+  "page_label": "옥천의상징",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "음성군",
@@ -1996,15 +2078,15 @@
   "page": null,
   "page_label": null,
   "assets": [],
-  "status": "접속실패:HTTPError"
+  "status": "접속실패:OSError"
  },
  {
   "name": "제천시",
   "site": "http://www.okjc.net/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.okjc.net/www/contents.do?key=318",
+  "page_label": "상징물과 시민의 노래",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지만 있음"
  },
  {
   "name": "증평군",

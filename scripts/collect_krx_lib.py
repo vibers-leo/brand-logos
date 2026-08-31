@@ -23,10 +23,87 @@ CTX.check_hostname = False
 CTX.verify_mode = ssl.CERT_NONE
 
 
-def get(url, timeout=15, limit=400_000):
-    r = urllib.request.urlopen(
-        urllib.request.Request(url, headers={"User-Agent": UA}), timeout=timeout, context=CTX)
-    return r.read(limit), r.headers.get("Content-Type", "")
+def get(url, timeout=15, limit=400_000, _depth=0):
+    """HTTP GET. **curl 로 한다** — 파이썬 요청이 막히는 서버가 있다.
+
+    ⚠️ 2026-08-31 실측: 동해(dh.go.kr)·속초(sokcho.go.kr)·안양·용인·영동·
+       강원고성 6곳이 curl 로는 전부 HTTP 200 인데 urllib 로는 전부 실패했다.
+       같은 User-Agent 를 줘도 그렇다 — 헤더 순서·TLS 핑거프린트로 거르는
+       것으로 보인다. CLAUDE.md 의 인스타그램 차단과 같은 부류다.
+       그동안 이 서버들을 '접속 실패'로 처리하며 수집을 놓치고 있었다.
+    """
+    import subprocess, tempfile, os
+    # ⚠️ content-type 을 stdout 에 섞으면 안 된다. PNG·SVG 같은 바이너리는
+    #    끝부분이 잘릴 수 있다. 본문은 파일로 받고 헤더만 stdout 으로 받는다.
+    fd, tmp = tempfile.mkstemp(prefix="vlc-")
+    os.close(fd)
+    try:
+        r = subprocess.run(
+            ["curl", "-sL", "--max-time", str(timeout), "-A", UA, "--compressed",
+             "-o", tmp, "-w", "%{content_type}", url],
+            capture_output=True)
+        if r.returncode != 0:
+            raise OSError(f"curl exit {r.returncode}: {url[:80]}")
+        ctype = r.stdout.decode("ascii", "ignore").strip()
+        with open(tmp, "rb") as f:
+            body = f.read(limit)
+    finally:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+    if not body:
+        raise OSError(f"빈 응답: {url[:80]}")
+
+    # ⚠️ 지자체 사이트는 JS 리다이렉트로 시작하는 곳이 많다.
+    #    동해시는 82바이트 짜리 <script>location.href="/www/index.do"</script>
+    #    하나가 전부다. curl 은 이걸 못 따라가서 '빈 사이트'로 보였고,
+    #    실측 114곳 중 37곳이 그렇게 실패로 처리되고 있었다.
+    if _depth < 3 and len(body) < 6000:
+        head = body[:2000].decode("utf-8", "ignore")
+        # location.href 뿐 아니라 <meta http-equiv="refresh"> 도 쓴다.
+        # 강동구·고양시가 그렇다 — 이걸 놓쳐서 97B·179B 껍데기만 받고 있었다.
+        import urllib.parse as _up
+        # ⚠️ location.href 가 여러 개일 수 있다. 시흥시는 첫 번째가 자기 자신
+        #    ('https://www.siheung.go.kr')이고 두 번째가 진짜 목적지
+        #    ('/newindex.jsp')다. 자기 URL 은 건너뛰어야 한다.
+        cands = re.findall(
+            r"""location(?:\.href|\.replace|)\s*(?:=|\()\s*["']([^"']+)""", head)
+        cands += re.findall(
+            r"""(?i)<meta[^>]+http-equiv=["']?refresh["']?[^>]+content=["'][^"']*?url=([^"'>\s]+)""",
+            head)
+        cur = url.rstrip("/")
+        for c in cands:
+            nxt = _up.urljoin(url, c)
+            if nxt.rstrip("/") != cur:
+                return get(nxt, timeout, limit, _depth + 1)
+    return body, ctype
+
+
+def get_text(url, timeout=15, limit=400_000):
+    """HTML 을 **인코딩을 맞춰** 문자열로 돌려준다.
+
+    ⚠️ 전부 UTF-8 로 디코딩하면 안 된다. 지자체 사이트에는 EUC-KR 이 남아 있다.
+       서대문구는 121KB 본문인데 utf-8 로 읽으면 '서대문'이 **0회**,
+       euc-kr 로 읽으면 143회다. 그래서 '사이트가 틀렸다'고 오판했다.
+       실제로는 사이트도 정상이고 '로고 및 상징물' 페이지까지 있었다.
+    """
+    body, ctype = get(url, timeout, limit)
+    enc = None
+    m = re.search(r"charset=([\w-]+)", ctype or "", re.I)
+    if m:
+        enc = m.group(1)
+    if not enc:
+        m = re.search(rb'charset=["\']?([\w-]+)', body[:3000], re.I)
+        if m:
+            enc = m.group(1).decode("ascii", "ignore")
+    for e in ([enc] if enc else []) + ["utf-8", "euc-kr", "cp949"]:
+        try:
+            t = body.decode(e, "strict")
+            return t, ctype
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return body.decode("utf-8", "ignore"), ctype
 
 
 def ink_ratio(data, is_svg):
@@ -101,3 +178,25 @@ def pick_logo(page_html, base):
         return w
 
     return [urllib.parse.urljoin(base, s) for s in sorted(named, key=rank)][:4]
+
+
+def _decode(body, ctype=""):
+    """바이트를 인코딩을 맞춰 문자열로. get() 결과에 쓴다.
+
+    ⚠️ utf-8 로 강제 디코딩하면 EUC-KR 사이트의 한글이 통째로 깨진다.
+       서대문구는 그래서 '서대문'이 0회로 나와 '사이트가 틀렸다'고 오판했다.
+    """
+    enc = None
+    m = re.search(r"charset=([\w-]+)", ctype or "", re.I)
+    if m:
+        enc = m.group(1)
+    if not enc:
+        m = re.search(rb'charset=["\']?([\w-]+)', body[:3000], re.I)
+        if m:
+            enc = m.group(1).decode("ascii", "ignore")
+    for e in ([enc] if enc else []) + ["utf-8", "euc-kr", "cp949"]:
+        try:
+            return body.decode(e, "strict")
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return body.decode("utf-8", "ignore")

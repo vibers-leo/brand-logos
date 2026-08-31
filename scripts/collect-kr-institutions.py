@@ -33,7 +33,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from collect_krx_lib import get, ink_ratio, pick_logo, UA   # noqa: E402  (아래에서 생성)
+from collect_krx_lib import get, ink_ratio, pick_logo, _decode   # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 C = ROOT / "_clients"
@@ -88,7 +88,7 @@ def work(inst):
     u = site if site.startswith("http") else "http://" + site
     try:
         page, _ = get(u)
-        h = page.decode("utf-8", "ignore")
+        h = _decode(page)
     except Exception as e:
         return (f"site_fail:{type(e).__name__}", inst, None, None)
 

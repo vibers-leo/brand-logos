@@ -87,6 +87,20 @@ SECTOR = [
 ]
 
 
+def _decode(body, ctype=""):
+    """인코딩을 맞춰 디코딩. utf-8 강제는 EUC-KR 사이트의 한글을 깨뜨린다."""
+    enc = None
+    m = re.search(rb'charset=["\']?([\w-]+)', body[:3000], re.I)
+    if m:
+        enc = m.group(1).decode("ascii", "ignore")
+    for e in ([enc] if enc else []) + ["utf-8", "euc-kr", "cp949"]:
+        try:
+            return body.decode(e, "strict")
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return body.decode("utf-8", "ignore")
+
+
 def get(url, timeout=15, limit=400_000):
     r = urllib.request.urlopen(
         urllib.request.Request(url, headers={"User-Agent": UA}), timeout=timeout, context=CTX)
@@ -179,7 +193,7 @@ def work(co):
     u = site if site.startswith("http") else "http://" + site
     try:
         page, _ = get(u)
-        h = page.decode("utf-8", "ignore")
+        h = _decode(page)
     except Exception as e:
         return (f"site_fail:{type(e).__name__}", co, None, None)
 

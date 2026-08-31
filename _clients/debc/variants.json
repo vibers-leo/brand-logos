@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "debc",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "25af106b4c19317d"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.777,
+   "provider": "kr-gov-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

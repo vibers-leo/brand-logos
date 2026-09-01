@@ -100,66 +100,163 @@ MAP = {
  "자동차": ["Q786820"],
 }
 
-# 위키데이터 영문 설명문에 쓰는 규칙. P31 이 'business' 뿐인 3,500건을
+# 위키데이터 영문 설명문에 쓰는 규칙. P31 이 'business' 뿐인 수천 건을
 # 여기서 건진다 — "German coffee company" 처럼 설명문에는 업종이 들어 있다.
+#
+# ⚠️⚠️ **어근에는 뒤쪽 \b 를 붙이면 안 된다.** 이 함정을 하루에 세 번 밟았다:
+#     `financial technolog\b`  → 'financial technology' 미매칭 (뒤에 y)
+#     `\bpharmaceutic\b`       → 'pharmaceutical company' 미매칭 (뒤에 al)
+#     `manufactur(er|ing) `    → 'manufacturer of X' 미매칭 (뒤에 of)
+#   에러가 안 나고 조용히 매칭만 실패하므로 눈치채기 어렵다.
+#   어근은 `\w*` 로 열어 두고, 완전한 단어에만 \b 를 쓴다.
+#   하이픈 표기도 함께 받는다 — 'real-estate company' 가 통째로 샜다.
 DESC_RULES = [
- # ⚠️ 도시를 공공·기관에 넣으면 안 된다. Menlo Park(도시)가 정부조직 옆에
- #    서게 된다. 이 서비스에서 도시는 '국가·지역'(국기·문장)과 같은 성격이다.
- # ⚠️ 앵커가 없으면 '방콕 지하철'(rapid transit system serving the Bangkok
- #    Metropolitan Region)이나 지역 TV 방송국까지 지역으로 끌려간다.
- #    설명문이 **그 말로 시작할 때만** 지역으로 본다.
  ("국가·지역", r"^(city|town|municipality|commune|village|borough|district)"
             r"( and (city|town|municipality|commune|village))? (in|of) |"
-            r"^capital (city )?of|^(prefecture|province|state|county) (in|of) "),
- ("금융·결제", r"\b((?<!voice )(?<!data )bank|banking|insurance|insurer|"
-             r"financial servic|asset manage|"
-             r"investment (bank|firm|manage)|credit union|payment|fintech|"
-             r"financial tech)"),   # \b 를 붙이면 안 된다 — technolog 뒤에 y 가 와서 경계가 아니다
- ("의료·바이오", r"\b(pharmaceutic|biotech|hospital|healthcare|health care|"
-              r"medical (device|technolog|centre|center)|clinic)\b"),
- ("공공·기관", r"\b(government agency|ministry|municipalit|commune|"
-            r"public authority|regulatory|state agency|"
-            r"political party|trade union|non-?profit organi[sz]ation|"
-            r"international organi[sz]ation|embassy)\b"),
- ("교육", r"\b(universit|college|school|educational institution|research institute|"
-        r"academy)\b"),
- ("미디어·엔터", r"\b(television (channel|network|station)|radio (station|network)|"
-              r"newspaper|magazine|publisher|publishing|record label|film studio|"
-              r"media (company|group|conglomerate)|broadcaster|news agency)\b"),
- ("스포츠", r"\b(football club|sports? (club|team|league|season|event)|"
-          r"basketball (club|team)|baseball (club|team)|olympic|championship)\b"),
- ("물류·교통", r"\b(airline|railway|railroad|transport(ation)? company|logistics|"
-            r"shipping (company|line)|bus (operator|company)|metro system|"
-            r"public transport)\b"),
- ("에너지·화학", r"\b(energy company|electric utility|utility company|oil (and|&) gas|"
-              r"petroleum|chemicals? (compan|manufactur|produc)|mining company|"
-              r"power (company|plant|utility))\b"),
- ("식품·음료", r"\b(brewery|brewing company|winery|distillery|food (company|"
-            r"manufactur|producer|processing)|beverage|dairy|restaurant chain|"
-            r"coffee (company|roaster)|confectioner)\b"),
- ("자동차", r"\b(automotive|car manufactur|automobile manufactur|motorcycle "
-          r"manufactur|auto parts|tire manufactur)\b"),
- ("유통·쇼핑", r"\b(retail(er|ing)? (chain|company|group)?|supermarket|"
-            r"department store|e-commerce|online (shop|store|retail)|"
-            r"fashion (retail|brand)|watchmak|jewell?er)\b"),
- ("IT·테크", r"\b(software (company|developer)|technology company|it (company|"
-           r"servic)|semiconductor|computer (hardware|manufactur)|"
-           r"internet company|web servic|cloud (computing|servic))\b"),
- ("게임", r"\b(video game (developer|publisher|company)|game studio)\b"),
- ("건설·부동산", r"\b(construction (company|firm)|real estate|property develop|"
-              r"engineering (company|firm)|architecture firm|skyscraper|building in)\b"),
- ("항공·우주·방산", r"\b(aerospace|defen[sc]e (contractor|company)|"
-                r"aircraft manufactur|space agency)\b"),
- ("숙박·여행", r"\b(hotel (chain|group|company)|resort|travel (company|agency)|"
-            r"tour operator|tourism)\b"),
- ("통신", r"\b(telecommunications?|telecom (company|operator)|mobile network "
-        r"operator|internet service provider)\b"),
- ("제조·그룹", r"\b(manufactur(er|ing) (company|conglomerate)?|industrial "
-            r"(company|conglomerate|group)|machinery|steel (producer|company)|"
-            r"textile)\b"),
- ("뷰티·패션", r"\b(cosmetics|clothing (brand|company|manufactur)|"
-            r"fashion (house|label|brand)|footwear|luxury (brand|goods)|perfum)\b"),
- ("교육", r"\b(publisher of (textbook|educational))\b"),
+            r"^capital (city )?of|^(prefecture|province|state|county) (in|of) |"
+            r"^canton of |^(region|county|province|state) of |"
+            r"^(federal |autonomous )?(state|region|territory) in "),
+
+ ("금융·결제", r"\b(bank|banks|banking|insurance|insurer|reinsur\w*|"
+             r"financial servic\w*|financial tech\w*|asset manage\w*|"
+             r"investment (bank|firm|manage\w*|compan\w*)|credit union|"
+             r"payment\w*|fintech|pension fund|hedge fund|private equity|"
+             r"stock exchange|securities|brokerage|mortgage|"
+             r"venture capital|building society)\b"),
+
+ ("의료·바이오", r"pharmaceutic\w*|biotech\w*|"
+              r"\b(hospital|hospitals|healthcare|health care|"
+              r"medical (device|technolog\w*|centre|center|equipment)|"
+              r"clinic|clinics|dental|diagnostic\w*|vaccine\w*|"
+              r"nursing home|health (system|insurance|service))\b"),
+
+ ("공공·기관", r"\b(government agency|ministry|public authority|"
+            r"regulatory|state agency|municipal authority|"
+            r"political party|trade union|labor union|"
+            r"non-?profit organi[sz]ation|charit\w*|foundation|"
+            r"international organi[sz]ation|embassy|"
+            r"professional (association|body)|trade association|"
+            r"advocacy group|think tank|research institute|"
+            r"public transit agency|police|fire department|"
+            r"national (agency|authority|bureau|library|archives))\b"),
+
+ ("교육", r"universit\w*|"
+        r"\b(college|school|schools|educational institution|academy|"
+        r"kindergarten|training (centre|center|institute)|"
+        r"e-?learning|online course\w*)\b"),
+
+ ("미디어·엔터", r"broadcast\w*|publish\w*|"
+              r"\b(television (channel|network|station|series|show|programme|program)|"
+              r"tv (channel|network|series|show)|radio (station|network)|"
+              r"newspaper|magazine|record label|film studio|"
+              r"media (company|group|conglomerate|outlet)|news (agency|website|site|show)|"
+              r"streaming (service|platform)|orchestra|"
+              r"theat(re|er)|museum|festival|concert|"
+              r"animation studio|talent agency|"
+              r"comic|manga|anime|podcast|subreddit|"
+              r"stock (photo|photos|video|footage)|ticket agent)\b"),
+
+ ("스포츠", r"\b(football club|sports? (club|team|league|season|event|association)|"
+          r"basketball (club|team)|baseball (club|team)|"
+          r"volleyball|handball|ice hockey|rugby|cricket club|"
+          r"olympic|championship|motorsport|racing team|"
+          r"golf (club|course)|stadium|arena|fitness (chain|centre|center)|gym)\b"),
+
+ ("물류·교통", r"\b(airline|airlines|railway|railways|railroad|"
+            r"transport (company|operator|authority|system)|transportation company|"
+            r"logistics|shipping (company|line)|freight|courier|"
+            r"bus (operator|company)|metro (system|operator)|"
+            r"streetcar|tram|subway|public transport|"
+            r"port (authority|operator)|airport|delivery service)\b"),
+
+ ("에너지·화학", r"chemical\w*|petrochemical\w*|"
+              r"\b(energy (company|group|supplier)|electric utility|utility company|"
+              r"utilities|oil (and|&) gas|oilfield servic\w*|petroleum|refinery|"
+              r"mining (company|group)|power (company|plant|utility|producer)|"
+              r"electricity (utility|supplier|producer|distribution)|"
+              r"(distribution|transmission) network operator|"
+              r"renewable energy|solar (company|energy)|wind (power|energy)|"
+              r"gas (utility|supplier|station\w*)|coal|natural gas|"
+              r"(chain|network) of (gas|petrol|service) stations)\b"),
+
+ ("식품·음료", r"\b(brewery|brewing (company|group)|winery|distillery|"
+            r"food (company|manufactur\w*|producer|processing|group|chain)|"
+            r"beverage|dairy|soymilk|restaurant (chain|group|company)|"
+            r"coffee (company|roaster|chain)|confectioner\w*|"
+            r"bakery|snack|soft drink|bottler|catering|"
+            r"candy|chocolate|ice cream|meat (processing|producer)|"
+            r"seafood|noodle|sauce|spice)\b"),
+
+ ("자동차", r"\b(automotive|car manufactur\w*|automobile manufactur\w*|"
+          r"motorcycle manufactur\w*|auto parts|tire manufactur\w*|"
+          r"truck manufactur\w*|bus manufactur\w*|car rental|"
+          r"vehicle manufactur\w*)\b"),
+
+ ("유통·쇼핑", r"\b(retail\w*|supermarket|hypermarket|department store|"
+            r"e-?commerce|online (shop|store|retail\w*|marketplace)|"
+            r"convenience store|bookstore|book shop|"
+            r"shopping (mall|centre|center)|"
+            r"fashion (retail\w*|brand|house|label)|"
+            r"watchmak\w*|jewell?er\w*|jewellery|jewelry|"
+            r"furniture (retail\w*|store|company)|"
+            r"multi-?level marketing|mail order|"
+            r"toy (shop|shops|store|company))\b"),
+
+ ("IT·테크", r"softwar\w*|technolog\w*|"
+           r"\b(it (company|servic\w*|consult\w*)|semiconductor|"
+           r"computer (hardware|manufactur\w*|company)|"
+           r"internet (company|servic\w*)|web servic\w*|social network|"
+           r"online (platform|servic\w*|community)|"
+           r"cloud (computing|servic\w*)|data (centre|center|analytics)|"
+           r"operating system|programming language|"
+           r"emulator|debugger|api|open-?source|"
+           r"artificial intelligence|machine learning|"
+           r"cyber ?security|smartphone|smartwatch|tablet computer|laptop|"
+           r"group of .{0,20}models produced by)\b"),
+
+ ("게임", r"\b(video game (developer|publisher|company|studio)|"
+        r"game (studio|developer|publisher)|"
+        r"arcade|esports|gaming (company|platform))\b"),
+
+ ("건설·부동산", r"construct\w*|engineering (company|firm|group)|"
+              r"\b(real[- ]estate|property (develop\w*|management|company)|"
+              r"architecture firm|architectural|skyscraper|"
+              r"building (company|materials)|infrastructure (company|group)|"
+              r"cement|housing (association|company))\b"),
+
+ ("항공·우주·방산", r"aerospace|"
+                r"\b(defen[sc]e (contractor|company|systems|industr\w*)|"
+                r"aircraft manufactur\w*|space (agency|company)|"
+                r"satellite (operator|manufactur\w*|servic\w*|communication\w*)|"
+                r"missile|armament\w*|weapons manufactur\w*)\b"),
+
+ ("숙박·여행", r"\b(hotel|hotels|resort|resorts|hostel|"
+            r"travel (company|agency|group)|tour operator|tourism|"
+            r"cruise (line|company)|casino|"
+            r"amusement park|theme park|holiday)\b"),
+
+ ("통신", r"telecom\w*|"
+        r"\b(mobile network operator|internet (service )?provider|"
+        r"isp|broadband|wireless carrier|"
+        r"telephone (company|operator)|cable (operator|company))\b"),
+
+ ("제조·그룹", r"manufactur\w*|"
+            r"\b(industrial (company|conglomerate|group)|machinery|"
+            r"steel (producer|company|mill)|textile\w*|"
+            r"paper (mill|company)|packaging|"
+            r"electronics (company|manufactur\w*)|electromechanical|"
+            r"equipment (manufactur\w*|maker)|"
+            r"conglomerate|holding company)\b"),
+
+ ("뷰티·패션", r"cosmetic\w*|fragrance\w*|"
+            r"\b(clothing (brand|company|manufactur\w*|retail\w*)|"
+            r"fashion (house|label|brand|designer)|footwear|shoe (brand|company)|"
+            r"luxury (brand|goods|fashion)|perfum\w*|"
+            r"skincare|skin care|makeup|beauty (brand|company)|"
+            r"apparel|sportswear|eyewear|handbag)\b"),
+
+ ("반려동물", r"\b(pet (food|care|supplies|products|shop)|veterinar\w*|"
+            r"animal (shelter|hospital))\b"),
 ]
 
 LOOK = {}

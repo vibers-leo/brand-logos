@@ -49,6 +49,19 @@ EXCEPT = {
  "swiss-university-sports": "대학 스포츠 연맹 — 스포츠가 맞다",
 }
 
+# 도메인 TLD 는 설명문보다 강한 신호다. .gov·.go.kr 은 정부기관이 아닐 수 없다.
+# 설명문이 'company' 뿐이라 규칙에 안 걸리던 87건을 여기서 건진다.
+TLD_RULES = [
+ ("공공·기관", r"\.(gov|gov\.[a-z]{2}|go\.kr|mil|mil\.[a-z]{2})$"),
+ ("교육", r"\.(edu|edu\.[a-z]{2}|ac\.[a-z]{2})$"),
+]
+
+
+def domain_of(b):
+    s = (b.get("domain") or b.get("website") or "").lower()
+    return re.sub(r"^https?://", "", s).split("/")[0].removeprefix("www.")
+
+
 def main():
     d = json.load(open("_clients/brands.json"))["brands"]
     hits = []
@@ -58,10 +71,24 @@ def main():
         if b["id"] in EXCEPT: continue
         t = " ".join(str(x) for x in
                      (b.get("name_en"), b.get("name_ko"), b.get("domain")) if x)
+        matched = False
         for cat, pat in RULES:
             if cat == cur: break
             if re.search(pat, t, re.I):
-                hits.append((b["id"], b.get("name_ko"), cur, cat, t[:44])); break
+                hits.append((b["id"], b.get("name_ko"), cur, cat, t[:44]))
+                matched = True; break
+        if matched: continue
+        # ⚠️ TLD 는 **'기타'에서만** 쓴다. 이미 분류된 것에 적용하면
+        #    NASA(.gov)가 '항공·우주·방산' → '공공·기관' 으로, 지자체(.go.kr)가
+        #    '국가·지역' → '공공·기관' 으로 끌려간다. 정부 도메인을 쓴다고
+        #    업종이 정부기관인 건 아니다.
+        if cur != "기타": continue
+        dm = domain_of(b)
+        if not dm: continue
+        for cat, pat in TLD_RULES:
+            if cat == cur: break
+            if re.search(pat, dm):
+                hits.append((b["id"], b.get("name_ko"), cur, cat, dm[:40])); break
     print(f"  어긋남 {len(hits)}건")
     for (a, bb), k in Counter((h[2], h[3]) for h in hits).most_common(12):
         print(f"     {str(a):<14} → {bb:<14} {k}")

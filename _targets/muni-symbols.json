@@ -13,7 +13,8 @@
   "page": "https://www.gwgs.go.kr/kor/sub04_050301.do",
   "page_label": "고성의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "동해시",
@@ -21,7 +22,29 @@
   "page": "https://www.dh.go.kr/www/contents.do?key=506",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.dh.go.kr/site/public/images/common/logo_color.svg",
+    "alt": "동해시 DONGHAE CITY"
+   },
+   {
+    "src": "https://www.dh.go.kr/site/www/images/contents/cts892_img01.png",
+    "alt": "제1유형 출처표시 마크"
+   },
+   {
+    "src": "https://www.dh.go.kr/site/www/images/contents/cts892_img02.png",
+    "alt": "제2유형 출처표시 마크"
+   },
+   {
+    "src": "https://www.dh.go.kr/site/www/images/contents/cts892_img03.png",
+    "alt": "제3유형 출처표시 마크"
+   },
+   {
+    "src": "https://www.dh.go.kr/site/www/images/contents/cts892_img04.png",
+    "alt": "제4유형 출처표시 마크"
+   }
+  ]
  },
  {
   "name": "삼척시",
@@ -45,7 +68,25 @@
   "page": "https://www.yanggu.go.kr/user_sub?gfnc=www&mu_idx=275",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.yanggu.go.kr/resources/images/fnc_images/common/logo.png",
+    "alt": "로고"
+   },
+   {
+    "src": "https://www.yanggu.go.kr/resources/images/fnc_images/common/logo.png",
+    "alt": "로고"
+   },
+   {
+    "src": "https://www.yanggu.go.kr/resources/images/fnc_images/common/logo.png",
+    "alt": "로고"
+   },
+   {
+    "src": "https://www.yanggu.go.kr/resources/images/fnc_images/common/logo.png",
+    "alt": "로고"
+   }
+  ]
  },
  {
   "name": "양양군",
@@ -61,7 +102,37 @@
   "page": "https://www.yw.go.kr/www/contents.do?key=1457",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.yw.go.kr/site/www/images/common/flog.png",
+    "alt": "국가상징 태극기"
+   },
+   {
+    "src": "https://www.yw.go.kr/site/www/images/contents/514_img2.jpg",
+    "alt": "슬로건(Young World 영월 YeongWol)"
+   },
+   {
+    "src": "https://www.yw.go.kr/site/www/images/contents/514_img3.jpg",
+    "alt": "군조-까막딱따구리"
+   },
+   {
+    "src": "https://www.yw.go.kr/site/www/images/contents/514_img4.jpg",
+    "alt": "군목-소나무"
+   },
+   {
+    "src": "https://www.yw.go.kr/site/www/images/contents/514_img5.jpg",
+    "alt": "군화-철쭉"
+   },
+   {
+    "src": "https://www.yw.go.kr/site/www/images/contents/514_img6.jpg",
+    "alt": "군상징물-하늘다람쥐"
+   },
+   {
+    "src": "https://www.yw.go.kr/site/www/images/common/taegeukgi_mark.png",
+    "alt": "국가상징 알아보기"
+   }
+  ]
  },
  {
   "name": "원주시",
@@ -77,7 +148,29 @@
    "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file06.zip",
    "http://www.wonju.go.kr/www/downloadContentsFile.do?fileNm=cts235_file07.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.wonju.go.kr/site/www/images/contents/cts235_img2.png",
+    "alt": "원주시 브랜드슬로건 1"
+   },
+   {
+    "src": "http://www.wonju.go.kr/site/www/images/contents/cts235_img3.png",
+    "alt": "원주시 브랜드슬로건 2"
+   },
+   {
+    "src": "http://www.wonju.go.kr/site/www/images/contents/cts235_img4.png",
+    "alt": "원주시 건강도시 CI"
+   },
+   {
+    "src": "http://www.wonju.go.kr/site/www/images/contents/cts235_img5.png",
+    "alt": "원주시 안전도시 CI"
+   },
+   {
+    "src": "http://www.wonju.go.kr/site/www/images/main/kr_banner.png",
+    "alt": "국가상징"
+   }
+  ]
  },
  {
   "name": "인제군",
@@ -85,7 +178,21 @@
   "page": "http://www.inje.go.kr/mobile/inje/localsymbol",
   "page_label": "지역상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.inje.go.kr/page/mobile/images/intro/symbol_img02.gif",
+    "alt": "인제군 마스코트(Mascot) 이미지"
+   },
+   {
+    "src": "http://www.inje.go.kr/page/mobile/images/intro/symbol_img03.gif",
+    "alt": "인제군 마스코트(Mascot) 이미지"
+   },
+   {
+    "src": "http://www.inje.go.kr/page/mobile/images/intro/symbol_img05.gif",
+    "alt": "군조(郡鳥) 백비둘기 County Bird(white dove) 이미지"
+   }
+  ]
  },
  {
   "name": "정선군",
@@ -109,7 +216,21 @@
   "page": "https://www.chuncheon.go.kr/cityhall/about-chuncheon/introduction/symbol/",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.chuncheon.go.kr/_user/restructure2022/cityhall/img/layout/img-logo.gif",
+    "alt": "춘천시 로고"
+   },
+   {
+    "src": "https://www.chuncheon.go.kr/_user/restructure2022/base/img/layout/img-logo-footer.svg",
+    "alt": "춘천시 로고"
+   },
+   {
+    "src": "https://www.eprivacy.or.kr/images/mng/sub/mark1_eprivacy_plus.png",
+    "alt": "개인정보보호마크 ePRIVACY"
+   }
+  ]
  },
  {
   "name": "태백시",
@@ -125,7 +246,17 @@
   "page": "https://www.pc.go.kr/cave/intro/intro-character",
   "page_label": "캐릭터 소개",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.pc.go.kr/page/cave/images/common/img-logo.png",
+    "alt": "백룡동굴 생태체험학습장 로고"
+   },
+   {
+    "src": "https://www.pc.go.kr/page/cave/images/common/img-logo_02.png",
+    "alt": "백룡동굴 생태체험학습장 로고"
+   }
+  ]
  },
  {
   "name": "홍천군",
@@ -133,7 +264,7 @@
   "page": null,
   "page_label": null,
   "assets": [],
-  "status": "접속실패:OSError"
+  "status": "상징물 페이지 못 찾음"
  },
  {
   "name": "화천군",
@@ -143,7 +274,29 @@
   "assets": [
    "https://ihc.go.kr/DATA/download/www/cts123_logo.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://ihc.go.kr/www/images/contents/cts123_img01.png",
+    "alt": "화천군 로고"
+   },
+   {
+    "src": "https://ihc.go.kr/www/images/contents/cts123_img02.png",
+    "alt": "화천군 심벌마크 최소 사용규정 : 높이 8mm"
+   },
+   {
+    "src": "https://ihc.go.kr/www/images/contents/cts123_character.jpg",
+    "alt": "화천군 기본캐릭터 산이와 진이 이미지"
+   },
+   {
+    "src": "https://ihc.go.kr/www/images/contents/cts123_character_each.jpg",
+    "alt": "화천군 캐릭터 물이, 연이, 달이, 천이 이미지"
+   },
+   {
+    "src": "https://ihc.go.kr/www/images/common/footer_logo.png",
+    "alt": "화천군 로고"
+   }
+  ]
  },
  {
   "name": "횡성군",
@@ -151,7 +304,33 @@
   "page": "https://www.hsg.go.kr/www/contents.do?key=727&amp;",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.hsg.go.kr/site/www/images/contents/cts727_img01.png",
+    "alt": "횡성군 자연친화, 인간중심, 미래지향 - 횡성군 대표상징 이밎"
+   },
+   {
+    "src": "https://www.hsg.go.kr/site/www/images/contents/cts727_img02.png",
+    "alt": "마스코트 한우리 이미지"
+   },
+   {
+    "src": "https://www.hsg.go.kr/site/www/images/contents/cts727_img03.png",
+    "alt": "횡성군목 느티나무 사진"
+   },
+   {
+    "src": "https://www.hsg.go.kr/site/www/images/contents/cts727_img04.png",
+    "alt": "군화 함박꽃 사진"
+   },
+   {
+    "src": "https://www.hsg.go.kr/site/www/images/contents/cts727_img05.png",
+    "alt": "군조 백로 사진"
+   },
+   {
+    "src": "https://www.hsg.go.kr/site/www/images/common/logo_kr.png",
+    "alt": "국가상징 태극기 무궁화 이미지"
+   }
+  ]
  },
  {
   "name": "가평군",
@@ -167,7 +346,8 @@
   "page": "http://www.goyang.go.kr/www/www05/www05_3/www05_3_1.jsp",
   "page_label": "시상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "과천시",
@@ -175,7 +355,13 @@
   "page": "http://www.gccity.go.kr/portal/contents.do?mId=0511000000",
   "page_label": "과천상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.gccity.go.kr/common/img/common/wa_mark.png",
+    "alt": "Web Accessibility : 과학기술정보통신부 WA 인증마크"
+   }
+  ]
  },
  {
   "name": "광명시",
@@ -185,7 +371,8 @@
   "assets": [
    "http://jachilaw.com/DATA/gwangmyeong/PDF/1-04-01-080-20221226.PDF"
   ],
-  "status": "배포파일 있음"
+  "status": "배포파일 있음",
+  "images": []
  },
  {
   "name": "광주시",
@@ -196,7 +383,29 @@
    "https://www.gjcity.go.kr/common/img/common/2025_wa.pdf",
    "https://www.gjcity.go.kr/common/img/common/2024_wa.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.gjcity.go.kr/portal/img/sub01/sub0202_img01.svg",
+    "alt": "광주시 상징무늬와 시기"
+   },
+   {
+    "src": "https://www.gjcity.go.kr/portal/img/sub01/sub0202_img03.png",
+    "alt": "광주시의 상징말(브랜드 슬로건)"
+   },
+   {
+    "src": "https://www.gjcity.go.kr/portal/img/sub01/sub0202_img04.png",
+    "alt": "광주시 농,특산물 공동브랜드"
+   },
+   {
+    "src": "https://www.eprivacy.or.kr/images/mng/sub/mark1_eprivacy.png",
+    "alt": "ePRIVACY 개인정보보호우수사이트(개인정보보호인증마크)"
+   },
+   {
+    "src": "https://www.gjcity.go.kr/common/img/common/ico_goodmark2.png",
+    "alt": "우수콘텐츠 서비스 과학기술정보통신부 마크(굿 컨텐츠 마크)"
+   }
+  ]
  },
  {
   "name": "구리시",
@@ -204,7 +413,17 @@
   "page": "https://www.guri.go.kr/www/contents.do?key=416",
   "page_label": "시 상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.guri.go.kr/site/www/images/contents/cts416_img.png",
+    "alt": "시 휘장 이미지"
+   },
+   {
+    "src": "https://www.guri.go.kr/site/www/images/contents/cts416_img4.png",
+    "alt": "마스코트아리미 이미지"
+   }
+  ]
  },
  {
   "name": "군포시",
@@ -221,7 +440,25 @@
    "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_file4_02_new.zip",
    "https://www.gunpo.go.kr/www/downloadContentsFile.do?fileNm=cts3943_brand_guide.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.gunpo.go.kr/site/www/images/contents/cts3943_img1.jpg",
+    "alt": "통합도시브랜드(기본형) GUNPO YOU GUNPY YOU 군포시/슬로건 GUNPO Good for you "
+   },
+   {
+    "src": "https://www.gunpo.go.kr/site/www/images/contents/cts3943_slogan_img.png",
+    "alt": "빠르고 확실한 변화 시민중심 군포 / 슬로건 이미지"
+   },
+   {
+    "src": "https://www.gunpo.go.kr/site/www/images/contents/cts3943_img6.jpg",
+    "alt": "군포시 도시브랜드 활용 예시 이미지"
+   },
+   {
+    "src": "https://www.gunpo.go.kr/common/images/program/img_opentype04.png",
+    "alt": "공공누리 마크(출처표시-상업적 이용금지-변경금지)"
+   }
+  ]
  },
  {
   "name": "김포시",
@@ -238,7 +475,57 @@
    "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_bi.zip",
    "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi_png.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img01.jpg",
+    "alt": "김포 상징마크(CI) 이미지"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img02.jpg",
+    "alt": "김포 상징마크(CI) 이미지2"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img03.jpg",
+    "alt": "김포 상징마크(BI) 이미지"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img04.jpg",
+    "alt": "김포 상징마크(BI) 이미지2"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi01.png",
+    "alt": "BI 슬로건 응용 기본 이미지1"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi02.png",
+    "alt": "BI 슬로건 응용 기본 이미지2"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi03.png",
+    "alt": "BI 슬로건 응용 기본 이미지3"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi04.png",
+    "alt": "BI 슬로건 응용 기본 이미지4"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi05.png",
+    "alt": "BI 슬로건 응용 기본 이미지5"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi06.png",
+    "alt": "BI 슬로건 응용 기본 이미지6"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi_s01.png",
+    "alt": "BI 슬로건 응용 Season 이미지1"
+   },
+   {
+    "src": "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi_s02.png",
+    "alt": "BI 슬로건 응용 Season 이미지2"
+   }
+  ]
  },
  {
   "name": "남양주시",
@@ -246,7 +533,53 @@
   "page": "http://www.nyj.go.kr/www/contents.do?key=2525",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_logo.jpg",
+    "alt": "남양주 로고"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type1.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type2.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type3.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type4.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type5.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type6.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type7.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type8.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/site/www/images/contents/cts2525_ban_type9.png",
+    "alt": "남양주 로고 변형제한 예시"
+   },
+   {
+    "src": "http://www.nyj.go.kr/tracer/logo2.png",
+    "alt": "님양주시 로고"
+   }
+  ]
  },
  {
   "name": "동두천시",
@@ -254,7 +587,8 @@
   "page": "http://www.ddc.go.kr/ddc/contents.do?key=74",
   "page_label": "동두천시 상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "부천시",
@@ -279,7 +613,13 @@
    "http://www.seongnam.go.kr/humanframe/file/Cc_AI.zip",
    "http://www.seongnam.go.kr/humanframe/file/Cc_pdf.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.seongnam.go.kr/humanframe/theme/global/assets/images/common/footer_country.svg",
+    "alt": "국가상징알아보기"
+   }
+  ]
  },
  {
   "name": "수원시",
@@ -287,7 +627,17 @@
   "page": "http://www.suwon.go.kr/sw-www/www05/www05-03/www05-03-10.jsp",
   "page_label": "마스코트",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.suwon.go.kr/resources/web/www_2025/images/common/logo.png",
+    "alt": "수원특례시 SUWON SPECIAL CITY"
+   },
+   {
+    "src": "http://www.suwon.go.kr/resources/web/www_2025/images/common/footer_logo.png",
+    "alt": "수원특례시 SUWON SPECIAL CITY"
+   }
+  ]
  },
  {
   "name": "시흥시",
@@ -303,7 +653,8 @@
   "page": "https://www.ansan.go.kr/www/common/cntnts/selectContents.do?cntnts_id=C0001546",
   "page_label": "안산시상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "안성시",
@@ -319,7 +670,57 @@
   "page": "https://www.anyang.go.kr/main/contents.do?key=296",
   "page_label": "안양의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_03_01.gif",
+    "alt": "심볼 마크 이미지1"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_03_02.gif",
+    "alt": "심볼 마크 이미지2"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_03_03.gif",
+    "alt": "심볼 마크 이미지3"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_03_04.gif",
+    "alt": "심볼 마크 이미지4"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_04_01.gif",
+    "alt": "전용 엠블럼 이미지1"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_04_02.gif",
+    "alt": "전용 엠블럼 이미지2"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_04_03.gif",
+    "alt": "전용 엠블럼 이미지3"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_04_04.gif",
+    "alt": "전용 엠블럼 이미지4"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_06_01.gif",
+    "alt": "시그니춰 심볼 이미지1"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_06_02.gif",
+    "alt": "시그니춰 심볼 이미지2"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_06_03.gif",
+    "alt": "시그니춰 심볼 이미지3"
+   },
+   {
+    "src": "https://www.anyang.go.kr/site/main/images/contents/ci_06_04.gif",
+    "alt": "시그니춰 심볼 이미지4"
+   }
+  ]
  },
  {
   "name": "양주시",
@@ -329,7 +730,21 @@
   "assets": [
    "https://www.yangju.go.kr/www/downloadContentsFile.do?fileNm=cts338_file02.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.yangju.go.kr/site/www/images/main/taegugki.png",
+    "alt": "국가상징 알아보기"
+   },
+   {
+    "src": "https://www.yangju.go.kr/site/www/images/contents/cts338_img.png",
+    "alt": "Yangju 양주시 CI"
+   },
+   {
+    "src": "https://www.yangju.go.kr/common/images/common/footer_logo.png",
+    "alt": "양주시 로고"
+   }
+  ]
  },
  {
   "name": "양평군",
@@ -337,7 +752,13 @@
   "page": "http://www.yp21.net/www/contents.do?key=1846",
   "page_label": "양평의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.yp21.net/site/www/images/common/taegugki.png",
+    "alt": "국가상징바로알기"
+   }
+  ]
  },
  {
   "name": "여주시",
@@ -345,7 +766,21 @@
   "page": "http://www.yj21.net/www/contents.do?key=393",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.yj21.net/site/public/images/common/new_logo.svg",
+    "alt": "여주 CITY OF YEOJU"
+   },
+   {
+    "src": "http://www.yj21.net/site/www/images/contents/cts393_img3.png",
+    "alt": "여주시 로고"
+   },
+   {
+    "src": "http://www.yj21.net/site/www/images/contents/character02.jpg",
+    "alt": "쌀캐릭터 미돌이 기본형 환경농업을 홍보하는 쌀캐릭터 미돌이 절에서 염주를 들고 서있는 쌀캐릭터 미돌이 질서를"
+   }
+  ]
  },
  {
   "name": "연천군",
@@ -362,7 +797,33 @@
    "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=www3411_4.zip",
    "https://www.yeoncheon.go.kr/www/downloadContentsFile.do?fileNm=www3411_cha1-1_250404.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.yeoncheon.go.kr/site/www/images/contents/cts3411_img1_220914.png",
+    "alt": "다함께 미래로 yes, 연천! 로고"
+   },
+   {
+    "src": "https://www.yeoncheon.go.kr/site/www/images/contents/cts3411_img2.png",
+    "alt": "연천군 로고"
+   },
+   {
+    "src": "https://www.yeoncheon.go.kr/site/www/images/contents/cts3411_img7.png",
+    "alt": "고롱이 미롱이 캐릭터 이미지"
+   },
+   {
+    "src": "https://www.yeoncheon.go.kr/site/www/images/contents/cts3411_character01_250404.jpg",
+    "alt": "고롱이 미롱이 캐릭터 이미지"
+   },
+   {
+    "src": "https://www.yeoncheon.go.kr/site/www/images/contents/cts3411_img11a.png",
+    "alt": "캐릭터 응용형"
+   },
+   {
+    "src": "https://www.yeoncheon.go.kr/site/www/images/contents/cts3411_img12.png",
+    "alt": "캐릭터 응용형 이모티콘"
+   }
+  ]
  },
  {
   "name": "오산시",
@@ -370,7 +831,25 @@
   "page": "https://www.osan.go.kr/portal/contents.do?mId=0501010000",
   "page_label": "오산시 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.osan.go.kr/portal/images/content/05/img_0101_01.jpg",
+    "alt": "오산시 심볼 마크"
+   },
+   {
+    "src": "https://www.osan.go.kr/portal/images/content/05/img_0101_02.jpg",
+    "alt": "오산시 상징 은행나무"
+   },
+   {
+    "src": "https://www.osan.go.kr/portal/images/content/05/img_0101_03.jpg",
+    "alt": "오산시 상징 까마귀 새"
+   },
+   {
+    "src": "https://www.osan.go.kr/portal/images/content/05/img_0101_04.jpg",
+    "alt": "오산시 상징 매화꽃"
+   }
+  ]
  },
  {
   "name": "용인시",
@@ -378,7 +857,29 @@
   "page": "https://www.yongin.go.kr/home/yiIf/yiIfProd/yiIfProd04.jsp",
   "page_label": "용인의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.yongin.go.kr/webcontent/resrce/4050530000000000000/2025/9/19/f9ba0b7d-f955-491f-85b1-273932fffca7.jpg",
+    "alt": "용인시 통합도시브랜드"
+   },
+   {
+    "src": "https://www.yongin.go.kr/resources/user/web/images/sub/intro/intro0104_img7.jpg",
+    "alt": "캐릭터 :조아용"
+   },
+   {
+    "src": "https://www.yongin.go.kr/resources/user/web/images/sub/intro/intro0104_img4.jpg",
+    "alt": "시조 : 꿩"
+   },
+   {
+    "src": "https://www.yongin.go.kr/resources/user/web/images/sub/intro/intro0104_img5.jpg",
+    "alt": "시목 : 전나무"
+   },
+   {
+    "src": "https://www.yongin.go.kr/resources/user/web/images/sub/intro/intro0104_img6.jpg",
+    "alt": "시화 :분홍철쭉"
+   }
+  ]
  },
  {
   "name": "의왕시",
@@ -386,7 +887,41 @@
   "page": "http://www.uiwang.go.kr/UWKORINTRO0201",
   "page_label": "의왕의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.uiwang.go.kr/humanframe/theme/uiwang/assets/images/uiwang_images/banner_country.png",
+    "alt": "국가상징 알아보기"
+   },
+   {
+    "src": "http://www.uiwang.go.kr/comm/getFile?srvcId=MEDIA&amp;upperNo=1448&amp;fileTy=MEDIA&amp;fileNo=3",
+    "alt": "심볼마크-응용형"
+   },
+   {
+    "src": "http://www.uiwang.go.kr/comm/getFile?srvcId=MEDIA&amp;upperNo=1448&amp;fileTy=MEDIA&amp;fileNo=3",
+    "alt": "심벌마크(응용형) 기본"
+   },
+   {
+    "src": "http://www.uiwang.go.kr/comm/getFile?srvcId=MEDIA&amp;upperNo=1449&amp;fileTy=MEDIA&amp;fileNo=5",
+    "alt": "심벌마크(응용형) 가로 조합"
+   },
+   {
+    "src": "http://www.uiwang.go.kr/comm/getFile?srvcId=MEDIA&amp;upperNo=1450&amp;fileTy=MEDIA&amp;fileNo=3",
+    "alt": "심벌마크(응용형) 세로 조합"
+   },
+   {
+    "src": "http://www.uiwang.go.kr/comm/getImage?srvcId=MEDIA&amp;upperNo=361&amp;fileTy=MEDIA&amp;fileNo=2",
+    "alt": "심벌마크(기본형) 기본"
+   },
+   {
+    "src": "http://www.uiwang.go.kr/comm/getImage?srvcId=MEDIA&amp;upperNo=362&amp;fileTy=MEDIA&amp;fileNo=1",
+    "alt": "심벌마크(기본형) 가로 조합"
+   },
+   {
+    "src": "http://www.uiwang.go.kr/comm/getImage?srvcId=MEDIA&amp;upperNo=363&amp;fileTy=MEDIA&amp;fileNo=1",
+    "alt": "심벌마크(기본형) 세로 조합"
+   }
+  ]
  },
  {
   "name": "의정부시",
@@ -394,7 +929,49 @@
   "page": "https://ui4u.go.kr/portal/contents.do?mId=0501020000",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://ui4u.go.kr/portal/temp_img/main/ico_flag.png",
+    "alt": "국가상징"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_01.gif",
+    "alt": "의정부시 휘장"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_01_02.png",
+    "alt": "의정부시 휘장 기본형"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_01_07.png",
+    "alt": "의정부시 휘장 전용색상"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_01_03.png",
+    "alt": "의정부시 휘장 용용형"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_01_04.png",
+    "alt": "의정부시 휘장 로고타입"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_01_05.png",
+    "alt": "의정부시 휘장 엠블렘"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_01_06.png",
+    "alt": "의정부시 휘장 활용클립"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_02.jpg",
+    "alt": "의정부시 브랜드 마크"
+   },
+   {
+    "src": "https://ui4u.go.kr/portal/img/content/sub05/img_con0501020000_8.jpg",
+    "alt": "의정부시 마스코트"
+   }
+  ]
  },
  {
   "name": "이천시",
@@ -402,7 +979,21 @@
   "page": "https://www.icheon.go.kr/portal/contents.do?mid=0502040000",
   "page_label": "이천의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.icheon.go.kr/portal/img/content/05/symbol_img01.png",
+    "alt": "시목 소나무"
+   },
+   {
+    "src": "https://www.icheon.go.kr/portal/img/content/05/symbol_img02.png",
+    "alt": "시조 까치"
+   },
+   {
+    "src": "https://www.icheon.go.kr/portal/img/content/05/symbol_img03.png",
+    "alt": "시화 진달래"
+   }
+  ]
  },
  {
   "name": "파주시",
@@ -419,7 +1010,57 @@
    "http://www.paju.go.kr/webcontent/ckeditor/2022/1/27/c39d2154-7305-4443-a128-94926e2513dd.zip",
    "http://www.paju.go.kr/webcontent/ckeditor/2022/3/25/da9dc3a8-34bd-449f-844f-9abc0bcb391f.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.paju.go.kr/resources/user/www/images/intropaju/img_ci_logomark01.jpg",
+    "alt": "PAJU 로고마크"
+   },
+   {
+    "src": "http://www.paju.go.kr/webcontent/ckeditor/2022/1/27/04182929-ddab-4516-bb1c-0d3983ac809d.png",
+    "alt": "파주시 캐릭터 파랑 기본형"
+   },
+   {
+    "src": "http://www.paju.go.kr/webcontent/ckeditor/2022/1/27/c95080c0-1f12-4b55-80ab-85a576897f68.png",
+    "alt": "파주시 캐릭터 파랑 응용형1"
+   },
+   {
+    "src": "http://www.paju.go.kr/webcontent/ckeditor/2022/1/27/a853bdd0-1958-4a13-be7f-01c16c3d767a.png",
+    "alt": "파주시 캐릭터 파랑 응용형2"
+   },
+   {
+    "src": "http://www.paju.go.kr/webcontent/ckeditor/2022/1/27/3b13d555-13aa-48a9-9fe5-a5883025e1c0.png",
+    "alt": "파주시 캐릭터 파랑 응용형3"
+   },
+   {
+    "src": "http://www.paju.go.kr/webcontent/ckeditor/2022/1/27/938375c4-5ea5-4d42-ba35-6adb8beace14.png",
+    "alt": "파주시 캐릭터 파랑 응용형4"
+   },
+   {
+    "src": "http://www.paju.go.kr/webcontent/ckeditor/2022/1/27/7fd029d8-3589-4d6a-8a35-52540ee7b361.png",
+    "alt": "파주시 캐릭터 파랑 응용형5"
+   },
+   {
+    "src": "http://www.paju.go.kr/resources/user/www/images/intropaju/img_ci_logotype.jpg",
+    "alt": "한글 파주시,영어 PAJU-SI,한자  波州市 로고타입"
+   },
+   {
+    "src": "http://www.paju.go.kr/resources/user/www/images/intropaju/img_ci_logocombi01.jpg",
+    "alt": "파주시 로고마크 로고 조합"
+   },
+   {
+    "src": "http://www.paju.go.kr/resources/user/www/images/intropaju/img_ci_logocombi01.jpg",
+    "alt": "파주시 로고마크 로고 조합"
+   },
+   {
+    "src": "http://www.paju.go.kr/resources/user/www/images/intropaju/img_ci_logocombi02.jpg",
+    "alt": "파주시 로고마크 비전 조합"
+   },
+   {
+    "src": "http://www.paju.go.kr/resources/user/_common/images/korea_symbol.png",
+    "alt": "국가상징 알아보기"
+   }
+  ]
  },
  {
   "name": "평택시",
@@ -427,7 +1068,25 @@
   "page": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0502000000",
   "page_label": "평택의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_01.png",
+    "alt": "시마크"
+   },
+   {
+    "src": "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_02.png",
+    "alt": "시마크"
+   },
+   {
+    "src": "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_03.png",
+    "alt": "시마크"
+   },
+   {
+    "src": "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_04.png",
+    "alt": "시마크"
+   }
+  ]
  },
  {
   "name": "포천시",
@@ -435,7 +1094,25 @@
   "page": "https://www.pcs21.net/www/contents.do?key=3820",
   "page_label": "포천의 상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.pcs21.net/site/www/images/contents/cts3820_img01.jpg",
+    "alt": "포천시 로고"
+   },
+   {
+    "src": "https://www.pcs21.net/site/www/images/contents/cts3820_img06.jpg",
+    "alt": "포천시로고"
+   },
+   {
+    "src": "https://www.pcs21.net/site/www/images/contents/cts3820_img07.jpg",
+    "alt": "포천시로고 16mm"
+   },
+   {
+    "src": "https://www.pcs21.net/site/www/images/contents/cts3820_img08.jpg",
+    "alt": "금지규정 - 비례를 임의로 변경하는 경우, 로고타입 비율을 임의로 변경하는 경우, 로고타입을 다른 타입으로 "
+   }
+  ]
  },
  {
   "name": "하남시",
@@ -451,7 +1128,8 @@
   "page": "https://www.hscity.go.kr/www/intro/gnrlSttus/ctyhllSymbol/ctyhllSymbol01.jsp",
   "page_label": "화성의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "거제시",
@@ -475,7 +1153,13 @@
   "page": "http://www.goseong.go.kr/index.goseong?menuCd=DOM_000000106002000000",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.goseong.go.kr/images/Potal/layout/guckgi.jpg",
+    "alt": "국가상징"
+   }
+  ]
  },
  {
   "name": "김해시",
@@ -490,7 +1174,8 @@
    "https://www.gimhae.go.kr/_res/portal/data/zip/pp01025_data1.zip",
    "https://www.gimhae.go.kr/_res/portal/data/zip/pp01025_data2.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "배포파일 있음",
+  "images": []
  },
  {
   "name": "남해군",
@@ -519,7 +1204,33 @@
    "http://www.sacheon.go.kr/portal/img/sub/intro/01_04_symbol_ai.zip",
    "http://www.sacheon.go.kr/portal/img/sub/intro/01_04_symbol_jpg.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.sacheon.go.kr/intro/img/sub/02416_img1.png",
+    "alt": "사천시의 심벌마크"
+   },
+   {
+    "src": "http://www.sacheon.go.kr/intro/img/sub/02416_img2.png",
+    "alt": "사천의 심벌마크 중 상단"
+   },
+   {
+    "src": "http://www.sacheon.go.kr/intro/img/sub/02416_img3.png",
+    "alt": "사천의 심벌마크 중 3개의 하얀선"
+   },
+   {
+    "src": "http://www.sacheon.go.kr/intro/img/sub/02416_img4.png",
+    "alt": "사천의 심벌마크 중 원의 형태"
+   },
+   {
+    "src": "http://www.sacheon.go.kr/intro/img/sub/02416_img5.png",
+    "alt": "SACHEON CI_Blue(*Spot:Pantone 3135 C *Process:C100 Y30), PAN"
+   },
+   {
+    "src": "http://www.sacheon.go.kr/intro/img/sub/02416_img6.png",
+    "alt": "시기의 규격 / 심벌마크 작도법"
+   }
+  ]
  },
  {
   "name": "산청군",
@@ -527,7 +1238,8 @@
   "page": "https://www.sancheong.go.kr/www/contents.do?key=177",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "양산시",
@@ -543,7 +1255,13 @@
   "page": "https://www.ulsan.go.kr/u/rep/contents.ulsan?mId=001005005000000000",
   "page_label": "시의상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.ulsan.go.kr/u/storyCms/rep/images/sub05/img_symbol.png",
+    "alt": "울산시청 심벌마크"
+   }
+  ]
  },
  {
   "name": "의령군",
@@ -561,7 +1279,17 @@
   "assets": [
    "https://www.jinju.go.kr/_res/portal/data/jinju_logo_2020.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.jinju.go.kr/_res/portal/img/sub/01133_img03.gif",
+    "alt": "진주시 시의기 마크1"
+   },
+   {
+    "src": "https://www.jinju.go.kr/_res/portal/img/sub/01133_img02.gif",
+    "alt": "진주시 시의기 마크2"
+   }
+  ]
  },
  {
   "name": "창원시",
@@ -574,7 +1302,57 @@
    "http://www.changwon.go.kr/cwportal/_res/cwportal/data/zip/img_symbol2_02.zip",
    "http://www.changwon.go.kr/cwportal/_res/cwportal/data/ect/changwon_symbol.ai"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/inc/gm1taegeukgi.png",
+    "alt": "국가상징 페이지로 이동"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_img01.png",
+    "alt": "심벌마크"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim01.png",
+    "alt": "세로형 창원특례시명칭결합 심벌마크1"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim02.png",
+    "alt": "세로형 창원특례시명칭결합(국문+영문) 심벌마크"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim03.png",
+    "alt": "가로형 창원특례시명칭결합 심벌마크"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim04.png",
+    "alt": "가로형 창원특례시명칭결합(국문+영문) 심벌마크"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim05.png",
+    "alt": "세로형 창원시명칭결합 심벌마크"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim06.png",
+    "alt": "세로형 창원시명칭결합(국문+영문) 심벌마크"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim07.png",
+    "alt": "가로형 창원시명칭결합 심벌마크"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim10.jpg",
+    "alt": "시화(벚꽃)"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim11.jpg",
+    "alt": "시조(괭이갈매기)"
+   },
+   {
+    "src": "http://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/web10710_sim12.jpg",
+    "alt": "시목(소나무)"
+   }
+  ]
  },
  {
   "name": "통영시",
@@ -599,7 +1377,17 @@
    "https://www.hadong.go.kr/_res/portal/data/zip/web00581/05_jpg.zip",
    "https://www.hadong.go.kr/_res/portal/data/zip/web00581/05_all.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.hadong.go.kr/_res/portal/img/sub/web00570_img01.jpg",
+    "alt": "군기용 심볼"
+   },
+   {
+    "src": "https://www.hadong.go.kr/_res/portal/img/sub/web00570_img01.jpg",
+    "alt": "군마크"
+   }
+  ]
  },
  {
   "name": "함안군",
@@ -611,7 +1399,8 @@
    "https://www.haman.go.kr/portal/data/banner/20160922down.pdf",
    "https://www.haman.go.kr/portal/popup/20160830/popup.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "배포파일 있음",
+  "images": []
  },
  {
   "name": "함양군",
@@ -638,7 +1427,8 @@
    "https://www.gbgs.go.kr/design/ko/file_down/ci_png.zip",
    "https://www.gbgs.go.kr/design/ko/file_down/ci_ai.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "배포파일 있음",
+  "images": []
  },
  {
   "name": "경주시",
@@ -646,7 +1436,8 @@
   "page": "http://www.gyeongju.go.kr/page.do?mnu_uid=3612&amp;",
   "page_label": "경주의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "고령군",
@@ -656,7 +1447,29 @@
   "assets": [
    "http://www.goryeong.go.kr/pdf/web/viewer.html?file=/file/yesterday.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.goryeong.go.kr/img/front/sub/symbol2.jpg",
+    "alt": "고령군 심볼"
+   },
+   {
+    "src": "http://www.goryeong.go.kr/img/front/sub/symbol2_2.jpg",
+    "alt": "군조 왜가리"
+   },
+   {
+    "src": "http://www.goryeong.go.kr/img/front/sub/symbol2_3.jpg",
+    "alt": "군화 철죽"
+   },
+   {
+    "src": "http://www.goryeong.go.kr/img/front/sub/symbol2_4.jpg",
+    "alt": "군목 오동나무"
+   },
+   {
+    "src": "http://www.goryeong.go.kr/img/front/sub/s6History_1.jpg",
+    "alt": "공공누리 공공저작물 자유이용허락 마크. 출처표시"
+   }
+  ]
  },
  {
   "name": "구미시",
@@ -664,7 +1477,25 @@
   "page": "http://www.gumi.go.kr/portal/contents.do?mid=0502000000",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.gumi.go.kr/portal/img/content/05/0201_img01.png",
+    "alt": "구미시 심벌마크입니다."
+   },
+   {
+    "src": "http://www.gumi.go.kr/portal/img/content/05/0201_img02.png",
+    "alt": "구미시 한글 로고타입 입니다."
+   },
+   {
+    "src": "http://www.gumi.go.kr/portal/img/content/05/0201_img03.png",
+    "alt": "구미시 한자 로고타입 입니다."
+   },
+   {
+    "src": "http://www.gumi.go.kr/portal/img/content/05/0201_img04.png",
+    "alt": "구미시 영어 로고타입 입니다."
+   }
+  ]
  },
  {
   "name": "김천시",
@@ -674,7 +1505,8 @@
   "assets": [
    "https://www.gc.go.kr/design/main/file/popup_240216.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "배포파일 있음",
+  "images": []
  },
  {
   "name": "문경시",
@@ -682,7 +1514,21 @@
   "page": "http://www.gbmg.go.kr/portal/contents.do?mId=0501010000",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.gbmg.go.kr/portal/img/common/flag.png",
+    "alt": "국가상징"
+   },
+   {
+    "src": "http://www.gbmg.go.kr/portal/img/sub05/symbol01.jpg",
+    "alt": "문경시 심벌마크"
+   },
+   {
+    "src": "http://www.gbmg.go.kr/portal/img/sub05/symbol05.jpg",
+    "alt": "문경시 캐릭터 출사동이"
+   }
+  ]
  },
  {
   "name": "봉화군",
@@ -690,7 +1536,8 @@
   "page": "http://www.bonghwa.go.kr/portal/contents.do?mid=0402000000",
   "page_label": "봉화 상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "상주시",
@@ -715,7 +1562,29 @@
    "https://www.sj.go.kr/download/S0001/chambyeoli_down.zip",
    "https://www.sj.go.kr/download/S0001/chambyeoli_ai.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.sj.go.kr/ko/img/sub/sub01/sym_img01.png",
+    "alt": "성주 심벌마크"
+   },
+   {
+    "src": "https://www.sj.go.kr/ko/img/sub/sub01/sym_img02_funny.png",
+    "alt": "성주 브랜드 로고 - 성주는 즐겁다"
+   },
+   {
+    "src": "https://www.sj.go.kr/ko/img/sub/sub01/sym_img10.png",
+    "alt": "참별미소 로고"
+   },
+   {
+    "src": "https://www.sj.go.kr/ko/img/sub/sub01/sym_img03.png",
+    "alt": "참별미소 로고"
+   },
+   {
+    "src": "https://www.sj.go.kr/ko/img/sub/sub01/sym_img05.png",
+    "alt": "별의별맛 브랜드 로고"
+   }
+  ]
  },
  {
   "name": "안동시",
@@ -723,7 +1592,8 @@
   "page": "https://www.andong.go.kr/portal/contents.do?mId=0301030000",
   "page_label": "안동의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "영덕군",
@@ -735,7 +1605,17 @@
    "https://www.yd.go.kr/img/sub/symbol.zip",
    "https://www.yd.go.kr/DownLoad/etc/원격제어.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.yd.go.kr/img/sub/yd_sb.gif",
+    "alt": "CI"
+   },
+   {
+    "src": "https://www.yd.go.kr/img/sub/symbol_01.jpg",
+    "alt": "심벌마크"
+   }
+  ]
  },
  {
   "name": "영양군",
@@ -751,7 +1631,8 @@
   "page": "http://www.yeongju.go.kr/page.do?mnu_uid=3733&amp;",
   "page_label": "영주의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "영천시",
@@ -762,7 +1643,29 @@
    "https://www.yc.go.kr/portal/img/sub04/ci.zip",
    "https://www.yc.go.kr/common/img/common/good_contents.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.yc.go.kr/portal/img/sub04/con40501_01.png",
+    "alt": "영천시 심벌마크"
+   },
+   {
+    "src": "https://www.yc.go.kr/portal/img/sub04/con40501_02.jpg",
+    "alt": "영천시 시화 장미꽃"
+   },
+   {
+    "src": "https://www.yc.go.kr/portal/img/sub04/con40501_03.jpg",
+    "alt": "영천시 시조 비둘기"
+   },
+   {
+    "src": "https://www.yc.go.kr/portal/img/sub04/con40501_04.jpg",
+    "alt": "영천시 시목 은행나무"
+   },
+   {
+    "src": "https://www.yc.go.kr/common/img/common/gcs_mark.gif",
+    "alt": "굿콘텐츠서비스인증 로고"
+   }
+  ]
  },
  {
   "name": "예천군",
@@ -779,7 +1682,25 @@
    "https://www.ycg.kr/download/open.content/ko/organization/symbol/flag.ci/character-png.zip",
    "https://www.ycg.kr/download/open.content/ko/organization/symbol/flag.ci/character-ai.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.ycg.kr/images/open.content/ko/organization/symbol/flag.ci/symbol01-m.png",
+    "alt": "예천 로고, 조합형, 엠블럼"
+   },
+   {
+    "src": "https://www.ycg.kr/images/open.content/ko/organization/symbol/flag.ci/bi-m.png",
+    "alt": "BI, 조합형, 엠블럼"
+   },
+   {
+    "src": "https://www.ycg.kr/images/open.content/ko/organization/symbol/flag.ci/saeum-m.png",
+    "alt": "공동브랜드"
+   },
+   {
+    "src": "https://www.ycg.kr/images/open.content/ko/organization/symbol/flag.ci/charater-m.png",
+    "alt": "캐릭터"
+   }
+  ]
  },
  {
   "name": "울릉군",
@@ -787,7 +1708,8 @@
   "page": "http://www.ulleung.go.kr/page.do?mnu_uid=454&amp;",
   "page_label": "울릉의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "울진군",
@@ -828,7 +1750,57 @@
    "http://cs.go.kr/upload/data/zip/cheongsong_jpg01.zip",
    "http://cs.go.kr/upload/data/zip/simbol_png.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://cs.go.kr/img/content/simbol03.jpg",
+    "alt": "산소카페 청송군, 브랜드"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/cslogo_000.jpg",
+    "alt": "청송군 브랜드 기본형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/cslogo_002.jpg",
+    "alt": "청송군 브랜드 세로형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/cslogo_003.jpg",
+    "alt": "청송군 브랜드 세로(흑백)형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/cslogo_004.jpg",
+    "alt": "청송군 브랜드 로고형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/cslogo_005.jpg",
+    "alt": "청송군 브랜드 로고(흑백)형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/simbol01.jpg",
+    "alt": "청송군 심벌마크, 군기 사진"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/simbol11.gif",
+    "alt": "청송군 브랜드슬로건 사진. CheongSong. 자연을 노래하다. 청송"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/cs_basic01.jpg",
+    "alt": "청송군 브랜드 슬로건 기본형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/basic02.jpg",
+    "alt": "청송군 브랜드 슬로건 기본(주황)형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/basic04.jpg",
+    "alt": "청송군 브랜드 슬로건 기본(황색)형"
+   },
+   {
+    "src": "http://cs.go.kr/img/content/basic05.jpg",
+    "alt": "청송군 브랜드 슬로건 기본(초록)형"
+   }
+  ]
  },
  {
   "name": "칠곡군",
@@ -836,7 +1808,8 @@
   "page": "https://www.chilgok.go.kr/portal/contents.do?mId=0404030000",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "포항시",
@@ -844,7 +1817,25 @@
   "page": "https://www.pohang.go.kr/portal/contents.do?mid=0406000000",
   "page_label": "포항의상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.pohang.go.kr/portal/img/sub/04/img_0601_05.png",
+    "alt": "캐릭터"
+   },
+   {
+    "src": "https://www.pohang.go.kr/portal/img/sub/04/img_0601_06.jpg",
+    "alt": "시조 갈매기"
+   },
+   {
+    "src": "https://www.pohang.go.kr/portal/img/sub/04/img_0601_07.jpg",
+    "alt": "시화 장미"
+   },
+   {
+    "src": "https://www.pohang.go.kr/portal/img/sub/04/img_0601_08.jpg",
+    "alt": "시목 해송"
+   }
+  ]
  },
  {
   "name": "광산구",
@@ -856,7 +1847,21 @@
    "http://www.gwangsan.go.kr/home/www/down/file477/0602010100_03.zip",
    "http://www.gwangsan.go.kr/home/www/down/file477/0602010100_04.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.gwangsan.go.kr/home/www/images/sub/img_logo_gs.png",
+    "alt": "광산구 심벌마크"
+   },
+   {
+    "src": "http://www.gwangsan.go.kr/home/www/images/sub/img_mascot.png",
+    "alt": "광산구 마스코트 광산이"
+   },
+   {
+    "src": "http://www.gwangsan.go.kr/home/www/images/sub/img_logo_gs_brand.png",
+    "alt": "광산구의 도시브랜드 지속가능 광산"
+   }
+  ]
  },
  {
   "name": "광주광역시 남구",
@@ -872,7 +1877,25 @@
   "page": "http://www.donggu.gwangju.kr/menu.es?mid=a10503010100",
   "page_label": "동구의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.donggu.gwangju.kr/main/img/layout/ico_nara.png",
+    "alt": "국가상징바로알기 태극기이미지"
+   },
+   {
+    "src": "http://www.donggu.gwangju.kr/main/img/layout/ico_nara.png",
+    "alt": "국가상징바로알기 태극기이미지"
+   },
+   {
+    "src": "http://www.donggu.gwangju.kr/main/img/contents/ci.gif",
+    "alt": "1 동구의 상징인 태양의 추상적 표현을 통해 열정과 생동감이 넘치는 희망의 동구를 표현하였다. 2 인간, 자"
+   },
+   {
+    "src": "http://www.donggu.gwangju.kr/main/img/layout/wa.gif",
+    "alt": "과학기술정보통신부 WEB ACCESSIBILITY"
+   }
+  ]
  },
  {
   "name": "광주광역시 북구",
@@ -880,7 +1903,13 @@
   "page": "https://bukgu.gwangju.kr/menu.es?mid=a10601020100",
   "page_label": "북구상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://bukgu.gwangju.kr/kor/img/common/openMark.svg",
+    "alt": "공공누리 마크(공공저작물 자유이용허락 마크)"
+   }
+  ]
  },
  {
   "name": "광주광역시 서구",
@@ -888,7 +1917,8 @@
   "page": "http://seogu.gwangju.kr/menu.es?mid=a10101020100",
   "page_label": "서구상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "군위군",
@@ -896,7 +1926,8 @@
   "page": "https://www.gunwi.go.kr/page.do?mnu_uid=191&amp;",
   "page_label": "군위의 상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "대구광역시 남구",
@@ -913,7 +1944,25 @@
    "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/nam_slogan-a01.zip",
    "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/nam_slogan-a02.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/c938_img05.jpg",
+    "alt": "남구 심벌마크 이미지"
+   },
+   {
+    "src": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/c938_img06.jpg",
+    "alt": "남구 슬로건 이미지"
+   },
+   {
+    "src": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/c938_img08.jpg",
+    "alt": "남구 구정슬로건 이미지"
+   },
+   {
+    "src": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/cnm_img01.jpg",
+    "alt": "남구 대표캐릭터 너미&amp;마지"
+   }
+  ]
  },
  {
   "name": "달서구",
@@ -923,7 +1972,17 @@
   "assets": [
    "http://www.dalseo.daegu.kr/cmsh/dalseo.daegu.kr/images/content/plan2030_diagram.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.dalseo.daegu.kr/cmsh/dalseo.daegu.kr/images/content/thum_001_x3.png",
+    "alt": "달성상징물아이콘"
+   },
+   {
+    "src": "http://www.dalseo.daegu.kr/cmsh/dalseo.daegu.kr/images/common/taegeukgi_logo3.jpg",
+    "alt": "국가상징 알아보기"
+   }
+  ]
  },
  {
   "name": "달성군",
@@ -940,15 +1999,37 @@
    "http://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/country/image/Flower.zip",
    "http://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/country/image/Tree.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/common/img_logo_header.png",
+    "alt": "대구광역시 달성군 DAEGU CITY DALSEONGGUN"
+   },
+   {
+    "src": "http://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/2019/img_symbol01_.jpg",
+    "alt": "로고"
+   },
+   {
+    "src": "http://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/2019/img_symbol02.jpg",
+    "alt": "달성군로고"
+   },
+   {
+    "src": "http://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/2019/img_symbol03.jpg",
+    "alt": "캐릭터/비슬이"
+   },
+   {
+    "src": "http://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/common/img_logo_footer.png",
+    "alt": "대구광역시 달성군 DAEGU CITY DALSEONGGUN"
+   }
+  ]
  },
  {
   "name": "대구광역시 동구",
   "site": "http://www.dong.daegu.kr/",
-  "page": null,
-  "page_label": null,
+  "page": "http://www.dong.daegu.kr/portal/contents.do?mid=0601010000",
+  "page_label": "상징물",
   "assets": [],
-  "status": "상징물 페이지 못 찾음"
+  "status": "페이지실패:OSError"
  },
  {
   "name": "대구광역시 북구",
@@ -956,7 +2037,25 @@
   "page": "https://www.buk.daegu.kr/index.do?menu_id=00003921",
   "page_label": "청렴 엠블럼 및 손글씨 공모전",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.buk.daegu.kr/cmsh/buk.daegu.kr/images/logo.png",
+    "alt": "행복이 흐르는 금호강 새시대 대구광역시북구 BUK-GU DISTRICT.DAEGU CITY"
+   },
+   {
+    "src": "http://www.buk.daegu.kr/cmsh/buk.daegu.kr/images/logo_m.png",
+    "alt": "행복이 흐르는 금호강 새시대 대구광역시북구 BUK-GU DISTRICT.DAEGU CITY"
+   },
+   {
+    "src": "https://www.buk.daegu.kr/cmsh/buk.daegu.kr/images/icon_preview.png",
+    "alt": "청렴 엠블럼 이미지 및 손글씨 공모전 참가신청서 미리보기"
+   },
+   {
+    "src": "https://www.buk.daegu.kr/cmsh/buk.daegu.kr/images/main/footlogo.png",
+    "alt": "대구광역시북구 BUK-GU DISTRICT.DAEGU CITY"
+   }
+  ]
  },
  {
   "name": "대구광역시 서구",
@@ -964,7 +2063,8 @@
   "page": "https://seogu.go.kr/kor/sub05_01_04.do",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "수성구",
@@ -988,7 +2088,13 @@
   "page": "https://www.daedeok.go.kr/dpt/goContents.do?link=/dpt/dpt05/DPT050201&amp;menuId=DPT050201",
   "page_label": "대덕의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.daedeok.go.kr/images/dpt/common/top_taegeukgi.jpg",
+    "alt": "국가상징(태극기) 알아보기"
+   }
+  ]
  },
  {
   "name": "대덕연구개발특구",
@@ -1004,7 +2110,8 @@
   "page": "https://donggu.go.kr/dg/kor/contents/549",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "대전광역시 서구",
@@ -1012,7 +2119,8 @@
   "page": "http://www.seogu.go.kr/kor/sub05_01_04.do",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "유성구",
@@ -1028,7 +2136,13 @@
   "page": "http://www.djjunggu.go.kr/kr/sub05_02_07.do",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.djjunggu.go.kr/images/kr/sub05/sub050205_img01.jpg",
+    "alt": "행복나무 심벌마크"
+   }
+  ]
  },
  {
   "name": "부산광역시 강서구",
@@ -1036,7 +2150,21 @@
   "page": "http://www.bsgangseo.go.kr/portal/contents.do?mid=0601020000",
   "page_label": "구상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.bsgangseo.go.kr/portal/img/contents/06/br_symbol_bird.png",
+    "alt": "구조"
+   },
+   {
+    "src": "http://www.bsgangseo.go.kr/portal/img/contents/06/br_symbol_flower.png",
+    "alt": "구화"
+   },
+   {
+    "src": "http://www.bsgangseo.go.kr/portal/img/contents/06/br_symbol_tree.png",
+    "alt": "구목"
+   }
+  ]
  },
  {
   "name": "금정구",
@@ -1053,7 +2181,37 @@
    "https://www.geumjeong.go.kr/download/gj_30th_img.zip",
    "https://www.geumjeong.go.kr/download/gj_30th.ai"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/s4_2_2_1_mark01(2023).gif",
+    "alt": "금정구마크"
+   },
+   {
+    "src": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/s4_2_2_2_img01.png",
+    "alt": "금정구 브랜드 슬로건"
+   },
+   {
+    "src": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/s4_2_2_2_img02.png",
+    "alt": "금정구 브랜드 슬로건 활용사례"
+   },
+   {
+    "src": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/s4_2_2_8_img01.png",
+    "alt": "금정구 개청30주년 슬로건"
+   },
+   {
+    "src": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/s4_2_2_8_img02.png",
+    "alt": "금정구 개청30주년 슬로건 활용사례"
+   },
+   {
+    "src": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/s4_2_2_3_img01.png",
+    "alt": "금정구캐릭터 금정이"
+   },
+   {
+    "src": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/gj_character.jpg",
+    "alt": "금정구 캐릭터 기본형 4종"
+   }
+  ]
  },
  {
   "name": "기장군",
@@ -1077,7 +2235,29 @@
   "page": "http://www.bsdonggu.go.kr/index.donggu?menuCd=DOM_000000105001005000",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.bsdonggu.go.kr/user_res/cont_file/donggu/images/img_060203_01.gif",
+    "alt": "동구상징마크"
+   },
+   {
+    "src": "http://www.bsdonggu.go.kr/user_res/cont_file/donggu/images/img_060203_02.jpg",
+    "alt": "동구의 브랜드 슬로건"
+   },
+   {
+    "src": "http://www.bsdonggu.go.kr/user_res/images/board/ico_jpg.gif",
+    "alt": "브랜드슬로건 jpg파일 다운로드"
+   },
+   {
+    "src": "http://www.bsdonggu.go.kr/upload_data/board_data/BBS_0000214/171583556010276.jpg",
+    "alt": "동구의 브랜드 슬로건(하버시티동구)"
+   },
+   {
+    "src": "http://www.bsdonggu.go.kr/user_res/images/board/ico_jpg.gif",
+    "alt": "브랜드슬로건 jpg파일 다운로드"
+   }
+  ]
  },
  {
   "name": "동래구",
@@ -1101,7 +2281,17 @@
   "page": "https://www.bsbukgu.go.kr/index.bsbukgu?menuCd=DOM_000000106002004001",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.bsbukgu.go.kr/images/portal/sub/hs_01.png",
+    "alt": "구의휘장"
+   },
+   {
+    "src": "https://www.bsbukgu.go.kr/images/portal/main/flag.png",
+    "alt": "국가상징알아보기"
+   }
+  ]
  },
  {
   "name": "사상구",
@@ -1122,7 +2312,25 @@
    "https://www.saha.go.kr/portal/Downfiles/ms9_pdf_goals.pdf",
    "https://www.saha.go.kr/portal/Downfiles/ms9_ai_goals.ai"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.saha.go.kr/portal/images/sub/symbol_saha.jpg",
+    "alt": "상징마크 이미지"
+   },
+   {
+    "src": "https://www.saha.go.kr/portal/images/sub/logo_2022/logo_saha_01.png",
+    "alt": "(국문 로고)사하구"
+   },
+   {
+    "src": "https://www.saha.go.kr/portal/images/sub/logo_2022/logo_saha_02.png",
+    "alt": "(영문 로고)SAHA"
+   },
+   {
+    "src": "https://www.saha.go.kr/common/jsp/common/thumbImgViewer.jsp?basePath=/webdata/egov_uploadFile/BANNER/&amp;streFileNm=BAN_201704120628320970&amp;orignlFileNm=banner_20170412_tgg.png&amp;ext=png&amp;width=146&amp;height=44&amp;mode=ori",
+    "alt": "국가상징 알아보기"
+   }
+  ]
  },
  {
   "name": "부산광역시 서구",
@@ -1133,7 +2341,25 @@
    "http://www.bsseogu.go.kr/customuser/download/filedown.bsseogu?filename=/portal/04/seogu_logo.zip",
    "http://www.bsseogu.go.kr/customuser/download/filedown.bsseogu?filename=/portal/04/124524_seogu_ci-일러스트.ai"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.bsseogu.go.kr/img/portal/sub/s4_01_06_img01.jpg",
+    "alt": "구마크"
+   },
+   {
+    "src": "http://www.bsseogu.go.kr/img/portal/sub/s4_01_06_img02.jpg",
+    "alt": "구캐릭터 덕이 송이"
+   },
+   {
+    "src": "http://www.bsseogu.go.kr/img/portal/sub/s4_01_06_img03.jpg",
+    "alt": "구목 해송"
+   },
+   {
+    "src": "http://www.bsseogu.go.kr/img/portal/sub/s4_01_06_img04.jpg",
+    "alt": "구화 목련"
+   }
+  ]
  },
  {
   "name": "수영구",
@@ -1149,7 +2375,8 @@
   "page": "http://www.yeonje.go.kr/portal/contents.do?mId=0201020000",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "영도구",
@@ -1157,7 +2384,25 @@
   "page": "http://www.yeongdo.go.kr/00555.web",
   "page_label": "구상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.yeongdo.go.kr/_res/portal/img/sub/p00555_img01.jpg",
+    "alt": "구상징"
+   },
+   {
+    "src": "http://www.yeongdo.go.kr/_res/portal/img/sub/p00555_img02.jpg",
+    "alt": "구화 동백꽃"
+   },
+   {
+    "src": "http://www.yeongdo.go.kr/_res/portal/img/sub/p00555_img03.jpg",
+    "alt": "구목(區木) : 해송(곰솔)"
+   },
+   {
+    "src": "http://www.yeongdo.go.kr/_res/portal/img/sub/p00555_img04.jpg",
+    "alt": "구조(區鳥) : 갈매기"
+   }
+  ]
  },
  {
   "name": "부산광역시 중구",
@@ -1189,7 +2434,13 @@
   "page": "http://www.gangdong.go.kr/web/newportal/contents/gdp_004_001_005_001",
   "page_label": "강동의상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.gangdong.go.kr/design/theme/portal/images/2024/common/kr_mark.png",
+    "alt": "국가상징 알아보기"
+   }
+  ]
  },
  {
   "name": "강북구",
@@ -1205,7 +2456,21 @@
   "page": "https://www.gangseo.seoul.kr/gs050701",
   "page_label": "강서상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.gangseo.seoul.kr/humanframe/theme/gangseo_kor/assets/image/content/symbol1.png",
+    "alt": "구의 휘장"
+   },
+   {
+    "src": "https://www.gangseo.seoul.kr/media/img/20240207/202427144718.png",
+    "alt": "구의 캐릭터 새로미"
+   },
+   {
+    "src": "https://www.gangseo.seoul.kr/humanframe/theme/gangseo_kor/assets/image/content/symbol6.png",
+    "alt": "구의 상징색"
+   }
+  ]
  },
  {
   "name": "관악구",
@@ -1216,7 +2481,13 @@
    "http://www.gwanak.go.kr/common/files/Download.do?cfIdx=CF00093299&amp;cfGroup=COMMON&amp;cfRename=c2ace335-a83c-42c7-b036-f9d242663a90.zip",
    "http://www.gwanak.go.kr/common/files/Download.do?cfIdx=CF00093300&amp;cfGroup=COMMON&amp;cfRename=32beaebf-40c5-4787-9aaa-1a50f4fc312e.ai"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.gwanak.go.kr/images/gwanak/m1/gwanak_logo.png",
+    "alt": "관악구 로고"
+   }
+  ]
  },
  {
   "name": "광진구",
@@ -1224,7 +2495,25 @@
   "page": "http://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200199",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.gwangjin.go.kr/static/portal/img/cts/200199/200199_CI.jpg",
+    "alt": "광진구 CI 이미지"
+   },
+   {
+    "src": "http://www.gwangjin.go.kr/static/portal/img/cts/200199/200199_BI.jpg",
+    "alt": "광진구 브랜드 슬로건 BI"
+   },
+   {
+    "src": "http://www.gwangjin.go.kr/static/portal/img/cts/200199/200199_character.jpg",
+    "alt": "광진구 SNS캐릭터 광이진이"
+   },
+   {
+    "src": "http://www.gwangjin.go.kr/static/portal/img/sub/200200-3.png",
+    "alt": "캐릭터-광이진이"
+   }
+  ]
  },
  {
   "name": "구로구",
@@ -1235,7 +2524,8 @@
    "https://www.guro.go.kr/DATA/download/www/0618_cts_file1.pdf?",
    "http://www.guro.go.kr/DATA/download/www/0618_cts_file2.pdf?"
   ],
-  "status": "배포파일 있음"
+  "status": "배포파일 있음",
+  "images": []
  },
  {
   "name": "금천구",
@@ -1243,7 +2533,8 @@
   "page": "https://www.geumcheon.go.kr/portal/contents.do?key=436",
   "page_label": "금천구상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "노원구",
@@ -1251,7 +2542,13 @@
   "page": "https://www.nowon.kr/www/intrcn/intrcn2/intrcn2_02.jsp",
   "page_label": "노원상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.nowon.kr/resources/www/images/intro/img-ci-logo.jpg",
+    "alt": "노원구 휘장"
+   }
+  ]
  },
  {
   "name": "도봉구",
@@ -1261,7 +2558,33 @@
   "assets": [
    "http://www.dobong.go.kr/FILE/link/www/depth06/도봉구_마크.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.dobong.go.kr/images/2023/main/ebhb2.png",
+    "alt": "도봉구 캐릭터 보러가기"
+   },
+   {
+    "src": "http://www.dobong.go.kr/Open_content/images/img_RSPIOO_A1_00025_1.gif",
+    "alt": "휘장(상징마크)"
+   },
+   {
+    "src": "http://www.dobong.go.kr/Open_content/images/img_RSPIOO_A1_00025_2.gif",
+    "alt": "휘장(상징마크) 상단"
+   },
+   {
+    "src": "http://www.dobong.go.kr/Open_content/images/img_RSPIOO_A1_00025_3.gif",
+    "alt": "휘장(상징마크) 중앙"
+   },
+   {
+    "src": "http://www.dobong.go.kr/Open_content/images/img_RSPIOO_A1_00025_4.gif",
+    "alt": "휘장(상징마크) 하단"
+   },
+   {
+    "src": "http://www.dobong.go.kr/images/2023/main/nation_1.png",
+    "alt": "국가 상징 알아보기"
+   }
+  ]
  },
  {
   "name": "동대문구",
@@ -1269,15 +2592,51 @@
   "page": "https://www.ddm.go.kr/www/contents.do?key=260",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.ddm.go.kr/site/www/images/sub/read_braille02.png",
+    "alt": "상징물 점자다운로드"
+   }
+  ]
  },
  {
   "name": "동작구",
   "site": "http://www.dongjak.go.kr/",
-  "page": "http://www.dongjak.go.kr/portal/main/contents.do?menuNo=200649",
+  "page": "http://www.dongjak.go.kr/portal/main/contents.do?menuNo=200650",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.dongjak.go.kr/static/portal/img/main/2026/logo_new20260701.png",
+    "alt": "동작구청 로고"
+   },
+   {
+    "src": "http://www.dongjak.go.kr/editorUpload/87d2d3f7-3fc1-468a-a327-231755dd7a0f.png",
+    "alt": "BI그림"
+   },
+   {
+    "src": "http://www.dongjak.go.kr/editorUpload/ff4ebbf0-6425-4235-8d3b-121f2e38af3f.png",
+    "alt": "BI그림"
+   },
+   {
+    "src": "http://www.dongjak.go.kr/static/portal/img/main/2026/s260818.png",
+    "alt": "슬로건"
+   },
+   {
+    "src": "http://www.dongjak.go.kr/static/portal/img/05/dongjak_character.png",
+    "alt": "동작이와 국화씨 캐릭터"
+   },
+   {
+    "src": "http://www.dongjak.go.kr/editorUpload/7e9f24a0-68dc-43eb-ae51-c59bcb98d485.png",
+    "alt": "BI 그림(행복한 변화 사람하는 동작)"
+   },
+   {
+    "src": "http://www.dongjak.go.kr/static/portal/img/05/200650_07.gif",
+    "alt": "캐릭터 (로야,로미) 그림"
+   }
+  ]
  },
  {
   "name": "마포구",
@@ -1285,7 +2644,25 @@
   "page": "http://www.mapo.go.kr/site/main/content/mapo040102",
   "page_label": "마포의 상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.mapo.go.kr/design/theme/mapo/images/sub/symbol_logo.png",
+    "alt": "로고"
+   },
+   {
+    "src": "http://www.mapo.go.kr/design/theme/mapo/images/sub/character_big.png",
+    "alt": "캐릭터 큰 이미지"
+   },
+   {
+    "src": "http://www.mapo.go.kr/design/theme/mapo/images/sub/characters.png",
+    "alt": "6개 캐릭터"
+   },
+   {
+    "src": "http://www.mapo.go.kr/design/theme/mapo/images/sub/ico_img06.jpg",
+    "alt": "마포상징 애창노래(마포는 내사랑)"
+   }
+  ]
  },
  {
   "name": "서대문구",
@@ -1304,7 +2681,17 @@
    "https://www.seocho.go.kr/common/files/Download.do?cfIdx=CF00000203&amp;cfGroup=COMMON&amp;cfRename=9a436094-c742-4fa4-b32f-d57c7a052825.ai",
    "https://www.seocho.go.kr/common/files/Download.do?cfIdx=CF00095449&amp;cfGroup=COMMON&amp;cfRename=20221111132321_062yp2nnkyziaodfoekp5qi1rfdpffpf.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.seocho.go.kr/images/seocho/m5/symbol1.gif",
+    "alt": "서초구 로고"
+   },
+   {
+    "src": "https://www.seocho.go.kr/images/seocho/m5/symbol2.gif",
+    "alt": "서초구 로고"
+   }
+  ]
  },
  {
   "name": "성동구",
@@ -1318,7 +2705,25 @@
    "https://www.sd.go.kr/downloadSFT.do?s=main&f=cts1382_file3.pdf&t=성동에 살아요 디자인가이드.pdf",
    "https://www.sd.go.kr/downloadSFT.do?s=main&f=cts1382_file4.zip&t=성동에 살아요 로고.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.sd.go.kr/site/main/images/contents/cts1382_img1.png",
+    "alt": "성동구 상징마크"
+   },
+   {
+    "src": "https://www.sd.go.kr/site/main/images/contents/cts1382_img4.jpg",
+    "alt": "성동구 캐릭터 미소"
+   },
+   {
+    "src": "https://www.sd.go.kr/site/main/images/contents/cts1382_img9.png",
+    "alt": "#성동에 살아요 로고"
+   },
+   {
+    "src": "https://www.sd.go.kr/common/images/layout/footer_mark.png",
+    "alt": "국가상징 알아보기"
+   }
+  ]
  },
  {
   "name": "성북구",
@@ -1326,7 +2731,8 @@
   "page": "https://www.sb.go.kr/www/contents.do?key=5965",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "송파구",
@@ -1346,7 +2752,17 @@
    "https://www.yangcheon.go.kr/common/files/Download.do?cfIdx=CF00004060&amp;cfGroup=COMMON&amp;cfRename=d09bbba9-d9ed-4c13-bfbc-32791c073db6.zip",
    "https://www.yangcheon.go.kr/common/files/Download.do?cfIdx=CF00009707&amp;cfGroup=COMMON&amp;cfRename=710614a3-2033-4bd1-bfce-1dc664540a56.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.yangcheon.go.kr/images/yangcheon/m4/m1040204_img1.gif",
+    "alt": "휘장 : 발전과 화합"
+   },
+   {
+    "src": "https://www.yangcheon.go.kr/images/yangcheon/m4/m1040204_img2_new1.gif?u=20240702",
+    "alt": "마스코트 : 해누리"
+   }
+  ]
  },
  {
   "name": "영등포구",
@@ -1360,7 +2776,37 @@
    "http://www.ydp.go.kr/DATA/download/www/cts2895_file4.zip",
    "http://www.ydp.go.kr/DATA/download/www/cts2895_file5.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.ydp.go.kr/site/www/images/contents/cts2895_img.png",
+    "alt": "영등포구 심벌마크 이미지"
+   },
+   {
+    "src": "http://www.ydp.go.kr/site/www/images/contents/cts2894_icon.png",
+    "alt": "영등포구 심벌마크의 파란 동그라미 부분 이미지"
+   },
+   {
+    "src": "http://www.ydp.go.kr/site/www/images/contents/cts2894_icon2.png",
+    "alt": "영등포구 심벌마크의 초록색 부분 이미지"
+   },
+   {
+    "src": "http://www.ydp.go.kr/site/www/images/contents/cts2895_img2.png",
+    "alt": "영등포구 심벌마크의 여러가지 색상 이미지"
+   },
+   {
+    "src": "http://www.ydp.go.kr/site/www/images/contents/cts2895_img3.png",
+    "alt": "영등포구 한글, 영어, 한문 로고  이미지"
+   },
+   {
+    "src": "http://www.ydp.go.kr/site/www/images/contents/cts2895_img4.png",
+    "alt": "영등포구 로고와 심벌마크를 활용한 국문가로조합, 국문/영문 가로조합 이미지"
+   },
+   {
+    "src": "http://www.ydp.go.kr/site/www/images/contents/cts2895_img5.png",
+    "alt": "영등포구 CI를 여러 물품 디자인에 활용한 예시 이미지"
+   }
+  ]
  },
  {
   "name": "용산구",
@@ -1368,7 +2814,13 @@
   "page": "https://www.yongsan.go.kr/portal/main/contents.do?menuNo=200223",
   "page_label": "용산의상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.yongsan.go.kr/static/portal/img/sub/ci.png",
+    "alt": "휘장 ci 이미지"
+   }
+  ]
  },
  {
   "name": "은평구",
@@ -1376,7 +2828,33 @@
   "page": "https://www.ep.go.kr/www/contents.do?key=777",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.ep.go.kr/site/www/images/contents/symbol_img1.jpg",
+    "alt": "은평구 구 마크"
+   },
+   {
+    "src": "https://www.ep.go.kr/site/www/images/contents/symbol_img2.jpg",
+    "alt": "은평구 구 BI"
+   },
+   {
+    "src": "https://www.ep.go.kr/site/www/images/contents/symbol_img3.jpg",
+    "alt": "은평구 구화 - 코스모스"
+   },
+   {
+    "src": "https://www.ep.go.kr/site/www/images/contents/symbol_img4.jpg",
+    "alt": "은평구 구목 - 대추나무"
+   },
+   {
+    "src": "https://www.ep.go.kr/site/www/images/contents/symbol_img5.jpg",
+    "alt": "은평구 구조 - 비둘기"
+   },
+   {
+    "src": "https://www.ep.go.kr/site/www/images/contents/symbol_img6.jpg",
+    "alt": "은평구 구마크"
+   }
+  ]
  },
  {
   "name": "종로구",
@@ -1384,7 +2862,8 @@
   "page": "http://www.jongno.go.kr/Main.do?menuId=1895&amp;menuNo=1895",
   "page_label": "구상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "서울특별시 중구",
@@ -1396,7 +2875,29 @@
    "http://www.junggu.seoul.kr/cwsboard/board.do?mode=download&amp;bid=1066&amp;cid=919507932&amp;fileIndex=1&amp;filename=91950_201912241126086340.pdf",
    "https://www.junggu.seoul.kr/convert.jsp?bid=1066&cid=1466569294&filePath=1066/&fileIndex=1&fileName=146656_202608111118077380.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.junggu.seoul.kr/images/sub/symbol_mark01.png",
+    "alt": "심벌마크의 기본형 색상. 붉은색과 노란색"
+   },
+   {
+    "src": "https://www.junggu.seoul.kr/images/sub/symbol_mark02.png",
+    "alt": "중구 휘장"
+   },
+   {
+    "src": "https://www.junggu.seoul.kr/images/sub/symbol_mark03.png",
+    "alt": "밝은 배경에 놓인 중구 로고"
+   },
+   {
+    "src": "https://www.junggu.seoul.kr/images/sub/symbol_mark04.png",
+    "alt": "어두운 배경에 놓인 중구 로고"
+   },
+   {
+    "src": "https://www.junggu.seoul.kr/images/sub/symbol_logo2.png",
+    "alt": "중구의 캐릭터 하티"
+   }
+  ]
  },
  {
   "name": "중랑구",
@@ -1404,7 +2905,25 @@
   "page": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=200455",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.jungnang.go.kr/portal/img_2017/contents/logo-img02.png",
+    "alt": "중랑구 휘장 로고(왼쪽 심볼/오른쪽 로고타입) 색상 자세한 안내는 아래 참고"
+   },
+   {
+    "src": "https://www.jungnang.go.kr/portal/img_2017/contents/logo-img03.png",
+    "alt": "중랑구 엠블럼"
+   },
+   {
+    "src": "https://www.jungnang.go.kr/portal/images/contents/07/02/03/0702030101_02.png",
+    "alt": "중랑구 캐릭터"
+   },
+   {
+    "src": "https://www.jungnang.go.kr/portal/resources/img/common/icon_korea.png",
+    "alt": "대한민국 국가상징"
+   }
+  ]
  },
  {
   "name": "울산광역시 남구",
@@ -1415,7 +2934,21 @@
    "https://www.ulsannamgu.go.kr/aboutNamgu/file/ci.zip",
    "https://www.ulsannamgu.go.kr/aboutNamgu/file/mark02_jpg.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.ulsannamgu.go.kr/images/aboutNamgu/namguSymbols_img01.gif",
+    "alt": "심벌마크"
+   },
+   {
+    "src": "https://www.ulsannamgu.go.kr/images/btn/btn_ci_ai_download.gif",
+    "alt": "제작용 CI(AI)파일 다운로드"
+   },
+   {
+    "src": "https://www.ulsannamgu.go.kr/images/btn/btn_ci_jpg_download.gif",
+    "alt": "제작용 CI(jpg)파일 다운로드"
+   }
+  ]
  },
  {
   "name": "울산광역시 동구",
@@ -1423,7 +2956,8 @@
   "page": "http://www.donggu.ulsan.kr/donggu/contents/contents.do?mId=5020103",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "울산광역시 북구",
@@ -1435,7 +2969,29 @@
    "https://www.bukgu.ulsan.kr/download_url.jsp?url=/down/bukcu_character.ai",
    "https://www.bukgu.ulsan.kr/download_url.jsp?url=/down/bukcu_character_echo.ai"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.bukgu.ulsan.kr/images/contents/symbol.png",
+    "alt": "북구청 심벌마크"
+   },
+   {
+    "src": "https://www.bukgu.ulsan.kr/images/contents/carrick_2020.png",
+    "alt": "북구청 캐릭터 쇠부리와 참나리"
+   },
+   {
+    "src": "https://www.bukgu.ulsan.kr/images/contents/img_flower.jpg",
+    "alt": "북구청 구화 참나리"
+   },
+   {
+    "src": "https://www.bukgu.ulsan.kr/images/contents/img_tree.jpg",
+    "alt": "북구청 구목 느티나무"
+   },
+   {
+    "src": "https://www.bukgu.ulsan.kr/images/contents/img_bird.jpg",
+    "alt": "북구청 구조 산까치"
+   }
+  ]
  },
  {
   "name": "울주군",
@@ -1450,7 +3006,25 @@
    "http://www.ulju.ulsan.kr/ulju/media/uj_uljuinfo/symbo/design_guide.pdf",
    "https://www.ulju.ulsan.kr/ulju/media/uj_lifeguide/down/SocialWelfareFacilities_260225.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.ulju.ulsan.kr/ulju/images/sub/symbolImg.gif",
+    "alt": "심볼마크 이미지"
+   },
+   {
+    "src": "http://www.ulju.ulsan.kr/ulju/images/sub/brandImg.jpg",
+    "alt": "브랜드심볼마크 이미지"
+   },
+   {
+    "src": "http://www.ulju.ulsan.kr/ulju/images/sub/mascot_img01.jpg",
+    "alt": "마스코트 기본형-한글,영문"
+   },
+   {
+    "src": "http://www.ulju.ulsan.kr/ulju/images/sub/mascot_img02.jpg",
+    "alt": "마스코트 응용형-한글"
+   }
+  ]
  },
  {
   "name": "울산광역시 중구",
@@ -1461,7 +3035,25 @@
    "http://www.junggu.ulsan.kr/images/domain/junggu/file/brand_ai.zip",
    "http://www.junggu.ulsan.kr/images/junggu/file/carac_ai.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.junggu.ulsan.kr/images/domain/junggu/junggu/junggu_logo.png",
+    "alt": "울산광역시 중구 로고"
+   },
+   {
+    "src": "http://www.junggu.ulsan.kr/images/domain/junggu/junggu/junggu_img04.jpg",
+    "alt": "문화가숨쉬는울산중구(브랜드슬로건)"
+   },
+   {
+    "src": "http://www.junggu.ulsan.kr/images/junggu/junggu/junggu_img05.jpg",
+    "alt": "캐릭터 가람이 이미지"
+   },
+   {
+    "src": "http://www.junggu.ulsan.kr/images/domain/junggu/junggu/junggu_img06.jpg",
+    "alt": "울산큰애기 캐릭터 이미지"
+   }
+  ]
  },
  {
   "name": "강화군",
@@ -1469,7 +3061,21 @@
   "page": "https://www.ganghwa.go.kr/open_content/main/ganghwa/info/symbol.jsp",
   "page_label": "강화의상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.ganghwa.go.kr/open_content/main/images/contents/symbol.gif",
+    "alt": "강화 심볼마크"
+   },
+   {
+    "src": "https://www.ganghwa.go.kr/open_content/main/images/contents/symbol2.gif",
+    "alt": "강화 심볼마크 일부(원과 물결)"
+   },
+   {
+    "src": "https://www.ganghwa.go.kr/open_content/main/images/contents/symbol3.gif",
+    "alt": "강화 심볼마크 일부(물결)"
+   }
+  ]
  },
  {
   "name": "계양구",
@@ -1477,7 +3083,49 @@
   "page": "http://www.gyeyang.go.kr/open_content/main/gyeyang/current/symbol.jsp",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/council/images/inc/sns_facebook.gif",
+    "alt": "계양구의회 GYEYANG-GU COUNCIL"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/council/images/inc/sns_insta.gif",
+    "alt": "계양구의회 GYEYANG-GU COUNCIL"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/council/images/inc/sns_blog.gif",
+    "alt": "계양구의회 GYEYANG-GU COUNCIL"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/council/images/inc/sns_youtube.gif",
+    "alt": "계양구의회 GYEYANG-GU COUNCIL"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/main/images/contents/gyeyang/symbol_logo.gif",
+    "alt": "계양구로고"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/main/images/contents/gyeyang/symbol_brand.gif",
+    "alt": "HAPPY GREEN 계양 : 계양구 도시브랜드 이미지"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/main/images/contents/gyeyang/symbol_character.gif",
+    "alt": "계양구 캐릭터 신비 이미지"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/main/images/contents/gyeyang/symbol_bird.gif",
+    "alt": "계양구 구조 까치 사진"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/main/images/contents/gyeyang/symbol_tree.gif",
+    "alt": "계양구 구목 은행나무 사진"
+   },
+   {
+    "src": "http://www.gyeyang.go.kr/open_content/main/images/contents/gyeyang/symbol_flower.gif",
+    "alt": "계양구 구화 진달래 사진"
+   }
+  ]
  },
  {
   "name": "남동구",
@@ -1485,7 +3133,53 @@
   "page": "https://www.namdong.go.kr/main/introduction/present/logo.jsp",
   "page_label": "심벌마크/슬로건/도시브랜드",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/logo.png",
+    "alt": "남동구 로고 이미지"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/bi.png",
+    "alt": "남동구 BI 이미지"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/bi_a1.png",
+    "alt": "남동구 CI"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/bi_a5.png",
+    "alt": "소래찬 BI"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/bi_a6.png",
+    "alt": "소래 BI"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/bi_a3.png",
+    "alt": "남동구 캐릭터"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/bi_a8.png",
+    "alt": "슬로건 BI"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/contents/bi_a7.png",
+    "alt": "청사 BI"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/main/logo_w.png",
+    "alt": "남동구 로고"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/main/logo_w.png",
+    "alt": "남동구 로고"
+   },
+   {
+    "src": "https://www.namdong.go.kr/main/img/inc/wa_mark.png",
+    "alt": "과학기술정보통신부 WEB ACCESSIBILITY"
+   }
+  ]
  },
  {
   "name": "인천광역시 동구",
@@ -1493,7 +3187,17 @@
   "page": "https://www.icdonggu.go.kr/main/introduce/guide/symbol.jsp",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.icdonggu.go.kr/main/img/contents/symbol-mark.svg",
+    "alt": "제물포구의 마크 이미지"
+   },
+   {
+    "src": "https://www.icdonggu.go.kr/main/img/contents/symbol-character.png",
+    "alt": "캐릭터 동이 이미지"
+   }
+  ]
  },
  {
   "name": "미추홀구",
@@ -1508,7 +3212,21 @@
    "http://www.namgu.incheon.kr/downloads/namgu/mascotai.zip",
    "http://www.namgu.incheon.kr/downloads/namgu/mascot.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.namgu.incheon.kr/main/images/sub/sq=9/simbol1.png",
+    "alt": "미추홀구 심볼마크"
+   },
+   {
+    "src": "http://www.namgu.incheon.kr/main/images/sub/sq=9/simbol2.png",
+    "alt": "미추홀구 심볼마크 가이드"
+   },
+   {
+    "src": "http://www.namgu.incheon.kr/main/images/sub/sq=9/mascot.png",
+    "alt": "미추홀구 마스코트"
+   }
+  ]
  },
  {
   "name": "부평구",
@@ -1516,7 +3234,17 @@
   "page": "http://www.icbp.go.kr/main/introduction/symbol/symbol_slogan.jsp",
   "page_label": "부평의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.icbp.go.kr/main/img/contents/img_slogan_main.jpg",
+    "alt": "메인 슬로건 참여+나눔 더불어 사는 따듯한 부평"
+   },
+   {
+    "src": "http://www.icbp.go.kr/main/img/inc/logo02.png",
+    "alt": "[부평구 로고] 참여+나눔 더불어사는 따뜻한 부평"
+   }
+  ]
  },
  {
   "name": "인천광역시 서구",
@@ -1524,7 +3252,17 @@
   "page": "https://www.seo.incheon.kr/open_content/main/seogu/info/symbol.jsp",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.seo.incheon.kr/open_content/main/images/contents/seogu/symbol01.gif",
+    "alt": "서해구 로고 이미지"
+   },
+   {
+    "src": "https://www.seo.incheon.kr/open_content/main/img2023/logo_bk.png",
+    "alt": "로고 : 인천광역시 서해구"
+   }
+  ]
  },
  {
   "name": "연수구",
@@ -1532,7 +3270,21 @@
   "page": "http://www.yeonsu.go.kr/main/yeonsu/intro/symbol.asp",
   "page_label": "연수구 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.yeonsu.go.kr/main/images/inc/banr_flag.gif",
+    "alt": "국가상징 알아보기"
+   },
+   {
+    "src": "http://www.yeonsu.go.kr/main/images/contents/yeonsu/symbol_mark.png",
+    "alt": "심볼마크(CITY IDENTITY)"
+   },
+   {
+    "src": "http://www.yeonsu.go.kr/main/images/inc/btm_web.gif",
+    "alt": "과학기술정보통신부 WEB ACCESSIBILITY"
+   }
+  ]
  },
  {
   "name": "옹진군",
@@ -1540,7 +3292,25 @@
   "page": "http://www.ongjin.go.kr/open_content/main/introduction/present/symbol.jsp",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.ongjin.go.kr/open_content/main/images/inc/flag2.gif",
+    "alt": "태극기(국가상징)"
+   },
+   {
+    "src": "http://www.ongjin.go.kr/open_content/main/images/contents/symbol01.png",
+    "alt": "옹진군 군마크"
+   },
+   {
+    "src": "http://www.ongjin.go.kr/open_content/main/images/contents/symbol05.png",
+    "alt": "옹진군 마스코트"
+   },
+   {
+    "src": "http://www.ongjin.go.kr/open_content/main/images/inc/wa_mark2025.png",
+    "alt": "과학기술정보통신부 WEB ACCESSIBILITY"
+   }
+  ]
  },
  {
   "name": "인천광역시 중구",
@@ -1559,7 +3329,37 @@
    "http://www.gangjin.go.kr/www/gangjin_story/symbol/screen_print.pdf?page=1",
    "http://www.gangjin.go.kr/contents/23038/ci.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.gangjin.go.kr/contents/23038/symbol_01.png",
+    "alt": "강진군 심벌마크"
+   },
+   {
+    "src": "http://www.gangjin.go.kr/contents/23038/symbol_02.jpg",
+    "alt": "강진군 로고타입: 심벌마크와 국문 강진군, 영문 GANGJINCITY 조합"
+   },
+   {
+    "src": "http://www.gangjin.go.kr/contents/23038/symbol_03_01.png",
+    "alt": "강진군 캐릭터 강도령과 진낭자가 서로 허리를 두르고 있는 모습"
+   },
+   {
+    "src": "http://www.gangjin.go.kr/contents/23038/symbol_03_02.png",
+    "alt": "강진군 캐릭터 강도령과 진낭자가 함께 손을 잡고 있는 모습"
+   },
+   {
+    "src": "http://www.gangjin.go.kr/contents/23038/sym_c_2025_1.jpg",
+    "alt": "강진군 군화 모란꽃"
+   },
+   {
+    "src": "http://www.gangjin.go.kr/contents/23038/sym_c_2025_2.jpg",
+    "alt": "강진군 군목 동백나무 숲"
+   },
+   {
+    "src": "http://www.gangjin.go.kr/contents/23038/sym_c_2025_3.jpg",
+    "alt": "강진군 군조 고니"
+   }
+  ]
  },
  {
   "name": "고흥군",
@@ -1575,7 +3375,13 @@
    "https://www.goheung.go.kr/home/www/down/goheung_character_text.ai",
    "https://www.goheung.go.kr/home/www/down/www109/고흥군 캐릭터 응용형 개별파일(png).zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.goheung.go.kr/home/www/images/sub/logo_big.jpg",
+    "alt": "고흥군 로고"
+   }
+  ]
  },
  {
   "name": "곡성군",
@@ -1610,7 +3416,21 @@
    "https://www.naju.go.kr/www/introduction/symbol/screen_print.pdf?page%3D1",
    "https://www.naju.go.kr/images/www/board/241224_symbol.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.naju.go.kr/images/www/common/logo_slogan.gif",
+    "alt": "나주시청 로고,슬로건(살기좋은 행복나주 앞서가는 으뜸나주)"
+   },
+   {
+    "src": "https://www.naju.go.kr/images/www/common/logo_new.png",
+    "alt": "나주시청 로고"
+   },
+   {
+    "src": "https://www.naju.go.kr/contents/457/emblem_c_01_241226.jpg",
+    "alt": "나주심벌마크로 색이다른 3개의 원과 나이테로 특산물인 나주배를 형상화하고있는 심벌마크, 나주시 한글로고, 나"
+   }
+  ]
  },
  {
   "name": "담양군",
@@ -1631,7 +3451,33 @@
    "https://www.mokpo.go.kr/contents/13436/symbolmark_2024.zip",
    "https://www.mokpo.go.kr/contents/13436/mascot_2022.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.mokpo.go.kr/images/www/common/logo_new.png",
+    "alt": "낭만항구 목포 로고"
+   },
+   {
+    "src": "https://www.mokpo.go.kr/images/www/common/logo.png",
+    "alt": "낭만항구 목포 로고"
+   },
+   {
+    "src": "https://www.mokpo.go.kr/images/www/common/logo.png",
+    "alt": "낭만항구 목포 로고"
+   },
+   {
+    "src": "https://www.mokpo.go.kr/contents/13436/symbol_c01.png?build_20260901015",
+    "alt": "목포시 심볼마크로 유달산,깃발를 형상화한 연두빛의 컬러와 배를 형상화한 블루와 그린사이의 어두운 컬러로 조화"
+   },
+   {
+    "src": "https://www.mokpo.go.kr/contents/13436/symbol_c02.png?build_20260901015",
+    "alt": "청정도시 목포의 파도와 물의 이미지를 목포시의 새로운 심벌과 결합한 밀레이넘 베이비 마스코트 포포와 포미, "
+   },
+   {
+    "src": "https://www.mokpo.go.kr/images/www/sub/img_opentype04.jpg",
+    "alt": "공공누리 제4유형 마크로 출처표시, 상업용금지, 변경금지 표시되어있다."
+   }
+  ]
  },
  {
   "name": "무안군",
@@ -1643,7 +3489,13 @@
    "https://www.muan.go.kr/contents/27244/symbol_box.zip",
    "https://www.muan.go.kr/contents/27244/qrcode.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.muan.go.kr/contents/27244/logo_c_01.jpg",
+    "alt": "무안군 로고"
+   }
+  ]
  },
  {
   "name": "보성군",
@@ -1654,7 +3506,13 @@
    "https://www.boseong.go.kr/download/companion_animal_guide.pdf",
    "https://www.boseong.go.kr/www/introduce/intro/represent/screen_print.pdf?page%3D1"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.boseong.go.kr/contents/1/nuri_ai.jpg",
+    "alt": "공공누리, 공공저작물 자유이용허락 마크 -제4유형"
+   }
+  ]
  },
  {
   "name": "순천시",
@@ -1665,7 +3523,37 @@
    "http://www.suncheon.go.kr/kr/down/town/town_down11.pdf",
    "http://www.suncheon.go.kr/kr/down/safety/2019_environment.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.suncheon.go.kr/kr/img/common/icon_taegeukgi.png",
+    "alt": "국가상징알아보기 새창으로 열기"
+   },
+   {
+    "src": "http://www.suncheon.go.kr/kr/images/info/symbol_new_img01.png",
+    "alt": "흑두루미, 유네스코, 물, 칠면조군락, 사람연결, 봉화산, 순천만 해, 미래연결을 나타내고 있는 순천시 심볼"
+   },
+   {
+    "src": "http://www.suncheon.go.kr/kr/images/info/symbol_img05.png",
+    "alt": "윗쪽에 순천시 심볼과 오른쪽 하단에 텍스트(순천시)로 나타내는 세로형 로고타입 입니다."
+   },
+   {
+    "src": "http://www.suncheon.go.kr/kr/images/info/symbol_new_img06.png",
+    "alt": "왼쪽에 순천시 심볼과 오른쪽에 텍스트(순천시)로 나타내는 가로형 로고타입 입니다."
+   },
+   {
+    "src": "http://www.suncheon.go.kr/kr/images/info/symbol_new_img07.png",
+    "alt": "원형 타입 엠블럼 기본형"
+   },
+   {
+    "src": "http://www.suncheon.go.kr/kr/images/info/symbol_new_img08.png",
+    "alt": "원형 타입 엠블럼 응용형"
+   },
+   {
+    "src": "http://www.suncheon.go.kr/kr/img/common/f_icon01.gif",
+    "alt": "굿콘텐츠서비스 마크"
+   }
+  ]
  },
  {
   "name": "신안군",
@@ -1683,7 +3571,21 @@
   "assets": [
    "https://yeosu.go.kr/www/yeosu/symbol/screen_print.pdf?page%3D1"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://yeosu.go.kr/images/www/common/logo.png",
+    "alt": "여수시 로고"
+   },
+   {
+    "src": "https://yeosu.go.kr/images/www/common/logo.png",
+    "alt": "여수시 로고"
+   },
+   {
+    "src": "https://yeosu.go.kr/images/www/common/mark02_2025.jpg",
+    "alt": "WA 인증마크"
+   }
+  ]
  },
  {
   "name": "영광군",
@@ -1691,7 +3593,8 @@
   "page": "https://www.yeonggwang.go.kr/subpage/?site=headquarter_new&mn=9480",
   "page_label": "영광상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "영암군",
@@ -1732,7 +3635,57 @@
    "http://www.jangheung.go.kr/contents/14296/jh_C_JPG_2025_2.zip",
    "http://www.jangheung.go.kr/contents/14296/slogan_01_1.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.jangheung.go.kr/images/www/common_new/logo_new.png",
+    "alt": "장흥군 로고"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/symbol_mark01.png?build_20260901001",
+    "alt": "장흥 상징마크"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/symbol_mark02.png?build_20260901001",
+    "alt": "세로형 장흥군 로고로 상징마크 아래에 장흥군이라고 적혀있다."
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/symbol_mark03.png?build_20260901001",
+    "alt": "장흥군 가로형 로고로 한글+영문 조합형과 한글형 로고"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/symbol_mark04.png?build_20260901001",
+    "alt": "원형으로 된 장흥군 로고로 Jellanamdo Jangheunggun 전남광주통합특별시 장흥군이라고 적혀있는"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/character_img01.png?build_20260901001",
+    "alt": "우표 소 캐릭터"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/character_img02.png?build_20260901001",
+    "alt": "진비 진달래 캐릭터"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/character_img03.png?build_20260901001",
+    "alt": "동비 비둘기 캐릭터"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/character_img04.png?build_20260901001",
+    "alt": "장흥군 깃발을 들고 행진하고 있는 우표,진비,동비 캐릭터"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/character_img05.png?build_20260901001",
+    "alt": "키조개를 들고있는 우표, 응원을 하고있는 진비,동비 캐릭터"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/slogan_01.jpg?build_20260901001",
+    "alt": "정남진 장흥 JANGHEUNG 브랜드 슬로건"
+   },
+   {
+    "src": "http://www.jangheung.go.kr/contents/14296/slogan_02.jpg?build_20260901001",
+    "alt": "노벨 문학도시 장흥 City of Nobel Literature 브랜드 슬로건"
+   }
+  ]
  },
  {
   "name": "진도군",
@@ -1766,7 +3719,13 @@
   "assets": [
    "http://www.hwasun.go.kr/html/S01/pdf/Childfile.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.hwasun.go.kr/_HWASUN_KOR/img/main/hs_top_orchidLogo.png",
+    "alt": "화순춘란 Hwasun Spring Orchid [로고]"
+   }
+  ]
  },
  {
   "name": "고창군",
@@ -1790,7 +3749,8 @@
   "page": "http://www.gimje.go.kr/index.gimje?menuCd=DOM_000000101004000000",
   "page_label": "김제상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "남원시",
@@ -1798,7 +3758,8 @@
   "page": "https://www.namwon.go.kr/index.do?menuUid=ff8080818e3beff0018e40e52ee302ab",
   "page_label": "남원의상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "무주군",
@@ -1824,7 +3785,21 @@
   "assets": [
    "https://www.sunchang.go.kr/planweb/upload/board/ff8080819c993f82019cb141f8342c32/original/5cf86b63-0621-4d4b-a326-5d406e13c7fd.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://www.sunchang.go.kr/resource/www/images/contents/img_character_paste.svg",
+    "alt": "장류 캐릭터(홍메, 떨메, 독대, 매콤, 장추왕, 콩이)"
+   },
+   {
+    "src": "http://www.sunchang.go.kr/resource/www/images/contents/img_character_microbes.svg",
+    "alt": "미생물 캐릭터(누팡이, 고고, 뜸팡이, 요구르티)"
+   },
+   {
+    "src": "http://www.sunchang.go.kr/resource/www/images/contents/img_allcharacter.svg",
+    "alt": "장류캐릭터"
+   }
+  ]
  },
  {
   "name": "완주군",
@@ -1852,7 +3827,17 @@
    "http://imsil.go.kr/images/01_potal/file/sub05/symbol_jpg.zip",
    "http://imsil.go.kr/upload_data/board_data/BBS_0000008/178122686621833.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "http://imsil.go.kr/upload_data/board_data/BBS_0000008/173733901139359.png",
+    "alt": "국가상징알아보기"
+   },
+   {
+    "src": "http://imsil.go.kr/images/01_potal/contents/sub05/imsil_logo.png",
+    "alt": "임실군심벌마크"
+   }
+  ]
  },
  {
   "name": "장수군",
@@ -1860,7 +3845,8 @@
   "page": "http://www.jangsu.go.kr/index.jangsu?menuCd=DOM_000000103002006000",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "전주시",
@@ -1871,7 +3857,8 @@
    "https://www.jeonju.go.kr/images/www/dust/guidebook.pdf?subPath=",
    "https://www.jeonju.go.kr/resource/www/images/contents/edu/2024donghak_wt.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "배포파일 있음",
+  "images": []
  },
  {
   "name": "정읍시",
@@ -1881,7 +3868,29 @@
   "assets": [
    "https://www.jeongeup.go.kr/images/01_potal/down/symbol.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.jeongeup.go.kr/images/01_potal/common/taegeuk.gif",
+    "alt": "국가상징 알아보기"
+   },
+   {
+    "src": "https://www.jeongeup.go.kr/images/01_potal/sub06/img_opentype04.jpg",
+    "alt": "공공누리 심벌마크(제4유형) 공공저작물 자유이용허락"
+   },
+   {
+    "src": "https://www.jeongeup.go.kr/upload_data/popup/banner/170555243363133.jpg",
+    "alt": "전북특별자치도의회 JEONBUK STATE COUNCIL"
+   },
+   {
+    "src": "https://www.jeongeup.go.kr/images/01_potal/common/f_open.png",
+    "alt": "공공저작물 자유이용 허락 표시제도 오픈공공누리(공공누리마크)"
+   },
+   {
+    "src": "https://www.jeongeup.go.kr/images/01_potal/common/f_open.png",
+    "alt": "한국문화정보원 공공저작물 자유이용 허락 표시제도 오픈공공누리(공공누리마크)"
+   }
+  ]
  },
  {
   "name": "서귀포시",
@@ -1889,7 +3898,13 @@
   "page": "http://www.seogwipo.go.kr/seogwipo/history/symbol.htm",
   "page_label": "서귀포시의상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.seogwipo.go.kr/files/editor/e0bc4877-9131-4f07-914f-ad113bc66ab5.jpg",
+    "alt": "상징마크, 캐릭터: 해순이와 섬돌이, 상징물: 슬로건을 나타낸 사진"
+   }
+  ]
  },
  {
   "name": "제주시",
@@ -1897,7 +3912,21 @@
   "page": "https://www.jeju.go.kr/jeju/symbol.htm",
   "page_label": "제주소개 및 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.jeju.go.kr/files/editor/eeffd663-d0a5-4b90-b3e2-05189da61ce7.jpg",
+    "alt": "심벌마크"
+   },
+   {
+    "src": "https://www.jeju.go.kr/files/editor/f1ee63ee-8558-4149-82f9-c31a8358f9c7.jpg",
+    "alt": "심벌마크 최소사용규정"
+   },
+   {
+    "src": "https://www.jeju.go.kr/pub/site/jejunet/2023/images/common/mark_flag.png",
+    "alt": "국가상징"
+   }
+  ]
  },
  {
   "name": "계룡시",
@@ -1937,7 +3966,57 @@
   "page": "https://www.dangjin.go.kr/kor/sub04_01_04.do",
   "page_label": "당진시상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img01.png",
+    "alt": "당진시 심벌마크"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img02.jpg",
+    "alt": "가로 10mm 사이즈 당진시 심벌마크 이미지"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img03.jpg",
+    "alt": "왼쪽 회색 심벌마크, 오른쪽 갈색 심벌마크"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img04.png",
+    "alt": "캘리그라피 형태의 당진시 로고타입 당찬 당진"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img05.png",
+    "alt": "당진시 시그너처 Energetic DangJin 당찬 당진(로고타입과 심벌마크가 합쳐진 형태)"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img09.jpg",
+    "alt": "시그너처 A Type 입니다. 심벌마크와 로고타입의 세로사이즈가 같은 형태입니다. 좌(심벌)우(로고) 조합 "
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img10.jpg",
+    "alt": "시그너처  B Type 입니다. 심벌마크가 로고타입보다 세로사이즈가 큰 형태입니다. 좌(심벌)우(로고) 조합"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img11.png",
+    "alt": "당진시 학 캐릭터(당학이) 이미지"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img12.jpg",
+    "alt": "가로 10mm 사이즈 당진시 학 캐릭터 이미지"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img13.jpg",
+    "alt": "학 캐릭터와 당찬당진(로고타입) 좌우 조합한 이미지입니다. 왼쪽 학 캐릭터 오른쪽 당찬당진 당학이"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img14.jpg",
+    "alt": "학 캐릭터와 당찬당진(로고타입) 상하 조합한 이미지입니다. 위 학 캐릭터 아래 당찬당진 당학이"
+   },
+   {
+    "src": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img15.jpg",
+    "alt": "학 캐릭터와 영문 슬로건을 좌우 조합한 이미지입니다. 왼쪽 학 캐릭터 오른쪽 Dangjin crane 당학이"
+   }
+  ]
  },
  {
   "name": "보령시",
@@ -1954,7 +4033,57 @@
    "https://www.brcn.go.kr/download/kor/sub06/symbol_down2_jpg.zip",
    "https://www.brcn.go.kr/download/kor/sub06/symbol_down2_ai.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.brcn.go.kr/images/kor/common/ci_mark_br2.png",
+    "alt": "보령시 로고"
+   },
+   {
+    "src": "https://www.brcn.go.kr//images/kor/common/logo-chungnam.png",
+    "alt": "와 wow! 2025-2026 충남방문의 해 로고"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/common/ci_mark_br.png",
+    "alt": "보령시 로고, 메인페이지 이동"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-01.png",
+    "alt": "심벌마크"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-02.jpg",
+    "alt": "심벌마크 분할 설명 : 엄지를 치켜든 형태"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-03.jpg",
+    "alt": "심벌마크 분할 설명 : 반복적인 원의 상승 이미지"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-04.jpg",
+    "alt": "심벌마크 분할 설명 : 다크블루(냉정, 창조)"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-15.jpg",
+    "alt": "심벌마크 분할 설명(스카이블루 행복, 맑음, 미래)"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-05.jpg",
+    "alt": "보령시 로고타입"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-07.jpg",
+    "alt": "보령시 엠블럼"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-13.jpg",
+    "alt": "통합브랜드 만세보령"
+   },
+   {
+    "src": "https://www.brcn.go.kr/images/kor/sub06/simbol-14.jpg",
+    "alt": "마스코트 머돌이와 머순이"
+   }
+  ]
  },
  {
   "name": "부여군",
@@ -1966,7 +4095,53 @@
    "https://www.buyeo.go.kr/Upl/kr/goodtrae_symbol_logo_down.ai",
    "https://www.buyeo.go.kr/Upl/kr/kumdongi_symbol_logo_down.zip"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_01.gif",
+    "alt": "상징마크 부여군"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_02.gif",
+    "alt": "부여군 상징마크에서 백색바탕 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_03.gif",
+    "alt": "부여군 상징마크에서 백마강 물결 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_04.gif",
+    "alt": "부여군 상징마크에서 봉황의 중후함 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_05.gif",
+    "alt": "부여군 상징마크에서 태양상징 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_06_1.gif",
+    "alt": "부여군공동브랜드 굿뜨래 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_07_1.gif",
+    "alt": "G마크 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_08.gif",
+    "alt": "O마크(빨간색) 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_09.gif",
+    "alt": "O마크(노란색) 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_10.gif",
+    "alt": "D마크(녹색) 이미지"
+   },
+   {
+    "src": "https://www.buyeo.go.kr/images/kr/intro/img_intro_050401_11.gif",
+    "alt": "마스코트 : 금동이 이미지"
+   }
+  ]
  },
  {
   "name": "서산시",
@@ -1974,15 +4149,17 @@
   "page": "https://www.seosan.go.kr/www/contents.do?key=1372",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "서천군",
   "site": "http://www.seocheon.go.kr",
-  "page": "http://www.seocheon.go.kr/kor/sub05_02_01.do;jsessionid=D0B770342477CACA594884FA99EBCA0A",
+  "page": "http://www.seocheon.go.kr/kor/sub05_02_01.do;jsessionid=AC99057203DE2C410493499298BC67D4",
   "page_label": "서천의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "아산시",
@@ -1998,7 +4175,8 @@
   "page": "http://www.yesan.go.kr/kor/sub05_02_01.do",
   "page_label": "예산상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "천안시",
@@ -2006,7 +4184,8 @@
   "page": "https://www.cheonan.go.kr/kor/sub04_01_04.do",
   "page_label": "상징물",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "청양군",
@@ -2014,7 +4193,33 @@
   "page": "http://www.cheongyang.go.kr/kor/sub05_03_01.do",
   "page_label": "청양의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.cheongyang.go.kr/images/kor/sub05/sub05_04_01_01.gif",
+    "alt": "청양군 심벌마크 기본형"
+   },
+   {
+    "src": "http://www.cheongyang.go.kr/images/kor/sub05/sub05_04_01_02.gif",
+    "alt": "청양군 심벌마크 상하조합 TYPE 1"
+   },
+   {
+    "src": "http://www.cheongyang.go.kr/images/kor/sub05/sub05_04_01_03.gif",
+    "alt": "청양군 심벌마크 상하조합 TYPE 2"
+   },
+   {
+    "src": "http://www.cheongyang.go.kr/images/kor/sub05/sub05_04_01_04.gif",
+    "alt": "청양을 상징하는 꽃 철쭉"
+   },
+   {
+    "src": "http://www.cheongyang.go.kr/images/kor/sub05/sub05_04_01_05.gif",
+    "alt": "청양을 상징하는 나무 느티나무"
+   },
+   {
+    "src": "http://www.cheongyang.go.kr/images/kor/sub05/sub05_04_01_06.gif",
+    "alt": "청양을 상징하는 동물 원앙"
+   }
+  ]
  },
  {
   "name": "태안군",
@@ -2022,7 +4227,8 @@
   "page": "http://www.taean.go.kr/kor/sub05_02_01.do",
   "page_label": "태안의 상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "홍성군",
@@ -2046,7 +4252,13 @@
   "page": "https://www.danyang.go.kr/dy21/761",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "https://www.danyang.go.kr/File/Download/4184176dc28af6c7e22ea912e758783a",
+    "alt": "단양군 심볼마크 이미지"
+   }
+  ]
  },
  {
   "name": "보은군",
@@ -2054,7 +4266,8 @@
   "page": "http://www.boeun.go.kr/www/contents.do?key=311",
   "page_label": "상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "영동군",
@@ -2070,7 +4283,8 @@
   "page": "http://www.oc.go.kr/www/contents.do?key=2615&amp;",
   "page_label": "옥천의상징",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "음성군",
@@ -2086,7 +4300,21 @@
   "page": "http://www.okjc.net/www/contents.do?key=318",
   "page_label": "상징물과 시민의 노래",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.okjc.net/site/www/images/contents/cst_318_img1.jpg",
+    "alt": "시의 휘장"
+   },
+   {
+    "src": "http://www.okjc.net/DATA/banner/20210401114050854HDX4td.jpg",
+    "alt": "국가상징 국무회의"
+   },
+   {
+    "src": "http://www.okjc.net/DATA/banner/20141218093732485eKemAf.gif",
+    "alt": "대한법률구조공단(KOREA LEGAL &amp; CORPORATION)"
+   }
+  ]
  },
  {
   "name": "증평군",
@@ -2094,18 +4322,38 @@
   "page": "http://www.jp.go.kr/kor/sub01_07_03.do",
   "page_label": "백곡 김득신 캐릭터 자료",
   "assets": [],
-  "status": "페이지만 있음"
+  "status": "이미지 있음",
+  "images": [
+   {
+    "src": "http://www.jp.go.kr/images/kor/common/flag_slogun.png",
+    "alt": "국가상징 알아보기"
+   },
+   {
+    "src": "http://www.jp.go.kr/images/kor/common/flag_slogun_m.png",
+    "alt": "국가상징 알아보기"
+   },
+   {
+    "src": "http://www.jp.go.kr/images/kor/sub04/sub04_02_04_img09.jpg",
+    "alt": "아버지와 아들 엠블럼"
+   },
+   {
+    "src": "http://www.jp.go.kr/images/kor/sub04/sub01_07_03_open.png",
+    "alt": "공공누리 제4유형 마크"
+   },
+   {
+    "src": "http://www.jp.go.kr/images/kor/main/2022/footer_logo.png",
+    "alt": "증평군 로고"
+   }
+  ]
  },
  {
   "name": "진천군",
   "site": "http://www.jc.go.kr/",
   "page": "https://www.jincheon.go.kr/home/sub.do?menukey=2625",
   "page_label": "역사와 상징",
-  "assets": [
-   "https://www.jincheon.go.kr/upload/site/home/230427.pdf",
-   "https://www.jincheon.go.kr/oldData/editor/content/main/culture/pdf/name_of_jincheon.pdf"
-  ],
-  "status": "배포파일 있음"
+  "assets": [],
+  "status": "페이지만 있음",
+  "images": []
  },
  {
   "name": "청원군",
@@ -2129,7 +4377,37 @@
    "https://www.cheongju.go.kr/www/download/saengimyeongi_jpg.zip",
    "https://www.cheongju.go.kr/www/download/cj_numbers.pdf"
   ],
-  "status": "배포파일 있음"
+  "status": "이미지 있음 + 배포파일",
+  "images": [
+   {
+    "src": "https://www.cheongju.go.kr/www/images/contents/cts_560_img.gif",
+    "alt": "청주시 CHEONGJU CITY"
+   },
+   {
+    "src": "https://www.cheongju.go.kr/www/images/contents/cj_symbol.gif",
+    "alt": "청주시 심벌마크"
+   },
+   {
+    "src": "https://www.cheongju.go.kr/www/images/contents/cj_logotype.gif",
+    "alt": "가로국문 청주시, 가로한문 淸州市, 가로영문 CHEONGJU CITY, 세로국문 청주시, 세로한문 淸州市"
+   },
+   {
+    "src": "https://www.cheongju.go.kr/www/images/contents/cj_signa.gif",
+    "alt": "청주시 CHEONGJU CITY 국영문_기본형, 청주시 CHEONGJU CITY 국영문_활용형, 청주시 국문"
+   },
+   {
+    "src": "https://www.cheongju.go.kr/www/images/contents/cj_emblun.gif",
+    "alt": "A type CHEONGJU CITY 청주시, CHEONGJU CITY 청주시. B type 청주시 CHEO"
+   },
+   {
+    "src": "https://www.cheongju.go.kr/www/images/contents/cts_561_img.gif",
+    "alt": "청주시 캐릭터 생이와 명이"
+   },
+   {
+    "src": "https://www.cheongju.go.kr/www/images/contents/cj_character.gif",
+    "alt": "캐릭터 응용동작. 생이와 명이 환영합니다, 생이와 명이 안녕히 가세요, 생이와 명이 최고(넘버원), 생이와 "
+   }
+  ]
  },
  {
   "name": "충주시",

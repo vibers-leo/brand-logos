@@ -3,27 +3,29 @@
  "algo_v": 1,
  "id": "busan-slogan",
  "origin": "manual",
- "primary": "basic",
+ "primary": "primary",
  "variants": [
   {
-   "key": "basic",
-   "form": "wordmark",
+   "key": "primary",
+   "form": "vertical",
    "lang": "ko",
    "color": "color",
-   "label": "기본형",
+   "label": "슬로건 기본형",
    "order": 0,
    "files": {
+    "svg": "logo.svg",
     "png": "logo.png"
    }
   },
   {
    "key": "applied",
-   "form": "wordmark",
+   "form": "vertical",
    "lang": "ko",
    "color": "color",
-   "label": "활용형",
+   "label": "슬로건 활용형",
    "order": 1,
    "files": {
+    "svg": "variants/applied.svg",
     "png": "variants/applied.png"
    }
   }

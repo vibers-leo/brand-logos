@@ -38,6 +38,33 @@
     "svg": "variants/signature-en.svg",
     "png": "variants/signature-en.png"
    }
+  },
+  {
+   "key": "vertical-ko",
+   "form": "vertical",
+   "label": "국문 시그니처 (상하조합)",
+   "files": {
+    "svg": "variants/vertical-ko.svg",
+    "png": "variants/vertical-ko.png"
+   }
+  },
+  {
+   "key": "vertical-ko-en",
+   "form": "vertical",
+   "label": "국영문 혼용 (상하조합)",
+   "files": {
+    "svg": "variants/vertical-ko-en.svg",
+    "png": "variants/vertical-ko-en.png"
+   }
+  },
+  {
+   "key": "vertical-en",
+   "form": "vertical",
+   "label": "영문 시그니처 (상하조합)",
+   "files": {
+    "svg": "variants/vertical-en.svg",
+    "png": "variants/vertical-en.png"
+   }
   }
  ]
 }

@@ -4,18 +4,20 @@
  "id": "busan-slogan",
  "variants": [
   {
-   "key": "basic",
-   "form": "wordmark",
-   "label": "기본형",
+   "key": "primary",
+   "form": "vertical",
+   "label": "슬로건 기본형",
    "files": {
+    "svg": "logo.svg",
     "png": "logo.png"
    }
   },
   {
    "key": "applied",
-   "form": "wordmark",
-   "label": "활용형",
+   "form": "vertical",
+   "label": "슬로건 활용형",
    "files": {
+    "svg": "variants/applied.svg",
     "png": "variants/applied.png"
    }
   }

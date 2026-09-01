@@ -23,7 +23,13 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent / "_clients"
 PREFIX = "_clients/"
-TYPES = {".svg": "image/svg+xml", ".json": "application/json", ".jpg": "image/jpeg"}
+# ⚠️ 브랜드 매뉴얼 원본(.ai/.pdf/.zip)도 올린다. 사용자가 내려받을 수 있어야
+#    '공식 배포 원본'이라는 값어치가 생긴다. 청년작당소 매뉴얼(4.8MB)이
+#    확장자 목록에 없어 CDN 404 였다.
+#    .ai 는 실제로 PDF 라 application/pdf 로 내보내야 브라우저가 열어 준다.
+TYPES = {".svg": "image/svg+xml", ".json": "application/json", ".jpg": "image/jpeg",
+         ".ai": "application/pdf", ".pdf": "application/pdf",
+         ".zip": "application/zip", ".eps": "application/postscript"}
 
 def client():
     import boto3

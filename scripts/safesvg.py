@@ -18,6 +18,7 @@
 from __future__ import annotations
 
 import multiprocessing as mp
+import re
 from pathlib import Path
 
 MAX_SVG_BYTES = 2_000_000
@@ -28,14 +29,48 @@ class SvgRenderError(RuntimeError):
     """렌더를 포기했다. 사유가 메시지에 담긴다."""
 
 
+_ENTITY = re.compile(rb"""<!ENTITY\s+([A-Za-z_][\w.-]*)\s+(?:"([^"]*)"|'([^']*)')\s*>""")
+_DOCTYPE = re.compile(rb"<!DOCTYPE[^>[]*(?:\[[^\]]*\])?\s*>", re.S)
+
+
+def inline_internal_entities(data: bytes) -> bytes:
+    """Illustrator SVG 의 내부 엔티티를 값으로 펴고 DOCTYPE 을 지운다.
+
+    cairosvg 는 defusedxml 로 파싱하는데, 그게 **모든** 엔티티 선언을
+    거부한다(EntitiesForbidden). 그런데 Adobe Illustrator 가 내보낸 SVG 는
+    거의 항상 이렇게 생겼다:
+
+        <!DOCTYPE svg [ <!ENTITY ns_svg "http://www.w3.org/2000/svg"> ]>
+        <svg xmlns="&ns_svg;">
+
+    실제 위험(XXE)이 아니라 네임스페이스 별칭일 뿐인데 전부 렌더 실패했다 —
+    2026-08-31 수집에서 **435건**이 이것 때문에 파생물을 못 만들었다.
+
+    `unsafe=True` 로 푸는 건 답이 아니다. 그러면 외부 엔티티까지 열려
+    신뢰할 수 없는 SVG(위키미디어·웹 수집분)에 XXE 를 허용하게 된다.
+    **내부 선언만 값으로 치환하고 DOCTYPE 을 통째로 지운다** —
+    SYSTEM/PUBLIC 을 가리키는 외부 엔티티는 값이 없으므로 자연히 빠진다.
+    """
+    if b"<!ENTITY" not in data[:4000]:
+        return data
+    head = data[:4000]
+    ents = {m.group(1): (m.group(2) or m.group(3) or b"")
+            for m in _ENTITY.finditer(head)}
+    if not ents:
+        return data
+    body = _DOCTYPE.sub(b"", data, count=1)
+    for name, val in ents.items():
+        body = body.replace(b"&" + name + b";", val)
+    return body
+
+
 def _worker(src: str | bytes, out: str, width: int, transparent: bool) -> None:
     import cairosvg
     kw = {"write_to": out, "output_width": width,
           "background_color": None if transparent else "white"}
-    if isinstance(src, bytes):
-        cairosvg.svg2png(bytestring=src, **kw)
-    else:
-        cairosvg.svg2png(url=src, **kw)
+    if isinstance(src, str):
+        src = Path(src).read_bytes()
+    cairosvg.svg2png(bytestring=inline_internal_entities(src), **kw)
 
 
 def render_to_file(svg: Path | bytes | str, out: Path, width: int, *,

@@ -123,14 +123,42 @@ def main():
             cands.append((bid, n, x.get("fame") or 0))
     # 인지도 높은 것부터 — 중간에 멈춰도 값이 큰 것부터 채워진다
     cands.sort(key=lambda t: -t[2])
-    if limit:
-        cands = cands[:limit]
 
-    print(f"대상 {len(cands):,}개 (심볼만 + 영문명 보유, 인지도순)", flush=True)
+    # ⚠️ 진행 상태를 저장하지 않으면 **매번 앞부분만 다시 훑는다.**
+    #    2026-08-31 실측: 90분 동안 8,498개 중 4,600개를 조회하고 타임아웃.
+    #    다음 실행도 같은 앞 4,600개를 다시 봤고, 뒤쪽 3,900개는 영영 안 봤다.
+    #    조회 4,600건에 후보는 22개(0.5%)라 재조회는 거의 순수한 낭비였다.
+    #
+    #    커서를 두고 한 번에 CHUNK 개씩만 이어서 본다. 한 바퀴 다 돌면
+    #    처음으로 되돌아간다(그때는 새 브랜드가 쌓여 있다).
+    done_file = C / "_commons-wm-cursor.json"
+    seen = set()
+    if done_file.exists():
+        try: seen = set(json.load(open(done_file)).get("seen", []))
+        except Exception: seen = set()
+    if len(seen) >= len(cands):          # 한 바퀴 완료 → 새로 시작
+        print(f"  한 바퀴 완료({len(seen):,}) — 커서를 초기화한다", flush=True)
+        seen = set()
+    todo = [c for c in cands if c[0] not in seen]
+    CHUNK = int(sys.argv[sys.argv.index("--chunk") + 1]) if "--chunk" in sys.argv else 2500
+    cands = todo[:limit] if limit else todo[:CHUNK]
+
+    print(f"대상 {len(cands):,}개 (남은 {len(todo):,} / 전체 {len(todo)+len(seen):,} · 인지도순)", flush=True)
 
     ok = fail = skip = nomatch = blank = 0
     picked = []
+    processed = []
+
+    def save_cursor():
+        if dry: return
+        seen.update(processed)
+        json.dump({"seen": sorted(seen)}, open(done_file, "w"))
+
+    import atexit
+    atexit.register(save_cursor)      # 타임아웃·중단에도 진행분을 남긴다
+
     for i, (bid, name, _f) in enumerate(cands, 1):
+        processed.append(bid)
         try:
             files = search(name)
         except Exception as e:

@@ -29,3 +29,6 @@ __pycache__/
 
 # 로고 품질 스캔 중간 산출물 — 브랜드 id 목록이 gitleaks 오탐을 낸다
 _clients/_bad-logos.json
+
+# 워드마크 commons 수집 커서 — 진행 상태, 이력 가치 없음
+_clients/_commons-wm-cursor.json

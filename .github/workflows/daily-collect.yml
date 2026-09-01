@@ -89,15 +89,24 @@ jobs:
       #
       # ⚠️ 실패해도 파이프라인을 세우지 않는다. 외부 소스가 하나 죽었다고
       #    그날 수집 전체를 버리면 안 된다 — 어느 것이 죽었는지는 로그에 남는다.
+      # ⚠️ commons 만 유별나게 느리다. 나머지 4개는 합쳐 2분인데 commons 는
+      #    8,498개를 전수 조회하느라 90분을 다 쓰고 타임아웃했다(2026-08-31).
+      #    게다가 진행 상태가 없어 **매번 같은 앞부분만** 다시 봤다 —
+      #    조회 4,600건에 후보 22개(0.5%)라 재조회는 거의 순수한 낭비였다.
+      #    이제 커서로 2,500개씩 이어서 본다(약 4일에 한 바퀴).
       - name: 워드마크·형태 보완 수집
         continue-on-error: true
-        timeout-minutes: 90
+        timeout-minutes: 45
         run: |
-          for s in svgl vlz thesvg gilbarbara commons; do
+          for s in svgl vlz thesvg gilbarbara; do
             echo "::group::collect-wordmarks-$s"
             python3 "scripts/collect-wordmarks-$s.py" || echo "⚠️ $s 실패 (계속 진행)"
             echo "::endgroup::"
           done
+          echo "::group::collect-wordmarks-commons"
+          python3 scripts/collect-wordmarks-commons.py --chunk 2500 \
+            || echo "⚠️ commons 실패 (계속 진행)"
+          echo "::endgroup::"
 
       # ★ 국내 수집. 2026-08-29 에 1,700건을 넣었고 그 방식을 그대로 돌린다.
       #

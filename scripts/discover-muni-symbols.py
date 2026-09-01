@@ -59,6 +59,21 @@ def links(html, base):
     return out
 
 
+# alt 로 상징물을 가려낸다. 한국 지자체는 웹접근성 의무로 alt 를 성실히 단다.
+SYMBOL_ALT = re.compile(
+    r"휘장|심볼|상징|엠블럼|마크|로고|캐릭터|마스코트|브랜드|슬로건|"
+    r"시목|시화|시조|군목|군화|군조|구목|구화|구조|도목|도화|도조|CI|BI")
+# 인증마크·SNS·배너처럼 상징물이 아닌 것
+NOISE_ALT = re.compile(
+    r"웹접근성|접근성 인증|WA인증|품질인증|웹와치|QR|큐알|바로가기|"
+    r"페이스북|인스타|유튜브|트위터|카카오|블로그|배너|팝업|이전|다음|"
+    r"홈페이지 로고|사이트 로고|공공누리|공공저작물|KOGL|태극기|국기|"
+    # 시목·시화·시조는 alt 에 상징어가 들어가지만 실제로는 **나무·꽃·새 사진**이다.
+    # 사진 판정(ink_ratio -3.0)이 뒤에서 걸러 주지만 여기서 미리 빼면
+    # 받아 보는 비용을 아낀다. 사진이 아닌 도안이면 다른 alt 로 또 잡힌다.
+    r"사진|photo")
+
+
 def work(r):
     rec = {"name": r["name"], "site": r["site"], "page": None,
            "page_label": None, "assets": [], "status": ""}
@@ -116,8 +131,30 @@ def work(r):
         u = urllib.parse.urljoin(rec["page"], m.group(1))
         if ASSET.search(u) and "favicon" not in u.lower():
             rec["assets"].append(u)
+
+    # ⚠️ href 만 보면 **페이지에 박힌 로고 이미지를 통째로 놓친다.**
+    #    구리시 휘장은 `cts416_img.png` 라 파일명에 logo·symbol 이 없고
+    #    다운로드 링크도 없다. 그런데 alt 는 "시 휘장 이미지" 로 정확하다.
+    #    한국 지자체는 웹접근성 의무 때문에 alt 를 성실히 단다 — 파일명보다
+    #    alt 가 훨씬 믿을 만한 분류 신호다.
+    rec["images"] = []
+    for m in re.finditer(r"<img\b[^>]*>", hp, re.I):
+        tag = m.group(0)
+        src = re.search(r'src="([^"]+)"', tag, re.I)
+        alt = re.search(r'alt="([^"]*)"', tag, re.I)
+        if not src: continue
+        a = (alt.group(1) if alt else "").strip()
+        if not SYMBOL_ALT.search(a): continue
+        if NOISE_ALT.search(a): continue
+        rec["images"].append({"src": urllib.parse.urljoin(rec["page"], src.group(1)),
+                              "alt": a[:60]})
+    rec["images"] = rec["images"][:12]
+
     rec["assets"] = list(dict.fromkeys(rec["assets"]))[:8]
-    rec["status"] = "배포파일 있음" if rec["assets"] else "페이지만 있음"
+    if rec["images"]:
+        rec["status"] = "이미지 있음" + (" + 배포파일" if rec["assets"] else "")
+    else:
+        rec["status"] = "배포파일 있음" if rec["assets"] else "페이지만 있음"
     return rec
 
 

@@ -64,13 +64,37 @@ def inline_internal_entities(data: bytes) -> bytes:
     return body
 
 
+# 렌더러가 거부하는 흔한 오작성. 값을 지우거나 표준 문법으로 바꾼다.
+#   stroke-opacity="null" / opacity="undefined"  JS 로 만든 SVG 에서 흔하다
+#   letter-spacing="-0.2r"                       rem 을 잘라먹은 단위
+#   fill="rgb(65 74 71)"                         CSS Color 4 공백 구분(cairosvg 미지원)
+_NULLATTR = re.compile(rb'\s(?:fill|stroke)?-?opacity="(?:null|undefined|NaN)"')
+_BADUNIT = re.compile(rb'(letter-spacing|word-spacing|font-size)="(-?[\d.]+)r"')
+_RGBSPACE = re.compile(rb'rgba?\(\s*(\d+)\s+(\d+)\s+(\d+)\s*(?:/\s*([\d.%]+)\s*)?\)')
+
+
+def sanitize(data: bytes) -> bytes:
+    """렌더 전에 흔한 오작성을 고친다. 못 고치는 건 그대로 두고 실패시킨다."""
+    data = _NULLATTR.sub(b"", data)
+    data = _BADUNIT.sub(lambda m: m.group(1) + b'="' + m.group(2) + b'"', data)
+    data = _RGBSPACE.sub(
+        lambda m: b"rgb(" + m.group(1) + b"," + m.group(2) + b"," + m.group(3) + b")",
+        data)
+    # 네임스페이스 선언이 빠져 'unbound prefix' 로 죽는 SVG 가 있다
+    if b"<svg" in data[:2000] and b"xmlns=" not in data[:2000]:
+        data = data.replace(b"<svg", b'<svg xmlns="http://www.w3.org/2000/svg"', 1)
+    if b"xlink:" in data and b"xmlns:xlink" not in data[:3000]:
+        data = data.replace(b"<svg", b'<svg xmlns:xlink="http://www.w3.org/1999/xlink"', 1)
+    return data
+
+
 def _worker(src: str | bytes, out: str, width: int, transparent: bool) -> None:
     import cairosvg
     kw = {"write_to": out, "output_width": width,
           "background_color": None if transparent else "white"}
     if isinstance(src, str):
         src = Path(src).read_bytes()
-    cairosvg.svg2png(bytestring=inline_internal_entities(src), **kw)
+    cairosvg.svg2png(bytestring=sanitize(inline_internal_entities(src)), **kw)
 
 
 def render_to_file(svg: Path | bytes | str, out: Path, width: int, *,

@@ -8,9 +8,15 @@
 #   방금 복구한 파생 PNG 1,878개가 통째로 빠져 CDN 이 404 를 냈다.
 #   같은 실수를 이 세션에서 두 번 했다. 이제 이 스크립트 하나만 쓴다.
 set -uo pipefail
+# launchd 등 PATH 가 빈약한 환경에서도 boto3 가 있는 python 을 쓴다
+export PATH="/opt/homebrew/bin:$PATH"
 cd "$(dirname "$0")/.." || exit 1
+# ⚠️ set -a 없이 source 하면 현재 셸 변수로만 남아 **python 자식 프로세스가
+#    못 본다.** 로그인 셸에서는 .zshrc 가 export 해 줘서 안 드러났다.
+set -a
 source ~/Desktop/macminim4/.secrets/보안.env 2>/dev/null || {
-  echo "⛔ .secrets 를 읽을 수 없다"; exit 1; }
+  set +a; echo "⛔ .secrets 를 읽을 수 없다"; exit 1; }
+set +a
 
 rc=0
 for s in sync-png-bucket sync-all-bucket; do

@@ -60,6 +60,14 @@ for i in 1 2 3; do
     if ! python3 -c "import json,sys; json.load(open('_clients/brands.json'))" 2>/dev/null; then
       echo "⛔ brands.json 이 유효한 JSON 이 아니다"; git rebase --abort; exit 1
     fi
+    # ⚠️ brands-slim.json 은 brands.json 에서 **생성되는 파생물**이다.
+    #    '재생성물은 원격 것' 규칙에 걸려 원격(크론) 슬림이 이기면,
+    #    잘 병합한 brands.json 과 조용히 어긋난다. 실제로 그래서 사이트에
+    #    NASA 가 IT·테크, BTS 가 암호화폐로 며칠 된 값이 떠 있었다.
+    #    병합 직후 반드시 다시 만든다.
+    if [ -f _clients/brands.json ] && [ -f scripts/build-slim.py ]; then
+      python3 scripts/build-slim.py >/dev/null 2>&1         && echo "  slim 재생성 완료"         || echo "  ⚠️ slim 재생성 실패 — 수동 확인 필요"
+    fi
     git add -A _clients _targets scripts 2>/dev/null
     GIT_EDITOR=true git rebase --continue || true
   done

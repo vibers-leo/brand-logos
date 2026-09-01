@@ -1,0 +1,93 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cheongnyeon-jakdangso",
+ "origin": "manual",
+ "primary": "primary",
+ "variants": [
+  {
+   "key": "primary",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "가로형 B (시그니처)",
+   "order": 0,
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "horizontal-a",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "가로형 A",
+   "order": 1,
+   "files": {
+    "svg": "variants/horizontal-a.svg",
+    "png": "variants/horizontal-a.png"
+   }
+  },
+  {
+   "key": "vertical-a",
+   "form": "vertical",
+   "lang": "ko",
+   "color": "color",
+   "label": "세로형 A",
+   "order": 2,
+   "files": {
+    "svg": "variants/vertical-a.svg",
+    "png": "variants/vertical-a.png"
+   }
+  },
+  {
+   "key": "vertical-b",
+   "form": "vertical",
+   "lang": "ko",
+   "color": "color",
+   "label": "세로형 B",
+   "order": 3,
+   "files": {
+    "svg": "variants/vertical-b.svg",
+    "png": "variants/vertical-b.png"
+   }
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "ko",
+   "color": "color",
+   "label": "워드마크 (도형)",
+   "order": 4,
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol.png"
+   }
+  },
+  {
+   "key": "symbol-chieut",
+   "form": "symbol",
+   "lang": "ko",
+   "color": "color",
+   "label": "ㅊ 심볼 (파비콘용)",
+   "order": 5,
+   "files": {
+    "svg": "variants/symbol-chieut.svg",
+    "png": "variants/symbol-chieut.png"
+   }
+  },
+  {
+   "key": "motif",
+   "form": "symbol",
+   "lang": "ko",
+   "color": "color",
+   "label": "그래픽 모티브",
+   "order": 6,
+   "files": {
+    "svg": "variants/motif.svg",
+    "png": "variants/motif.png"
+   }
+  }
+ ]
+}

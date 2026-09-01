@@ -1,0 +1,70 @@
+{
+ "schema": 1,
+ "origin": "manual",
+ "id": "cheongnyeon-jakdangso",
+ "variants": [
+  {
+   "key": "primary",
+   "form": "horizontal",
+   "label": "가로형 B (시그니처)",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "horizontal-a",
+   "form": "horizontal",
+   "label": "가로형 A",
+   "files": {
+    "svg": "variants/horizontal-a.svg",
+    "png": "variants/horizontal-a.png"
+   }
+  },
+  {
+   "key": "vertical-a",
+   "form": "vertical",
+   "label": "세로형 A",
+   "files": {
+    "svg": "variants/vertical-a.svg",
+    "png": "variants/vertical-a.png"
+   }
+  },
+  {
+   "key": "vertical-b",
+   "form": "vertical",
+   "label": "세로형 B",
+   "files": {
+    "svg": "variants/vertical-b.svg",
+    "png": "variants/vertical-b.png"
+   }
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "label": "워드마크 (도형)",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol.png"
+   }
+  },
+  {
+   "key": "symbol-chieut",
+   "form": "symbol",
+   "label": "ㅊ 심볼 (파비콘용)",
+   "files": {
+    "svg": "variants/symbol-chieut.svg",
+    "png": "variants/symbol-chieut.png"
+   }
+  },
+  {
+   "key": "motif",
+   "form": "symbol",
+   "label": "그래픽 모티브",
+   "files": {
+    "svg": "variants/motif.svg",
+    "png": "variants/motif.png"
+   }
+  }
+ ]
+}

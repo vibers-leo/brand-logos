@@ -1,0 +1,44 @@
+name: Bucket Write Probe
+# 러너에서 NCP 버킷에 쓸 수 있는지만 1분 안에 확인한다.
+# 전체 수집(3~4시간)을 돌려야 알 수 있던 것을 떼어냈다.
+on: workflow_dispatch
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -q boto3
+      - name: 버킷 읽기·쓰기 확인
+        env:
+          NCP_ACCESS_KEY: ${{ secrets.NCP_ACCESS_KEY }}
+          NCP_SECRET_KEY: ${{ secrets.NCP_SECRET_KEY }}
+          NCP_BUCKET:     ${{ secrets.NCP_BUCKET }}
+          NCP_ENDPOINT:   ${{ secrets.NCP_ENDPOINT }}
+        run: |
+          python3 - <<'PY'
+          import boto3, os, sys
+          k=os.environ["NCP_ACCESS_KEY"]
+          print(f"키 접두 {k[:6]}… (길이 {len(k)}) · 버킷 {os.environ['NCP_BUCKET']}")
+          s3=boto3.client("s3", region_name="kr-standard",
+              endpoint_url=os.environ["NCP_ENDPOINT"],
+              aws_access_key_id=k,
+              aws_secret_access_key=os.environ["NCP_SECRET_KEY"])
+          b=os.environ["NCP_BUCKET"]
+          try:
+              n=len(s3.list_objects_v2(Bucket=b, MaxKeys=3).get("Contents",[]))
+              print(f"읽기 ✅ (샘플 {n}개)")
+          except Exception as e:
+              print(f"읽기 ❌ {e}"); sys.exit(1)
+          ok=True
+          for acl in [{"ACL":"public-read"}, {}]:
+              tag = "public-read" if acl else "ACL 없음"
+              try:
+                  s3.put_object(Bucket=b, Key="_probe/runner.txt", Body=b"x", **acl)
+                  print(f"쓰기({tag}) ✅")
+                  s3.delete_object(Bucket=b, Key="_probe/runner.txt")
+              except Exception as e:
+                  print(f"쓰기({tag}) ❌ {str(e)[:120]}"); ok=False
+          sys.exit(0 if ok else 1)
+          PY

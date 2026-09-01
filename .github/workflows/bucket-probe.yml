@@ -20,7 +20,13 @@ jobs:
           python3 - <<'PY'
           import boto3, os, sys
           k=os.environ["NCP_ACCESS_KEY"]
-          print(f"키 접두 {k[:6]}… (길이 {len(k)}) · 버킷 {os.environ['NCP_BUCKET']}")
+          import hashlib
+          # ⚠️ 접두 6자로는 두 키를 구분할 수 없다 — 둘 다 ncp_iam_BPAMKR 로 시작한다.
+          #    해시는 시크릿 마스킹에 걸리지 않으면서 동일성을 증명한다.
+          h=lambda v: hashlib.sha256(v.encode()).hexdigest()[:10]
+          print(f"ACCESS_KEY sha {h(k)} (길이 {len(k)})")
+          print(f"SECRET_KEY sha {h(os.environ['NCP_SECRET_KEY'])} (길이 {len(os.environ['NCP_SECRET_KEY'])})")
+          print(f"BUCKET sha {h(os.environ['NCP_BUCKET'])} · ENDPOINT sha {h(os.environ['NCP_ENDPOINT'])}")
           s3=boto3.client("s3", region_name="kr-standard",
               endpoint_url=os.environ["NCP_ENDPOINT"],
               aws_access_key_id=k,

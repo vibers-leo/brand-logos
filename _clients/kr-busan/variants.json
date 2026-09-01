@@ -2,25 +2,56 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kr-busan",
- "primary": "symbol",
- "fingerprint": {
-  "logo.svg": "3a7c8c21f1563ace"
- },
+ "origin": "manual",
+ "primary": "primary",
  "variants": [
+  {
+   "key": "primary",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "국문 시그니처 (좌우조합)",
+   "order": 0,
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   }
+  },
   {
    "key": "symbol",
    "form": "symbol",
-   "lang": "unknown",
+   "lang": "ko",
    "color": "color",
-   "label": "심볼형",
+   "label": "심벌마크",
+   "order": 1,
    "files": {
-    "svg": "logo.svg",
-    "png": "logo-800.png"
-   },
-   "aspect": 1.0,
-   "provider": "wikimedia-commons",
-   "origin": "collected",
-   "order": 30
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol.png"
+   }
+  },
+  {
+   "key": "signature-ko-en",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "국영문 혼용 시그니처",
+   "order": 2,
+   "files": {
+    "svg": "variants/signature-ko-en.svg",
+    "png": "variants/signature-ko-en.png"
+   }
+  },
+  {
+   "key": "signature-en",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "영문 시그니처",
+   "order": 3,
+   "files": {
+    "svg": "variants/signature-en.svg",
+    "png": "variants/signature-en.png"
+   }
   }
  ]
 }

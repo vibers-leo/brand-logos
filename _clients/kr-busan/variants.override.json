@@ -4,51 +4,39 @@
  "id": "kr-busan",
  "variants": [
   {
-   "key": "symbol",
-   "form": "symbol",
-   "label": "심벌마크",
+   "key": "primary",
+   "form": "horizontal",
+   "label": "국문 시그니처 (좌우조합)",
    "files": {
+    "svg": "logo.svg",
     "png": "logo.png"
    }
   },
   {
-   "key": "signature-ko",
-   "form": "horizontal",
-   "label": "시그니처 국문",
+   "key": "symbol",
+   "form": "symbol",
+   "label": "심벌마크",
    "files": {
-    "png": "variants/signature-ko.png"
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol.png"
+   }
+  },
+  {
+   "key": "signature-ko-en",
+   "form": "horizontal",
+   "label": "국영문 혼용 시그니처",
+   "files": {
+    "svg": "variants/signature-ko-en.svg",
+    "png": "variants/signature-ko-en.png"
    }
   },
   {
    "key": "signature-en",
    "form": "horizontal",
-   "label": "시그니처 영문",
+   "label": "영문 시그니처",
    "files": {
+    "svg": "variants/signature-en.svg",
     "png": "variants/signature-en.png"
-   }
-  },
-  {
-   "key": "signature-mixed",
-   "form": "horizontal",
-   "label": "시그니처 국영문 혼용",
-   "files": {
-    "png": "variants/signature-mixed.png"
-   }
-  },
-  {
-   "key": "symbol-line",
-   "form": "symbol",
-   "label": "심벌 라인타입",
-   "files": {
-    "png": "variants/symbol-line.png"
-   }
-  },
-  {
-   "key": "symbol-solid",
-   "form": "symbol",
-   "label": "심벌 솔리드",
-   "files": {
-    "png": "variants/symbol-solid.png"
    }
   }
  ]

@@ -233,8 +233,13 @@ def build_brand(brand: dict, force: bool, dry: bool):
         seen.add(f)
         candidates.append((f, provider_of(s.get("provider", ""))))
 
-    if not candidates:
-        # ⚠️ SVG 가 없어도 **사람이 쓴 override 가 있으면** 그것만으로 매니페스트를
+    # ⚠️ 사람이 쓴 override 는 **SVG 유무와 무관하게 항상 우선한다.**
+    #    예전엔 `if not candidates:` 안에 있어서 logo.svg 가 있으면 무시됐다.
+    #    부산광역시 공식 CI 는 SVG 에 filter 가 들어 있어 cairosvg 가 렌더를
+    #    못 하는데(검은 사각형), 그 '분석 불가' 결과가 사람이 정한 4종 변형을
+    #    덮어썼다. docstring 은 '절대 덮어쓰지 않는다'인데 코드가 달랐다.
+    if override_path.exists() or not candidates:
+        # SVG 가 없어도 override 가 있으면 그것만으로 매니페스트를
         #    만든다. 국내 지자체는 PNG 로고만 제공하는 곳이 많은데, 심볼 CI 와
         #    브랜드 슬로건을 따로 운영한다(영월군 = CI + 'Young World 영월').
         #    이 경로가 없으면 그 두 번째 형태가 화면에 영영 안 뜬다.

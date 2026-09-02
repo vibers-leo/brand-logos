@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ssocook",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "0170e783b8b71083"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.203,
+   "provider": "franchise-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

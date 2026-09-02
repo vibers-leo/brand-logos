@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nurinuri",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "dc454d4b4a29ce5c"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.128,
+   "provider": "franchise-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

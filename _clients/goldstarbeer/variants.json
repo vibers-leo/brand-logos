@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "goldstarbeer",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "04c27fef2569e9b3"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.202,
+   "provider": "franchise-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

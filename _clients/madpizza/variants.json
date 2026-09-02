@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "madpizza",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "11c1b7bf17cdd1d1"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.488,
+   "provider": "franchise-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

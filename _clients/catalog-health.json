@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-09-02T11:46:06.186879+00:00",
+ "generated_at": "2026-09-02T17:45:26.258854+00:00",
  "catalog": {
-  "brands": 44712,
-  "svg": 40718,
-  "png_only": 3994,
-  "detail_metadata_expected": 44712,
-  "variant_manifests": 39942,
-  "multiple_forms": 1605
+  "brands": 45299,
+  "svg": 40770,
+  "png_only": 4529,
+  "detail_metadata_expected": 45299,
+  "variant_manifests": 39996,
+  "multiple_forms": 1607
  },
  "backlog": {
   "svg_needed": 1499,
   "additional_forms_needed": 6179,
   "png_render_failures": 44,
-  "external_source_candidates": 7592
+  "external_source_candidates": 7595
  },
  "source_coverage": {
   "wikimedia": 33993,
   "iconify": 1790,
   "wvl": 1755,
   "thesvg": 1533,
-  "krx-site": 817,
+  "krx-site": 819,
   "devicons": 558,
   "logo.dev": 539,
   "merged": 441,
@@ -35,7 +35,7 @@
   "kr-hosp-site": 89,
   "font-awesome": 40,
   "simple-icons": 33,
-  "kr-gov-pass2": 31,
+  "kr-gov-pass2": 32,
   "official-site": 29,
   "kr-hosp-pass2": 18,
   "kr-muni-pass2": 18,

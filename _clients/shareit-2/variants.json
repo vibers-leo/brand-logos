@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "shareit-2",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "6408ebaf3621fcae"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.2,
+   "provider": "franchise-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

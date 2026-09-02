@@ -1,66 +1,54 @@
 {
- "schema":1,
- "algo_v":1,
- "id":"oluolu",
- "primary":"horizontal-none-color",
- "variants":[
+ "schema": 1,
+ "algo_v": 1,
+ "id": "oluolu",
+ "origin": "manual",
+ "primary": "horizontal-none-color",
+ "variants": [
   {
-   "key":"horizontal-none-color",
-   "form":"horizontal",
-   "lang":"none",
-   "color":"color",
-   "label":"서프보드 배지 (대표)",
-   "files":{
-    "svg":"logo.svg",
-    "png":"logo-800.png"
-   },
-   "aspect":3.79,
-   "provider":"brand-manual",
-   "origin":"manual",
-   "order":10
+   "key": "horizontal-none-color",
+   "form": "horizontal",
+   "lang": "none",
+   "color": "color",
+   "label": "서프보드 배지 (대표)",
+   "order": 0,
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   }
   },
   {
-   "key":"wordmark-none-color",
-   "form":"wordmark",
-   "lang":"none",
-   "color":"color",
-   "label":"워드마크",
-   "files":{
-    "svg":"variants/wordmark.svg"
-   },
-   "aspect":3.77,
-   "provider":"brand-manual",
-   "origin":"manual",
-   "order":40
+   "key": "wordmark-none-color",
+   "form": "wordmark",
+   "lang": "none",
+   "color": "color",
+   "label": "워드마크",
+   "order": 1,
+   "files": {
+    "svg": "variants/wordmark.svg"
+   }
   },
   {
-   "key":"emblem-none-color",
-   "form":"symbol",
-   "lang":"none",
-   "color":"color",
-   "label":"원형 엠블럼",
-   "files":{
-    "svg":"variants/emblem.svg"
-   },
-   "aspect":0.99,
-   "provider":"brand-manual",
-   "origin":"manual",
-   "order":20
+   "key": "emblem-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "원형 엠블럼",
+   "order": 2,
+   "files": {
+    "svg": "variants/emblem.svg"
+   }
   },
   {
-   "key":"symbol-none-color",
-   "form":"symbol",
-   "lang":"none",
-   "color":"color",
-   "label":"심볼만 (아사이볼)",
-   "files":{
-    "svg":"variants/symbol.svg"
-   },
-   "aspect":1.0,
-   "provider":"brand-manual",
-   "origin":"derived",
-   "derived_from":"variants/emblem.svg",
-   "order":30
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼만 (아사이볼)",
+   "order": 3,
+   "files": {
+    "svg": "variants/symbol.svg"
+   }
   }
  ]
 }

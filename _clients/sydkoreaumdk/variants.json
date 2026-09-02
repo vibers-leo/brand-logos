@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sydkoreaumdk",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "9047595f9220fc4d"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.16,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

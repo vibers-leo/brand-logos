@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "moti",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "a82dd5627bfd354b"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.891,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

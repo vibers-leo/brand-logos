@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "xiilab",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "6321ded2181da5a3"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.9,
+   "provider": "krx-rendered",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sanil",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "65bedb776dfca66b"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.207,
+   "provider": "krx-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

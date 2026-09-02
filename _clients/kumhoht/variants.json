@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kumhoht",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "8a914a2bd509c98b"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.806,
+   "provider": "krx-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

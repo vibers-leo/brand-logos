@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "119busango",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "bb28b28733bdf5d1"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.904,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

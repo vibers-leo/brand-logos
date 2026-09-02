@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "rn2",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "1fd15148e2ef2111"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.2,
+   "provider": "krx-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

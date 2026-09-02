@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cw",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "3bd87aee302ce16d"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.055,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

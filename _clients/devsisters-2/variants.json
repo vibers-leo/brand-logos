@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "devsisters-2",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "fe1495a1309a2c4c"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.5,
+   "provider": "krx-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

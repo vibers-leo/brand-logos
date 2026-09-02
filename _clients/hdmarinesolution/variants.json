@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hdmarinesolution",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "b4f853845c280bc3"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "krx-rendered",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

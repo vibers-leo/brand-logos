@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-02T01:44:00.124768+00:00",
+ "generated_at": "2026-09-02T09:55:26.655191+00:00",
  "source": {
   "name": "theSVG",
   "url": "https://github.com/glincker/thesvg",
   "registry": "https://thesvg.org/api/registry.json"
  },
  "policy": "발굴 전용. 저장소 코드의 MIT와 별개로 개별 브랜드 로고는 상표일 수 있다. 각 항목의 license·공식 사용 가이드·브랜드 매핑을 검토하기 전에는 다운로드·서비스 반영 금지.",
- "known_brand_count": 43701,
+ "known_brand_count": 44695,
  "source_brand_count": 6523,
  "new_brand_candidate_count": 1182,
- "form_gap_candidate_count": 1787,
+ "form_gap_candidate_count": 1788,
  "new_brands": [
   {
    "source_id": "a-frame",
@@ -39224,6 +39224,24 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "oxc",
+   "title": "Oxc",
+   "variants": [
+    "default",
+    "mono"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://oxc.rs/",
+   "id": "oxc",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]

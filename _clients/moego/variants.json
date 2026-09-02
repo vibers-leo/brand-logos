@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "moego",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "594680fc155471a7"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.59,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

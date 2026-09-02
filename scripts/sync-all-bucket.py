@@ -54,6 +54,10 @@ def main():
             remote[o["Key"]] = o["Size"]
     todo = []
     for p in BASE.rglob("*"):
+        # _source.json 은 폴더 복구용 내부 메타다. CDN 에 올릴 이유가 없고
+        # 4만 개가 버킷을 채운다(2026-09-02 실수로 올림).
+        if p.name == "_source.json":
+            continue
         if not p.is_file() or p.suffix.lower() not in TYPES:
             continue
         key = PREFIX + str(p.relative_to(BASE))

@@ -2,39 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "semologo",
+ "origin": "manual",
  "primary": "horizontal",
- "fingerprint": {
-  "logo.svg": "7eb7263da9ba8681",
-  "sources/self/symbol.svg": "609ce0abba3e02fe"
- },
  "variants": [
-  {
-   "key": "symbol",
-   "form": "symbol",
-   "lang": "none",
-   "color": "mono-dark",
-   "label": "심볼형",
-   "files": {
-    "svg": "sources/self/symbol.svg",
-    "png": "sources/self/symbol-512.png"
-   },
-   "aspect": 1.113,
-   "provider": "self",
-   "origin": "manual",
-   "order": 20
-  },
   {
    "key": "horizontal",
    "form": "horizontal",
    "lang": "ko",
+   "color": "color",
    "label": "시그니처 (심볼+워드마크)",
+   "order": 0,
    "files": {
     "svg": "logo.svg",
     "png": "logo.png"
-   },
-   "order": 10,
+   }
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "none",
    "color": "color",
-   "origin": "manual"
+   "label": "심볼형",
+   "order": 1,
+   "files": {
+    "svg": "sources/self/symbol.svg",
+    "png": "sources/self/symbol-512.png"
+   }
   }
  ]
 }

@@ -2,49 +2,30 @@
  "schema": 1,
  "algo_v": 1,
  "id": "innopolis",
- "primary": "wordmark",
- "fingerprint": {
-  "logo.svg": "ca34118de8ecfb91"
- },
+ "origin": "manual",
+ "primary": "primary",
  "variants": [
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo-800.png"
-   },
-   "aspect": 3.277,
-   "provider": "kr-gov-site",
-   "origin": "collected",
-   "order": 40
-  },
   {
    "key": "primary",
    "form": "unknown",
+   "lang": "ko",
+   "color": "color",
    "label": "심볼·기본형",
+   "order": 0,
    "files": {
     "svg": "logo.svg"
-   },
-   "lang": "unknown",
-   "color": "color",
-   "order": 90,
-   "origin": "manual"
+   }
   },
   {
    "key": "slogan",
    "form": "wordmark",
+   "lang": "ko",
+   "color": "color",
    "label": "브랜드 슬로건",
+   "order": 1,
    "files": {
     "svg": "variants/slogan.svg"
-   },
-   "lang": "unknown",
-   "color": "color",
-   "order": 90,
-   "origin": "manual"
+   }
   }
  ]
 }

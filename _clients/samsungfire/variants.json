@@ -2,12 +2,8 @@
  "schema": 1,
  "algo_v": 1,
  "id": "samsungfire",
+ "origin": "manual",
  "primary": "wordmark",
- "fingerprint": {
-  "logo.svg": "bd9b739762d81a69",
-  "variants/wordmark-en.svg": "00059e3fb1ea94f7",
-  "variants/wordmark-en-stacked.svg": "d4b87c3275413275"
- },
  "variants": [
   {
    "key": "wordmark",
@@ -15,25 +11,11 @@
    "lang": "ko",
    "color": "color",
    "label": "국문 워드마크",
+   "order": 0,
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
-   },
-   "aspect": 3.52,
-   "provider": "official",
-   "origin": "manual",
-   "order": 10,
-   "alts": [
-    {
-     "provider": "official",
-     "file": "variants/wordmark-en.svg"
-    },
-    {
-     "provider": "official",
-     "file": "variants/wordmark-en-stacked.svg"
-    }
-   ],
-   "note": "키를 자동 생성 키('wordmark')와 맞춰야 라벨이 덧씌워진다. 안 맞으면 같은 파일이 두 번 실린다."
+   }
   },
   {
    "key": "wordmark-en",
@@ -41,13 +23,11 @@
    "lang": "en",
    "color": "color",
    "label": "영문 워드마크 (1줄)",
-   "order": 20,
+   "order": 1,
    "files": {
     "svg": "variants/wordmark-en.svg",
     "png": "variants/wordmark-en-800.png"
-   },
-   "provider": "official",
-   "origin": "manual"
+   }
   },
   {
    "key": "wordmark-en-stacked",
@@ -55,13 +35,11 @@
    "lang": "en",
    "color": "color",
    "label": "영문 워드마크 (2줄)",
-   "order": 21,
+   "order": 2,
    "files": {
     "svg": "variants/wordmark-en-stacked.svg",
     "png": "variants/wordmark-en-stacked-800.png"
-   },
-   "provider": "official",
-   "origin": "manual"
+   }
   }
  ]
 }

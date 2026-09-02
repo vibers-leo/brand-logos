@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-01T09:54:20.790823+00:00",
+ "generated_at": "2026-09-02T01:44:00.124768+00:00",
  "source": {
   "name": "theSVG",
   "url": "https://github.com/glincker/thesvg",
   "registry": "https://thesvg.org/api/registry.json"
  },
  "policy": "발굴 전용. 저장소 코드의 MIT와 별개로 개별 브랜드 로고는 상표일 수 있다. 각 항목의 license·공식 사용 가이드·브랜드 매핑을 검토하기 전에는 다운로드·서비스 반영 금지.",
- "known_brand_count": 43699,
- "source_brand_count": 6516,
- "new_brand_candidate_count": 1175,
+ "known_brand_count": 43701,
+ "source_brand_count": 6523,
+ "new_brand_candidate_count": 1182,
  "form_gap_candidate_count": 1787,
  "new_brands": [
   {
@@ -11148,6 +11148,20 @@
    "url": "https://www.3ds.com"
   },
   {
+   "source_id": "decathlon-logo",
+   "title": "Decathlon",
+   "variants": [
+    "default",
+    "wordmark"
+   ],
+   "forms": [
+    "symbol",
+    "wordmark"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://www.decathlon.in/"
+  },
+  {
    "source_id": "decents",
    "title": "Decents",
    "variants": [
@@ -11458,6 +11472,18 @@
    ],
    "license": "MIT",
    "url": "https://expressjs.com"
+  },
+  {
+   "source_id": "farmsent",
+   "title": "Farmsent",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://farmsent.io"
   },
   {
    "source_id": "fastgpt",
@@ -12649,6 +12675,18 @@
    "url": "https://leedlime.com"
   },
   {
+   "source_id": "lifesight-light",
+   "title": "lifesight",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://lifesight.io"
+  },
+  {
    "source_id": "lightroom-classic",
    "title": "Lightroom Classic",
    "variants": [
@@ -12847,6 +12885,18 @@
    ],
    "license": "brand-use",
    "url": "https://www.adobe.com/products/flashmediaserver"
+  },
+  {
+   "source_id": "meetandy",
+   "title": "MeetAndy",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://meetandy.ai/"
   },
   {
    "source_id": "mercor",
@@ -14039,6 +14089,20 @@
    "url": "https://pass.proton.me"
   },
   {
+   "source_id": "prusa-research",
+   "title": "Prusa Research",
+   "variants": [
+    "default",
+    "light",
+    "mono"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://www.prusa3d.com"
+  },
+  {
    "source_id": "pylon",
    "title": "Pylon",
    "variants": [
@@ -14169,6 +14233,18 @@
    ],
    "license": "Proprietary",
    "url": "https://reqable.com"
+  },
+  {
+   "source_id": "rilian",
+   "title": "Rilian",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://www.rilian.com"
   },
   {
    "source_id": "rippling",
@@ -15349,6 +15425,18 @@
    ],
    "license": "brand-use",
    "url": "https://zaia.app/"
+  },
+  {
+   "source_id": "zapal",
+   "title": "Zapal",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://zapal.tech"
   },
   {
    "source_id": "zed",
@@ -31307,7 +31395,7 @@
     "symbol"
    ],
    "license": "CC0-1.0",
-   "url": "https://commons.wikimedia.org/wiki/File:ICloud_logo.svg",
+   "url": "https://www.icloud.com",
    "id": "icloud",
    "current_forms": [
     "horizontal"

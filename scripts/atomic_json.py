@@ -30,3 +30,48 @@ def write_json(path, data, *, indent=None, separators=(",", ":")):
         try: os.unlink(tmp)
         except OSError: pass
         raise
+
+
+# ── 잃어버린 갱신(lost update) 막기 ────────────────────────────────
+# ⚠️ **원자적 쓰기는 파손만 막는다. 덮어쓰기는 못 막는다.**
+# 수집기 셋이 동시에 돌면 각자 read → merge → write 를 하는데,
+# 셋 다 원자적으로 써도 **마지막 하나만 남고 나머지 추가분은 사라진다.**
+# 파일은 멀쩡하니 에러도 안 난다 — 폴더만 남고 레코드가 없어진다.
+# 2026-09-02 에 이렇게 148건이 사라졌다 (앞서 파손으로 잃은 357건과 별개).
+#
+# 고치는 법은 원자성이 아니라 **상호배제**다. 읽기 직전에 락을 잡고
+# 쓰기가 끝난 뒤에 놓는다. 그 사이 다른 프로세스는 기다린다.
+import fcntl
+from contextlib import contextmanager
+
+
+@contextmanager
+def locked(path, timeout=300):
+    """`path` 에 대한 배타 락. read-modify-write 전체를 이걸로 감싼다.
+
+        with atomic_json.locked(p):
+            data = json.loads(p.read_text())
+            data.append(...)
+            atomic_json.write_json(p, data)
+
+    락 파일은 `{path}.lock` 으로 따로 둔다 — 대상 파일 자체를 잠그면
+    os.replace 로 inode 가 갈리면서 락이 딴 파일에 남는다.
+    """
+    lock = Path(str(path) + ".lock")
+    f = open(lock, "w")
+    try:
+        import time
+        t0 = time.time()
+        while True:
+            try:
+                fcntl.flock(f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                break
+            except BlockingIOError:
+                if time.time() - t0 > timeout:
+                    raise TimeoutError(f"{lock} 락 대기 {timeout}s 초과")
+                time.sleep(0.2)
+        yield
+    finally:
+        try: fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+        except OSError: pass
+        f.close()

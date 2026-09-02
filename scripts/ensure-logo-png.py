@@ -125,8 +125,17 @@ RENDER_TIMEOUT = 25           # 초
 
 
 def _render_worker(svg_text: str, out: str, width: int) -> None:
-    import cairosvg
-    cairosvg.svg2png(bytestring=svg_text.encode(), write_to=out, output_width=width)
+    import cairosvg, sys as _s
+    _s.path.insert(0, str(Path(__file__).resolve().parent))
+    # ⚠️ 이 스크립트는 자체 렌더러를 쓰느라 safesvg 의 정상화를 못 받고 있었다.
+    #    그래서 Illustrator 엔티티(`&ns_svg;`)와 JS 가 남긴 `opacity="undefined"`,
+    #    `rgb(65 74 71)` 같은 오작성에서 그대로 죽었다. 같은 전처리를 태운다.
+    try:
+        import safesvg
+        data = safesvg.sanitize(safesvg.inline_internal_entities(svg_text.encode()))
+    except Exception:
+        data = svg_text.encode()
+    cairosvg.svg2png(bytestring=data, write_to=out, output_width=width)
 
 
 def render_png(svg: Path, out: Path) -> str | None:
@@ -235,17 +244,28 @@ def main() -> int:
         BRANDS.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
 
         if demoted and WANTED.exists():
+            # ⚠️ svg-wanted.json 은 **최상위가 리스트**다. `w["brands"]` 로 읽으면
+            #    TypeError 로 스크립트가 죽고, 이 단계가 실패하면서 뒤의
+            #    파생물 생성·매니페스트·slim 재생성이 전부 skipped 된다.
+            #    (2026-09-01 크론이 그렇게 죽었다)
+            #    dict 로 감싼 형태도 있을 수 있어 둘 다 받는다.
             w = json.loads(WANTED.read_text())
-            have = {x["id"] for x in w["brands"]}
+            rows = w if isinstance(w, list) else w.get("brands", [])
+            have = {x["id"] for x in rows if isinstance(x, dict) and "id" in x}
             new = [{"id": b["id"], "name_ko": b.get("name_ko"), "name_en": b.get("name_en"),
                     "category": b.get("category"), "domain": b.get("domain"),
                     "failed_source": "raster-wrapped-svg", "failed_at": time.strftime("%Y-%m-%d")}
                    for b in demoted if b["id"] not in have]
             if new:
-                w["brands"] += new
-                w["count"] = len(w["brands"])
-                w["generated_at"] = time.strftime("%Y-%m-%d")
-                WANTED.write_text(json.dumps(w, ensure_ascii=False, indent=1) + "\n")
+                rows += new
+                if isinstance(w, list):
+                    out = rows
+                else:
+                    w["brands"] = rows
+                    w["count"] = len(rows)
+                    w["generated_at"] = time.strftime("%Y-%m-%d")
+                    out = w
+                WANTED.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
 
     if not args.dry_run:
         # 일부 SVG는 CairoSVG가 지원하지 않는 문법을 쓴다. 이들은 개별 자산

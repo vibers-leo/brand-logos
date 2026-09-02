@@ -341,12 +341,27 @@ async def main():
         await br.close()
     print(f"\n  후보 확보 {hit} · 실패 {miss}  ({hit/max(1,hit+miss)*100:.0f}%)")
     if added and not dry:
-        bl.extend(added)
-        if isinstance(doc, dict):
-            doc["brands"] = bl; doc["total"] = len(bl)
+        # ⚠️ 시작할 때 읽은 스냅샷에 덧붙여 저장하면, 그 사이 **다른 수집기가
+        #    등록한 브랜드를 통째로 지운다.** 2026-09-02 에 프랜차이즈 수집이
+        #    공공기관 25건을 그렇게 날렸다.
+        #    저장 직전에 **다시 읽어** 병합한다. id 기준으로 겹치면 기존을 남긴다.
+        fresh = json.loads((C / "brands.json").read_text())
+        cur = fresh["brands"] if isinstance(fresh, dict) else fresh
+        have = {b["id"] for b in cur}
+        merged = 0
+        for r in added:
+            if r["id"] in have:
+                continue
+            cur.append(r); have.add(r["id"]); merged += 1
+        if isinstance(fresh, dict):
+            fresh["brands"] = cur; fresh["total"] = len(cur)
         (C / "brands.json").write_text(
-            json.dumps(doc if isinstance(doc, dict) else bl,
+            json.dumps(fresh if isinstance(fresh, dict) else cur,
                        ensure_ascii=False, separators=(",", ":")))
+        bl = cur
+        if merged != len(added):
+            print(f"  ℹ️ {len(added) - merged}건은 그 사이 다른 수집기가 이미 등록")
+        added = added[:merged] if merged else []
         print(f"  ✅ 신규 {len(added)}건 등록 (총 {len(bl):,})")
         print("  다음: build-variants.py → build-logo-variants.py → build-slim.py → sync-bucket.sh")
 

@@ -141,11 +141,24 @@ def accept(data, is_svg):
             return False, "빈 이미지"
         if o > 0.92:
             return False, "전면 불투명(사각형)"
+        # 흰 로고 경로로도 UI 아이콘이 샌다 — 흰 지구본이 그렇게 들어왔다.
+        if size[0] and size[1] and 0.85 < size[0] / size[1] < 1.18:
+            return False, f"정사각 단색(흰색) — UI 아이콘 의심 {size[0]}x{size[1]}"
         return True, f"흰색 로고 (불투명 {o:.2f}) {size[0]}x{size[1]}"
     if r > 0.80:
         return False, f"통짜 배너(잉크 {r:.2f})"
     if 0 <= bbox < 0.05:
         return False, "구석에만 내용"
+    # ⚠️ **정사각 단색 픽토그램은 UI 아이콘이다.** 지구본·돋보기·장바구니·
+    #    햄버거 메뉴·플러스·외부링크가 로고 자리에 들어왔다(2026-09-02, 12건).
+    #    로고는 대개 가로로 길고 색이 둘 이상이다. 정사각이면서 색이 하나뿐이면
+    #    거른다 — 진짜 단색 정사각 로고는 드물고, 잘못 넣는 것보다 놓치는 게 낫다.
+    if size[0] and size[1]:
+        ar = size[0] / size[1]
+        if 0.85 < ar < 1.18:
+            nc = _color_count(data, is_svg)
+            if nc is not None and nc <= 2:
+                return False, f"정사각 단색 픽토그램(색 {nc}종) — UI 아이콘"
     # ⚠️ min(size)<40 은 **가로형 로고를 죽인다** — 198x24 가 그렇게 탈락했다.
     #    로고는 높이가 낮은 게 정상이다. 폭·높이·면적을 따로 본다.
     if not is_svg and (size[0] < 48 or size[1] < 14 or size[0] * size[1] < 2000):
@@ -153,6 +166,32 @@ def accept(data, is_svg):
     if size[1] and size[0] / size[1] > 9 and r > 0.5:
         return False, "가로로 긴 배너"
     return True, f"잉크 {r:.2f} {size[0]}x{size[1]}"
+
+
+def _color_count(data, is_svg):
+    """불투명 픽셀의 색 종류 수. UI 아이콘은 1~2종이다."""
+    import io as _io
+    from PIL import Image
+    import numpy as np
+    try:
+        if is_svg:
+            import cairosvg, safesvg
+            png = cairosvg.svg2png(
+                bytestring=safesvg.sanitize(safesvg.inline_internal_entities(data)),
+                output_width=120)
+            im = Image.open(_io.BytesIO(png)).convert("RGBA")
+        else:
+            im = Image.open(_io.BytesIO(data)).convert("RGBA")
+            im.thumbnail((120, 120))
+        a = np.array(im)
+        op = a[..., 3] > 40
+        if op.sum() < 30:
+            return None
+        # 16단계로 뭉뚱그려 안티앨리어싱을 색으로 세지 않는다
+        q = (a[..., :3][op] // 48) * 48
+        return len(np.unique(q, axis=0))
+    except Exception:
+        return None
 
 
 def _opaque_ratio(data, is_svg):

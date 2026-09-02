@@ -115,6 +115,20 @@ def category(sector):
 
 
 def fetch_list():
+    """상장사 명단. **_targets/krx.json 이 있으면 그것을 쓴다.**
+
+    ⚠️ 예전엔 항상 KRX 에서 새로 받았다. 그래서 `find-official-site.py` 로
+       홈페이지 85건을 보강해 넣어도 수집기가 그걸 못 보고 계속
+       no_site 로 흘렸다(2026-09-02). KRX 원본에는 홈페이지가 비어 있는
+       회사가 많고, 우리가 검색으로 채운 값이 유일한 단서다.
+
+       원본을 다시 받고 싶으면 `--refresh` 를 준다. 그때도 보강분은
+       code 기준으로 살려 병합한다.
+    """
+    import sys as _s
+    cache = Path(__file__).resolve().parent.parent / "_targets" / "krx.json"
+    if cache.exists() and "--refresh" not in _s.argv:
+        return json.loads(cache.read_text())
     raw, _ = get(KRX, timeout=60, limit=5_000_000)
     txt = raw.decode("euc-kr", "ignore")
     out = []
@@ -124,6 +138,19 @@ def fetch_list():
         if len(td) >= 9 and td[0]:
             out.append({"name": td[0], "market": td[1], "code": td[2],
                         "sector": td[3], "site": td[8]})
+    # 검색으로 채운 홈페이지는 원본에 없다 — 새로 받아도 잃지 않는다
+    cache = Path(__file__).resolve().parent.parent / "_targets" / "krx.json"
+    if cache.exists():
+        try:
+            prev = {r["code"]: r for r in json.loads(cache.read_text()) if r.get("code")}
+            for r in out:
+                old = prev.get(r["code"])
+                if old and not (r.get("site") or "").strip() and (old.get("site") or "").strip():
+                    r["site"] = old["site"]
+                    r["site_source"] = old.get("site_source", "merged")
+        except Exception:
+            pass
+        cache.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
     return out
 
 

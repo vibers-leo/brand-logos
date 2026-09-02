@@ -220,6 +220,13 @@ def _icon_from_image(img: Image.Image, size: int) -> Image.Image:
 
     a = np.asarray(img)
     opaque_ratio = float((a[..., 3] > 25).mean()) if a.size else 1.0
+    # ⚠️ 흰 로고에 make_icon(=흰 배경 제거)을 태우면 로고가 통째로 지워져
+    #    파비콘이 빈 파일이 된다(2026-09-02 니어스랩·송우인포텍·세미티에스).
+    #    잉크가 사실상 전부 순백이면 배경 제거를 건너뛴다.
+    if a.size:
+        op = a[..., 3] > 25
+        if op.any() and float((a[..., :3][op].mean(1) > 240).mean()) > 0.97:
+            return _fit_icon(img, size)
     if opaque_ratio > 0.97:          # 투명한 데가 거의 없다 = 배경이 깔려 있다
         return make_icon(img, size)
     return _fit_icon(img, size)
@@ -280,7 +287,10 @@ def build_icon(svg_path: Path, png_path: Path, size: int = 64):
             return icon, "whole"
 
     if png_path.exists():
-        return make_icon(png_to_pil(png_path, 256), size), "whole"
+        # ⚠️ make_icon 을 직접 부르면 흰 배경 제거가 무조건 돌아 **흰 로고가
+        #    통째로 지워진다**. _icon_from_image 가 순백 로고를 알아보므로
+        #    반드시 그것을 거친다(2026-09-02 니어스랩·송우인포텍·세미티에스).
+        return _icon_from_image(png_to_pil(png_path, 256), size), "whole"
     # 원본이 아예 없다 — 빈 아이콘을 만들어 덮어쓰지 않는다
     raise ValueError("아이콘을 만들 원본이 없음 (logo.svg 렌더 실패 + logo.png 없음)")
 
@@ -305,6 +315,35 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
     # 그런 브랜드는 처음부터 투명 렌더를 쓴다 (brands.json 의 light_logo).
     is_light = bool(brand.get("light_logo"))
 
+    # ⚠️ light_logo 는 별도 스크립트(scan-light-logos)가 붙인다. 신규 수집분은
+    #    그게 아직 안 돌아 플래그가 없다. 그 사이에 파생물을 만들면
+    #    logo-white·logo-icon 이 빈 파일이 된다(2026-09-02 신규 21건 중 3건).
+    #    **불투명 잉크가 전부 순백이면** 그 자리에서 밝은 로고로 본다 —
+    #    판정기를 기다릴 필요가 없는 명백한 경우다.
+    if not is_light and png_path.exists():
+        try:
+            import numpy as _np
+            _a = _np.array(Image.open(png_path).convert("RGBA"))
+            _op = _a[..., 3] > 40
+            if _op.any() and float((_a[..., :3][_op].mean(1) > 240).mean()) > 0.97:
+                is_light = True
+        except Exception:
+            pass
+
+    def _safe_remove_white(img):
+        """배경 제거 결과가 비면 원본을 돌려준다.
+
+        흰색 로고는 '흰색이 곧 잉크'라 remove_white_bg 가 전부 지운다.
+        light_logo 판정이 아직 없는 신규 브랜드가 여기로 샌다."""
+        out = remove_white_bg(img)
+        try:
+            import numpy as _np
+            if (_np.array(out.convert("RGBA"))[..., 3] > 24).mean() < 0.005:
+                return img
+        except Exception:
+            pass
+        return out
+
     def get_source_img(width):
         if svg_path.exists():
             return svg_to_pil_alpha(svg_path, width) if is_light else svg_to_pil(svg_path, width)
@@ -319,13 +358,21 @@ def process_brand(brand: dict, dry_run: bool = False) -> dict:
         return img
 
     targets = {
-        "logo-800.png": lambda: get_source_img(800) if svg_path.exists() else None,
+        # ⚠️ 예전엔 SVG 가 있을 때만 만들었다. 그래서 **PNG 만 있는 브랜드는
+        #    logo-800 이 영영 없었고**, 상세 페이지의 'PNG 800px' 카드가 404 였다.
+        #    (2026-09-02 상장사 신규 21건 중 10건이 그랬다)
+        #    원본이 800보다 작으면 확대하지 않고 원본 크기로 둔다 — 억지로
+        #    키우면 뭉갠 이미지가 고해상도로 둔갑한다.
+        "logo-800.png": lambda: get_source_img(800),
         "logo-icon.png": _icon,
         # 밝은 로고는 이미 투명 렌더라 remove_white_bg() 를 태우면 로고 자체가
         # 지워진다 (흰색이 곧 잉크이기 때문). 그대로 쓰고, 화이트 버전은
         # 알파를 유지한 채 색만 흰색으로 칠한다.
+        # ⚠️ light_logo 플래그에만 기대면 **아직 판정 안 된 신규 브랜드**가 샌다.
+        #    흰 로고에 remove_white_bg 를 태우면 로고 자체가 지워져 빈 파일이
+        #    된다(2026-09-02 신규 21건 중 3건). 결과가 비면 원본으로 되돌린다.
         "logo-transparent.png": (lambda: get_source_img(400)) if is_light
-                                 else (lambda: remove_white_bg(get_source_img(400))),
+                                 else (lambda: _safe_remove_white(get_source_img(400))),
         "logo-white.png": (lambda: paint_white(get_source_img(400))) if is_light
                            else (lambda: make_white_version(get_source_img(400))),
     }

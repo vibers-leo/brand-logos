@@ -153,11 +153,43 @@ def ink_ratio(data, is_svg):
         return -1.0, (0, 0), -1.0
 
 
-def pick_logo(page_html, base):
-    """헤더 로고 후보를 우선순위로 고른다. SVG 가 원본이므로 앞에 둔다."""
+# alt 로 로고를 가려낸다. 한국 웹은 접근성 의무로 alt 를 성실히 단다.
+# 파일명이 `cts416_img.png`·`top_img03.png` 처럼 무의미한 경우가 많아
+# **파일명보다 alt 가 믿을 만한 신호다**(지자체 수집에서 검증).
+ALT_HIT = re.compile(r"로고|심볼|엠블럼|마크|logo|symbol|emblem|\bCI\b|\bBI\b", re.I)
+ALT_NOISE = re.compile(
+    r"웹접근성|접근성 인증|WA인증|품질인증|공공누리|배너|팝업|이전|다음|"
+    r"페이스북|인스타|유튜브|트위터|카카오|네이버|블로그|"
+    r"facebook|instagram|youtube|twitter|kakao|naver|blog|share", re.I)
+
+
+def pick_logo(page_html, base, name=None):
+    """헤더 로고 후보를 우선순위로 고른다. SVG 가 원본이므로 앞에 둔다.
+
+    `name` 을 주면 alt 에 회사명이 있는 이미지도 후보로 본다 —
+    한국 사이트는 로고 alt 를 회사명으로 다는 경우가 가장 흔하다.
+    """
     srcs = re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', page_html, re.I)
     srcs += re.findall(r'<source[^>]+srcset=["\']([^"\'\s]+)', page_html, re.I)
     named = [s for s in srcs if re.search(r"logo|ci[_\-.]|symbol|bi[_\-.]", s, re.I)]
+
+    # ★ 파일명에 단서가 없을 때 alt 로 건진다. 실측: 상장사 미수집분의 42%가
+    #   'img 는 있는데 파일명에 logo 가 없는' 경우였다(기도산업 img 20개 중 0).
+    nm = re.sub(r"[^가-힣a-z0-9]", "", (name or "").lower())
+    for tag in re.findall(r"<img\b[^>]*>", page_html, re.I):
+        m = re.search(r'src=["\']([^"\']+)', tag, re.I)
+        a = re.search(r'alt=["\']([^"\']*)', tag, re.I)
+        if not m:
+            continue
+        alt = (a.group(1) if a else "").strip()
+        if not alt or ALT_NOISE.search(alt):
+            continue
+        hit = bool(ALT_HIT.search(alt))
+        if not hit and nm:
+            an = re.sub(r"[^가-힣a-z0-9]", "", alt.lower())
+            hit = bool(an) and (an in nm or nm in an)
+        if hit and m.group(1) not in named:
+            named.append(m.group(1))
     # ⚠️ SNS 아이콘 파일명에 'logo' 가 흔히 들어간다(sns_logo_facebook.png).
     #    기관 로고 자리에 유튜브·카카오톡 아이콘이 들어온 사례가 실제로 나왔다.
     #    남의 브랜드를 그 기관 로고로 등록하는 것이라 반드시 막는다.

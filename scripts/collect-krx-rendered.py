@@ -20,6 +20,7 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(__file__))
 import collect_krx_lib as L
+import atomic_json
 
 BASE = Path(__file__).resolve().parent.parent
 C = BASE / "_clients"
@@ -394,9 +395,7 @@ async def main():
             cur.append(r); have.add(r["id"]); merged += 1
         if isinstance(fresh, dict):
             fresh["brands"] = cur; fresh["total"] = len(cur)
-        (C / "brands.json").write_text(
-            json.dumps(fresh if isinstance(fresh, dict) else cur,
-                       ensure_ascii=False, separators=(",", ":")))
+        atomic_json.write_json(C / "brands.json", fresh if isinstance(fresh, dict) else cur)
         bl = cur
         if merged != len(added):
             print(f"  ℹ️ {len(added) - merged}건은 그 사이 다른 수집기가 이미 등록")

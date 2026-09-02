@@ -516,7 +516,11 @@ def main():
 
     if updated and not args.dry_run:
         all_brands_data["total"] = len(all_brands_data["brands"])
-        BRANDS_JSON.write_text(json.dumps(all_brands_data, ensure_ascii=False, indent=2))
+        # ⚠️ 통째로 쓰면 수집기와 겹쳐 파일이 깨진다(2026-09-02 두 번).
+        #    임시 파일에 쓰고 검증한 뒤 os.replace 로 갈아 끼운다.
+        sys.path.insert(0, str(Path(__file__).resolve().parent / "scripts"))
+        import atomic_json
+        atomic_json.write_json(BRANDS_JSON, all_brands_data, indent=2, separators=None)
         print(f"\n📝 brands.json dark_variant 업데이트: {updated}개")
 
     print(f"\n완료: {total_created}개 파일 생성")

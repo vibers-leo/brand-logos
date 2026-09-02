@@ -22,8 +22,21 @@ sys.path.insert(0, os.path.dirname(__file__))
 import collect_krx_lib as L
 
 BASE = Path(__file__).resolve().parent.parent
-TARGETS = BASE / "_targets" / "krx.json"
 C = BASE / "_clients"
+
+# 여러 명단에 같은 수집기를 쓴다. 상장사·공공기관·프랜차이즈는 필드 이름만
+# 다를 뿐 '이름 + 홈페이지'라는 구조가 같다.
+SOURCES = {
+    "krx": {"file": "krx.json", "name": "name", "src": "krx-rendered",
+            "kind": None, "cat": None},
+    "gov": {"file": "gov.json", "name": "name", "src": "gov-rendered",
+            "kind": "공공기관", "cat": "공공·기관"},
+    "franchise": {"file": "franchise.json", "name": "brand", "src": "franchise-rendered",
+                  "kind": "프랜차이즈", "cat": "식품·음료"},
+}
+SRC = SOURCES[sys.argv[sys.argv.index("--source") + 1]] if "--source" in sys.argv else SOURCES["krx"]
+TARGETS = BASE / "_targets" / SRC["file"]
+NAMEK = SRC["name"]
 # ⚠️ playwright 캐시의 실행 파일 경로는 버전마다 다르다. 하드코딩하면
 #    'executable doesn\'t exist' 로 죽는다(2026-09-02). 있는 것을 찾아 쓴다.
 def _find_browser():
@@ -226,7 +239,7 @@ async def main():
     known = {norm(b.get("name_ko")) for b in d} | {norm(b.get("name_en")) for b in d}
     dom = {str(b.get("domain") or "").lower().replace("www.", "") for b in d}
     todo = [x for x in rows
-            if norm(x["name"]) not in known and (x.get("site") or "").strip()
+            if norm(x[NAMEK]) not in known and (x.get("site") or "").strip()
             and re.sub(r"^https?://(www\.)?|/.*$", "", x["site"]).lower() not in dom]
     todo = todo[:limit]
     print(f"  렌더 대상 {len(todo)}곳", flush=True)
@@ -243,14 +256,19 @@ async def main():
         doc = json.loads((C / "brands.json").read_text())
         bl = doc["brands"] if isinstance(doc, dict) else doc
         ids = {b["id"] for b in bl}
+        # ⚠️ 프랜차이즈는 한 본사가 여러 브랜드를 갖고 **같은 사이트를 쓴다**.
+        #    한솔교육 지사 4개가 전부 hs_logo.png 를 가리켰다. 그대로 등록하면
+        #    같은 로고 카드가 네 장 생긴다. 이번 회차 안에서 중복을 막는다.
+        import hashlib as _h
+        seen_logo = set()
         import time as _t
         added = []
         for x in todo:
             got, why = await probe(pg, x["site"])
             if got is None:
-                print(f"   {x['name'][:14]:<16} 접속❌ {why[:44]}"); miss += 1; continue
+                print(f"   {x[NAMEK][:14]:<16} 접속❌ {why[:44]}"); miss += 1; continue
             if not got:
-                print(f"   {x['name'][:14]:<16} — {why}"); miss += 1; continue
+                print(f"   {x[NAMEK][:14]:<16} — {why}"); miss += 1; continue
             # 후보를 순서대로 시도해 가드를 통과하는 첫 것을 쓴다
             chosen = None
             reasons = []
@@ -263,15 +281,35 @@ async def main():
                     chosen = (top, data, ext, note); break
                 reasons.append(f"{top['why']}:{note}")
             if not chosen:
-                print(f"   {x['name'][:14]:<16} — 탈락 {' | '.join(reasons[:3])}"); miss += 1; continue
+                print(f"   {x[NAMEK][:14]:<16} — 탈락 {' | '.join(reasons[:3])}"); miss += 1; continue
             top, data, ext, note = chosen
+            sig = _h.sha1(data).hexdigest()[:16]
+            if sig in seen_logo:
+                print(f"   {x[NAMEK][:14]:<16} — 같은 로고 중복(이번 회차)"); miss += 1; continue
+            seen_logo.add(sig)
             label = f"<svg>{top['w']}x{top['h']}" if top["kind"] == "inline-svg" else top["src"].split("/")[-1][:30]
-            print(f"   {x['name'][:14]:<16} ✅ [{top['why']}] {label}  {note}")
+            print(f"   {x[NAMEK][:14]:<16} ✅ [{top['why']}] {label}  {note}")
             hit += 1
             if dry:
                 continue
-            bid = _ckrx.make_id(x, ids); ids.add(bid)
+            bid = _ckrx.make_id({"site": x.get("site",""), "code": x.get("code") or x.get("reg") or ""}, ids); ids.add(bid)
             d = C / bid; d.mkdir(parents=True, exist_ok=True)
+            # ⚠️ **수집 출처를 폴더에 남긴다.** brands.json 은 여러 프로세스가
+            #    함께 쓰다가 덮어써질 수 있는데(2026-09-02 공공기관 25건이 그렇게
+            #    사라졌다), 이 파일이 있으면 폴더만으로 되살릴 수 있다.
+            #    홈페이지 주소가 특히 중요하다 — 그게 없으면 어느 브랜드인지
+            #    알 수 없어 복구 자체가 불가능하다.
+            (d / "_source.json").write_text(json.dumps({
+                "id": bid,
+                "name": x[NAMEK],
+                "site": x.get("site", ""),
+                "source": SRC["src"],
+                "logo_url": top["src"][:400] if top["kind"] != "inline-svg" else "(inline-svg)",
+                "found_by": top["why"],
+                "collected_at": _t.strftime("%Y-%m-%d %H:%M"),
+                **{k: v for k, v in x.items() if k in
+                   ("code", "market", "sector", "wikidata", "kind", "hq", "reg")},
+            }, ensure_ascii=False, indent=1))
             is_svg = ext == "svg"
             (d / ("logo.svg" if is_svg else "logo.png")).write_bytes(data)
             if is_svg:
@@ -286,16 +324,18 @@ async def main():
                     import shutil; shutil.rmtree(d, ignore_errors=True)
                     hit -= 1; miss += 1; continue
             added.append({
-                "id": bid, "name_ko": x["name"], "name_en": x["name"],
-                "category": _ckrx.category(x["sector"]),
+                "id": bid, "name_ko": x[NAMEK], "name_en": x[NAMEK],
+                "category": SRC["cat"] or _ckrx.category(x.get("sector", "")),
                 "folder": f"_clients/{bid}", "website": x["site"],
                 "domain": re.sub(r"^https?://(www\.)?|/.*$", "", x["site"] or "").lower(),
                 "logo_svg": "logo.svg" if is_svg else None, "has_svg": is_svg,
                 "logo_png": True, "has_png": True,
-                "svg_source": "krx-rendered",
-                "krx_code": x.get("code"), "krx_market": x.get("market"),
-                "krx_sector": x.get("sector"),
+                "svg_source": SRC["src"],
                 "origin": "KR",
+                **({"kr_kind": SRC["kind"]} if SRC["kind"] else {}),
+                **({"krx_code": x.get("code"), "krx_market": x.get("market"),
+                    "krx_sector": x.get("sector")} if x.get("code") else {}),
+                **({"wikidata": x["wikidata"]} if x.get("wikidata") else {}),
                 "added_at": _t.strftime("%Y-%m-%d"),
             })
         await br.close()

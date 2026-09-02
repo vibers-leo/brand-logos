@@ -105,6 +105,24 @@ def verify(domain, name):
         return scheme + domain, "약함"
     return None, "접속 실패"
 
+def snippet_ok(items, domain, name):
+    """검색 결과의 **제목·설명**에 회사명이 있으면 확인으로 친다.
+
+    ⚠️ 요즘 사이트는 JS 로 그려서 **원본 HTML 에 회사명이 없다.**
+       verify() 가 raw HTML 만 보기 때문에 naraspace.com(나라스페이스)·
+       skbp.com(SK바이오팜)·robotis.com(로보티즈) 같은 **정답을 전부
+       '검증 실패'로 버렸다.** 적중률이 45% → 1% 로 떨어진 원인이다.
+       네이버가 이미 준 스니펫을 쓰면 페이지를 안 열고도 확인된다.
+    """
+    n = norm(name)
+    if not n:
+        return False
+    txt = norm(" ".join(
+        (it.get("title") or "") + " " + (it.get("description") or "")
+        for it in items if host(it.get("link")) == domain))
+    return bool(txt) and (n in txt or (len(n) >= 5 and n[:4] in txt))
+
+
 def main():
     apply_ = "--apply" in sys.argv
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else 50
@@ -144,4 +162,5 @@ def main():
         TARGETS.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n")
         print("  ✅ _targets/krx.json 갱신")
 
-main()
+if __name__ == "__main__":
+    main()

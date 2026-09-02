@@ -88,13 +88,17 @@ def main():
             v = res.get(b["id"])
             if v is None:
                 continue
+            # 필드는 `light_logo` 하나로 통일한다 — slim 의 `light` 와
+            # 프론트의 검정 카드(#18181b)가 이미 이 값을 본다.
+            # 별도 필드를 두면 프론트가 못 읽어 아무 효과가 없다.
             want = v >= WHITE_RATIO
-            if want != bool(b.get("light_bg_unsafe")):
+            if want != bool(b.get("light_logo")):
                 if want:
-                    b["light_bg_unsafe"] = True
+                    b["light_logo"] = True
                 else:
-                    b.pop("light_bg_unsafe", None)
+                    b.pop("light_logo", None)
                 n += 1
+            b.pop("light_bg_unsafe", None)
         if isinstance(raw, dict):
             raw["brands"] = br
         atomic_json.write_json(C / "brands.json", raw if isinstance(raw, dict) else br)

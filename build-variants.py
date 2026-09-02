@@ -471,6 +471,7 @@ def main():
                     p.unlink()
 
     all_brands_data = json.loads(BRANDS_JSON.read_text())
+    dark_updates: dict[str, str] = {}
     brand_map = {b["id"]: b for b in all_brands_data["brands"]}
     updated = 0
     total_created = 0
@@ -495,6 +496,7 @@ def main():
             bid = r["brand"]
             if bid in brand_map and brand_map[bid].get("dark_variant") != r["dark_variant"]:
                 brand_map[bid]["dark_variant"] = r["dark_variant"]
+                dark_updates[bid] = r["dark_variant"]
                 updated += 1
                 status.append(f"🎨 dark={r['dark_variant']}")
 
@@ -515,12 +517,23 @@ def main():
             _emit(process_brand(brand, dry_run=args.dry_run))
 
     if updated and not args.dry_run:
-        all_brands_data["total"] = len(all_brands_data["brands"])
         # ⚠️ 통째로 쓰면 수집기와 겹쳐 파일이 깨진다(2026-09-02 두 번).
         #    임시 파일에 쓰고 검증한 뒤 os.replace 로 갈아 끼운다.
+        # ⚠️⚠️ 원자적 쓰기만으로는 부족하다. 이 함수는 시작할 때 읽은
+        #    스냅샷을 **20분 뒤에** 쓴다. 그 사이의 변경이 통째로 사라진다.
+        #    2026-09-03 에 숨김 처리 4건이 지워지고 신규 브랜드 1건이
+        #    레코드째 사라졌다. 파일은 멀쩡해서 에러도 안 났다.
+        #    → 저장 직전에 **락을 잡고 다시 읽어** dark_variant 만 얹는다.
         sys.path.insert(0, str(Path(__file__).resolve().parent / "scripts"))
         import atomic_json
-        atomic_json.write_json(BRANDS_JSON, all_brands_data, indent=2, separators=None)
+        with atomic_json.locked(BRANDS_JSON):
+            fresh = json.loads(BRANDS_JSON.read_text())
+            fm = {b["id"]: b for b in fresh["brands"]}
+            for bid, v in dark_updates.items():
+                if bid in fm:
+                    fm[bid]["dark_variant"] = v
+            fresh["total"] = len(fresh["brands"])
+            atomic_json.write_json(BRANDS_JSON, fresh, indent=2, separators=None)
         print(f"\n📝 brands.json dark_variant 업데이트: {updated}개")
 
     print(f"\n완료: {total_created}개 파일 생성")

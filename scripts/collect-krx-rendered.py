@@ -34,6 +34,10 @@ SOURCES = {
             "kind": "공공기관", "cat": "공공·기관"},
     "franchise": {"file": "franchise.json", "name": "brand", "src": "franchise-rendered",
                   "kind": "프랜차이즈", "cat": "식품·음료"},
+    # 미보유 목록(collect-wanted). 카테고리가 브랜드마다 달라
+    # cat 을 고정하지 않고 타겟의 `cat` 을 그대로 쓴다.
+    "wanted": {"file": "wanted.json", "name": "name", "src": "wanted-rendered",
+               "kind": None, "cat": None},
 }
 SRC = SOURCES[sys.argv[sys.argv.index("--source") + 1]] if "--source" in sys.argv else SOURCES["krx"]
 TARGETS = BASE / "_targets" / SRC["file"]
@@ -365,7 +369,7 @@ async def main():
                     hit -= 1; miss += 1; continue
             added.append({
                 "id": bid, "name_ko": x[NAMEK], "name_en": x[NAMEK],
-                "category": SRC["cat"] or _ckrx.category(x.get("sector", "")),
+                "category": SRC["cat"] or x.get("cat") or _ckrx.category(x.get("sector", "")),
                 "folder": f"_clients/{bid}", "website": x["site"],
                 "domain": re.sub(r"^https?://(www\.)?|/.*$", "", x["site"] or "").lower(),
                 "logo_svg": "logo.svg" if is_svg else None, "has_svg": is_svg,
@@ -405,4 +409,8 @@ async def main():
         print(f"  ✅ 신규 {len(added)}건 등록 (총 {len(bl):,})")
         print("  다음: build-variants.py → build-logo-variants.py → build-slim.py → sync-bucket.sh")
 
-asyncio.run(main())
+# ⚠️ 가드가 없으면 **import 만 해도 수집이 통째로 돈다.**
+#    upgrade-to-svg.py 가 추출 함수를 재사용하려고 import 했다가
+#    KRX 수집이 한 회차 돌아 브랜드가 등록됐다 (2026-09-03).
+if __name__ == "__main__":
+    asyncio.run(main())

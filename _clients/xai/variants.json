@@ -5,9 +5,24 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "2556fa2b598d0e3e",
-  "sources/iconify_x-ai.svg": "2556fa2b598d0e3e"
+  "sources/iconify_x-ai.svg": "2556fa2b598d0e3e",
+  "sources/gilbarbara/full.svg": "a61b94d231494dbe"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.616,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

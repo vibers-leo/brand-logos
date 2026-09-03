@@ -7,7 +7,8 @@
   "logo.svg": "a85312f0b139861c",
   "sources/iconify/flutter.svg": "a85312f0b139861c",
   "sources/devicons/flutter-original.svg": "5c6acb7efd9dd933",
-  "sources/wvl/flutter.svg": "6326a14efb12ec3a"
+  "sources/wvl/flutter.svg": "6326a14efb12ec3a",
+  "sources/gilbarbara/full.svg": "209c08b5defb6149"
  },
  "variants": [
   {
@@ -38,6 +39,20 @@
      "file": "sources/devicons/flutter-original.svg"
     }
    ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.543,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

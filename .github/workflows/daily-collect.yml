@@ -163,6 +163,13 @@ jobs:
       - name: 브랜드별 brand.json 생성
         run: python3 scripts/build-brand-json.py
 
+      # ⚠️ 생성기들이 각자 자기 시점의 brands.json 을 보기 때문에, 지우기
+      #    직전 스냅샷으로 돌면 **지운 브랜드의 폴더를 다시 만든다.**
+      #    그러면 버킷에서 지웠어도 GitHub Pages 폴백이 계속 서빙한다.
+      #    2026-09-03 에 좀비 폴더 23개 · 버킷 잔여 객체 284개가 나왔다.
+      - name: 삭제된 브랜드 정리
+        run: python3 scripts/prune-deleted.py
+
       - name: brands-slim 재생성
         run: python3 scripts/build-slim.py
 

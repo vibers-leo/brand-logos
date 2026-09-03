@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# DEPRECATED (2026-09-04) — detect-white-logos.py 로 대체. 실행하면 즉시 종료한다.
+# 이 스크립트는 SVG 렌더의 흰 잉크 비율(40%)로 판정해 **컬러 로고 245건을 흰 로고로
+# 오탐**했고(SVG 속 흰 배경 사각형을 잉크로 셈), PNG 만 있는 진짜 흰 로고는 보지 않았다.
+# daily-collect 에서 매일 돌아 손으로 고친 light_logo 를 계속 되돌려 놨다.
+import sys
+sys.exit("scan-light-logos.py 는 폐기됐다. scripts/detect-white-logos.py 를 쓸 것.")
+
+#!/usr/bin/env python3
 """
 '밝은 로고'를 찾아 brands.json 에 light_logo 를 붙인다.
 

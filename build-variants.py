@@ -533,7 +533,9 @@ def main():
                 if bid in fm:
                     fm[bid]["dark_variant"] = v
             fresh["total"] = len(fresh["brands"])
-            atomic_json.write_json(BRANDS_JSON, fresh, indent=2, separators=None)
+            # 압축 한 줄로 쓴다 — 수집기·판정기와 같은 포맷. indent=2 로 쓰면
+            # 다음 스크립트가 다시 압축하면서 **커밋마다 123만 줄 diff** 가 난다.
+            atomic_json.write_json(BRANDS_JSON, fresh)
         print(f"\n📝 brands.json dark_variant 업데이트: {updated}개")
 
     print(f"\n완료: {total_created}개 파일 생성")

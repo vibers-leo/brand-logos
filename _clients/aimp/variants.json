@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aimp",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "4596f95a4b267515"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.733,
+   "provider": "wikimedia",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

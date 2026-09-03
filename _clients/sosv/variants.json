@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sosv",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "843c01976a39d659"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.276,
+   "provider": "wanted-rendered",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

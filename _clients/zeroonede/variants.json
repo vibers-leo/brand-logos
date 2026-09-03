@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zeroonede",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "529f2c36bc978ecf"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.552,
+   "provider": "wanted-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

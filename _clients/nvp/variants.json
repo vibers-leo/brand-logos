@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nvp",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d49025fe5e7e208b"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.923,
+   "provider": "wanted-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

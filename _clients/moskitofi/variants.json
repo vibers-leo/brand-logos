@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "moskitofi",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "08ff847ee9e171e5"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.0,
+   "provider": "wanted-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

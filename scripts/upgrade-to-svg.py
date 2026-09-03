@@ -14,6 +14,7 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
 C = BASE / "_clients"
+REVIEW = C / "_svg-review"      # 모양 불일치 후보. 커밋하지 않는다(.gitignore)
 sys.path.insert(0, str(BASE / "scripts"))
 
 # ⚠️ collect-krx-rendered 는 **모듈 로드 시점에 sys.argv 를 읽는다**(SOURCES 선택).
@@ -28,7 +29,37 @@ sys.argv = _argv
 import atomic_json
 
 
-def targets(limit):
+def _same_shape(png_path, svg_bytes, N=32):
+    """기존 PNG 와 새 SVG 렌더의 종횡비·정규화 실루엣을 비교한다. (참, 사유)"""
+    import io, numpy as np
+    from PIL import Image
+    import safesvg, cairosvg
+    try:
+        a = Image.open(png_path).convert("RGBA")
+        b = Image.open(io.BytesIO(cairosvg.svg2png(
+            bytestring=safesvg.sanitize(safesvg.inline_internal_entities(svg_bytes)),
+            output_width=400))).convert("RGBA")
+    except Exception as e:
+        return False, f"렌더실패 {type(e).__name__}"
+    def sil(im):
+        al = np.array(im)[..., 3] > 40
+        ys, xs = np.where(al)
+        if len(xs) < 20: return None, None
+        crop = al[ys.min():ys.max()+1, xs.min():xs.max()+1]
+        ar = crop.shape[1] / crop.shape[0]
+        t = np.array(Image.fromarray((crop*255).astype("uint8")).resize((N, N), Image.LANCZOS), float)/255
+        return ar, t
+    ar1, t1 = sil(a); ar2, t2 = sil(b)
+    if t1 is None or t2 is None: return False, "빈 이미지"
+    if abs(ar1-ar2)/max(ar1, ar2) > 0.35:
+        return False, f"종횡비 {ar1:.2f}↔{ar2:.2f}"
+    diff = float(np.abs(t1 - t2).mean())
+    if diff > 0.30:
+        return False, f"실루엣 차이 {diff:.2f}"
+    return True, f"ok {diff:.2f}"
+
+
+def targets(limit, only=None):
     raw = json.loads((C / "brands.json").read_text())
     br = raw["brands"] if isinstance(raw, dict) else raw
     byid = {b["id"]: b for b in br}
@@ -37,6 +68,8 @@ def targets(limit):
     for w in want:
         b = byid.get(w["id"])
         if not b or b.get("has_svg") or b.get("hidden"):
+            continue
+        if only and b["id"] not in only:
             continue
         site = b.get("website") or (f"https://{b['domain']}" if b.get("domain") else None)
         if not site:
@@ -48,13 +81,13 @@ def targets(limit):
 
 
 async def run(a):
-    todo = targets(a.limit)
+    todo = targets(a.limit, set(a.ids.split(",")) if a.ids else None)
     print(f"대상 {len(todo)}건 (PNG 로 서비스 중 · 홈페이지 있음)\n")
     exe = ckr._find_browser()
     if not exe:
         print("❌ 브라우저 없음"); return
     from playwright.async_api import async_playwright
-    hit = miss = 0
+    hit = miss = review = 0
     upgraded = []
     seen = set()
     async with async_playwright() as p:
@@ -78,6 +111,22 @@ async def run(a):
             if not chosen:
                 print(f"   {x['name'][:14]:<16} — {' | '.join(reasons[:3])}"); miss += 1; continue
             top, data, note = chosen
+            # ⚠️ 사이트가 **다른 로고**를 SVG 로 주는 경우가 있다 — 모회사(tve→rtve),
+            #    파트너(magxiv→pixiv), 같은 시장 타 방송국(kvhp→KPLC), hulu·SKS 등.
+            #    2026-09-04 승격 28건 중 8건(29%)이 이랬다. accept() 는 '로고답냐'만
+            #    보고 '이 브랜드냐'는 못 본다. 우리는 **기존 PNG 를 이미 갖고 있으니**
+            #    새 SVG 렌더와 모양을 비교한다. 형태가 다르면(아이콘↔워드마크 포함)
+            #    승격하지 않는다 — PNG 는 그대로 남으므로 잃는 것이 없다.
+            ok_shape, why_shape = _same_shape(C / x["id"] / "logo.png", data)
+            if not ok_shape:
+                # 정답셋 검증(2026-09-04): 틀린 8건 중 7건을 잡지만 **정상 20건 중 12건도
+                # 버린다** — 아이콘 PNG↔워드마크 SVG 같은 '같은 브랜드 다른 형태'를
+                # 모양으로는 못 가른다. 그래서 버리지 않고 **검토 큐**에 넣는다.
+                # 시트로 눈검사한 뒤 promote-reviewed.py 로 올린다.
+                if not a.dry_run:
+                    REVIEW.mkdir(exist_ok=True)
+                    (REVIEW / (x["id"] + ".svg")).write_bytes(data)
+                print(f"   {x['name'][:14]:<16} 🔎 검토큐({why_shape})"); review += 1; continue
             sig = hashlib.sha1(data).hexdigest()[:16]
             if sig in seen:
                 print(f"   {x['name'][:14]:<16} — 같은 SVG 중복"); miss += 1; continue
@@ -88,7 +137,9 @@ async def run(a):
                 (C / x["id"] / "logo.svg").write_bytes(data)
                 upgraded.append(x["id"])
         await br_.close()
-    print(f"\n  벡터 확보 {hit} · 실패 {miss}  ({hit/max(1,hit+miss)*100:.0f}%)")
+    print(f"\n  벡터 확보 {hit} · 검토큐 {review} · 실패 {miss}  ({hit/max(1,hit+miss+review)*100:.0f}%)")
+    if review:
+        print("  검토: 시트로 눈검사 → scripts/promote-reviewed.py <id,...>")
     if not upgraded:
         return
     with atomic_json.locked(C / "brands.json"):
@@ -108,4 +159,5 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=300)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--ids", help="쉼표로 구분한 id 만 (가드 검증용)")
     asyncio.run(run(ap.parse_args()))

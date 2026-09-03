@@ -61,8 +61,24 @@ def main():
         if not p.is_file() or p.suffix.lower() not in TYPES:
             continue
         key = PREFIX + str(p.relative_to(BASE))
-        if remote.get(key) == p.stat().st_size:
-            continue                    # 같은 크기면 건너뛴다(멱등)
+        # ⚠️ 크기만 비교하면 **크기가 안 변한 갱신을 영영 안 올린다.**
+        #    stats.json(53B)이 44,789→44,788 로 바뀌었는데 둘 다 53B 라
+        #    건너뛰어, 사이트가 옛 숫자를 계속 보여줬다(2026-09-03).
+        #    작은 텍스트 파일은 내용까지 비교한다 — 개수가 적어 비용이 없다.
+        sz = p.stat().st_size
+        if remote.get(key) == sz:
+            # ⚠️ 대상을 **최상위 인덱스 파일로 한정한다.** 브랜드마다 있는
+            #    brand.json 까지 내용 비교하면 GET 이 4.5만 번 나가 몇 시간 걸린다
+            #    (2026-09-03 에 그렇게 만들었다가 되돌렸다).
+            #    크기가 안 변하는 갱신이 실제로 일어나는 건 집계 파일들뿐이다.
+            if p.parent != BASE or sz > 65536:
+                continue
+            try:
+                body = s3.get_object(Bucket=bucket, Key=key)['Body'].read()
+                if body == p.read_bytes():
+                    continue
+            except Exception:
+                pass                    # 확인 실패하면 올린다 (안전한 쪽)
         todo.append((key, p))
     mb = sum(p.stat().st_size for _, p in todo) / 1024 / 1024
     print(f"로컬 대상 {sum(1 for p in BASE.rglob('*') if p.is_file() and p.suffix.lower() in TYPES):,}개")

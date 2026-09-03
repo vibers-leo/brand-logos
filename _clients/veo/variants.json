@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "veo",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "945b641e0d7ef79f"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 8.036,
+   "provider": "logo.dev",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

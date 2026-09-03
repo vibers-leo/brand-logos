@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "samsungsdi",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "262950576a2dd173"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.344,
+   "provider": "worldvectorlogo/sdi",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nexusfactory",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "173084596e0685eb"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 8.969,
+   "provider": "wanted-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

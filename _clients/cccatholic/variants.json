@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "cccatholic",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d080d554d25d7f59"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.028,
+   "provider": "wanted-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

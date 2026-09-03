@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jandi",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "82e75301ea4ba397"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 5.172,
+   "provider": "logo.dev",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

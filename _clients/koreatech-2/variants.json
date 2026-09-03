@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "koreatech-2",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "2a10ff00e96560a7"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.072,
+   "provider": "kr-univ-site",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

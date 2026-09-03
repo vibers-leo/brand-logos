@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "payco",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "26d4ecf73fec9287"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.492,
+   "provider": "logo.dev",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

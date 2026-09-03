@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "pearlabyss",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "60b51525dcc3d228"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 8.476,
+   "provider": "logo.dev",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

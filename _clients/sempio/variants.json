@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sempio",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "3a9ed9821c4d8d84"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.579,
+   "provider": "logo.dev",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

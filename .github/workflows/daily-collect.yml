@@ -179,6 +179,11 @@ jobs:
       - name: 삭제된 브랜드 정리
         run: python3 scripts/prune-deleted.py
 
+      # has_svg/logo_svg 를 파일 존재 기준으로 맞춘다. 플래그만 뒤집히는 사고가
+      # 두 번 났다(6,294건 · 승격 20건). 파일이 진실이다.
+      - name: SVG 플래그 대조
+        run: python3 scripts/reconcile-svg-flags.py
+
       - name: brands-slim 재생성
         run: python3 scripts/build-slim.py
 

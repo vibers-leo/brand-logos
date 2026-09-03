@@ -33,6 +33,10 @@ for i in 1 2 3; do
       git show :2:_clients/brands.json > /tmp/b.json
       git show :3:_clients/brands.json > /tmp/m.json
       python3 scripts/merge-brands-json.py /tmp/m.json /tmp/b.json _clients/brands.json
+      # ⚠️ 의미 병합은 같은 id 의 필드를 한쪽 값으로 정한다. 크론 봇의 옛 스냅샷이
+      #    이기면 방금 승격한 SVG 의 has_svg 가 false 로 되돌아간다(2026-09-04, 27건).
+      #    파일이 진실이므로 병합 직후 파일 기준으로 플래그를 다시 맞춘다.
+      python3 scripts/reconcile-svg-flags.py >/dev/null 2>&1 && echo "  SVG 플래그 대조 완료" || echo "  ⚠️ SVG 플래그 대조 실패"
     fi
 
     for f in $(git diff --name-only --diff-filter=U | grep -v "^_clients/brands.json$"); do

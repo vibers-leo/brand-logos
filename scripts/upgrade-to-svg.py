@@ -69,6 +69,11 @@ def targets(limit, only=None):
         b = byid.get(w["id"])
         if not b or b.get("has_svg") or b.get("hidden"):
             continue
+        # 홈페이지 SVG 가 다른 회사 로고였다고 이미 판정한 것은 다시 시도하지 않는다.
+        # 안 그러면 같은 7건(alias·lg-g3·maggi·…)이 배치마다 검토 큐에 다시 들어온다
+        # (2026-09-04 2차 배치에서 실제로 그랬다).
+        if w.get("failed_source") == "site-svg-wrong":
+            continue
         if only and b["id"] not in only:
             continue
         site = b.get("website") or (f"https://{b['domain']}" if b.get("domain") else None)

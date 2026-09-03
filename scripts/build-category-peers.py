@@ -34,3 +34,20 @@ for b in br:
 p = C / "category-peers.json"
 atomic_json.write_json(p, out)
 print(f"✅ category-peers.json — 카테고리 {len(out)}개 · {p.stat().st_size/1024:.0f}KB")
+
+# ── 통계 (약 200B) ─────────────────────────────────────────
+# ⚠️ layout.tsx 가 **브랜드 개수 하나를 세려고** brands-slim.json(12.9MB)을
+#    받고 있었다. 레이아웃은 모든 페이지를 감싸므로 718번 받아 파싱했다.
+#    빌드가 페이지당 60초를 넘겨 죽은 진짜 원인이 이것이다.
+#    거르는 조건은 목록과 **똑같아야** 한다 — hidden 을 빠뜨리면
+#    메타 설명문만 숫자가 커진다(2026-09-01 에 겪었다).
+visible = sum(1 for b in br if not b.get("hidden") and not b.get("variant_of"))
+stats = {
+    "total": len(br),
+    "visible": visible,
+    "svg": sum(1 for b in br if b.get("has_svg") and not b.get("hidden") and not b.get("variant_of")),
+    "kr": sum(1 for b in br if b.get("origin") == "KR" and not b.get("hidden") and not b.get("variant_of")),
+}
+sp = C / "stats.json"
+atomic_json.write_json(sp, stats)
+print(f"✅ stats.json — 노출 {visible:,} · {sp.stat().st_size}B")

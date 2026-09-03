@@ -159,7 +159,12 @@ jobs:
         #    사각형을 잉크로 세서 EURid·mentos·alltours 같은 컬러 로고 245건을 흰 로고로
         #    잡았고, PNG 만 있는 진짜 흰 로고는 평가하지 않았다. 손으로 고쳐도 **매일
         #    이 단계가 되돌려 놨다**(2026-09-04 확인: CDN 397 vs 로컬 418, 겹침 131).
-        run: python3 scripts/detect-white-logos.py --workers 4
+        env:
+          NEXT_PUBLIC_FIREBASE_API_KEY: ${{ secrets.NEXT_PUBLIC_FIREBASE_API_KEY }}
+        run: |
+          # 관리자가 모달에서 찍은 검정/흰 배경 지정을 먼저 내려받는다 — 자동 판정보다 우선
+          python3 scripts/pull-bg-overrides.py || echo "bg-overrides 내려받기 실패 — 자동 판정만 적용"
+          python3 scripts/detect-white-logos.py --workers 4
 
       # 상세 페이지가 brands.json 전체(4만 개면 18MB)를 받지 않도록 브랜드별
       # 단일 파일을 만든다. Next 데이터 캐시는 2MB 초과를 저장하지 않아

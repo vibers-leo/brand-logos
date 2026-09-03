@@ -22,7 +22,11 @@ import atomic_json
 
 C = Path(__file__).resolve().parent.parent / "_clients"
 NEAR_WHITE  = 225     # 이 이상이면 흰색으로 친다
-WHITE_RATIO = 0.88    # 투명 배경에서 잉크의 이만큼이 흰색이면 안 보인다
+WHITE_RATIO = 0.60    # 투명 배경에서 잉크의 이만큼이 흰색이면 검정 배경으로 보낸다
+# 2026-09-04 눈검사: 60~88% 구간은 '색 심볼 + 흰 글자'(kict·JYP·FC서울·대성·WMTV…)라
+# 흰 배경에서 글자가 사라진다. 흰 채움 아이콘(chai·blocs·kookmin)도 검정에서 멀쩡하다.
+# 45~60% 는 반반(흰 글자형 vs 흰 채움 아이콘형)이라 자동으로 못 가른다 → bg-overrides 로.
+OVERRIDES = C / "bg-overrides.json"   # {id: "dark"|"light"} — 사이트 모달에서 손으로 찍은 것. 자동 판정보다 우선.
 OPAQUE_MAX  = 0.92    # 이보다 불투명하면 배경이 구워진 것 — 판정 대상 아님
 
 
@@ -80,6 +84,9 @@ def main():
             print(f"    {k}  {res[k]:.0%}")
         return
 
+    overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    if overrides:
+        print(f"  수동 지정 {len(overrides)}건 반영 (bg-overrides.json)")
     with atomic_json.locked(C / "brands.json"):
         raw = json.loads((C / "brands.json").read_text())
         br = raw["brands"] if isinstance(raw, dict) else raw
@@ -92,6 +99,9 @@ def main():
             # 프론트의 검정 카드(#18181b)가 이미 이 값을 본다.
             # 별도 필드를 두면 프론트가 못 읽어 아무 효과가 없다.
             want = v >= WHITE_RATIO
+            ov = overrides.get(b["id"])
+            if ov == "dark": want = True
+            elif ov == "light": want = False
             if want != bool(b.get("light_logo")):
                 if want:
                     b["light_logo"] = True

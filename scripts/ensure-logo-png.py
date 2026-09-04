@@ -237,11 +237,40 @@ def main() -> int:
             made += 1
 
     if not args.dry_run:
-        for b in brands:
-            if (BASE / b["id"] / "logo.png").exists():
-                b["logo_png"] = True
-                b["has_png"] = True
-        BRANDS.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
+        # ⚠️ 렌더에 실패한 브랜드를 그대로 두면 다음 단계(check-assets)가 "logo.png 없음"
+        #    으로 게이트를 매일 실패시킨다(2026-08-26~09-04, 10일). 실패 목록은 아래
+        #    리포트에 남기고, 브랜드는 **숨긴다** — PNG 다운로드가 404 인 채로 노출되는
+        #    것보다 낫고, SVG 원본이 바뀌면 다시 살릴 수 있다.
+        failed_ids = {f.split(": ", 1)[0] for f in failed}
+        hidden_now = 0
+        # ⚠️ brands.json 은 다른 프로세스와 함께 쓰인다. 시작 때 읽은 스냅샷을 통째로
+        #    쓰면 그 사이 변경(숨김·승격)을 덮는다 — 락을 잡고 다시 읽어 우리 변경만 얹는다.
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import atomic_json
+        with atomic_json.locked(BRANDS):
+            fresh = json.loads(BRANDS.read_text())
+            fb = fresh["brands"] if isinstance(fresh, dict) else fresh
+            for b in fb:
+                d = BASE / b["id"]
+                if (d / "logo.png").exists():
+                    b["logo_png"] = True
+                    b["has_png"] = True
+                elif b["id"] in failed_ids and not b.get("hidden"):
+                    b["hidden"] = True
+                    b["hidden_reason"] = "렌더 불가 SVG — PNG 생성 실패"
+                    hidden_now += 1
+            # 가짜 벡터 내림도 fresh 에 반영
+            dem = {b["id"]: b for b in demoted}
+            for b in fb:
+                if b["id"] in dem:
+                    src = dem[b["id"]]
+                    b.pop("logo_svg", None); b["has_svg"] = False
+                    b["svg_note"] = src.get("svg_note"); b["sources"] = src.get("sources", [])
+            if isinstance(fresh, dict):
+                fresh["brands"] = fb
+            atomic_json.write_json(BRANDS, fresh if isinstance(fresh, dict) else fb)
+        if hidden_now:
+            print(f"   렌더 불가로 숨김 {hidden_now}건")
 
         if demoted and WANTED.exists():
             # ⚠️ svg-wanted.json 은 **최상위가 리스트**다. `w["brands"]` 로 읽으면

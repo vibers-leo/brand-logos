@@ -25,7 +25,7 @@ _sys.path.insert(0, str(_Path(__file__).resolve().parent / "scripts"))
 _sys.path.insert(0, str(_Path(__file__).resolve().parent))
 from assetguard import safe_write
 
-import argparse, json, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
+import argparse, json, os, re, subprocess, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 BASE      = Path(__file__).parent
@@ -90,11 +90,29 @@ def slugify(text: str) -> str:
     return re.sub(r"[-\s]+", "-", text)
 
 
+def _open_backoff(req, timeout=15, tries=3):
+    """429(봇 과속) 를 만나면 60초 쉬고 다시 시도한다.
+
+    ⚠️ 2026-09-04 daily-collect 로그에 429 가 하루 232회. 재시도가 없어서 그 회차의
+       다운로드가 전부 실패했고, 10일간 신규 수집이 하루 0~1건이었다.
+       위키미디어는 초당 1회 안쪽을 권한다 — 간격도 0.3s→1.0s 로 늦췄다.
+    """
+    for i in range(tries):
+        try:
+            return urllib.request.urlopen(req, timeout=timeout)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and i < tries - 1:
+                wait = 60 * (i + 1)
+                print(f"      ⏳ 429 — {wait}s 대기 후 재시도", flush=True)
+                time.sleep(wait); continue
+            raise
+
+
 def wiki_api(params: dict, site="commons.wikimedia.org") -> dict:
     params["format"] = "json"
     url = f"https://{site}/w/api.php?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=15) as r:
+    with _open_backoff(req, timeout=15) as r:
         return json.loads(r.read())
 
 
@@ -174,7 +192,7 @@ def collect_wikimedia(dry_run=False) -> list[dict]:
                     if not url:
                         print(f"     ⚠️  SVG URL 없음")
                         continue
-                    time.sleep(0.3)  # API rate limit
+                    time.sleep(1.0)  # 위키미디어 봇 한도 — 0.3s(초당 3.3회)는 429 로 하루 232회 차단됐다(2026-09-04)
                 except Exception as e:
                     print(f"     ❌ URL 조회 실패: {e}")
                     continue
@@ -194,7 +212,7 @@ def collect_wikimedia(dry_run=False) -> list[dict]:
             cmcontinue = cont.get("cmcontinue")
             if not cmcontinue:
                 break
-            time.sleep(0.3)
+            time.sleep(1.0)
 
     return collected
 
@@ -202,7 +220,7 @@ def collect_wikimedia(dry_run=False) -> list[dict]:
 def download_svg(brand_id: str, url: str, filename: str) -> dict | None:
     """SVG 다운로드 → 검증 → 저장 → brands.json 항목 반환"""
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=20) as r:
+    with _open_backoff(req, timeout=20) as r:
         raw = r.read()
 
     # UTF-16 BOM 처리
@@ -257,7 +275,7 @@ def collect_simple_icons(dry_run=False) -> list[dict]:
     print(f"\n📦 Simple Icons 로드 중...")
     req = urllib.request.Request(si_url, headers={"User-Agent": UA})
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
+        with _open_backoff(req, timeout=30) as r:
             si_data = json.loads(r.read())
     except Exception as e:
         print(f"  ❌ 로드 실패: {e}")
@@ -318,7 +336,7 @@ def collect_simple_icons(dry_run=False) -> list[dict]:
                 result["brand_color"] = f"#{hex_color}"
                 collected.append(result)
                 existing.add(brand_id)
-                time.sleep(0.3)
+                time.sleep(1.0)
         except Exception as e:
             print(f"     ❌ {e}")
 
@@ -652,7 +670,7 @@ def collect_iconify(dry_run=False):
     try:
         req = urllib.request.Request(f"{ICONIFY_API}/collection?prefix=logos",
                                      headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with _open_backoff(req, timeout=20) as r:
             meta = json.loads(r.read())
     except Exception as e:
         print(f"  ❌ 목록 로드 실패: {e}")
@@ -773,7 +791,7 @@ def collect_devicons(dry_run=False):
     try:
         req = urllib.request.Request(f"{DEVICONS_RAW}/devicon.json",
                                      headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with _open_backoff(req, timeout=20) as r:
             icons_meta = json.loads(r.read())
     except Exception as e:
         print(f"  ❌ devicon.json 로드 실패: {e}")
@@ -887,7 +905,7 @@ def collect_worldvector(dry_run=False):
             "https://raw.githubusercontent.com/gilbarbara/logos/main/logos.json",
             headers={"User-Agent": UA},
         )
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with _open_backoff(req, timeout=20) as r:
             logos_meta = json.loads(r.read())
     except Exception as e:
         print(f"  ❌ logos.json 로드 실패: {e}")

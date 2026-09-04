@@ -295,16 +295,20 @@ jobs:
       - name: 검증 결과 확인
         if: steps.bucket_upload.outcome == 'failure' || steps.asset_check.outcome == 'failure'
         run: |
+          # ⚠️ 버킷 업로드는 GitHub 러너에서 **구조적으로** AccessDenied 다 (NCP 인증키 IP 제한).
+          #    맥 launchd 가 하루 6번 같은 동기화를 돌려 결국 채워진다. 이걸 failure 로 두면
+          #    2026-08-26 부터 10일 내리 '실패'가 찍혀 진짜 실패(logo.png 누락 44건)가 묻혔다.
+          #    → 경고로 낮춘다. 진짜로 러너에서 올릴 수 있게 되면 다시 올린다.
           if [ "${{ steps.bucket_upload.outcome }}" = "failure" ]; then
-            echo "::error::버킷 업로드 실패 — 맥에서 scripts/sync-png-bucket.py 재실행 필요"
-            echo "⚠️ **버킷 업로드 실패** — 신규 PNG 가 CDN 에서 404 다." >> $GITHUB_STEP_SUMMARY
+            echo "::warning::버킷 업로드 실패(러너 IP 제한 — 맥 크론이 대신 올림)"
+            echo "ℹ️ 버킷 업로드는 러너에서 막혀 있다 — 맥 크론(6회/일)이 대신 올린다." >> $GITHUB_STEP_SUMMARY
           fi
           if [ "${{ steps.asset_check.outcome }}" = "failure" ]; then
             echo "::error::에셋 무결성 검사 실패 — 위 로그의 목록 확인"
             echo "⚠️ **에셋 무결성 검사 실패** — logo.png 누락 등. 로그 참조." >> $GITHUB_STEP_SUMMARY
+            echo "수집 결과는 이미 커밋됐다 — 유실 없음." >> $GITHUB_STEP_SUMMARY
+            exit 1
           fi
-          echo "수집 결과는 이미 커밋됐다 — 유실 없음." >> $GITHUB_STEP_SUMMARY
-          exit 1
 
       # 요약에 '지금 상태'를 싣는다. 총 개수만 찍으면 대기 목록이 쌓이는지
       # 줄어드는지 알 수 없어, 자동화가 헛돌고 있어도 정상처럼 보인다.

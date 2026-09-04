@@ -52,6 +52,9 @@ def _find_browser():
         str(Path.home() / "Library/Caches/ms-playwright/chromium-*/"
                           "chrome-mac*/Chromium.app/Contents/MacOS/Chromium"),
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        # GitHub Actions(리눅스) — playwright install chromium 이 두는 곳
+        str(Path.home() / ".cache/ms-playwright/chromium_headless_shell-*/chrome-linux/headless_shell"),
+        str(Path.home() / ".cache/ms-playwright/chromium-*/chrome-linux/chrome"),
     ]
     for pat in pats:
         for f in sorted(glob.glob(pat), reverse=True):

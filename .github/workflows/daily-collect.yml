@@ -137,6 +137,20 @@ jobs:
           python3 scripts/collect-kr-pass2.py --merge || echo "⚠️ 2차 합치기 실패 (계속)"
           echo "::endgroup::"
 
+      # ⚠️ 위 옛 수집기(collect-krx·collect-kr-institutions)는 '등록 0 · 매칭없음 2,489'
+      #    로 소진됐다. 실제로 국내 2,600건을 채운 건 헤드리스 렌더 수집기다 — 세션에서만
+      #    돌리고 크론에는 없었다(2026-09-05 확인). 회차마다 소스별 한도를 두고 돌린다.
+      - name: 국내 렌더 수집 (헤드리스 — 상장사·공공기관·프랜차이즈)
+        continue-on-error: true
+        timeout-minutes: 50
+        run: |
+          pip install -q playwright && python3 -m playwright install --with-deps chromium 2>&1 | tail -1
+          for src in krx gov franchise; do
+            echo "::group::$src"
+            python3 -u scripts/collect-krx-rendered.py --source $src --limit 120 || echo "⚠️ $src 실패 (계속)"
+            echo "::endgroup::"
+          done
+
       # SVG 만 받아온 브랜드는 logo.png 가 없어 PNG 다운로드가 404 난다.
       # build-variants 가 logo.png 를 이미 있다고 전제하기 때문이다.
       # 비트맵이 박힌 가짜 벡터도 여기서 PNG 로 내린다. (2026-08-16 사고)
@@ -226,7 +240,10 @@ jobs:
           # brands.json 은 40,291개가 든 **한 줄 압축 JSON** 이라 git 이
           # 텍스트로 병합하지 못한다 — merge-brands-json.py 로 의미 병합한다.
           # 나머지 충돌 파일은 전부 재생성물이라 이쪽(러너) 것을 쓴다.
-          for i in 1 2 3; do
+          # 3회로는 부족했다 — 사람이 같은 시간대에 커밋 여러 개를 밀면 회차 결과(신규 6건)가
+          # 통째로 버려졐다(2026-09-05 21:20 회차). 8회 · 60초 간격으로 늘린다.
+          for i in 1 2 3 4 5 6 7 8; do
+            [ "$i" -gt 1 ] && sleep 60
             git fetch origin main
             git rebase origin/main || true
             # ⚠️ rebase 는 커밋을 **여러 개** 재적용한다. 충돌 해소를 한 번만

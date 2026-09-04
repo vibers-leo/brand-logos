@@ -4,7 +4,8 @@
  "id": "mastra",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "da9eb81e4b7a58e1"
+  "logo.svg": "da9eb81e4b7a58e1",
+  "sources/svgl/wordmark.svg": "c0411336fa6d3257"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 6.429,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

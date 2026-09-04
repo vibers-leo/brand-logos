@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-04T05:38:00.187671+00:00",
+ "generated_at": "2026-09-04T11:33:41.173545+00:00",
  "catalog": {
   "brands": 45621,
   "svg": 41023,
   "png_only": 4598,
   "detail_metadata_expected": 45621,
-  "variant_manifests": 40247,
-  "multiple_forms": 1609
+  "variant_manifests": 40246,
+  "multiple_forms": 1610
  },
  "backlog": {
   "svg_needed": 1499,
   "additional_forms_needed": 6179,
-  "png_render_failures": 45,
+  "png_render_failures": 44,
   "external_source_candidates": 7591
  },
  "source_coverage": {
@@ -40,7 +40,7 @@
   "kr-hosp-pass2": 18,
   "kr-muni-pass2": 18,
   "kr-media-pass2": 18,
-  "svgl": 15,
+  "svgl": 16,
   "kr-club-pass2": 15,
   "official": 14,
   "kr-univ-pass2": 14,

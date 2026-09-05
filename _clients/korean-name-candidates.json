@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
- "generated_at": "2026-09-04",
- "count": 1247,
+ "generated_at": "2026-09-05",
+ "count": 1253,
  "candidates": [
   {
    "id": "mnet",
@@ -11292,6 +11292,58 @@
    "ko": "유랑",
    "qid": "Q416718",
    "our_domain": "levagabond.ch",
+   "wikidata_sites": []
+  },
+  {
+   "id": "red-robin",
+   "name_en": "Red Robin",
+   "ko": "팀 드레이크",
+   "qid": "Q1076696",
+   "our_domain": "redrobin.com",
+   "wikidata_sites": [
+    "dccomics.com"
+   ]
+  },
+  {
+   "id": "santander",
+   "name_en": "Santander",
+   "ko": "산탄데르",
+   "qid": "Q12233",
+   "our_domain": "santander.de",
+   "wikidata_sites": [
+    "santander.es"
+   ]
+  },
+  {
+   "id": "electrica",
+   "name_en": "Electrica",
+   "ko": "감전",
+   "qid": "Q244404",
+   "our_domain": "electrica.ro",
+   "wikidata_sites": []
+  },
+  {
+   "id": "tangerine",
+   "name_en": "Tangerine",
+   "ko": "온주귤",
+   "qid": "Q875262",
+   "our_domain": "tangerine.ca",
+   "wikidata_sites": []
+  },
+  {
+   "id": "valentine",
+   "name_en": "Valentine",
+   "ko": "발렌타인",
+   "qid": "Q18142088",
+   "our_domain": "valentine.ca",
+   "wikidata_sites": []
+  },
+  {
+   "id": "j-mu-ller",
+   "name_en": "J. Müller",
+   "ko": "요하네스 페테르 뮐러",
+   "qid": "Q57992",
+   "our_domain": "jmueller.de",
    "wikidata_sites": []
   }
  ]

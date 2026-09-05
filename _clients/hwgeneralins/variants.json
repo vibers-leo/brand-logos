@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hwgeneralins",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "8fd3af5285f16728"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.003,
+   "provider": "finance-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

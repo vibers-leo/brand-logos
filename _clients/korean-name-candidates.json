@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
  "generated_at": "2026-09-05",
- "count": 1274,
+ "count": 1282,
  "candidates": [
   {
    "id": "mnet",
@@ -11535,6 +11535,82 @@
    "qid": "Q13409045",
    "our_domain": "construct.net",
    "wikidata_sites": []
+  },
+  {
+   "id": "michaelis",
+   "name_en": "Michaelis",
+   "ko": "미하일 로모노소프",
+   "qid": "Q58720",
+   "our_domain": "uol.com.br",
+   "wikidata_sites": []
+  },
+  {
+   "id": "alternate",
+   "name_en": "Alternate",
+   "ko": "대체 역사",
+   "qid": "Q224989",
+   "our_domain": "alternate.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "dandelion",
+   "name_en": "Dandelion",
+   "ko": "민들레속",
+   "qid": "Q30024",
+   "our_domain": "dandelionpayments.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "sportclub",
+   "name_en": "Sportclub",
+   "ko": "스포츠단",
+   "qid": "Q847017",
+   "our_domain": "ndr.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "the-la-nd",
+   "name_en": "The Länd",
+   "ko": "바덴뷔르템베르크주",
+   "qid": "Q985",
+   "our_domain": "thelaend.de",
+   "wikidata_sites": [
+    "baden-wuerttemberg.de",
+    "baden-wuerttemberg.de",
+    "baden-wuerttemberg.de",
+    "baden-württemberg.de",
+    "bwl.de"
+   ]
+  },
+  {
+   "id": "hawthorne",
+   "name_en": "Hawthorne",
+   "ko": "호손",
+   "qid": "Q688596",
+   "our_domain": "tnt.tv",
+   "wikidata_sites": [
+    "cityofhawthorne.org"
+   ]
+  },
+  {
+   "id": "countdown",
+   "name_en": "Countdown",
+   "ko": "카운트다운",
+   "qid": "Q68081969",
+   "our_domain": "primevideo.com",
+   "wikidata_sites": [
+    "countdown.movie"
+   ]
+  },
+  {
+   "id": "burlington",
+   "name_en": "Burlington",
+   "ko": "벌링턴",
+   "qid": "Q31058",
+   "our_domain": "burlington.com",
+   "wikidata_sites": [
+    "burlingtonvt.gov"
+   ]
   }
  ]
 }

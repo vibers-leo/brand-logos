@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "skygunnerskbl",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "e2aa47c3173325c5"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.763,
+   "provider": "sports-rendered",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "phoebuskbl",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "916ba5c47d031733"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.229,
+   "provider": "sports-rendered",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

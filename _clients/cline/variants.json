@@ -4,7 +4,8 @@
  "id": "cline",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "afa944f4ec4a6008"
+  "logo.svg": "afa944f4ec4a6008",
+  "sources/gilbarbara/full.svg": "e2f46b6a5bc7edfa"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.018,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

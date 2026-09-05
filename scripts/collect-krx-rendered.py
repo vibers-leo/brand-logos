@@ -38,6 +38,18 @@ SOURCES = {
     # cat 을 고정하지 않고 타겟의 `cat` 을 그대로 쓴다.
     "wanted": {"file": "wanted.json", "name": "name", "src": "wanted-rendered",
                "kind": None, "cat": None},
+    # 국내 금광 (2026-09-05): 공식 명단 + 홈페이지가 있어 검색 헛발질이 없는 분야.
+    # 타겟은 build-kr-targets.py 가 위키데이터에서 만든다.
+    "univ":     {"file": "univ.json",     "name": "name", "src": "univ-rendered",
+                 "kind": "대학",     "cat": "교육"},
+    "hospital": {"file": "hospital.json", "name": "name", "src": "hospital-rendered",
+                 "kind": "병원",     "cat": "의료·바이오"},
+    "finance":  {"file": "finance.json",  "name": "name", "src": "finance-rendered",
+                 "kind": "금융사",   "cat": "금융·결제"},
+    "media":    {"file": "media.json",    "name": "name", "src": "media-rendered",
+                 "kind": "언론사",   "cat": "미디어·엔터"},
+    "sports":   {"file": "sports.json",   "name": "name", "src": "sports-rendered",
+                 "kind": "스포츠구단", "cat": "스포츠"},
 }
 SRC = SOURCES[sys.argv[sys.argv.index("--source") + 1]] if "--source" in sys.argv else SOURCES["krx"]
 TARGETS = BASE / "_targets" / SRC["file"]

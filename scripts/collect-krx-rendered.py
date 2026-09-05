@@ -286,7 +286,11 @@ async def probe(pg, url):
     if not rows:
         return [], "후보 없음"
     # 왼쪽 위에 있고 신호가 강한 것 우선
-    rows.sort(key=lambda r: (RANK.get(r["why"], 9), r["top"], r["left"]))
+    # 벡터 우선: 같은 페이지에 SVG(인라인·.svg URL)가 있으면 위치·신호와 무관하게 먼저 시도한다.
+    # PNG 는 언제든 SVG 에서 파생할 수 있지만 반대는 안 된다 — 서비스 가치는 진짜 벡터 비율이 정한다.
+    def _is_vec(r):
+        return r.get("kind") == "inline-svg" or str(r.get("src", "")).split("?")[0].lower().endswith(".svg")
+    rows.sort(key=lambda r: (0 if _is_vec(r) else 1, RANK.get(r["why"], 9), r["top"], r["left"]))
     return rows, f"{len(rows)}개"
 
 async def main():

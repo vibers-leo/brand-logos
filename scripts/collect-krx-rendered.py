@@ -297,11 +297,26 @@ async def main():
     norm = lambda s: re.sub(r"[^가-힣a-z0-9]", "", str(s or "").lower())
     known = {norm(b.get("name_ko")) for b in d} | {norm(b.get("name_en")) for b in d}
     dom = {str(b.get("domain") or "").lower().replace("www.", "") for b in d}
+    # ⚠️ 실패 기억. 등록된 것만 빼면 **실패한 꼬리를 매 회차 다시 밟는다** —
+    #    크론이 60건 한도로 같은 60건(접속불가·후보없음)만 반복하고 그 뒤 신선한 타겟엔
+    #    영영 못 갔다(2026-09-05 15:20 회차: 8소스 합계 신규 3). 실패는 14일간 건너뛴다.
+    import datetime as _dt
+    TRIED_F = TARGETS.parent / ".tried.json"
+    tried_all = json.loads(TRIED_F.read_text()) if TRIED_F.exists() else {}
+    tried = tried_all.setdefault(SRC["src"], {})
+    cutoff = (_dt.date.today() - _dt.timedelta(days=14)).isoformat()
+    def _fresh(x):
+        t = tried.get((x.get("site") or "").strip())
+        return not t or t.get("at", "") < cutoff
+    def _mark(x, why):
+        tried[(x.get("site") or "").strip()] = {"at": _dt.date.today().isoformat(), "why": why[:60]}
     todo = [x for x in rows
             if norm(x[NAMEK]) not in known and (x.get("site") or "").strip()
-            and re.sub(r"^https?://(www\.)?|/.*$", "", x["site"]).lower() not in dom]
+            and re.sub(r"^https?://(www\.)?|/.*$", "", x["site"]).lower() not in dom
+            and _fresh(x)]
+    skipped_tried = sum(1 for x in rows if (x.get("site") or "").strip() and not _fresh(x))
     todo = todo[:limit]
-    print(f"  렌더 대상 {len(todo)}곳", flush=True)
+    print(f"  렌더 대상 {len(todo)}곳 (최근 14일 실패로 건너뜀 {skipped_tried})", flush=True)
 
     from playwright.async_api import async_playwright
     hit = miss = 0
@@ -328,9 +343,9 @@ async def main():
         for x in todo:
             got, why = await probe(pg, x["site"])
             if got is None:
-                print(f"   {x[NAMEK][:14]:<16} 접속❌ {why[:44]}"); miss += 1; continue
+                print(f"   {x[NAMEK][:14]:<16} 접속❌ {why[:44]}"); _mark(x, "접속❌ "+why); miss += 1; continue
             if not got:
-                print(f"   {x[NAMEK][:14]:<16} — {why}"); miss += 1; continue
+                print(f"   {x[NAMEK][:14]:<16} — {why}"); _mark(x, why); miss += 1; continue
             # 후보를 순서대로 시도해 가드를 통과하는 첫 것을 쓴다
             chosen = None
             reasons = []
@@ -343,7 +358,7 @@ async def main():
                     chosen = (top, data, ext, note); break
                 reasons.append(f"{top['why']}:{note}")
             if not chosen:
-                print(f"   {x[NAMEK][:14]:<16} — 탈락 {' | '.join(reasons[:3])}"); miss += 1; continue
+                print(f"   {x[NAMEK][:14]:<16} — 탈락 {' | '.join(reasons[:3])}"); _mark(x, "탈락 "+" | ".join(reasons[:2])); miss += 1; continue
             top, data, ext, note = chosen
             sig = _h.sha1(data).hexdigest()[:16]
             if sig in seen_logo:
@@ -401,6 +416,8 @@ async def main():
                 "added_at": _t.strftime("%Y-%m-%d"),
             })
         await br.close()
+    if not dry:
+        TRIED_F.write_text(json.dumps(tried_all, ensure_ascii=False, indent=0) + "\n")
     print(f"\n  후보 확보 {hit} · 실패 {miss}  ({hit/max(1,hit+miss)*100:.0f}%)")
     if added and not dry:
         # ⚠️ 시작할 때 읽은 스냅샷에 덧붙여 저장하면, 그 사이 **다른 수집기가

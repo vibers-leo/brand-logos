@@ -357,6 +357,9 @@ jobs:
               f = B / name
               if not f.exists(): return None
               d = json.loads(f.read_text())
+              # ⚠️ svg-wanted.json 은 **최상위가 리스트**다. dict 로 가정하면
+              #    AttributeError 로 요약 스텝이 죽고 회차가 failure 로 찍힌다(2026-09-05 15:20).
+              if isinstance(d, list): return len(d)
               return len(d.get(key) or d.get("items") or d.get("candidates") or [])
           print("\n**대기 목록** (쌓이기만 하면 자동화가 헛도는 것이다)\n")
           for label, name, key in [

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kogastech",
+ "origin": "manual",
+ "primary": "primary",
+ "variants": [
+  {
+   "key": "primary",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "기본형",
+   "order": 0,
+   "files": {
+    "png": "logo-800.png",
+    "svg": "logo.svg"
+   }
+  },
+  {
+   "key": "symbol-crop",
+   "form": "symbol",
+   "lang": "none",
+   "color": "color",
+   "label": "심볼",
+   "order": 1,
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   }
+  }
+ ]
+}

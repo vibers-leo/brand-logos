@@ -69,6 +69,8 @@ def to_svg(data: bytes, ext: str, work: Path) -> bytes | None:
     if ext == "svg":
         return data
     if ext == "zip":
+        if not zipfile.is_zipfile(io.BytesIO(data)):
+            return None        # 확장자만 .zip 인 HTML/에러 페이지 (2026-09-06 크래시)
         with zipfile.ZipFile(io.BytesIO(data)) as z:
             names = [n for n in z.namelist() if not n.startswith("__MACOSX") and FILE_EXT.search(n) and not n.lower().endswith(".zip")]
             # 로고답게 이름 붙은 것 우선, svg > ai > eps > pdf
@@ -91,6 +93,16 @@ def to_svg(data: bytes, ext: str, work: Path) -> bytes | None:
     r = subprocess.run(["pdftocairo", "-svg", "-f", "1", "-l", "1", str(src), str(out)], capture_output=True, timeout=60)
     if r.returncode != 0 or not out.exists(): return None
     return out.read_bytes()
+
+_CS = None
+def _cs():
+    """scripts/crop-sheet.py 를 모듈로 (하이픈 파일명이라 import 문이 안 된다)."""
+    global _CS
+    if _CS is None:
+        import importlib.util
+        sp = importlib.util.spec_from_file_location("crop_sheet", Path(__file__).parent / "crop-sheet.py")
+        _CS = importlib.util.module_from_spec(sp); sp.loader.exec_module(_CS)
+    return _CS
 
 def good_vector(svg: bytes) -> tuple[bool, str]:
     head = svg[:8000].decode("utf-8", "ignore")
@@ -121,6 +133,9 @@ def good_vector(svg: bytes) -> tuple[bool, str]:
 async def run(a):
     raw = json.loads((C / "brands.json").read_text()); br = raw["brands"] if isinstance(raw, dict) else raw
     tried = json.loads(TRIED_F.read_text()) if TRIED_F.exists() else {}
+    import atexit   # 크래시(가짜 zip 등)로 죽어도 이번 회차의 실패 기억은 남긴다 (2026-09-06)
+    if not a.dry_run:
+        atexit.register(lambda: TRIED_F.write_text(json.dumps(tried, ensure_ascii=False, indent=0) + '\n'))
     only = set(a.ids.split(",")) if a.ids else None
     pool = [b for b in br if b.get("origin") == "KR" and not b.get("has_svg") and not b.get("hidden")
             and (b.get("website") or b.get("domain")) and (not only or b["id"] in only)]
@@ -224,11 +239,28 @@ async def run(a):
                 ext = sniff_ext(data, cd, f["href"])
                 if not ext: continue
                 with tempfile.TemporaryDirectory() as td:
-                    svg = to_svg(data, ext, Path(td))
+                    try:
+                        svg = to_svg(data, ext, Path(td))
+                    except Exception as e:      # 변환기 하나가 죽어도 회차는 계속 (실패 기억도 남긴다)
+                        print(f"      ⚠️ 변환 예외 {type(e).__name__}: {str(e)[:60]}"); svg = None
                 if not svg: continue
                 ok, why = good_vector(svg)
                 if ok:
                     got = (f, ext, data, svg, why); break
+            if not got and svg and "시트 의심" in why:
+                # A4 한 장에 로고 하나(한국원자력안전기술원 = 잉크 3%·덩어리 1)는 시트가 아니라 여백이다.
+                # 덩어리를 뭉쳐 후보가 정확히 1개면 viewBox 크롭으로 바로 승격한다 — 사람 손이 필요한 건 후보 2개 이상.
+                try:
+                    _im, cands = _cs().candidates(svg)
+                    if len(cands) == 1:
+                        cropped = _cs().crop_svg(svg.decode("utf-8", "ignore"), cands[0]["rel"]).encode()
+                        ok2, why2 = good_vector(cropped)
+                        if ok2:
+                            (C / b["id"] / "sources" / "ci").mkdir(parents=True, exist_ok=True)
+                            (C / b["id"] / "sources" / "ci" / f"ci-sheet-{b['id']}.svg").write_bytes(svg)
+                            got = ({"href": "auto-crop"}, "svg", cropped, cropped, f"{why2} (여백 자동크롭)")
+                except Exception as e:
+                    print(f"      ⚠️ 자동크롭 예외 {type(e).__name__}: {str(e)[:60]}")
             if not got:
                 # 변환은 됐는데 시트로 의심되는 것은 버리지 않고 검토 큐에 둔다 — 사람이 viewBox 크롭으로 살릴 수 있다
                 if svg and "시트 의심" in why:
@@ -239,7 +271,8 @@ async def run(a):
                 print(f"   {name:<14} — 파일 {len(files)}개 있으나 변환 실패", flush=True); continue
             f, ext, data, svg, why = got
             d = C / b["id"]; (d / "sources" / "ci").mkdir(parents=True, exist_ok=True)
-            (d / "sources" / "ci" / (re.sub(r"[^A-Za-z0-9._-]", "_", f["href"].split("/")[-1].split("?")[0])[:80] or f"ci.{ext}")).write_bytes(data)
+            if f["href"] != "auto-crop":     # 자동크롭은 원본 시트를 이미 sources/ci 에 남겼다
+                (d / "sources" / "ci" / (re.sub(r"[^A-Za-z0-9._-]", "_", f["href"].split("/")[-1].split("?")[0])[:80] or f"ci.{ext}")).write_bytes(data)
             (d / "logo.svg").write_bytes(svg)
             promoted.append(b["id"]); hit += 1
             print(f"   {name:<14} ✅ {ext.upper()} → SVG {why} {note}", flush=True)

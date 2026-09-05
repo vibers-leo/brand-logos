@@ -1,0 +1,23 @@
+{
+ "variants": [
+  {
+   "key": "horizontal-ko-color",
+   "form": "horizontal",
+   "label": "가로조합형 (PNG)",
+   "files": {
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "symbol-none-color",
+   "form": "symbol",
+   "lang": "none",
+   "label": "엠블럼",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   }
+  }
+ ],
+ "note": "CI 색상 변형 시트 AI(sources/ci) 에서 첫 엠블럼 viewBox 크롭 — 2026-09-06"
+}

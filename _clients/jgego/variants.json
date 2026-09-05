@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jgego",
+ "origin": "manual",
+ "primary": "horizontal-ko-color",
+ "variants": [
+  {
+   "key": "horizontal-ko-color",
+   "form": "horizontal",
+   "lang": "ko",
+   "color": "color",
+   "label": "가로조합형",
+   "order": 0,
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   }
+  },
+  {
+   "key": "vertical-ko-color",
+   "form": "vertical",
+   "lang": "ko",
+   "color": "color",
+   "label": "세로조합형",
+   "order": 1,
+   "files": {
+    "svg": "variants/vertical.svg",
+    "png": "variants/vertical-512.png"
+   }
+  }
+ ]
+}

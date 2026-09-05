@@ -1,0 +1,24 @@
+{
+ "variants": [
+  {
+   "key": "primary",
+   "form": "horizontal",
+   "label": "기본형",
+   "files": {
+    "png": "logo-800.png",
+    "svg": "logo.svg"
+   }
+  },
+  {
+   "key": "symbol-crop",
+   "form": "symbol",
+   "lang": "none",
+   "label": "심볼",
+   "files": {
+    "svg": "variants/symbol.svg",
+    "png": "variants/symbol-512.png"
+   }
+  }
+ ],
+ "note": "CI 시트(sources/ci) viewBox 크롭 — 2026-09-06"
+}

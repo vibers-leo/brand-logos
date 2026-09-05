@@ -145,9 +145,11 @@ jobs:
         timeout-minutes: 50
         run: |
           pip install -q playwright && python3 -m playwright install --with-deps chromium 2>&1 | tail -1
-          for src in krx gov franchise; do
+          # krx·gov·franchise 는 세션에서 이미 1,600건을 거둬 남은 건 로고 없는 꼬리(적중 1~2%,
+          # 2026-09-05 재검증 회차). 금광 5종을 같이 돌려 회차마다 신규가 나오게 한다.
+          for src in univ hospital media sports finance krx gov franchise; do
             echo "::group::$src"
-            python3 -u scripts/collect-krx-rendered.py --source $src --limit 120 || echo "⚠️ $src 실패 (계속)"
+            python3 -u scripts/collect-krx-rendered.py --source $src --limit 60 || echo "⚠️ $src 실패 (계속)"
             echo "::endgroup::"
           done
 

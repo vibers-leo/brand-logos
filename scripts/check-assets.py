@@ -107,7 +107,9 @@ def main() -> int:
         #    build-variants 는 logo-800/icon/transparent 만 만들고 logo.png 는
         #    이미 있다고 전제한다. SVG 만 받아오는 수집기가 이걸 깨뜨렸고
         #    신규 231개 전부 다운로드가 실패했다.
-        if (d / "logo.svg").exists() and not (d / "logo.png").exists():
+        #    ⚠️ 숨긴 브랜드는 서비스에 안 나오므로 세지 않는다. ensure-logo-png 가
+        #    렌더 불가 SVG 를 숨기는데 여기서 다시 잡으면 게이트가 영영 실패한다(2026-09-05).
+        if not b.get("hidden") and (d / "logo.svg").exists() and not (d / "logo.png").exists():
             missing_png.append(bid)
 
         # ② 비트맵이 박힌 SVG 를 '벡터'라고 표시하면 거짓말이다.

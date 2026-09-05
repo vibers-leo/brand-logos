@@ -307,8 +307,11 @@ async def main():
     hit = miss = 0
     async with async_playwright() as p:
         if not EXE:
-            print("⛔ 브라우저를 찾을 수 없다 — playwright install chromium"); return
-        br = await p.chromium.launch(executable_path=EXE, headless=True)
+            # 러너(리눅스)에선 경로 glob 이 안 맞았다(2026-09-05 "⛔ 브라우저를 찾을 수 없다"
+            # 로 크론의 렌더 단계가 4줄만 찍고 끝났다). 경로를 추측하지 말고
+            # playwright 가 설치한 내장 크로미움을 그대로 띄운다.
+            print("   ℹ️ 로컬 크롬 경로 없음 — playwright 내장 크로미움 사용", flush=True)
+        br = await p.chromium.launch(**({"executable_path": EXE} if EXE else {}), headless=True)
         ctx = await br.new_context(viewport={"width": 1440, "height": 900},
                                    user_agent=L.UA)
         pg = await ctx.new_page()

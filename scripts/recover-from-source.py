@@ -16,8 +16,14 @@ sys.path.insert(0, str(Path(__file__).parent))
 import atomic_json
 
 C = Path(__file__).resolve().parent.parent / "_clients"
-KIND = {"franchise-rendered": "프랜차이즈", "gov-rendered": "공공기관"}
-CAT  = {"franchise-rendered": "식음료", "gov-rendered": "공공기관", "krx-rendered": "기타"}
+# ⚠️ 새 수집 소스를 collect-krx-rendered.SOURCES 에 넣으면 여기도 같이 넣어야 한다.
+#    빠지면 복구된 레코드가 '기타'로 들어간다 (2026-09-05 대학 69건이 그랬다).
+KIND = {"franchise-rendered": "프랜차이즈", "gov-rendered": "공공기관",
+        "univ-rendered": "대학", "hospital-rendered": "병원", "finance-rendered": "금융사",
+        "media-rendered": "언론사", "sports-rendered": "스포츠구단"}
+CAT  = {"franchise-rendered": "식품·음료", "gov-rendered": "공공·기관", "krx-rendered": "기타",
+        "univ-rendered": "교육", "hospital-rendered": "의료·바이오", "finance-rendered": "금융·결제",
+        "media-rendered": "미디어·엔터", "sports-rendered": "스포츠"}
 
 
 def build(meta: dict, folder: Path) -> dict:

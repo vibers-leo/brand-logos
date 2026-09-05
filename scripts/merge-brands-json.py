@@ -67,6 +67,14 @@ def main():
             if v and not ob.get(k):
                 ob[k] = v
                 merged_key += 1
+        # ⚠️ 숨김은 **어느 쪽이든 True 면 유지**한다. 한쪽 스냅샷이 이기는 병합에서
+        #    사람이 눈검사로 숨긴 231건이 크론 봇의 옛 레코드에 덮여 되살아났다(2026-09-05).
+        #    숨김을 푸는 건 사람이 명시적으로 할 일이고, 병합이 조용히 풀어선 안 된다.
+        if tb.get("hidden") and not ob.get("hidden"):
+            ob["hidden"] = True
+            if tb.get("hidden_reason"):
+                ob["hidden_reason"] = tb["hidden_reason"]
+            merged_key += 1
 
     # 묘비 — 의도적으로 지운 id 는 어느 쪽에 있든 뺀다
     revived = 0

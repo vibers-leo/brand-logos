@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
  "generated_at": "2026-09-05",
- "count": 1253,
+ "count": 1262,
  "candidates": [
   {
    "id": "mnet",
@@ -11344,6 +11344,86 @@
    "ko": "요하네스 페테르 뮐러",
    "qid": "Q57992",
    "our_domain": "jmueller.de",
+   "wikidata_sites": []
+  },
+  {
+   "id": "concordia",
+   "name_en": "Concordia",
+   "ko": "콩코르디아",
+   "qid": "Q52578",
+   "our_domain": "concordia.de",
+   "wikidata_sites": [
+    "gov.ar",
+    "gob.ar"
+   ]
+  },
+  {
+   "id": "kleopatra",
+   "name_en": "Kleopatra",
+   "ko": "클레오파트라 7세",
+   "qid": "Q635",
+   "our_domain": "kde.org",
+   "wikidata_sites": []
+  },
+  {
+   "id": "supernova",
+   "name_en": "Supernova",
+   "ko": "초신성",
+   "qid": "Q3937",
+   "our_domain": "supernova.at",
+   "wikidata_sites": []
+  },
+  {
+   "id": "wiedemann",
+   "name_en": "Wiedemann",
+   "ko": "물리학 연보",
+   "qid": "Q275655",
+   "our_domain": "wiedemann.de",
+   "wikidata_sites": [
+    "wiley-vch.de",
+    "wiley.com"
+   ]
+  },
+  {
+   "id": "groninger",
+   "name_en": "Groninger",
+   "ko": "흐로닝어 미술관",
+   "qid": "Q1542668",
+   "our_domain": "groninger.de",
+   "wikidata_sites": [
+    "groningermuseum.nl"
+   ]
+  },
+  {
+   "id": "landscape",
+   "name_en": "Landscape",
+   "ko": "풍경화",
+   "qid": "Q191163",
+   "our_domain": "canonical.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "sunflower",
+   "name_en": "Sunflower",
+   "ko": "해바라기",
+   "qid": "Q171497",
+   "our_domain": "sunflower-fm.org",
+   "wikidata_sites": []
+  },
+  {
+   "id": "blackbird",
+   "name_en": "Blackbird",
+   "ko": "커먼 블랙버드",
+   "qid": "Q25234",
+   "our_domain": "blackbird.xyz",
+   "wikidata_sites": []
+  },
+  {
+   "id": "emergency",
+   "name_en": "Emergency",
+   "ko": "응급",
+   "qid": "Q5070802",
+   "our_domain": "emergency.it",
    "wikidata_sites": []
   }
  ]

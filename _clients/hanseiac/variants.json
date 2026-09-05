@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hanseiac",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "4ff37bbf0325e883"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.629,
+   "provider": "univ-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

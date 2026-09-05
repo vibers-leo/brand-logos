@@ -1,7 +1,7 @@
 {
   "note": "파비콘으로 쓸 심볼이 없는 브랜드. 심볼형 로고 재수집 타겟. logo-icon.png 의 잉크가 캔버스의 20% 미만인 경우.",
   "threshold": 0.2,
-  "count": 6179,
+  "count": 7278,
   "brands": [
     {
       "id": "vibers-matecheck",
@@ -24,8 +24,20 @@
       "icon_ink": 0.0
     },
     {
-      "id": "oregon-health-authority",
+      "id": "vieworks",
       "icon_ink": 0.0
+    },
+    {
+      "id": "sukgyung",
+      "icon_ink": 0.0
+    },
+    {
+      "id": "wipscorp",
+      "icon_ink": 0.0
+    },
+    {
+      "id": "shineejp",
+      "icon_ink": 0.0002
     },
     {
       "id": "sm-supermalls",
@@ -48,7 +60,19 @@
       "icon_ink": 0.0088
     },
     {
+      "id": "hdfeed",
+      "icon_ink": 0.0117
+    },
+    {
+      "id": "yangjimal",
+      "icon_ink": 0.0117
+    },
+    {
       "id": "consiglio-nazionale-delle-ricerche",
+      "icon_ink": 0.012
+    },
+    {
+      "id": "semcns",
       "icon_ink": 0.012
     },
     {
@@ -56,8 +80,20 @@
       "icon_ink": 0.0137
     },
     {
-      "id": "kb-financial-group",
-      "icon_ink": 0.0154
+      "id": "cnslink",
+      "icon_ink": 0.0137
+    },
+    {
+      "id": "elensys",
+      "icon_ink": 0.0137
+    },
+    {
+      "id": "hiliterecords",
+      "icon_ink": 0.0146
+    },
+    {
+      "id": "kasi",
+      "icon_ink": 0.0166
     },
     {
       "id": "no-verca",
@@ -68,6 +104,10 @@
       "icon_ink": 0.0186
     },
     {
+      "id": "cosmoamt",
+      "icon_ink": 0.0188
+    },
+    {
       "id": "eon-tv",
       "icon_ink": 0.019
     },
@@ -76,12 +116,48 @@
       "icon_ink": 0.02
     },
     {
+      "id": "50plus-2",
+      "icon_ink": 0.0239
+    },
+    {
+      "id": "dyenergen",
+      "icon_ink": 0.0242
+    },
+    {
+      "id": "ribon",
+      "icon_ink": 0.0256
+    },
+    {
       "id": "stadtbus-steyr",
       "icon_ink": 0.0264
     },
     {
+      "id": "samchuly",
+      "icon_ink": 0.0264
+    },
+    {
+      "id": "namgugwangju",
+      "icon_ink": 0.0264
+    },
+    {
+      "id": "lcc",
+      "icon_ink": 0.0273
+    },
+    {
+      "id": "yujintechnology",
+      "icon_ink": 0.0295
+    },
+    {
+      "id": "kipa",
+      "icon_ink": 0.0295
+    },
+    {
       "id": "old-republic-international",
       "icon_ink": 0.0303
+    },
+    {
+      "id": "intekplus",
+      "icon_ink": 0.0308
     },
     {
       "id": "francesca-michielin",
@@ -96,35 +172,103 @@
       "icon_ink": 0.0312
     },
     {
+      "id": "rugby",
+      "icon_ink": 0.0317
+    },
+    {
+      "id": "rugby-2",
+      "icon_ink": 0.0317
+    },
+    {
+      "id": "rugby-3",
+      "icon_ink": 0.0317
+    },
+    {
       "id": "dream",
       "icon_ink": 0.0322
+    },
+    {
+      "id": "yewon",
+      "icon_ink": 0.0322
+    },
+    {
+      "id": "tpcpage",
+      "icon_ink": 0.0332
     },
     {
       "id": "vantage-towers",
       "icon_ink": 0.0344
     },
     {
-      "id": "elance",
+      "id": "focusai",
+      "icon_ink": 0.0349
+    },
+    {
+      "id": "co-unidentified",
       "icon_ink": 0.0352
+    },
+    {
+      "id": "micronx",
+      "icon_ink": 0.0352
+    },
+    {
+      "id": "sau",
+      "icon_ink": 0.0366
+    },
+    {
+      "id": "kict",
+      "icon_ink": 0.0374
+    },
+    {
+      "id": "ncomil",
+      "icon_ink": 0.0376
     },
     {
       "id": "stadtwerke-straubing",
       "icon_ink": 0.0378
     },
     {
-      "id": "zoppas",
-      "icon_ink": 0.0403
+      "id": "rakun",
+      "icon_ink": 0.0381
+    },
+    {
+      "id": "accessbio",
+      "icon_ink": 0.0381
+    },
+    {
+      "id": "cukedu",
+      "icon_ink": 0.0381
     },
     {
       "id": "competition-bureau",
       "icon_ink": 0.041
     },
     {
-      "id": "msit-go",
-      "icon_ink": 0.0439
+      "id": "culcom",
+      "icon_ink": 0.041
     },
     {
-      "id": "bitmoji",
+      "id": "topcomedia",
+      "icon_ink": 0.041
+    },
+    {
+      "id": "epain",
+      "icon_ink": 0.041
+    },
+    {
+      "id": "ysfc",
+      "icon_ink": 0.0413
+    },
+    {
+      "id": "asc",
+      "icon_ink": 0.0413
+    },
+    {
+      "id": "ksd",
+      "icon_ink": 0.0413
+    },
+    {
+      "id": "msit-go",
       "icon_ink": 0.0439
     },
     {
@@ -134,6 +278,18 @@
     {
       "id": "national-symphony-orchestra",
       "icon_ink": 0.0439
+    },
+    {
+      "id": "spinc",
+      "icon_ink": 0.0444
+    },
+    {
+      "id": "wooridul",
+      "icon_ink": 0.0444
+    },
+    {
+      "id": "stressresearch",
+      "icon_ink": 0.0452
     },
     {
       "id": "intellectual-ventures",
@@ -146,6 +302,14 @@
     {
       "id": "museum-of-fine-arts-houston",
       "icon_ink": 0.0461
+    },
+    {
+      "id": "goelement",
+      "icon_ink": 0.0464
+    },
+    {
+      "id": "bcwp",
+      "icon_ink": 0.0464
     },
     {
       "id": "korea-baseball-organization---2022-wordmark-full",
@@ -212,7 +376,15 @@
       "icon_ink": 0.0469
     },
     {
-      "id": "mgi",
+      "id": "seoulin",
+      "icon_ink": 0.0476
+    },
+    {
+      "id": "kctcmilkr452",
+      "icon_ink": 0.0479
+    },
+    {
+      "id": "bokwangindustry",
       "icon_ink": 0.0483
     },
     {
@@ -232,7 +404,39 @@
       "icon_ink": 0.0513
     },
     {
+      "id": "jindofand",
+      "icon_ink": 0.0527
+    },
+    {
+      "id": "finedigital",
+      "icon_ink": 0.0527
+    },
+    {
+      "id": "wanju",
+      "icon_ink": 0.0527
+    },
+    {
+      "id": "yuantakorea",
+      "icon_ink": 0.0537
+    },
+    {
+      "id": "harahara",
+      "icon_ink": 0.0547
+    },
+    {
+      "id": "coreana",
+      "icon_ink": 0.0547
+    },
+    {
+      "id": "hoseo",
+      "icon_ink": 0.0549
+    },
+    {
       "id": "simons-foundation",
+      "icon_ink": 0.0557
+    },
+    {
+      "id": "jmmulti",
       "icon_ink": 0.0557
     },
     {
@@ -248,12 +452,24 @@
       "icon_ink": 0.0566
     },
     {
-      "id": "fundac-a-o-casa-de-rui-barbosa",
+      "id": "financial-consumer-agency-of-canada",
       "icon_ink": 0.0566
     },
     {
-      "id": "financial-consumer-agency-of-canada",
-      "icon_ink": 0.0566
+      "id": "venturemiraeasset",
+      "icon_ink": 0.0571
+    },
+    {
+      "id": "aptninc",
+      "icon_ink": 0.0571
+    },
+    {
+      "id": "osan",
+      "icon_ink": 0.0571
+    },
+    {
+      "id": "sejongsa",
+      "icon_ink": 0.0571
     },
     {
       "id": "donga-pharm",
@@ -262,6 +478,10 @@
     {
       "id": "chungjungone",
       "icon_ink": 0.0586
+    },
+    {
+      "id": "dage",
+      "icon_ink": 0.0603
     },
     {
       "id": "richemont",
@@ -280,11 +500,23 @@
       "icon_ink": 0.0605
     },
     {
-      "id": "iforum",
-      "icon_ink": 0.061
+      "id": "kjim",
+      "icon_ink": 0.0605
+    },
+    {
+      "id": "pumtech",
+      "icon_ink": 0.0605
     },
     {
       "id": "sv-babelsberg-03",
+      "icon_ink": 0.061
+    },
+    {
+      "id": "busan-reuse-culture-practice-association",
+      "icon_ink": 0.061
+    },
+    {
+      "id": "imuz",
       "icon_ink": 0.061
     },
     {
@@ -326,6 +558,18 @@
     {
       "id": "bus-sarganserland-werdenberg",
       "icon_ink": 0.0615
+    },
+    {
+      "id": "jyp21",
+      "icon_ink": 0.0615
+    },
+    {
+      "id": "sungdokorea",
+      "icon_ink": 0.0615
+    },
+    {
+      "id": "korean-environmental-education-network",
+      "icon_ink": 0.0618
     },
     {
       "id": "kona-i",
@@ -552,6 +796,10 @@
       "icon_ink": 0.0625
     },
     {
+      "id": "fundac-a-o-casa-de-rui-barbosa",
+      "icon_ink": 0.0625
+    },
+    {
       "id": "university-of-houston-clear-lake",
       "icon_ink": 0.0625
     },
@@ -572,6 +820,38 @@
       "icon_ink": 0.0625
     },
     {
+      "id": "taeyang",
+      "icon_ink": 0.0625
+    },
+    {
+      "id": "gangdong",
+      "icon_ink": 0.0625
+    },
+    {
+      "id": "jsmc",
+      "icon_ink": 0.0625
+    },
+    {
+      "id": "infinitt",
+      "icon_ink": 0.0625
+    },
+    {
+      "id": "kbif",
+      "icon_ink": 0.0625
+    },
+    {
+      "id": "ecopromaterials",
+      "icon_ink": 0.0625
+    },
+    {
+      "id": "essencecoffee",
+      "icon_ink": 0.0625
+    },
+    {
+      "id": "skcomms",
+      "icon_ink": 0.0625
+    },
+    {
       "id": "pixar",
       "icon_ink": 0.0645
     },
@@ -580,12 +860,44 @@
       "icon_ink": 0.0645
     },
     {
+      "id": "xnp39ar8j11b21eeshnss36i",
+      "icon_ink": 0.0645
+    },
+    {
       "id": "engelsburg-gymnasium",
       "icon_ink": 0.0647
     },
     {
+      "id": "anpcb",
+      "icon_ink": 0.0649
+    },
+    {
       "id": "ssg-payments",
       "icon_ink": 0.0659
+    },
+    {
+      "id": "onlinelibrarywiley",
+      "icon_ink": 0.0659
+    },
+    {
+      "id": "kyc",
+      "icon_ink": 0.0664
+    },
+    {
+      "id": "fcseoul",
+      "icon_ink": 0.0664
+    },
+    {
+      "id": "fcseoul-2",
+      "icon_ink": 0.0664
+    },
+    {
+      "id": "kumdo",
+      "icon_ink": 0.0664
+    },
+    {
+      "id": "namgu-mascot",
+      "icon_ink": 0.0664
     },
     {
       "id": "gesellschaft-fu-r-freiheitsrechte",
@@ -596,12 +908,40 @@
       "icon_ink": 0.0674
     },
     {
+      "id": "daejooent",
+      "icon_ink": 0.0684
+    },
+    {
       "id": "almaty-international-airport",
       "icon_ink": 0.0696
     },
     {
+      "id": "ulsan-college",
+      "icon_ink": 0.0703
+    },
+    {
+      "id": "refine-2",
+      "icon_ink": 0.0703
+    },
+    {
+      "id": "firsteccom",
+      "icon_ink": 0.0703
+    },
+    {
+      "id": "tukoreaac",
+      "icon_ink": 0.0703
+    },
+    {
+      "id": "thehpsp",
+      "icon_ink": 0.0706
+    },
+    {
       "id": "smithsonian",
       "icon_ink": 0.0708
+    },
+    {
+      "id": "assems",
+      "icon_ink": 0.0723
     },
     {
       "id": "zweckverband-nahverkehr-westfalen-lippe",
@@ -612,7 +952,15 @@
       "icon_ink": 0.0732
     },
     {
+      "id": "the-line-of-best-fit",
+      "icon_ink": 0.0732
+    },
+    {
       "id": "plusliga",
+      "icon_ink": 0.0742
+    },
+    {
+      "id": "dongbang",
       "icon_ink": 0.0742
     },
     {
@@ -634,6 +982,10 @@
     {
       "id": "4tu-researchdata",
       "icon_ink": 0.0745
+    },
+    {
+      "id": "danyang",
+      "icon_ink": 0.0747
     },
     {
       "id": "cresco-labs",
@@ -660,7 +1012,35 @@
       "icon_ink": 0.0757
     },
     {
+      "id": "eultrasonography",
+      "icon_ink": 0.0757
+    },
+    {
+      "id": "ikla",
+      "icon_ink": 0.0757
+    },
+    {
+      "id": "jejuloveland",
+      "icon_ink": 0.0757
+    },
+    {
+      "id": "dreamtenter",
+      "icon_ink": 0.0757
+    },
+    {
+      "id": "mutekimuteki",
+      "icon_ink": 0.0757
+    },
+    {
+      "id": "formation8",
+      "icon_ink": 0.0757
+    },
+    {
       "id": "kraford",
+      "icon_ink": 0.0762
+    },
+    {
+      "id": "ncdinos",
       "icon_ink": 0.0762
     },
     {
@@ -728,6 +1108,14 @@
       "icon_ink": 0.0769
     },
     {
+      "id": "papermoonfilmsde",
+      "icon_ink": 0.0769
+    },
+    {
+      "id": "enghallym",
+      "icon_ink": 0.0769
+    },
+    {
       "id": "noovle",
       "icon_ink": 0.0776
     },
@@ -738,6 +1126,14 @@
     {
       "id": "flash-fiber",
       "icon_ink": 0.0776
+    },
+    {
+      "id": "yellow-king-kong",
+      "icon_ink": 0.0779
+    },
+    {
+      "id": "ablecnc",
+      "icon_ink": 0.0779
     },
     {
       "id": "nate-communications",
@@ -1188,6 +1584,10 @@
       "icon_ink": 0.0781
     },
     {
+      "id": "the-spokesman-review",
+      "icon_ink": 0.0781
+    },
+    {
       "id": "diario-de-valladolid",
       "icon_ink": 0.0781
     },
@@ -1344,12 +1744,76 @@
       "icon_ink": 0.0781
     },
     {
-      "id": "numbuzin",
-      "icon_ink": 0.0786
+      "id": "gwnudh",
+      "icon_ink": 0.0781
     },
     {
-      "id": "rex",
-      "icon_ink": 0.0791
+      "id": "dwsu",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "enjournal",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "accesson",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "linkspringer",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "linkspringer-2",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "studiosamick",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "bydream",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "cutech",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "kpxls",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "toodoublepizza",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "dasannetworks",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "eyesteelfilm",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "kgmobilitycommercial",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "panmure",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "sparkcapital",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "patricksebastienfr",
+      "icon_ink": 0.0781
+    },
+    {
+      "id": "numbuzin",
+      "icon_ink": 0.0786
     },
     {
       "id": "open-fiber",
@@ -1358,6 +1822,18 @@
     {
       "id": "unicoop-etruria",
       "icon_ink": 0.0791
+    },
+    {
+      "id": "sejongtelecom",
+      "icon_ink": 0.0791
+    },
+    {
+      "id": "scd",
+      "icon_ink": 0.0803
+    },
+    {
+      "id": "laic",
+      "icon_ink": 0.0806
     },
     {
       "id": "missha",
@@ -1380,11 +1856,39 @@
       "icon_ink": 0.082
     },
     {
+      "id": "jcontentree",
+      "icon_ink": 0.0825
+    },
+    {
+      "id": "mbnmk",
+      "icon_ink": 0.083
+    },
+    {
+      "id": "sacheon",
+      "icon_ink": 0.0835
+    },
+    {
+      "id": "kolmarholdings",
+      "icon_ink": 0.084
+    },
+    {
       "id": "hyosung",
       "icon_ink": 0.085
     },
     {
+      "id": "globalnewsagency",
+      "icon_ink": 0.085
+    },
+    {
+      "id": "logisys",
+      "icon_ink": 0.0854
+    },
+    {
       "id": "alcen-france",
+      "icon_ink": 0.0859
+    },
+    {
+      "id": "ycg-slogan",
       "icon_ink": 0.0859
     },
     {
@@ -1408,12 +1912,72 @@
       "icon_ink": 0.0879
     },
     {
+      "id": "adforus",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-2",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-3",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-4",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-5",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-6",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-7",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-8",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "kcomwel-9",
+      "icon_ink": 0.0879
+    },
+    {
+      "id": "sejoong",
+      "icon_ink": 0.0886
+    },
+    {
+      "id": "cosmochem",
+      "icon_ink": 0.0886
+    },
+    {
+      "id": "todayhumor",
+      "icon_ink": 0.0889
+    },
+    {
       "id": "agilent-technologies",
       "icon_ink": 0.0894
     },
     {
       "id": "thiruvananthapuram-international-airport",
       "icon_ink": 0.0894
+    },
+    {
+      "id": "dat21",
+      "icon_ink": 0.0894
+    },
+    {
+      "id": "innotech2013",
+      "icon_ink": 0.0898
     },
     {
       "id": "blue-october",
@@ -1446,6 +2010,18 @@
     {
       "id": "forum-netztechnik-netzbetrieb",
       "icon_ink": 0.0908
+    },
+    {
+      "id": "woojininc",
+      "icon_ink": 0.0908
+    },
+    {
+      "id": "buspia",
+      "icon_ink": 0.0908
+    },
+    {
+      "id": "naju",
+      "icon_ink": 0.0913
     },
     {
       "id": "marotta",
@@ -1528,10 +2104,6 @@
       "icon_ink": 0.0923
     },
     {
-      "id": "the-spokesman-review",
-      "icon_ink": 0.0923
-    },
-    {
       "id": "storyliving-by-disney",
       "icon_ink": 0.0923
     },
@@ -1561,6 +2133,22 @@
     },
     {
       "id": "o-sterreichische-apothekerbank",
+      "icon_ink": 0.0923
+    },
+    {
+      "id": "ananti",
+      "icon_ink": 0.0923
+    },
+    {
+      "id": "rusinssnuac",
+      "icon_ink": 0.0923
+    },
+    {
+      "id": "kingsac",
+      "icon_ink": 0.0923
+    },
+    {
+      "id": "wainingkorea",
       "icon_ink": 0.0923
     },
     {
@@ -1869,6 +2457,10 @@
     },
     {
       "id": "comsol-inc",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "nickelback",
       "icon_ink": 0.0938
     },
     {
@@ -2756,7 +3348,119 @@
       "icon_ink": 0.0938
     },
     {
+      "id": "musescore-studio",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "tissuegene",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "atecmobility",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "chemtronics",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "kolonglobal",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "sgu",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "dmc-2",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "neofect",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "hyosungchemical",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "innospc",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "cspartners",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "kmago",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "hyundaimovex",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "hyosungheavyindustries",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "nicednb",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "kftec",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "graycitybusan",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "gemstoneenm",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "masscoffee",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "jungdahammall",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "suomian",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "blancgroup",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "chubblife",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "samsungdisplay",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "socialcapital",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "tigerglobal",
+      "icon_ink": 0.0938
+    },
+    {
+      "id": "corpjolse",
+      "icon_ink": 0.094
+    },
+    {
       "id": "igaworks",
+      "icon_ink": 0.0967
+    },
+    {
+      "id": "oceaninw",
       "icon_ink": 0.0967
     },
     {
@@ -2768,8 +3472,16 @@
       "icon_ink": 0.0977
     },
     {
-      "id": "scoventa",
+      "id": "spsoft",
       "icon_ink": 0.0977
+    },
+    {
+      "id": "tesna",
+      "icon_ink": 0.0977
+    },
+    {
+      "id": "dgenx",
+      "icon_ink": 0.0989
     },
     {
       "id": "violet-evergarden",
@@ -2777,6 +3489,10 @@
     },
     {
       "id": "cdu-berlin",
+      "icon_ink": 0.0994
+    },
+    {
+      "id": "samg",
       "icon_ink": 0.0994
     },
     {
@@ -2796,23 +3512,27 @@
       "icon_ink": 0.0996
     },
     {
-      "id": "sompo",
-      "icon_ink": 0.1008
-    },
-    {
       "id": "zur-mu-hlen-gruppe",
       "icon_ink": 0.1008
     },
     {
+      "id": "kukilmetal",
+      "icon_ink": 0.1008
+    },
+    {
+      "id": "vacuumcoater",
+      "icon_ink": 0.1016
+    },
+    {
+      "id": "eacfs",
+      "icon_ink": 0.1016
+    },
+    {
+      "id": "kduniv",
+      "icon_ink": 0.1021
+    },
+    {
       "id": "nhn",
-      "icon_ink": 0.1025
-    },
-    {
-      "id": "cellular-one",
-      "icon_ink": 0.1025
-    },
-    {
-      "id": "l-eco-di-bergamo",
       "icon_ink": 0.1025
     },
     {
@@ -2820,8 +3540,20 @@
       "icon_ink": 0.1025
     },
     {
+      "id": "volvik",
+      "icon_ink": 0.1025
+    },
+    {
+      "id": "crmh",
+      "icon_ink": 0.1025
+    },
+    {
       "id": "cdu-bremen",
       "icon_ink": 0.1033
+    },
+    {
+      "id": "edumuseumsengo",
+      "icon_ink": 0.1035
     },
     {
       "id": "sh-or",
@@ -2892,6 +3624,18 @@
       "icon_ink": 0.1042
     },
     {
+      "id": "kmpc",
+      "icon_ink": 0.1042
+    },
+    {
+      "id": "cnghitech",
+      "icon_ink": 0.1042
+    },
+    {
+      "id": "nuriwell",
+      "icon_ink": 0.105
+    },
+    {
       "id": "renaultkorea",
       "icon_ink": 0.1055
     },
@@ -2913,6 +3657,10 @@
     },
     {
       "id": "namyang-co",
+      "icon_ink": 0.1055
+    },
+    {
+      "id": "daedonggear",
       "icon_ink": 0.1055
     },
     {
@@ -2940,11 +3688,31 @@
       "icon_ink": 0.106
     },
     {
+      "id": "kdhealthbio",
+      "icon_ink": 0.106
+    },
+    {
+      "id": "sdhgo",
+      "icon_ink": 0.106
+    },
+    {
+      "id": "busanreuse",
+      "icon_ink": 0.106
+    },
+    {
+      "id": "qcapital",
+      "icon_ink": 0.1062
+    },
+    {
       "id": "deurne",
       "icon_ink": 0.1074
     },
     {
       "id": "university-of-applied-sciences-bremerhaven",
+      "icon_ink": 0.1074
+    },
+    {
+      "id": "koreamed",
       "icon_ink": 0.1074
     },
     {
@@ -3077,6 +3845,26 @@
     },
     {
       "id": "transports-de-la-re-gion-morges-bie-re-cossonay",
+      "icon_ink": 0.1077
+    },
+    {
+      "id": "softcen",
+      "icon_ink": 0.1077
+    },
+    {
+      "id": "quadmedicine",
+      "icon_ink": 0.1077
+    },
+    {
+      "id": "cpsystem",
+      "icon_ink": 0.1077
+    },
+    {
+      "id": "isskangwonac",
+      "icon_ink": 0.1077
+    },
+    {
+      "id": "coffeelabintwhol",
       "icon_ink": 0.1077
     },
     {
@@ -3860,10 +4648,6 @@
       "icon_ink": 0.1094
     },
     {
-      "id": "sana-hotels",
-      "icon_ink": 0.1094
-    },
-    {
       "id": "wiki-unseen",
       "icon_ink": 0.1094
     },
@@ -3920,6 +4704,10 @@
       "icon_ink": 0.1094
     },
     {
+      "id": "deseret-book",
+      "icon_ink": 0.1094
+    },
+    {
       "id": "gerresheimer",
       "icon_ink": 0.1094
     },
@@ -3945,6 +4733,10 @@
     },
     {
       "id": "alex-and-ani",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "cellular-one",
       "icon_ink": 0.1094
     },
     {
@@ -5016,11 +5808,299 @@
       "icon_ink": 0.1094
     },
     {
-      "id": "crown-co",
-      "icon_ink": 0.1099
+      "id": "companyaromaticaco",
+      "icon_ink": 0.1094
     },
     {
-      "id": "olympus-airways",
+      "id": "daishinvaluereit",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "aprin",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "suresofttech",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "09women",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "iparkdvp",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "outinco",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kait-2",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "corestemchemon",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "secoautomotive",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kwenergy",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "holdingscom2us",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "hyosungitx",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "daesanfnb",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "wwwintops",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "codescombine",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "barunsonena",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "dsfinetec",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "dhautoware",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "samickthk",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "dlt",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "busanpa",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "arko",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "jinsil",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "dcmc",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "seoulwooridul",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "ntrh",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "ikukbo",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "lx-2",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kisdi",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "dowooinsys",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "evpart",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "sigetronics",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "innosim",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "bumhanfuelcell",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "genomecom",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "jgego",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "jnsobanggo",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "ksure",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "epis",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "khidi",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "jincostech",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "ajuib",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "englewoodlab",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "yongpyong",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kictexre",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kistepre",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "vitzrocell",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "hwarangkmaac",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "chosunwelding",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kcpi-2",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "neotis",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "klid",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kribbre",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "evam",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "bgfecomaterials",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "stretchbang",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "everycoffee",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "honestseoul",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "choucake",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "kofum",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "cleantopia",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "koreagoldx",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "brmh",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "hello39",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "mavalon",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "nexusfactory",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "tianyancapital",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "warburgpincus",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "worldquant",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "blackbirdvc",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "emcac",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "nhfire",
+      "icon_ink": 0.1094
+    },
+    {
+      "id": "crown-co",
       "icon_ink": 0.1099
     },
     {
@@ -5076,6 +6156,14 @@
       "icon_ink": 0.1113
     },
     {
+      "id": "imsil",
+      "icon_ink": 0.1113
+    },
+    {
+      "id": "ecerm",
+      "icon_ink": 0.1121
+    },
+    {
       "id": "medytox",
       "icon_ink": 0.1123
     },
@@ -5084,7 +6172,15 @@
       "icon_ink": 0.1123
     },
     {
+      "id": "eagon-2",
+      "icon_ink": 0.1123
+    },
+    {
       "id": "homeplus-co",
+      "icon_ink": 0.1128
+    },
+    {
+      "id": "gokseong",
       "icon_ink": 0.1128
     },
     {
@@ -5112,6 +6208,18 @@
       "icon_ink": 0.1133
     },
     {
+      "id": "megatouch",
+      "icon_ink": 0.1133
+    },
+    {
+      "id": "sleepmedres",
+      "icon_ink": 0.1133
+    },
+    {
+      "id": "boynextdoorofficial",
+      "icon_ink": 0.1133
+    },
+    {
       "id": "hydrogenaudio",
       "icon_ink": 0.1152
     },
@@ -5122,6 +6230,26 @@
     {
       "id": "wmtv",
       "icon_ink": 0.116
+    },
+    {
+      "id": "philenergy",
+      "icon_ink": 0.1162
+    },
+    {
+      "id": "philoptics",
+      "icon_ink": 0.1162
+    },
+    {
+      "id": "tccsteel",
+      "icon_ink": 0.1162
+    },
+    {
+      "id": "pajufrontier",
+      "icon_ink": 0.1162
+    },
+    {
+      "id": "hongikart-2",
+      "icon_ink": 0.1165
     },
     {
       "id": "wemade",
@@ -5192,6 +6320,14 @@
       "icon_ink": 0.1172
     },
     {
+      "id": "englishkoscom",
+      "icon_ink": 0.1172
+    },
+    {
+      "id": "tiactsac",
+      "icon_ink": 0.1172
+    },
+    {
       "id": "mk-co",
       "icon_ink": 0.1182
     },
@@ -5204,6 +6340,10 @@
       "icon_ink": 0.1187
     },
     {
+      "id": "pci21c",
+      "icon_ink": 0.1187
+    },
+    {
       "id": "socionext",
       "icon_ink": 0.1191
     },
@@ -5212,11 +6352,11 @@
       "icon_ink": 0.1191
     },
     {
-      "id": "artist-pension-trust",
+      "id": "badische-neueste-nachrichten",
       "icon_ink": 0.1191
     },
     {
-      "id": "badische-neueste-nachrichten",
+      "id": "creativecityjinju",
       "icon_ink": 0.1191
     },
     {
@@ -5280,14 +6420,6 @@
       "icon_ink": 0.1211
     },
     {
-      "id": "deseret-book",
-      "icon_ink": 0.1211
-    },
-    {
-      "id": "sudan-airways",
-      "icon_ink": 0.1211
-    },
-    {
       "id": "avior-airlines",
       "icon_ink": 0.1211
     },
@@ -5325,6 +6457,34 @@
     },
     {
       "id": "national-association-of-science-writers",
+      "icon_ink": 0.1211
+    },
+    {
+      "id": "alivecor",
+      "icon_ink": 0.1211
+    },
+    {
+      "id": "hironic",
+      "icon_ink": 0.1211
+    },
+    {
+      "id": "husteel",
+      "icon_ink": 0.1211
+    },
+    {
+      "id": "ipab",
+      "icon_ink": 0.1211
+    },
+    {
+      "id": "gspt",
+      "icon_ink": 0.1211
+    },
+    {
+      "id": "sbiomedics",
+      "icon_ink": 0.1211
+    },
+    {
+      "id": "1sbb",
       "icon_ink": 0.1211
     },
     {
@@ -5520,11 +6680,63 @@
       "icon_ink": 0.123
     },
     {
+      "id": "doubleugames",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "corpwemadeplay",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "119gg-2",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "tonymoly",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "hysolus",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "kion",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "asanfw",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "sjchem",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "heungkuk",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "cosmaxnbt",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "imsilcheese",
+      "icon_ink": 0.123
+    },
+    {
+      "id": "librarygijanggo",
+      "icon_ink": 0.123
+    },
+    {
       "id": "dnalink-ci-c",
       "icon_ink": 0.1245
     },
     {
-      "id": "cantata",
+      "id": "rfhic",
+      "icon_ink": 0.1245
+    },
+    {
+      "id": "yesemk",
       "icon_ink": 0.1245
     },
     {
@@ -6836,6 +8048,10 @@
       "icon_ink": 0.125
     },
     {
+      "id": "sana-hotels",
+      "icon_ink": 0.125
+    },
+    {
       "id": "gossip-girl",
       "icon_ink": 0.125
     },
@@ -7532,6 +8748,10 @@
       "icon_ink": 0.125
     },
     {
+      "id": "l-eco-di-bergamo",
+      "icon_ink": 0.125
+    },
+    {
       "id": "la-nuova-ferrara",
       "icon_ink": 0.125
     },
@@ -7769,10 +8989,6 @@
     },
     {
       "id": "windows-server-2016",
-      "icon_ink": 0.125
-    },
-    {
-      "id": "kingston-university",
       "icon_ink": 0.125
     },
     {
@@ -8232,7 +9448,323 @@
       "icon_ink": 0.125
     },
     {
-      "id": "ctvglobemedia",
+      "id": "voicemod",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "chaevi",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "inventera",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "lincsolution",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "dalbaglobal",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "ivimtech",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kolmarbiotech",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "alteogen",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "wimco",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "joosungcorp",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kael",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "ywtc",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "aztechwb",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "seoulgas",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kywa",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "iita",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "hscu",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "remedihc",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "giantstep",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "jpmph",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "ijkhkhistory",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "jkiees",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kjccm",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "accjournal",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "koreaherald",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "thrive-capital",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "geumsan",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "hlbinnovation",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "amc-2",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "nearthlab",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "newkidson",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "truen",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "micro2nano",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "fnguide",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "egfc",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "seoriseori",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kdhc",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "koem",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "ekr",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "dyoe",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "novarex",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "npinc",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "snkpolytec",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kbsire",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "seoyoneh",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "woory",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "sejongjul",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "meritzgroup",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "sgasol",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kfere",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "epolicy",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "intron",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "koreastudy",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "iqmc",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "swei",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kiepgo",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "klrire",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "cnu518jnuac",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "historicaljesus",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "ywdsp",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "fourhouse",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "rapsfitness",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kyusnuac",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "kcgat",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "iskulgwnuac",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "iskulgwnuac-2",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "michuhollibgo",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "dongilsteel",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "goodmomfood",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "isaactoast",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "jinseon",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "mimihoho",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "neuroart",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "oakberry",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "biff",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "samsungfund",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "momstouch",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "cmcsungmo",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "cmcujb",
+      "icon_ink": 0.125
+    },
+    {
+      "id": "dwhosp",
       "icon_ink": 0.1252
     },
     {
@@ -8244,7 +9776,27 @@
       "icon_ink": 0.127
     },
     {
+      "id": "kainosmedicine",
+      "icon_ink": 0.127
+    },
+    {
+      "id": "solborn",
+      "icon_ink": 0.127
+    },
+    {
+      "id": "cheongdo",
+      "icon_ink": 0.127
+    },
+    {
       "id": "jornalet",
+      "icon_ink": 0.1274
+    },
+    {
+      "id": "greenresource",
+      "icon_ink": 0.1274
+    },
+    {
+      "id": "nexadynamics",
       "icon_ink": 0.1274
     },
     {
@@ -8257,6 +9809,10 @@
     },
     {
       "id": "goodal-co",
+      "icon_ink": 0.1282
+    },
+    {
+      "id": "siheung",
       "icon_ink": 0.1282
     },
     {
@@ -8296,7 +9852,7 @@
       "icon_ink": 0.1289
     },
     {
-      "id": "enpowered",
+      "id": "sbik",
       "icon_ink": 0.1294
     },
     {
@@ -8309,6 +9865,10 @@
     },
     {
       "id": "sgs-institut-fresenius",
+      "icon_ink": 0.1296
+    },
+    {
+      "id": "castec",
       "icon_ink": 0.1296
     },
     {
@@ -8332,11 +9892,39 @@
       "icon_ink": 0.1318
     },
     {
-      "id": "dino-crisis",
+      "id": "croatian-bank-for-reconstruction-and-development",
       "icon_ink": 0.1318
     },
     {
-      "id": "croatian-bank-for-reconstruction-and-development",
+      "id": "teraview",
+      "icon_ink": 0.1318
+    },
+    {
+      "id": "coasiaoptics",
+      "icon_ink": 0.1318
+    },
+    {
+      "id": "lendingmachine",
+      "icon_ink": 0.1318
+    },
+    {
+      "id": "popa",
+      "icon_ink": 0.1318
+    },
+    {
+      "id": "bbts",
+      "icon_ink": 0.1318
+    },
+    {
+      "id": "eulji",
+      "icon_ink": 0.1318
+    },
+    {
+      "id": "guguhuogoitrocks",
+      "icon_ink": 0.1318
+    },
+    {
+      "id": "yoksaaksac",
       "icon_ink": 0.1318
     },
     {
@@ -8356,6 +9944,10 @@
       "icon_ink": 0.134
     },
     {
+      "id": "namhwaconst",
+      "icon_ink": 0.134
+    },
+    {
       "id": "orion-co",
       "icon_ink": 0.1343
     },
@@ -8372,12 +9964,28 @@
       "icon_ink": 0.1343
     },
     {
+      "id": "engmceego",
+      "icon_ink": 0.1343
+    },
+    {
       "id": "inside-airbnb",
       "icon_ink": 0.1348
     },
     {
-      "id": "tus-makkabi-frankfurt",
+      "id": "isc21",
       "icon_ink": 0.1348
+    },
+    {
+      "id": "fira",
+      "icon_ink": 0.1348
+    },
+    {
+      "id": "bhe",
+      "icon_ink": 0.1355
+    },
+    {
+      "id": "sokchomc",
+      "icon_ink": 0.1355
     },
     {
       "id": "snt-dynamics",
@@ -8417,6 +10025,14 @@
     },
     {
       "id": "kavlico-gmbh",
+      "icon_ink": 0.1362
+    },
+    {
+      "id": "pet-sematary",
+      "icon_ink": 0.1362
+    },
+    {
+      "id": "sudan-airways",
       "icon_ink": 0.1362
     },
     {
@@ -8476,6 +10092,22 @@
       "icon_ink": 0.1362
     },
     {
+      "id": "homecenter",
+      "icon_ink": 0.1362
+    },
+    {
+      "id": "youngwol",
+      "icon_ink": 0.1362
+    },
+    {
+      "id": "mncsolution",
+      "icon_ink": 0.1362
+    },
+    {
+      "id": "hafeed",
+      "icon_ink": 0.1367
+    },
+    {
       "id": "cce",
       "icon_ink": 0.137
     },
@@ -8517,6 +10149,10 @@
     },
     {
       "id": "suntory",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "fishman",
       "icon_ink": 0.1384
     },
     {
@@ -8597,6 +10233,10 @@
     },
     {
       "id": "mattress-firm",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "ctvglobemedia",
       "icon_ink": 0.1384
     },
     {
@@ -8692,11 +10332,59 @@
       "icon_ink": 0.1384
     },
     {
+      "id": "jetema",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "kriso",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "abclon",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "hojeon",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "dongilmetal",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "bnkfg",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "amicogen",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "krjx",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "busanbank",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "goldkindfilm",
+      "icon_ink": 0.1384
+    },
+    {
+      "id": "thinkfree",
+      "icon_ink": 0.1384
+    },
+    {
       "id": "open-source-collective",
       "icon_ink": 0.1392
     },
     {
       "id": "hainich-national-park",
+      "icon_ink": 0.1396
+    },
+    {
+      "id": "kimchan",
       "icon_ink": 0.1396
     },
     {
@@ -9016,10 +10704,6 @@
       "icon_ink": 0.1406
     },
     {
-      "id": "inmobi",
-      "icon_ink": 0.1406
-    },
-    {
       "id": "humain",
       "icon_ink": 0.1406
     },
@@ -9157,10 +10841,6 @@
     },
     {
       "id": "eismann",
-      "icon_ink": 0.1406
-    },
-    {
-      "id": "fishman",
       "icon_ink": 0.1406
     },
     {
@@ -9592,6 +11272,10 @@
       "icon_ink": 0.1406
     },
     {
+      "id": "wiley-vch",
+      "icon_ink": 0.1406
+    },
+    {
       "id": "focusrite",
       "icon_ink": 0.1406
     },
@@ -9884,10 +11568,6 @@
       "icon_ink": 0.1406
     },
     {
-      "id": "familymart",
-      "icon_ink": 0.1406
-    },
-    {
       "id": "quiksilver",
       "icon_ink": 0.1406
     },
@@ -9901,10 +11581,6 @@
     },
     {
       "id": "kulula-com",
-      "icon_ink": 0.1406
-    },
-    {
-      "id": "mannesmann",
       "icon_ink": 0.1406
     },
     {
@@ -10300,6 +11976,10 @@
       "icon_ink": 0.1406
     },
     {
+      "id": "dino-crisis",
+      "icon_ink": 0.1406
+    },
+    {
       "id": "secretariat",
       "icon_ink": 0.1406
     },
@@ -10389,6 +12069,10 @@
     },
     {
       "id": "der-standard",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "deseret-news",
       "icon_ink": 0.1406
     },
     {
@@ -10605,6 +12289,10 @@
     },
     {
       "id": "charlie-hebdo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "dolby-theatre",
       "icon_ink": 0.1406
     },
     {
@@ -11024,10 +12712,6 @@
       "icon_ink": 0.1406
     },
     {
-      "id": "norinchukin-bank",
-      "icon_ink": 0.1406
-    },
-    {
       "id": "netscout-systems",
       "icon_ink": 0.1406
     },
@@ -11357,6 +13041,10 @@
     },
     {
       "id": "hersbrucker-zeitung",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kingston-university",
       "icon_ink": 0.1406
     },
     {
@@ -11812,7 +13500,419 @@
       "icon_ink": 0.1406
     },
     {
-      "id": "korea-investment-corporation",
+      "id": "samsung-financial-networks",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "doosanrobotics",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "isuspecialtychemical",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "plasmapp",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "openedges",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "alcheraai",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "moogene",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "doosanfuelcell",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hsenterprise",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hectoinnovation",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "icraft21",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "woosu",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kyungnampharm",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "seoulpharma",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "jchyun",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "tailim",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "119gg",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "gb119",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kibo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "seoulmaelu",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kumoh",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "sungae",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kindhp",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "bixolon-2",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "ajasinfo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "joet",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "aappsbulletin",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "dbpia",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "cosmorobotics",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "tomocube",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "bankwareglobal",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "nobland",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kweather",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hbvc",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "chich",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "vigencell",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "sdbiosensor",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kobiolabs",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kyochonfnb",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hangbangsrmuitrocks",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kinsre",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "keris",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kcesi",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "gwsyedgwego",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "seoulviosys",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "mitech",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "woojini",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "rn2",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "dongkuksnc",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "sangbogroup",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "devsisters-2",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "iews",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "stop",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "seowonintech",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "imfngroup",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "taekmin",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "ksib",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "lhca",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "nnibrre",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hyundaifuturenet",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "cw",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "naturalendo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "isecommerce",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "sinjinsm",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "ssamchon",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "streetchurros",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "mazimou",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "galbcitrocks",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "shareit-2",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "openmind1",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "katsuhesed",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "bandiinhouse",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "masigray",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "namusdmgo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "erclub",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hanamon",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hennakingitrocks",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "mrhomes",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "oneulwine",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "petstore24",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "xnjk1bu4cc5ed1d25fyncy9o",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "doosan-2",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "doosanenerbility",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kicgo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "nordiccapital",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "ringgames",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "studiogenie",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "wellingtonpartners",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "nvp",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "txtofficialjp",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "kaaphollandnl",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "lumitonar",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "ventureseu",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "gangnamchamc",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "dkuh",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "cmcbucheon",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "cmcvincent",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "cmcism",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "hanilmed",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "isongdo",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "mbcplus",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "ifm",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "gpsports",
+      "icon_ink": 0.1406
+    },
+    {
+      "id": "carrotins",
       "icon_ink": 0.1406
     },
     {
@@ -11856,14 +13956,6 @@
       "icon_ink": 0.1416
     },
     {
-      "id": "fortis-inc",
-      "icon_ink": 0.1416
-    },
-    {
-      "id": "sas-braathens",
-      "icon_ink": 0.1416
-    },
-    {
       "id": "apache-accumulo",
       "icon_ink": 0.1416
     },
@@ -11876,7 +13968,19 @@
       "icon_ink": 0.1416
     },
     {
+      "id": "skbend",
+      "icon_ink": 0.1416
+    },
+    {
       "id": "iope",
+      "icon_ink": 0.1436
+    },
+    {
+      "id": "aiobio",
+      "icon_ink": 0.1436
+    },
+    {
+      "id": "pohang",
       "icon_ink": 0.1436
     },
     {
@@ -11888,11 +13992,11 @@
       "icon_ink": 0.144
     },
     {
-      "id": "rennes-me-tropole",
-      "icon_ink": 0.145
+      "id": "berchtesgaden-national-park",
+      "icon_ink": 0.146
     },
     {
-      "id": "berchtesgaden-national-park",
+      "id": "janss",
       "icon_ink": 0.146
     },
     {
@@ -11928,6 +14032,46 @@
       "icon_ink": 0.1465
     },
     {
+      "id": "autocrypt-2",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "drgemhealthcare",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "naturecell",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "wikitree",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "sbirds",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "sbirds-2",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "centralchildcarego",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "0313579223tshome",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "coffeebanhada",
+      "icon_ink": 0.1465
+    },
+    {
+      "id": "nhlife",
+      "icon_ink": 0.1465
+    },
+    {
       "id": "schweizerischer-baumeisterverband",
       "icon_ink": 0.1477
     },
@@ -11960,11 +14104,11 @@
       "icon_ink": 0.1489
     },
     {
-      "id": "x5-retail-group",
+      "id": "welland-transit",
       "icon_ink": 0.1489
     },
     {
-      "id": "welland-transit",
+      "id": "atatu-rk-library",
       "icon_ink": 0.1489
     },
     {
@@ -11972,11 +14116,27 @@
       "icon_ink": 0.1489
     },
     {
+      "id": "kcins",
+      "icon_ink": 0.1489
+    },
+    {
       "id": "saale-unstrut-triasland-nature-park",
       "icon_ink": 0.1492
     },
     {
+      "id": "voronoiio",
+      "icon_ink": 0.1492
+    },
+    {
+      "id": "gjpolice",
+      "icon_ink": 0.1492
+    },
+    {
       "id": "murdoch-mysteries",
+      "icon_ink": 0.1494
+    },
+    {
+      "id": "nextinsol",
       "icon_ink": 0.1494
     },
     {
@@ -11997,6 +14157,10 @@
     },
     {
       "id": "hutch-sri-lanka",
+      "icon_ink": 0.1504
+    },
+    {
+      "id": "smbexel",
       "icon_ink": 0.1504
     },
     {
@@ -12032,15 +14196,15 @@
       "icon_ink": 0.1514
     },
     {
-      "id": "wiley-vch",
-      "icon_ink": 0.1514
-    },
-    {
       "id": "mondadori",
       "icon_ink": 0.1514
     },
     {
       "id": "concentrix",
+      "icon_ink": 0.1514
+    },
+    {
+      "id": "fortis-inc",
       "icon_ink": 0.1514
     },
     {
@@ -12065,10 +14229,6 @@
     },
     {
       "id": "freightquote-com",
-      "icon_ink": 0.1514
-    },
-    {
-      "id": "shoppers-drug-mart",
       "icon_ink": 0.1514
     },
     {
@@ -12108,6 +14268,30 @@
       "icon_ink": 0.1514
     },
     {
+      "id": "medience",
+      "icon_ink": 0.1514
+    },
+    {
+      "id": "nepesark",
+      "icon_ink": 0.1514
+    },
+    {
+      "id": "dscinvestment",
+      "icon_ink": 0.1514
+    },
+    {
+      "id": "hancharactereducation",
+      "icon_ink": 0.1514
+    },
+    {
+      "id": "hlholdings",
+      "icon_ink": 0.1514
+    },
+    {
+      "id": "chuanlagongfu",
+      "icon_ink": 0.1514
+    },
+    {
       "id": "sotysolar",
       "icon_ink": 0.1523
     },
@@ -12116,15 +14300,23 @@
       "icon_ink": 0.1523
     },
     {
+      "id": "pro2000",
+      "icon_ink": 0.1523
+    },
+    {
+      "id": "nauib",
+      "icon_ink": 0.1523
+    },
+    {
       "id": "fifty-fifty",
       "icon_ink": 0.1531
     },
     {
-      "id": "oberheim-electronics",
+      "id": "california-air-resources-board",
       "icon_ink": 0.1531
     },
     {
-      "id": "california-air-resources-board",
+      "id": "ltcna",
       "icon_ink": 0.1531
     },
     {
@@ -12188,19 +14380,11 @@
       "icon_ink": 0.1538
     },
     {
-      "id": "deseret-news",
-      "icon_ink": 0.1538
-    },
-    {
       "id": "world-airways",
       "icon_ink": 0.1538
     },
     {
       "id": "ammann-verlag",
-      "icon_ink": 0.1538
-    },
-    {
-      "id": "dolby-theatre",
       "icon_ink": 0.1538
     },
     {
@@ -12221,10 +14405,6 @@
     },
     {
       "id": "zevener-zeitung",
-      "icon_ink": 0.1538
-    },
-    {
-      "id": "lufthansa-technik",
       "icon_ink": 0.1538
     },
     {
@@ -12308,11 +14488,87 @@
       "icon_ink": 0.1538
     },
     {
+      "id": "gutnliver",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "domin",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "sportstoto",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "shinsungst",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "aithenutrigene",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "carelabs",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "engkoprire",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "sdni",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "oldkfrire",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "scholarkyobobook",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "pscwig",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "seoulmilk",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "topten10",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "u5filmproduktionde",
+      "icon_ink": 0.1538
+    },
+    {
+      "id": "ksmc",
+      "icon_ink": 0.1538
+    },
+    {
       "id": "planetary-resources",
       "icon_ink": 0.1553
     },
     {
       "id": "ildong",
+      "icon_ink": 0.1555
+    },
+    {
+      "id": "gwanak-2",
+      "icon_ink": 0.1555
+    },
+    {
+      "id": "slbscourtgo",
+      "icon_ink": 0.1555
+    },
+    {
+      "id": "swbscourtgo",
+      "icon_ink": 0.1555
+    },
+    {
+      "id": "bsbscourtgo",
       "icon_ink": 0.1555
     },
     {
@@ -12324,7 +14580,15 @@
       "icon_ink": 0.1558
     },
     {
-      "id": "condair-group",
+      "id": "hlcast",
+      "icon_ink": 0.1558
+    },
+    {
+      "id": "knnews",
+      "icon_ink": 0.1558
+    },
+    {
+      "id": "kblife",
       "icon_ink": 0.1558
     },
     {
@@ -12568,6 +14832,10 @@
       "icon_ink": 0.1562
     },
     {
+      "id": "geox",
+      "icon_ink": 0.1562
+    },
+    {
       "id": "myer",
       "icon_ink": 0.1562
     },
@@ -12769,6 +15037,10 @@
     },
     {
       "id": "hartke",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "inmobi",
       "icon_ink": 0.1562
     },
     {
@@ -13277,6 +15549,10 @@
     },
     {
       "id": "mcmakler",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "scoventa",
       "icon_ink": 0.1562
     },
     {
@@ -14016,10 +16292,6 @@
       "icon_ink": 0.1562
     },
     {
-      "id": "climaveneta",
-      "icon_ink": 0.1562
-    },
-    {
       "id": "kloppenburg",
       "icon_ink": 0.1562
     },
@@ -14712,6 +16984,10 @@
       "icon_ink": 0.1562
     },
     {
+      "id": "x5-retail-group",
+      "icon_ink": 0.1562
+    },
+    {
       "id": "sansui-electric",
       "icon_ink": 0.1562
     },
@@ -14864,6 +17140,10 @@
       "icon_ink": 0.1562
     },
     {
+      "id": "norinchukin-bank",
+      "icon_ink": 0.1562
+    },
+    {
       "id": "bradesco-seguros",
       "icon_ink": 0.1562
     },
@@ -14957,10 +17237,6 @@
     },
     {
       "id": "democrats-abroad",
-      "icon_ink": 0.1562
-    },
-    {
-      "id": "atatu-rk-library",
       "icon_ink": 0.1562
     },
     {
@@ -15672,11 +17948,487 @@
       "icon_ink": 0.1562
     },
     {
-      "id": "k-startup-go",
-      "icon_ink": 0.1582
+      "id": "haechitech",
+      "icon_ink": 0.1562
     },
     {
-      "id": "house",
+      "id": "txr",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "seers",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "krgeninus",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "igisvaluereit",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "hectofinancial",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "ezcaretech",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "dhautolead",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "polarissewon",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "sinsin",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kemtech",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "asiakor",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "neopharm",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "hwail",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "nanoentek",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "mobaseelec",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kdnavien",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "globon",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "seahbesteel",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kiscoholdings",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "dysp",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "incheon",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "koroad",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "rrncc",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "auri",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "cmcdj",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gimjewoosuk",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "innoax",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "sghitech",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "wonpoong",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "maeumsarang",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "eagmr",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "newstomato",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "echnr",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "ihalla",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "newspim",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kjdaily",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "iusm",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gmcc",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "easlbasketball",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "itshanbul",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "tcmaterials",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "simplatform",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "motfa",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "sanil",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "crowdworks",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kygp",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gnfirego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "khug",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "koenergy",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "ssis",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "semas",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwgnedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kwthegwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwwjedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwccegwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kwtbegwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwgsedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwygedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwijedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwjsedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwcwedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwpcegwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwhcegwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwhcedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwhsedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gwywedgwego",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "goegn",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "csbrg",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "innometry",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "optipharm",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "ereits",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "gopowernet",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "yhtec",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "sangshine",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "datasolution",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "dentis",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "seaman",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "dyetec",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "htpharm",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "nscompany",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "grtc",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "islandsmokpoac",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "mmpharm",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "sftc",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "panocean",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "hizeaero",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "ddkorea",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "comwel",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "lgrc",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "pjmetal",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "daesungenergy",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "fatboyhb",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "cheolpanjip",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "bwpt",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "zeroplus",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "thehitone",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "duri100",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "xn1991es8qi79a1yy",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kriece",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "chainsutac",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "bbs",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "dorcoglobal",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "historymuseum",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "jupiterent",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "lattette",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "nikkatsu",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "pranastudios",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "terencefilms",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "thepan",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "polarispartners",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "drapertriangle",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "satelat",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "konyangac",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "wsuac",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "inha",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "kyuhac",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "cnuh-2",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "radioytn",
+      "icon_ink": 0.1562
+    },
+    {
+      "id": "enbio",
+      "icon_ink": 0.1572
+    },
+    {
+      "id": "k-startup-go",
       "icon_ink": 0.1582
     },
     {
@@ -15724,8 +18476,12 @@
       "icon_ink": 0.1611
     },
     {
-      "id": "jat-airways",
-      "icon_ink": 0.1638
+      "id": "kwakh",
+      "icon_ink": 0.1611
+    },
+    {
+      "id": "slc",
+      "icon_ink": 0.1611
     },
     {
       "id": "james-allen",
@@ -15737,6 +18493,10 @@
     },
     {
       "id": "landesmedienzentrum-baden-wu-rttemberg",
+      "icon_ink": 0.1638
+    },
+    {
+      "id": "kctinc",
       "icon_ink": 0.1638
     },
     {
@@ -15760,11 +18520,23 @@
       "icon_ink": 0.1641
     },
     {
+      "id": "bluec",
+      "icon_ink": 0.1641
+    },
+    {
+      "id": "xn1986ey4ph78egoho2k",
+      "icon_ink": 0.1641
+    },
+    {
       "id": "jumpit-co",
       "icon_ink": 0.165
     },
     {
       "id": "saramin-co",
+      "icon_ink": 0.165
+    },
+    {
+      "id": "mggeneralins",
       "icon_ink": 0.165
     },
     {
@@ -15844,6 +18616,10 @@
       "icon_ink": 0.1665
     },
     {
+      "id": "lufthansa-technik",
+      "icon_ink": 0.1665
+    },
+    {
       "id": "lone-pine-capital",
       "icon_ink": 0.1665
     },
@@ -15892,6 +18668,54 @@
       "icon_ink": 0.1665
     },
     {
+      "id": "wise-2",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "bosungpower",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "thepeoplemagazine",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "kospo",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "zaigle",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "gogangtilestore",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "whasooitrocks",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "circuscompany",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "naeil",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "busanwater",
+      "icon_ink": 0.1665
+    },
+    {
+      "id": "widerplanet",
+      "icon_ink": 0.167
+    },
+    {
+      "id": "unitrontech",
+      "icon_ink": 0.167
+    },
+    {
       "id": "soldout-co",
       "icon_ink": 0.1675
     },
@@ -15905,6 +18729,10 @@
     },
     {
       "id": "klimabu-ndnis-o-sterreich",
+      "icon_ink": 0.1685
+    },
+    {
+      "id": "cheongbo",
       "icon_ink": 0.1685
     },
     {
@@ -16096,6 +18924,10 @@
       "icon_ink": 0.1692
     },
     {
+      "id": "oberheim-electronics",
+      "icon_ink": 0.1692
+    },
+    {
       "id": "grupo-energi-a-bogota",
       "icon_ink": 0.1692
     },
@@ -16136,6 +18968,66 @@
       "icon_ink": 0.1692
     },
     {
+      "id": "daemyoungeng",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "estarco",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "jjsmc",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "timett",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "0553430365ezbuilder",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "bioinfra",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "hims",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "youthre",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "star1272webplanet",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "xnbk1b92ywte",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "mosori6649",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "iks",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "badajini",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "shinil",
+      "icon_ink": 0.1692
+    },
+    {
+      "id": "worldkbs",
+      "icon_ink": 0.1692
+    },
+    {
       "id": "raytheon",
       "icon_ink": 0.1699
     },
@@ -16169,6 +19061,10 @@
     },
     {
       "id": "accounts-of-chemical-research",
+      "icon_ink": 0.1714
+    },
+    {
+      "id": "kukjeon",
       "icon_ink": 0.1714
     },
     {
@@ -16448,10 +19344,6 @@
       "icon_ink": 0.1719
     },
     {
-      "id": "geox",
-      "icon_ink": 0.1719
-    },
-    {
       "id": "enbw",
       "icon_ink": 0.1719
     },
@@ -16521,10 +19413,6 @@
     },
     {
       "id": "fanuc",
-      "icon_ink": 0.1719
-    },
-    {
-      "id": "admob",
       "icon_ink": 0.1719
     },
     {
@@ -16869,6 +19757,10 @@
     },
     {
       "id": "sophos",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "iforum",
       "icon_ink": 0.1719
     },
     {
@@ -18852,6 +21744,10 @@
       "icon_ink": 0.1719
     },
     {
+      "id": "samsung-ativ-s",
+      "icon_ink": 0.1719
+    },
+    {
       "id": "sarmiento-line",
       "icon_ink": 0.1719
     },
@@ -18937,10 +21833,6 @@
     },
     {
       "id": "age-ncia-brasil",
-      "icon_ink": 0.1719
-    },
-    {
-      "id": "mercatus-center",
       "icon_ink": 0.1719
     },
     {
@@ -19640,10 +22532,6 @@
       "icon_ink": 0.1719
     },
     {
-      "id": "sahra-wagenknecht-alliance",
-      "icon_ink": 0.1719
-    },
-    {
       "id": "national-library-of-bhutan",
       "icon_ink": 0.1719
     },
@@ -19924,6 +22812,562 @@
       "icon_ink": 0.1719
     },
     {
+      "id": "aizome",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "shopline",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "curiosis",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "naurobot",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hnshightech",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hassbio",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "korchip",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "modelsolution",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kbstarreit",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ifamily",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "onejoon",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "skietechnology",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "solumgroup",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "withuspharm",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "genomictree",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hyosungadvancedmaterials",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "roborobo",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ligachembio",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hscleantech",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "orientpi",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "shnetworks",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "eaglevet",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "unick",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "orientbio",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "seahsteel",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kordi",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kcpi",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "geps",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "osongmohw",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "nims",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "dgmif",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "komount",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kmedi",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "knuh",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hsmu",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "englishigse",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kkot",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "jeiu",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ka",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "snjc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ophrp",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "isplus",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "isdent",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kwnews",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kwangju",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ktl",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "songwooint",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "sena",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "newenai",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "wooyang",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "asterasys",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ewits",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "higenrnm",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "stxgreenlogis",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "4by4inc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "shsbreit",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "coocon",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "genohco",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "whystarve",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "xnoi2bo7bn8bq2v",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "cbwfsoftss",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kogastech",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "i815",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "bohun",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "councilsejonggo",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "englishkotire",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "intsgo",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "goeyc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "gnaresgo",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "saltware",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "cowintech",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "woorifg",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "joyworksnco",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "icure",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "linkgenesis",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "incross",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "infovine",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "cmsdankookac",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "vidente",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "intergis",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "igloo-2",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "pnudh",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "wonikpne",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "icd",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "crire",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "adtek",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "sjna",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kimsre",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "pixelplus",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "kumhoht",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "smac",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "gdire",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "katon",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "edikead",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "dklok",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "namsan101",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "twomanfnc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "gogimill",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "jeyuk",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "emasterclub",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "winnere",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "smoper",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "iceedu",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "xn2e0bp08a",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ilpumfood",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "jungkodari",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "suwonre",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "jjrire",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "archiveskdemo",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hscitylib",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "libicego",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "datago",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "lg-2",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "cnpinc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "gaepagomycafe24",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "geekspizza",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "totecoffee",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "xn9x8ba",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "yumeoden",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "8seconds",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "academy",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "donghee",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "dspmedia",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "dwci",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hansungac",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "hurom",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "nventertainment",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "sheng",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "sunjin-2",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "tuaron",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "zipsinfood",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "tv60filmde",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "moskitofi",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "andongac",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "jaseng",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "ccmc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "tjmbc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "busanmbc",
+      "icon_ink": 0.1719
+    },
+    {
+      "id": "dgmbc",
+      "icon_ink": 0.1719
+    },
+    {
       "id": "alex",
       "icon_ink": 0.1729
     },
@@ -19944,7 +23388,27 @@
       "icon_ink": 0.1729
     },
     {
+      "id": "xn4estjs8qz07aw5h",
+      "icon_ink": 0.1729
+    },
+    {
+      "id": "ctrmobility",
+      "icon_ink": 0.1743
+    },
+    {
+      "id": "ajinextek",
+      "icon_ink": 0.1743
+    },
+    {
+      "id": "glstory",
+      "icon_ink": 0.1743
+    },
+    {
       "id": "pharmacity",
+      "icon_ink": 0.1746
+    },
+    {
+      "id": "sports",
       "icon_ink": 0.1746
     },
     {
@@ -19976,6 +23440,14 @@
       "icon_ink": 0.1758
     },
     {
+      "id": "stechm",
+      "icon_ink": 0.1758
+    },
+    {
+      "id": "jmtfa",
+      "icon_ink": 0.1758
+    },
+    {
       "id": "coway-co",
       "icon_ink": 0.1777
     },
@@ -19990,6 +23462,14 @@
     {
       "id": "kellerwald-edersee-national-park",
       "icon_ink": 0.1777
+    },
+    {
+      "id": "goldfamillyfood",
+      "icon_ink": 0.1777
+    },
+    {
+      "id": "hansoliones",
+      "icon_ink": 0.1785
     },
     {
       "id": "heras",
@@ -20020,15 +23500,51 @@
       "icon_ink": 0.1787
     },
     {
+      "id": "taesung2000",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "ansan",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "tk-2",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "ygu",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "hallahosp",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "crystalnewmaterial",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "moina",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "jhlibgnego",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "pickers",
+      "icon_ink": 0.1787
+    },
+    {
+      "id": "haeundaejahwal",
+      "icon_ink": 0.1787
+    },
+    {
       "id": "heinz-nixdorf-museumsforum",
       "icon_ink": 0.1797
     },
     {
       "id": "kinto",
-      "icon_ink": 0.1809
-    },
-    {
-      "id": "the-thomson-corporation",
       "icon_ink": 0.1809
     },
     {
@@ -20045,6 +23561,10 @@
     },
     {
       "id": "reserve-bank-of-india",
+      "icon_ink": 0.1812
+    },
+    {
+      "id": "wbaduk",
       "icon_ink": 0.1812
     },
     {
@@ -20084,10 +23604,6 @@
       "icon_ink": 0.1816
     },
     {
-      "id": "eclass",
-      "icon_ink": 0.1816
-    },
-    {
       "id": "bischoff",
       "icon_ink": 0.1816
     },
@@ -20113,10 +23629,6 @@
     },
     {
       "id": "bnsf-railway",
-      "icon_ink": 0.1816
-    },
-    {
-      "id": "lundin-energy",
       "icon_ink": 0.1816
     },
     {
@@ -20152,6 +23664,94 @@
       "icon_ink": 0.1816
     },
     {
+      "id": "wooritg",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "hospchosun",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "furonteer",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "busanjin",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "gccity",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "bnkspac",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "hyms",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "frombiocompany",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "smpago",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "innovex",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "lksamyang",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "yesuntech",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "kpri",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "globaltaxfree",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "nibec",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "houseplan",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "homefine2521mycafe24",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "horangfcimwebme",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "ongidolpan",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "probonotv",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "hanainsure",
+      "icon_ink": 0.1816
+    },
+    {
+      "id": "kwsi",
+      "icon_ink": 0.1836
+    },
+    {
       "id": "cs-wind",
       "icon_ink": 0.1841
     },
@@ -20160,15 +23760,15 @@
       "icon_ink": 0.1841
     },
     {
-      "id": "foreca",
-      "icon_ink": 0.1841
-    },
-    {
       "id": "christian-democratic-union",
       "icon_ink": 0.1841
     },
     {
       "id": "velana-international-airport",
+      "icon_ink": 0.1841
+    },
+    {
+      "id": "copyright",
       "icon_ink": 0.1841
     },
     {
@@ -20197,10 +23797,6 @@
     },
     {
       "id": "milan",
-      "icon_ink": 0.1846
-    },
-    {
-      "id": "vestas",
       "icon_ink": 0.1846
     },
     {
@@ -20388,6 +23984,110 @@
       "icon_ink": 0.1846
     },
     {
+      "id": "snsys",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "cuboxai",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "unitekno",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "tonexus",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "ehansun",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "jnpolice",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "mcu",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "isendumc",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "hcisj",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "dtncro",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "dgpolicego",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "xisnd",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "neosem",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "ips",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "foodinfo",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "tegoscience",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "charire",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "ksvs",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "benotnr",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "devildice",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "libchangwongo",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "dataseoulgo",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "celmon",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "schmcac",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "comar",
+      "icon_ink": 0.1846
+    },
+    {
+      "id": "sudong",
+      "icon_ink": 0.1846
+    },
+    {
       "id": "6pr",
       "icon_ink": 0.1855
     },
@@ -20397,6 +24097,10 @@
     },
     {
       "id": "institut-fu-r-automation-und-kommunikation",
+      "icon_ink": 0.1873
+    },
+    {
+      "id": "carenuri",
       "icon_ink": 0.1873
     },
     {
@@ -20636,10 +24340,6 @@
       "icon_ink": 0.1875
     },
     {
-      "id": "local-government-officials-development-institute",
-      "icon_ink": 0.1875
-    },
-    {
       "id": "sk-view",
       "icon_ink": 0.1875
     },
@@ -20816,10 +24516,6 @@
       "icon_ink": 0.1875
     },
     {
-      "id": "odatv",
-      "icon_ink": 0.1875
-    },
-    {
       "id": "dtour",
       "icon_ink": 0.1875
     },
@@ -20848,15 +24544,15 @@
       "icon_ink": 0.1875
     },
     {
+      "id": "vestas",
+      "icon_ink": 0.1875
+    },
+    {
       "id": "gallup",
       "icon_ink": 0.1875
     },
     {
       "id": "rimowa",
-      "icon_ink": 0.1875
-    },
-    {
-      "id": "capcut",
       "icon_ink": 0.1875
     },
     {
@@ -22420,6 +26116,10 @@
       "icon_ink": 0.1875
     },
     {
+      "id": "jat-airways",
+      "icon_ink": 0.1875
+    },
+    {
       "id": "don-quijote",
       "icon_ink": 0.1875
     },
@@ -22824,6 +26524,10 @@
       "icon_ink": 0.1875
     },
     {
+      "id": "lundin-energy",
+      "icon_ink": 0.1875
+    },
+    {
       "id": "grob-aircraft",
       "icon_ink": 0.1875
     },
@@ -22857,6 +26561,10 @@
     },
     {
       "id": "tier-mobility",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "condair-group",
       "icon_ink": 0.1875
     },
     {
@@ -23104,10 +26812,6 @@
       "icon_ink": 0.1875
     },
     {
-      "id": "samsung-ativ-s",
-      "icon_ink": 0.1875
-    },
-    {
       "id": "conference-usa",
       "icon_ink": 0.1875
     },
@@ -23145,6 +26849,10 @@
     },
     {
       "id": "maurice-lacroix",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "olympus-airways",
       "icon_ink": 0.1875
     },
     {
@@ -23197,6 +26905,10 @@
     },
     {
       "id": "alliance-royale",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "mercatus-center",
       "icon_ink": 0.1875
     },
     {
@@ -23521,6 +27233,10 @@
     },
     {
       "id": "samsung-galaxy-a40",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "shoppers-drug-mart",
       "icon_ink": 0.1875
     },
     {
@@ -23960,6 +27676,10 @@
       "icon_ink": 0.1875
     },
     {
+      "id": "sahra-wagenknecht-alliance",
+      "icon_ink": 0.1875
+    },
+    {
       "id": "georg-von-vollmar-akademie",
       "icon_ink": 0.1875
     },
@@ -24224,6 +27944,490 @@
       "icon_ink": 0.1875
     },
     {
+      "id": "jpikorea",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "organoidrx",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "udmtek",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hblaser",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "corelinesoft",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "epibiotech",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "axgate",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "millroll",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "gencurix",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ecocab",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hanaph",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "bgfretail",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "surplusglobal",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hdclabs",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "drtech",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "anapass",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "uniquest",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "dhnp",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "cmgpharma",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hascokorea",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "masoncapital",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "pangrim",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "daehancinema",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "kidp",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ati",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "snubh",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "koipa",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "foodpolis",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "dhc",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "dcatholic",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "daejeon-2",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "stcube",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "jpatholtm",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "monthlypeople",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "womennews",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "kado",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "idomin",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "legaltimes",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "weeklychosun",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "platoon",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "schoolgyo6",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "baduk",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ktfl",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "yj21",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "andrb",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "posbank",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "sandslabio",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "sunbio",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "enchem",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "samyoungsnc",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "cyberone",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "vunoco",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "cublo",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "jeonbukgo",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "kmiti",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "kohi",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "fowi",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "kihf",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "councilbusango",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "katsgo",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "soulbrain",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hbsolution",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "wontech",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "remed",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "copus",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "idreamtech",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "tnrbiofab",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "dongkoo",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "softcamp",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "mobileappliance",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "cosmecca",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "kccond",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "eduresearchsnuac",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "chethanol",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "wiworld",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ifansgo",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "jiuac",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "iws",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "dukshinepc",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "araibmolitgo",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "drugfree",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ifeskyungnamac",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ketire",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "xcure",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "handsomegolf",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "gogissalon",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "scuola",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "xnob0bp8vvwbt8h0zi",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "300sikdang",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "valuereaders",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "seoggagmall",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "theonfnb",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "philculture",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "urire",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ghrire",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "librarykoreaac",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "cinemathequeseoul",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hslib",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "tmnhm",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hanshinudong",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "oldgalbitang",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "shinmanhong",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "sookyungmandu",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "thebasket",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "xnvr0b12a12cz10adoo",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "asea",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "carenation",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "carreregroupda",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "flextudio",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "hshi",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "ktbizinternet",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "odmusical",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "pioneertv",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "stx",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "telechips",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "xnkf0br5e12aekz50bdhy",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "summitpartners",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "pnuh",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "cuh",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "kjbank",
+      "icon_ink": 0.1875
+    },
+    {
+      "id": "oksavingsbank",
+      "icon_ink": 0.1875
+    },
+    {
       "id": "amgen",
       "icon_ink": 0.188
     },
@@ -24256,11 +28460,31 @@
       "icon_ink": 0.1904
     },
     {
-      "id": "j-oil-mills",
+      "id": "wellington-management-company",
       "icon_ink": 0.1904
     },
     {
-      "id": "wellington-management-company",
+      "id": "polarisai",
+      "icon_ink": 0.1904
+    },
+    {
+      "id": "krinktec",
+      "icon_ink": 0.1904
+    },
+    {
+      "id": "nicsme",
+      "icon_ink": 0.1904
+    },
+    {
+      "id": "yeonje",
+      "icon_ink": 0.1904
+    },
+    {
+      "id": "tenminutes",
+      "icon_ink": 0.1904
+    },
+    {
+      "id": "yisseoul",
       "icon_ink": 0.1904
     },
     {
@@ -24276,15 +28500,27 @@
       "icon_ink": 0.1914
     },
     {
+      "id": "naintec",
+      "icon_ink": 0.1914
+    },
+    {
+      "id": "dailynk",
+      "icon_ink": 0.1914
+    },
+    {
+      "id": "050713726969tshome",
+      "icon_ink": 0.1914
+    },
+    {
       "id": "pax-red",
       "icon_ink": 0.1934
     },
     {
-      "id": "gallica",
-      "icon_ink": 0.1936
+      "id": "dsneolux",
+      "icon_ink": 0.1934
     },
     {
-      "id": "seagull-book",
+      "id": "gallica",
       "icon_ink": 0.1936
     },
     {
@@ -24320,6 +28556,18 @@
       "icon_ink": 0.1936
     },
     {
+      "id": "blackyakinc",
+      "icon_ink": 0.1936
+    },
+    {
+      "id": "cyc1963",
+      "icon_ink": 0.1936
+    },
+    {
+      "id": "newmnd",
+      "icon_ink": 0.1936
+    },
+    {
       "id": "wyndham-hotels-resorts",
       "icon_ink": 0.1941
     },
@@ -24328,7 +28576,15 @@
       "icon_ink": 0.1948
     },
     {
+      "id": "leeconvention",
+      "icon_ink": 0.1948
+    },
+    {
       "id": "supergirl",
+      "icon_ink": 0.1953
+    },
+    {
+      "id": "lcd",
       "icon_ink": 0.1953
     },
     {
@@ -24380,10 +28636,6 @@
       "icon_ink": 0.1968
     },
     {
-      "id": "magna-international",
-      "icon_ink": 0.1968
-    },
-    {
       "id": "marineland-of-canada",
       "icon_ink": 0.1968
     },
@@ -24405,6 +28657,58 @@
     },
     {
       "id": "disney-s-grand-floridian-resort-spa",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "goodymt",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "cherrybro",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "yest",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "sangju",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "gunsan",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "moadata",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "050713372551tshome",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "mndpromil",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "dongyangbeer",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "immigrationgo",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "jnire",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "grotto2011",
+      "icon_ink": 0.1968
+    },
+    {
+      "id": "77foodtruck",
       "icon_ink": 0.1968
     },
     {
@@ -24456,15 +28760,23 @@
       "icon_ink": 0.1982
     },
     {
+      "id": "gitsn",
+      "icon_ink": 0.1982
+    },
+    {
+      "id": "topengnet",
+      "icon_ink": 0.1987
+    },
+    {
       "id": "wog",
       "icon_ink": 0.1992
     },
     {
-      "id": "rennes",
+      "id": "1lib1ref",
       "icon_ink": 0.1992
     },
     {
-      "id": "1lib1ref",
+      "id": "dshm",
       "icon_ink": 0.1992
     },
     {
@@ -24481,6 +28793,10 @@
     },
     {
       "id": "maemo",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "d-link",
       "icon_ink": 0.2
     },
     {
@@ -24717,6 +29033,86 @@
     },
     {
       "id": "investitions-und-strukturbank-rheinland-pfalz",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "cellbiohumantech",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "lbinvestment",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "dyenp",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "puac",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "yeongsanriver",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "kofac",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "motor",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "cnuhh",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "gjmed",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "bukdaegu",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "youilet",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "hanjaasia",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "nhigo",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "mahan",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "hfrnet",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "ikch",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "portcancoffee",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "qqnoodle",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "gndire",
+      "icon_ink": 0.2
+    },
+    {
+      "id": "sandria",
       "icon_ink": 0.2
     }
   ]

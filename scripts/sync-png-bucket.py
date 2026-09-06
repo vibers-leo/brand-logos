@@ -35,6 +35,9 @@ PREFIX = "_clients/"
 DEFAULT_ENDPOINT = "https://kr.object.ncloudstorage.com"
 
 
+# ⚠️ NCP Object Storage 는 boto3 기본 체크섬(aws-chunked 트레일러)을 AccessDenied 로 거절한다.
+#    "IP 제한" 으로 오진해 러너 업로드가 몇 주간 실패했다(2026-09-07 확정). 맥은 env
+#    AWS_REQUEST_CHECKSUM_CALCULATION=when_required 가 있어 우연히 통과했다.
 def client():
     try:
         import boto3
@@ -78,7 +81,7 @@ def client():
         aws_access_key_id=env["NCP_ACCESS_KEY"],
         aws_secret_access_key=env["NCP_SECRET_KEY"],
         # 스레드로 병렬 업로드하므로 커넥션 풀을 넉넉히 잡는다
-        config=Config(signature_version="s3v4", max_pool_connections=48,
+        config=Config(request_checksum_calculation="when_required", response_checksum_validation="when_required", signature_version="s3v4", max_pool_connections=48,
                       connect_timeout=10, read_timeout=60,
                       retries={"max_attempts": 5, "mode": "standard"}),
     )

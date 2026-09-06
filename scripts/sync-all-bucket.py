@@ -31,6 +31,9 @@ TYPES = {".svg": "image/svg+xml", ".json": "application/json", ".jpg": "image/jp
          ".ai": "application/pdf", ".pdf": "application/pdf",
          ".zip": "application/zip", ".eps": "application/postscript"}
 
+# ⚠️ NCP Object Storage 는 boto3 기본 체크섬(aws-chunked 트레일러)을 AccessDenied 로 거절한다.
+#    "IP 제한" 으로 오진해 러너 업로드가 몇 주간 실패했다(2026-09-07 확정). 맥은 env
+#    AWS_REQUEST_CHECKSUM_CALCULATION=when_required 가 있어 우연히 통과했다.
 def client():
     import boto3
     from botocore.config import Config
@@ -43,6 +46,7 @@ def client():
         aws_access_key_id=os.environ["NCP_ACCESS_KEY"],
         aws_secret_access_key=os.environ["NCP_SECRET_KEY"],
         config=Config(signature_version="s3v4", max_pool_connections=40,
+                      request_checksum_calculation="when_required", response_checksum_validation="when_required",
                       retries={"max_attempts": 5, "mode": "standard"}))
 
 def main():

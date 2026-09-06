@@ -19,6 +19,8 @@ jobs:
         run: |
           python3 - <<'PY'
           import boto3, os, sys
+          from botocore.config import Config as _BotoCfg
+          _NCP_CFG = _BotoCfg(signature_version="s3")   # NCP 는 SigV4 PutObject 거절 (2026-09-07)
           k=os.environ["NCP_ACCESS_KEY"]
           import hashlib
           # ⚠️ 접두 6자로는 두 키를 구분할 수 없다 — 둘 다 ncp_iam_BPAMKR 로 시작한다.
@@ -30,7 +32,7 @@ jobs:
           s3=boto3.client("s3", region_name="kr-standard",
               endpoint_url=os.environ["NCP_ENDPOINT"],
               aws_access_key_id=k,
-              aws_secret_access_key=os.environ["NCP_SECRET_KEY"])
+              aws_secret_access_key=os.environ["NCP_SECRET_KEY"], config=_NCP_CFG)
           b=os.environ["NCP_BUCKET"]
           try:
               n=len(s3.list_objects_v2(Bucket=b, MaxKeys=3).get("Contents",[]))

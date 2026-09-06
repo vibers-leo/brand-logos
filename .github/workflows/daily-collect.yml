@@ -25,7 +25,10 @@ jobs:
         # numpy 는 logoform.py(심볼 크롭·밝기 판정)가 쓴다. 2026-08-08 에
         # logoform 을 도입하면서 여기 추가를 빠뜨려 build-logo-variants 부터
         # 뒤 4단계가 5일간(8/8~8/12) 통째로 안 돌았다.
-        run: pip install cairosvg Pillow requests lxml numpy boto3
+        # scipy·poppler·ghostscript 는 collect-ci-page.py(CI 페이지 AI/EPS/PDF → SVG) 가 쓴다 (2026-09-06)
+        run: |
+          pip install cairosvg Pillow requests lxml numpy scipy boto3
+          sudo apt-get install -y -qq poppler-utils ghostscript >/dev/null 2>&1 || echo "⚠️ poppler/gs 설치 실패 — CI 벡터 수집은 SVG·zip 만 처리"
 
       # PNG는 저장소에 없고 버킷이 원본이다. 수집·별칭 API를 오래 호출한 뒤에
       # 인증 오류를 발견하지 않도록 가장 먼저 복원한다.
@@ -159,6 +162,21 @@ jobs:
       # SVG 만 받아온 브랜드는 logo.png 가 없어 PNG 다운로드가 404 난다.
       # build-variants 가 logo.png 를 이미 있다고 전제하기 때문이다.
       # 비트맵이 박힌 가짜 벡터도 여기서 PNG 로 내린다. (2026-08-16 사고)
+      # 국내 사이트의 <img> 로고는 거의 PNG 다. 대학·공기업·교육청은 CI 소개 페이지에
+      # 일러스트 원본(AI/EPS/PDF)을 공개하므로 그 링크를 따라가 SVG 로 변환한다 — 진짜 벡터 비율은
+      # 여기서 오른다. 시트(매뉴얼 페이지)는 _clients/_svg-review/ 검토 큐(추적됨)로 가고 사람이
+      # crop-sheet.py 로 살린다. 실패 기억 _targets/.ci-tried.json (크래시에도 atexit 로 저장).
+      - name: CI 페이지 벡터 수집 (AI·EPS·PDF → SVG)
+        continue-on-error: true
+        run: |
+          for kind in 공공기관 대학 지자체 언론사 스포츠구단 병원; do
+            echo "::group::CI $kind"
+            python3 -u scripts/collect-ci-page.py --kind "$kind" --limit 8 || echo "⚠️ $kind 실패 (계속)"
+            echo "::endgroup::"
+          done
+          n=$(ls _clients/_svg-review/*.svg 2>/dev/null | wc -l | tr -d ' ')
+          echo "🔎 검토 큐(시트) 대기: ${n}건 — python3 scripts/crop-sheet.py 로 확인" | tee -a $GITHUB_STEP_SUMMARY
+
       - name: logo.png 보정 + 가짜 벡터 정리
         run: python3 scripts/ensure-logo-png.py --demote-fake
 
@@ -233,6 +251,7 @@ jobs:
           # brands.json 만 올라가고 로고 파일은 CDN 에 없는 상태가 된다.
           # (_staging 은 .gitignore 로 빠지므로 통째로 담아도 안전하다)
           git add _clients 2>/dev/null || true
+          git add _targets 2>/dev/null || true    # 실패 기억(.tried.json·.ci-tried.json)·타겟 풀 — 안 담으면 매 회차 같은 실패를 다시 밟는다 (2026-09-06)
           if git diff --cached --quiet; then
             echo "변형 산출물 변경 없음"
             exit 0

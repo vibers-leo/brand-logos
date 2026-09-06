@@ -37,7 +37,7 @@ _clients/_commons-wm-cursor.json
 _clients/*/_source.json
 
 # SVG 승격 검토 큐 — 눈검사 전 후보, 커밋하지 않는다
-_clients/_svg-review/
+# _clients/_svg-review/ — 2026-09-06 부터 추적: 크론 러너가 찾은 시트가 회차와 함께 사라지지 않게
 
 # 프로세스 간 락 — 절대 커밋하지 않는다
 _clients/*.lock

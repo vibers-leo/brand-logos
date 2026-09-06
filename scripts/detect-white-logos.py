@@ -60,11 +60,14 @@ def main():
     ap.add_argument("--limit", type=int)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--ids", help="쉼표 구분 — 승격·교체 직후 그 브랜드만 재판정 (예전 PNG 판정이 남는다)")
     a = ap.parse_args()
 
     raw = json.loads((C / "brands.json").read_text())
     br = raw["brands"] if isinstance(raw, dict) else raw
     ids = [b["id"] for b in br][: a.limit] if a.limit else [b["id"] for b in br]
+    if a.ids:
+        want = set(a.ids.split(",")); ids = [i for i in ids if i in want]
 
     res = {}
     with ProcessPoolExecutor(max_workers=a.workers) as ex:

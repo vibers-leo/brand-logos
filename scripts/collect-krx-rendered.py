@@ -148,6 +148,14 @@ def accept(data, is_svg):
         return False, "비트맵 감싼 SVG"
     if not is_svg and len(data) < 900:
         return False, "파비콘 크기"
+    # ⚠️ 햄버거 메뉴가 로고로 들어왔다(센코, 2026-09-06 — 흰 막대 3개, 검정 배경 판정까지 받았다).
+    #    <path>·<text> 없이 rect/line 몇 개로만 된 인라인 SVG 는 UI 아이콘이다.
+    if is_svg:
+        txt = data.decode("utf-8", "ignore") if isinstance(data, (bytes, bytearray)) else str(data)
+        if "<path" not in txt and "<text" not in txt and "<image" not in txt:
+            n_shape = len(re.findall(r"<(rect|line|polyline|polygon|circle|ellipse)\b", txt))
+            if n_shape <= 4:
+                return False, f"직선 도형 {n_shape}개뿐 — 메뉴/닫기 아이콘"
     r, size, bbox = L.ink_ratio(data, is_svg)
     if r < 0:
         return False, "렌더 실패·문장·사진"

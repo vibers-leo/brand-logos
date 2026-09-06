@@ -28,6 +28,7 @@ jobs:
         # scipy·poppler·ghostscript 는 collect-ci-page.py(CI 페이지 AI/EPS/PDF → SVG) 가 쓴다 (2026-09-06)
         run: |
           pip install cairosvg Pillow requests lxml numpy scipy boto3
+          touch /tmp/run_start   # 이 회차에 새로 생긴 PNG 를 가르는 기준 시각
           sudo apt-get install -y -qq poppler-utils ghostscript >/dev/null 2>&1 || echo "⚠️ poppler/gs 설치 실패 — CI 벡터 수집은 SVG·zip 만 처리"
 
       # PNG는 저장소에 없고 버킷이 원본이다. 수집·별칭 API를 오래 호출한 뒤에
@@ -250,6 +251,21 @@ jobs:
           # 새 브랜드를 추가하는 수집기가 붙으면 **폴더가 커밋에서 빠져**
           # brands.json 만 올라가고 로고 파일은 CDN 에 없는 상태가 된다.
           # (_staging 은 .gitignore 로 빠지므로 통째로 담아도 안전하다)
+          # ⚠️ 러너는 버킷에 PNG 를 못 올린다(NCP 키 IP 제한). 그래서 러너가 등록한 PNG 전용 브랜드는
+          #    레코드만 남고 파일은 어디에도 없었다 — '파일 없음' 268건의 정체(2026-09-06). 이번 회차에
+          #    새로 생긴 PNG 만 강제로 담는다. 맥 bucket-sync(6회/일)가 pull 해서 버킷에 올린다.
+          #    비정상적으로 많으면(build-variants 재생성 폭주) 담지 않는다 — 저장소가 터진다.
+          n_png=$(find _clients -mindepth 2 -maxdepth 3 -name "*.png" -newer /tmp/run_start | wc -l | tr -d ' ')
+          if [ "$n_png" -gt 0 ] && [ "$n_png" -le 3000 ]; then
+            find _clients -mindepth 2 -maxdepth 3 -name "*.png" -newer /tmp/run_start -print0 | xargs -0 -r git add -f
+            echo "📦 신규 PNG ${n_png}개를 커밋에 담음 (맥 bucket-sync 가 버킷으로)"
+          fi
+          # 출처(_source.json)도 새 것만 담는다 — 없으면 파일 없는 레코드를 복구할 길이 없다
+          find _clients -mindepth 2 -maxdepth 2 -name _source.json -newer /tmp/run_start -print0 | xargs -0 -r git add -f
+          if true; then
+          elif [ "$n_png" -gt 3000 ]; then
+            echo "::warning::신규 PNG ${n_png}개 — 너무 많아 커밋하지 않음 (재생성 폭주 의심)"
+          fi
           git add _clients 2>/dev/null || true
           git add _targets 2>/dev/null || true    # 실패 기억(.tried.json·.ci-tried.json)·타겟 풀 — 안 담으면 매 회차 같은 실패를 다시 밟는다 (2026-09-06)
           if git diff --cached --quiet; then

@@ -101,7 +101,7 @@ def pick(spec, kind, label):
             raw = json.loads((C / "brands.json").read_text()); br = raw["brands"] if isinstance(raw, dict) else raw
             for b in br:
                 if b["id"] == bid: b["has_svg"] = True; b["logo_svg"] = "logo.svg"; b["svg_from"] = "ci-page-crop"
-            (C / "brands.json").write_text(json.dumps(raw, ensure_ascii=False, indent=1) + "\n")
+            (C / "brands.json").write_text(json.dumps(raw, ensure_ascii=False, separators=(",", ":")))   # 저장소 관례: 한 줄 (indent 를 주면 diff 가 120만 줄이 된다)
         print(f"✅ {bid}: 후보 {n+1} → logo.svg  (이제 `python3 build-variants.py --force --brand {bid}`)")
     else:
         v = d / "variants"; v.mkdir(exist_ok=True)

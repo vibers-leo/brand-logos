@@ -74,6 +74,8 @@ def main(kinds):
                 if wd in seen: continue
                 seen.add(wd)
                 site = r.get("site", {}).get("value", "")
+                if re.search(r"(고등학교|중학교|초등학교|유치원|고교)$", r["l"]["value"]):
+                    continue   # 위키데이터 '대학' 클래스에 고등학교가 섞여 들어온다(2026-09-06, 20건 등록 사고)
                 rows.append({"name": r["l"]["value"], "site": site, "wikidata": wd,
                              "sub": label, "cat": CAT[kind]})
                 n += 1

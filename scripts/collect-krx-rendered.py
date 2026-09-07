@@ -425,6 +425,10 @@ async def main():
                 **({"krx_code": x.get("code"), "krx_market": x.get("market"),
                     "krx_sector": x.get("sector")} if x.get("code") else {}),
                 **({"wikidata": x["wikidata"]} if x.get("wikidata") else {}),
+                # 출처를 레코드에도 싣는다 — _source.json 은 폴더에만 있어(버킷·CDN 미배포) 조회마다 4.5만 폴더를
+                # 읽어야 했다(2026-09-07). 레코드에 있으면 brands.json 하나로 어디서 왔는지 바로 안다.
+                "source_site": x.get("site", ""),
+                "source_url": top["src"][:400] if top["kind"] != "inline-svg" else "(inline-svg)",
                 "added_at": _t.strftime("%Y-%m-%d"),
             })
         await br.close()

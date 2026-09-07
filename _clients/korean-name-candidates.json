@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
  "generated_at": "2026-09-07",
- "count": 1293,
+ "count": 1296,
  "candidates": [
   {
    "id": "mnet",
@@ -11707,6 +11707,36 @@
    "qid": "Q200312",
    "our_domain": "com.ve",
    "wikidata_sites": []
+  },
+  {
+   "id": "channel-one",
+   "name_en": "Channel One",
+   "ko": "페르비 카날",
+   "qid": "Q330067",
+   "our_domain": "channel-one.al",
+   "wikidata_sites": [
+    "1tv.ru",
+    "1tv.com",
+    "ortv.ru"
+   ]
+  },
+  {
+   "id": "banyan-tree",
+   "name_en": "Banyan Tree",
+   "ko": "반얀나무",
+   "qid": "Q5678886",
+   "our_domain": "banyantree.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "santa-lucia",
+   "name_en": "Santa Lucia",
+   "ko": "산타루시아",
+   "qid": "Q12882",
+   "our_domain": "santalucia.ch",
+   "wikidata_sites": [
+    "gov.ph"
+   ]
   }
  ]
 }

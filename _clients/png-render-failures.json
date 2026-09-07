@@ -1,23 +1,11 @@
 {
- "generated_at": "2026-09-07 11:24",
- "count": 39,
+ "generated_at": "2026-09-07 17:12",
+ "count": 33,
  "brands": [
   {
    "id": "kiva",
    "reason": "렌더 실패 (exit 1)",
    "svg_sha256": "7632dfa6c0349646ebebced02b25c640bab30e0a7429378dee5a12a387a8777c",
-   "recorded_at": "2026-09-07"
-  },
-  {
-   "id": "lindex",
-   "reason": "렌더 시간 초과 (25초)",
-   "svg_sha256": "d7b9c7b9b579c54f323ab0f28f4ca34001348fba2f400f7c615ecc0edd5584b6",
-   "recorded_at": "2026-09-07"
-  },
-  {
-   "id": "pimkie",
-   "reason": "렌더 시간 초과 (25초)",
-   "svg_sha256": "b492baf5068ce41d6e9408d434df86f9cd5d6d6c6d991eb3ebd3f661358a0eca",
    "recorded_at": "2026-09-07"
   },
   {
@@ -40,7 +28,7 @@
   },
   {
    "id": "liberty",
-   "reason": "렌더 시간 초과 (25초)",
+   "reason": "빈 렌더 (잉크 0.0%)",
    "svg_sha256": "505893fb351095bac809f0f33925d362a73332d87f69e0ceaf429e7b5ae4ccc1",
    "recorded_at": "2026-09-07"
   },
@@ -64,7 +52,7 @@
   },
   {
    "id": "freundin",
-   "reason": "렌더 시간 초과 (25초)",
+   "reason": "빈 렌더 (잉크 0.0%)",
    "svg_sha256": "f82047624367887253a8246badc9aca703c15cbe3dd9ff0e16847bcb1dd8e721",
    "recorded_at": "2026-09-07"
   },
@@ -84,18 +72,6 @@
    "id": "mother-jones",
    "reason": "빈 렌더 (잉크 0.0%)",
    "svg_sha256": "c52127b2f50c8aaf57633df1670de805c29eddea6c46ec16c95049c9c90186fc",
-   "recorded_at": "2026-09-07"
-  },
-  {
-   "id": "infranken-de",
-   "reason": "렌더 시간 초과 (25초)",
-   "svg_sha256": "8b4b7e15b4e68df764c17a2c0141595ff4ece6828aab54b476958f3a1256cab1",
-   "recorded_at": "2026-09-07"
-  },
-  {
-   "id": "the-gym-group",
-   "reason": "렌더 시간 초과 (25초)",
-   "svg_sha256": "3594f37a1b624c66bd5d0bcfe4c59bc0a0083280e7fe51ed64e858cee165d15a",
    "recorded_at": "2026-09-07"
   },
   {
@@ -124,19 +100,19 @@
   },
   {
    "id": "come-back-alive",
-   "reason": "렌더 시간 초과 (25초)",
+   "reason": "빈 렌더 (잉크 0.0%)",
    "svg_sha256": "b08e3308b0c1298e8dd71491ceef53a13e2e84680f973313ab56f8448d0e456e",
    "recorded_at": "2026-09-07"
   },
   {
    "id": "quanta-magazine",
-   "reason": "렌더 시간 초과 (25초)",
+   "reason": "빈 렌더 (잉크 0.0%)",
    "svg_sha256": "fc8930719b106fe5dc589f1d900bbfa1118f51edcd781a27fc8708139c52768f",
    "recorded_at": "2026-09-07"
   },
   {
    "id": "akad-university",
-   "reason": "렌더 시간 초과 (25초)",
+   "reason": "빈 렌더 (잉크 0.0%)",
    "svg_sha256": "9213f18e2870dd5106a7dc490bb537540aab388587aee9b4c9249a38f0fb9b41",
    "recorded_at": "2026-09-07"
   },
@@ -195,12 +171,6 @@
    "recorded_at": "2026-09-07"
   },
   {
-   "id": "freie-universita-t-berlin",
-   "reason": "렌더 시간 초과 (25초)",
-   "svg_sha256": "066076bab22e997639b0c919f07c7ce0691bfc6b910d441bbf4fa347675b2534",
-   "recorded_at": "2026-09-07"
-  },
-  {
    "id": "wiki-loves-monuments-2021",
    "reason": "렌더 실패 (exit 1)",
    "svg_sha256": "f97a31a6f4a75e884f91c24f697ec662d1eea65a56a14495d6cf351d270d3436",
@@ -226,14 +196,8 @@
   },
   {
    "id": "redaktionsnetzwerk-deutschland",
-   "reason": "렌더 시간 초과 (25초)",
+   "reason": "빈 렌더 (잉크 0.0%)",
    "svg_sha256": "ed0a7075b1c8e43f79d905c6e051d7e283ea2662e5f1316a11e11f60f68b76df",
-   "recorded_at": "2026-09-07"
-  },
-  {
-   "id": "bgz-gesellschaft-fu-r-zwischenlagerung",
-   "reason": "렌더 시간 초과 (25초)",
-   "svg_sha256": "5af0bc24ba190de84f7b3ea91d2f6b25107c1c454a0329cb013785b2ca9f29c2",
    "recorded_at": "2026-09-07"
   }
  ],

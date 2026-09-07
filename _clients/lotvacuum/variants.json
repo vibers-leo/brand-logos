@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lotvacuum",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "93b3c36a7bb60333"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.135,
+   "provider": "krx-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

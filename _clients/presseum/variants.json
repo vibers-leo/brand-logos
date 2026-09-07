@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "presseum",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "daeffb33ec32dd86"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 16.036,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

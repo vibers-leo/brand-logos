@@ -1,19 +1,5 @@
 [
  {
-  "name": "영남대학교",
-  "site": "http://www.yu.ac.kr/",
-  "wikidata": "Q56148",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "한국외국어대학교",
-  "site": "https://hufsenglish.hufs.ac.kr/",
-  "wikidata": "Q208736",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
   "name": "대구가톨릭대학교",
   "site": "https://global.cu.ac.kr",
   "wikidata": "Q625961",
@@ -21,16 +7,16 @@
   "cat": "교육"
  },
  {
-  "name": "대한민국 해군사관학교",
-  "site": "http://www.navy.ac.kr/english/intro/intro_aim.jsp",
-  "wikidata": "Q483317",
+  "name": "초당대학교",
+  "site": "http://www.chodang.ac.kr/",
+  "wikidata": "Q1075658",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "대한민국 공군사관학교",
-  "site": "http://www.afa.ac.kr/",
-  "wikidata": "Q482676",
+  "name": "대한민국 해군사관학교",
+  "site": "http://www.navy.ac.kr/english/intro/intro_aim.jsp",
+  "wikidata": "Q483317",
   "sub": "대학",
   "cat": "교육"
  },
@@ -49,9 +35,23 @@
   "cat": "교육"
  },
  {
+  "name": "대한민국 공군사관학교",
+  "site": "http://www.afa.ac.kr/",
+  "wikidata": "Q482676",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
   "name": "대한민국 육군보병학교",
   "site": "http://www.inftsch.mil.kr/",
   "wikidata": "Q7314492",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "서울한영대학교",
+  "site": "http://www.hytu.ac.kr/eng/",
+  "wikidata": "Q12624192",
   "sub": "대학",
   "cat": "교육"
  },
@@ -70,30 +70,23 @@
   "cat": "교육"
  },
  {
-  "name": "경남과학기술대학교",
-  "site": "http://www.gntech.ac.kr/",
-  "wikidata": "Q482674",
+  "name": "한국전통문화대학교",
+  "site": "https://nuch.ac.kr",
+  "wikidata": "Q623817",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "국립순천대학교",
-  "site": "http://www.sunchon.ac.kr/",
-  "wikidata": "Q482952",
+  "name": "광주교육대학교",
+  "site": "http://eng.gnue.ac.kr/",
+  "wikidata": "Q484775",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "초당대학교",
-  "site": "http://www.chodang.ac.kr/",
-  "wikidata": "Q1075658",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "대한민국 공군대학",
-  "site": "https://wayback.archive.org/*/http://www.au.ac.kr/",
-  "wikidata": "Q4698243",
+  "name": "한국폴리텍VI대학",
+  "site": "http://www.dgpc.ac.kr/",
+  "wikidata": "Q625496",
   "sub": "대학",
   "cat": "교육"
  },
@@ -105,6 +98,13 @@
   "cat": "교육"
  },
  {
+  "name": "경남과학기술대학교",
+  "site": "http://www.gntech.ac.kr/",
+  "wikidata": "Q482674",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
   "name": "전주교육대학교",
   "site": "http://www.jnue.ac.kr/tindex.do",
   "wikidata": "Q482699",
@@ -112,9 +112,23 @@
   "cat": "교육"
  },
  {
-  "name": "광주교육대학교",
-  "site": "http://eng.gnue.ac.kr/",
-  "wikidata": "Q484775",
+  "name": "영남대학교",
+  "site": "http://www.yu.ac.kr/",
+  "wikidata": "Q56148",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "한국외국어대학교",
+  "site": "https://hufsenglish.hufs.ac.kr/",
+  "wikidata": "Q208736",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "국립순천대학교",
+  "site": "http://www.sunchon.ac.kr/",
+  "wikidata": "Q482952",
   "sub": "대학",
   "cat": "교육"
  },
@@ -140,6 +154,20 @@
   "cat": "교육"
  },
  {
+  "name": "동신대학교",
+  "site": "http://www.dsu.ac.kr/cms/",
+  "wikidata": "Q5296030",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "대한민국 공군대학",
+  "site": "https://wayback.archive.org/*/http://www.au.ac.kr/",
+  "wikidata": "Q4698243",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
   "name": "국군간호사관학교",
   "site": "http://www.afna.ac.kr/",
   "wikidata": "Q625159",
@@ -147,37 +175,9 @@
   "cat": "교육"
  },
  {
-  "name": "한국폴리텍VI대학",
-  "site": "http://www.dgpc.ac.kr/",
-  "wikidata": "Q625496",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "한국전통문화대학교",
-  "site": "https://nuch.ac.kr",
-  "wikidata": "Q623817",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "부산장신대학교",
-  "site": "http://www.bjc.ac.kr/",
-  "wikidata": "Q5001270",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
   "name": "철강대학원",
   "site": "http://gift.postech.ac.kr/",
   "wikidata": "Q4373721",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "서울한영대학교",
-  "site": "http://www.hytu.ac.kr/eng/",
-  "wikidata": "Q12624192",
   "sub": "대학",
   "cat": "교육"
  },
@@ -192,6 +192,13 @@
   "name": "한려대학교",
   "site": "http://www.hanlyo.ac.kr/hanlyo/",
   "wikidata": "Q5648624",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "부산장신대학교",
+  "site": "http://www.bjc.ac.kr/",
+  "wikidata": "Q5001270",
   "sub": "대학",
   "cat": "교육"
  },
@@ -238,13 +245,6 @@
   "cat": "교육"
  },
  {
-  "name": "동신대학교",
-  "site": "http://www.dsu.ac.kr/cms/",
-  "wikidata": "Q5296030",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
   "name": "동원대학교",
   "site": "http://www.tw.ac.kr",
   "wikidata": "Q7821207",
@@ -252,9 +252,9 @@
   "cat": "교육"
  },
  {
-  "name": "국립한국해양대학교",
-  "site": "http://www.kmou.ac.kr",
-  "wikidata": "Q490746",
+  "name": "상주대학교",
+  "site": "http://www.sangju.ac.kr/",
+  "wikidata": "Q11249576",
   "sub": "대학",
   "cat": "교육"
  },
@@ -290,13 +290,6 @@
   "name": "한국정보통신기능대학",
   "site": "http://www.ict.ac.kr/eng",
   "wikidata": "Q16098734",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "상주대학교",
-  "site": "http://www.sangju.ac.kr/",
-  "wikidata": "Q11249576",
   "sub": "대학",
   "cat": "교육"
  },
@@ -343,9 +336,16 @@
   "cat": "교육"
  },
  {
-  "name": "건국대학교",
-  "site": "https://konkuk.ac.kr",
-  "wikidata": "Q41765",
+  "name": "전주대학교",
+  "site": "http://www.jj.ac.kr/",
+  "wikidata": "Q482759",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "경남도립거창대학",
+  "site": "http://www.gc.ac.kr/",
+  "wikidata": "Q5624074",
   "sub": "대학",
   "cat": "교육"
  },
@@ -364,23 +364,16 @@
   "cat": "교육"
  },
  {
-  "name": "전주대학교",
-  "site": "http://www.jj.ac.kr/",
-  "wikidata": "Q482759",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "부산외국어대학교",
-  "site": "http://bufs.ac.kr/",
-  "wikidata": "Q487170",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
   "name": "포항공과대학교",
   "site": "http://www.postech.edu/",
   "wikidata": "Q40018",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "건국대학교",
+  "site": "https://konkuk.ac.kr",
+  "wikidata": "Q41765",
   "sub": "대학",
   "cat": "교육"
  },
@@ -406,16 +399,107 @@
   "cat": "교육"
  },
  {
-  "name": "문경대학교",
-  "site": "http://www.mkc.ac.kr",
-  "wikidata": "Q6936765",
+  "name": "부산외국어대학교",
+  "site": "http://bufs.ac.kr/",
+  "wikidata": "Q487170",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "명신대학교",
-  "site": "http://www.myungshin.ac.kr",
-  "wikidata": "Q6949319",
+  "name": "계약신학대학원대학교",
+  "site": "http://kyeyak.ac.kr",
+  "wikidata": "Q18566223",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "동방문화대학원대학교",
+  "site": "https://dongbang.ac.kr",
+  "wikidata": "Q18605084",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "서울상담심리대학원대학교",
+  "site": "https://www.yongmoon.ac.kr/",
+  "wikidata": "Q18605567",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "한반도국제대학원대학교",
+  "site": "http://www.kuis.ac.kr/",
+  "wikidata": "Q18648588",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "한림국제대학원대학교",
+  "site": "http://www.hugs.ac.kr:18080/site/foreign/main_en.do",
+  "wikidata": "Q52853188",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "서경대학교",
+  "site": "https://www.seokyeong.ac.kr/",
+  "wikidata": "Q624027",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "안양대학교",
+  "site": "http://www.anyang.ac.kr/eng/",
+  "wikidata": "Q624189",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "전남과학대학교",
+  "site": "http://www.chunnam-c.ac.kr/",
+  "wikidata": "Q625965",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "동부산대학교",
+  "site": "http://english.dpc.ac.kr/",
+  "wikidata": "Q625970",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "대한신학대학원대학교",
+  "site": "http://www.dtu.ac.kr",
+  "wikidata": "Q5208209",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "글로벌사이버대학교",
+  "site": "http://www.global.ac.kr/home/",
+  "wikidata": "Q17401220",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "대구외국어대학교",
+  "site": "http://www.dufs.ac.kr",
+  "wikidata": "Q5208202",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "두원공과대학교",
+  "site": "http://www.doowon.ac.kr/html/_en/main/main.html",
+  "wikidata": "Q5297278",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "강릉영동대학교",
+  "site": "http://www.gyc.ac.kr/",
+  "wikidata": "Q5521165",
   "sub": "대학",
   "cat": "교육"
  },
@@ -462,128 +546,37 @@
   "cat": "교육"
  },
  {
-  "name": "두원공과대학교",
-  "site": "http://www.doowon.ac.kr/html/_en/main/main.html",
-  "wikidata": "Q5297278",
+  "name": "건국대학교 글로컬캠퍼스",
+  "site": "https://www.kku.ac.kr/mbshome/mbs/wwwkr/index.do",
+  "wikidata": "Q27951732",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "강릉영동대학교",
-  "site": "http://www.gyc.ac.kr/",
-  "wikidata": "Q5521165",
+  "name": "한국성서대학교",
+  "site": "http://www.bible.ac.kr/eng/about/about.aspx",
+  "wikidata": "Q30294686",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "한일장신대학교",
-  "site": "http://www.hanil.ac.kr/eng/",
-  "wikidata": "Q5648215",
+  "name": "광양보건대학교",
+  "site": "http://www.gy.ac.kr",
+  "wikidata": "Q16094283",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "한중대학교",
-  "site": "http://www.hanzhong.ac.kr",
-  "wikidata": "Q5651476",
+  "name": "세경대학교",
+  "site": "http://www.saekyung.ac.kr",
+  "wikidata": "Q16096050",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "한국승강기대학교",
-  "site": "http://www.kcpc.ac.kr/",
-  "wikidata": "Q6431663",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "경운대학교",
-  "site": "http://www.ikw.ac.kr/eng/main/main.html",
-  "wikidata": "Q6583844",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "서경대학교",
-  "site": "https://www.seokyeong.ac.kr/",
-  "wikidata": "Q624027",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "안양대학교",
-  "site": "http://www.anyang.ac.kr/eng/",
-  "wikidata": "Q624189",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "전남과학대학교",
-  "site": "http://www.chunnam-c.ac.kr/",
-  "wikidata": "Q625965",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "동부산대학교",
-  "site": "http://english.dpc.ac.kr/",
-  "wikidata": "Q625970",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "경남도립거창대학",
-  "site": "http://www.gc.ac.kr/",
-  "wikidata": "Q5624074",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "대한신학대학원대학교",
-  "site": "http://www.dtu.ac.kr",
-  "wikidata": "Q5208209",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "계약신학대학원대학교",
-  "site": "http://kyeyak.ac.kr",
-  "wikidata": "Q18566223",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "동방문화대학원대학교",
-  "site": "https://dongbang.ac.kr",
-  "wikidata": "Q18605084",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "서울상담심리대학원대학교",
-  "site": "https://www.yongmoon.ac.kr/",
-  "wikidata": "Q18605567",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "한반도국제대학원대학교",
-  "site": "http://www.kuis.ac.kr/",
-  "wikidata": "Q18648588",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "한림국제대학원대학교",
-  "site": "http://www.hugs.ac.kr:18080/site/foreign/main_en.do",
-  "wikidata": "Q52853188",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "대구외국어대학교",
-  "site": "http://www.dufs.ac.kr",
-  "wikidata": "Q5208202",
+  "name": "중원대학교",
+  "site": "http://www.jwu.ac.kr/",
+  "wikidata": "Q12617713",
   "sub": "대학",
   "cat": "교육"
  },
@@ -616,20 +609,6 @@
   "cat": "교육"
  },
  {
-  "name": "광양보건대학교",
-  "site": "http://www.gy.ac.kr",
-  "wikidata": "Q16094283",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
-  "name": "세경대학교",
-  "site": "http://www.saekyung.ac.kr",
-  "wikidata": "Q16096050",
-  "sub": "대학",
-  "cat": "교육"
- },
- {
   "name": "서해대학",
   "site": "http://sohae.ac.kr/",
   "wikidata": "Q12601519",
@@ -644,30 +623,44 @@
   "cat": "교육"
  },
  {
-  "name": "중원대학교",
-  "site": "http://www.jwu.ac.kr/",
-  "wikidata": "Q12617713",
+  "name": "한일장신대학교",
+  "site": "http://www.hanil.ac.kr/eng/",
+  "wikidata": "Q5648215",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "글로벌사이버대학교",
-  "site": "http://www.global.ac.kr/home/",
-  "wikidata": "Q17401220",
+  "name": "한중대학교",
+  "site": "http://www.hanzhong.ac.kr",
+  "wikidata": "Q5651476",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "건국대학교 글로컬캠퍼스",
-  "site": "https://www.kku.ac.kr/mbshome/mbs/wwwkr/index.do",
-  "wikidata": "Q27951732",
+  "name": "한국승강기대학교",
+  "site": "http://www.kcpc.ac.kr/",
+  "wikidata": "Q6431663",
   "sub": "대학",
   "cat": "교육"
  },
  {
-  "name": "한국성서대학교",
-  "site": "http://www.bible.ac.kr/eng/about/about.aspx",
-  "wikidata": "Q30294686",
+  "name": "경운대학교",
+  "site": "http://www.ikw.ac.kr/eng/main/main.html",
+  "wikidata": "Q6583844",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "문경대학교",
+  "site": "http://www.mkc.ac.kr",
+  "wikidata": "Q6936765",
+  "sub": "대학",
+  "cat": "교육"
+ },
+ {
+  "name": "명신대학교",
+  "site": "http://www.myungshin.ac.kr",
+  "wikidata": "Q6949319",
   "sub": "대학",
   "cat": "교육"
  },
@@ -675,27 +668,6 @@
   "name": "부산과학기술대학교",
   "site": "http://bithome.bit.ac.kr/",
   "wikidata": "Q624332",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "고려대학교 사범대학",
-  "site": "http://educa.korea.ac.kr/",
-  "wikidata": "Q6431731",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "고려대학교 공과대학",
-  "site": "http://eng1.korea.ac.kr/",
-  "wikidata": "Q6431732",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "고려대학교 정경대학",
-  "site": "http://hoan.korea.ac.kr/",
-  "wikidata": "Q6431735",
   "sub": "전문대학",
   "cat": "교육"
  },
@@ -717,6 +689,27 @@
   "name": "동주대학교",
   "site": "http://www.dongju.ac.kr/",
   "wikidata": "Q5295950",
+  "sub": "전문대학",
+  "cat": "교육"
+ },
+ {
+  "name": "고려대학교 사범대학",
+  "site": "http://educa.korea.ac.kr/",
+  "wikidata": "Q6431731",
+  "sub": "전문대학",
+  "cat": "교육"
+ },
+ {
+  "name": "고려대학교 공과대학",
+  "site": "http://eng1.korea.ac.kr/",
+  "wikidata": "Q6431732",
+  "sub": "전문대학",
+  "cat": "교육"
+ },
+ {
+  "name": "고려대학교 정경대학",
+  "site": "http://hoan.korea.ac.kr/",
+  "wikidata": "Q6431735",
   "sub": "전문대학",
   "cat": "교육"
  },
@@ -756,366 +749,9 @@
   "cat": "교육"
  },
  {
-  "name": "세화여자고등학교",
-  "site": "http://www.sehwa-gs.hs.kr/",
-  "wikidata": "Q16096058",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "송현여자고등학교",
-  "site": "https://songhyun.dge.hs.kr/",
-  "wikidata": "Q16096121",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "신광여자고등학교",
-  "site": "http://www.shinkwang.hs.kr",
-  "wikidata": "Q16096232",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "안강여자고등학교",
-  "site": "http://www.angang-gh.hs.kr",
-  "wikidata": "Q16096387",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "양산여자고등학교",
-  "site": "http://www.yangsan-g.hs.kr",
-  "wikidata": "Q16096448",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "예문여자고등학교",
-  "site": "http://www.yeamoon.hs.kr",
-  "wikidata": "Q16096643",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "예일디자인고등학교",
-  "site": "http://www.yale-dh.hs.kr",
-  "wikidata": "Q16096651",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "옥련여자고등학교",
-  "site": "http://www.okryun-h.icehs.kr/",
-  "wikidata": "Q16096700",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "이리남성여자고등학교",
-  "site": "http://www.namsungg.hs.kr",
-  "wikidata": "Q16097061",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "전남여자상업고등학교",
-  "site": "http://www.cgch.org",
-  "wikidata": "Q16097823",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "전주기전여자고등학교",
-  "site": "http://kijun.hs.kr",
-  "wikidata": "Q16097851",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "진해여자고등학교",
-  "site": "http://www.jinhaegirls.hs.kr",
-  "wikidata": "Q16098185",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "창원명지여자고등학교",
-  "site": "http://cwmjyeo-h.gne.go.kr/",
-  "wikidata": "Q16098236",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "호수돈여자고등학교",
-  "site": "http://www.holston.hs.kr/",
-  "wikidata": "Q16098991",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "은광여자고등학교",
-  "site": "http://www.eunkwang.hs.kr",
-  "wikidata": "Q5409800",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대구혜화여자고등학교",
-  "site": "https://hyehwa.dge.hs.kr/",
-  "wikidata": "Q5955719",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "서울여자고등학교",
-  "site": "http://www.seoulgs.hs.kr",
-  "wikidata": "Q7451661",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "숙명여자고등학교",
-  "site": "http://www.sookmyung.hs.kr/",
-  "wikidata": "Q7562661",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "강릉여자고등학교",
-  "site": "http://www.gn-girl.hs.kr/",
-  "wikidata": "Q12582829",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "경남여자고등학교",
-  "site": "http://www.gyeongnamgirls.hs.kr",
-  "wikidata": "Q12583578",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "경주여자고등학교",
-  "site": "http://gyeongju-gh.school.gyo6.net",
-  "wikidata": "Q12583898",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
   "name": "계성고등학교 (서울)",
   "site": "http://gyeseong.hs.kr",
   "wikidata": "Q12584000",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "과천여자고등학교",
-  "site": "http://www.gcwoman.hs.kr",
-  "wikidata": "Q12584813",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "광주동신여자고등학교",
-  "site": "http://www.kdsg.hs.kr",
-  "wikidata": "Q12585128",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "광주수피아여자고등학교",
-  "site": "http://www.speer.hs.kr",
-  "wikidata": "Q12585146",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "광주여자고등학교",
-  "site": "http://www.kwangju-g.hs.kr",
-  "wikidata": "Q12585153",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "금호중앙여자고등학교",
-  "site": "http://www.k-ja.hs.kr",
-  "wikidata": "Q12585177",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "구미여자고등학교",
-  "site": "http://gumigirlhs.school.gyo6.net",
-  "wikidata": "Q12585432",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "금옥여자고등학교",
-  "site": "http://www.geumok.hs.kr",
-  "wikidata": "Q12586530",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "김해여자고등학교",
-  "site": "http://www.kumbul.hs.kr",
-  "wikidata": "Q12589191",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대일관광고등학교",
-  "site": "http://www.daeil-tour.hs.kr",
-  "wikidata": "Q12591688",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대전둔산여자고등학교",
-  "site": "http://www.daejeondunsan-gh.hs.kr",
-  "wikidata": "Q12591749",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대전여자상업고등학교",
-  "site": "http://www.aram.or.kr",
-  "wikidata": "Q12591779",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대정여자고등학교",
-  "site": "http://www.djgirls.hs.kr",
-  "wikidata": "Q12591821",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대진여자고등학교",
-  "site": "http://www.daejinw.hs.kr",
-  "wikidata": "Q12591848",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "덕원여자고등학교",
-  "site": "http://www.deokwon.hs.kr",
-  "wikidata": "Q12592833",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "동구마케팅고등학교",
-  "site": "http://www.donggoo.hs.kr",
-  "wikidata": "Q12593235",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "동래여자고등학교",
-  "site": "http://dongnae-gh.hs.kr/",
-  "wikidata": "Q12593305",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "동일여자상업고등학교",
-  "site": "http://www.dongil-cd.hs.kr",
-  "wikidata": "Q12593538",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "동주여자고등학교",
-  "site": "http://www.dongju.hs.kr",
-  "wikidata": "Q12593553",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "매향여자정보고등학교",
-  "site": "http://www.maehyang.hs.kr",
-  "wikidata": "Q12594964",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "명덕여자고등학교",
-  "site": "http://www.mdgh.hs.kr",
-  "wikidata": "Q12595163",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "명일여자고등학교",
-  "site": "http://www.myungil.hs.kr",
-  "wikidata": "Q12595214",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "명진고등학교",
-  "site": "http://www.gmj.hs.kr",
-  "wikidata": "Q12595230",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "목포여자고등학교",
-  "site": "http://mokpo-g.hs.jne.kr/",
-  "wikidata": "Q12595411",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "무학여자고등학교",
-  "site": "http://www.muhak.hs.kr",
-  "wikidata": "Q12595645",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "문산수억고등학교",
-  "site": "http://www.munsan-gco.hs.kr",
-  "wikidata": "Q12595721",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "문일여자고등학교",
-  "site": "http://www.moonil-g.icehs.kr",
-  "wikidata": "Q12595779",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "문정여자고등학교",
-  "site": "http://www.munjeong.hs.kr",
-  "wikidata": "Q12595796",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "미림여자고등학교",
-  "site": "http://www.mirim.hs.kr",
-  "wikidata": "Q12596031",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "배화여자고등학교",
-  "site": "http://www.paiwha.hs.kr/",
-  "wikidata": "Q12597702",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "보성여자고등학교",
-  "site": "http://www.bosung.hs.kr",
-  "wikidata": "Q12598388",
   "sub": "전문대학",
   "cat": "교육"
  },
@@ -1134,503 +770,6 @@
   "cat": "교육"
  },
  {
-  "name": "서귀포여자고등학교",
-  "site": "http://www.sgpo.hs.kr",
-  "wikidata": "Q12600827",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "서대전여자고등학교",
-  "site": "http://www.seodaejon.hs.kr",
-  "wikidata": "Q12600864",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "서울여자상업고등학교",
-  "site": "http://www.sys.hs.kr/",
-  "wikidata": "Q12601294",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "서진여자고등학교",
-  "site": "http://www.gsj.hs.kr",
-  "wikidata": "Q12601481",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "성의여자고등학교",
-  "site": "http://www.seongui.net",
-  "wikidata": "Q12602073",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "세그루패션디자인고등학교",
-  "site": "https://sfd.sen.hs.kr/",
-  "wikidata": "Q12602213",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "순천여자고등학교",
-  "site": "http://suncheon-g.hs.jne.kr",
-  "wikidata": "Q12603472",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "숭덕여자고등학교",
-  "site": "http://www.soongduk.icehs.kr",
-  "wikidata": "Q12603517",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "신성여자고등학교",
-  "site": "http://www.shinseong.hs.kr/",
-  "wikidata": "Q12604363",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "서울신정고등학교",
-  "site": "http://www.shinjung.hs.kr",
-  "wikidata": "Q12604568",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "안동여자고등학교",
-  "site": "http://andong-gh.school.gyo6.net",
-  "wikidata": "Q12605623",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "영등포여자고등학교",
-  "site": "http://www.ydpg.hs.kr",
-  "wikidata": "Q12607344",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "영파여자고등학교",
-  "site": "http://www.youngpa.hs.kr/",
-  "wikidata": "Q12607552",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "영화여자정보고등학교",
-  "site": "http://www.younghwa.icehs.kr",
-  "wikidata": "Q12607576",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "예림디자인고등학교",
-  "site": "http://yerim.hs.kr",
-  "wikidata": "Q12607608",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "예일여자고등학교",
-  "site": "http://www.yale.hs.kr",
-  "wikidata": "Q12607659",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "울산여자고등학교",
-  "site": "http://www.ulsan-gh.hs.kr",
-  "wikidata": "Q12609145",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "원화여자고등학교",
-  "site": "https://wonhwa.dge.hs.kr/",
-  "wikidata": "Q12609416",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "의정부여자고등학교",
-  "site": "http://www.ugh.hs.kr",
-  "wikidata": "Q12610795",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "이화여자고등학교",
-  "site": "http://www.ewha.hs.kr",
-  "wikidata": "Q12613237",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "인명여자고등학교",
-  "site": "http://www.inmyong.icehs.kr",
-  "wikidata": "Q12613359",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "인천비즈니스고등학교",
-  "site": "http://www.ibg.icehs.kr",
-  "wikidata": "Q12613509",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "일신여자상업고등학교",
-  "site": "http://www.ilshin.hs.kr",
-  "wikidata": "Q12613720",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "잠실여자고등학교",
-  "site": "http://www.jamsilg.hs.kr",
-  "wikidata": "Q12614294",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "전남여자고등학교",
-  "site": "http://chonnam-g.hs.kr/main",
-  "wikidata": "Q12615061",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "전주여자고등학교",
-  "site": "http://jjg.hs.kr",
-  "wikidata": "Q12615323",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "정신여자고등학교",
-  "site": "http://www.chungshin.hs.kr/",
-  "wikidata": "Q12615798",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "정의여자고등학교",
-  "site": "http://www.jeongeui.hs.kr",
-  "wikidata": "Q12615924",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "정화여자고등학교",
-  "site": "https://junghwa.dge.hs.kr/",
-  "wikidata": "Q12616179",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "조선대학교여자고등학교",
-  "site": "http://www.chosun-g.hs.kr/",
-  "wikidata": "Q12616751",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "세종여자고등학교",
-  "site": "http://sjghs.sjeduhs.kr",
-  "wikidata": "Q12617119",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "중앙여자고등학교",
-  "site": "http://www.jungang-girls.hs.kr",
-  "wikidata": "Q12617699",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "진해세화여자고등학교",
-  "site": "http://jhsehwayeo-h.gne.go.kr",
-  "wikidata": "Q12618398",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "창덕여자고등학교",
-  "site": "http://www.changduk.hs.kr",
-  "wikidata": "Q12618622",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "청란여자고등학교",
-  "site": "http://chranhs.djsch.kr",
-  "wikidata": "Q12619115",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "춘천여자고등학교",
-  "site": "http://ccg.hs.kr",
-  "wikidata": "Q12620060",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "충남여자고등학교",
-  "site": "http://cnghs.djsch.kr",
-  "wikidata": "Q12620113",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "충북여자고등학교",
-  "site": "https://school.cbe.go.kr/chungbuk-h",
-  "wikidata": "Q12620146",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "김천여자고등학교",
-  "site": "http://kcgh.school.gyo6.net",
-  "wikidata": "Q16093538",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대구여자고등학교",
-  "site": "https://dgg.dge.hs.kr/",
-  "wikidata": "Q16093981",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대성여자고등학교",
-  "site": "http://www.daesung.hs.kr",
-  "wikidata": "Q16094084",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대원여자고등학교",
-  "site": "http://www.dwg.hs.kr",
-  "wikidata": "Q16094124",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "대광여자고등학교",
-  "site": "http://www.daekwang.hs.kr",
-  "wikidata": "Q16094392",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "덕성여자고등학교",
-  "site": "http://www.duksung.hs.kr",
-  "wikidata": "Q16094603",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "동아여자고등학교",
-  "site": "http://www.donga.hs.kr/",
-  "wikidata": "Q16094715",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "동일여자고등학교",
-  "site": "http://www.dongilg.hs.kr/",
-  "wikidata": "Q16094739",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "목동고등학교",
-  "site": "http://www.mokdong.hs.kr/",
-  "wikidata": "Q16094828",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "문학정보고등학교",
-  "site": "http://www.munhak.icehs.kr",
-  "wikidata": "Q16094878",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "문현여자고등학교",
-  "site": "http://www.munhyun.hs.kr",
-  "wikidata": "Q16094881",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "부산여자고등학교",
-  "site": "http://www.busan-gh.hs.kr",
-  "wikidata": "Q16095270",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "부평여자고등학교",
-  "site": "http://bgh.icehs.kr",
-  "wikidata": "Q16095324",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "북평여자고등학교",
-  "site": "http://www.bukyo.hs.kr/",
-  "wikidata": "Q16095336",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "삼성여자고등학교",
-  "site": "http://www.samsung-g.hs.kr/",
-  "wikidata": "Q16095436",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "성광여자고등학교",
-  "site": "http://www.sungkwang.hs.kr",
-  "wikidata": "Q16095981",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "성동글로벌경영고등학교",
-  "site": "http://www.sdglobal.hs.kr",
-  "wikidata": "Q16095998",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "성신여자고등학교",
-  "site": "http://www.sungshin.hs.kr",
-  "wikidata": "Q16096022",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "성화여자고등학교",
-  "site": "https://sunghwa.dge.hs.kr/",
-  "wikidata": "Q16096045",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "포항중앙여자고등학교",
-  "site": "http://www.pjgh.hs.kr/",
-  "wikidata": "Q12621986",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "하양여자고등학교",
-  "site": "http://www.hayang.hs.kr",
-  "wikidata": "Q12622473",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "학성여자고등학교",
-  "site": "http://www.hakseong-g.hs.kr",
-  "wikidata": "Q12622634",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "한광여자고등학교",
-  "site": "http://www.hkg.hs.kr",
-  "wikidata": "Q12622698",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "한일여자고등학교",
-  "site": "http://www.hanil.hs.kr/",
-  "wikidata": "Q12624283",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "혜성여자고등학교",
-  "site": "http://www.hyesung.hs.kr",
-  "wikidata": "Q12625171",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "효성여자고등학교",
-  "site": "https://hyo-sung.dge.hs.kr/",
-  "wikidata": "Q12626029",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "복자여자고등학교",
-  "site": "http://www.bokja.caehs.kr",
-  "wikidata": "Q14724437",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "한국미래문화고등학교",
-  "site": "http://kfch.cnehs.kr",
-  "wikidata": "Q14847645",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "포항여자고등학교",
-  "site": "http://www.poyogo.hs.kr/",
-  "wikidata": "Q14858816",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "용화여자고등학교",
-  "site": "http://www.yonghwa.hs.kr",
-  "wikidata": "Q14943778",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "온양한올고등학교",
-  "site": "http://www.hanol.cnehs.kr",
-  "wikidata": "Q15006446",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "송곡여자고등학교",
-  "site": "http://www.songgok.hs.kr",
-  "wikidata": "Q15030976",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "수원여자고등학교",
-  "site": "http://www.suwon-g.hs.kr/",
-  "wikidata": "Q16079785",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
   "name": "영신여자고등학교 (경기)",
   "site": "http://www.ysg.hs.kr/",
   "wikidata": "Q16079818",
@@ -1638,44 +777,16 @@
   "cat": "교육"
  },
  {
-  "name": "평택여자고등학교",
-  "site": "http://www.pyongtaek-gh.hs.kr",
-  "wikidata": "Q16079839",
+  "name": "서라벌대학교",
+  "site": "http://home.sorabol.ac.kr/",
+  "wikidata": "Q16095567",
   "sub": "전문대학",
   "cat": "교육"
  },
  {
-  "name": "광주경신여자고등학교",
-  "site": "http://www.kshin.hs.kr",
-  "wikidata": "Q16093112",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "송현여자중학교",
-  "site": "https://songhyun.dge.ms.kr/",
-  "wikidata": "Q12603056",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "울산서여자중학교",
-  "site": "http://www.ussg.ms.kr/",
-  "wikidata": "Q12609137",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "원주여자중학교",
-  "site": "http://wjgm.ms.kr",
-  "wikidata": "Q18156433",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "남해여자중학교",
-  "site": "http://www.namhae-g.ms.kr",
-  "wikidata": "Q18604980",
+  "name": "청강문화산업대학교",
+  "site": "http://www.chungkang.ac.kr",
+  "wikidata": "Q5116381",
   "sub": "전문대학",
   "cat": "교육"
  },
@@ -1687,30 +798,9 @@
   "cat": "교육"
  },
  {
-  "name": "삼육보건대학교",
-  "site": "http://www.shu.ac.kr",
-  "wikidata": "Q12600289",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "서일대학교",
-  "site": "http://www.seoil.ac.kr/",
-  "wikidata": "Q12601429",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
   "name": "송곡대학교",
   "site": "http://www.songgok.ac.kr/",
   "wikidata": "Q12602818",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "서라벌대학교",
-  "site": "http://home.sorabol.ac.kr/",
-  "wikidata": "Q16095567",
   "sub": "전문대학",
   "cat": "교육"
  },
@@ -1732,41 +822,6 @@
   "name": "한양여자대학교",
   "site": "http://www.hywoman.ac.kr/",
   "wikidata": "Q624831",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "배화여자대학교",
-  "site": "http://www.baewha.ac.kr/",
-  "wikidata": "Q4841315",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "충북도립대학교",
-  "site": "http://www.cpu.ac.kr/",
-  "wikidata": "Q5116363",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "청강문화산업대학교",
-  "site": "http://www.chungkang.ac.kr",
-  "wikidata": "Q5116381",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "동강대학교",
-  "site": "http://www.dkc.ac.kr/",
-  "wikidata": "Q5295953",
-  "sub": "전문대학",
-  "cat": "교육"
- },
- {
-  "name": "부산여자대학교",
-  "site": "https://www.bwc.ac.kr/english_home/",
-  "wikidata": "Q11246061",
   "sub": "전문대학",
   "cat": "교육"
  },

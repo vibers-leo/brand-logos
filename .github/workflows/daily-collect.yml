@@ -266,6 +266,7 @@ jobs:
           elif [ "$n_png" -gt 3000 ]; then
             echo "::warning::신규 PNG ${n_png}개 — 너무 많아 커밋하지 않음 (재생성 폭주 의심)"
           fi
+          python3 scripts/normalize-brands-json.py   # 포맷 왕복(들여쓰기↔한 줄)으로 커밋마다 120만 줄 diff 나던 것 차단
           git add _clients 2>/dev/null || true
           git add _targets 2>/dev/null || true    # 실패 기억(.tried.json·.ci-tried.json)·타겟 풀 — 안 담으면 매 회차 같은 실패를 다시 밟는다 (2026-09-06)
           if git diff --cached --quiet; then

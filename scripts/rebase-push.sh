@@ -22,6 +22,7 @@ if ! git diff --quiet || [ -n "$(git ls-files -m)" ]; then
   exit 1
 fi
 
+python3 scripts/normalize-brands-json.py >/dev/null && { git diff --quiet _clients/brands.json || git commit -q -m 'chore: brands.json 한 줄 정규화' -- _clients/brands.json; }
 for i in 1 2 3; do
   git fetch origin main
   git rebase origin/main || true

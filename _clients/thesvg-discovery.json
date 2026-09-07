@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-07T03:54:35.832620+00:00",
+ "generated_at": "2026-09-07T09:51:48.503605+00:00",
  "source": {
   "name": "theSVG",
   "url": "https://github.com/glincker/thesvg",
   "registry": "https://thesvg.org/api/registry.json"
  },
  "policy": "발굴 전용. 저장소 코드의 MIT와 별개로 개별 브랜드 로고는 상표일 수 있다. 각 항목의 license·공식 사용 가이드·브랜드 매핑을 검토하기 전에는 다운로드·서비스 반영 금지.",
- "known_brand_count": 45876,
- "source_brand_count": 6523,
- "new_brand_candidate_count": 1182,
- "form_gap_candidate_count": 1788,
+ "known_brand_count": 45916,
+ "source_brand_count": 6531,
+ "new_brand_candidate_count": 1189,
+ "form_gap_candidate_count": 1789,
  "new_brands": [
   {
    "source_id": "a-frame",
@@ -421,6 +421,18 @@
    ],
    "license": "Trademark",
    "url": "https://attio.com"
+  },
+  {
+   "source_id": "avenping",
+   "title": "Avenping",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Trademark of AvenPing. Used for identification under nominative fair use.",
+   "url": "https://avenping.com"
   },
   {
    "source_id": "avid",
@@ -10544,6 +10556,18 @@
    "url": "https://www.bfrgroups.com"
   },
   {
+   "source_id": "blips",
+   "title": "Blips",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Trademark of Blips. Used for identification under nominative fair use.",
+   "url": "https://blips.space/"
+  },
+  {
    "source_id": "blogent",
    "title": "Blogent",
    "variants": [
@@ -11582,6 +11606,18 @@
    "url": "https://flipt.io"
   },
   {
+   "source_id": "flownib",
+   "title": "FlowNib",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "MIT",
+   "url": "https://flownib.com"
+  },
+  {
    "source_id": "flywheel",
    "title": "Flywheel",
    "variants": [
@@ -11712,6 +11748,18 @@
    ],
    "license": "brand-use",
    "url": "https://www.genstory.app"
+  },
+  {
+   "source_id": "get-glass-distribution",
+   "title": "Get Glass Distribution",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Trademark of Get Glass Distribution. Used for identification under nominative fair use.",
+   "url": "https://getglass.us"
   },
   {
    "source_id": "gevernova",
@@ -12171,6 +12219,18 @@
    ],
    "license": "brand-use",
    "url": "https://www.adobe.com/flash/technology.html"
+  },
+  {
+   "source_id": "ic-glass",
+   "title": "IC Glass",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Trademark of IC Glass. Used for identification under nominative fair use.",
+   "url": "https://geticglass.com"
   },
   {
    "source_id": "iflow",
@@ -14443,6 +14503,18 @@
    "url": "https://semaphoreci.com"
   },
   {
+   "source_id": "seonib",
+   "title": "SEONIB",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "MIT",
+   "url": "https://seonib.com"
+  },
+  {
    "source_id": "sezzle",
    "title": "Sezzle",
    "variants": [
@@ -15104,6 +15176,18 @@
    ],
    "license": "Trademark",
    "url": "https://vapi.ai"
+  },
+  {
+   "source_id": "veonib",
+   "title": "Veonib",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "MIT",
+   "url": "https://veonib.com"
   },
   {
    "source_id": "vercel-blob",
@@ -38020,6 +38104,26 @@
    "id": "numba",
    "current_forms": [
     "vertical"
+   ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "nusantara",
+   "title": "Nusantara",
+   "variants": [
+    "default",
+    "mono"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://nusantara.finance",
+   "id": "nusantara",
+   "current_forms": [
+    "horizontal"
    ],
    "missing_forms": [
     "symbol"

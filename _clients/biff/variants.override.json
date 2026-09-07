@@ -1,17 +1,9 @@
 {
- "schema": 1,
- "algo_v": 1,
- "id": "biff",
- "origin": "manual",
- "primary": "horizontal-ko-color",
  "variants": [
   {
    "key": "horizontal-ko-color",
    "form": "horizontal",
-   "lang": "ko",
-   "color": "color",
    "label": "가로조합형 (심볼+BIFF)",
-   "order": 0,
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -21,13 +13,12 @@
    "key": "symbol-none-color",
    "form": "symbol",
    "lang": "none",
-   "color": "color",
    "label": "심볼 (파비콘)",
-   "order": 1,
    "files": {
     "svg": "variants/symbol.svg",
     "png": "variants/symbol-512.png"
    }
   }
- ]
+ ],
+ "note": "공식 top_logo.svg 크롭 — 2026-09-07 LEO 지시: 기본은 날짜 없는 판, 파비콘은 원형 심볼"
 }

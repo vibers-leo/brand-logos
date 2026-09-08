@@ -77,6 +77,21 @@
      "file": "sources/wvl/mongodb.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-mongodb",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/mongodb.svg",
+    "png": "sources/supertiny/mongodb.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

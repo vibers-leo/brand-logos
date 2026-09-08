@@ -28,6 +28,51 @@
      "file": "sources/si.svg"
     }
    ]
+  },
+  {
+   "key": "apparel-nike",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · nike",
+   "files": {
+    "svg": "sources/apparel-collection/nike.svg",
+    "png": "sources/apparel-collection/nike.png"
+   },
+   "aspect": 1.9324,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "apparel-nike-golf",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · nike-golf",
+   "files": {
+    "svg": "sources/apparel-collection/nike-golf.svg",
+    "png": "sources/apparel-collection/nike-golf.png"
+   },
+   "aspect": 11.5942,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "apparel-nike-com",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · nike-com",
+   "files": {
+    "svg": "sources/apparel-collection/nike-com.svg",
+    "png": "sources/apparel-collection/nike-com.png"
+   },
+   "aspect": 1.0,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

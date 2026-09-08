@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "supertiny-applepodcasts",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/applepodcasts.svg",
+    "png": "sources/supertiny/applepodcasts.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "supertiny-itunes_podcasts",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/itunes_podcasts.svg",
+    "png": "sources/supertiny/itunes_podcasts.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

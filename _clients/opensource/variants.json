@@ -48,6 +48,21 @@
      "file": "sources/wvl/opensource.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-opensource",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/opensource.svg",
+    "png": "sources/supertiny/opensource.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

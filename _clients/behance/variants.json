@@ -67,6 +67,21 @@
      "file": "sources/wvl/behance.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-behance",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/behance.svg",
+    "png": "sources/supertiny/behance.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

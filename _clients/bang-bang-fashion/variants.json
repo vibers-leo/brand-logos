@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bang-bang-fashion",
+ "primary": "apparel-bang-bang-main",
+ "variants": [
+  {
+   "key": "apparel-bang-bang-main",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · bang-bang-main",
+   "files": {
+    "svg": "sources/apparel-collection/bang-bang-main.svg",
+    "png": "sources/apparel-collection/bang-bang-main.png"
+   },
+   "aspect": 2.1739,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "apparel-bang-bang-small",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · bang-bang-small",
+   "files": {
+    "svg": "sources/apparel-collection/bang-bang-small.svg",
+    "png": "sources/apparel-collection/bang-bang-small.png"
+   },
+   "aspect": 7.2072,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

@@ -43,6 +43,21 @@
      "file": "sources/devicons/inkscape-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-inkscape",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/inkscape.svg",
+    "png": "sources/supertiny/inkscape.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

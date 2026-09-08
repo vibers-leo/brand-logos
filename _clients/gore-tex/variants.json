@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gore-tex",
+ "primary": "apparel-gore-tex-wordmark",
+ "variants": [
+  {
+   "key": "apparel-gore-tex-wordmark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · gore-tex-wordmark",
+   "files": {
+    "svg": "sources/apparel-collection/gore-tex-wordmark.svg",
+    "png": "sources/apparel-collection/gore-tex-wordmark.png"
+   },
+   "aspect": 4.6243,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "apparel-gore-tex-badge",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · gore-tex-badge",
+   "files": {
+    "svg": "sources/apparel-collection/gore-tex-badge.svg",
+    "png": "sources/apparel-collection/gore-tex-badge.png"
+   },
+   "aspect": 1.0,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

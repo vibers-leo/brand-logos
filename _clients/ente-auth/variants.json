@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ente-auth",
+ "primary": "supertiny-ente_auth",
+ "variants": [
+  {
+   "key": "supertiny-ente_auth",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/ente_auth.svg",
+    "png": "sources/supertiny/ente_auth.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

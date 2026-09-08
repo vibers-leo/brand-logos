@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "apparel-reebok-gray",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · reebok-gray",
+   "files": {
+    "svg": "sources/apparel-collection/reebok-gray.svg",
+    "png": "sources/apparel-collection/reebok-gray.png"
+   },
+   "aspect": 2.0888,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "apparel-reebok-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · reebok-color",
+   "files": {
+    "svg": "sources/apparel-collection/reebok-color.svg",
+    "png": "sources/apparel-collection/reebok-color.png"
+   },
+   "aspect": 5.4422,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

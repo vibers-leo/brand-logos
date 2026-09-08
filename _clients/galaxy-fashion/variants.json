@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "galaxy-fashion",
+ "primary": "apparel-galaxy",
+ "variants": [
+  {
+   "key": "apparel-galaxy",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · galaxy",
+   "files": {
+    "svg": "sources/apparel-collection/galaxy.svg",
+    "png": "sources/apparel-collection/galaxy.png"
+   },
+   "aspect": 2.5478,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

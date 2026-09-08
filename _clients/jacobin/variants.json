@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "supertiny-jacobin",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/jacobin.svg",
+    "png": "sources/supertiny/jacobin.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

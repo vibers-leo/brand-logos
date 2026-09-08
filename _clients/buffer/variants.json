@@ -48,6 +48,21 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-buffer",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/buffer.svg",
+    "png": "sources/supertiny/buffer.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

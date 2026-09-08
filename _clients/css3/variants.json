@@ -43,6 +43,21 @@
      "file": "sources/devicons/css3-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-css3",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/css3.svg",
+    "png": "sources/supertiny/css3.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

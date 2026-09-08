@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "wekan",
+ "primary": "supertiny-wekan",
+ "variants": [
+  {
+   "key": "supertiny-wekan",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/wekan.svg",
+    "png": "sources/supertiny/wekan.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

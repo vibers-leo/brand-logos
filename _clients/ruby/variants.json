@@ -38,6 +38,21 @@
      "file": "sources/devicons/ruby-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-ruby",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/ruby.svg",
+    "png": "sources/supertiny/ruby.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

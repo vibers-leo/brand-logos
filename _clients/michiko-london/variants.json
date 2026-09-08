@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "michiko-london",
+ "primary": "apparel-michiko-london",
+ "variants": [
+  {
+   "key": "apparel-michiko-london",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · michiko-london",
+   "files": {
+    "svg": "sources/apparel-collection/michiko-london.svg",
+    "png": "sources/apparel-collection/michiko-london.png"
+   },
+   "aspect": 3.7383,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "parrotos",
+ "primary": "supertiny-parrotos",
+ "variants": [
+  {
+   "key": "supertiny-parrotos",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/parrotos.svg",
+    "png": "sources/supertiny/parrotos.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

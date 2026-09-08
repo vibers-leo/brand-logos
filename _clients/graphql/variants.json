@@ -53,6 +53,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-graphql",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/graphql.svg",
+    "png": "sources/supertiny/graphql.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

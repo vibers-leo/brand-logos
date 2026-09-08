@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "apparel-head",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · head",
+   "files": {
+    "svg": "sources/apparel-collection/head.svg",
+    "png": "sources/apparel-collection/head.png"
+   },
+   "aspect": 1.4787,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

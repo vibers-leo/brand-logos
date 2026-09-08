@@ -38,6 +38,21 @@
      "file": "sources/devicons/sass-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-sass",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/sass.svg",
+    "png": "sources/supertiny/sass.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

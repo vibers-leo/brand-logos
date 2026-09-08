@@ -49,6 +49,21 @@
      "file": "sources/wvl/ubuntu.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-ubuntu",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/ubuntu.svg",
+    "png": "sources/supertiny/ubuntu.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

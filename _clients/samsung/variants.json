@@ -33,6 +33,51 @@
      "file": "sources/wvl/samsung.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-samsung",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/samsung.svg",
+    "png": "sources/supertiny/samsung.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "supertiny-samsung_s",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/samsung_s.svg",
+    "png": "sources/supertiny/samsung_s.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "supertiny-samsung_swoop",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/samsung_swoop.svg",
+    "png": "sources/supertiny/samsung_swoop.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

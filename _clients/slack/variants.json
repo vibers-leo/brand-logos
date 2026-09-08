@@ -66,6 +66,21 @@
      "file": "sources/wvl/slack.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-slack",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/slack.svg",
+    "png": "sources/supertiny/slack.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

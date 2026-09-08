@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "beanpole",
+ "primary": "apparel-bean-pole",
+ "variants": [
+  {
+   "key": "apparel-bean-pole",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · bean-pole",
+   "files": {
+    "svg": "sources/apparel-collection/bean-pole.svg",
+    "png": "sources/apparel-collection/bean-pole.png"
+   },
+   "aspect": 1.2579,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

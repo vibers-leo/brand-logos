@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arnaldo-bassini",
+ "primary": "apparel-arnaldo-bassini",
+ "variants": [
+  {
+   "key": "apparel-arnaldo-bassini",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · arnaldo-bassini",
+   "files": {
+    "svg": "sources/apparel-collection/arnaldo-bassini.svg",
+    "png": "sources/apparel-collection/arnaldo-bassini.png"
+   },
+   "aspect": 1.4572,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

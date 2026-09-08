@@ -66,6 +66,36 @@
      "file": "sources/wvl/drupal.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-drupal",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/drupal.svg",
+    "png": "sources/supertiny/drupal.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "supertiny-druplicon",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/druplicon.svg",
+    "png": "sources/supertiny/druplicon.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

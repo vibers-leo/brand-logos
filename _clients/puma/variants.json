@@ -28,6 +28,21 @@
      "file": "sources/si.svg"
     }
    ]
+  },
+  {
+   "key": "apparel-puma",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · puma",
+   "files": {
+    "svg": "sources/apparel-collection/puma.svg",
+    "png": "sources/apparel-collection/puma.png"
+   },
+   "aspect": 1.6736,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -53,6 +53,21 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-arch_linux",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/arch_linux.svg",
+    "png": "sources/supertiny/arch_linux.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

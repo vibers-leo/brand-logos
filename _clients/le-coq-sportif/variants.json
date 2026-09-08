@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "apparel-le-coq-sportif",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · le-coq-sportif",
+   "files": {
+    "svg": "sources/apparel-collection/le-coq-sportif.svg",
+    "png": "sources/apparel-collection/le-coq-sportif.png"
+   },
+   "aspect": 1.5267,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

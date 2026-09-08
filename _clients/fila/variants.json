@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "apparel-fila",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · fila",
+   "files": {
+    "svg": "sources/apparel-collection/fila.svg",
+    "png": "sources/apparel-collection/fila.png"
+   },
+   "aspect": 2.0725,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

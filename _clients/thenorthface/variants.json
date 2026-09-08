@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "apparel-the-north-face",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · the-north-face",
+   "files": {
+    "svg": "sources/apparel-collection/the-north-face.svg",
+    "png": "sources/apparel-collection/the-north-face.png"
+   },
+   "aspect": 1.2461,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

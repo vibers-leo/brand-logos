@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hang-ten",
+ "primary": "apparel-hang-ten",
+ "variants": [
+  {
+   "key": "apparel-hang-ten",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · hang-ten",
+   "files": {
+    "svg": "sources/apparel-collection/hang-ten.svg",
+    "png": "sources/apparel-collection/hang-ten.png"
+   },
+   "aspect": 3.3613,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

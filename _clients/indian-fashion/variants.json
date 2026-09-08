@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "indian-fashion",
+ "primary": "apparel-indian",
+ "variants": [
+  {
+   "key": "apparel-indian",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · indian",
+   "files": {
+    "svg": "sources/apparel-collection/indian.svg",
+    "png": "sources/apparel-collection/indian.png"
+   },
+   "aspect": 2.0408,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

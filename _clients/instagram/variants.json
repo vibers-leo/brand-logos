@@ -43,6 +43,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-instagram",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/instagram.svg",
+    "png": "sources/supertiny/instagram.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

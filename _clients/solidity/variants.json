@@ -38,6 +38,21 @@
      "file": "sources/devicons/solidity-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-solidity",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/solidity.svg",
+    "png": "sources/supertiny/solidity.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

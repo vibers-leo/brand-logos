@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "spris",
+ "primary": "apparel-spris",
+ "variants": [
+  {
+   "key": "apparel-spris",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · spris",
+   "files": {
+    "svg": "sources/apparel-collection/spris.svg",
+    "png": "sources/apparel-collection/spris.png"
+   },
+   "aspect": 1.6529,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

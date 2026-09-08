@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "workato",
+ "primary": "supertiny-workato",
+ "variants": [
+  {
+   "key": "supertiny-workato",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/workato.svg",
+    "png": "sources/supertiny/workato.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

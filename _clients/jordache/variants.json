@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "jordache",
+ "primary": "apparel-jordache",
+ "variants": [
+  {
+   "key": "apparel-jordache",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · jordache",
+   "files": {
+    "svg": "sources/apparel-collection/jordache.svg",
+    "png": "sources/apparel-collection/jordache.png"
+   },
+   "aspect": 3.2922,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

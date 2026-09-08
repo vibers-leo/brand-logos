@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "paco-rabanne",
+ "primary": "apparel-paco-rabanne",
+ "variants": [
+  {
+   "key": "apparel-paco-rabanne",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · paco-rabanne",
+   "files": {
+    "svg": "sources/apparel-collection/paco-rabanne.svg",
+    "png": "sources/apparel-collection/paco-rabanne.png"
+   },
+   "aspect": 2.0202,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

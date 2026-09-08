@@ -21,6 +21,21 @@
    "provider": "simpleicons/googlemeet",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "supertiny-google_meet",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/google_meet.svg",
+    "png": "sources/supertiny/google_meet.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

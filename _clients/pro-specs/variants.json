@@ -21,6 +21,36 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "apparel-pro-specs-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · pro-specs-color",
+   "files": {
+    "svg": "sources/apparel-collection/pro-specs-color.svg",
+    "png": "sources/apparel-collection/pro-specs-color.png"
+   },
+   "aspect": 3.0303,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "apparel-pro-specs-black",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · pro-specs-black",
+   "files": {
+    "svg": "sources/apparel-collection/pro-specs-black.svg",
+    "png": "sources/apparel-collection/pro-specs-black.png"
+   },
+   "aspect": 1.4519,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

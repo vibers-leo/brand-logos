@@ -36,6 +36,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-apple_music",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/apple_music.svg",
+    "png": "sources/supertiny/apple_music.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

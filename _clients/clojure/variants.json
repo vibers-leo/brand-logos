@@ -53,6 +53,21 @@
      "file": "sources/devicons/clojure-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-clojure",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/clojure.svg",
+    "png": "sources/supertiny/clojure.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

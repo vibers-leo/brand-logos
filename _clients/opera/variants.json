@@ -53,6 +53,21 @@
      "file": "sources/devicons/opera-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-opera",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/opera.svg",
+    "png": "sources/supertiny/opera.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

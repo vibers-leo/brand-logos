@@ -48,6 +48,21 @@
      "file": "sources/wvl/producthunt.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-producthunt",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/producthunt.svg",
+    "png": "sources/supertiny/producthunt.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

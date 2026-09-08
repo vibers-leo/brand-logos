@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tiger-woods",
+ "primary": "apparel-tiger-woods",
+ "variants": [
+  {
+   "key": "apparel-tiger-woods",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · tiger-woods",
+   "files": {
+    "svg": "sources/apparel-collection/tiger-woods.svg",
+    "png": "sources/apparel-collection/tiger-woods.png"
+   },
+   "aspect": 0.5594,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

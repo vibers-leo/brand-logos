@@ -43,6 +43,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-whatsapp",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/whatsapp.svg",
+    "png": "sources/supertiny/whatsapp.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

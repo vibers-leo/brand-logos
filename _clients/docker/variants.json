@@ -44,6 +44,21 @@
      "file": "sources/docker-icon.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-docker",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/docker.svg",
+    "png": "sources/supertiny/docker.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

@@ -49,6 +49,21 @@
    "provider": "devicons",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "supertiny-julia",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/julia.svg",
+    "png": "sources/supertiny/julia.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

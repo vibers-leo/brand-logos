@@ -43,6 +43,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-mcdonald_s",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/mcdonald_s.svg",
+    "png": "sources/supertiny/mcdonald_s.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

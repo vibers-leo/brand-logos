@@ -21,6 +21,21 @@
    "provider": "simpleicons/googlephotos",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "supertiny-google_photos",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/google_photos.svg",
+    "png": "sources/supertiny/google_photos.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

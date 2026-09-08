@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "apparel-jordan",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · jordan",
+   "files": {
+    "svg": "sources/apparel-collection/jordan.svg",
+    "png": "sources/apparel-collection/jordan.png"
+   },
+   "aspect": 1.0,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -28,6 +28,21 @@
      "file": "sources/si.svg"
     }
    ]
+  },
+  {
+   "key": "apparel-new-balance",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · new-balance",
+   "files": {
+    "svg": "sources/apparel-collection/new-balance.svg",
+    "png": "sources/apparel-collection/new-balance.png"
+   },
+   "aspect": 2.0942,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

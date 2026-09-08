@@ -38,6 +38,21 @@
      "file": "sources/devicons/java-original.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-java",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/java.svg",
+    "png": "sources/supertiny/java.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

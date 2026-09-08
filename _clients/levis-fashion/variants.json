@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "levis-fashion",
+ "primary": "apparel-levis-original",
+ "variants": [
+  {
+   "key": "apparel-levis-original",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · levis-original",
+   "files": {
+    "svg": "sources/apparel-collection/levis-original.svg",
+    "png": "sources/apparel-collection/levis-original.png"
+   },
+   "aspect": 1.3605,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "apparel-levis-engineered",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · levis-engineered",
+   "files": {
+    "svg": "sources/apparel-collection/levis-engineered.svg",
+    "png": "sources/apparel-collection/levis-engineered.png"
+   },
+   "aspect": 2.3952,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

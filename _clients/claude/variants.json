@@ -61,6 +61,21 @@
      "file": "sources/wvl/claude.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-claude",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/claude.svg",
+    "png": "sources/supertiny/claude.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

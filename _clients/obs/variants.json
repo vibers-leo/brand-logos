@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "supertiny-obs",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/obs.svg",
+    "png": "sources/supertiny/obs.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "polham",
+ "primary": "apparel-polham",
+ "variants": [
+  {
+   "key": "apparel-polham",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · polham",
+   "files": {
+    "svg": "sources/apparel-collection/polham.svg",
+    "png": "sources/apparel-collection/polham.png"
+   },
+   "aspect": 1.9231,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

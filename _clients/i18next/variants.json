@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "supertiny-i18next",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/i18next.svg",
+    "png": "sources/supertiny/i18next.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

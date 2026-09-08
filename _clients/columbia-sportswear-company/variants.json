@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "apparel-columbia",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · columbia",
+   "files": {
+    "svg": "sources/apparel-collection/columbia.svg",
+    "png": "sources/apparel-collection/columbia.png"
+   },
+   "aspect": 3.7209,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

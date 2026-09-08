@@ -66,6 +66,21 @@
      "file": "sources/wvl/codepen.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-codepen",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/codepen.svg",
+    "png": "sources/supertiny/codepen.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

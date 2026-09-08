@@ -58,6 +58,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-react",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/react.svg",
+    "png": "sources/supertiny/react.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

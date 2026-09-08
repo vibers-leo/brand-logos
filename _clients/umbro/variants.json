@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "apparel-umbro",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · umbro",
+   "files": {
+    "svg": "sources/apparel-collection/umbro.svg",
+    "png": "sources/apparel-collection/umbro.png"
+   },
+   "aspect": 2.4768,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

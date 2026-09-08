@@ -21,6 +21,21 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-visa",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/visa.svg",
+    "png": "sources/supertiny/visa.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

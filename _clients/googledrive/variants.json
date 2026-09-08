@@ -36,6 +36,36 @@
    "provider": "simpleicons/googledrive",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "supertiny-google_drive",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/google_drive.svg",
+    "png": "sources/supertiny/google_drive.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "supertiny-google_drive_old",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons (구형)",
+   "files": {
+    "svg": "sources/supertiny/google_drive_old.svg",
+    "png": "sources/supertiny/google_drive_old.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

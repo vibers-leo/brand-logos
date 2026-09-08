@@ -67,6 +67,21 @@
      "file": "sources/wvl/typescript.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-typescript",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/typescript.svg",
+    "png": "sources/supertiny/typescript.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

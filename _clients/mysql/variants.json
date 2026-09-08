@@ -66,6 +66,21 @@
      "file": "sources/mysql-icon.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-mysql",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/mysql.svg",
+    "png": "sources/supertiny/mysql.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

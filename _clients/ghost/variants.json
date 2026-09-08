@@ -49,6 +49,21 @@
      "file": "sources/wvl/ghost.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-ghost",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/ghost.svg",
+    "png": "sources/supertiny/ghost.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

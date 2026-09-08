@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "happyland",
+ "primary": "apparel-happyland-color",
+ "variants": [
+  {
+   "key": "apparel-happyland-color",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · happyland-color",
+   "files": {
+    "svg": "sources/apparel-collection/happyland-color.svg",
+    "png": "sources/apparel-collection/happyland-color.png"
+   },
+   "aspect": 2.974,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "apparel-happyland-black",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · happyland-black",
+   "files": {
+    "svg": "sources/apparel-collection/happyland-black.svg",
+    "png": "sources/apparel-collection/happyland-black.png"
+   },
+   "aspect": 1.3986,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

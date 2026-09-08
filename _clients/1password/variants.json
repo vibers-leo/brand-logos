@@ -36,6 +36,21 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-1password",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/1password.svg",
+    "png": "sources/supertiny/1password.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

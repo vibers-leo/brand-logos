@@ -21,6 +21,51 @@
    "provider": "fashion-curated",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "apparel-converse-all-star",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · converse-all-star",
+   "files": {
+    "svg": "sources/apparel-collection/converse-all-star.svg",
+    "png": "sources/apparel-collection/converse-all-star.png"
+   },
+   "aspect": 1.0,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "apparel-converse-star",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · converse-star",
+   "files": {
+    "svg": "sources/apparel-collection/converse-star.svg",
+    "png": "sources/apparel-collection/converse-star.png"
+   },
+   "aspect": 0.9206,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "apparel-converse-wordmark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · converse-wordmark",
+   "files": {
+    "svg": "sources/apparel-collection/converse-wordmark.svg",
+    "png": "sources/apparel-collection/converse-wordmark.png"
+   },
+   "aspect": 6.5574,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

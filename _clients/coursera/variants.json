@@ -33,6 +33,21 @@
      "file": "sources/wvl/coursera.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-coursera",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/coursera.svg",
+    "png": "sources/supertiny/coursera.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

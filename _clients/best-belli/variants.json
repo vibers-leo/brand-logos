@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "best-belli",
+ "primary": "apparel-best-belli",
+ "variants": [
+  {
+   "key": "apparel-best-belli",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · best-belli",
+   "files": {
+    "svg": "sources/apparel-collection/best-belli.svg",
+    "png": "sources/apparel-collection/best-belli.png"
+   },
+   "aspect": 3.0534,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

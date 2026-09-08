@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "black-and-white-golf",
+ "primary": "apparel-black-and-white",
+ "variants": [
+  {
+   "key": "apparel-black-and-white",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · black-and-white",
+   "files": {
+    "svg": "sources/apparel-collection/black-and-white.svg",
+    "png": "sources/apparel-collection/black-and-white.png"
+   },
+   "aspect": 1.2327,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

@@ -43,6 +43,21 @@
      "file": "sources/vlz/wide.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-vim",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/vim.svg",
+    "png": "sources/supertiny/vim.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

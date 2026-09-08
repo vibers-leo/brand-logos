@@ -21,6 +21,36 @@
    "provider": "fashion-curated",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "apparel-polo-ralph-lauren",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · polo-ralph-lauren",
+   "files": {
+    "svg": "sources/apparel-collection/polo-ralph-lauren.svg",
+    "png": "sources/apparel-collection/polo-ralph-lauren.png"
+   },
+   "aspect": 4.8485,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "apparel-ralph-lauren",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · ralph-lauren",
+   "files": {
+    "svg": "sources/apparel-collection/ralph-lauren.svg",
+    "png": "sources/apparel-collection/ralph-lauren.png"
+   },
+   "aspect": 3.0303,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

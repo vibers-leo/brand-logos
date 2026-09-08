@@ -21,6 +21,21 @@
    "provider": "fashion-curated",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "apparel-asics",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · asics",
+   "files": {
+    "svg": "sources/apparel-collection/asics.svg",
+    "png": "sources/apparel-collection/asics.png"
+   },
+   "aspect": 2.9091,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

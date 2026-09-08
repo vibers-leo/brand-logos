@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "supertiny-citrix",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/citrix.svg",
+    "png": "sources/supertiny/citrix.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "supertiny-citrix_compact",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/citrix_compact.svg",
+    "png": "sources/supertiny/citrix_compact.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

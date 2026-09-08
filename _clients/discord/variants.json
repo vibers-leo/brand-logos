@@ -44,6 +44,21 @@
      "file": "sources/discord-icon.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-discord",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/discord.svg",
+    "png": "sources/supertiny/discord.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

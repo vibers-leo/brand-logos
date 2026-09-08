@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apache-age",
+ "primary": "supertiny-apache_age",
+ "variants": [
+  {
+   "key": "supertiny-apache_age",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/apache_age.svg",
+    "png": "sources/supertiny/apache_age.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

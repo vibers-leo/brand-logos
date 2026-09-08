@@ -53,6 +53,21 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-bitbucket",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/bitbucket.svg",
+    "png": "sources/supertiny/bitbucket.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

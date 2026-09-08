@@ -76,6 +76,21 @@
      "file": "sources/thesvg/vercel-wordmark-dark.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-vercel",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/vercel.svg",
+    "png": "sources/supertiny/vercel.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

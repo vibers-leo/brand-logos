@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arnold-palmer-fashion",
+ "primary": "apparel-arnold-palmer",
+ "variants": [
+  {
+   "key": "apparel-arnold-palmer",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · arnold-palmer",
+   "files": {
+    "svg": "sources/apparel-collection/arnold-palmer.svg",
+    "png": "sources/apparel-collection/arnold-palmer.png"
+   },
+   "aspect": 3.6697,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

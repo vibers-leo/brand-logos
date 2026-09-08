@@ -36,6 +36,21 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "supertiny-f-droid",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/f-droid.svg",
+    "png": "sources/supertiny/f-droid.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

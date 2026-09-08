@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lafuma",
+ "primary": "apparel-lafuma",
+ "variants": [
+  {
+   "key": "apparel-lafuma",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · lafuma",
+   "files": {
+    "svg": "sources/apparel-collection/lafuma.svg",
+    "png": "sources/apparel-collection/lafuma.png"
+   },
+   "aspect": 3.6199,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

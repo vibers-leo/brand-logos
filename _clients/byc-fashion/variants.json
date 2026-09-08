@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "byc-fashion",
+ "primary": "apparel-byc",
+ "variants": [
+  {
+   "key": "apparel-byc",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · byc",
+   "files": {
+    "svg": "sources/apparel-collection/byc.svg",
+    "png": "sources/apparel-collection/byc.png"
+   },
+   "aspect": 1.5873,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

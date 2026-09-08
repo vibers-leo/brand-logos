@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nautica",
+ "primary": "apparel-nautica-wordmark",
+ "variants": [
+  {
+   "key": "apparel-nautica-wordmark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · nautica-wordmark",
+   "files": {
+    "svg": "sources/apparel-collection/nautica-wordmark.svg",
+    "png": "sources/apparel-collection/nautica-wordmark.png"
+   },
+   "aspect": 2.454,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "apparel-nautica-symbol",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · nautica-symbol",
+   "files": {
+    "svg": "sources/apparel-collection/nautica-symbol.svg",
+    "png": "sources/apparel-collection/nautica-symbol.png"
+   },
+   "aspect": 0.6294,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

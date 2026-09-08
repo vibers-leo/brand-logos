@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "omphalos",
+ "primary": "apparel-omphalos",
+ "variants": [
+  {
+   "key": "apparel-omphalos",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · omphalos",
+   "files": {
+    "svg": "sources/apparel-collection/omphalos.svg",
+    "png": "sources/apparel-collection/omphalos.png"
+   },
+   "aspect": 1.3491,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

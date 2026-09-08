@@ -21,6 +21,36 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "apparel-guess-jeans",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · guess-jeans",
+   "files": {
+    "svg": "sources/apparel-collection/guess-jeans.svg",
+    "png": "sources/apparel-collection/guess-jeans.png"
+   },
+   "aspect": 4.2105,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "apparel-guess-triangle",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · guess-triangle",
+   "files": {
+    "svg": "sources/apparel-collection/guess-triangle.svg",
+    "png": "sources/apparel-collection/guess-triangle.png"
+   },
+   "aspect": 1.1478,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

@@ -21,6 +21,36 @@
    "provider": "simpleicons/googlemaps",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "supertiny-google_maps",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/google_maps.svg",
+    "png": "sources/supertiny/google_maps.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "supertiny-google_maps_old",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons (구형)",
+   "files": {
+    "svg": "sources/supertiny/google_maps_old.svg",
+    "png": "sources/supertiny/google_maps_old.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

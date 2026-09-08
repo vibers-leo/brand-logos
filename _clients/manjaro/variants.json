@@ -33,6 +33,21 @@
      "file": "sources/wvl/manjaro.svg"
     }
    ]
+  },
+  {
+   "key": "supertiny-manjaro",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "앱 아이콘 · SuperTinyIcons",
+   "files": {
+    "svg": "sources/supertiny/manjaro.svg",
+    "png": "sources/supertiny/manjaro.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

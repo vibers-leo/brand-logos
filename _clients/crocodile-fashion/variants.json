@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "crocodile-fashion",
+ "primary": "apparel-crocodile",
+ "variants": [
+  {
+   "key": "apparel-crocodile",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · crocodile",
+   "files": {
+    "svg": "sources/apparel-collection/crocodile.svg",
+    "png": "sources/apparel-collection/crocodile.png"
+   },
+   "aspect": 2.7875,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

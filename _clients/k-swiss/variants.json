@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "apparel-k-swiss",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · k-swiss",
+   "files": {
+    "svg": "sources/apparel-collection/k-swiss.svg",
+    "png": "sources/apparel-collection/k-swiss.png"
+   },
+   "aspect": 0.8734,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

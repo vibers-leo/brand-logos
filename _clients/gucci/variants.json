@@ -21,6 +21,21 @@
    "provider": "fashion-curated",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "apparel-gucci",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · gucci",
+   "files": {
+    "svg": "sources/apparel-collection/gucci.svg",
+    "png": "sources/apparel-collection/gucci.png"
+   },
+   "aspect": 5.4422,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

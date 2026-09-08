@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ssamzie",
+ "primary": "apparel-ssamzie",
+ "variants": [
+  {
+   "key": "apparel-ssamzie",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "의류 모음 수록본 · ssamzie",
+   "files": {
+    "svg": "sources/apparel-collection/ssamzie.svg",
+    "png": "sources/apparel-collection/ssamzie.png"
+   },
+   "aspect": 1.444,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

@@ -28,6 +28,21 @@
      "file": "sources/devicons/cobol-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-cobol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/cobol.svg",
+    "png": "sources/svgl/cobol.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

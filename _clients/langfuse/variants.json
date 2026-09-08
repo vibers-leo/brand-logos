@@ -21,6 +21,36 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-langfuse-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/langfuse-color.svg",
+    "png": "sources/lobe/langfuse-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-langfuse-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/langfuse-text.svg",
+    "png": "sources/lobe/langfuse-text.png"
+   },
+   "aspect": 5.5556,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

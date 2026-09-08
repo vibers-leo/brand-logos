@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-centml-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/centml-text.svg",
+    "png": "sources/lobe/centml-text.png"
+   },
+   "aspect": 6.6667,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

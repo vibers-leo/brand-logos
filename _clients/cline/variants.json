@@ -36,6 +36,36 @@
    "provider": "gilbarbara",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-cline",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/cline.svg",
+    "png": "sources/lobe/cline.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-cline-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/cline-text.svg",
+    "png": "sources/lobe/cline-text.png"
+   },
+   "aspect": 5.5172,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

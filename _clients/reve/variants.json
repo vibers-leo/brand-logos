@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "reve",
+ "primary": "lobe-reve-text",
+ "variants": [
+  {
+   "key": "lobe-reve",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/reve.svg",
+    "png": "sources/lobe/reve.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-reve-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/reve-text.svg",
+    "png": "sources/lobe/reve-text.png"
+   },
+   "aspect": 4.1237,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

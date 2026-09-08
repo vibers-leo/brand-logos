@@ -36,6 +36,21 @@
    "provider": "brand-site",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "svgl-groq_wordmark_light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/groq_wordmark_light.svg",
+    "png": "sources/svgl/groq_wordmark_light.png"
+   },
+   "aspect": 2.9304,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

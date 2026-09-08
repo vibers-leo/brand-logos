@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-internlm-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/internlm-text.svg",
+    "png": "sources/lobe/internlm-text.png"
+   },
+   "aspect": 3.6866,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -1,1 +1,41 @@
-{"id":"pika","name_ko":"Pika","name_en":"Pika","category":"IT·테크","domain":"pika.art","logo_svg":false,"logo_png":true,"source":"logo.dev:pika.art","sources":[{"provider":"logo.dev:pika.art","file":"logo.png","label":"실물형"}],"logo_quality":"ok","dark_variant":"white","added_at":"2026-07-27","has_png":true}
+{
+ "id": "pika",
+ "name_ko": "Pika",
+ "name_en": "Pika",
+ "category": "IT·테크",
+ "domain": "pika.art",
+ "logo_svg": false,
+ "logo_png": true,
+ "source": "logo.dev:pika.art",
+ "sources": [
+  {
+   "provider": "logo.dev:pika.art",
+   "file": "logo.png",
+   "label": "실물형"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/pika.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://pika.art",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/pika-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://pika.art",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "logo_quality": "ok",
+ "dark_variant": "white",
+ "added_at": "2026-07-27",
+ "has_png": true,
+ "website": "https://pika.art",
+ "website_from": "domain"
+}

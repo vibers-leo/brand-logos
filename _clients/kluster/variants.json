@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-kluster-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/kluster-text.svg",
+    "png": "sources/lobe/kluster-text.png"
+   },
+   "aspect": 8.1633,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

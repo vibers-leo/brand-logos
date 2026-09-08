@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "poolside",
+ "primary": "lobe-poolside-text",
+ "variants": [
+  {
+   "key": "lobe-poolside-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/poolside-color.svg",
+    "png": "sources/lobe/poolside-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-poolside-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/poolside-text.svg",
+    "png": "sources/lobe/poolside-text.png"
+   },
+   "aspect": 6.7227,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

@@ -1,1 +1,59 @@
-{"id":"openai","name_ko":"Openai","name_en":"Openai","category":"IT·테크","domain":"","logo_svg":"logo.svg","logo_png":true,"source":"iconify:openai","sources":[{"provider":"iconify:openai","file":"sources/iconify/openai.svg","label":"컬러 심볼"},{"provider":"iconify:openai-icon","file":"sources/iconify/openai-icon.svg","label":"아이콘형"},{"provider":"wvl:openai-icon","file":"sources/wvl/openai-icon.svg","label":"아이콘형"},{"provider":"wvl:openai","file":"sources/wvl/openai.svg","label":"컬러 심볼"},{"provider":"merged:openai-icon","file":"sources/openai-icon.svg","label":"아이콘형"}],"dark_variant":"white","added_at":"2026-07-27","has_png":true,"has_svg":true}
+{
+ "id": "openai",
+ "name_ko": "Openai",
+ "name_en": "Openai",
+ "category": "IT·테크",
+ "domain": "",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "source": "iconify:openai",
+ "sources": [
+  {
+   "provider": "iconify:openai",
+   "file": "sources/iconify/openai.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "iconify:openai-icon",
+   "file": "sources/iconify/openai-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "wvl:openai-icon",
+   "file": "sources/wvl/openai-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "wvl:openai",
+   "file": "sources/wvl/openai.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "merged:openai-icon",
+   "file": "sources/openai-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/openai.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://openai.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/openai-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://openai.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "dark_variant": "white",
+ "added_at": "2026-07-27",
+ "has_png": true,
+ "has_svg": true
+}

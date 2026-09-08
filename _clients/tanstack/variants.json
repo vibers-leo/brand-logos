@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "svgl-tanstack_light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/tanstack_light.svg",
+    "png": "sources/svgl/tanstack_light.png"
+   },
+   "aspect": 0.7641,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-tanstack_wordmark_light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/tanstack_wordmark_light.svg",
+    "png": "sources/svgl/tanstack_wordmark_light.png"
+   },
+   "aspect": 6.4516,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

@@ -48,6 +48,36 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-spark-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/spark-color.svg",
+    "png": "sources/lobe/spark-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-spark-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/spark-text.svg",
+    "png": "sources/lobe/spark-text.png"
+   },
+   "aspect": 5.7971,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

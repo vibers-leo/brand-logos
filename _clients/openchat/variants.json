@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "openchat",
+ "primary": "lobe-openchat-text",
+ "variants": [
+  {
+   "key": "lobe-openchat-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/openchat-color.svg",
+    "png": "sources/lobe/openchat-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-openchat-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/openchat-text.svg",
+    "png": "sources/lobe/openchat-text.png"
+   },
+   "aspect": 9.0909,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

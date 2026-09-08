@@ -81,6 +81,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 102
+  },
+  {
+   "key": "svgl-mysql-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/mysql-wordmark-light.svg",
+    "png": "sources/svgl/mysql-wordmark-light.png"
+   },
+   "aspect": 1.4679,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

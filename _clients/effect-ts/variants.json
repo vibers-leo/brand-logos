@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "effect-ts",
+ "primary": "svgl-effect_light",
+ "variants": [
+  {
+   "key": "svgl-effect_light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/effect_light.svg",
+    "png": "sources/svgl/effect_light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

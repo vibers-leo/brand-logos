@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "layers",
+ "primary": "svgl-layers_light",
+ "variants": [
+  {
+   "key": "svgl-layers_light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/layers_light.svg",
+    "png": "sources/svgl/layers_light.png"
+   },
+   "aspect": 0.9697,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

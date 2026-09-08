@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "submodel",
+ "primary": "lobe-submodel-text",
+ "variants": [
+  {
+   "key": "lobe-submodel-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/submodel-color.svg",
+    "png": "sources/lobe/submodel-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-submodel-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/submodel-text.svg",
+    "png": "sources/lobe/submodel-text.png"
+   },
+   "aspect": 8.2474,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

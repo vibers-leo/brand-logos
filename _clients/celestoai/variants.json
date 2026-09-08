@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "celestoai",
+ "primary": "lobe-celestoai-text",
+ "variants": [
+  {
+   "key": "lobe-celestoai-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/celestoai-color.svg",
+    "png": "sources/lobe/celestoai-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-celestoai-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/celestoai-text.svg",
+    "png": "sources/lobe/celestoai-text.png"
+   },
+   "aspect": 8.6022,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

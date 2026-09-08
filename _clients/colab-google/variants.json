@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-colab-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/colab-text.svg",
+    "png": "sources/lobe/colab-text.png"
+   },
+   "aspect": 8.4211,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

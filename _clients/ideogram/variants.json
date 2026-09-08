@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-ideogram-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/ideogram-text.svg",
+    "png": "sources/lobe/ideogram-text.png"
+   },
+   "aspect": 5.8824,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

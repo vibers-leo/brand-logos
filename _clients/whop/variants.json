@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "svgl-whop",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/whop.svg",
+    "png": "sources/svgl/whop.png"
+   },
+   "aspect": 1.9512,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-nousresearch-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/nousresearch-text.svg",
+    "png": "sources/lobe/nousresearch-text.png"
+   },
+   "aspect": 3.4335,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

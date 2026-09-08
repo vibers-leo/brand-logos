@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "svgl-nuxt-content-wordmark-light",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/nuxt-content-wordmark-light.svg",
+    "png": "sources/svgl/nuxt-content-wordmark-light.png"
+   },
+   "aspect": 8.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

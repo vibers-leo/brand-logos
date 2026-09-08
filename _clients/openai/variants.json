@@ -61,6 +61,36 @@
      "file": "sources/wvl/openai.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-openai",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/openai.svg",
+    "png": "sources/lobe/openai.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-openai-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/openai-text.svg",
+    "png": "sources/lobe/openai-text.png"
+   },
+   "aspect": 5.3691,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

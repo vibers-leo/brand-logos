@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kibo-ui",
+ "primary": "svgl-kibo-ui-light",
+ "variants": [
+  {
+   "key": "svgl-kibo-ui-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/kibo-ui-light.svg",
+    "png": "sources/svgl/kibo-ui-light.png"
+   },
+   "aspect": 1.0088,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "svgl-base-ui",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/base-ui.svg",
+    "png": "sources/svgl/base-ui.png"
+   },
+   "aspect": 0.7086,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

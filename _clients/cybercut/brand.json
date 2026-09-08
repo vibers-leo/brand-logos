@@ -1,1 +1,44 @@
-{"id":"cybercut","name_ko":"CyberCut","name_en":"CyberCut","category":"IT·테크","folder":"_clients/cybercut","website":"https://cybercut.ai","domain":"cybercut.ai","logo_svg":"logo.svg","has_svg":true,"logo_png":true,"has_png":true,"svg_source":"thesvg","license":"MIT","added_at":"2026-08-28","aliases":[],"sources":[{"provider":"thesvg","file":"logo.svg","label":"default","origin_file":"cybercut/default.svg"}],"dark_variant":"white"}
+{
+ "id": "cybercut",
+ "name_ko": "CyberCut",
+ "name_en": "CyberCut",
+ "category": "IT·테크",
+ "folder": "_clients/cybercut",
+ "website": "https://cybercut.ai",
+ "domain": "cybercut.ai",
+ "logo_svg": "logo.svg",
+ "has_svg": true,
+ "logo_png": true,
+ "has_png": true,
+ "svg_source": "thesvg",
+ "license": "MIT",
+ "added_at": "2026-08-28",
+ "aliases": [],
+ "sources": [
+  {
+   "provider": "thesvg",
+   "file": "logo.svg",
+   "label": "default",
+   "origin_file": "cybercut/default.svg"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/cybercut.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://cybercut.ai",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/cybercut-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://cybercut.ai",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "dark_variant": "white"
+}

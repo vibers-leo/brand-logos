@@ -21,6 +21,36 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-nvidia-icon-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/nvidia-icon-light.svg",
+    "png": "sources/svgl/nvidia-icon-light.png"
+   },
+   "aspect": 1.3582,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-nvidia-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/nvidia-wordmark-light.svg",
+    "png": "sources/svgl/nvidia-wordmark-light.png"
+   },
+   "aspect": 5.4795,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

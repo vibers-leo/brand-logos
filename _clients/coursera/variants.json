@@ -48,6 +48,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 101
+  },
+  {
+   "key": "svgl-coursera",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/coursera.svg",
+    "png": "sources/svgl/coursera.png"
+   },
+   "aspect": 7.0175,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

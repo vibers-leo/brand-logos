@@ -33,6 +33,21 @@
      "file": "sources/wvl/nx.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-nx_light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/nx_light.svg",
+    "png": "sources/svgl/nx_light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

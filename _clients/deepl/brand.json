@@ -1,1 +1,40 @@
-{"id":"deepl","name_ko":"DeepL","name_en":"DeepL","category":"IT·테크","logo_svg":"logo.svg","logo_png":true,"added_at":"2026-08-05","domain":"deepl.com","dark_variant":"white","has_png":true,"sources":[{"provider":"vectorlogozone","file":"sources/vlz/wide.svg","label":"가로조합형"}],"has_svg":true}
+{
+ "id": "deepl",
+ "name_ko": "DeepL",
+ "name_en": "DeepL",
+ "category": "IT·테크",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "added_at": "2026-08-05",
+ "domain": "deepl.com",
+ "dark_variant": "white",
+ "has_png": true,
+ "sources": [
+  {
+   "provider": "vectorlogozone",
+   "file": "sources/vlz/wide.svg",
+   "label": "가로조합형"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/deepl-color.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://deepl.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/deepl-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://deepl.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "has_svg": true,
+ "website": "https://deepl.com",
+ "website_from": "domain"
+}

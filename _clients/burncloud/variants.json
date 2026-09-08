@@ -21,6 +21,36 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-burncloud-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/burncloud-color.svg",
+    "png": "sources/lobe/burncloud-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-burncloud-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/burncloud-text.svg",
+    "png": "sources/lobe/burncloud-text.png"
+   },
+   "aspect": 10.8108,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "react-wheel-picker",
+ "primary": "svgl-react-wheel-picker_light",
+ "variants": [
+  {
+   "key": "svgl-react-wheel-picker_light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/react-wheel-picker_light.svg",
+    "png": "sources/svgl/react-wheel-picker_light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

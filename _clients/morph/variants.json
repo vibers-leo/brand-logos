@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-morph-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/morph-text.svg",
+    "png": "sources/lobe/morph-text.png"
+   },
+   "aspect": 4.6784,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

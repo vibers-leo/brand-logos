@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-hedra-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/hedra-text.svg",
+    "png": "sources/lobe/hedra-text.png"
+   },
+   "aspect": 5.0633,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

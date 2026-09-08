@@ -44,6 +44,51 @@
      "file": "sources/anthropic-icon.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-anthropic",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/anthropic.svg",
+    "png": "sources/lobe/anthropic.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-anthropic-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/anthropic-text.svg",
+    "png": "sources/lobe/anthropic-text.png"
+   },
+   "aspect": 11.4286,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
+  },
+  {
+   "key": "svgl-anthropic_black_wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/anthropic_black_wordmark.svg",
+    "png": "sources/svgl/anthropic_black_wordmark.png"
+   },
+   "aspect": 7.619,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 104
   }
  ]
 }

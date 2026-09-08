@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "svgl-bmc",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/bmc.svg",
+    "png": "sources/svgl/bmc.png"
+   },
+   "aspect": 0.6914,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

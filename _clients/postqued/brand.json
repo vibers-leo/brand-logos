@@ -1,0 +1,25 @@
+{
+ "id": "postqued",
+ "name_ko": "Postqued",
+ "name_en": "Postqued",
+ "category": "IT·테크",
+ "website": "https://postqued.com",
+ "domain": "",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "has_svg": true,
+ "has_png": true,
+ "added_at": "2026-09-08",
+ "svg_source": "svgl",
+ "sources": [
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/postqued-light.svg",
+   "label": "SVGL · 심볼",
+   "source_url": "https://postqued.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ]
+}

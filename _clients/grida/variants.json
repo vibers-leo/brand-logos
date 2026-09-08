@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "grida",
+ "primary": "svgl-grida-wordmark-light",
+ "variants": [
+  {
+   "key": "svgl-grida-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/grida-light.svg",
+    "png": "sources/svgl/grida-light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-grida-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/grida-wordmark-light.svg",
+    "png": "sources/svgl/grida-wordmark-light.png"
+   },
+   "aspect": 3.1621,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

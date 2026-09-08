@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-nplcloud-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/nplcloud-text.svg",
+    "png": "sources/lobe/nplcloud-text.png"
+   },
+   "aspect": 8.7912,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

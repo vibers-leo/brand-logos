@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-turix-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/turix-text.svg",
+    "png": "sources/lobe/turix-text.png"
+   },
+   "aspect": 4.4944,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

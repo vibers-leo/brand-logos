@@ -21,6 +21,36 @@
    "provider": "logo.dev",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-luma-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/luma-color.svg",
+    "png": "sources/lobe/luma-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-luma-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/luma-text.svg",
+    "png": "sources/lobe/luma-text.png"
+   },
+   "aspect": 6.9565,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

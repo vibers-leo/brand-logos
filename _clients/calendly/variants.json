@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "svgl-calendly",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/calendly.svg",
+    "png": "sources/svgl/calendly.png"
+   },
+   "aspect": 1.4134,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

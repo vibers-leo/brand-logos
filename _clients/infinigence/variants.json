@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "lobe-infinigence-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/infinigence-text.svg",
+    "png": "sources/lobe/infinigence-text.png"
+   },
+   "aspect": 9.3023,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

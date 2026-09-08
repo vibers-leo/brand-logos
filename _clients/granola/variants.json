@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "granola",
+ "primary": "svgl-granola-wordmark-light",
+ "variants": [
+  {
+   "key": "svgl-granola-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/granola-light.svg",
+    "png": "sources/svgl/granola-light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-granola-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/granola-wordmark-light.svg",
+    "png": "sources/svgl/granola-wordmark-light.png"
+   },
+   "aspect": 4.6243,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

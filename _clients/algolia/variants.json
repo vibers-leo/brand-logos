@@ -49,6 +49,21 @@
      "file": "sources/wvl/algolia.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-algolia",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/algolia.svg",
+    "png": "sources/svgl/algolia.png"
+   },
+   "aspect": 4.0404,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

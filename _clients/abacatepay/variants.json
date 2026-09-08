@@ -43,6 +43,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "svgl-abacatepay-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/abacatepay-wordmark.svg",
+    "png": "sources/svgl/abacatepay-wordmark.png"
+   },
+   "aspect": 2.4169,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

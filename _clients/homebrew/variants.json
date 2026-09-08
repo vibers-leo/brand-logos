@@ -38,6 +38,21 @@
      "file": "sources/devicons/homebrew-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-homebrew",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/homebrew.svg",
+    "png": "sources/svgl/homebrew.png"
+   },
+   "aspect": 0.6405,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

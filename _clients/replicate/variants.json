@@ -43,6 +43,36 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-replicate",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/replicate.svg",
+    "png": "sources/lobe/replicate.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-replicate-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/replicate-text.svg",
+    "png": "sources/lobe/replicate-text.png"
+   },
+   "aspect": 6.7227,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

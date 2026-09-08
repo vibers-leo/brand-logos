@@ -61,6 +61,21 @@
      "file": "sources/wvl/cloudinary.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-cloudinary",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/cloudinary.svg",
+    "png": "sources/svgl/cloudinary.png"
+   },
+   "aspect": 1.5238,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

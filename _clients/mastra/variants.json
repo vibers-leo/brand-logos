@@ -36,6 +36,36 @@
    "provider": "svgl",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-mastra-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/mastra-text.svg",
+    "png": "sources/lobe/mastra-text.png"
+   },
+   "aspect": 6.0606,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "svgl-mastra-icon-light",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/mastra-icon-light.svg",
+    "png": "sources/svgl/mastra-icon-light.png"
+   },
+   "aspect": 1.6129,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

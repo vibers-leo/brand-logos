@@ -33,6 +33,21 @@
      "file": "sources/wvl/xstate.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-xstate",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/xstate.svg",
+    "png": "sources/svgl/xstate.png"
+   },
+   "aspect": 1.9753,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

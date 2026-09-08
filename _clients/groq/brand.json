@@ -1,1 +1,42 @@
-{"id":"groq","name_ko":"Groq","name_en":"Groq","category":"IT·테크","domain":"groq.com","logo_svg":"logo.svg","logo_png":true,"source":"logo.dev:groq.com","sources":[{"provider":"logo.dev:groq.com","file":"logo.png","label":"실물형"},{"provider":"thesvg","file":"sources/thesvg/wordmark.svg","label":"워드마크형"}],"logo_quality":"ok","dark_variant":"transparent","added_at":"2026-07-27","svg_source":"brand-site:https://groq.com/favicon.svg","aliases":["그록"],"has_png":true,"has_svg":true}
+{
+ "id": "groq",
+ "name_ko": "Groq",
+ "name_en": "Groq",
+ "category": "IT·테크",
+ "domain": "groq.com",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "source": "logo.dev:groq.com",
+ "sources": [
+  {
+   "provider": "logo.dev:groq.com",
+   "file": "logo.png",
+   "label": "실물형"
+  },
+  {
+   "provider": "thesvg",
+   "file": "sources/thesvg/wordmark.svg",
+   "label": "워드마크형"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/groq_wordmark_light.svg",
+   "label": "SVGL · 워드마크",
+   "source_url": "https://groq.com/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "logo_quality": "ok",
+ "dark_variant": "transparent",
+ "added_at": "2026-07-27",
+ "svg_source": "brand-site:https://groq.com/favicon.svg",
+ "aliases": [
+  "그록"
+ ],
+ "has_png": true,
+ "has_svg": true,
+ "website": "https://groq.com",
+ "website_from": "domain"
+}

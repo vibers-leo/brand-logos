@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-dbrx-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/dbrx-text.svg",
+    "png": "sources/lobe/dbrx-text.png"
+   },
+   "aspect": 6.015,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

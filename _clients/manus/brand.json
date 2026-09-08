@@ -1,0 +1,52 @@
+{
+ "id": "manus",
+ "name_ko": "Manus",
+ "name_en": "Manus",
+ "category": "IT·테크",
+ "website": "https://manus.im",
+ "domain": "",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "has_svg": true,
+ "has_png": true,
+ "added_at": "2026-09-08",
+ "svg_source": "lobe",
+ "sources": [
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/manus.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://manus.im",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/manus-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://manus.im",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/manus.svg",
+   "label": "SVGL · 심볼",
+   "source_url": "https://www.manus.ai/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/manus-wordmark.svg",
+   "label": "SVGL · 워드마크",
+   "source_url": "https://www.manus.ai/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ]
+}

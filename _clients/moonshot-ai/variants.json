@@ -61,6 +61,36 @@
      "file": "sources/wvl/moonshot-ai.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-moonshot",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/moonshot.svg",
+    "png": "sources/lobe/moonshot.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-moonshot-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/moonshot-text.svg",
+    "png": "sources/lobe/moonshot-text.png"
+   },
+   "aspect": 10.6667,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

@@ -28,6 +28,21 @@
      "file": "sources/devicons/reflex-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-reflex-dark",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/reflex-dark.svg",
+    "png": "sources/svgl/reflex-dark.png"
+   },
+   "aspect": 4.6784,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

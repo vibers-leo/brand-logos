@@ -28,6 +28,36 @@
      "file": "sources/devicons/apachekafka-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-apache-kafka-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/apache-kafka-light.svg",
+    "png": "sources/svgl/apache-kafka-light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-apache-kafka-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/apache-kafka-wordmark-light.svg",
+    "png": "sources/svgl/apache-kafka-wordmark-light.png"
+   },
+   "aspect": 1.9002,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

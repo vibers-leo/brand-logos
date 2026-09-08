@@ -33,6 +33,21 @@
      "file": "sources/wvl/tor.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-tor",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/tor.svg",
+    "png": "sources/svgl/tor.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

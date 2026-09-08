@@ -61,6 +61,21 @@
      "file": "sources/wvl/posthog.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-posthog",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/posthog.svg",
+    "png": "sources/svgl/posthog.png"
+   },
+   "aspect": 1.6667,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

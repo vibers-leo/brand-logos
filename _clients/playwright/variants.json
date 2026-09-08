@@ -38,6 +38,21 @@
      "file": "sources/devicons/playwright-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-playwright",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/playwright.svg",
+    "png": "sources/svgl/playwright.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

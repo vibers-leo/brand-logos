@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "t3-stack",
+ "primary": "svgl-t3-dark",
+ "variants": [
+  {
+   "key": "svgl-t3-dark",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/t3-dark.svg",
+    "png": "sources/svgl/t3-dark.png"
+   },
+   "aspect": 1.2966,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

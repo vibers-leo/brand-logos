@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-statecloud-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/statecloud-text.svg",
+    "png": "sources/lobe/statecloud-text.png"
+   },
+   "aspect": 4.4944,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

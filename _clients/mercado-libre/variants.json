@@ -21,6 +21,21 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-mercado-libre-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/mercado-libre-wordmark.svg",
+    "png": "sources/svgl/mercado-libre-wordmark.png"
+   },
+   "aspect": 4.0609,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

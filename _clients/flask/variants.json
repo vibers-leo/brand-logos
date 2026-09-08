@@ -64,6 +64,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 102
+  },
+  {
+   "key": "svgl-flask-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/flask-wordmark-light.svg",
+    "png": "sources/svgl/flask-wordmark-light.png"
+   },
+   "aspect": 2.5559,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hermesagent",
+ "primary": "lobe-hermesagent-text",
+ "variants": [
+  {
+   "key": "lobe-hermesagent",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/hermesagent.svg",
+    "png": "sources/lobe/hermesagent.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-hermesagent-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/hermesagent-text.svg",
+    "png": "sources/lobe/hermesagent-text.png"
+   },
+   "aspect": 3.252,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

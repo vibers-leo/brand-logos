@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ivy-framework",
+ "primary": "svgl-ivy-framework",
+ "variants": [
+  {
+   "key": "svgl-ivy-framework",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/ivy-framework.svg",
+    "png": "sources/svgl/ivy-framework.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

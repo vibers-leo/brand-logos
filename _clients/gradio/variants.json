@@ -61,6 +61,36 @@
      "file": "sources/wvl/gradio.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-gradio-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/gradio-color.svg",
+    "png": "sources/lobe/gradio-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-gradio-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/gradio-text.svg",
+    "png": "sources/lobe/gradio-text.png"
+   },
+   "aspect": 4.6784,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

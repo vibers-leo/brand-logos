@@ -21,6 +21,36 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-upstage-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/upstage-color.svg",
+    "png": "sources/lobe/upstage-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-upstage-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/upstage-text.svg",
+    "png": "sources/lobe/upstage-text.png"
+   },
+   "aspect": 5.4422,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

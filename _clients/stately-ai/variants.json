@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "stately-ai",
+ "primary": "svgl-stately",
+ "variants": [
+  {
+   "key": "svgl-stately",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/stately.svg",
+    "png": "sources/svgl/stately.png"
+   },
+   "aspect": 2.4691,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

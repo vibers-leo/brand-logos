@@ -64,6 +64,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 102
+  },
+  {
+   "key": "svgl-pnpm_wordmark_light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/pnpm_wordmark_light.svg",
+    "png": "sources/svgl/pnpm_wordmark_light.png"
+   },
+   "aspect": 1.4134,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

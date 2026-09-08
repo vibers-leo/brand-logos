@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-dalle-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/dalle-text.svg",
+    "png": "sources/lobe/dalle-text.png"
+   },
+   "aspect": 5.298,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

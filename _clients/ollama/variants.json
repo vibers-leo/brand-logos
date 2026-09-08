@@ -21,6 +21,21 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "svgl-ollama_light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/ollama_light.svg",
+    "png": "sources/svgl/ollama_light.png"
+   },
+   "aspect": 0.7561,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

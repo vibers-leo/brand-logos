@@ -76,6 +76,36 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 102
+  },
+  {
+   "key": "lobe-claude-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/claude-color.svg",
+    "png": "sources/lobe/claude-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
+  },
+  {
+   "key": "lobe-claude-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/claude-text.svg",
+    "png": "sources/lobe/claude-text.png"
+   },
+   "aspect": 6.0606,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 104
   }
  ]
 }

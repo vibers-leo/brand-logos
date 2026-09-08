@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "goil",
+ "primary": "svgl-goil-wordmark",
+ "variants": [
+  {
+   "key": "svgl-goil",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/goil.svg",
+    "png": "sources/svgl/goil.png"
+   },
+   "aspect": 0.9913,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-goil-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/goil-wordmark.svg",
+    "png": "sources/svgl/goil-wordmark.png"
+   },
+   "aspect": 3.4934,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

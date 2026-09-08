@@ -1,1 +1,70 @@
-{"id":"oxc","name_ko":"Oxc","name_en":"Oxc","category":"IT·테크","domain":"","logo_svg":"logo.svg","logo_png":true,"source":"iconify:oxc","sources":[{"provider":"iconify:oxc","file":"sources/iconify/oxc.svg","label":"컬러 심볼"},{"provider":"iconify:oxc-dark","file":"sources/iconify/oxc-dark.svg","label":"다크 버전"},{"provider":"iconify:oxc-icon","file":"sources/iconify/oxc-icon.svg","label":"아이콘형"},{"provider":"wvl:oxc-icon","file":"sources/wvl/oxc-icon.svg","label":"아이콘형"},{"provider":"wvl:oxc","file":"sources/wvl/oxc.svg","label":"컬러 심볼"},{"provider":"wvl:oxc-icon-dark","file":"sources/wvl/oxc-icon-dark.svg","label":"컬러 심볼"},{"provider":"wvl:oxc-dark","file":"sources/wvl/oxc-dark.svg","label":"컬러 심볼"},{"provider":"merged:oxc-icon","file":"sources/oxc-icon.svg","label":"아이콘형"},{"provider":"merged:oxc-dark","file":"sources/oxc-dark.svg","label":"다크 버전"}],"dark_variant":"white","added_at":"2026-07-27","has_png":true,"has_svg":true}
+{
+ "id": "oxc",
+ "name_ko": "Oxc",
+ "name_en": "Oxc",
+ "category": "IT·테크",
+ "domain": "",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "source": "iconify:oxc",
+ "sources": [
+  {
+   "provider": "iconify:oxc",
+   "file": "sources/iconify/oxc.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "iconify:oxc-dark",
+   "file": "sources/iconify/oxc-dark.svg",
+   "label": "다크 버전"
+  },
+  {
+   "provider": "iconify:oxc-icon",
+   "file": "sources/iconify/oxc-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "wvl:oxc-icon",
+   "file": "sources/wvl/oxc-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "wvl:oxc",
+   "file": "sources/wvl/oxc.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "wvl:oxc-icon-dark",
+   "file": "sources/wvl/oxc-icon-dark.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "wvl:oxc-dark",
+   "file": "sources/wvl/oxc-dark.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "merged:oxc-icon",
+   "file": "sources/oxc-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "merged:oxc-dark",
+   "file": "sources/oxc-dark.svg",
+   "label": "다크 버전"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/oxc.svg",
+   "label": "SVGL · 심볼",
+   "source_url": "https://oxc.rs/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "dark_variant": "white",
+ "added_at": "2026-07-27",
+ "has_png": true,
+ "has_svg": true
+}

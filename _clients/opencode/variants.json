@@ -36,6 +36,36 @@
    "provider": "svgl",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-opencode",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/opencode.svg",
+    "png": "sources/lobe/opencode.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-opencode-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/opencode-text.svg",
+    "png": "sources/lobe/opencode-text.png"
+   },
+   "aspect": 8.6022,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

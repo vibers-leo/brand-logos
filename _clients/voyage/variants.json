@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-voyage-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/voyage-text.svg",
+    "png": "sources/lobe/voyage-text.png"
+   },
+   "aspect": 8.7912,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -49,6 +49,21 @@
      "file": "sources/wvl/hugo.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-hugo",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/hugo.svg",
+    "png": "sources/svgl/hugo.png"
+   },
+   "aspect": 3.8095,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

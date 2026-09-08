@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-modelscope-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/modelscope-color.svg",
+    "png": "sources/lobe/modelscope-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-modelscope-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/modelscope-text.svg",
+    "png": "sources/lobe/modelscope-text.png"
+   },
+   "aspect": 9.0909,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

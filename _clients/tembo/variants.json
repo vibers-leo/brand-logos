@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "tembo",
+ "primary": "svgl-tembo-wordmark",
+ "variants": [
+  {
+   "key": "svgl-tembo",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/tembo.svg",
+    "png": "sources/svgl/tembo.png"
+   },
+   "aspect": 1.0063,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-tembo-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/tembo-wordmark.svg",
+    "png": "sources/svgl/tembo-wordmark.png"
+   },
+   "aspect": 4.7337,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

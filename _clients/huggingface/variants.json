@@ -36,6 +36,36 @@
    "provider": "gilbarbara",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-huggingface-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/huggingface-color.svg",
+    "png": "sources/lobe/huggingface-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-huggingface-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/huggingface-text.svg",
+    "png": "sources/lobe/huggingface-text.png"
+   },
+   "aspect": 9.5238,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

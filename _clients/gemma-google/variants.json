@@ -21,6 +21,36 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-gemma-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/gemma-color.svg",
+    "png": "sources/lobe/gemma-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-gemma-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/gemma-text.svg",
+    "png": "sources/lobe/gemma-text.png"
+   },
+   "aspect": 6.4516,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

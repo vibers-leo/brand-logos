@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-clipdrop-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/clipdrop-text.svg",
+    "png": "sources/lobe/clipdrop-text.png"
+   },
+   "aspect": 6.0606,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

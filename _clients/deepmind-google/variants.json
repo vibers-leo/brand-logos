@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-deepmind-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/deepmind-text.svg",
+    "png": "sources/lobe/deepmind-text.png"
+   },
+   "aspect": 11.2676,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

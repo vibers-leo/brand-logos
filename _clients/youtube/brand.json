@@ -1,1 +1,42 @@
-{"id":"youtube","name_ko":"유튜브","name_en":"YouTube","category":"미디어·엔터","folder":"_clients/youtube","logo_svg":"logo.svg","svg_source":"simple-icons","logo_png":true,"dark_variant":"transparent","sources":[{"provider":"iconify:youtube-icon","file":"sources/iconify/youtube-icon.svg","label":"아이콘형"},{"provider":"merged:youtube-icon","file":"sources/youtube-icon.svg","label":"아이콘형"},{"provider":"supertiny","file":"sources/supertiny/youtube.svg","label":"앱 아이콘 · SuperTinyIcons"}],"added_at":"2026-08-05","domain":"youtube.com","website":"youtube.com","has_png":true,"has_svg":true}
+{
+ "id": "youtube",
+ "name_ko": "유튜브",
+ "name_en": "YouTube",
+ "category": "미디어·엔터",
+ "folder": "_clients/youtube",
+ "logo_svg": "logo.svg",
+ "svg_source": "simple-icons",
+ "logo_png": true,
+ "dark_variant": "transparent",
+ "sources": [
+  {
+   "provider": "iconify:youtube-icon",
+   "file": "sources/iconify/youtube-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "merged:youtube-icon",
+   "file": "sources/youtube-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "supertiny",
+   "file": "sources/supertiny/youtube.svg",
+   "label": "앱 아이콘 · SuperTinyIcons"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/youtube-wordmark-light.svg",
+   "label": "SVGL · 워드마크",
+   "source_url": "https://www.youtube.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "added_at": "2026-08-05",
+ "domain": "youtube.com",
+ "website": "youtube.com",
+ "has_png": true,
+ "has_svg": true
+}

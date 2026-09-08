@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "lobe-aionlabs-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/aionlabs-text.svg",
+    "png": "sources/lobe/aionlabs-text.png"
+   },
+   "aspect": 8.4211,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

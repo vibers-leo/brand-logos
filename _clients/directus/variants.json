@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-directus",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/directus.svg",
+    "png": "sources/svgl/directus.png"
+   },
+   "aspect": 0.9963,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

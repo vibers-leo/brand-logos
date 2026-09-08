@@ -51,6 +51,36 @@
      "file": "sources/iconify/model-context-protocol.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-mcp",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/mcp.svg",
+    "png": "sources/lobe/mcp.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-mcp-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/mcp-text.svg",
+    "png": "sources/lobe/mcp-text.png"
+   },
+   "aspect": 21.0526,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

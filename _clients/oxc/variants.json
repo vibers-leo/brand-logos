@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "oxc",
+ "primary": "original",
+ "variants": [
+  {
+   "key": "original",
+   "form": "unknown",
+   "lang": "unknown",
+   "color": "color",
+   "label": "기존 로고",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo.png"
+   },
+   "origin": "collected",
+   "order": 0
+  },
+  {
+   "key": "svgl-oxc",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/oxc.svg",
+    "png": "sources/svgl/oxc.png"
+   },
+   "aspect": 1.043,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

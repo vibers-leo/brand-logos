@@ -1,1 +1,67 @@
-{"id":"cerebras","name_ko":"세레브라스 시스템즈","name_en":"Cerebras","category":"IT·테크","folder":"_clients/cerebras","website":"https://www.cerebras.ai/","domain":"cerebras.ai","logo_svg":"logo.svg","has_svg":true,"svg_source":"wikimedia","wikidata":"Q66604886","added_at":"2026-08-18","sources":[{"provider":"wikimedia","file":"logo.svg","label":"위키미디어 커먼즈 (Cerebras logo.svg)"}],"logo_png":true,"has_png":true,"dark_variant":"white","country":"미국","origin":"GLOBAL","fame":14,"aliases":["Cerebras Systems","Cerebras Systems Inc."]}
+{
+ "id": "cerebras",
+ "name_ko": "세레브라스 시스템즈",
+ "name_en": "Cerebras",
+ "category": "IT·테크",
+ "folder": "_clients/cerebras",
+ "website": "https://www.cerebras.ai/",
+ "domain": "cerebras.ai",
+ "logo_svg": "logo.svg",
+ "has_svg": true,
+ "svg_source": "wikimedia",
+ "wikidata": "Q66604886",
+ "added_at": "2026-08-18",
+ "sources": [
+  {
+   "provider": "wikimedia",
+   "file": "logo.svg",
+   "label": "위키미디어 커먼즈 (Cerebras logo.svg)"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/cerebras-color.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://cerebras.ai",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/cerebras-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://cerebras.ai",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/cerebras-dark.svg",
+   "label": "SVGL · 심볼",
+   "source_url": "https://www.cerebras.ai/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/cerebras-wordmark.svg",
+   "label": "SVGL · 워드마크",
+   "source_url": "https://www.cerebras.ai/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "logo_png": true,
+ "has_png": true,
+ "dark_variant": "white",
+ "country": "미국",
+ "origin": "GLOBAL",
+ "fame": 14,
+ "aliases": [
+  "Cerebras Systems",
+  "Cerebras Systems Inc."
+ ]
+}

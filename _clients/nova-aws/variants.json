@@ -21,6 +21,36 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-nova-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/nova-color.svg",
+    "png": "sources/lobe/nova-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-nova-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/nova-text.svg",
+    "png": "sources/lobe/nova-text.png"
+   },
+   "aspect": 12.1212,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

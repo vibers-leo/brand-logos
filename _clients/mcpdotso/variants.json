@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-mcpso-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/mcpso-text.svg",
+    "png": "sources/lobe/mcpso-text.png"
+   },
+   "aspect": 6.0606,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

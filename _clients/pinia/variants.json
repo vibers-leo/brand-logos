@@ -33,6 +33,21 @@
      "file": "sources/wvl/pinia.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-pinia",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/pinia.svg",
+    "png": "sources/svgl/pinia.png"
+   },
+   "aspect": 0.7737,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

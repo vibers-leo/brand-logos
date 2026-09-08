@@ -21,6 +21,36 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-zeabur-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/zeabur-light.svg",
+    "png": "sources/svgl/zeabur-light.png"
+   },
+   "aspect": 1.2841,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-zeabur_wordmark_light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/zeabur_wordmark_light.svg",
+    "png": "sources/svgl/zeabur_wordmark_light.png"
+   },
+   "aspect": 5.2632,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

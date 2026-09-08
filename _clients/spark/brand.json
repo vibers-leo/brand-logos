@@ -1,1 +1,49 @@
-{"id":"spark","name_ko":"Spark","name_en":"Spark","category":"IT·테크","domain":"","logo_svg":"logo.svg","logo_png":true,"source":"iconify:spark","sources":[{"provider":"iconify:spark","file":"sources/iconify/spark.svg","label":"컬러 심볼"},{"provider":"wvl:spark","file":"sources/wvl/spark.svg","label":"컬러 심볼"},{"provider":"wikimedia","file":"sources/commons-wm/wordmark.svg","label":"워드마크"}],"dark_variant":"white","added_at":"2026-07-27","has_png":true,"has_svg":true}
+{
+ "id": "spark",
+ "name_ko": "Spark",
+ "name_en": "Spark",
+ "category": "IT·테크",
+ "domain": "",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "source": "iconify:spark",
+ "sources": [
+  {
+   "provider": "iconify:spark",
+   "file": "sources/iconify/spark.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "wvl:spark",
+   "file": "sources/wvl/spark.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "wikimedia",
+   "file": "sources/commons-wm/wordmark.svg",
+   "label": "워드마크"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/spark-color.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://xinghuo.xfyun.cn",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/spark-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://xinghuo.xfyun.cn",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "dark_variant": "white",
+ "added_at": "2026-07-27",
+ "has_png": true,
+ "has_svg": true
+}

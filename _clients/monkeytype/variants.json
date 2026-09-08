@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-monkeytype-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/monkeytype-wordmark-light.svg",
+    "png": "sources/svgl/monkeytype-wordmark-light.png"
+   },
+   "aspect": 7.767,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

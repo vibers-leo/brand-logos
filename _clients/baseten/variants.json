@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-baseten-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/baseten-text.svg",
+    "png": "sources/lobe/baseten-text.png"
+   },
+   "aspect": 7.9208,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

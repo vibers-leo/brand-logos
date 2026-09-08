@@ -48,6 +48,36 @@
      "file": "sources/wvl/github-copilot.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-githubcopilot",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/githubcopilot.svg",
+    "png": "sources/lobe/githubcopilot.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-githubcopilot-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/githubcopilot-text.svg",
+    "png": "sources/lobe/githubcopilot-text.png"
+   },
+   "aspect": 9.6386,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

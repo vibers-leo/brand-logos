@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "svgl-kick-light",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/kick-light.svg",
+    "png": "sources/svgl/kick-light.png"
+   },
+   "aspect": 3.1128,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

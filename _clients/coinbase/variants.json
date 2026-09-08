@@ -21,6 +21,21 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "svgl-coinbase",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/coinbase.svg",
+    "png": "sources/svgl/coinbase.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

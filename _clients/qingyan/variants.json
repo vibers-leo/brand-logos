@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-qingyan-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/qingyan-text.svg",
+    "png": "sources/lobe/qingyan-text.png"
+   },
+   "aspect": 5.3691,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-lightricks-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/lightricks-text.svg",
+    "png": "sources/lobe/lightricks-text.png"
+   },
+   "aspect": 5.4422,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

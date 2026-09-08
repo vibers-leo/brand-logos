@@ -33,6 +33,21 @@
      "file": "sources/wvl/hono.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-hono",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/hono.svg",
+    "png": "sources/svgl/hono.png"
+   },
+   "aspect": 0.7759,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

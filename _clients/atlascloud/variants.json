@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-atlascloud-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/atlascloud-text.svg",
+    "png": "sources/lobe/atlascloud-text.png"
+   },
+   "aspect": 10.1266,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

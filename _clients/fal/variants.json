@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-fal-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/fal-text.svg",
+    "png": "sources/lobe/fal-text.png"
+   },
+   "aspect": 1.937,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -21,6 +21,51 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "lobe-inflection-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/inflection-text.svg",
+    "png": "sources/lobe/inflection-text.png"
+   },
+   "aspect": 9.6386,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-inflectionai_light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/inflectionai_light.svg",
+    "png": "sources/svgl/inflectionai_light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "svgl-inflectionai_wordmark_light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/inflectionai_wordmark_light.svg",
+    "png": "sources/svgl/inflectionai_wordmark_light.png"
+   },
+   "aspect": 5.2288,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

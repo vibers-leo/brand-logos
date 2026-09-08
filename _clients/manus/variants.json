@@ -1,0 +1,68 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "manus",
+ "primary": "lobe-manus-text",
+ "variants": [
+  {
+   "key": "lobe-manus",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/manus.svg",
+    "png": "sources/lobe/manus.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-manus-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/manus-text.svg",
+    "png": "sources/lobe/manus-text.png"
+   },
+   "aspect": 8.1633,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-manus",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/manus.svg",
+    "png": "sources/svgl/manus.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "svgl-manus-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/manus-wordmark.svg",
+    "png": "sources/svgl/manus-wordmark.png"
+   },
+   "aspect": 3.4483,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
+  }
+ ]
+}

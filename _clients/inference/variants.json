@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-inference-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/inference-text.svg",
+    "png": "sources/lobe/inference-text.png"
+   },
+   "aspect": 9.8765,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

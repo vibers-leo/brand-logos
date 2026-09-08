@@ -1,1 +1,35 @@
-{"id":"inception-labs","name_ko":"Inception Labs","name_en":"Inception Labs","category":"IT·테크","folder":"_clients/inception-labs","website":"https://inceptionlabs.ai","domain":"inceptionlabs.ai","logo_svg":"logo.svg","has_svg":true,"logo_png":true,"has_png":true,"svg_source":"thesvg","license":"MIT","added_at":"2026-08-28","aliases":[],"sources":[{"provider":"thesvg","file":"logo.svg","label":"default","origin_file":"inception-labs/default.svg"}],"dark_variant":"white"}
+{
+ "id": "inception-labs",
+ "name_ko": "Inception Labs",
+ "name_en": "Inception Labs",
+ "category": "IT·테크",
+ "folder": "_clients/inception-labs",
+ "website": "https://inceptionlabs.ai",
+ "domain": "inceptionlabs.ai",
+ "logo_svg": "logo.svg",
+ "has_svg": true,
+ "logo_png": true,
+ "has_png": true,
+ "svg_source": "thesvg",
+ "license": "MIT",
+ "added_at": "2026-08-28",
+ "aliases": [],
+ "sources": [
+  {
+   "provider": "thesvg",
+   "file": "logo.svg",
+   "label": "default",
+   "origin_file": "inception-labs/default.svg"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/inception-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://inceptionlabs.ai",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "dark_variant": "white"
+}

@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-aimass-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/aimass-text.svg",
+    "png": "sources/lobe/aimass-text.png"
+   },
+   "aspect": 5.298,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

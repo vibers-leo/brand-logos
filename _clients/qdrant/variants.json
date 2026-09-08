@@ -61,6 +61,21 @@
      "file": "sources/qdrant-icon.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-qdrant-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/qdrant-wordmark-light.svg",
+    "png": "sources/svgl/qdrant-wordmark-light.png"
+   },
+   "aspect": 3.7736,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

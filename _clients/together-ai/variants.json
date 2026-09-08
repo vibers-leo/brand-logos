@@ -21,6 +21,21 @@
    "provider": "logo.dev",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "svgl-togetherai_light",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/togetherai_light.svg",
+    "png": "sources/svgl/togetherai_light.png"
+   },
+   "aspect": 4.3243,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -61,6 +61,36 @@
      "file": "sources/wvl/deepseek.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-deepseek-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/deepseek-color.svg",
+    "png": "sources/lobe/deepseek-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-deepseek-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/deepseek-text.svg",
+    "png": "sources/lobe/deepseek-text.png"
+   },
+   "aspect": 8.1633,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "svgl-google-slides",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/google-slides.svg",
+    "png": "sources/svgl/google-slides.png"
+   },
+   "aspect": 0.7299,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

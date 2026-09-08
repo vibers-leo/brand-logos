@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-zeroone-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/zeroone-text.svg",
+    "png": "sources/lobe/zeroone-text.png"
+   },
+   "aspect": 5.5172,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

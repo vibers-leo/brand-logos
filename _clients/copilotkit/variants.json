@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "copilotkit",
+ "primary": "lobe-copilotkit-text",
+ "variants": [
+  {
+   "key": "lobe-copilotkit-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/copilotkit-color.svg",
+    "png": "sources/lobe/copilotkit-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-copilotkit-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/copilotkit-text.svg",
+    "png": "sources/lobe/copilotkit-text.png"
+   },
+   "aspect": 7.3394,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

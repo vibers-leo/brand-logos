@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "zaia-endless",
+ "primary": "svgl-zaia-endless",
+ "variants": [
+  {
+   "key": "svgl-zaia-endless",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/zaia-endless.svg",
+    "png": "sources/svgl/zaia-endless.png"
+   },
+   "aspect": 0.5626,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

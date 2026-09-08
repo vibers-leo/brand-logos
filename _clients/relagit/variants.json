@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "relagit",
+ "primary": "svgl-relagit-wordmark-light",
+ "variants": [
+  {
+   "key": "svgl-relagit-icon-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/relagit-icon-light.svg",
+    "png": "sources/svgl/relagit-icon-light.png"
+   },
+   "aspect": 0.8421,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-relagit-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/relagit-wordmark-light.svg",
+    "png": "sources/svgl/relagit-wordmark-light.png"
+   },
+   "aspect": 3.8278,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

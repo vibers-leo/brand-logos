@@ -1,1 +1,32 @@
-{"id":"crewai","name_ko":"CrewAI","name_en":"CrewAI","category":"IT·테크","logo_svg":"logo.svg","logo_png":true,"added_at":"2026-08-05","dark_variant":"white","has_png":true,"has_svg":true}
+{
+ "id": "crewai",
+ "name_ko": "CrewAI",
+ "name_en": "CrewAI",
+ "category": "IT·테크",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "added_at": "2026-08-05",
+ "dark_variant": "white",
+ "has_png": true,
+ "has_svg": true,
+ "sources": [
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/crewai-color.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://crewai.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/crewai-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://crewai.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ]
+}

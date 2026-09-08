@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "svgl-tina",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/tina.svg",
+    "png": "sources/svgl/tina.png"
+   },
+   "aspect": 0.7214,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-tina_wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/tina_wordmark.svg",
+    "png": "sources/svgl/tina_wordmark.png"
+   },
+   "aspect": 4.0201,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

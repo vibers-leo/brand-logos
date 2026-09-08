@@ -21,6 +21,36 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-chatglm-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/chatglm-color.svg",
+    "png": "sources/lobe/chatglm-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-chatglm-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/chatglm-text.svg",
+    "png": "sources/lobe/chatglm-text.png"
+   },
+   "aspect": 6.1069,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kling",
+ "primary": "original",
+ "variants": [
+  {
+   "key": "original",
+   "form": "unknown",
+   "lang": "unknown",
+   "color": "color",
+   "label": "기존 로고",
+   "files": {
+    "png": "logo.png"
+   },
+   "origin": "collected",
+   "order": 0
+  },
+  {
+   "key": "lobe-kling-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/kling-color.svg",
+    "png": "sources/lobe/kling-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-kling-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/kling-text.svg",
+    "png": "sources/lobe/kling-text.png"
+   },
+   "aspect": 5.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  }
+ ]
+}

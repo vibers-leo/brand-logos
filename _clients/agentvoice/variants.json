@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "agentvoice",
+ "primary": "lobe-agentvoice-text",
+ "variants": [
+  {
+   "key": "lobe-agentvoice-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/agentvoice-color.svg",
+    "png": "sources/lobe/agentvoice-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-agentvoice-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/agentvoice-text.svg",
+    "png": "sources/lobe/agentvoice-text.png"
+   },
+   "aspect": 7.6923,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

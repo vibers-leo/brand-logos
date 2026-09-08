@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-tavily-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/tavily-text.svg",
+    "png": "sources/lobe/tavily-text.png"
+   },
+   "aspect": 3.8835,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

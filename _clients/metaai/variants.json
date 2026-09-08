@@ -21,6 +21,36 @@
    "provider": "simpleicons/metaai",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-metaai-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/metaai-color.svg",
+    "png": "sources/lobe/metaai-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-metaai-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/metaai-text.svg",
+    "png": "sources/lobe/metaai-text.png"
+   },
+   "aspect": 6.2992,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

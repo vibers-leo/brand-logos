@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "codeflicker",
+ "primary": "lobe-codeflicker-text",
+ "variants": [
+  {
+   "key": "lobe-codeflicker-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/codeflicker-color.svg",
+    "png": "sources/lobe/codeflicker-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-codeflicker-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/codeflicker-text.svg",
+    "png": "sources/lobe/codeflicker-text.png"
+   },
+   "aspect": 9.5238,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

@@ -1,1 +1,40 @@
-{"id":"kagi","name_ko":"Kagi","name_en":"Kagi","category":"IT·테크","logo_svg":"logo.svg","logo_png":true,"added_at":"2026-08-05","domain":"kagi.com","dark_variant":"white","has_png":true,"has_svg":true,"website":"https://kagi.com","website_from":"domain","sources":[{"provider":"supertiny","file":"sources/supertiny/kagi.svg","label":"앱 아이콘 · SuperTinyIcons"}]}
+{
+ "id": "kagi",
+ "name_ko": "Kagi",
+ "name_en": "Kagi",
+ "category": "IT·테크",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "added_at": "2026-08-05",
+ "domain": "kagi.com",
+ "dark_variant": "white",
+ "has_png": true,
+ "has_svg": true,
+ "website": "https://kagi.com",
+ "website_from": "domain",
+ "sources": [
+  {
+   "provider": "supertiny",
+   "file": "sources/supertiny/kagi.svg",
+   "label": "앱 아이콘 · SuperTinyIcons"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/kagi.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://kagi.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/kagi-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://kagi.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ]
+}

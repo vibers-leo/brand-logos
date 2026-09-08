@@ -53,6 +53,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 101
+  },
+  {
+   "key": "svgl-soundcloud-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/soundcloud-wordmark.svg",
+    "png": "sources/svgl/soundcloud-wordmark.png"
+   },
+   "aspect": 8.4211,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

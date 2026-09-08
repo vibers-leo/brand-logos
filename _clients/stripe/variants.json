@@ -21,6 +21,36 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "svgl-stripe",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/stripe.svg",
+    "png": "sources/svgl/stripe.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-stripe_wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/stripe_wordmark.svg",
+    "png": "sources/svgl/stripe_wordmark.png"
+   },
+   "aspect": 2.3952,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

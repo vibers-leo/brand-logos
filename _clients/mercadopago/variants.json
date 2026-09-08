@@ -21,6 +21,21 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-mercado-pago-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/mercado-pago-wordmark.svg",
+    "png": "sources/svgl/mercado-pago-wordmark.png"
+   },
+   "aspect": 3.8462,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

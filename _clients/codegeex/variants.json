@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-codegeex-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/codegeex-text.svg",
+    "png": "sources/lobe/codegeex-text.png"
+   },
+   "aspect": 9.6386,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

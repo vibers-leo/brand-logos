@@ -33,6 +33,21 @@
      "file": "sources/wvl/zod.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-zod",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/zod.svg",
+    "png": "sources/svgl/zod.png"
+   },
+   "aspect": 1.2618,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

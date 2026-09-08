@@ -36,6 +36,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-deepl-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/deepl-color.svg",
+    "png": "sources/lobe/deepl-color.png"
+   },
+   "aspect": 1.5009,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-deepl-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/deepl-text.svg",
+    "png": "sources/lobe/deepl-text.png"
+   },
+   "aspect": 5.2632,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

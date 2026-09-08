@@ -1,1 +1,50 @@
-{"id":"posthog","name_ko":"Posthog","name_en":"Posthog","category":"IT·테크","domain":"","logo_svg":"logo.svg","logo_png":true,"source":"iconify:posthog","sources":[{"provider":"iconify:posthog","file":"sources/iconify/posthog.svg","label":"컬러 심볼"},{"provider":"iconify:posthog-icon","file":"sources/iconify/posthog-icon.svg","label":"아이콘형"},{"provider":"wvl:posthog-icon","file":"sources/wvl/posthog-icon.svg","label":"아이콘형"},{"provider":"wvl:posthog","file":"sources/wvl/posthog.svg","label":"컬러 심볼"},{"provider":"merged:posthog-icon","file":"sources/posthog-icon.svg","label":"아이콘형"}],"dark_variant":"white","added_at":"2026-07-27","has_png":true,"has_svg":true}
+{
+ "id": "posthog",
+ "name_ko": "Posthog",
+ "name_en": "Posthog",
+ "category": "IT·테크",
+ "domain": "",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "source": "iconify:posthog",
+ "sources": [
+  {
+   "provider": "iconify:posthog",
+   "file": "sources/iconify/posthog.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "iconify:posthog-icon",
+   "file": "sources/iconify/posthog-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "wvl:posthog-icon",
+   "file": "sources/wvl/posthog-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "wvl:posthog",
+   "file": "sources/wvl/posthog.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "merged:posthog-icon",
+   "file": "sources/posthog-icon.svg",
+   "label": "아이콘형"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/posthog.svg",
+   "label": "SVGL · 가로형",
+   "source_url": "https://posthog.com/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "dark_variant": "white",
+ "added_at": "2026-07-27",
+ "has_png": true,
+ "has_svg": true
+}

@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "lobe-exa-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/exa-text.svg",
+    "png": "sources/lobe/exa-text.png"
+   },
+   "aspect": 3.6199,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

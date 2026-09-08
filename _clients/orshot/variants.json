@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "orshot",
+ "primary": "svgl-orshot_wordmark_light",
+ "variants": [
+  {
+   "key": "svgl-orshot",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/orshot.svg",
+    "png": "sources/svgl/orshot.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-orshot_wordmark_light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/orshot_wordmark_light.svg",
+    "png": "sources/svgl/orshot_wordmark_light.png"
+   },
+   "aspect": 3.4483,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

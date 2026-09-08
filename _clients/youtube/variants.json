@@ -59,6 +59,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 102
+  },
+  {
+   "key": "svgl-youtube-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/youtube-wordmark-light.svg",
+    "png": "sources/svgl/youtube-wordmark-light.png"
+   },
+   "aspect": 4.4693,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

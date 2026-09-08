@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fastgpt",
+ "primary": "lobe-fastgpt-text",
+ "variants": [
+  {
+   "key": "lobe-fastgpt-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/fastgpt-color.svg",
+    "png": "sources/lobe/fastgpt-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-fastgpt-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/fastgpt-text.svg",
+    "png": "sources/lobe/fastgpt-text.png"
+   },
+   "aspect": 6.6116,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

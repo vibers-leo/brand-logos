@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-vectorizerai-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/vectorizerai-text.svg",
+    "png": "sources/lobe/vectorizerai-text.png"
+   },
+   "aspect": 10.9589,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

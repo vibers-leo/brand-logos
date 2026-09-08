@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "inngest",
+ "primary": "svgl-inngest-light",
+ "variants": [
+  {
+   "key": "svgl-inngest-light",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/inngest-light.svg",
+    "png": "sources/svgl/inngest-light.png"
+   },
+   "aspect": 3.3333,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  }
+ ]
+}

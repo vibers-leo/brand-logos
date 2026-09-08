@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-openrouter-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/openrouter-color.svg",
+    "png": "sources/lobe/openrouter-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-openrouter-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/openrouter-text.svg",
+    "png": "sources/lobe/openrouter-text.png"
+   },
+   "aspect": 7.4766,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

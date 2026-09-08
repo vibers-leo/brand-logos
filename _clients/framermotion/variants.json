@@ -28,6 +28,21 @@
      "file": "sources/devicons/framermotion-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-motion",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/motion.svg",
+    "png": "sources/svgl/motion.png"
+   },
+   "aspect": 2.8571,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

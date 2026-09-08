@@ -28,6 +28,21 @@
      "file": "sources/devicons/gimp-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-gimp",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/gimp.svg",
+    "png": "sources/svgl/gimp.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

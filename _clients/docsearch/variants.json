@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-docsearch-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/docsearch-text.svg",
+    "png": "sources/lobe/docsearch-text.png"
+   },
+   "aspect": 10.8108,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

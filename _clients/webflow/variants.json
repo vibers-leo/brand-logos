@@ -49,6 +49,21 @@
      "file": "sources/wvl/webflow.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-webflow",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/webflow.svg",
+    "png": "sources/svgl/webflow.png"
+   },
+   "aspect": 1.6032,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

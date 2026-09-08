@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "axiom",
+ "primary": "svgl-axiom-wordmark-light",
+ "variants": [
+  {
+   "key": "svgl-axiom-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/axiom-light.svg",
+    "png": "sources/svgl/axiom-light.png"
+   },
+   "aspect": 1.1577,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-axiom-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/axiom-wordmark-light.svg",
+    "png": "sources/svgl/axiom-wordmark-light.png"
+   },
+   "aspect": 5.8824,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

@@ -43,6 +43,21 @@
      "file": "sources/fa.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-bootstrap",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/bootstrap.svg",
+    "png": "sources/svgl/bootstrap.png"
+   },
+   "aspect": 1.2539,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

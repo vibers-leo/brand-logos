@@ -1,1 +1,35 @@
-{"id":"curseforge","name_ko":"CurseForge","name_en":"CurseForge","category":"IT·테크","logo_svg":"logo.svg","logo_png":true,"added_at":"2026-08-05","domain":"curseforge.com","dark_variant":"white","has_png":true,"has_svg":true}
+{
+ "id": "curseforge",
+ "name_ko": "CurseForge",
+ "name_en": "CurseForge",
+ "category": "IT·테크",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "added_at": "2026-08-05",
+ "domain": "curseforge.com",
+ "dark_variant": "white",
+ "has_png": true,
+ "has_svg": true,
+ "website": "https://curseforge.com",
+ "website_from": "domain",
+ "sources": [
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/curseforge.svg",
+   "label": "SVGL · 심볼",
+   "source_url": "https://curseforge.com/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/curseforge-wordmark.svg",
+   "label": "SVGL · 워드마크",
+   "source_url": "https://curseforge.com/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ]
+}

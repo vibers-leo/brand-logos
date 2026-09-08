@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "interfere",
+ "primary": "svgl-interfere_wordmark_black",
+ "variants": [
+  {
+   "key": "svgl-interfere_black",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/interfere_black.svg",
+    "png": "sources/svgl/interfere_black.png"
+   },
+   "aspect": 1.3333,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-interfere_wordmark_black",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/interfere_wordmark_black.svg",
+    "png": "sources/svgl/interfere_wordmark_black.png"
+   },
+   "aspect": 5.7554,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

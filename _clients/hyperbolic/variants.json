@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-hyperbolic-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/hyperbolic-text.svg",
+    "png": "sources/lobe/hyperbolic-text.png"
+   },
+   "aspect": 7.5472,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

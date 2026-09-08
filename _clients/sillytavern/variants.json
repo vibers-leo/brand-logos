@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "sillytavern",
+ "primary": "lobe-sillytavern-text",
+ "variants": [
+  {
+   "key": "lobe-sillytavern-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/sillytavern-color.svg",
+    "png": "sources/lobe/sillytavern-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-sillytavern-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/sillytavern-text.svg",
+    "png": "sources/lobe/sillytavern-text.png"
+   },
+   "aspect": 6.5041,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

@@ -1,1 +1,35 @@
-{"id":"automatic1111-sd-webui","name_ko":"Automatic1111 (SD Webui)","name_en":"Automatic1111 (SD Webui)","category":"IT·테크","folder":"_clients/automatic1111-sd-webui","website":"https://github.com/AUTOMATIC1111/stable-diffusion-webui","domain":"github.com","logo_svg":"logo.svg","has_svg":true,"logo_png":true,"has_png":true,"svg_source":"thesvg","license":"MIT","added_at":"2026-08-28","aliases":[],"sources":[{"provider":"thesvg","file":"logo.svg","label":"default","origin_file":"automatic1111-sd-webui/default.svg"}],"dark_variant":"transparent"}
+{
+ "id": "automatic1111-sd-webui",
+ "name_ko": "Automatic1111 (SD Webui)",
+ "name_en": "Automatic1111 (SD Webui)",
+ "category": "IT·테크",
+ "folder": "_clients/automatic1111-sd-webui",
+ "website": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+ "domain": "github.com",
+ "logo_svg": "logo.svg",
+ "has_svg": true,
+ "logo_png": true,
+ "has_png": true,
+ "svg_source": "thesvg",
+ "license": "MIT",
+ "added_at": "2026-08-28",
+ "aliases": [],
+ "sources": [
+  {
+   "provider": "thesvg",
+   "file": "logo.svg",
+   "label": "default",
+   "origin_file": "automatic1111-sd-webui/default.svg"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/automatic-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "dark_variant": "transparent"
+}

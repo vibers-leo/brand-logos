@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-cherrystudio-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/cherrystudio-text.svg",
+    "png": "sources/lobe/cherrystudio-text.png"
+   },
+   "aspect": 3.5556,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

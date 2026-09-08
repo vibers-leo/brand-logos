@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-leap-wallet-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/leap-wallet-wordmark-light.svg",
+    "png": "sources/svgl/leap-wallet-wordmark-light.png"
+   },
+   "aspect": 3.3613,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

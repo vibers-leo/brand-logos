@@ -1,1 +1,37 @@
-{"id":"huggingface","name_ko":"huggingface","name_en":"huggingface","category":"기타","logo_svg":"logo.svg","logo_png":true,"svg_source":"simpleicons/huggingface","dark_variant":"transparent","has_png":true,"sources":[{"provider":"gilbarbara","file":"sources/gilbarbara/full.svg","label":"가로조합형"}],"has_svg":true}
+{
+ "id": "huggingface",
+ "name_ko": "huggingface",
+ "name_en": "huggingface",
+ "category": "기타",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "svg_source": "simpleicons/huggingface",
+ "dark_variant": "transparent",
+ "has_png": true,
+ "sources": [
+  {
+   "provider": "gilbarbara",
+   "file": "sources/gilbarbara/full.svg",
+   "label": "가로조합형"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/huggingface-color.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://huggingface.co",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/huggingface-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://huggingface.co",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "has_svg": true
+}

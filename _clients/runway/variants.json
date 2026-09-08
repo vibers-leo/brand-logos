@@ -1,0 +1,65 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "runway",
+ "primary": "original",
+ "variants": [
+  {
+   "key": "original",
+   "form": "unknown",
+   "lang": "unknown",
+   "color": "color",
+   "label": "기존 로고",
+   "files": {
+    "png": "logo.png"
+   },
+   "origin": "collected",
+   "order": 0
+  },
+  {
+   "key": "lobe-runway",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/runway.svg",
+    "png": "sources/lobe/runway.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-runway-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/runway-text.svg",
+    "png": "sources/lobe/runway-text.png"
+   },
+   "aspect": 5.8824,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "svgl-runway",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/runway.svg",
+    "png": "sources/svgl/runway.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
+  }
+ ]
+}

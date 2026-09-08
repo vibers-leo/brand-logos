@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-zhipu-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/zhipu-text.svg",
+    "png": "sources/lobe/zhipu-text.png"
+   },
+   "aspect": 4.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

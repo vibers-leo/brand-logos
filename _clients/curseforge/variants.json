@@ -21,6 +21,36 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-curseforge",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/curseforge.svg",
+    "png": "sources/svgl/curseforge.png"
+   },
+   "aspect": 1.0152,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-curseforge-wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/curseforge-wordmark.svg",
+    "png": "sources/svgl/curseforge-wordmark.png"
+   },
+   "aspect": 6.6116,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

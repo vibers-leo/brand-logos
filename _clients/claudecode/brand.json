@@ -1,1 +1,35 @@
-{"id":"claudecode","name_ko":"Claude Code","name_en":"Claude Code","category":"IT·테크","logo_svg":"logo.svg","logo_png":true,"added_at":"2026-08-05","domain":"code.claude.com","dark_variant":"white","has_png":true,"has_svg":true}
+{
+ "id": "claudecode",
+ "name_ko": "Claude Code",
+ "name_en": "Claude Code",
+ "category": "IT·테크",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "added_at": "2026-08-05",
+ "domain": "code.claude.com",
+ "dark_variant": "white",
+ "has_png": true,
+ "has_svg": true,
+ "website": "https://code.claude.com",
+ "website_from": "domain",
+ "sources": [
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/claudecode-color.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://code.claude.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/claudecode-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://code.claude.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ]
+}

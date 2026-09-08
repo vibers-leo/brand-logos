@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-viggle-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/viggle-text.svg",
+    "png": "sources/lobe/viggle-text.png"
+   },
+   "aspect": 8.1633,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

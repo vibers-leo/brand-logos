@@ -28,6 +28,21 @@
      "file": "sources/devicons/r-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-r",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/r.svg",
+    "png": "sources/svgl/r.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

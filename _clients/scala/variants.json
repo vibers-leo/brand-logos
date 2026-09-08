@@ -38,6 +38,21 @@
      "file": "sources/devicons/scala-original.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-scala",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/scala.svg",
+    "png": "sources/svgl/scala.png"
+   },
+   "aspect": 0.6154,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

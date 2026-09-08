@@ -49,6 +49,21 @@
      "file": "sources/wvl/jquery.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-jquery",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/jquery.svg",
+    "png": "sources/svgl/jquery.png"
+   },
+   "aspect": 4.0609,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

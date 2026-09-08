@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "svgl-nuxthub-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/nuxthub-wordmark-light.svg",
+    "png": "sources/svgl/nuxthub-wordmark-light.png"
+   },
+   "aspect": 5.8394,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

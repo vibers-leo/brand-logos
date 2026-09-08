@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "vlt",
+ "primary": "svgl-vlt-wordmark-light",
+ "variants": [
+  {
+   "key": "svgl-vlt-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/vlt-light.svg",
+    "png": "sources/svgl/vlt-light.png"
+   },
+   "aspect": 1.0974,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-vlt-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/vlt-wordmark-light.svg",
+    "png": "sources/svgl/vlt-wordmark-light.png"
+   },
+   "aspect": 3.252,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

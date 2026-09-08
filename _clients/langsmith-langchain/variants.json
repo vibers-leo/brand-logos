@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "lobe-langsmith-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/langsmith-text.svg",
+    "png": "sources/lobe/langsmith-text.png"
+   },
+   "aspect": 7.9208,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

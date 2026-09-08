@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kilocode",
+ "primary": "lobe-kilocode-text",
+ "variants": [
+  {
+   "key": "lobe-kilocode",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/kilocode.svg",
+    "png": "sources/lobe/kilocode.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "lobe-kilocode-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/kilocode-text.svg",
+    "png": "sources/lobe/kilocode-text.png"
+   },
+   "aspect": 9.1954,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "svgl-kilocode-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/kilocode-light.svg",
+    "png": "sources/svgl/kilocode-light.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
+  }
+ ]
+}

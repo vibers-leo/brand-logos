@@ -1,1 +1,35 @@
-{"id":"coze","name_ko":"Coze","name_en":"Coze","category":"IT·테크","logo_svg":"logo.svg","logo_png":true,"added_at":"2026-08-05","domain":"coze.com","dark_variant":"white","has_png":true,"has_svg":true}
+{
+ "id": "coze",
+ "name_ko": "Coze",
+ "name_en": "Coze",
+ "category": "IT·테크",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "added_at": "2026-08-05",
+ "domain": "coze.com",
+ "dark_variant": "white",
+ "has_png": true,
+ "has_svg": true,
+ "website": "https://coze.com",
+ "website_from": "domain",
+ "sources": [
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/coze.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://coze.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/coze-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://coze.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ]
+}

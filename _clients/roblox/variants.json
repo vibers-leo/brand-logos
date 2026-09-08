@@ -36,6 +36,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 101
+  },
+  {
+   "key": "svgl-roblox_light",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/roblox_light.svg",
+    "png": "sources/svgl/roblox_light.png"
+   },
+   "aspect": 4.908,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

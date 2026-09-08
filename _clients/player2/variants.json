@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 20
+  },
+  {
+   "key": "lobe-player2-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/player2-text.svg",
+    "png": "sources/lobe/player2-text.png"
+   },
+   "aspect": 9.6386,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

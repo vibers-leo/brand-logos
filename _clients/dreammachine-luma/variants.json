@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-dreammachine-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/dreammachine-text.svg",
+    "png": "sources/lobe/dreammachine-text.png"
+   },
+   "aspect": 4.2553,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

@@ -76,6 +76,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 102
+  },
+  {
+   "key": "svgl-grok-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/grok-wordmark-light.svg",
+    "png": "sources/svgl/grok-wordmark-light.png"
+   },
+   "aspect": 2.5641,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

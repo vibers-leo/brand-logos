@@ -1,1 +1,40 @@
-{"id":"livekit","name_ko":"LiveKit","name_en":"LiveKit","category":"IT·테크","logo_svg":"logo.svg","logo_png":true,"added_at":"2026-08-05","domain":"livekit.io","dark_variant":"white","has_png":true,"has_svg":true,"sources":[{"provider":"gilbarbara","file":"sources/gilbarbara/full.svg","label":"가로조합형"}]}
+{
+ "id": "livekit",
+ "name_ko": "LiveKit",
+ "name_en": "LiveKit",
+ "category": "IT·테크",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "added_at": "2026-08-05",
+ "domain": "livekit.io",
+ "dark_variant": "white",
+ "has_png": true,
+ "has_svg": true,
+ "sources": [
+  {
+   "provider": "gilbarbara",
+   "file": "sources/gilbarbara/full.svg",
+   "label": "가로조합형"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/livekit-color.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://livekit.io",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/livekit-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://livekit.io",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "website": "https://livekit.io",
+ "website_from": "domain"
+}

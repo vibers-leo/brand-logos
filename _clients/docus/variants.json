@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "docus",
+ "primary": "svgl-docus-wordmark-light",
+ "variants": [
+  {
+   "key": "svgl-docus-light",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/docus-light.svg",
+    "png": "sources/svgl/docus-light.png"
+   },
+   "aspect": 1.0309,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-docus-wordmark-light",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/docus-wordmark-light.svg",
+    "png": "sources/svgl/docus-wordmark-light.png"
+   },
+   "aspect": 4.3478,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

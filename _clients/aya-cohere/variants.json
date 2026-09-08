@@ -21,6 +21,21 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "lobe-aya-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/aya-text.svg",
+    "png": "sources/lobe/aya-text.png"
+   },
+   "aspect": 2.9412,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

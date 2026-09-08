@@ -1,1 +1,47 @@
-{"id":"replicate","name_ko":"Replicate","name_en":"Replicate","category":"IT·테크","domain":"replicate.com","logo_svg":"logo.svg","logo_png":true,"source":"simpleicons:replicate","sources":[{"provider":"simpleicons:replicate","file":"sources/si.svg","label":"컬러 심볼"},{"provider":"thesvg","file":"sources/thesvg/wordmark.svg","label":"워드마크형"}],"logo_quality":"ok","dark_variant":"white","added_at":"2026-07-27","has_png":true,"has_svg":true}
+{
+ "id": "replicate",
+ "name_ko": "Replicate",
+ "name_en": "Replicate",
+ "category": "IT·테크",
+ "domain": "replicate.com",
+ "logo_svg": "logo.svg",
+ "logo_png": true,
+ "source": "simpleicons:replicate",
+ "sources": [
+  {
+   "provider": "simpleicons:replicate",
+   "file": "sources/si.svg",
+   "label": "컬러 심볼"
+  },
+  {
+   "provider": "thesvg",
+   "file": "sources/thesvg/wordmark.svg",
+   "label": "워드마크형"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/replicate.svg",
+   "label": "Lobe Icons · 심볼",
+   "source_url": "https://replicate.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  },
+  {
+   "provider": "lobe",
+   "file": "sources/lobe/replicate-text.svg",
+   "label": "Lobe Icons · 워드마크",
+   "source_url": "https://replicate.com",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "a94750e3f5f8fc33757b839d85030e742284e43a",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "logo_quality": "ok",
+ "dark_variant": "white",
+ "added_at": "2026-07-27",
+ "has_png": true,
+ "has_svg": true,
+ "website": "https://replicate.com",
+ "website_from": "domain"
+}

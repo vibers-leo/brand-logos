@@ -1,1 +1,27 @@
-{"id":"ollama","name_ko":"올라마","name_en":"Ollama","category":"IT·테크","folder":"_clients/ollama","logo_svg":"logo.svg","svg_source":"simple-icons","logo_png":true,"dark_variant":"white","sources":[],"added_at":"2026-08-05","domain":"ollama.com","website":"ollama.com","has_png":true,"has_svg":true}
+{
+ "id": "ollama",
+ "name_ko": "올라마",
+ "name_en": "Ollama",
+ "category": "IT·테크",
+ "folder": "_clients/ollama",
+ "logo_svg": "logo.svg",
+ "svg_source": "simple-icons",
+ "logo_png": true,
+ "dark_variant": "white",
+ "sources": [
+  {
+   "provider": "svgl",
+   "file": "sources/svgl/ollama_light.svg",
+   "label": "SVGL · 심볼",
+   "source_url": "https://www.ollama.com/",
+   "collected_at": "2026-09-08",
+   "upstream_commit": "238195660bfabfd730e5c92b262b0baae85878d8",
+   "current_status": "upstream-current; brand redesign date not asserted"
+  }
+ ],
+ "added_at": "2026-08-05",
+ "domain": "ollama.com",
+ "website": "ollama.com",
+ "has_png": true,
+ "has_svg": true
+}

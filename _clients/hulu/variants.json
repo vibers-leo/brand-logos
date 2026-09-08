@@ -36,6 +36,21 @@
    "provider": "supertiny",
    "origin": "collected",
    "order": 101
+  },
+  {
+   "key": "svgl-hulu",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 가로형",
+   "files": {
+    "svg": "sources/svgl/hulu.svg",
+    "png": "sources/svgl/hulu.png"
+   },
+   "aspect": 3.0189,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

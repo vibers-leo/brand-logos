@@ -21,6 +21,36 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
+  },
+  {
+   "key": "lobe-novelai",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/novelai.svg",
+    "png": "sources/lobe/novelai.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 101
+  },
+  {
+   "key": "lobe-novelai-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/novelai-text.svg",
+    "png": "sources/lobe/novelai-text.png"
+   },
+   "aspect": 6.6116,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
   }
  ]
 }

@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "intello",
+ "primary": "svgl-intello_wordmark_dark",
+ "variants": [
+  {
+   "key": "svgl-intello-dark",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/intello-dark.svg",
+    "png": "sources/svgl/intello-dark.png"
+   },
+   "aspect": 0.8016,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 100
+  },
+  {
+   "key": "svgl-intello_wordmark_dark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 워드마크",
+   "files": {
+    "svg": "sources/svgl/intello_wordmark_dark.svg",
+    "png": "sources/svgl/intello_wordmark_dark.png"
+   },
+   "aspect": 3.9024,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
+  }
+ ]
+}

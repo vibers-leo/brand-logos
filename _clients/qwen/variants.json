@@ -51,6 +51,36 @@
      "file": "sources/iconify/qwen.svg"
     }
    ]
+  },
+  {
+   "key": "lobe-qwen-color",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 심볼",
+   "files": {
+    "svg": "sources/lobe/qwen-color.svg",
+    "png": "sources/lobe/qwen-color.png"
+   },
+   "aspect": 1.0,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 102
+  },
+  {
+   "key": "lobe-qwen-text",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "Lobe Icons · 워드마크",
+   "files": {
+    "svg": "sources/lobe/qwen-text.svg",
+    "png": "sources/lobe/qwen-text.png"
+   },
+   "aspect": 4.6784,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 103
   }
  ]
 }

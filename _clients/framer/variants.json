@@ -33,6 +33,21 @@
      "file": "sources/wvl/framer.svg"
     }
    ]
+  },
+  {
+   "key": "svgl-framer",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "SVGL · 심볼",
+   "files": {
+    "svg": "sources/svgl/framer.svg",
+    "png": "sources/svgl/framer.png"
+   },
+   "aspect": 0.6667,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 101
   }
  ]
 }

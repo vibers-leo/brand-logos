@@ -57,10 +57,11 @@ jobs:
       # 가드(파일명 대조·도메인·중복·QID충돌)를 통과한 것만 반영하고, 애매한 것은
       # wikidata-{preset}-review.json 에 남는다 — 사람이 볼 몫이다.
       - name: 위키데이터 수집 (프리셋 전체)
+        timeout-minutes: 40
         run: |
           for P in korea party idol film investor public; do
             echo "── preset=$P ──"
-            python3 scripts/collect-korea-wikidata.py --preset "$P" --download --apply || true
+            timeout --signal=TERM 6m python3 -u scripts/collect-korea-wikidata.py --preset "$P" --download --apply || echo "⚠️ $P 실패·타임아웃 (계속)"
           done
         continue-on-error: true    # 외부 API 다. 실패해도 뒤 단계는 돌아야 한다
 

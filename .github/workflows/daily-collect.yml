@@ -158,7 +158,7 @@ jobs:
           # 2026-09-05 재검증 회차). 금광 5종을 같이 돌려 회차마다 신규가 나오게 한다.
           for src in univ hospital media sports finance krx gov franchise; do
             echo "::group::$src"
-            python3 -u scripts/collect-krx-rendered.py --source $src --limit 60 || echo "⚠️ $src 실패 (계속)"
+            timeout --signal=TERM 8m python3 -u scripts/collect-krx-rendered.py --source $src --limit 60 || echo "⚠️ $src 실패·타임아웃 (계속)"
             echo "::endgroup::"
           done
 

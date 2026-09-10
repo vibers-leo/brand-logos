@@ -4,7 +4,8 @@
  "id": "flutter-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "aa2a8ef687ef7ae3"
+  "logo.svg": "aa2a8ef687ef7ae3",
+  "sources/gilbarbara/full.svg": "209c08b5defb6149"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.543,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

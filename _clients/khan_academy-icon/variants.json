@@ -4,9 +4,24 @@
  "id": "khan_academy-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c735eaad85c42b5f"
+  "logo.svg": "c735eaad85c42b5f",
+  "sources/vlz/wide.svg": "959329dd033c0d2d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.841,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

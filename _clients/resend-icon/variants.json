@@ -4,7 +4,9 @@
  "id": "resend-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fd4b8316ae5e7e80"
+  "logo.svg": "fd4b8316ae5e7e80",
+  "sources/svgl/wordmark.svg": "38f57c0699e98947",
+  "sources/thesvg/wordmark.svg": "da3e0773fa3cd59b"
  },
  "variants": [
   {
@@ -21,6 +23,26 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/svgl/wordmark.svg"
+   },
+   "aspect": 4.712,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

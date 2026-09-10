@@ -4,7 +4,8 @@
  "id": "lovable-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "64ff27adc772bf16"
+  "logo.svg": "64ff27adc772bf16",
+  "sources/gilbarbara/full.svg": "e60a70bcf57f0252"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 5.882,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

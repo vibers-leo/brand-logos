@@ -4,7 +4,8 @@
  "id": "forest-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "54e4b0cbe2a248e9"
+  "logo.svg": "54e4b0cbe2a248e9",
+  "sources/gilbarbara/full.svg": "2966bc0f4e081d9e"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.072,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

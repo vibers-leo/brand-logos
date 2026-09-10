@@ -4,7 +4,8 @@
  "id": "livekit-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b04b4df415fde6e8"
+  "logo.svg": "b04b4df415fde6e8",
+  "sources/gilbarbara/full.svg": "001fcf414fc4bc65"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.348,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

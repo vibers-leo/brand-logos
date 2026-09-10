@@ -4,7 +4,8 @@
  "id": "mailchimp-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a293a6178b197450"
+  "logo.svg": "a293a6178b197450",
+  "sources/vlz/wide.svg": "b82311dba8b99fee"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.138,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

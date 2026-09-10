@@ -4,7 +4,8 @@
  "id": "exa-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fcce0f9dcce7a964"
+  "logo.svg": "fcce0f9dcce7a964",
+  "sources/gilbarbara/full.svg": "b50a3cf750faf590"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 3.203,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

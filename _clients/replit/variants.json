@@ -10,7 +10,10 @@
   "sources/devicons/replit-original.svg": "f96c63f4f1be6594",
   "sources/wvl/replit-icon.svg": "89902b1cec49b819",
   "sources/wvl/replit.svg": "15f1f96b42289f04",
-  "sources/replit-icon.svg": "89902b1cec49b819"
+  "sources/replit-icon.svg": "89902b1cec49b819",
+  "sources/supertiny/replit.svg": "151e1f18c99230aa",
+  "sources/lobe/replit-color.svg": "46e60b69635c7d60",
+  "sources/lobe/replit-text.svg": "33b092981fee858d"
  },
  "variants": [
   {
@@ -39,6 +42,14 @@
     {
      "provider": "merged",
      "file": "sources/replit-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/replit.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/replit-color.svg"
     }
    ]
   },
@@ -64,53 +75,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/replit.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/replit-text.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-replit",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/replit.svg",
-    "png": "sources/supertiny/replit.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-replit-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/replit-color.svg",
-    "png": "sources/lobe/replit-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
-  },
-  {
-   "key": "lobe-replit-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/replit-text.svg",
-    "png": "sources/lobe/replit-text.png"
-   },
-   "aspect": 5.7554,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 104
   }
  ]
 }

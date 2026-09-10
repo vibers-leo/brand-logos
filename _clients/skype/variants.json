@@ -7,7 +7,8 @@
   "logo.svg": "4ed7c86316942e48",
   "sources/iconify/skype.svg": "4ed7c86316942e48",
   "sources/wvl/skype.svg": "d54718b3a6cfd1cd",
-  "sources/vlz/wide.svg": "d2176ece862035ee"
+  "sources/vlz/wide.svg": "d2176ece862035ee",
+  "sources/supertiny/skype.svg": "b4be7f0ab4ee1930"
  },
  "variants": [
   {
@@ -46,23 +47,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/skype.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/skype.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-skype",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/skype.svg",
-    "png": "sources/supertiny/skype.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

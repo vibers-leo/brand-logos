@@ -4,7 +4,8 @@
  "id": "vectorizerdotai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "aaebb2a1de93b69b"
+  "logo.svg": "aaebb2a1de93b69b",
+  "sources/lobe/vectorizerai-text.svg": "b9178e0dbe4c606b"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-vectorizerai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/vectorizerai-text.svg",
     "png": "sources/lobe/vectorizerai-text.png"
    },
-   "aspect": 10.9589,
+   "aspect": 7.813,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

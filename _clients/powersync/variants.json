@@ -4,7 +4,8 @@
  "id": "powersync",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "1a683baf1ab0b664"
+  "logo.svg": "1a683baf1ab0b664",
+  "sources/svgl/powersync-wordmark-light.svg": "034c21e734bf4d83"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-powersync-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/powersync-wordmark-light.svg",
     "png": "sources/svgl/powersync-wordmark-light.png"
    },
-   "aspect": 6.5041,
+   "aspect": 6.475,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

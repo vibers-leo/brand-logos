@@ -9,9 +9,26 @@
   "sources/iconify/gradio-icon.svg": "95e8141482dcdcf9",
   "sources/wvl/gradio-icon.svg": "24623862062d4655",
   "sources/wvl/gradio.svg": "f542e6f72fb7d89f",
-  "sources/gradio-icon.svg": "24623862062d4655"
+  "sources/gradio-icon.svg": "24623862062d4655",
+  "sources/lobe/gradio-color.svg": "b1141472129add0f",
+  "sources/lobe/gradio-text.svg": "69419cd773179158"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/gradio-text.svg",
+    "png": "sources/lobe/gradio-text.png"
+   },
+   "aspect": 2.958,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -34,6 +51,10 @@
     {
      "provider": "merged",
      "file": "sources/gradio-icon.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/gradio-color.svg"
     }
    ]
   },
@@ -61,36 +82,6 @@
      "file": "sources/wvl/gradio.svg"
     }
    ]
-  },
-  {
-   "key": "lobe-gradio-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/gradio-color.svg",
-    "png": "sources/lobe/gradio-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-gradio-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/gradio-text.svg",
-    "png": "sources/lobe/gradio-text.png"
-   },
-   "aspect": 4.6784,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

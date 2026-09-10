@@ -11,7 +11,8 @@
   "sources/wvl/nodejs-icon.svg": "14fb2ee58e4afbc5",
   "sources/wvl/nodejs-icon-alt.svg": "2136c62ac8e61561",
   "sources/wvl/nodejs.svg": "769bbc4b27e83ca0",
-  "sources/nodejs-icon.svg": "14fb2ee58e4afbc5"
+  "sources/nodejs-icon.svg": "14fb2ee58e4afbc5",
+  "sources/supertiny/nodejs.svg": "37a0f8633abc430f"
  },
  "variants": [
   {
@@ -69,23 +70,12 @@
     {
      "provider": "merged",
      "file": "sources/nodejs-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/nodejs.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-nodejs",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/nodejs.svg",
-    "png": "sources/supertiny/nodejs.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

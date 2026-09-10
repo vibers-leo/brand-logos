@@ -4,9 +4,25 @@
  "id": "jina-ai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cd3c7379cdb95036"
+  "logo.svg": "cd3c7379cdb95036",
+  "sources/lobe/jina-text.svg": "075b08dffac641db"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/jina-text.svg",
+    "png": "sources/lobe/jina-text.png"
+   },
+   "aspect": 2.354,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-jina-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/jina-text.svg",
-    "png": "sources/lobe/jina-text.png"
-   },
-   "aspect": 3.4934,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

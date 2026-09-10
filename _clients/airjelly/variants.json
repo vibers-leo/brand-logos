@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "airjelly",
- "primary": "lobe-airjelly-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "75f2df3d5d9e7fab",
+  "sources/lobe/airjelly-color.svg": "f60b8b980bf444ab",
+  "sources/lobe/airjelly-text.svg": "75f2df3d5d9e7fab"
+ },
  "variants": [
   {
-   "key": "lobe-airjelly-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/airjelly-color.svg",
     "png": "sources/lobe/airjelly-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.065,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-airjelly-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/airjelly-text.svg",
-    "png": "sources/lobe/airjelly-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 5.0633,
+   "aspect": 3.913,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/airjelly-text.svg"
+    }
+   ]
   }
  ]
 }

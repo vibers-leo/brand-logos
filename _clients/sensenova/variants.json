@@ -4,7 +4,8 @@
  "id": "sensenova",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0f4f64a045fef51c"
+  "logo.svg": "0f4f64a045fef51c",
+  "sources/lobe/sensenova-text.svg": "2a89f54490955392"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-sensenova-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/sensenova-text.svg",
     "png": "sources/lobe/sensenova-text.png"
    },
-   "aspect": 6.8966,
+   "aspect": 5.33,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,10 @@
  "id": "inflection",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "efea4c86f899687f"
+  "logo.svg": "efea4c86f899687f",
+  "sources/lobe/inflection-text.svg": "42454726f252e5ab",
+  "sources/svgl/inflectionai_light.svg": "a32347c0104b02d7",
+  "sources/svgl/inflectionai_wordmark_light.svg": "2f1df00fc7491813"
  },
  "variants": [
   {
@@ -20,52 +23,34 @@
    "aspect": 0.362,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 20
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/inflectionai_light.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-inflection-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/inflection-text.svg",
     "png": "sources/lobe/inflection-text.png"
    },
-   "aspect": 9.6386,
+   "aspect": 6.814,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-inflectionai_light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/inflectionai_light.svg",
-    "png": "sources/svgl/inflectionai_light.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-inflectionai_wordmark_light",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
-   "files": {
-    "svg": "sources/svgl/inflectionai_wordmark_light.svg",
-    "png": "sources/svgl/inflectionai_wordmark_light.png"
-   },
-   "aspect": 5.2288,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/inflectionai_wordmark_light.svg"
+    }
+   ]
   }
  ]
 }

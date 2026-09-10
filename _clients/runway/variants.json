@@ -2,26 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "runway",
- "primary": "original",
+ "primary": "symbol",
+ "fingerprint": {
+  "sources/lobe/runway.svg": "4dcb6e995eb1246c",
+  "sources/lobe/runway-text.svg": "074b26eb9168fd1e",
+  "sources/svgl/runway.svg": "3f02bcc88480d873"
+ },
  "variants": [
   {
-   "key": "original",
-   "form": "unknown",
-   "lang": "unknown",
-   "color": "color",
-   "label": "기존 로고",
-   "files": {
-    "png": "logo.png"
-   },
-   "origin": "collected",
-   "order": 0
-  },
-  {
-   "key": "lobe-runway",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/runway.svg",
     "png": "sources/lobe/runway.png"
@@ -29,37 +22,28 @@
    "aspect": 1.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/runway.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-runway-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/runway-text.svg",
     "png": "sources/lobe/runway-text.png"
    },
-   "aspect": 5.8824,
+   "aspect": 4.752,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-runway",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/runway.svg",
-    "png": "sources/svgl/runway.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

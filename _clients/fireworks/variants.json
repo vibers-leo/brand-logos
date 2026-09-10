@@ -4,7 +4,8 @@
  "id": "fireworks",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "dd56f7c06120571c"
+  "logo.svg": "dd56f7c06120571c",
+  "sources/lobe/fireworks-text.svg": "32324da59f534b97"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-fireworks-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/fireworks-text.svg",
     "png": "sources/lobe/fireworks-text.png"
    },
-   "aspect": 9.6386,
+   "aspect": 7.418,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

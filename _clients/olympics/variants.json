@@ -4,7 +4,8 @@
  "id": "olympics",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "43e0451132d5839d"
+  "logo.svg": "43e0451132d5839d",
+  "sources/supertiny/olympics.svg": "68a80becf9cc31e7"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 2.174,
    "provider": "sports-curated",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-olympics",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/olympics.svg",
-    "png": "sources/supertiny/olympics.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/olympics.svg"
+    }
+   ]
   }
  ]
 }

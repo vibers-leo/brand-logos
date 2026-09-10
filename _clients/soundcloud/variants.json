@@ -7,7 +7,9 @@
   "logo.svg": "170eed562762baf7",
   "sources/fa.svg": "170eed562762baf7",
   "sources/iconify/soundcloud.svg": "1036283d2f2ec645",
-  "sources/wvl/soundcloud.svg": "108f99af6a18754e"
+  "sources/wvl/soundcloud.svg": "108f99af6a18754e",
+  "sources/supertiny/soundcloud.svg": "99e5c999456b4000",
+  "sources/svgl/soundcloud-wordmark.svg": "ab38b0c544913bdf"
  },
  "variants": [
   {
@@ -40,11 +42,11 @@
    ]
   },
   {
-   "key": "supertiny-soundcloud",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/soundcloud.svg",
     "png": "sources/supertiny/soundcloud.png"
@@ -52,22 +54,22 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   },
   {
-   "key": "svgl-soundcloud-wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/soundcloud-wordmark.svg",
     "png": "sources/svgl/soundcloud-wordmark.png"
    },
-   "aspect": 8.4211,
+   "aspect": 8.411,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

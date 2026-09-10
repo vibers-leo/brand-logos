@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "downpour",
- "primary": "supertiny-downpour",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "403afed01e087048",
+  "sources/supertiny/downpour.svg": "403afed01e087048"
+ },
  "variants": [
   {
-   "key": "supertiny-downpour",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/downpour.svg",
-    "png": "sources/supertiny/downpour.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.028,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/downpour.svg"
+    }
+   ]
   }
  ]
 }

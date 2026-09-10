@@ -7,7 +7,8 @@
   "logo.svg": "a49f744b655f4c0c",
   "sources/iconify/buffer.svg": "a49f744b655f4c0c",
   "sources/wvl/buffer.svg": "8dafffe14428709d",
-  "sources/vlz/wide.svg": "c56542ae5ee74e09"
+  "sources/vlz/wide.svg": "c56542ae5ee74e09",
+  "sources/supertiny/buffer.svg": "85cfeb9122338bca"
  },
  "variants": [
   {
@@ -32,6 +33,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/buffer.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/buffer.svg"
     }
    ]
   },
@@ -48,21 +53,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-buffer",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/buffer.svg",
-    "png": "sources/supertiny/buffer.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

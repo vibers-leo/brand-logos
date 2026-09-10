@@ -10,7 +10,8 @@
   "sources/devicons/mattermost-original.svg": "c915da5078ba60ed",
   "sources/wvl/mattermost-icon.svg": "13f386bd8c6c299b",
   "sources/wvl/mattermost.svg": "5a77eda0c4491594",
-  "sources/mattermost-icon.svg": "13f386bd8c6c299b"
+  "sources/mattermost-icon.svg": "13f386bd8c6c299b",
+  "sources/supertiny/mattermost.svg": "fc9cb2409f6b7007"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/mattermost-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/mattermost.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/mattermost.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-mattermost",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/mattermost.svg",
-    "png": "sources/supertiny/mattermost.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

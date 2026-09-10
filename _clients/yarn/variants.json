@@ -7,7 +7,8 @@
   "logo.svg": "e87183f6a2268078",
   "sources/iconify/yarn.svg": "e87183f6a2268078",
   "sources/devicons/yarn-original.svg": "2c28ed027166766e",
-  "sources/wvl/yarn.svg": "7d14311f8b1091e2"
+  "sources/wvl/yarn.svg": "7d14311f8b1091e2",
+  "sources/supertiny/yarn.svg": "96af6caf78125cfb"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/yarn-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/yarn.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-yarn",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/yarn.svg",
-    "png": "sources/supertiny/yarn.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

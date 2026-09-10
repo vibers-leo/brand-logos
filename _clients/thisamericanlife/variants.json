@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "thisamericanlife",
- "primary": "supertiny-thisamericanlife",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "980c573fe50578cc",
+  "sources/supertiny/thisamericanlife.svg": "980c573fe50578cc"
+ },
  "variants": [
   {
-   "key": "supertiny-thisamericanlife",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/supertiny/thisamericanlife.svg",
-    "png": "sources/supertiny/thisamericanlife.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.329,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/thisamericanlife.svg"
+    }
+   ]
   }
  ]
 }

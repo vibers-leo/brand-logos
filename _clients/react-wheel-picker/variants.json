@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "react-wheel-picker",
- "primary": "svgl-react-wheel-picker_light",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "7eae1457bb5f0ed5",
+  "sources/svgl/react-wheel-picker_light.svg": "7eae1457bb5f0ed5"
+ },
  "variants": [
   {
-   "key": "svgl-react-wheel-picker_light",
-   "form": "symbol",
+   "key": "vertical",
+   "form": "vertical",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "세로조합형",
    "files": {
-    "svg": "sources/svgl/react-wheel-picker_light.svg",
-    "png": "sources/svgl/react-wheel-picker_light.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.716,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/react-wheel-picker_light.svg"
+    }
+   ]
   }
  ]
 }

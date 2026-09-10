@@ -10,7 +10,8 @@
   "sources/devicons/godot-original.svg": "d2b9c421aac4ceb4",
   "sources/wvl/godot-icon.svg": "6ef9a22cebe2430a",
   "sources/wvl/godot.svg": "2d15519d64821bef",
-  "sources/godot-icon.svg": "6ef9a22cebe2430a"
+  "sources/godot-icon.svg": "6ef9a22cebe2430a",
+  "sources/supertiny/godot.svg": "cd2a5e9b09f641c7"
  },
  "variants": [
   {
@@ -64,23 +65,12 @@
     {
      "provider": "merged",
      "file": "sources/godot-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/godot.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-godot",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/godot.svg",
-    "png": "sources/supertiny/godot.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

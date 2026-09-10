@@ -4,7 +4,8 @@
  "id": "codeberg",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a3a5fec04d675451"
+  "logo.svg": "a3a5fec04d675451",
+  "sources/supertiny/codeberg.svg": "1289b3c439eea543"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.066,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-codeberg",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/codeberg.svg",
-    "png": "sources/supertiny/codeberg.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/codeberg.svg"
+    }
+   ]
   }
  ]
 }

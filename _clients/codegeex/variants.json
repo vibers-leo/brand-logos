@@ -4,7 +4,8 @@
  "id": "codegeex",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "597d770a9cc317eb"
+  "logo.svg": "597d770a9cc317eb",
+  "sources/lobe/codegeex-text.svg": "d06e8d2c627b43f5"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-codegeex-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/codegeex-text.svg",
     "png": "sources/lobe/codegeex-text.png"
    },
-   "aspect": 9.6386,
+   "aspect": 6.779,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

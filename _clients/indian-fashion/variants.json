@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "indian-fashion",
- "primary": "apparel-indian",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "b6f4ded6d00a8ffb",
+  "sources/apparel-collection/indian.svg": "b6f4ded6d00a8ffb"
+ },
  "variants": [
   {
-   "key": "apparel-indian",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · indian",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/indian.svg",
-    "png": "sources/apparel-collection/indian.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 2.0408,
+   "aspect": 2.126,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/indian.svg"
+    }
+   ]
   }
  ]
 }

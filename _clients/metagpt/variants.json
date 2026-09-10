@@ -4,7 +4,8 @@
  "id": "metagpt",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c4c31e656fca46d9"
+  "logo.svg": "c4c31e656fca46d9",
+  "sources/lobe/metagpt-text.svg": "e684c76b5f6b7de0"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-metagpt-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/metagpt-text.svg",
     "png": "sources/lobe/metagpt-text.png"
    },
-   "aspect": 7.4074,
+   "aspect": 5.686,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

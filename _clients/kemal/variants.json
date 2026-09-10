@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "6251f3bad325735d",
   "sources/iconify/kemal.svg": "6251f3bad325735d",
-  "sources/wvl/kemal.svg": "7bb32bcb5e1fb313"
+  "sources/wvl/kemal.svg": "7bb32bcb5e1fb313",
+  "sources/supertiny/kemal.svg": "9da8fe3381feb177"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/kemal.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/kemal.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-kemal",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/kemal.svg",
-    "png": "sources/supertiny/kemal.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

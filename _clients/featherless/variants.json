@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "featherless",
- "primary": "lobe-featherless-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c5eedaec7057ee6c",
+  "sources/lobe/featherless-color.svg": "df8a9caf00eb131c",
+  "sources/lobe/featherless-text.svg": "c5eedaec7057ee6c"
+ },
  "variants": [
   {
-   "key": "lobe-featherless-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/featherless-color.svg",
     "png": "sources/lobe/featherless-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.2,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-featherless-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/featherless-text.svg",
-    "png": "sources/lobe/featherless-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 9.4118,
+   "aspect": 6.648,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/featherless-text.svg"
+    }
+   ]
   }
  ]
 }

@@ -8,7 +8,8 @@
   "sources/iconify/grafana.svg": "61f839a6657c2687",
   "sources/devicons/grafana-original.svg": "c8d73553046d3db8",
   "sources/wvl/grafana.svg": "ce2fc288ff528df4",
-  "sources/thesvg/wordmark.svg": "8e4e043fc1a6ea37"
+  "sources/thesvg/wordmark.svg": "8e4e043fc1a6ea37",
+  "sources/supertiny/grafana.svg": "e8bcf02c4f05d3fd"
  },
  "variants": [
   {
@@ -53,21 +54,6 @@
      "file": "sources/devicons/grafana-original.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-grafana",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/grafana.svg",
-    "png": "sources/supertiny/grafana.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

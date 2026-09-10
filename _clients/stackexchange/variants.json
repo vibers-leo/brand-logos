@@ -5,9 +5,25 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "af984d43de837366",
-  "sources/vlz/wide.svg": "da91f7382fb25a3b"
+  "sources/vlz/wide.svg": "da91f7382fb25a3b",
+  "sources/supertiny/stackexchange.svg": "65be0a6a71eee16d"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/supertiny/stackexchange.svg",
+    "png": "sources/supertiny/stackexchange.png"
+   },
+   "aspect": 0.793,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -36,21 +52,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-stackexchange",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/stackexchange.svg",
-    "png": "sources/supertiny/stackexchange.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

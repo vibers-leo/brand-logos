@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "stately-ai",
- "primary": "svgl-stately",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "35c9bc23bbfb99f8",
+  "sources/svgl/stately.svg": "35c9bc23bbfb99f8"
+ },
  "variants": [
   {
-   "key": "svgl-stately",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/svgl/stately.svg",
-    "png": "sources/svgl/stately.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 2.4691,
+   "aspect": 3.68,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/stately.svg"
+    }
+   ]
   }
  ]
 }

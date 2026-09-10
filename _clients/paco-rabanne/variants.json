@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "paco-rabanne",
- "primary": "apparel-paco-rabanne",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "9eb9ab1b6545bf4b",
+  "sources/apparel-collection/paco-rabanne.svg": "9eb9ab1b6545bf4b"
+ },
  "variants": [
   {
-   "key": "apparel-paco-rabanne",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · paco-rabanne",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/paco-rabanne.svg",
-    "png": "sources/apparel-collection/paco-rabanne.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 2.0202,
+   "aspect": 2.071,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/paco-rabanne.svg"
+    }
+   ]
   }
  ]
 }

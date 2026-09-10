@@ -4,7 +4,9 @@
  "id": "tanstack",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "93621299de345149"
+  "logo.svg": "93621299de345149",
+  "sources/svgl/tanstack_light.svg": "81e413800e268864",
+  "sources/svgl/tanstack_wordmark_light.svg": "90ef0c4ddb8e11c6"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 0.764,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/tanstack_light.svg"
+    }
+   ]
   },
   {
-   "key": "svgl-tanstack_light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/tanstack_light.svg",
-    "png": "sources/svgl/tanstack_light.png"
-   },
-   "aspect": 0.7641,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-tanstack_wordmark_light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/tanstack_wordmark_light.svg",
     "png": "sources/svgl/tanstack_wordmark_light.png"
    },
-   "aspect": 6.4516,
+   "aspect": 6.429,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

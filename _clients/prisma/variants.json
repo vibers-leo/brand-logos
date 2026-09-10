@@ -7,7 +7,8 @@
   "logo.svg": "9c65b5b8c7f7cbf6",
   "sources/iconify/prisma.svg": "9c65b5b8c7f7cbf6",
   "sources/devicons/prisma-original.svg": "6a5f02f79f5b4c5c",
-  "sources/wvl/prisma.svg": "90cd2c70aefffd4c"
+  "sources/wvl/prisma.svg": "90cd2c70aefffd4c",
+  "sources/supertiny/prisma.svg": "13d84b6680c4dfb0"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/prisma.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/prisma.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-prisma",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/prisma.svg",
-    "png": "sources/supertiny/prisma.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

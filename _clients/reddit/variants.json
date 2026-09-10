@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "4c42db048931cb35",
   "sources/reddit-icon.svg": "47b77e1b1388a24a",
-  "sources/vlz/wide.svg": "47f31edc073e18bb"
+  "sources/vlz/wide.svg": "47f31edc073e18bb",
+  "sources/supertiny/reddit.svg": "3dce428c698042f4"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "merged",
      "file": "sources/reddit-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/reddit.svg"
     }
    ]
   },
@@ -43,21 +48,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-reddit",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/reddit.svg",
-    "png": "sources/supertiny/reddit.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

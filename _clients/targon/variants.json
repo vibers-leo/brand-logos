@@ -4,7 +4,8 @@
  "id": "targon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1527f34da20600b3"
+  "logo.svg": "1527f34da20600b3",
+  "sources/lobe/targon-text.svg": "40f5d865ebd166fc"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-targon-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/targon-text.svg",
     "png": "sources/lobe/targon-text.png"
    },
-   "aspect": 6.8966,
+   "aspect": 5.303,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

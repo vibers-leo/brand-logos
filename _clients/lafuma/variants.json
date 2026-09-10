@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "lafuma",
- "primary": "apparel-lafuma",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "5d90e0679756e73d",
+  "sources/apparel-collection/lafuma.svg": "5d90e0679756e73d"
+ },
  "variants": [
   {
-   "key": "apparel-lafuma",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · lafuma",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/apparel-collection/lafuma.svg",
-    "png": "sources/apparel-collection/lafuma.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.6199,
+   "aspect": 3.906,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/lafuma.svg"
+    }
+   ]
   }
  ]
 }

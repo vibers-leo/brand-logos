@@ -4,7 +4,9 @@
  "id": "kolors",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fb5dd5fdfba48d3a"
+  "logo.svg": "fb5dd5fdfba48d3a",
+  "sources/lobe/kolors-color.svg": "f0193cc8c38080f6",
+  "sources/lobe/kolors-text.svg": "76c09c2b54d5b080"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.0,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/kolors-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-kolors-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/kolors-color.svg",
-    "png": "sources/lobe/kolors-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-kolors-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/kolors-text.svg",
     "png": "sources/lobe/kolors-text.png"
    },
-   "aspect": 6.8966,
+   "aspect": 5.294,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

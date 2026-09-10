@@ -4,7 +4,8 @@
  "id": "ag-ui",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "352613c937f08d4d"
+  "logo.svg": "352613c937f08d4d",
+  "sources/lobe/agui-text.svg": "5a56c4fdb25cbd50"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-agui-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/agui-text.svg",
     "png": "sources/lobe/agui-text.png"
    },
-   "aspect": 11.9403,
+   "aspect": 9.188,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

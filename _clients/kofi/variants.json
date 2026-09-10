@@ -4,7 +4,8 @@
  "id": "kofi",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "cf92d5fc8fe8b5ee"
+  "logo.svg": "cf92d5fc8fe8b5ee",
+  "sources/supertiny/ko-fi.svg": "98538f4b7226dc63"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.289,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-ko-fi",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ko-fi.svg",
-    "png": "sources/supertiny/ko-fi.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ko-fi.svg"
+    }
+   ]
   }
  ]
 }

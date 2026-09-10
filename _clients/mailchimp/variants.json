@@ -7,7 +7,8 @@
   "logo.svg": "b8bb7de6631316a5",
   "sources/iconify/mailchimp.svg": "b8bb7de6631316a5",
   "sources/wvl/mailchimp-freddie.svg": "f1f88a547fce8183",
-  "sources/wvl/mailchimp.svg": "8dd41da217790abd"
+  "sources/wvl/mailchimp.svg": "8dd41da217790abd",
+  "sources/supertiny/mailchimp.svg": "5afd1f7395da6a21"
  },
  "variants": [
   {
@@ -49,21 +50,6 @@
      "file": "sources/wvl/mailchimp.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-mailchimp",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/mailchimp.svg",
-    "png": "sources/supertiny/mailchimp.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

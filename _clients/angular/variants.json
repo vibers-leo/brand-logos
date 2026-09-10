@@ -11,7 +11,8 @@
   "sources/devicons/angular-original.svg": "cec832be4351e33f",
   "sources/wvl/angular-icon.svg": "3a22c838e40e6c70",
   "sources/wvl/angular.svg": "c118214919047e01",
-  "sources/angular-icon.svg": "3a22c838e40e6c70"
+  "sources/angular-icon.svg": "3a22c838e40e6c70",
+  "sources/supertiny/angular.svg": "70487107487e164e"
  },
  "variants": [
   {
@@ -48,6 +49,10 @@
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/angular.svg"
     }
    ]
   },
@@ -71,21 +76,6 @@
      "file": "sources/wvl/angular.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-angular",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/angular.svg",
-    "png": "sources/supertiny/angular.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

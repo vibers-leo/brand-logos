@@ -4,9 +4,26 @@
  "id": "guess",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "61e9f6939b112cbc"
+  "logo.svg": "61e9f6939b112cbc",
+  "sources/apparel-collection/guess-jeans.svg": "7f8072db3ab67f62",
+  "sources/apparel-collection/guess-triangle.svg": "57f7bdfd7dc5edec"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/apparel-collection/guess-triangle.svg",
+    "png": "sources/apparel-collection/guess-triangle.png"
+   },
+   "aspect": 1.155,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -20,37 +37,13 @@
    "aspect": 5.66,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "apparel-guess-jeans",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · guess-jeans",
-   "files": {
-    "svg": "sources/apparel-collection/guess-jeans.svg",
-    "png": "sources/apparel-collection/guess-jeans.png"
-   },
-   "aspect": 4.2105,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "apparel-guess-triangle",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · guess-triangle",
-   "files": {
-    "svg": "sources/apparel-collection/guess-triangle.svg",
-    "png": "sources/apparel-collection/guess-triangle.png"
-   },
-   "aspect": 1.1478,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/guess-jeans.svg"
+    }
+   ]
   }
  ]
 }

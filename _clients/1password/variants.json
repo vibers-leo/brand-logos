@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "93bab62c629ee8d1",
-  "sources/vlz/wide.svg": "5f604314970514a6"
+  "sources/vlz/wide.svg": "5f604314970514a6",
+  "sources/supertiny/1password.svg": "597c9a4bfb1af609"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/1password.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-1password",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/1password.svg",
-    "png": "sources/supertiny/1password.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "samsung-internet",
- "primary": "supertiny-samsung_internet",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "ba988feaebe6fce2",
+  "sources/supertiny/samsung_internet.svg": "ba988feaebe6fce2"
+ },
  "variants": [
   {
-   "key": "supertiny-samsung_internet",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/samsung_internet.svg",
-    "png": "sources/supertiny/samsung_internet.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/samsung_internet.svg"
+    }
+   ]
   }
  ]
 }

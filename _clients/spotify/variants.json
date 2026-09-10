@@ -10,7 +10,8 @@
   "sources/iconify/spotify-icon.svg": "f35579dde051eee2",
   "sources/wvl/spotify-icon.svg": "ad08a904377bd97b",
   "sources/wvl/spotify.svg": "78deee6a4569e2e9",
-  "sources/spotify-icon.svg": "ad08a904377bd97b"
+  "sources/spotify-icon.svg": "ad08a904377bd97b",
+  "sources/supertiny/spotify.svg": "511fc0a4771b9ffd"
  },
  "variants": [
   {
@@ -41,6 +42,10 @@
      "file": "sources/spotify-icon.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/spotify.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -66,21 +71,6 @@
      "file": "sources/wvl/spotify.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-spotify",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/spotify.svg",
-    "png": "sources/supertiny/spotify.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

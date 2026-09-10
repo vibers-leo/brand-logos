@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "polham",
- "primary": "apparel-polham",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "a87212ba59b51386",
+  "sources/apparel-collection/polham.svg": "a87212ba59b51386"
+ },
  "variants": [
   {
-   "key": "apparel-polham",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · polham",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/polham.svg",
-    "png": "sources/apparel-collection/polham.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.9231,
+   "aspect": 2.0,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/polham.svg"
+    }
+   ]
   }
  ]
 }

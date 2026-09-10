@@ -4,7 +4,8 @@
  "id": "nordvpn",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "b06258aecfd0fe4c"
+  "logo.svg": "b06258aecfd0fe4c",
+  "sources/supertiny/nordvpn.svg": "85a9e0e893616c34"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 10
   },
   {
-   "key": "supertiny-nordvpn",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/nordvpn.svg",
     "png": "sources/supertiny/nordvpn.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

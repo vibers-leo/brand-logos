@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "7b44c58c2a9e73e4",
   "sources/iconify/ibm.svg": "7b44c58c2a9e73e4",
-  "sources/wvl/ibm.svg": "77744cc0fc9b93ca"
+  "sources/wvl/ibm.svg": "77744cc0fc9b93ca",
+  "sources/supertiny/ibm.svg": "b4c74b8304cf84fe"
  },
  "variants": [
   {
@@ -25,6 +26,10 @@
    "order": 10,
    "alts": [
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ibm.svg"
+    },
+    {
      "provider": "iconify",
      "file": "sources/iconify/ibm.svg"
     },
@@ -33,21 +38,6 @@
      "file": "sources/wvl/ibm.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-ibm",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ibm.svg",
-    "png": "sources/supertiny/ibm.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

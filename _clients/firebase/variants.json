@@ -6,9 +6,25 @@
  "fingerprint": {
   "logo.svg": "9b8b22c8d1daeb04",
   "sources/firebase-icon.svg": "160aa5af7a258b84",
-  "sources/thesvg/wordmark.svg": "e03d3bda84f6117e"
+  "sources/thesvg/wordmark.svg": "e03d3bda84f6117e",
+  "sources/supertiny/firebase.svg": "c09a44b7b3de6d88"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/supertiny/firebase.svg",
+    "png": "sources/supertiny/firebase.png"
+   },
+   "aspect": 0.796,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -43,21 +59,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-firebase",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/firebase.svg",
-    "png": "sources/supertiny/firebase.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

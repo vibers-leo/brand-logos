@@ -10,9 +10,25 @@
   "sources/devicons/npm-original.svg": "bd2ae5bf47ee4484",
   "sources/wvl/npm.svg": "5cc4ade246836365",
   "sources/wvl/npm-icon.svg": "897cd1db27d566b7",
-  "sources/npm-icon.svg": "897cd1db27d566b7"
+  "sources/npm-icon.svg": "897cd1db27d566b7",
+  "sources/supertiny/npm.svg": "4a7d8c72d156d85d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/npm.svg",
+    "png": "sources/supertiny/npm.png"
+   },
+   "aspect": 2.582,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -66,21 +82,6 @@
      "file": "sources/wvl/npm.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-npm",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/npm.svg",
-    "png": "sources/supertiny/npm.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

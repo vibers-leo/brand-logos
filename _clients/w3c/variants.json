@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "6e21b3b5c588346d",
   "sources/iconify/w3c.svg": "6e21b3b5c588346d",
-  "sources/wvl/w3c.svg": "e85e02d55bcf2d8d"
+  "sources/wvl/w3c.svg": "e85e02d55bcf2d8d",
+  "sources/supertiny/w3c.svg": "e56c81e6696eea4a"
  },
  "variants": [
   {
@@ -35,11 +36,11 @@
    ]
   },
   {
-   "key": "supertiny-w3c",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/w3c.svg",
     "png": "sources/supertiny/w3c.png"
@@ -47,7 +48,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

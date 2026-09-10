@@ -10,7 +10,8 @@
   "sources/devicons/appwrite-original.svg": "cd198466fc3e6523",
   "sources/wvl/appwrite-icon.svg": "7014e3d296b848cd",
   "sources/wvl/appwrite.svg": "01ec58127c5ce204",
-  "sources/appwrite-icon.svg": "7014e3d296b848cd"
+  "sources/appwrite-icon.svg": "7014e3d296b848cd",
+  "sources/supertiny/appwrite.svg": "32e0bb53595f0c8a"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/appwrite-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/appwrite.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/appwrite.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-appwrite",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/appwrite.svg",
-    "png": "sources/supertiny/appwrite.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

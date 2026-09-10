@@ -4,9 +4,26 @@
  "id": "novelai",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "952fb8359b7679d0"
+  "logo.svg": "952fb8359b7679d0",
+  "sources/lobe/novelai.svg": "ed4bdcb0f9a93e3b",
+  "sources/lobe/novelai-text.svg": "0589ab49f5ba9088"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/lobe/novelai.svg",
+    "png": "sources/lobe/novelai.png"
+   },
+   "aspect": 0.812,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -20,37 +37,13 @@
    "aspect": 5.108,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-novelai",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/novelai.svg",
-    "png": "sources/lobe/novelai.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-novelai-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/novelai-text.svg",
-    "png": "sources/lobe/novelai-text.png"
-   },
-   "aspect": 6.6116,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/novelai-text.svg"
+    }
+   ]
   }
  ]
 }

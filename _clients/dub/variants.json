@@ -2,14 +2,40 @@
  "schema": 1,
  "algo_v": 1,
  "id": "dub",
- "primary": "svgl-dub_light_wordmark",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "95856a3e6dcc5bb6",
+  "sources/svgl/dub.svg": "bc660c11a3986818",
+  "sources/svgl/dub_light_wordmark.svg": "95856a3e6dcc5bb6"
+ },
  "variants": [
   {
-   "key": "svgl-dub",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.419,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/dub_light_wordmark.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/dub.svg",
     "png": "sources/svgl/dub.png"
@@ -17,22 +43,7 @@
    "aspect": 1.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "svgl-dub_light_wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
-   "files": {
-    "svg": "sources/svgl/dub_light_wordmark.svg",
-    "png": "sources/svgl/dub_light_wordmark.png"
-   },
-   "aspect": 1.9185,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

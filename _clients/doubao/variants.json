@@ -4,7 +4,8 @@
  "id": "doubao",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "801ff7f41d791cfd"
+  "logo.svg": "801ff7f41d791cfd",
+  "sources/lobe/doubao-text.svg": "4eee927b72aad038"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-doubao-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/doubao-text.svg",
     "png": "sources/lobe/doubao-text.png"
    },
-   "aspect": 6.5574,
+   "aspect": 5.017,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

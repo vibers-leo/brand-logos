@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hermesagent",
- "primary": "lobe-hermesagent-text",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "fc63a4cd83182e6d",
+  "sources/lobe/hermesagent.svg": "b98d55abad7135e1",
+  "sources/lobe/hermesagent-text.svg": "fc63a4cd83182e6d"
+ },
  "variants": [
   {
-   "key": "lobe-hermesagent",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.069,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/hermesagent-text.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/hermesagent.svg",
     "png": "sources/lobe/hermesagent.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.959,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-hermesagent-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/hermesagent-text.svg",
-    "png": "sources/lobe/hermesagent-text.png"
-   },
-   "aspect": 3.252,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

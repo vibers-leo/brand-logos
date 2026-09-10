@@ -4,7 +4,8 @@
  "id": "jordan",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8e50abec0de963a3"
+  "logo.svg": "8e50abec0de963a3",
+  "sources/apparel-collection/jordan.svg": "245a5d8b3d5f9ab8"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.066,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "apparel-jordan",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · jordan",
-   "files": {
-    "svg": "sources/apparel-collection/jordan.svg",
-    "png": "sources/apparel-collection/jordan.png"
-   },
-   "aspect": 1.0,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/jordan.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "betterauth",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "77c8473fc46721ca"
+  "logo.svg": "77c8473fc46721ca",
+  "sources/svgl/better-auth_light.svg": "753dc3fa9e433327",
+  "sources/svgl/better-auth_wordmark_light.svg": "f6432b488cf0a0de"
  },
  "variants": [
   {
@@ -23,11 +25,11 @@
    "order": 10
   },
   {
-   "key": "svgl-better-auth_light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/better-auth_light.svg",
     "png": "sources/svgl/better-auth_light.png"
@@ -35,14 +37,14 @@
    "aspect": 1.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 30
   },
   {
-   "key": "svgl-better-auth_wordmark_light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/better-auth_wordmark_light.svg",
     "png": "sources/svgl/better-auth_wordmark_light.png"
@@ -50,7 +52,7 @@
    "aspect": 4.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

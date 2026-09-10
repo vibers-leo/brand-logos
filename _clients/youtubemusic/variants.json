@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "c4e11b2f38133919",
-  "sources/thesvg/wordmark.svg": "dce925187e25effd"
+  "sources/thesvg/wordmark.svg": "dce925187e25effd",
+  "sources/supertiny/ytmusic.svg": "c918f116165ba6ba"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ytmusic.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-ytmusic",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ytmusic.svg",
-    "png": "sources/supertiny/ytmusic.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

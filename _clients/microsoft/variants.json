@@ -10,7 +10,8 @@
   "sources/iconify/microsoft-icon.svg": "285e50698aeb9b87",
   "sources/wvl/microsoft-icon.svg": "a8a5d2fd9c7816bf",
   "sources/wvl/microsoft.svg": "b058247f38ad8bfc",
-  "sources/microsoft-icon.svg": "a8a5d2fd9c7816bf"
+  "sources/microsoft-icon.svg": "a8a5d2fd9c7816bf",
+  "sources/supertiny/microsoft.svg": "2b37b5fff78550d5"
  },
  "variants": [
   {
@@ -41,6 +42,10 @@
      "file": "sources/microsoft-icon.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/microsoft.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -66,21 +71,6 @@
      "file": "sources/wvl/microsoft.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-microsoft",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/microsoft.svg",
-    "png": "sources/supertiny/microsoft.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "mercado-libre",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "ac7153f9d114d20b"
+  "logo.svg": "ac7153f9d114d20b",
+  "sources/svgl/mercado-libre-wordmark.svg": "177f29b232baf775"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-mercado-libre-wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/mercado-libre-wordmark.svg",
     "png": "sources/svgl/mercado-libre-wordmark.png"
    },
-   "aspect": 4.0609,
+   "aspect": 4.072,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

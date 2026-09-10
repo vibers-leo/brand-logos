@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "7a25d2f594010730",
   "sources/iconify/adyen.svg": "7a25d2f594010730",
-  "sources/wvl/adyen.svg": "097b9f77e4f507c2"
+  "sources/wvl/adyen.svg": "097b9f77e4f507c2",
+  "sources/supertiny/adyen.svg": "6aa675161885595a"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/adyen.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/adyen.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-adyen",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/adyen.svg",
-    "png": "sources/supertiny/adyen.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

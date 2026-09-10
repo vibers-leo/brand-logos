@@ -4,7 +4,8 @@
  "id": "pydanticai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "71aab85662bd36f2"
+  "logo.svg": "71aab85662bd36f2",
+  "sources/lobe/pydanticai-text.svg": "189fdc673bcf4164"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-pydanticai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/pydanticai-text.svg",
     "png": "sources/lobe/pydanticai-text.png"
    },
-   "aspect": 7.619,
+   "aspect": 5.33,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

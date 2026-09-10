@@ -4,7 +4,8 @@
  "id": "vk",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cf1c4f919e069acc"
+  "logo.svg": "cf1c4f919e069acc",
+  "sources/supertiny/vk.svg": "17b6d3d42bd08903"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-vk",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/vk.svg",
-    "png": "sources/supertiny/vk.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/vk.svg"
+    }
+   ]
   }
  ]
 }

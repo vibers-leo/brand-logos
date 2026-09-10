@@ -4,7 +4,8 @@
  "id": "radixui",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "9803704d7aeb1149"
+  "logo.svg": "9803704d7aeb1149",
+  "sources/svgl/radix-ui_light.svg": "0c047e2bb81ea3e5"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.68,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "svgl-radix-ui_light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/radix-ui_light.svg",
-    "png": "sources/svgl/radix-ui_light.png"
-   },
-   "aspect": 0.6803,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/radix-ui_light.svg"
+    }
+   ]
   }
  ]
 }

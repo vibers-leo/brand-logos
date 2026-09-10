@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "agentvoice",
- "primary": "lobe-agentvoice-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "a4e3f43038fb54c1",
+  "sources/lobe/agentvoice-color.svg": "d40c024cf40595cc",
+  "sources/lobe/agentvoice-text.svg": "a4e3f43038fb54c1"
+ },
  "variants": [
   {
-   "key": "lobe-agentvoice-color",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "가로조합형",
    "files": {
     "svg": "sources/lobe/agentvoice-color.svg",
     "png": "sources/lobe/agentvoice-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.431,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 10
   },
   {
-   "key": "lobe-agentvoice-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/agentvoice-text.svg",
-    "png": "sources/lobe/agentvoice-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 7.6923,
+   "aspect": 5.426,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/agentvoice-text.svg"
+    }
+   ]
   }
  ]
 }

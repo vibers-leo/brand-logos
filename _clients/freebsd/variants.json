@@ -7,7 +7,8 @@
   "logo.svg": "5fc8f43fbfd8b8ef",
   "sources/iconify/freebsd.svg": "5fc8f43fbfd8b8ef",
   "sources/wvl/freebsd.svg": "73fa8264be0e7fbe",
-  "sources/vlz/wide.svg": "92d112f08e3a5c88"
+  "sources/vlz/wide.svg": "92d112f08e3a5c88",
+  "sources/supertiny/freebsd.svg": "2de8d804974a6b3f"
  },
  "variants": [
   {
@@ -32,6 +33,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/freebsd.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/freebsd.svg"
     }
    ]
   },
@@ -48,21 +53,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-freebsd",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/freebsd.svg",
-    "png": "sources/supertiny/freebsd.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

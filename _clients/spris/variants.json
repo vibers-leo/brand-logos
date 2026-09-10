@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "spris",
- "primary": "apparel-spris",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "220b0b1a62b27f15",
+  "sources/apparel-collection/spris.svg": "220b0b1a62b27f15"
+ },
  "variants": [
   {
-   "key": "apparel-spris",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · spris",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/spris.svg",
-    "png": "sources/apparel-collection/spris.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.6529,
+   "aspect": 1.684,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/spris.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "penpot",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "644feaf482afb1de"
+  "logo.svg": "644feaf482afb1de",
+  "sources/svgl/penpot.svg": "d30619b083351c74"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.758,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "svgl-penpot",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/penpot.svg",
-    "png": "sources/svgl/penpot.png"
-   },
-   "aspect": 0.7569,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/penpot.svg"
+    }
+   ]
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "df279fd6b2dd53e3",
   "sources/whatsapp-icon.svg": "d76328daa7221237",
-  "sources/thesvg/wordmark.svg": "46235b48728a3a21"
+  "sources/thesvg/wordmark.svg": "46235b48728a3a21",
+  "sources/supertiny/whatsapp.svg": "3a042db761f4fe4a"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "merged",
      "file": "sources/whatsapp-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/whatsapp.svg"
     }
    ]
   },
@@ -43,21 +48,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-whatsapp",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/whatsapp.svg",
-    "png": "sources/supertiny/whatsapp.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

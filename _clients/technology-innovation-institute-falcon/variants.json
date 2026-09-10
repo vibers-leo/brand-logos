@@ -4,9 +4,25 @@
  "id": "technology-innovation-institute-falcon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f0ac8fd347d122d3"
+  "logo.svg": "f0ac8fd347d122d3",
+  "sources/lobe/tii-text.svg": "ed590dac3e639cdb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/tii-text.svg",
+    "png": "sources/lobe/tii-text.png"
+   },
+   "aspect": 2.156,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-tii-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/tii-text.svg",
-    "png": "sources/lobe/tii-text.png"
-   },
-   "aspect": 3.4934,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "jsr",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "e23ad5a6f3503a7e"
+  "logo.svg": "e23ad5a6f3503a7e",
+  "sources/supertiny/jsr.svg": "e1350e1987ffea6c"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.852,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-jsr",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/jsr.svg",
-    "png": "sources/supertiny/jsr.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/jsr.svg"
+    }
+   ]
   }
  ]
 }

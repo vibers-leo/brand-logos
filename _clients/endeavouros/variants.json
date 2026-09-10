@@ -4,7 +4,8 @@
  "id": "endeavouros",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "312ea23308bc770d"
+  "logo.svg": "312ea23308bc770d",
+  "sources/supertiny/endeavouros.svg": "6aa04d925392ea55"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.203,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-endeavouros",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/endeavouros.svg",
-    "png": "sources/supertiny/endeavouros.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/endeavouros.svg"
+    }
+   ]
   }
  ]
 }

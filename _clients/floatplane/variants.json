@@ -4,7 +4,8 @@
  "id": "floatplane",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9f17f3d093113b95"
+  "logo.svg": "9f17f3d093113b95",
+  "sources/supertiny/floatplane.svg": "3c54330ec315b6f4"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-floatplane",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/floatplane.svg",
-    "png": "sources/supertiny/floatplane.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/floatplane.svg"
+    }
+   ]
   }
  ]
 }

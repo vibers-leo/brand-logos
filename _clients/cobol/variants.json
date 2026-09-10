@@ -5,9 +5,25 @@
  "primary": "wordmark",
  "fingerprint": {
   "logo.svg": "ed218513517ce78e",
-  "sources/devicons/cobol-original.svg": "ed218513517ce78e"
+  "sources/devicons/cobol-original.svg": "ed218513517ce78e",
+  "sources/svgl/cobol.svg": "381c641acdc61b9a"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/svgl/cobol.svg",
+    "png": "sources/svgl/cobol.png"
+   },
+   "aspect": 1.169,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -28,21 +44,6 @@
      "file": "sources/devicons/cobol-original.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-cobol",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/cobol.svg",
-    "png": "sources/svgl/cobol.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

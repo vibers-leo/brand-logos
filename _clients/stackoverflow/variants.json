@@ -10,7 +10,8 @@
   "sources/devicons/stackoverflow-original.svg": "a6b8a91b05d0fdee",
   "sources/wvl/stackoverflow-icon.svg": "9d2b0af197128a5d",
   "sources/wvl/stackoverflow.svg": "1abaa67eec61d173",
-  "sources/stackoverflow-icon.svg": "9d2b0af197128a5d"
+  "sources/stackoverflow-icon.svg": "9d2b0af197128a5d",
+  "sources/supertiny/stackoverflow.svg": "5567a9b169eae11f"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/stackoverflow-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/stackoverflow.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/stackoverflow.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-stackoverflow",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/stackoverflow.svg",
-    "png": "sources/supertiny/stackoverflow.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

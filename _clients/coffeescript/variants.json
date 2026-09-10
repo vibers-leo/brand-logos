@@ -8,7 +8,8 @@
   "sources/iconify/coffeescript.svg": "69a06568bf0857cc",
   "sources/devicons/coffeescript-original.svg": "905c2f584a77cc34",
   "sources/wvl/coffeescript.svg": "27e5b11ddc3f888c",
-  "sources/vlz/wide.svg": "77e94b6a6a0ffae3"
+  "sources/vlz/wide.svg": "77e94b6a6a0ffae3",
+  "sources/supertiny/coffeescript.svg": "848112045756be8a"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/coffeescript-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/coffeescript.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-coffeescript",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/coffeescript.svg",
-    "png": "sources/supertiny/coffeescript.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

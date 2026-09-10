@@ -4,7 +4,8 @@
  "id": "bailian",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7d05f5721ab2611d"
+  "logo.svg": "7d05f5721ab2611d",
+  "sources/lobe/bailian-text.svg": "fa2af7eca6e1bb2b"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-bailian-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/bailian-text.svg",
     "png": "sources/lobe/bailian-text.png"
    },
-   "aspect": 7.1429,
+   "aspect": 5.425,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

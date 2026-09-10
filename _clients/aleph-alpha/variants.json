@@ -4,9 +4,26 @@
  "id": "aleph-alpha",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "3f150d9e1f9f5d7b"
+  "logo.svg": "3f150d9e1f9f5d7b",
+  "sources/lobe/alephalpha.svg": "4fe76ac3c1777f1d",
+  "sources/lobe/alephalpha-text.svg": "aa4e3d535c56d1dd"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/lobe/alephalpha.svg",
+    "png": "sources/lobe/alephalpha.png"
+   },
+   "aspect": 0.948,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -20,37 +37,13 @@
    "aspect": 4.183,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-alephalpha",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/alephalpha.svg",
-    "png": "sources/lobe/alephalpha.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-alephalpha-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/alephalpha-text.svg",
-    "png": "sources/lobe/alephalpha-text.png"
-   },
-   "aspect": 14.0351,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/alephalpha-text.svg"
+    }
+   ]
   }
  ]
 }

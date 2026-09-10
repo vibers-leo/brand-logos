@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "2250cce64864b8ec",
   "sources/iconify/pinia.svg": "2250cce64864b8ec",
-  "sources/wvl/pinia.svg": "e954e909af91c752"
+  "sources/wvl/pinia.svg": "e954e909af91c752",
+  "sources/svgl/pinia.svg": "2a554c90e5108cde"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/pinia.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/pinia.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-pinia",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/pinia.svg",
-    "png": "sources/svgl/pinia.png"
-   },
-   "aspect": 0.7737,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

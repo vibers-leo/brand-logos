@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "a47eb2766dc2b847",
   "sources/iconify/zorin-os.svg": "a47eb2766dc2b847",
-  "sources/wvl/zorin-os.svg": "04923bc3e624100d"
+  "sources/wvl/zorin-os.svg": "04923bc3e624100d",
+  "sources/supertiny/zorinos.svg": "fad9991d27ca49a3"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/zorin-os.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/zorinos.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-zorinos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/zorinos.svg",
-    "png": "sources/supertiny/zorinos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

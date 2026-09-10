@@ -4,9 +4,25 @@
  "id": "internlm",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "150106e44a951247"
+  "logo.svg": "150106e44a951247",
+  "sources/lobe/internlm-text.svg": "eb30cfdcbe0048c4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/internlm-text.svg",
+    "png": "sources/lobe/internlm-text.png"
+   },
+   "aspect": 2.509,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-internlm-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/internlm-text.svg",
-    "png": "sources/lobe/internlm-text.png"
-   },
-   "aspect": 3.6866,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

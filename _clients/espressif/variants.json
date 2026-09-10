@@ -4,7 +4,8 @@
  "id": "espressif",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0393473dc8a486b4"
+  "logo.svg": "0393473dc8a486b4",
+  "sources/supertiny/espressif.svg": "d0c2862032caea66"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-espressif",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/espressif.svg",
-    "png": "sources/supertiny/espressif.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/espressif.svg"
+    }
+   ]
   }
  ]
 }

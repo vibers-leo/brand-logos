@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "intlayer",
- "primary": "svgl-intlayer-light",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "4ea6074dcca53515",
+  "sources/svgl/intlayer-light.svg": "4ea6074dcca53515"
+ },
  "variants": [
   {
-   "key": "svgl-intlayer-light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/svgl/intlayer-light.svg",
-    "png": "sources/svgl/intlayer-light.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.071,
+   "aspect": 1.074,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/intlayer-light.svg"
+    }
+   ]
   }
  ]
 }

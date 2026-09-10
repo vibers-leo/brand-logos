@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "53229ab2bfcd3b5c",
-  "sources/vlz/wide.svg": "d67ef402add5d310"
+  "sources/vlz/wide.svg": "d67ef402add5d310",
+  "sources/supertiny/pinterest.svg": "38f47cb3e759028d"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 0.998,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-pinterest",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/pinterest.svg",
-    "png": "sources/supertiny/pinterest.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/pinterest.svg"
+    }
+   ]
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "dd3fa8bb801075aa",
-  "sources/thesvg/wordmark.svg": "b267037abd824a65"
+  "sources/thesvg/wordmark.svg": "b267037abd824a65",
+  "sources/supertiny/google_play.svg": "c6b85e2eca7f8401"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 0.898,
    "provider": "simpleicons/googleplay",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_play.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-google_play",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_play.svg",
-    "png": "sources/supertiny/google_play.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

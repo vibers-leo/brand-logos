@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "cb33bae1d655a817",
-  "sources/vlz/wide.svg": "5726c59cccb8227c"
+  "sources/vlz/wide.svg": "5726c59cccb8227c",
+  "sources/supertiny/postmarketos.svg": "c5694952219120f1"
  },
  "variants": [
   {
@@ -36,21 +37,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-postmarketos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/postmarketos.svg",
-    "png": "sources/supertiny/postmarketos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

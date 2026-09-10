@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "50ca7ab2dc066b75",
-  "sources/vlz/wide.svg": "d5999c5dd3505bba"
+  "sources/vlz/wide.svg": "d5999c5dd3505bba",
+  "sources/supertiny/wireguard.svg": "9365dcc80c0d9bf8"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/wireguard.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-wireguard",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/wireguard.svg",
-    "png": "sources/supertiny/wireguard.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

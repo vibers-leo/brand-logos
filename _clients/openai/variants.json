@@ -9,7 +9,9 @@
   "sources/iconify/openai-icon.svg": "d9a25c7f32f4924a",
   "sources/wvl/openai-icon.svg": "8e897591f78e54d6",
   "sources/wvl/openai.svg": "10367873125a6f18",
-  "sources/openai-icon.svg": "8e897591f78e54d6"
+  "sources/openai-icon.svg": "8e897591f78e54d6",
+  "sources/lobe/openai.svg": "dbfa17d0f6ed3d47",
+  "sources/lobe/openai-text.svg": "1268994bc00deaa2"
  },
  "variants": [
   {
@@ -34,6 +36,10 @@
     {
      "provider": "merged",
      "file": "sources/openai-icon.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/openai.svg"
     }
    ]
   },
@@ -59,38 +65,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/openai.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/openai-text.svg"
     }
    ]
-  },
-  {
-   "key": "lobe-openai",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/openai.svg",
-    "png": "sources/lobe/openai.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-openai-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/openai-text.svg",
-    "png": "sources/lobe/openai-text.png"
-   },
-   "aspect": 5.3691,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

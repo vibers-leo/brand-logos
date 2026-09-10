@@ -4,9 +4,25 @@
  "id": "glif",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "d88f432215e3fadf"
+  "logo.svg": "d88f432215e3fadf",
+  "sources/lobe/glif-text.svg": "830a4968ee9e5d87"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/glif-text.svg",
+    "png": "sources/lobe/glif-text.png"
+   },
+   "aspect": 1.697,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "vertical",
    "form": "vertical",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 20
-  },
-  {
-   "key": "lobe-glif-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/glif-text.svg",
-    "png": "sources/lobe/glif-text.png"
-   },
-   "aspect": 2.3739,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

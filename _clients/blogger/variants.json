@@ -7,7 +7,8 @@
   "logo.svg": "369628f49fa8a2ad",
   "sources/iconify/blogger.svg": "369628f49fa8a2ad",
   "sources/wvl/blogger.svg": "02f00bff79b39871",
-  "sources/vlz/wide.svg": "3a06e1a60b157c93"
+  "sources/vlz/wide.svg": "3a06e1a60b157c93",
+  "sources/supertiny/blogger.svg": "19ade8e7a3ad895b"
  },
  "variants": [
   {
@@ -32,6 +33,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/blogger.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/blogger.svg"
     }
    ]
   },
@@ -48,21 +53,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-blogger",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/blogger.svg",
-    "png": "sources/supertiny/blogger.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

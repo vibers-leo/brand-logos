@@ -4,7 +4,8 @@
  "id": "roocode",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "13219732132d2762"
+  "logo.svg": "13219732132d2762",
+  "sources/lobe/roocode-text.svg": "3198796c257096a3"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-roocode-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/roocode-text.svg",
     "png": "sources/lobe/roocode-text.png"
    },
-   "aspect": 8.2474,
+   "aspect": 5.772,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

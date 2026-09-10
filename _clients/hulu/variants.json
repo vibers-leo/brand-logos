@@ -4,7 +4,9 @@
  "id": "hulu",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "0fc0288e14e7ec56"
+  "logo.svg": "0fc0288e14e7ec56",
+  "sources/supertiny/hulu.svg": "a8a0f13de059ea5c",
+  "sources/svgl/hulu.svg": "87d31258b67905d9"
  },
  "variants": [
   {
@@ -20,37 +22,13 @@
    "aspect": 3.041,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "supertiny-hulu",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/hulu.svg",
-    "png": "sources/supertiny/hulu.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-hulu",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/hulu.svg",
-    "png": "sources/svgl/hulu.png"
-   },
-   "aspect": 3.0189,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/hulu.svg"
+    }
+   ]
   }
  ]
 }

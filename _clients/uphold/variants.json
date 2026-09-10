@@ -4,7 +4,8 @@
  "id": "uphold",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "7fccd68b3b9cd057"
+  "logo.svg": "7fccd68b3b9cd057",
+  "sources/supertiny/uphold.svg": "1f5269a497a8a575"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.711,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "supertiny-uphold",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/uphold.svg",
-    "png": "sources/supertiny/uphold.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/uphold.svg"
+    }
+   ]
   }
  ]
 }

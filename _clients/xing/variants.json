@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "65c75ec4b10831c4",
-  "sources/vlz/wide.svg": "87d9b87ed7fc9d97"
+  "sources/vlz/wide.svg": "87d9b87ed7fc9d97",
+  "sources/supertiny/xing.svg": "8365669179221574"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 0.851,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-xing",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/xing.svg",
-    "png": "sources/supertiny/xing.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/xing.svg"
+    }
+   ]
   }
  ]
 }

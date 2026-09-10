@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "byc-fashion",
- "primary": "apparel-byc",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "a60038e179fb7d8a",
+  "sources/apparel-collection/byc.svg": "a60038e179fb7d8a"
+ },
  "variants": [
   {
-   "key": "apparel-byc",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · byc",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/byc.svg",
-    "png": "sources/apparel-collection/byc.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.5873,
+   "aspect": 1.613,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/byc.svg"
+    }
+   ]
   }
  ]
 }

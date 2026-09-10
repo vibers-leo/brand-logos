@@ -4,7 +4,8 @@
  "id": "deepmind-google",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d7ae9443899ec70d"
+  "logo.svg": "d7ae9443899ec70d",
+  "sources/lobe/deepmind-text.svg": "db89a15a0b11762e"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-deepmind-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/deepmind-text.svg",
     "png": "sources/lobe/deepmind-text.png"
    },
-   "aspect": 11.2676,
+   "aspect": 7.338,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

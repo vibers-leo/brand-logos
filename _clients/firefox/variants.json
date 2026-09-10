@@ -9,7 +9,8 @@
   "sources/iconify/firefox.svg": "32aad3a2b25eb5f9",
   "sources/devicons/firefox-original.svg": "accc85dd88e9e36b",
   "sources/wvl/firefox.svg": "8714c1440bc93b8a",
-  "sources/vlz/wide.svg": "5a53059b305c13c8"
+  "sources/vlz/wide.svg": "5a53059b305c13c8",
+  "sources/supertiny/firefox.svg": "d18e205c26c1482d"
  },
  "variants": [
   {
@@ -54,25 +55,14 @@
      "file": "sources/devicons/firefox-original.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/firefox.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-firefox",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/firefox.svg",
-    "png": "sources/supertiny/firefox.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

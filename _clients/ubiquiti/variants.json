@@ -4,7 +4,8 @@
  "id": "ubiquiti",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ac2f91e647f5cf32"
+  "logo.svg": "ac2f91e647f5cf32",
+  "sources/supertiny/ubiquiti.svg": "5d707356466893b4"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.993,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-ubiquiti",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ubiquiti.svg",
-    "png": "sources/supertiny/ubiquiti.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ubiquiti.svg"
+    }
+   ]
   }
  ]
 }

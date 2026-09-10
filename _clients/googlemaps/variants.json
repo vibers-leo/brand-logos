@@ -4,7 +4,9 @@
  "id": "googlemaps",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "04b19d4eafe098b1"
+  "logo.svg": "04b19d4eafe098b1",
+  "sources/supertiny/google_maps.svg": "cc67d9069f49673f",
+  "sources/supertiny/google_maps_old.svg": "c8e79962fb156488"
  },
  "variants": [
   {
@@ -20,29 +22,20 @@
    "aspect": 0.693,
    "provider": "simpleicons/googlemaps",
    "origin": "collected",
-   "order": 20
+   "order": 20,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_maps.svg"
+    }
+   ]
   },
   {
-   "key": "supertiny-google_maps",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_maps.svg",
-    "png": "sources/supertiny/google_maps.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "supertiny-google_maps_old",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons (구형)",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/google_maps_old.svg",
     "png": "sources/supertiny/google_maps_old.png"
@@ -50,7 +43,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 102
+   "order": 30
   }
  ]
 }

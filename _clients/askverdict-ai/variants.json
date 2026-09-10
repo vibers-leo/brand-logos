@@ -2,50 +2,42 @@
  "schema": 1,
  "algo_v": 1,
  "id": "askverdict-ai",
- "primary": "original",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "4b9306d20bbe9aaa",
+  "sources/lobe/askverdict-color.svg": "2092d33ab41453eb",
+  "sources/lobe/askverdict-text.svg": "dbc494b1292d683c"
+ },
  "variants": [
   {
-   "key": "original",
-   "form": "unknown",
-   "lang": "unknown",
-   "color": "color",
-   "label": "기존 로고",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo.png"
-   },
-   "origin": "collected",
-   "order": 0
-  },
-  {
-   "key": "lobe-askverdict-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/askverdict-color.svg",
     "png": "sources/lobe/askverdict-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.866,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 30
   },
   {
-   "key": "lobe-askverdict-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/askverdict-text.svg",
     "png": "sources/lobe/askverdict-text.png"
    },
-   "aspect": 10.1266,
+   "aspect": 6.742,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

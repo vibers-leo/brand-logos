@@ -4,7 +4,8 @@
  "id": "comet-api",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c987e0ef7e04120a"
+  "logo.svg": "c987e0ef7e04120a",
+  "sources/lobe/cometapi-text.svg": "4494cb19fc678b11"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-cometapi-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/cometapi-text.svg",
     "png": "sources/lobe/cometapi-text.png"
    },
-   "aspect": 7.0175,
+   "aspect": 5.37,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

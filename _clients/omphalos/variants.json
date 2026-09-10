@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "omphalos",
- "primary": "apparel-omphalos",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "39759c703f0212cb",
+  "sources/apparel-collection/omphalos.svg": "39759c703f0212cb"
+ },
  "variants": [
   {
-   "key": "apparel-omphalos",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · omphalos",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/omphalos.svg",
-    "png": "sources/apparel-collection/omphalos.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.3491,
+   "aspect": 1.326,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/omphalos.svg"
+    }
+   ]
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "arnold-palmer-fashion",
- "primary": "apparel-arnold-palmer",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "032130f7d04ddc0f",
+  "sources/apparel-collection/arnold-palmer.svg": "032130f7d04ddc0f"
+ },
  "variants": [
   {
-   "key": "apparel-arnold-palmer",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · arnold-palmer",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/apparel-collection/arnold-palmer.svg",
-    "png": "sources/apparel-collection/arnold-palmer.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.6697,
+   "aspect": 3.963,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/arnold-palmer.svg"
+    }
+   ]
   }
  ]
 }

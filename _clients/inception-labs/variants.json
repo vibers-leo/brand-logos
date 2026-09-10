@@ -4,7 +4,8 @@
  "id": "inception-labs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2e8df1dfbd47ca66"
+  "logo.svg": "2e8df1dfbd47ca66",
+  "sources/lobe/inception-text.svg": "64c95eea3e8e1397"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-inception-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/inception-text.svg",
     "png": "sources/lobe/inception-text.png"
    },
-   "aspect": 6.015,
+   "aspect": 4.174,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

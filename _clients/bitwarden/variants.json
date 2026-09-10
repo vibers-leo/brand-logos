@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "b044db83d0de22e2",
-  "sources/vlz/wide.svg": "39076dcf776b5e64"
+  "sources/vlz/wide.svg": "39076dcf776b5e64",
+  "sources/supertiny/bitwarden.svg": "9de9dff1fc064b88"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 0.836,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-bitwarden",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bitwarden.svg",
-    "png": "sources/supertiny/bitwarden.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bitwarden.svg"
+    }
+   ]
   }
  ]
 }

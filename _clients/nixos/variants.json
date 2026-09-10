@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "e4312a5a44cf2de7",
   "sources/devicons/nixos-original.svg": "e4312a5a44cf2de7",
-  "sources/vlz/wide.svg": "39e3a3dbb3e33072"
+  "sources/vlz/wide.svg": "39e3a3dbb3e33072",
+  "sources/supertiny/nixos.svg": "0e0d460437f89d19"
  },
  "variants": [
   {
@@ -41,23 +42,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/nixos-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/nixos.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-nixos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/nixos.svg",
-    "png": "sources/supertiny/nixos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

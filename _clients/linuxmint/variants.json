@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "cf837e221318471a",
-  "sources/devicons/linuxmint-original.svg": "cf837e221318471a"
+  "sources/devicons/linuxmint-original.svg": "cf837e221318471a",
+  "sources/supertiny/linux_mint.svg": "2dfac80d5873ed8c"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/linuxmint-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/linux_mint.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-linux_mint",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/linux_mint.svg",
-    "png": "sources/supertiny/linux_mint.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

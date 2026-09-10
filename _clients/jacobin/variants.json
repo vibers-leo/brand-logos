@@ -4,7 +4,8 @@
  "id": "jacobin",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "d07c3fef9d776894"
+  "logo.svg": "d07c3fef9d776894",
+  "sources/supertiny/jacobin.svg": "8c73dd63a6d18693"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "supertiny-jacobin",
-   "form": "symbol",
+   "key": "vertical",
+   "form": "vertical",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "세로조합형",
    "files": {
     "svg": "sources/supertiny/jacobin.svg",
     "png": "sources/supertiny/jacobin.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.522,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 20
   }
  ]
 }

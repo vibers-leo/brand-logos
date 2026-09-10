@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "arnaldo-bassini",
- "primary": "apparel-arnaldo-bassini",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "d9715a0fc88371e9",
+  "sources/apparel-collection/arnaldo-bassini.svg": "d9715a0fc88371e9"
+ },
  "variants": [
   {
-   "key": "apparel-arnaldo-bassini",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · arnaldo-bassini",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/arnaldo-bassini.svg",
-    "png": "sources/apparel-collection/arnaldo-bassini.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.4572,
+   "aspect": 1.475,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/arnaldo-bassini.svg"
+    }
+   ]
   }
  ]
 }

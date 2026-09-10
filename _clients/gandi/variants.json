@@ -4,7 +4,8 @@
  "id": "gandi",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "98c71b50c8136828"
+  "logo.svg": "98c71b50c8136828",
+  "sources/supertiny/gandi.svg": "a7cb338df72cb49b"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 20
   },
   {
-   "key": "supertiny-gandi",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/gandi.svg",
     "png": "sources/supertiny/gandi.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

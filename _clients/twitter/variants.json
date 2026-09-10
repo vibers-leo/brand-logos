@@ -9,7 +9,8 @@
   "sources/iconify/twitter.svg": "8e6f890e78654d5b",
   "sources/devicons/twitter-original.svg": "e9d2cf78687666be",
   "sources/wvl/twitter.svg": "dc050ef9b573893b",
-  "sources/vlz/wide.svg": "14f276e4aa5c516c"
+  "sources/vlz/wide.svg": "14f276e4aa5c516c",
+  "sources/supertiny/twitter.svg": "049b4b3b533c0291"
  },
  "variants": [
   {
@@ -36,6 +37,10 @@
      "file": "sources/wvl/twitter.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/twitter.svg"
+    },
+    {
      "provider": "devicons",
      "file": "sources/devicons/twitter-original.svg"
     },
@@ -58,21 +63,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-twitter",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/twitter.svg",
-    "png": "sources/supertiny/twitter.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "7d3d7a8e9fc259c0",
   "sources/iconify/xstate.svg": "7d3d7a8e9fc259c0",
-  "sources/wvl/xstate.svg": "0ea5eef036112959"
+  "sources/wvl/xstate.svg": "0ea5eef036112959",
+  "sources/svgl/xstate.svg": "4c11392f2c8e4141"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/xstate.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/xstate.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-xstate",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/xstate.svg",
-    "png": "sources/svgl/xstate.png"
-   },
-   "aspect": 1.9753,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

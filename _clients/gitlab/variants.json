@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "d361595bc4f8cbb6",
   "sources/gitlab-icon.svg": "94d7d516f3db448e",
-  "sources/thesvg/wordmark.svg": "01474f71d1a205de"
+  "sources/thesvg/wordmark.svg": "01474f71d1a205de",
+  "sources/supertiny/gitlab.svg": "f42db1b9b7602b96"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "merged",
      "file": "sources/gitlab-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/gitlab.svg"
     }
    ]
   },
@@ -43,21 +48,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-gitlab",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/gitlab.svg",
-    "png": "sources/supertiny/gitlab.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "intello",
- "primary": "svgl-intello_wordmark_dark",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "30fecb7bd7a09873",
+  "sources/svgl/intello-dark.svg": "72adecd192ca8b14",
+  "sources/svgl/intello_wordmark_dark.svg": "30fecb7bd7a09873"
+ },
  "variants": [
   {
-   "key": "svgl-intello-dark",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/intello-dark.svg",
     "png": "sources/svgl/intello-dark.png"
    },
-   "aspect": 0.8016,
+   "aspect": 0.802,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "svgl-intello_wordmark_dark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/svgl/intello_wordmark_dark.svg",
-    "png": "sources/svgl/intello_wordmark_dark.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.9024,
+   "aspect": 3.913,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/intello_wordmark_dark.svg"
+    }
+   ]
   }
  ]
 }

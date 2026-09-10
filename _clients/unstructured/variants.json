@@ -2,35 +2,26 @@
  "schema": 1,
  "algo_v": 1,
  "id": "unstructured",
- "primary": "original",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "6b172d46b9451705",
+  "sources/lobe/unstructured-text.svg": "62120bc28cc54831"
+ },
  "variants": [
   {
-   "key": "original",
-   "form": "unknown",
-   "lang": "unknown",
-   "color": "color",
-   "label": "기존 로고",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo.png"
-   },
-   "origin": "collected",
-   "order": 0
-  },
-  {
-   "key": "lobe-unstructured-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/unstructured-text.svg",
     "png": "sources/lobe/unstructured-text.png"
    },
-   "aspect": 13.3333,
+   "aspect": 10.19,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

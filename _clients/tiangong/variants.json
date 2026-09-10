@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tiangong",
- "primary": "lobe-tiangong-text",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "dafbc1ff94be86ee",
+  "sources/lobe/tiangong-color.svg": "1a1c7a33e1c06bb1",
+  "sources/lobe/tiangong-text.svg": "dafbc1ff94be86ee"
+ },
  "variants": [
   {
-   "key": "lobe-tiangong-color",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.172,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/tiangong-text.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/tiangong-color.svg",
     "png": "sources/lobe/tiangong-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.163,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-tiangong-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/tiangong-text.svg",
-    "png": "sources/lobe/tiangong-text.png"
-   },
-   "aspect": 2.9412,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "7025d561f009e2de",
-  "sources/devicons/html5-original.svg": "7025d561f009e2de"
+  "sources/devicons/html5-original.svg": "7025d561f009e2de",
+  "sources/supertiny/html5.svg": "db1eab9cd2e94a7c"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/html5-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/html5.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-html5",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/html5.svg",
-    "png": "sources/supertiny/html5.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

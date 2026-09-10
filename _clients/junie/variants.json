@@ -4,7 +4,8 @@
  "id": "junie",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "97586fafc3fe5ce8"
+  "logo.svg": "97586fafc3fe5ce8",
+  "sources/lobe/junie-text.svg": "ee99bbdcfba28ed8"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-junie-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/junie-text.svg",
     "png": "sources/lobe/junie-text.png"
    },
-   "aspect": 4.878,
+   "aspect": 3.353,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

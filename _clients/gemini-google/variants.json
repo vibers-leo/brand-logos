@@ -4,7 +4,9 @@
  "id": "gemini-google",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4f4d581240f09d36"
+  "logo.svg": "4f4d581240f09d36",
+  "sources/lobe/gemini-color.svg": "114441a05613ef2c",
+  "sources/lobe/gemini-text.svg": "9a924a3686dcd77e"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.0,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/gemini-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-gemini-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/gemini-color.svg",
-    "png": "sources/lobe/gemini-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-gemini-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/gemini-text.svg",
     "png": "sources/lobe/gemini-text.png"
    },
-   "aspect": 6.1069,
+   "aspect": 3.886,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

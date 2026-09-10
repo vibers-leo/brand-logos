@@ -4,7 +4,8 @@
  "id": "11x",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "a5e475464adb5c20"
+  "logo.svg": "a5e475464adb5c20",
+  "sources/lobe/elevenx-text.svg": "4b26c3db1d9174d7"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.261,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "lobe-elevenx-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/elevenx-text.svg",
-    "png": "sources/lobe/elevenx-text.png"
-   },
-   "aspect": 2.5641,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/elevenx-text.svg"
+    }
+   ]
   }
  ]
 }

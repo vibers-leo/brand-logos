@@ -4,7 +4,8 @@
  "id": "geeksforgeeks",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "2cc056539aa710dd"
+  "logo.svg": "2cc056539aa710dd",
+  "sources/supertiny/geeksForGeeks.svg": "fd986621ab0f9033"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.957,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-geeksForGeeks",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/geeksForGeeks.svg",
-    "png": "sources/supertiny/geeksForGeeks.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/geeksForGeeks.svg"
+    }
+   ]
   }
  ]
 }

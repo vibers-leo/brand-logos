@@ -8,7 +8,8 @@
   "sources/iconify/laravel.svg": "4ddf1175a9ebb831",
   "sources/devicons/laravel-original.svg": "85fddc8de66ce73c",
   "sources/wvl/laravel.svg": "903a80dfc2c50d49",
-  "sources/vlz/wide.svg": "11b84f694d6254bb"
+  "sources/vlz/wide.svg": "11b84f694d6254bb",
+  "sources/supertiny/laravel.svg": "912df21e9278929d"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/laravel-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/laravel.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-laravel",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/laravel.svg",
-    "png": "sources/supertiny/laravel.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

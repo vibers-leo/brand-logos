@@ -6,9 +6,57 @@
  "fingerprint": {
   "logo.svg": "7b7615b10f578f0d",
   "sources/iconify/samsung.svg": "fbcc4e39ca944187",
-  "sources/wvl/samsung.svg": "6b249faf180ea512"
+  "sources/wvl/samsung.svg": "6b249faf180ea512",
+  "sources/supertiny/samsung.svg": "0c2c4bab3a3ae2e2",
+  "sources/supertiny/samsung_s.svg": "2fd984d669cd3d31",
+  "sources/supertiny/samsung_swoop.svg": "9168f1ce3afb3a9e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/samsung_swoop.svg",
+    "png": "sources/supertiny/samsung_swoop.png"
+   },
+   "aspect": 2.945,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/supertiny/samsung_s.svg",
+    "png": "sources/supertiny/samsung_s.png"
+   },
+   "aspect": 0.676,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 20
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/samsung.svg",
+    "png": "sources/supertiny/samsung.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -33,51 +81,6 @@
      "file": "sources/wvl/samsung.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-samsung",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/samsung.svg",
-    "png": "sources/supertiny/samsung.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "supertiny-samsung_s",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/samsung_s.svg",
-    "png": "sources/supertiny/samsung_s.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "supertiny-samsung_swoop",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/samsung_swoop.svg",
-    "png": "sources/supertiny/samsung_swoop.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

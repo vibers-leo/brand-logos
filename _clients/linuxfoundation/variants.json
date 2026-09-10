@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "6123d9165d66b0f5",
-  "sources/vlz/wide.svg": "b0533a781454de04"
+  "sources/vlz/wide.svg": "b0533a781454de04",
+  "sources/supertiny/linux-foundation.svg": "87f08319c135f45d"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/linux-foundation.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-linux-foundation",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/linux-foundation.svg",
-    "png": "sources/supertiny/linux-foundation.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

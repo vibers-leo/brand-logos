@@ -6,7 +6,9 @@
  "fingerprint": {
   "logo.svg": "2556fa2b598d0e3e",
   "sources/iconify_x-ai.svg": "2556fa2b598d0e3e",
-  "sources/gilbarbara/full.svg": "a61b94d231494dbe"
+  "sources/gilbarbara/full.svg": "a61b94d231494dbe",
+  "sources/lobe/xai.svg": "e125a0c9b0fb5af6",
+  "sources/lobe/xai-text.svg": "a703d15c9ebd7e46"
  },
  "variants": [
   {
@@ -21,7 +23,13 @@
    "aspect": 2.616,
    "provider": "gilbarbara",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/xai-text.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -41,38 +49,12 @@
     {
      "provider": "iconify",
      "file": "sources/iconify_x-ai.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/xai.svg"
     }
    ]
-  },
-  {
-   "key": "lobe-xai",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/xai.svg",
-    "png": "sources/lobe/xai.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-xai-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/xai-text.svg",
-    "png": "sources/lobe/xai-text.png"
-   },
-   "aspect": 2.5641,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

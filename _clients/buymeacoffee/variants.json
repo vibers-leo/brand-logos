@@ -4,7 +4,8 @@
  "id": "buymeacoffee",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "a646cdd43dcb4328"
+  "logo.svg": "a646cdd43dcb4328",
+  "sources/svgl/bmc.svg": "8ece5be0b81d9ff0"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.691,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "svgl-bmc",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/bmc.svg",
-    "png": "sources/svgl/bmc.png"
-   },
-   "aspect": 0.6914,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/bmc.svg"
+    }
+   ]
   }
  ]
 }

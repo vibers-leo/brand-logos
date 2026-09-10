@@ -8,7 +8,8 @@
   "sources/iconify/ansible.svg": "b34a57847af3bc51",
   "sources/devicons/ansible-original.svg": "c790ed5662b51e45",
   "sources/wvl/ansible.svg": "dac09142b7777f02",
-  "sources/thesvg/wordmark.svg": "abe646230ae42a5a"
+  "sources/thesvg/wordmark.svg": "abe646230ae42a5a",
+  "sources/supertiny/ansible.svg": "67926a4cf3989108"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/ansible-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ansible.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-ansible",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ansible.svg",
-    "png": "sources/supertiny/ansible.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

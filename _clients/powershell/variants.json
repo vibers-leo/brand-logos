@@ -5,7 +5,8 @@
  "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "d753ffac8134157e",
-  "sources/devicons/powershell-original.svg": "d753ffac8134157e"
+  "sources/devicons/powershell-original.svg": "d753ffac8134157e",
+  "sources/supertiny/powershell.svg": "d08818419cd3e028"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/powershell-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/powershell.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-powershell",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/powershell.svg",
-    "png": "sources/supertiny/powershell.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

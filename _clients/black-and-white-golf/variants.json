@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "black-and-white-golf",
- "primary": "apparel-black-and-white",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "ea763a9d0ce38941",
+  "sources/apparel-collection/black-and-white.svg": "ea763a9d0ce38941"
+ },
  "variants": [
   {
-   "key": "apparel-black-and-white",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · black-and-white",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/black-and-white.svg",
-    "png": "sources/apparel-collection/black-and-white.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.2327,
+   "aspect": 1.283,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/black-and-white.svg"
+    }
+   ]
   }
  ]
 }

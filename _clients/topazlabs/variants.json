@@ -4,7 +4,8 @@
  "id": "topazlabs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7ec0334fb762edfc"
+  "logo.svg": "7ec0334fb762edfc",
+  "sources/lobe/topazlabs-text.svg": "8245a595599f8b70"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-topazlabs-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/topazlabs-text.svg",
     "png": "sources/lobe/topazlabs-text.png"
    },
-   "aspect": 7.8431,
+   "aspect": 5.481,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

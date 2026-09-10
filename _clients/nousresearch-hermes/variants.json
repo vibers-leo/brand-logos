@@ -4,9 +4,25 @@
  "id": "nousresearch-hermes",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6577f9709e4324f5"
+  "logo.svg": "6577f9709e4324f5",
+  "sources/lobe/nousresearch-text.svg": "abed50c452d2b853"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/nousresearch-text.svg",
+    "png": "sources/lobe/nousresearch-text.png"
+   },
+   "aspect": 2.548,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-nousresearch-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/nousresearch-text.svg",
-    "png": "sources/lobe/nousresearch-text.png"
-   },
-   "aspect": 3.4335,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

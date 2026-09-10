@@ -4,7 +4,8 @@
  "id": "baseui",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "4419280ce65138fc"
+  "logo.svg": "4419280ce65138fc",
+  "sources/svgl/base-ui.svg": "8af11b7a6c5e2cdb"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.773,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "svgl-base-ui",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/base-ui.svg",
-    "png": "sources/svgl/base-ui.png"
-   },
-   "aspect": 0.7086,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/base-ui.svg"
+    }
+   ]
   }
  ]
 }

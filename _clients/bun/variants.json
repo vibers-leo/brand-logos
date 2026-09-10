@@ -7,7 +7,8 @@
   "logo.svg": "bfbf16943c8b8e65",
   "sources/iconify/bun.svg": "bfbf16943c8b8e65",
   "sources/devicons/bun-original.svg": "75fa0199f104d350",
-  "sources/wvl/bun.svg": "287a7193ee8f04b7"
+  "sources/wvl/bun.svg": "287a7193ee8f04b7",
+  "sources/supertiny/bun.svg": "21555e7e4854b725"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/bun-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bun.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-bun",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bun.svg",
-    "png": "sources/supertiny/bun.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

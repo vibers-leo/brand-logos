@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "96a30f0506c0ff19",
-  "sources/vlz/wide.svg": "71103cca64077f3b"
+  "sources/vlz/wide.svg": "71103cca64077f3b",
+  "sources/supertiny/stumbleupon.svg": "1507b58a4fc98c94"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 1.0,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-stumbleupon",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/stumbleupon.svg",
-    "png": "sources/supertiny/stumbleupon.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/stumbleupon.svg"
+    }
+   ]
   }
  ]
 }

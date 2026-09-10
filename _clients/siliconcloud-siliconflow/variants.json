@@ -4,7 +4,8 @@
  "id": "siliconcloud-siliconflow",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "9a3d935aff70e1f0"
+  "logo.svg": "9a3d935aff70e1f0",
+  "sources/lobe/siliconcloud-text.svg": "c56d7fecc8f3fce6"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-siliconcloud-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/siliconcloud-text.svg",
     "png": "sources/lobe/siliconcloud-text.png"
    },
-   "aspect": 8.7912,
+   "aspect": 6.713,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

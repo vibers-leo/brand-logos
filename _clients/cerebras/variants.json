@@ -4,7 +4,11 @@
  "id": "cerebras",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "1b898b4bb3732359"
+  "logo.svg": "1b898b4bb3732359",
+  "sources/lobe/cerebras-color.svg": "c6cd5d18e5169630",
+  "sources/lobe/cerebras-text.svg": "35f25067f75d5e34",
+  "sources/svgl/cerebras-dark.svg": "2e6fcb53fde5d342",
+  "sources/svgl/cerebras-wordmark.svg": "ec1a4f6368e04a89"
  },
  "variants": [
   {
@@ -23,64 +27,46 @@
    "order": 10
   },
   {
-   "key": "lobe-cerebras-color",
-   "form": "symbol",
+   "key": "vertical",
+   "form": "vertical",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "세로조합형",
    "files": {
     "svg": "sources/lobe/cerebras-color.svg",
     "png": "sources/lobe/cerebras-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.764,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/cerebras-dark.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-cerebras-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/cerebras-text.svg",
-    "png": "sources/lobe/cerebras-text.png"
-   },
-   "aspect": 5.9259,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-cerebras-dark",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/cerebras-dark.svg",
-    "png": "sources/svgl/cerebras-dark.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 103
-  },
-  {
-   "key": "svgl-cerebras-wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/cerebras-wordmark.svg",
     "png": "sources/svgl/cerebras-wordmark.png"
    },
-   "aspect": 2.2222,
+   "aspect": 2.271,
    "provider": "svgl",
    "origin": "collected",
-   "order": 104
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/cerebras-text.svg"
+    }
+   ]
   }
  ]
 }

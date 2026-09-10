@@ -8,7 +8,8 @@
   "sources/iconify/clojure.svg": "767c50b5dd777d31",
   "sources/devicons/clojure-original.svg": "8d46289da8970b1b",
   "sources/wvl/clojure.svg": "498da0a98ba3101f",
-  "sources/vlz/wide.svg": "4e16b98685f8dd19"
+  "sources/vlz/wide.svg": "4e16b98685f8dd19",
+  "sources/supertiny/clojure.svg": "574c703f2ef2b940"
  },
  "variants": [
   {
@@ -51,23 +52,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/clojure-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/clojure.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-clojure",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/clojure.svg",
-    "png": "sources/supertiny/clojure.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -4,9 +4,26 @@
  "id": "civitai",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "5c14588979b80fb5"
+  "logo.svg": "5c14588979b80fb5",
+  "sources/lobe/civitai-color.svg": "5f9a46141395894a",
+  "sources/lobe/civitai-text.svg": "caa76a2fc18a320f"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/lobe/civitai-color.svg",
+    "png": "sources/lobe/civitai-color.png"
+   },
+   "aspect": 0.867,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -20,37 +37,13 @@
    "aspect": 5.277,
    "provider": "logo.dev",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-civitai-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/civitai-color.svg",
-    "png": "sources/lobe/civitai-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-civitai-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/civitai-text.svg",
-    "png": "sources/lobe/civitai-text.png"
-   },
-   "aspect": 6.8966,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/civitai-text.svg"
+    }
+   ]
   }
  ]
 }

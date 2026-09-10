@@ -4,7 +4,8 @@
  "id": "dolibarr",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "38e92260899c8176"
+  "logo.svg": "38e92260899c8176",
+  "sources/supertiny/dolibarr.svg": "176393d81d14ea04"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.956,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-dolibarr",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/dolibarr.svg",
-    "png": "sources/supertiny/dolibarr.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/dolibarr.svg"
+    }
+   ]
   }
  ]
 }

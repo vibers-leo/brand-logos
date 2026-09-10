@@ -4,7 +4,8 @@
  "id": "badoo",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "a8924118c984643c"
+  "logo.svg": "a8924118c984643c",
+  "sources/supertiny/badoo.svg": "d93f34a1356a7359"
  },
  "variants": [
   {
@@ -21,21 +22,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
-  },
-  {
-   "key": "supertiny-badoo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/badoo.svg",
-    "png": "sources/supertiny/badoo.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "5ea27deb749edebe",
-  "sources/devicons/googlecolab-original.svg": "5ea27deb749edebe"
+  "sources/devicons/googlecolab-original.svg": "5ea27deb749edebe",
+  "sources/supertiny/colaboratory.svg": "49555263d08e9b01"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/googlecolab-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/colaboratory.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-colaboratory",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/colaboratory.svg",
-    "png": "sources/supertiny/colaboratory.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

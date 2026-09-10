@@ -9,9 +9,25 @@
   "sources/iconify/flickr-icon.svg": "2c18e6ded82bd54c",
   "sources/wvl/flickr-icon.svg": "29abfc44813d6411",
   "sources/wvl/flickr.svg": "704bbdda82bb5b7f",
-  "sources/flickr-icon.svg": "29abfc44813d6411"
+  "sources/flickr-icon.svg": "29abfc44813d6411",
+  "sources/supertiny/flickr.svg": "7c35acde0247d3a8"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/flickr.svg",
+    "png": "sources/supertiny/flickr.png"
+   },
+   "aspect": 2.252,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -61,21 +77,6 @@
      "file": "sources/wvl/flickr.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-flickr",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/flickr.svg",
-    "png": "sources/supertiny/flickr.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "kluster",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d244cd4781ec2702"
+  "logo.svg": "d244cd4781ec2702",
+  "sources/lobe/kluster-text.svg": "67f1715c69a9e46a"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-kluster-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/kluster-text.svg",
     "png": "sources/lobe/kluster-text.png"
    },
-   "aspect": 8.1633,
+   "aspect": 5.725,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

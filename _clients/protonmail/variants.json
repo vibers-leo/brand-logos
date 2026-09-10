@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "71f101754df81fd8",
-  "sources/thesvg/wordmark.svg": "938e7106fa9a120c"
+  "sources/thesvg/wordmark.svg": "938e7106fa9a120c",
+  "sources/supertiny/protonmail.svg": "da94a2c1c6167c31"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.231,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/protonmail.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-protonmail",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/protonmail.svg",
-    "png": "sources/supertiny/protonmail.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

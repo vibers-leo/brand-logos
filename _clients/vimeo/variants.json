@@ -10,7 +10,8 @@
   "sources/iconify/vimeo-icon.svg": "0b603aa9105f7291",
   "sources/wvl/vimeo-icon.svg": "cca61b1be1bd9339",
   "sources/wvl/vimeo.svg": "8d503d7ad8017353",
-  "sources/vimeo-icon.svg": "cca61b1be1bd9339"
+  "sources/vimeo-icon.svg": "cca61b1be1bd9339",
+  "sources/supertiny/vimeo.svg": "5b3f3800d82110aa"
  },
  "variants": [
   {
@@ -41,6 +42,10 @@
      "file": "sources/vimeo-icon.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/vimeo.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -66,21 +71,6 @@
      "file": "sources/wvl/vimeo.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-vimeo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/vimeo.svg",
-    "png": "sources/supertiny/vimeo.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

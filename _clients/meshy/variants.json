@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "meshy",
- "primary": "lobe-meshy-text",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "d8e5f463b7cc986d",
+  "sources/lobe/meshy-color.svg": "6476dc1a9155584c",
+  "sources/lobe/meshy-text.svg": "d8e5f463b7cc986d"
+ },
  "variants": [
   {
-   "key": "lobe-meshy-color",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.772,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/meshy-text.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/meshy-color.svg",
     "png": "sources/lobe/meshy-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.074,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-meshy-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/meshy-text.svg",
-    "png": "sources/lobe/meshy-text.png"
-   },
-   "aspect": 2.6846,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

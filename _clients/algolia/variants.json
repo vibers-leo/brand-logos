@@ -7,7 +7,8 @@
   "logo.svg": "96fc8cb545d0ea61",
   "sources/iconify/algolia.svg": "96fc8cb545d0ea61",
   "sources/devicons/algolia-original.svg": "ec79a5deaf42872b",
-  "sources/wvl/algolia.svg": "69fd887bea2d7bbb"
+  "sources/wvl/algolia.svg": "69fd887bea2d7bbb",
+  "sources/svgl/algolia.svg": "98722067d2b789c8"
  },
  "variants": [
   {
@@ -47,23 +48,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/algolia.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/algolia.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-algolia",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/algolia.svg",
-    "png": "sources/svgl/algolia.png"
-   },
-   "aspect": 4.0404,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

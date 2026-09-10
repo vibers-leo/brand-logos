@@ -5,7 +5,9 @@
  "primary": "vertical",
  "fingerprint": {
   "logo.svg": "d47433e7845fc37b",
-  "sources/si.svg": "d47433e7845fc37b"
+  "sources/si.svg": "d47433e7845fc37b",
+  "sources/lobe/elevenlabs.svg": "6533b564f2ce5e3a",
+  "sources/lobe/elevenlabs-text.svg": "31532ad1aca2c2c5"
  },
  "variants": [
   {
@@ -26,38 +28,27 @@
     {
      "provider": "simpleicons",
      "file": "sources/si.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/elevenlabs.svg"
     }
    ]
   },
   {
-   "key": "lobe-elevenlabs",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/elevenlabs.svg",
-    "png": "sources/lobe/elevenlabs.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-elevenlabs-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/elevenlabs-text.svg",
     "png": "sources/lobe/elevenlabs-text.png"
    },
-   "aspect": 10.9589,
+   "aspect": 7.737,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "leptonai",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "839c1d52168422fe"
+  "logo.svg": "839c1d52168422fe",
+  "sources/lobe/leptonai-text.svg": "419a1f805bd612e6"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-leptonai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/leptonai-text.svg",
     "png": "sources/lobe/leptonai-text.png"
    },
-   "aspect": 6.7227,
+   "aspect": 4.721,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

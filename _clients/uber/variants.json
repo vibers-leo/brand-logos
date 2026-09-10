@@ -4,7 +4,8 @@
  "id": "uber",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "364af7dbf8b6aeba"
+  "logo.svg": "364af7dbf8b6aeba",
+  "sources/supertiny/uber.svg": "25151684cefb5025"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 10
   },
   {
-   "key": "supertiny-uber",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/uber.svg",
     "png": "sources/supertiny/uber.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

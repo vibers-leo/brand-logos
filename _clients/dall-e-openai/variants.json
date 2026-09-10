@@ -4,7 +4,8 @@
  "id": "dall-e-openai",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "3ba9d42e689f840d"
+  "logo.svg": "3ba9d42e689f840d",
+  "sources/lobe/dalle-text.svg": "6db801d322a24e50"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 4.787,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-dalle-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/dalle-text.svg",
-    "png": "sources/lobe/dalle-text.png"
-   },
-   "aspect": 5.298,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/dalle-text.svg"
+    }
+   ]
   }
  ]
 }

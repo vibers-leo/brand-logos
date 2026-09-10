@@ -10,7 +10,8 @@
   "sources/wvl/flattr-icon.svg": "a31f3095c477d8d2",
   "sources/wvl/flattr.svg": "396e909629719fb7",
   "sources/flattr-icon.svg": "a31f3095c477d8d2",
-  "sources/vlz/wide.svg": "88eec003485d1beb"
+  "sources/vlz/wide.svg": "88eec003485d1beb",
+  "sources/supertiny/flattr.svg": "5359945be87f0fd5"
  },
  "variants": [
   {
@@ -47,6 +48,10 @@
     {
      "provider": "merged",
      "file": "sources/flattr-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/flattr.svg"
     }
    ]
   },
@@ -63,21 +68,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-flattr",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/flattr.svg",
-    "png": "sources/supertiny/flattr.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

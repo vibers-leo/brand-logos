@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "eb969b1242880a22",
-  "sources/vlz/wide.svg": "8769642540fef0d4"
+  "sources/vlz/wide.svg": "8769642540fef0d4",
+  "sources/supertiny/fitbit.svg": "4517c6654660e7bf"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 1.002,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-fitbit",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/fitbit.svg",
-    "png": "sources/supertiny/fitbit.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/fitbit.svg"
+    }
+   ]
   }
  ]
 }

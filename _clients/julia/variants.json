@@ -7,7 +7,8 @@
   "logo.svg": "5bb7e41e4c208e44",
   "sources/iconify/julia.svg": "5bb7e41e4c208e44",
   "sources/devicons/julia-original.svg": "2258ffccab300d5b",
-  "sources/wvl/julia.svg": "d3acadc9c8fb05c7"
+  "sources/wvl/julia.svg": "d3acadc9c8fb05c7",
+  "sources/supertiny/julia.svg": "66877469e88d54e9"
  },
  "variants": [
   {
@@ -48,22 +49,13 @@
    "aspect": 1.075,
    "provider": "devicons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-julia",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/julia.svg",
-    "png": "sources/supertiny/julia.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/julia.svg"
+    }
+   ]
   }
  ]
 }

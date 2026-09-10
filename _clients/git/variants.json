@@ -10,7 +10,8 @@
   "sources/devicons/git-original.svg": "d090b18b8f74cfb7",
   "sources/wvl/git-icon.svg": "50d518e7ea2c4c0f",
   "sources/wvl/git.svg": "a3f5998272eb9988",
-  "sources/git-icon.svg": "50d518e7ea2c4c0f"
+  "sources/git-icon.svg": "50d518e7ea2c4c0f",
+  "sources/supertiny/git.svg": "67d734d4095f5e1d"
  },
  "variants": [
   {
@@ -64,23 +65,12 @@
     {
      "provider": "merged",
      "file": "sources/git-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/git.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-git",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/git.svg",
-    "png": "sources/supertiny/git.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

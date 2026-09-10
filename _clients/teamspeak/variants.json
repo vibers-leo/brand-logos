@@ -4,7 +4,8 @@
  "id": "teamspeak",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0cd3639a2df0432a"
+  "logo.svg": "0cd3639a2df0432a",
+  "sources/supertiny/teamspeak.svg": "277a58d563f897cc"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.051,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-teamspeak",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/teamspeak.svg",
-    "png": "sources/supertiny/teamspeak.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/teamspeak.svg"
+    }
+   ]
   }
  ]
 }

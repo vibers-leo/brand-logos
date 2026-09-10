@@ -8,7 +8,8 @@
   "sources/fa.svg": "96b9c31676ef4b88",
   "sources/iconify/dropbox.svg": "b156135a2d4bf071",
   "sources/wvl/dropbox.svg": "df22010f5934d87f",
-  "sources/thesvg/wordmark.svg": "6b0504fc3a804edc"
+  "sources/thesvg/wordmark.svg": "6b0504fc3a804edc",
+  "sources/supertiny/dropbox.svg": "fa415e5793764978"
  },
  "variants": [
   {
@@ -35,6 +36,10 @@
      "file": "sources/wvl/dropbox.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/dropbox.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -53,21 +58,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-dropbox",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/dropbox.svg",
-    "png": "sources/supertiny/dropbox.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

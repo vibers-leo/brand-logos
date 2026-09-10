@@ -10,7 +10,8 @@
   "sources/devicons/vagrant-original.svg": "9fceb6b4c3b60f25",
   "sources/wvl/vagrant-icon.svg": "412ecfa95db0eb9a",
   "sources/wvl/vagrant.svg": "47883a33e6dc94a2",
-  "sources/vagrant-icon.svg": "412ecfa95db0eb9a"
+  "sources/vagrant-icon.svg": "412ecfa95db0eb9a",
+  "sources/supertiny/vagrant.svg": "9a083b6a5c06e5ef"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/vagrant-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/vagrant.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/vagrant.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-vagrant",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/vagrant.svg",
-    "png": "sources/supertiny/vagrant.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

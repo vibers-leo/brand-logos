@@ -4,7 +4,8 @@
  "id": "hackerone",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "697f12814814abef"
+  "logo.svg": "697f12814814abef",
+  "sources/supertiny/hackerone.svg": "f04922d727aa6bee"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.538,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "supertiny-hackerone",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/hackerone.svg",
-    "png": "sources/supertiny/hackerone.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/hackerone.svg"
+    }
+   ]
   }
  ]
 }

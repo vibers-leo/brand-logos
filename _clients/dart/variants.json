@@ -8,7 +8,8 @@
   "sources/iconify/dart.svg": "9ea0f4a6f42bb8b4",
   "sources/devicons/dart-original.svg": "027a09d4c83952d5",
   "sources/wvl/dart.svg": "7d51b44795db3dba",
-  "sources/commons-wm/wordmark.svg": "dd2fb683d1ab568e"
+  "sources/commons-wm/wordmark.svg": "dd2fb683d1ab568e",
+  "sources/supertiny/dart.svg": "2e8d7e710d1e1d1a"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/dart-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/dart.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-dart",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/dart.svg",
-    "png": "sources/supertiny/dart.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

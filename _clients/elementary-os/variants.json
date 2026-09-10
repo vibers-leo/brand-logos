@@ -4,9 +4,25 @@
  "id": "elementary-os",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "2c63e46a7ea27fe5"
+  "logo.svg": "2c63e46a7ea27fe5",
+  "sources/supertiny/elementaryos.svg": "84061ded4633f9e9"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/elementaryos.svg",
+    "png": "sources/supertiny/elementaryos.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-elementaryos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/elementaryos.svg",
-    "png": "sources/supertiny/elementaryos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

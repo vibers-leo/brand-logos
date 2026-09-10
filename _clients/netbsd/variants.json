@@ -4,7 +4,8 @@
  "id": "netbsd",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "0fa04bee9d42dfc2"
+  "logo.svg": "0fa04bee9d42dfc2",
+  "sources/supertiny/netbsd.svg": "c02c9c1d3887da82"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "supertiny-netbsd",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/netbsd.svg",
     "png": "sources/supertiny/netbsd.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.937,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

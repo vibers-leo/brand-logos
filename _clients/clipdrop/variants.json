@@ -4,7 +4,8 @@
  "id": "clipdrop",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2f5300cfe38cf755"
+  "logo.svg": "2f5300cfe38cf755",
+  "sources/lobe/clipdrop-text.svg": "f6288d4d6b0d4820"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-clipdrop-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/clipdrop-text.svg",
     "png": "sources/lobe/clipdrop-text.png"
    },
-   "aspect": 6.0606,
+   "aspect": 4.228,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

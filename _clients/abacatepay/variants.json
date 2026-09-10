@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "7fddbc386920e141",
   "sources/svgl/wordmark.svg": "08db661b5dc62f0e",
-  "sources/thesvg/wordmark.svg": "08db661b5dc62f0e"
+  "sources/thesvg/wordmark.svg": "08db661b5dc62f0e",
+  "sources/svgl/abacatepay-wordmark.svg": "aad3077f8c9eb20f"
  },
  "variants": [
   {
@@ -45,19 +46,19 @@
    "order": 30
   },
   {
-   "key": "svgl-abacatepay-wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/abacatepay-wordmark.svg",
     "png": "sources/svgl/abacatepay-wordmark.png"
    },
-   "aspect": 2.4169,
+   "aspect": 2.675,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

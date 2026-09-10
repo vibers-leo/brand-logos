@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "8e76fcab419ea302",
-  "sources/devicons/gitpod-original.svg": "8e76fcab419ea302"
+  "sources/devicons/gitpod-original.svg": "8e76fcab419ea302",
+  "sources/supertiny/gitpod.svg": "e5b8eed1a6afcad2"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/gitpod-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/gitpod.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-gitpod",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/gitpod.svg",
-    "png": "sources/supertiny/gitpod.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

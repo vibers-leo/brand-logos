@@ -4,7 +4,8 @@
  "id": "openbenches",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2cae444a996157d1"
+  "logo.svg": "2cae444a996157d1",
+  "sources/supertiny/openbenches.svg": "8086ae174bee8a69"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-openbenches",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/openbenches.svg",
-    "png": "sources/supertiny/openbenches.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/openbenches.svg"
+    }
+   ]
   }
  ]
 }

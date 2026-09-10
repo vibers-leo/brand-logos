@@ -4,7 +4,8 @@
  "id": "player2",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "60ebb5e3216d8bb0"
+  "logo.svg": "60ebb5e3216d8bb0",
+  "sources/lobe/player2-text.svg": "6699c3e3e598afd8"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 20
   },
   {
-   "key": "lobe-player2-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/player2-text.svg",
     "png": "sources/lobe/player2-text.png"
    },
-   "aspect": 9.6386,
+   "aspect": 6.383,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

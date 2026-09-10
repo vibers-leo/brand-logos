@@ -4,7 +4,8 @@
  "id": "friendli",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c277a83c005f6f4c"
+  "logo.svg": "c277a83c005f6f4c",
+  "sources/lobe/friendli-text.svg": "a3f95cf59b42bb84"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-friendli-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/friendli-text.svg",
     "png": "sources/lobe/friendli-text.png"
    },
-   "aspect": 8.1633,
+   "aspect": 5.706,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

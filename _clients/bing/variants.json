@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "4bd99d4f3808e37b",
   "sources/iconify/bing.svg": "4bd99d4f3808e37b",
-  "sources/wvl/bing.svg": "c244e6c2fd968533"
+  "sources/wvl/bing.svg": "c244e6c2fd968533",
+  "sources/supertiny/bing.svg": "e788fe76f44f3fc5"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/bing.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bing.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-bing",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bing.svg",
-    "png": "sources/supertiny/bing.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

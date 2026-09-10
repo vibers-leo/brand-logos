@@ -4,9 +4,25 @@
  "id": "venmo",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "be20384d521fd535"
+  "logo.svg": "be20384d521fd535",
+  "sources/supertiny/venmo.svg": "97da094632b8e3e6"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/venmo.svg",
+    "png": "sources/supertiny/venmo.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-venmo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/venmo.svg",
-    "png": "sources/supertiny/venmo.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

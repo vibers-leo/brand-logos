@@ -4,7 +4,8 @@
  "id": "voyage",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c38212cf43b2164e"
+  "logo.svg": "c38212cf43b2164e",
+  "sources/lobe/voyage-text.svg": "8842cf7f2f97e302"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-voyage-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/voyage-text.svg",
     "png": "sources/lobe/voyage-text.png"
    },
-   "aspect": 8.7912,
+   "aspect": 6.147,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "944a63bb3cad9487",
   "sources/iconify/zod.svg": "944a63bb3cad9487",
-  "sources/wvl/zod.svg": "b8207151453bfa85"
+  "sources/wvl/zod.svg": "b8207151453bfa85",
+  "sources/svgl/zod.svg": "f4b6fe269b1a0c43"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/zod.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/zod.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-zod",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/zod.svg",
-    "png": "sources/svgl/zod.png"
-   },
-   "aspect": 1.2618,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

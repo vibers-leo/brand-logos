@@ -4,7 +4,8 @@
  "id": "vlcmediaplayer",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2f71f6579230fa23"
+  "logo.svg": "2f71f6579230fa23",
+  "sources/supertiny/vlc.svg": "d42195d7360757ee"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.884,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-vlc",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/vlc.svg",
-    "png": "sources/supertiny/vlc.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/vlc.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "gmail",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "80b4eaa818a8ba55"
+  "logo.svg": "80b4eaa818a8ba55",
+  "sources/supertiny/gmail.svg": "16f1acfe5e6f70ba",
+  "sources/supertiny/gmail_old.svg": "1226a7df4a8ece98"
  },
  "variants": [
   {
@@ -20,37 +22,17 @@
    "aspect": 1.331,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-gmail",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/gmail.svg",
-    "png": "sources/supertiny/gmail.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "supertiny-gmail_old",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons (구형)",
-   "files": {
-    "svg": "sources/supertiny/gmail_old.svg",
-    "png": "sources/supertiny/gmail_old.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/gmail.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/gmail_old.svg"
+    }
+   ]
   }
  ]
 }

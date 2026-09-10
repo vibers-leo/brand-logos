@@ -9,7 +9,8 @@
   "sources/iconify/dribbble-icon.svg": "5a2f3afa446b98e3",
   "sources/wvl/dribbble-icon.svg": "3e61e5393c29aa02",
   "sources/wvl/dribbble.svg": "928730d52a5f3753",
-  "sources/dribbble-icon.svg": "3e61e5393c29aa02"
+  "sources/dribbble-icon.svg": "3e61e5393c29aa02",
+  "sources/supertiny/dribbble.svg": "1e36a7d03212791b"
  },
  "variants": [
   {
@@ -61,21 +62,6 @@
      "file": "sources/wvl/dribbble.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-dribbble",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/dribbble.svg",
-    "png": "sources/supertiny/dribbble.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "essential-ai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f769ffa2a0c6f737"
+  "logo.svg": "f769ffa2a0c6f737",
+  "sources/lobe/essentialai-color.svg": "d379d6ad5b01a7c9",
+  "sources/lobe/essentialai-text.svg": "a8797dcc858f12cd"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.142,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/essentialai-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-essentialai-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/essentialai-color.svg",
-    "png": "sources/lobe/essentialai-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-essentialai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/essentialai-text.svg",
     "png": "sources/lobe/essentialai-text.png"
    },
-   "aspect": 8.6957,
+   "aspect": 6.147,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "wekan",
- "primary": "supertiny-wekan",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "d48b5653ffa53cc8",
+  "sources/supertiny/wekan.svg": "d48b5653ffa53cc8"
+ },
  "variants": [
   {
-   "key": "supertiny-wekan",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/wekan.svg",
-    "png": "sources/supertiny/wekan.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/wekan.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "nvidia",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "cb8a2c3bd48070a0"
+  "logo.svg": "cb8a2c3bd48070a0",
+  "sources/svgl/nvidia-icon-light.svg": "6ce3987db3ab9ef2",
+  "sources/svgl/nvidia-wordmark-light.svg": "73450de1b0ad1ae0"
  },
  "variants": [
   {
@@ -23,34 +25,34 @@
    "order": 10
   },
   {
-   "key": "svgl-nvidia-icon-light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/nvidia-icon-light.svg",
     "png": "sources/svgl/nvidia-icon-light.png"
    },
-   "aspect": 1.3582,
+   "aspect": 1.357,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 30
   },
   {
-   "key": "svgl-nvidia-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/nvidia-wordmark-light.svg",
     "png": "sources/svgl/nvidia-wordmark-light.png"
    },
-   "aspect": 5.4795,
+   "aspect": 5.406,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "flatpak",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7ce01b5258506e75"
+  "logo.svg": "7ce01b5258506e75",
+  "sources/supertiny/flatpak.svg": "b5b5fe4dbace405a"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.902,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-flatpak",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/flatpak.svg",
-    "png": "sources/supertiny/flatpak.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/flatpak.svg"
+    }
+   ]
   }
  ]
 }

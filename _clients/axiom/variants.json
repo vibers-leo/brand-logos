@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "axiom",
- "primary": "svgl-axiom-wordmark-light",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "a2e869f1f3cf4b14",
+  "sources/svgl/axiom-light.svg": "5e087a4f184df0e1",
+  "sources/svgl/axiom-wordmark-light.svg": "a2e869f1f3cf4b14"
+ },
  "variants": [
   {
-   "key": "svgl-axiom-light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/axiom-light.svg",
     "png": "sources/svgl/axiom-light.png"
    },
-   "aspect": 1.1577,
+   "aspect": 1.157,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "svgl-axiom-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/svgl/axiom-wordmark-light.svg",
-    "png": "sources/svgl/axiom-wordmark-light.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 5.8824,
+   "aspect": 5.882,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/axiom-wordmark-light.svg"
+    }
+   ]
   }
  ]
 }

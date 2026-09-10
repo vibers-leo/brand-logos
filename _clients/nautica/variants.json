@@ -2,37 +2,57 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nautica",
- "primary": "apparel-nautica-wordmark",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "e804a3dabbbd2ec9",
+  "sources/apparel-collection/nautica-wordmark.svg": "e804a3dabbbd2ec9",
+  "sources/apparel-collection/nautica-symbol.svg": "ad031def168ab0b0"
+ },
  "variants": [
   {
-   "key": "apparel-nautica-wordmark",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · nautica-wordmark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/nautica-wordmark.svg",
-    "png": "sources/apparel-collection/nautica-wordmark.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 2.454,
+   "aspect": 2.545,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10
   },
   {
-   "key": "apparel-nautica-symbol",
-   "form": "vertical",
+   "key": "symbol",
+   "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · nautica-symbol",
+   "label": "심볼형",
    "files": {
     "svg": "sources/apparel-collection/nautica-symbol.svg",
     "png": "sources/apparel-collection/nautica-symbol.png"
    },
-   "aspect": 0.6294,
+   "aspect": 0.615,
    "provider": "apparel",
    "origin": "collected",
-   "order": 101
+   "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/apparel-collection/nautica-wordmark.svg",
+    "png": "sources/apparel-collection/nautica-wordmark.png"
+   },
+   "aspect": 2.545,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

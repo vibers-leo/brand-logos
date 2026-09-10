@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "c66c77cb24177941",
-  "sources/wvl/micro-python.svg": "c66c77cb24177941"
+  "sources/wvl/micro-python.svg": "c66c77cb24177941",
+  "sources/supertiny/micropython.svg": "89b610ddb772a9be"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/micro-python.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/micropython.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-micropython",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/micropython.svg",
-    "png": "sources/supertiny/micropython.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

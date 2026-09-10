@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "crocodile-fashion",
- "primary": "apparel-crocodile",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "2d9881b31f0049db",
+  "sources/apparel-collection/crocodile.svg": "2d9881b31f0049db"
+ },
  "variants": [
   {
-   "key": "apparel-crocodile",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · crocodile",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/crocodile.svg",
-    "png": "sources/apparel-collection/crocodile.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 2.7875,
+   "aspect": 2.84,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/crocodile.svg"
+    }
+   ]
   }
  ]
 }

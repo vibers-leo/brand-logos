@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "relagit",
- "primary": "svgl-relagit-wordmark-light",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c73772c9f0b5d610",
+  "sources/svgl/relagit-icon-light.svg": "26d1d7a3fb0a40ea",
+  "sources/svgl/relagit-wordmark-light.svg": "c73772c9f0b5d610"
+ },
  "variants": [
   {
-   "key": "svgl-relagit-icon-light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/relagit-icon-light.svg",
     "png": "sources/svgl/relagit-icon-light.png"
    },
-   "aspect": 0.8421,
+   "aspect": 0.844,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "svgl-relagit-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/svgl/relagit-wordmark-light.svg",
-    "png": "sources/svgl/relagit-wordmark-light.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.8278,
+   "aspect": 4.745,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/relagit-wordmark-light.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,9 +4,26 @@
  "id": "reebok",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "7c912f9cfbc283ed"
+  "logo.svg": "7c912f9cfbc283ed",
+  "sources/apparel-collection/reebok-gray.svg": "04b12607a4c9bae4",
+  "sources/apparel-collection/reebok-color.svg": "b4e108ee904ea796"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/apparel-collection/reebok-gray.svg",
+    "png": "sources/apparel-collection/reebok-gray.png"
+   },
+   "aspect": 2.147,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -20,37 +37,13 @@
    "aspect": 3.567,
    "provider": "unknown",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "apparel-reebok-gray",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · reebok-gray",
-   "files": {
-    "svg": "sources/apparel-collection/reebok-gray.svg",
-    "png": "sources/apparel-collection/reebok-gray.png"
-   },
-   "aspect": 2.0888,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "apparel-reebok-color",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · reebok-color",
-   "files": {
-    "svg": "sources/apparel-collection/reebok-color.svg",
-    "png": "sources/apparel-collection/reebok-color.png"
-   },
-   "aspect": 5.4422,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/reebok-color.svg"
+    }
+   ]
   }
  ]
 }

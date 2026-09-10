@@ -4,7 +4,8 @@
  "id": "everlast",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "415d85359f1ee15c"
+  "logo.svg": "415d85359f1ee15c",
+  "sources/apparel-collection/everlast.svg": "a4881f4313f03214"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.525,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "apparel-everlast",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · everlast",
-   "files": {
-    "svg": "sources/apparel-collection/everlast.svg",
-    "png": "sources/apparel-collection/everlast.png"
-   },
-   "aspect": 1.636,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/everlast.svg"
+    }
+   ]
   }
  ]
 }

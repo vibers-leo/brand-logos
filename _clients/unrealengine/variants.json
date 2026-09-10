@@ -10,7 +10,8 @@
   "sources/devicons/unrealengine-original.svg": "25fe6fa028d13a95",
   "sources/wvl/unrealengine-icon.svg": "cdfc30684cdfd43f",
   "sources/wvl/unrealengine.svg": "6a08c5251868fa65",
-  "sources/unrealengine-icon.svg": "cdfc30684cdfd43f"
+  "sources/unrealengine-icon.svg": "cdfc30684cdfd43f",
+  "sources/supertiny/unreal.svg": "a45b7235b6c24949"
  },
  "variants": [
   {
@@ -51,23 +52,12 @@
     {
      "provider": "merged",
      "file": "sources/unrealengine-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/unreal.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-unreal",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/unreal.svg",
-    "png": "sources/supertiny/unreal.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

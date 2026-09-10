@@ -4,7 +4,8 @@
  "id": "leap-wallet",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "7cc79c176765879c"
+  "logo.svg": "7cc79c176765879c",
+  "sources/svgl/leap-wallet-wordmark-light.svg": "136dc4ef40798f7e"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-leap-wallet-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/leap-wallet-wordmark-light.svg",
     "png": "sources/svgl/leap-wallet-wordmark-light.png"
    },
-   "aspect": 3.3613,
+   "aspect": 3.356,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

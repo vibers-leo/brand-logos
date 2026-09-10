@@ -2,37 +2,33 @@
  "schema": 1,
  "algo_v": 1,
  "id": "geminicli",
- "primary": "lobe-geminicli-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "21bc3aa8d24bf18d",
+  "sources/lobe/geminicli-color.svg": "a2ae5062cabf2896",
+  "sources/lobe/geminicli-text.svg": "21bc3aa8d24bf18d"
+ },
  "variants": [
   {
-   "key": "lobe-geminicli-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/geminicli-color.svg",
-    "png": "sources/lobe/geminicli-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-geminicli-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/geminicli-text.svg",
-    "png": "sources/lobe/geminicli-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 9.5238,
+   "aspect": 6.724,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/geminicli-text.svg"
+    }
+   ]
   }
  ]
 }

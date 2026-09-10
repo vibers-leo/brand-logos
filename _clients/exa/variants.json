@@ -4,9 +4,25 @@
  "id": "exa",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "708c5971a46d313e"
+  "logo.svg": "708c5971a46d313e",
+  "sources/lobe/exa-text.svg": "416000aa125cd8c6"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/exa-text.svg",
+    "png": "sources/lobe/exa-text.png"
+   },
+   "aspect": 2.707,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "vertical",
    "form": "vertical",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 20
-  },
-  {
-   "key": "lobe-exa-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/exa-text.svg",
-    "png": "sources/lobe/exa-text.png"
-   },
-   "aspect": 3.6199,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

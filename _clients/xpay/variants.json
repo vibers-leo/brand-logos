@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "xpay",
- "primary": "lobe-xpay-text",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "4e52f73360f54334",
+  "sources/lobe/xpay-color.svg": "ab9852c1cf876497",
+  "sources/lobe/xpay-text.svg": "4e52f73360f54334"
+ },
  "variants": [
   {
-   "key": "lobe-xpay-color",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.909,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/xpay-text.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/xpay-color.svg",
     "png": "sources/lobe/xpay-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.152,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-xpay-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/xpay-text.svg",
-    "png": "sources/lobe/xpay-text.png"
-   },
-   "aspect": 4.1885,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

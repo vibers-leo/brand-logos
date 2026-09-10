@@ -4,7 +4,8 @@
  "id": "nuxthub",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "08de2f53aa1596b3"
+  "logo.svg": "08de2f53aa1596b3",
+  "sources/svgl/nuxthub-wordmark-light.svg": "7fd75bc854337808"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-nuxthub-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/nuxthub-wordmark-light.svg",
     "png": "sources/svgl/nuxthub-wordmark-light.png"
    },
-   "aspect": 5.8394,
+   "aspect": 5.96,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

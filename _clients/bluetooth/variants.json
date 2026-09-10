@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "981cc3339c366b40",
   "sources/iconify/bluetooth.svg": "981cc3339c366b40",
-  "sources/wvl/bluetooth.svg": "5802e5cd9698ee6c"
+  "sources/wvl/bluetooth.svg": "5802e5cd9698ee6c",
+  "sources/supertiny/bluetooth.svg": "73942dbdd435c8df"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/bluetooth.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bluetooth.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-bluetooth",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bluetooth.svg",
-    "png": "sources/supertiny/bluetooth.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "imdb",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "44af3d260267cdb7"
+  "logo.svg": "44af3d260267cdb7",
+  "sources/supertiny/imdb.svg": "2c6520f1836c90eb"
  },
  "variants": [
   {
@@ -21,21 +22,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "supertiny-imdb",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/imdb.svg",
-    "png": "sources/supertiny/imdb.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

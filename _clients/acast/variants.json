@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "acast",
- "primary": "supertiny-acast",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "03996bb1194d0f26",
+  "sources/supertiny/acast.svg": "03996bb1194d0f26"
+ },
  "variants": [
   {
-   "key": "supertiny-acast",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/acast.svg",
-    "png": "sources/supertiny/acast.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/acast.svg"
+    }
+   ]
   }
  ]
 }

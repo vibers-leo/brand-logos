@@ -4,7 +4,8 @@
  "id": "googlepay",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "5d9a8a7e30275b25"
+  "logo.svg": "5d9a8a7e30275b25",
+  "sources/supertiny/google_pay_old.svg": "15a0787287f32550"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "supertiny-google_pay_old",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons (구형)",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/google_pay_old.svg",
     "png": "sources/supertiny/google_pay_old.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.176,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

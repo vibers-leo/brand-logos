@@ -4,7 +4,8 @@
  "id": "inference",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "79ef3a82ccfbef8f"
+  "logo.svg": "79ef3a82ccfbef8f",
+  "sources/lobe/inference-text.svg": "203bbfbe0290d544"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-inference-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/inference-text.svg",
     "png": "sources/lobe/inference-text.png"
    },
-   "aspect": 9.8765,
+   "aspect": 7.597,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

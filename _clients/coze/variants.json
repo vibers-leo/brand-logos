@@ -4,7 +4,9 @@
  "id": "coze",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "52f1177d49cf3da6"
+  "logo.svg": "52f1177d49cf3da6",
+  "sources/lobe/coze.svg": "fd3fd90fab15449b",
+  "sources/lobe/coze-text.svg": "4b06d7903bc75abe"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/coze.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-coze",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/coze.svg",
-    "png": "sources/lobe/coze.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-coze-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/coze-text.svg",
     "png": "sources/lobe/coze-text.png"
    },
-   "aspect": 5.298,
+   "aspect": 4.021,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

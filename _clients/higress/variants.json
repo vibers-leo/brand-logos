@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "higress",
- "primary": "lobe-higress-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "b684f7f13ed6631f",
+  "sources/lobe/higress-color.svg": "18174783a91d17f0",
+  "sources/lobe/higress-text.svg": "b684f7f13ed6631f"
+ },
  "variants": [
   {
-   "key": "lobe-higress-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/higress-color.svg",
     "png": "sources/lobe/higress-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.11,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-higress-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/higress-text.svg",
-    "png": "sources/lobe/higress-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 5.2632,
+   "aspect": 3.339,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/higress-text.svg"
+    }
+   ]
   }
  ]
 }

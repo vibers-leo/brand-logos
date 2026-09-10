@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "amberframework",
- "primary": "supertiny-amberframework",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "be39bc19695c4cd0",
+  "sources/supertiny/amberframework.svg": "be39bc19695c4cd0"
+ },
  "variants": [
   {
-   "key": "supertiny-amberframework",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/amberframework.svg",
-    "png": "sources/supertiny/amberframework.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.889,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/amberframework.svg"
+    }
+   ]
   }
  ]
 }

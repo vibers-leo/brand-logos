@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "2cbc959f3fb20b33",
-  "sources/vlz/wide.svg": "360851aab3269aad"
+  "sources/vlz/wide.svg": "360851aab3269aad",
+  "sources/supertiny/viber.svg": "c0584531a586218a"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 0.949,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-viber",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/viber.svg",
-    "png": "sources/supertiny/viber.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/viber.svg"
+    }
+   ]
   }
  ]
 }

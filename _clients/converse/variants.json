@@ -4,7 +4,10 @@
  "id": "converse",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "047a54b74ed77a4b"
+  "logo.svg": "047a54b74ed77a4b",
+  "sources/apparel-collection/converse-all-star.svg": "7188e68511ac9b9f",
+  "sources/apparel-collection/converse-star.svg": "87108c873d16e0c0",
+  "sources/apparel-collection/converse-wordmark.svg": "4e60d44033a7fc80"
  },
  "variants": [
   {
@@ -23,49 +26,40 @@
    "order": 10
   },
   {
-   "key": "apparel-converse-all-star",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · converse-all-star",
-   "files": {
-    "svg": "sources/apparel-collection/converse-all-star.svg",
-    "png": "sources/apparel-collection/converse-all-star.png"
-   },
-   "aspect": 1.0,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "apparel-converse-star",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · converse-star",
+   "label": "심볼형",
    "files": {
     "svg": "sources/apparel-collection/converse-star.svg",
     "png": "sources/apparel-collection/converse-star.png"
    },
-   "aspect": 0.9206,
+   "aspect": 0.918,
    "provider": "apparel",
    "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/converse-all-star.svg"
+    }
+   ]
   },
   {
-   "key": "apparel-converse-wordmark",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · converse-wordmark",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/apparel-collection/converse-wordmark.svg",
     "png": "sources/apparel-collection/converse-wordmark.png"
    },
-   "aspect": 6.5574,
+   "aspect": 7.246,
    "provider": "apparel",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

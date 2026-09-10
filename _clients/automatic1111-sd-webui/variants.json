@@ -4,7 +4,8 @@
  "id": "automatic1111-sd-webui",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "b5217638b09353b8"
+  "logo.svg": "b5217638b09353b8",
+  "sources/lobe/automatic-text.svg": "d7c546d825ee45ed"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-automatic-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/automatic-text.svg",
     "png": "sources/lobe/automatic-text.png"
    },
-   "aspect": 12.6984,
+   "aspect": 9.8,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

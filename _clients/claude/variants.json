@@ -9,7 +9,10 @@
   "sources/iconify/claude-icon.svg": "c13fdc18be30dd3a",
   "sources/wvl/claude-icon.svg": "be7e2bfa69b3b103",
   "sources/wvl/claude.svg": "03c8973b481188cd",
-  "sources/claude-icon.svg": "be7e2bfa69b3b103"
+  "sources/claude-icon.svg": "be7e2bfa69b3b103",
+  "sources/supertiny/claude.svg": "23d0fd164076e4a9",
+  "sources/lobe/claude-color.svg": "eb7867e50550756c",
+  "sources/lobe/claude-text.svg": "aaa2e5507143304f"
  },
  "variants": [
   {
@@ -34,6 +37,14 @@
     {
      "provider": "merged",
      "file": "sources/claude-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/claude.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/claude-color.svg"
     }
    ]
   },
@@ -59,53 +70,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/claude.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/claude-text.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-claude",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/claude.svg",
-    "png": "sources/supertiny/claude.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-claude-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/claude-color.svg",
-    "png": "sources/lobe/claude-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
-  },
-  {
-   "key": "lobe-claude-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/claude-text.svg",
-    "png": "sources/lobe/claude-text.png"
-   },
-   "aspect": 6.0606,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 104
   }
  ]
 }

@@ -4,9 +4,26 @@
  "id": "citrix",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "0ac776f274f8d8e0"
+  "logo.svg": "0ac776f274f8d8e0",
+  "sources/supertiny/citrix.svg": "00a0866e56729f44",
+  "sources/supertiny/citrix_compact.svg": "f84755ca579e2d4f"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/citrix.svg",
+    "png": "sources/supertiny/citrix.png"
+   },
+   "aspect": 2.923,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "vertical",
    "form": "vertical",
@@ -20,37 +37,13 @@
    "aspect": 0.676,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "supertiny-citrix",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/citrix.svg",
-    "png": "sources/supertiny/citrix.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "supertiny-citrix_compact",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/citrix_compact.svg",
-    "png": "sources/supertiny/citrix_compact.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 20,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/citrix_compact.svg"
+    }
+   ]
   }
  ]
 }

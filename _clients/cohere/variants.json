@@ -4,47 +4,17 @@
  "id": "cohere",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "e9904d73400564ab"
+  "logo.svg": "e9904d73400564ab",
+  "sources/lobe/cohere-color.svg": "3ffe1fe85e2b5a35",
+  "sources/lobe/cohere-text.svg": "8301dd17041da38f"
  },
  "variants": [
   {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "심볼+워드마크 (가로형)",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo-800.png"
-   },
-   "aspect": 5.824,
-   "provider": "brand-site",
-   "origin": "collected",
-   "order": 10
-  },
-  {
    "key": "symbol",
    "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 0.859
-  },
-  {
-   "key": "lobe-cohere-color",
-   "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/cohere-color.svg",
     "png": "sources/lobe/cohere-color.png"
@@ -52,22 +22,28 @@
    "aspect": 1.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 30
   },
   {
-   "key": "lobe-cohere-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/cohere-text.svg",
-    "png": "sources/lobe/cohere-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 6.4,
-   "provider": "lobe",
+   "aspect": 5.824,
+   "provider": "brand-site",
    "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/cohere-text.svg"
+    }
+   ]
   }
  ]
 }

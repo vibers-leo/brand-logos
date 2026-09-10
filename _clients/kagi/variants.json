@@ -4,9 +4,27 @@
  "id": "kagi",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "f4f082826660235c"
+  "logo.svg": "f4f082826660235c",
+  "sources/supertiny/kagi.svg": "509a5c25e4d2d825",
+  "sources/lobe/kagi.svg": "3fbdae616f942a6b",
+  "sources/lobe/kagi-text.svg": "002d7ad5f7ab3f01"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/kagi-text.svg",
+    "png": "sources/lobe/kagi-text.png"
+   },
+   "aspect": 1.874,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "vertical",
    "form": "vertical",
@@ -20,52 +38,13 @@
    "aspect": 0.663,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "supertiny-kagi",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/kagi.svg",
-    "png": "sources/supertiny/kagi.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-kagi",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/kagi.svg",
-    "png": "sources/lobe/kagi.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-kagi-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/kagi-text.svg",
-    "png": "sources/lobe/kagi-text.png"
-   },
-   "aspect": 2.9412,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
+   "order": 20,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/kagi.svg"
+    }
+   ]
   }
  ]
 }

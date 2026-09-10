@@ -2,14 +2,20 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kilocode",
- "primary": "lobe-kilocode-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "cf239deacc634ec5",
+  "sources/lobe/kilocode.svg": "21b486b457ba6524",
+  "sources/lobe/kilocode-text.svg": "cf239deacc634ec5",
+  "sources/svgl/kilocode-light.svg": "061b3c51ff9ccdef"
+ },
  "variants": [
   {
-   "key": "lobe-kilocode",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/kilocode.svg",
     "png": "sources/lobe/kilocode.png"
@@ -17,37 +23,34 @@
    "aspect": 1.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/kilocode-light.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-kilocode-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/kilocode-text.svg",
-    "png": "sources/lobe/kilocode-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 9.1954,
+   "aspect": 6.489,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-kilocode-light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/kilocode-light.svg",
-    "png": "sources/svgl/kilocode-light.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/kilocode-text.svg"
+    }
+   ]
   }
  ]
 }

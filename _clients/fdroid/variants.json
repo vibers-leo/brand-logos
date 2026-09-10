@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "2124a4bfd2b532e2",
-  "sources/vlz/wide.svg": "6ba2e48a42ed52d9"
+  "sources/vlz/wide.svg": "6ba2e48a42ed52d9",
+  "sources/supertiny/f-droid.svg": "c13bfe4181ec6f13"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.011,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/f-droid.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-f-droid",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/f-droid.svg",
-    "png": "sources/supertiny/f-droid.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

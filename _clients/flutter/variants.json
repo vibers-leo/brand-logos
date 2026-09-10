@@ -8,7 +8,8 @@
   "sources/iconify/flutter.svg": "a85312f0b139861c",
   "sources/devicons/flutter-original.svg": "5c6acb7efd9dd933",
   "sources/wvl/flutter.svg": "6326a14efb12ec3a",
-  "sources/gilbarbara/full.svg": "209c08b5defb6149"
+  "sources/gilbarbara/full.svg": "209c08b5defb6149",
+  "sources/supertiny/flutter.svg": "e88e44b0ca111eae"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/flutter-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/flutter.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "gilbarbara",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-flutter",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/flutter.svg",
-    "png": "sources/supertiny/flutter.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

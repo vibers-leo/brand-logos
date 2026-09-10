@@ -4,9 +4,25 @@
  "id": "google-wallet",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "b370bb6a3cf3356e"
+  "logo.svg": "b370bb6a3cf3356e",
+  "sources/supertiny/google_wallet.svg": "4aca54ad76eed1be"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/google_wallet.svg",
+    "png": "sources/supertiny/google_wallet.png"
+   },
+   "aspect": 1.074,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-google_wallet",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_wallet.svg",
-    "png": "sources/supertiny/google_wallet.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

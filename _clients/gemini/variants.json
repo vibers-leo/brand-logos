@@ -4,9 +4,25 @@
  "id": "gemini",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "6029c96b29f882fd"
+  "logo.svg": "6029c96b29f882fd",
+  "sources/supertiny/gemini.svg": "643e735c59bc32ee"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/gemini.svg",
+    "png": "sources/supertiny/gemini.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-gemini",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/gemini.svg",
-    "png": "sources/supertiny/gemini.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "f73e4708fc2076a4",
-  "sources/vlz/wide.svg": "ac6d8e1febb83844"
+  "sources/vlz/wide.svg": "ac6d8e1febb83844",
+  "sources/supertiny/ecosia.svg": "a953facd0ffd87fd"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 1.004,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-ecosia",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ecosia.svg",
-    "png": "sources/supertiny/ecosia.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ecosia.svg"
+    }
+   ]
   }
  ]
 }

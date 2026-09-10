@@ -4,7 +4,9 @@
  "id": "akashchat",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4591f83f5aa2019d"
+  "logo.svg": "4591f83f5aa2019d",
+  "sources/lobe/akashchat-color.svg": "3cea4baaa9bc8e42",
+  "sources/lobe/akashchat-text.svg": "05d0101be8102305"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.145,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/akashchat-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-akashchat-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/akashchat-color.svg",
-    "png": "sources/lobe/akashchat-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-akashchat-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/akashchat-text.svg",
     "png": "sources/lobe/akashchat-text.png"
    },
-   "aspect": 8.7912,
+   "aspect": 6.202,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

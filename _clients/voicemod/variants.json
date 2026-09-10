@@ -4,7 +4,8 @@
  "id": "voicemod",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "fe7f59843b3328ee"
+  "logo.svg": "fe7f59843b3328ee",
+  "sources/svgl/voicemod_light.svg": "f972f335bbab5afe"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 8.571,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "svgl-voicemod_light",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/voicemod_light.svg",
-    "png": "sources/svgl/voicemod_light.png"
-   },
-   "aspect": 8.6022,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/voicemod_light.svg"
+    }
+   ]
   }
  ]
 }

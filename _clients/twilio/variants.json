@@ -10,7 +10,8 @@
   "sources/devicons/twilio-original.svg": "790c296b85d4b364",
   "sources/wvl/twilio-icon.svg": "15f3687fd026df7e",
   "sources/wvl/twilio.svg": "87b0c4913b46ec51",
-  "sources/twilio-icon.svg": "15f3687fd026df7e"
+  "sources/twilio-icon.svg": "15f3687fd026df7e",
+  "sources/supertiny/twilio.svg": "80ad46417a920a0d"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/twilio-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/twilio.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/twilio.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-twilio",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/twilio.svg",
-    "png": "sources/supertiny/twilio.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

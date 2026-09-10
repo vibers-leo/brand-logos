@@ -6,7 +6,9 @@
  "fingerprint": {
   "logo.svg": "81ae9da6e48ec083",
   "sources/vlz/wide.svg": "0e9da6764b482bc9",
-  "sources/thesvg/wordmark.svg": "2bae288d31fdf6e7"
+  "sources/thesvg/wordmark.svg": "2bae288d31fdf6e7",
+  "sources/supertiny/mediawiki.svg": "8f750604996e7ffb",
+  "sources/svgl/mediawiki-wordmark-light.svg": "64c1c621ef0898e3"
  },
  "variants": [
   {
@@ -41,38 +43,27 @@
     {
      "provider": "thesvg",
      "file": "sources/thesvg/wordmark.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/mediawiki.svg"
     }
    ]
   },
   {
-   "key": "supertiny-mediawiki",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/mediawiki.svg",
-    "png": "sources/supertiny/mediawiki.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-mediawiki-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/mediawiki-wordmark-light.svg",
     "png": "sources/svgl/mediawiki-wordmark-light.png"
    },
-   "aspect": 0.8999,
+   "aspect": 0.891,
    "provider": "svgl",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

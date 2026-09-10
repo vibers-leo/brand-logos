@@ -8,7 +8,8 @@
   "sources/iconify/symfony.svg": "8a8ec00109e8bdd7",
   "sources/devicons/symfony-original.svg": "4455107fd4c26080",
   "sources/wvl/symfony.svg": "aa4a7101831185e8",
-  "sources/vlz/wide.svg": "d81748f0bde3bf95"
+  "sources/vlz/wide.svg": "d81748f0bde3bf95",
+  "sources/supertiny/symfony.svg": "0f79b8efca20db87"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/symfony-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/symfony.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-symfony",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/symfony.svg",
-    "png": "sources/supertiny/symfony.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

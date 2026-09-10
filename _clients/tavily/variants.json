@@ -4,9 +4,25 @@
  "id": "tavily",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cb88c4e1e63ab9a7"
+  "logo.svg": "cb88c4e1e63ab9a7",
+  "sources/lobe/tavily-text.svg": "2dadfa98bd9650cb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/tavily-text.svg",
+    "png": "sources/lobe/tavily-text.png"
+   },
+   "aspect": 2.624,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-tavily-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/tavily-text.svg",
-    "png": "sources/lobe/tavily-text.png"
-   },
-   "aspect": 3.8835,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

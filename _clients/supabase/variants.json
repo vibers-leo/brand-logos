@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "47548abd6f899f87",
   "sources/supabase-icon.svg": "409530fcbc8a2760",
-  "sources/thesvg/wordmark.svg": "87a5666aaa4793e4"
+  "sources/thesvg/wordmark.svg": "87a5666aaa4793e4",
+  "sources/supertiny/supabase.svg": "41206b5bae7f10f1"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "merged",
      "file": "sources/supabase-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/supabase.svg"
     }
    ]
   },
@@ -43,21 +48,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-supabase",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/supabase.svg",
-    "png": "sources/supertiny/supabase.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

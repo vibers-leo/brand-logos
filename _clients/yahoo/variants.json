@@ -6,15 +6,31 @@
  "fingerprint": {
   "logo.svg": "a98d1fa80b695aba",
   "sources/iconify/yahoo.svg": "a98d1fa80b695aba",
-  "sources/wvl/yahoo.svg": "a0f3ebe291dcc3f8"
+  "sources/wvl/yahoo.svg": "a0f3ebe291dcc3f8",
+  "sources/supertiny/yahoo.svg": "0cd85fc5265c420e"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/yahoo.svg",
+    "png": "sources/supertiny/yahoo.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
    "lang": "en",
    "color": "color",
-   "label": "심볼+워드마크 (가로형)",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
@@ -22,7 +38,7 @@
    "aspect": 3.606,
    "provider": "iconify",
    "origin": "collected",
-   "order": 10,
+   "order": 40,
    "alts": [
     {
      "provider": "iconify",
@@ -33,38 +49,6 @@
      "file": "sources/wvl/yahoo.svg"
     }
    ]
-  },
-  {
-   "key": "symbol",
-   "form": "symbol",
-   "lang": "none",
-   "color": "color",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 0.768
-  },
-  {
-   "key": "supertiny-yahoo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/yahoo.svg",
-    "png": "sources/supertiny/yahoo.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

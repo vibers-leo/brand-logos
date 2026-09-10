@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "19194d0b1ea523f2",
-  "sources/devicons/cplusplus-original.svg": "19194d0b1ea523f2"
+  "sources/devicons/cplusplus-original.svg": "19194d0b1ea523f2",
+  "sources/supertiny/cplusplus.svg": "e8fb84994b8ddcfd"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/cplusplus-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/cplusplus.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-cplusplus",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/cplusplus.svg",
-    "png": "sources/supertiny/cplusplus.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

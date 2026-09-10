@@ -4,7 +4,9 @@
  "id": "yuanbao",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d59e632f1e2aba2e"
+  "logo.svg": "d59e632f1e2aba2e",
+  "sources/lobe/yuanbao-color.svg": "76312f462bfffe34",
+  "sources/lobe/yuanbao-text.svg": "0f831dada371aa3a"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.0,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/yuanbao-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-yuanbao-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/yuanbao-color.svg",
-    "png": "sources/lobe/yuanbao-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-yuanbao-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/yuanbao-text.svg",
     "png": "sources/lobe/yuanbao-text.png"
    },
-   "aspect": 5.7554,
+   "aspect": 4.405,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

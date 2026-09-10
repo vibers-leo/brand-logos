@@ -5,7 +5,9 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "009c516cfb02e501",
-  "sources/vlz/wide.svg": "0488cf9955751e2e"
+  "sources/vlz/wide.svg": "0488cf9955751e2e",
+  "sources/lobe/deepl-color.svg": "545607a985b79b25",
+  "sources/lobe/deepl-text.svg": "f0ecbfad578248d9"
  },
  "variants": [
   {
@@ -23,6 +25,21 @@
    "order": 10
   },
   {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/lobe/deepl-color.svg",
+    "png": "sources/lobe/deepl-color.png"
+   },
+   "aspect": 0.798,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 20
+  },
+  {
    "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
@@ -38,34 +55,19 @@
    "order": 30
   },
   {
-   "key": "lobe-deepl-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/deepl-color.svg",
-    "png": "sources/lobe/deepl-color.png"
-   },
-   "aspect": 1.5009,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-deepl-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/deepl-text.svg",
     "png": "sources/lobe/deepl-text.png"
    },
-   "aspect": 5.2632,
+   "aspect": 3.643,
    "provider": "lobe",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

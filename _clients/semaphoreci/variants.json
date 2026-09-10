@@ -5,7 +5,8 @@
  "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "cde81ef712fb50fb",
-  "sources/iconify/semaphoreci.svg": "cde81ef712fb50fb"
+  "sources/iconify/semaphoreci.svg": "cde81ef712fb50fb",
+  "sources/supertiny/semaphoreci.svg": "0f96d7874f008b43"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "iconify",
      "file": "sources/iconify/semaphoreci.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/semaphoreci.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-semaphoreci",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/semaphoreci.svg",
-    "png": "sources/supertiny/semaphoreci.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

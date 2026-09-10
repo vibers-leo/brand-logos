@@ -4,7 +4,8 @@
  "id": "bilibili-index-index-team",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e7f218266a6969fa"
+  "logo.svg": "e7f218266a6969fa",
+  "sources/lobe/bilibiliindex-text.svg": "6f1ec68d6c93938a"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-bilibiliindex-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/bilibiliindex-text.svg",
     "png": "sources/lobe/bilibiliindex-text.png"
    },
-   "aspect": 10.0,
+   "aspect": 7.8,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

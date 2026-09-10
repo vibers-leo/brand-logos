@@ -2,35 +2,27 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hoppscotch",
- "primary": "original",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "c5345ae43f26546f",
+  "sources/devicons/hoppscotch-original.svg": "c5345ae43f26546f",
+  "sources/svgl/hoppscotch.svg": "4a54714792f810af"
+ },
  "variants": [
   {
-   "key": "original",
-   "form": "unknown",
-   "lang": "unknown",
-   "color": "color",
-   "label": "기존 로고",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo.png"
-   },
-   "origin": "collected",
-   "order": 0
-  },
-  {
-   "key": "svgl-hoppscotch",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 가로형",
+   "label": "가로조합형",
    "files": {
     "svg": "sources/svgl/hoppscotch.svg",
     "png": "sources/svgl/hoppscotch.png"
    },
-   "aspect": 1.4953,
+   "aspect": 1.495,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 10
   }
  ]
 }

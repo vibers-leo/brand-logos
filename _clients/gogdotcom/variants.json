@@ -4,9 +4,25 @@
  "id": "gogdotcom",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b539a388a259859c"
+  "logo.svg": "b539a388a259859c",
+  "sources/supertiny/gogcom.svg": "52f8ad00b9f98ea3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/gogcom.svg",
+    "png": "sources/supertiny/gogcom.png"
+   },
+   "aspect": 1.273,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "supertiny-gogcom",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/gogcom.svg",
-    "png": "sources/supertiny/gogcom.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

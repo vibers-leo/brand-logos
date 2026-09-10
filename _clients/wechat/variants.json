@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "823d5a52af64f937",
-  "sources/vlz/wide.svg": "896b00df18714153"
+  "sources/vlz/wide.svg": "896b00df18714153",
+  "sources/supertiny/wechat.svg": "4827049d7a31c625"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.223,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/wechat.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-wechat",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/wechat.svg",
-    "png": "sources/supertiny/wechat.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

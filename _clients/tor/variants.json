@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "267a574800b034a7",
   "sources/iconify/tor.svg": "267a574800b034a7",
-  "sources/wvl/tor.svg": "096cf85d0edfc6f5"
+  "sources/wvl/tor.svg": "096cf85d0edfc6f5",
+  "sources/svgl/tor.svg": "4c163ce6c31400b4"
  },
  "variants": [
   {
@@ -35,11 +36,11 @@
    ]
   },
   {
-   "key": "svgl-tor",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/tor.svg",
     "png": "sources/svgl/tor.png"
@@ -47,7 +48,7 @@
    "aspect": 1.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

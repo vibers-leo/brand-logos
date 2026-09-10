@@ -4,7 +4,8 @@
  "id": "greptile",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7a57c20304e37a20"
+  "logo.svg": "7a57c20304e37a20",
+  "sources/lobe/greptile-text.svg": "3d2b75ef93749a89"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-greptile-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/greptile-text.svg",
     "png": "sources/lobe/greptile-text.png"
    },
-   "aspect": 5.9259,
+   "aspect": 3.796,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "itchdotio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "597f10f77654433a"
+  "logo.svg": "597f10f77654433a",
+  "sources/supertiny/itch_io.svg": "e21ea783fbf491f7"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.111,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-itch_io",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/itch_io.svg",
-    "png": "sources/supertiny/itch_io.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/itch_io.svg"
+    }
+   ]
   }
  ]
 }

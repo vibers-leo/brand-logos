@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "febcccd973ec47df",
   "sources/iconify/taiga.svg": "febcccd973ec47df",
-  "sources/wvl/taiga.svg": "64ebe0b11c5ac4bf"
+  "sources/wvl/taiga.svg": "64ebe0b11c5ac4bf",
+  "sources/supertiny/taiga.svg": "46ceb72eb38085fe"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/taiga.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/taiga.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-taiga",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/taiga.svg",
-    "png": "sources/supertiny/taiga.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -9,7 +9,8 @@
   "sources/iconify/backbone-icon.svg": "c1a1ba8a849e6fa4",
   "sources/wvl/backbone-icon.svg": "431ae84a1f5d1493",
   "sources/wvl/backbone.svg": "fa2ea6791245d872",
-  "sources/backbone-icon.svg": "431ae84a1f5d1493"
+  "sources/backbone-icon.svg": "431ae84a1f5d1493",
+  "sources/supertiny/backbone.svg": "9734ec5a9013c846"
  },
  "variants": [
   {
@@ -34,6 +35,10 @@
     {
      "provider": "merged",
      "file": "sources/backbone-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/backbone.svg"
     }
    ]
   },
@@ -61,21 +66,6 @@
      "file": "sources/wvl/backbone.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-backbone",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/backbone.svg",
-    "png": "sources/supertiny/backbone.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

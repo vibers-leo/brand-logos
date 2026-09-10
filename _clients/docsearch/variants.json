@@ -4,7 +4,8 @@
  "id": "docsearch",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c2ca140a9e359332"
+  "logo.svg": "c2ca140a9e359332",
+  "sources/lobe/docsearch-text.svg": "a8492159c12f9d92"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-docsearch-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/docsearch-text.svg",
     "png": "sources/lobe/docsearch-text.png"
    },
-   "aspect": 10.8108,
+   "aspect": 8.371,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

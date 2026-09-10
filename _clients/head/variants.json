@@ -4,9 +4,25 @@
  "id": "head",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "ccd06d3af3cb8f43"
+  "logo.svg": "ccd06d3af3cb8f43",
+  "sources/apparel-collection/head.svg": "01752e4d20f1acf6"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/apparel-collection/head.svg",
+    "png": "sources/apparel-collection/head.png"
+   },
+   "aspect": 1.503,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "apparel-head",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · head",
-   "files": {
-    "svg": "sources/apparel-collection/head.svg",
-    "png": "sources/apparel-collection/head.png"
-   },
-   "aspect": 1.4787,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

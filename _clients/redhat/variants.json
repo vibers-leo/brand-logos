@@ -10,9 +10,25 @@
   "sources/devicons/redhat-original.svg": "7ba2b4d41455cf5d",
   "sources/wvl/redhat-icon.svg": "703dd9fea217a988",
   "sources/wvl/redhat.svg": "f7a50f2b0223e779",
-  "sources/redhat-icon.svg": "703dd9fea217a988"
+  "sources/redhat-icon.svg": "703dd9fea217a988",
+  "sources/supertiny/redhat.svg": "6dd24a770e1a3153"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/redhat.svg",
+    "png": "sources/supertiny/redhat.png"
+   },
+   "aspect": 1.317,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -66,21 +82,6 @@
      "file": "sources/wvl/redhat.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-redhat",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/redhat.svg",
-    "png": "sources/supertiny/redhat.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "goodreads",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "b8fec57197eaf929"
+  "logo.svg": "b8fec57197eaf929",
+  "sources/supertiny/goodreads.svg": "66680468b06c3d97"
  },
  "variants": [
   {
@@ -21,21 +22,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 20
-  },
-  {
-   "key": "supertiny-goodreads",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/goodreads.svg",
-    "png": "sources/supertiny/goodreads.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

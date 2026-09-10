@@ -4,7 +4,8 @@
  "id": "bambulab",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "eec2e870d33b15f9"
+  "logo.svg": "eec2e870d33b15f9",
+  "sources/supertiny/bambulab.svg": "b08528757c4ebed1"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.767,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "supertiny-bambulab",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bambulab.svg",
-    "png": "sources/supertiny/bambulab.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bambulab.svg"
+    }
+   ]
   }
  ]
 }

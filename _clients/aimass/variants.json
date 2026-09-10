@@ -4,7 +4,8 @@
  "id": "aimass",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "84e758957af6e8b2"
+  "logo.svg": "84e758957af6e8b2",
+  "sources/lobe/aimass-text.svg": "3939ad0e852ec71e"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-aimass-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/aimass-text.svg",
     "png": "sources/lobe/aimass-text.png"
    },
-   "aspect": 5.298,
+   "aspect": 4.014,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

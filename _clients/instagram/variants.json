@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "6b9496ddb7d43559",
   "sources/instagram-icon.svg": "e9acf6e5447bc6f5",
-  "sources/thesvg/wordmark.svg": "5551fb904071dcbf"
+  "sources/thesvg/wordmark.svg": "5551fb904071dcbf",
+  "sources/supertiny/instagram.svg": "a1d4a6fd24293257"
  },
  "variants": [
   {
@@ -24,6 +25,10 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/instagram.svg"
+    },
     {
      "provider": "merged",
      "file": "sources/instagram-icon.svg"
@@ -43,21 +48,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-instagram",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/instagram.svg",
-    "png": "sources/supertiny/instagram.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

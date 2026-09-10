@@ -4,7 +4,8 @@
  "id": "nextcloud",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "0a20ae3c8d2ff473"
+  "logo.svg": "0a20ae3c8d2ff473",
+  "sources/supertiny/nextcloud.svg": "838d04a8198c032b"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 10
   },
   {
-   "key": "supertiny-nextcloud",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/nextcloud.svg",
     "png": "sources/supertiny/nextcloud.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

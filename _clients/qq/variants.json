@@ -4,7 +4,8 @@
  "id": "qq",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "191ef702a9c346c8"
+  "logo.svg": "191ef702a9c346c8",
+  "sources/supertiny/qq.svg": "1e30ddfb0874af29"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.842,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-qq",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/qq.svg",
-    "png": "sources/supertiny/qq.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/qq.svg"
+    }
+   ]
   }
  ]
 }

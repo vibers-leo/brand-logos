@@ -7,7 +7,8 @@
   "logo.svg": "64c48aed67a04d10",
   "sources/iconify/crystal.svg": "64c48aed67a04d10",
   "sources/devicons/crystal-original.svg": "f6e3a31b10293ea8",
-  "sources/wvl/crystal.svg": "f2c140b173693dbb"
+  "sources/wvl/crystal.svg": "f2c140b173693dbb",
+  "sources/supertiny/crystal.svg": "fb817bfaf44f3bb5"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/crystal-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/crystal.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-crystal",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/crystal.svg",
-    "png": "sources/supertiny/crystal.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

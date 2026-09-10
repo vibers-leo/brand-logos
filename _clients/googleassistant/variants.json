@@ -4,7 +4,8 @@
  "id": "googleassistant",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ce982cf92b8f40f3"
+  "logo.svg": "ce982cf92b8f40f3",
+  "sources/supertiny/google_assistant.svg": "178c6bb80ca4dcf2"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.1,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-google_assistant",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_assistant.svg",
-    "png": "sources/supertiny/google_assistant.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_assistant.svg"
+    }
+   ]
   }
  ]
 }

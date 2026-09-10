@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "reve",
- "primary": "lobe-reve-text",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "b4c6364cc2d40889",
+  "sources/lobe/reve.svg": "4990b5aa261f46ba",
+  "sources/lobe/reve-text.svg": "b4c6364cc2d40889"
+ },
  "variants": [
   {
-   "key": "lobe-reve",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.86,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/reve-text.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/reve.svg",
     "png": "sources/lobe/reve.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.2,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-reve-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/reve-text.svg",
-    "png": "sources/lobe/reve-text.png"
-   },
-   "aspect": 4.1237,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

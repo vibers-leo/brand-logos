@@ -4,9 +4,25 @@
  "id": "dreammachine-luma",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7f8f2381a6fdebbd"
+  "logo.svg": "7f8f2381a6fdebbd",
+  "sources/lobe/dreammachine-text.svg": "c6d9e067c5f97a0e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/dreammachine-text.svg",
+    "png": "sources/lobe/dreammachine-text.png"
+   },
+   "aspect": 2.651,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-dreammachine-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/dreammachine-text.svg",
-    "png": "sources/lobe/dreammachine-text.png"
-   },
-   "aspect": 4.2553,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

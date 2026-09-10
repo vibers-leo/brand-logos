@@ -4,9 +4,26 @@
  "id": "pixverse",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d70162083819eb45"
+  "logo.svg": "d70162083819eb45",
+  "sources/lobe/pixverse-color.svg": "9ecfef65f7641c89",
+  "sources/lobe/pixverse-text.svg": "16659af2d6d941c4"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/lobe/pixverse-color.svg",
+    "png": "sources/lobe/pixverse-color.png"
+   },
+   "aspect": 0.629,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -23,34 +40,19 @@
    "order": 30
   },
   {
-   "key": "lobe-pixverse-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/pixverse-color.svg",
-    "png": "sources/lobe/pixverse-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-pixverse-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/pixverse-text.svg",
     "png": "sources/lobe/pixverse-text.png"
    },
-   "aspect": 8.0,
+   "aspect": 5.577,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

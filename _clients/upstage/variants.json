@@ -4,9 +4,26 @@
  "id": "upstage",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "597ccfa126c9d9b0"
+  "logo.svg": "597ccfa126c9d9b0",
+  "sources/lobe/upstage-color.svg": "700a5ef6e1c85c65",
+  "sources/lobe/upstage-text.svg": "985426e8432ac171"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/lobe/upstage-color.svg",
+    "png": "sources/lobe/upstage-color.png"
+   },
+   "aspect": 0.87,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -20,37 +37,13 @@
    "aspect": 4.677,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-upstage-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/upstage-color.svg",
-    "png": "sources/lobe/upstage-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-upstage-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/upstage-text.svg",
-    "png": "sources/lobe/upstage-text.png"
-   },
-   "aspect": 5.4422,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/upstage-text.svg"
+    }
+   ]
   }
  ]
 }

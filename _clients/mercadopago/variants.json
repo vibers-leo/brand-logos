@@ -4,7 +4,8 @@
  "id": "mercadopago",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "a81e4025addfed32"
+  "logo.svg": "a81e4025addfed32",
+  "sources/svgl/mercado-pago-wordmark.svg": "fadd0071c3acde77"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-mercado-pago-wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/mercado-pago-wordmark.svg",
     "png": "sources/svgl/mercado-pago-wordmark.png"
    },
-   "aspect": 3.8462,
+   "aspect": 3.846,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

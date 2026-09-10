@@ -4,9 +4,25 @@
  "id": "whop",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "535b688db46d0f89"
+  "logo.svg": "535b688db46d0f89",
+  "sources/svgl/whop.svg": "6c5e97c6256a4abc"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/svgl/whop.svg",
+    "png": "sources/svgl/whop.png"
+   },
+   "aspect": 1.952,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "svgl-whop",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/whop.svg",
-    "png": "sources/svgl/whop.png"
-   },
-   "aspect": 1.9512,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

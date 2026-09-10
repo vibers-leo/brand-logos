@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "189bf6355b1e5002",
-  "sources/vlz/wide.svg": "41b724298d98f19d"
+  "sources/vlz/wide.svg": "41b724298d98f19d",
+  "sources/supertiny/snapchat.svg": "da262a7eec03046c"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.069,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/snapchat.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-snapchat",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/snapchat.svg",
-    "png": "sources/supertiny/snapchat.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

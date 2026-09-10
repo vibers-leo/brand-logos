@@ -9,7 +9,8 @@
   "sources/iconify/udemy-icon.svg": "886c623f0af3bea3",
   "sources/wvl/udemy-icon.svg": "57b4ae046db7f4c8",
   "sources/wvl/udemy.svg": "45cc9723d1d0ab06",
-  "sources/udemy-icon.svg": "57b4ae046db7f4c8"
+  "sources/udemy-icon.svg": "57b4ae046db7f4c8",
+  "sources/supertiny/udemy.svg": "b84f1cf60bcecf82"
  },
  "variants": [
   {
@@ -38,6 +39,21 @@
    ]
   },
   {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/supertiny/udemy.svg",
+    "png": "sources/supertiny/udemy.png"
+   },
+   "aspect": 0.496,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 20
+  },
+  {
    "key": "symbol",
    "form": "symbol",
    "lang": "en",
@@ -61,21 +77,6 @@
      "file": "sources/udemy-icon.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-udemy",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/udemy.svg",
-    "png": "sources/supertiny/udemy.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

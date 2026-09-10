@@ -4,7 +4,8 @@
  "id": "krea",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "41d33fb7b4e1a3f9"
+  "logo.svg": "41d33fb7b4e1a3f9",
+  "sources/lobe/krea-text.svg": "0c24b4464f246fdb"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 20
   },
   {
-   "key": "lobe-krea-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/krea-text.svg",
     "png": "sources/lobe/krea-text.png"
    },
-   "aspect": 4.7619,
+   "aspect": 3.585,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -7,7 +7,8 @@
   "logo.svg": "b62d8c86175334a7",
   "sources/iconify/webassembly.svg": "b62d8c86175334a7",
   "sources/wvl/webassembly.svg": "f3b332b391350e2d",
-  "sources/vlz/wide.svg": "3880658297fd4901"
+  "sources/vlz/wide.svg": "3880658297fd4901",
+  "sources/supertiny/webassembly.svg": "3cd67644d00f62d3"
  },
  "variants": [
   {
@@ -46,23 +47,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/webassembly.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/webassembly.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-webassembly",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/webassembly.svg",
-    "png": "sources/supertiny/webassembly.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

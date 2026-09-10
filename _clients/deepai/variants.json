@@ -4,7 +4,8 @@
  "id": "deepai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fe82221943a682cd"
+  "logo.svg": "fe82221943a682cd",
+  "sources/lobe/deepai-text.svg": "4f25c74dd58e393a"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-deepai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/deepai-text.svg",
     "png": "sources/lobe/deepai-text.png"
    },
-   "aspect": 6.0606,
+   "aspect": 4.235,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

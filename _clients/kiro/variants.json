@@ -2,37 +2,33 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kiro",
- "primary": "lobe-kiro-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c5cab06efbb36efe",
+  "sources/lobe/kiro-color.svg": "b51d60f4c130fadb",
+  "sources/lobe/kiro-text.svg": "c5cab06efbb36efe"
+ },
  "variants": [
   {
-   "key": "lobe-kiro-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/kiro-color.svg",
-    "png": "sources/lobe/kiro-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-kiro-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/kiro-text.svg",
-    "png": "sources/lobe/kiro-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 4.6784,
+   "aspect": 3.12,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/kiro-text.svg"
+    }
+   ]
   }
  ]
 }

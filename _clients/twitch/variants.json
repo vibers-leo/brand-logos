@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "b55d26a13d802cc6",
-  "sources/vlz/wide.svg": "89189fbc4b9a4fb1"
+  "sources/vlz/wide.svg": "89189fbc4b9a4fb1",
+  "sources/supertiny/twitch.svg": "85e118ebbcbaf40a"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 0.858,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-twitch",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/twitch.svg",
-    "png": "sources/supertiny/twitch.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/twitch.svg"
+    }
+   ]
   }
  ]
 }

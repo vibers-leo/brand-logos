@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bocha",
- "primary": "lobe-bocha-text",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "c841177a9267c827",
+  "sources/lobe/bocha-color.svg": "a05e9c5e00462e7c",
+  "sources/lobe/bocha-text.svg": "c841177a9267c827"
+ },
  "variants": [
   {
-   "key": "lobe-bocha-color",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.119,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/bocha-text.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/bocha-color.svg",
     "png": "sources/lobe/bocha-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.17,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-bocha-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/bocha-text.svg",
-    "png": "sources/lobe/bocha-text.png"
-   },
-   "aspect": 3.0651,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

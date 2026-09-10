@@ -4,7 +4,8 @@
  "id": "iflytekcloud",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e9a8f9f17a028292"
+  "logo.svg": "e9a8f9f17a028292",
+  "sources/lobe/iflytekcloud-text.svg": "e513a661fbe0e85a"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-iflytekcloud-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/iflytekcloud-text.svg",
     "png": "sources/lobe/iflytekcloud-text.png"
    },
-   "aspect": 8.3333,
+   "aspect": 6.396,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "deep-cogito",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "106131fb6d3c9b87"
+  "logo.svg": "106131fb6d3c9b87",
+  "sources/lobe/deepcogito-text.svg": "9b6047c59e7b3432"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-deepcogito-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/deepcogito-text.svg",
     "png": "sources/lobe/deepcogito-text.png"
    },
-   "aspect": 14.8148,
+   "aspect": 5.814,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

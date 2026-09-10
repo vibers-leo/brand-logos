@@ -4,7 +4,8 @@
  "id": "tezos",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "56c20aaba12de115"
+  "logo.svg": "56c20aaba12de115",
+  "sources/supertiny/tezos.svg": "d56c44dcdd116821"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-tezos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/tezos.svg",
-    "png": "sources/supertiny/tezos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/tezos.svg"
+    }
+   ]
   }
  ]
 }

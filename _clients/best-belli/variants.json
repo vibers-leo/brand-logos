@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "best-belli",
- "primary": "apparel-best-belli",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "62bb6dc84579262a",
+  "sources/apparel-collection/best-belli.svg": "62bb6dc84579262a"
+ },
  "variants": [
   {
-   "key": "apparel-best-belli",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · best-belli",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/apparel-collection/best-belli.svg",
-    "png": "sources/apparel-collection/best-belli.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.0534,
+   "aspect": 3.842,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/best-belli.svg"
+    }
+   ]
   }
  ]
 }

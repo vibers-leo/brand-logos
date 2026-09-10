@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "bang-bang-fashion",
- "primary": "apparel-bang-bang-main",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "a3c4dd44a1778900",
+  "sources/apparel-collection/bang-bang-main.svg": "a3c4dd44a1778900",
+  "sources/apparel-collection/bang-bang-small.svg": "09e67db8b74e55a3"
+ },
  "variants": [
   {
-   "key": "apparel-bang-bang-main",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · bang-bang-main",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/bang-bang-main.svg",
-    "png": "sources/apparel-collection/bang-bang-main.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 2.1739,
+   "aspect": 2.252,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/bang-bang-main.svg"
+    }
+   ]
   },
   {
-   "key": "apparel-bang-bang-small",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · bang-bang-small",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/apparel-collection/bang-bang-small.svg",
     "png": "sources/apparel-collection/bang-bang-small.png"
    },
-   "aspect": 7.2072,
+   "aspect": 8.74,
    "provider": "apparel",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

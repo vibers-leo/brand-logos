@@ -7,7 +7,8 @@
   "logo.svg": "bf9df63fbc6ff82a",
   "sources/iconify/nginx.svg": "bf9df63fbc6ff82a",
   "sources/devicons/nginx-original.svg": "717fd00d8c2e16c6",
-  "sources/wvl/nginx.svg": "94635cf4739e7f87"
+  "sources/wvl/nginx.svg": "94635cf4739e7f87",
+  "sources/supertiny/nginx.svg": "18816a9be45fb37d"
  },
  "variants": [
   {
@@ -32,6 +33,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/nginx.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/nginx.svg"
     }
    ]
   },
@@ -49,21 +54,6 @@
    "provider": "devicons",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-nginx",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/nginx.svg",
-    "png": "sources/supertiny/nginx.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

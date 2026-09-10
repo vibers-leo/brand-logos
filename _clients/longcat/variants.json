@@ -4,7 +4,8 @@
  "id": "longcat",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "0063357ba7147ebc"
+  "logo.svg": "0063357ba7147ebc",
+  "sources/lobe/longcat-text.svg": "375230833da87f80"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-longcat-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/longcat-text.svg",
     "png": "sources/lobe/longcat-text.png"
    },
-   "aspect": 6.7227,
+   "aspect": 4.738,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

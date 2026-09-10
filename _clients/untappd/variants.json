@@ -4,7 +4,8 @@
  "id": "untappd",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9acb3f11c50d1bdc"
+  "logo.svg": "9acb3f11c50d1bdc",
+  "sources/supertiny/untappd.svg": "9e8c61b0be5fdd74"
  },
  "variants": [
   {
@@ -21,21 +22,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "supertiny-untappd",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/untappd.svg",
-    "png": "sources/supertiny/untappd.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

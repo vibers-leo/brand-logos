@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "galaxy-fashion",
- "primary": "apparel-galaxy",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "7552119bdc3e2200",
+  "sources/apparel-collection/galaxy.svg": "7552119bdc3e2200"
+ },
  "variants": [
   {
-   "key": "apparel-galaxy",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · galaxy",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/galaxy.svg",
-    "png": "sources/apparel-collection/galaxy.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 2.5478,
+   "aspect": 2.637,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/galaxy.svg"
+    }
+   ]
   }
  ]
 }

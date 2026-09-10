@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "plausible",
- "primary": "supertiny-plausible",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "67168a1882ed8f3c",
+  "sources/supertiny/plausible.svg": "67168a1882ed8f3c"
+ },
  "variants": [
   {
-   "key": "supertiny-plausible",
-   "form": "symbol",
+   "key": "vertical",
+   "form": "vertical",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "세로조합형",
    "files": {
-    "svg": "sources/supertiny/plausible.svg",
-    "png": "sources/supertiny/plausible.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.757,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 20,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/plausible.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,11 @@
  "id": "langchain",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "c2a75b8d282d58c7"
+  "logo.svg": "c2a75b8d282d58c7",
+  "sources/lobe/langchain-color.svg": "ff4c2f233b4fb757",
+  "sources/lobe/langchain-text.svg": "97adc6d937d610d8",
+  "sources/svgl/langchain-logo.svg": "fac9cb845e65e3ce",
+  "sources/svgl/langchain-wordmark-light.svg": "558eb73c7efcf147"
  },
  "variants": [
   {
@@ -23,11 +27,11 @@
    "order": 20
   },
   {
-   "key": "lobe-langchain-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/langchain-color.svg",
     "png": "sources/lobe/langchain-color.png"
@@ -35,52 +39,34 @@
    "aspect": 1.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/langchain-logo.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-langchain-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/langchain-text.svg",
     "png": "sources/lobe/langchain-text.png"
    },
-   "aspect": 7.2727,
+   "aspect": 5.114,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-langchain-logo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/langchain-logo.svg",
-    "png": "sources/svgl/langchain-logo.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 103
-  },
-  {
-   "key": "svgl-langchain-wordmark-light",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
-   "files": {
-    "svg": "sources/svgl/langchain-wordmark-light.svg",
-    "png": "sources/svgl/langchain-wordmark-light.png"
-   },
-   "aspect": 5.4422,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 104
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/langchain-wordmark-light.svg"
+    }
+   ]
   }
  ]
 }

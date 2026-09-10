@@ -10,7 +10,8 @@
   "sources/devicons/bash-original.svg": "bdf38e4d4654aa3b",
   "sources/wvl/bash-icon.svg": "09a9aa2372f61fe7",
   "sources/wvl/bash.svg": "5a191971b51dd677",
-  "sources/bash-icon.svg": "09a9aa2372f61fe7"
+  "sources/bash-icon.svg": "09a9aa2372f61fe7",
+  "sources/supertiny/bash.svg": "a08daf2a1be2c4cd"
  },
  "variants": [
   {
@@ -64,23 +65,12 @@
     {
      "provider": "merged",
      "file": "sources/bash-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bash.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-bash",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bash.svg",
-    "png": "sources/supertiny/bash.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

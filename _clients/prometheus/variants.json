@@ -7,7 +7,8 @@
   "logo.svg": "091f8a274312da52",
   "sources/iconify/prometheus.svg": "091f8a274312da52",
   "sources/devicons/prometheus-original.svg": "acc40da25c456947",
-  "sources/wvl/prometheus.svg": "bf2d300f5d2ec83d"
+  "sources/wvl/prometheus.svg": "bf2d300f5d2ec83d",
+  "sources/supertiny/prometheus.svg": "33aa6b71574f5717"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/prometheus-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/prometheus.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-prometheus",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/prometheus.svg",
-    "png": "sources/supertiny/prometheus.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

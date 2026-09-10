@@ -6,9 +6,26 @@
  "fingerprint": {
   "logo.svg": "bdfc8b4137e1e11b",
   "sources/iconify/coursera.svg": "bdfc8b4137e1e11b",
-  "sources/wvl/coursera.svg": "79c608fc172f2fad"
+  "sources/wvl/coursera.svg": "79c608fc172f2fad",
+  "sources/supertiny/coursera.svg": "394484f4d8c09103",
+  "sources/svgl/coursera.svg": "aadf012327b453f7"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/coursera.svg",
+    "png": "sources/supertiny/coursera.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -31,38 +48,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/coursera.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/coursera.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-coursera",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/coursera.svg",
-    "png": "sources/supertiny/coursera.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-coursera",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/coursera.svg",
-    "png": "sources/svgl/coursera.png"
-   },
-   "aspect": 7.0175,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

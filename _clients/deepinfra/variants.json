@@ -4,7 +4,8 @@
  "id": "deepinfra",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8d173c63ce8ff807"
+  "logo.svg": "8d173c63ce8ff807",
+  "sources/lobe/deepinfra-text.svg": "bf0c88332f6fa5b2"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-deepinfra-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/deepinfra-text.svg",
     "png": "sources/lobe/deepinfra-text.png"
    },
-   "aspect": 7.4074,
+   "aspect": 4.738,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

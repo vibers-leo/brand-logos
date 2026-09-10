@@ -4,9 +4,26 @@
  "id": "luma-ai",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "c65b81ef47d8c74c"
+  "logo.svg": "c65b81ef47d8c74c",
+  "sources/lobe/luma-color.svg": "5d48eba45bffa56e",
+  "sources/lobe/luma-text.svg": "0c01b1b9ea2246d0"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/lobe/luma-color.svg",
+    "png": "sources/lobe/luma-color.png"
+   },
+   "aspect": 0.867,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -20,37 +37,13 @@
    "aspect": 4.027,
    "provider": "logo.dev",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-luma-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/luma-color.svg",
-    "png": "sources/lobe/luma-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-luma-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/luma-text.svg",
-    "png": "sources/lobe/luma-text.png"
-   },
-   "aspect": 6.9565,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/luma-text.svg"
+    }
+   ]
   }
  ]
 }

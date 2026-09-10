@@ -4,7 +4,8 @@
  "id": "jellyfin",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8bf6b5afb106cdc5"
+  "logo.svg": "8bf6b5afb106cdc5",
+  "sources/supertiny/jellyfin.svg": "072e548616e12339"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-jellyfin",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/jellyfin.svg",
-    "png": "sources/supertiny/jellyfin.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/jellyfin.svg"
+    }
+   ]
   }
  ]
 }

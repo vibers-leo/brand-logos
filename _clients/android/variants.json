@@ -12,7 +12,8 @@
   "sources/wvl/android-icon.svg": "bd7560caade247e2",
   "sources/wvl/android.svg": "2dfc99bf80a28d53",
   "sources/wvl/android-vertical.svg": "ec2f493d123152ff",
-  "sources/android-icon.svg": "bd7560caade247e2"
+  "sources/android-icon.svg": "bd7560caade247e2",
+  "sources/supertiny/android.svg": "2bc54a863c5ee5b6"
  },
  "variants": [
   {
@@ -33,6 +34,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/android-vertical.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/android.svg"
     },
     {
      "provider": "font-awesome",
@@ -89,21 +94,6 @@
      "file": "sources/wvl/android.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-android",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/android.svg",
-    "png": "sources/supertiny/android.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

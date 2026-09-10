@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "t3-stack",
- "primary": "svgl-t3-dark",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "de4ef45e11eebe87",
+  "sources/svgl/t3-dark.svg": "de4ef45e11eebe87"
+ },
  "variants": [
   {
-   "key": "svgl-t3-dark",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/svgl/t3-dark.svg",
-    "png": "sources/svgl/t3-dark.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.2966,
+   "aspect": 1.305,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/t3-dark.svg"
+    }
+   ]
   }
  ]
 }

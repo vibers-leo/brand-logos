@@ -4,7 +4,9 @@
  "id": "chatglm",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3be3e23256b194ba"
+  "logo.svg": "3be3e23256b194ba",
+  "sources/lobe/chatglm-color.svg": "4a3645984aa169ff",
+  "sources/lobe/chatglm-text.svg": "e0477e0d708ee262"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.2,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/chatglm-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-chatglm-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/chatglm-color.svg",
-    "png": "sources/lobe/chatglm-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-chatglm-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/chatglm-text.svg",
     "png": "sources/lobe/chatglm-text.png"
    },
-   "aspect": 6.1069,
+   "aspect": 4.683,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

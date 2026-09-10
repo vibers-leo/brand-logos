@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "f6edc5617874f708",
-  "sources/vlz/wide.svg": "e3e4c93ecb35c2a6"
+  "sources/vlz/wide.svg": "e3e4c93ecb35c2a6",
+  "sources/supertiny/liberapay.svg": "e28776bfd88baa2e"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/liberapay.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-liberapay",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/liberapay.svg",
-    "png": "sources/supertiny/liberapay.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

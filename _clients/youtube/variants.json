@@ -6,7 +6,9 @@
  "fingerprint": {
   "logo.svg": "8dc3002252c60b2f",
   "sources/iconify/youtube-icon.svg": "11846b256c67a2a6",
-  "sources/youtube-icon.svg": "a3557d6878a7d96f"
+  "sources/youtube-icon.svg": "a3557d6878a7d96f",
+  "sources/supertiny/youtube.svg": "d76a3b5b042b215e",
+  "sources/svgl/youtube-wordmark-light.svg": "d9975190e8d85d08"
  },
  "variants": [
   {
@@ -22,7 +24,13 @@
    "aspect": 1.42,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/youtube.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -46,34 +54,19 @@
    ]
   },
   {
-   "key": "supertiny-youtube",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/youtube.svg",
-    "png": "sources/supertiny/youtube.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-youtube-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/youtube-wordmark-light.svg",
     "png": "sources/svgl/youtube-wordmark-light.png"
    },
-   "aspect": 4.4693,
+   "aspect": 4.478,
    "provider": "svgl",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

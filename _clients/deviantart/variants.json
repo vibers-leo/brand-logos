@@ -9,7 +9,8 @@
   "sources/iconify/deviantart-icon.svg": "ee32d469da1444b9",
   "sources/wvl/deviantart-icon.svg": "d0754e3cb25ab621",
   "sources/wvl/deviantart.svg": "5ddf786c2c729350",
-  "sources/deviantart-icon.svg": "d0754e3cb25ab621"
+  "sources/deviantart-icon.svg": "d0754e3cb25ab621",
+  "sources/supertiny/deviantart.svg": "aaf36e8b3287b75f"
  },
  "variants": [
   {
@@ -61,21 +62,6 @@
      "file": "sources/wvl/deviantart.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-deviantart",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/deviantart.svg",
-    "png": "sources/supertiny/deviantart.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

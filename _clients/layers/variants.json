@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "layers",
- "primary": "svgl-layers_light",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "b9477fded5e4f1de",
+  "sources/svgl/layers_light.svg": "b9477fded5e4f1de"
+ },
  "variants": [
   {
-   "key": "svgl-layers_light",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/svgl/layers_light.svg",
-    "png": "sources/svgl/layers_light.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 0.9697,
+   "aspect": 0.97,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/layers_light.svg"
+    }
+   ]
   }
  ]
 }

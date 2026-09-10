@@ -4,7 +4,8 @@
  "id": "justgiving",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "691f61bc2c850910"
+  "logo.svg": "691f61bc2c850910",
+  "sources/supertiny/justgiving.svg": "04f469c1240682c6"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-justgiving",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/justgiving.svg",
-    "png": "sources/supertiny/justgiving.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/justgiving.svg"
+    }
+   ]
   }
  ]
 }

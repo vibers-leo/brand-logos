@@ -4,7 +4,8 @@
  "id": "mistral",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "e492dd91125a28e7"
+  "logo.svg": "e492dd91125a28e7",
+  "sources/lobe/mistral-text.svg": "5135b16754bec4cf"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-mistral-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/mistral-text.svg",
     "png": "sources/lobe/mistral-text.png"
    },
-   "aspect": 8.3333,
+   "aspect": 5.879,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

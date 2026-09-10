@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "happyland",
- "primary": "apparel-happyland-color",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "50bacfa41ac9bcc6",
+  "sources/apparel-collection/happyland-color.svg": "50bacfa41ac9bcc6",
+  "sources/apparel-collection/happyland-black.svg": "c00c98ec2819bec9"
+ },
  "variants": [
   {
-   "key": "apparel-happyland-color",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · happyland-color",
-   "files": {
-    "svg": "sources/apparel-collection/happyland-color.svg",
-    "png": "sources/apparel-collection/happyland-color.png"
-   },
-   "aspect": 2.974,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "apparel-happyland-black",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · happyland-black",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
     "svg": "sources/apparel-collection/happyland-black.svg",
     "png": "sources/apparel-collection/happyland-black.png"
    },
-   "aspect": 1.3986,
+   "aspect": 1.416,
    "provider": "apparel",
    "origin": "collected",
-   "order": 101
+   "order": 10
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.113,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/happyland-color.svg"
+    }
+   ]
   }
  ]
 }

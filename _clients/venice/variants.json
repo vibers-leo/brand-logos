@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "venice",
- "primary": "lobe-venice-text",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "8f384a5044b52088",
+  "sources/lobe/venice-color.svg": "adc8c3be7c29d740",
+  "sources/lobe/venice-text.svg": "8f384a5044b52088"
+ },
  "variants": [
   {
-   "key": "lobe-venice-color",
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.198,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/venice-text.svg"
+    }
+   ]
+  },
+  {
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/venice-color.svg",
     "png": "sources/lobe/venice-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.88,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "lobe-venice-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/venice-text.svg",
-    "png": "sources/lobe/venice-text.png"
-   },
-   "aspect": 3.4335,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "googleslides",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "99e42ad64a0a146b"
+  "logo.svg": "99e42ad64a0a146b",
+  "sources/svgl/google-slides.svg": "aae3c59e98a3bcb3"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.729,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "svgl-google-slides",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/google-slides.svg",
-    "png": "sources/svgl/google-slides.png"
-   },
-   "aspect": 0.7299,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/google-slides.svg"
+    }
+   ]
   }
  ]
 }

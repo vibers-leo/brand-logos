@@ -4,7 +4,8 @@
  "id": "wayland",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b7ba4faa0f1b7a05"
+  "logo.svg": "b7ba4faa0f1b7a05",
+  "sources/supertiny/wayland.svg": "19149ff205caea29"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-wayland",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/wayland.svg",
-    "png": "sources/supertiny/wayland.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/wayland.svg"
+    }
+   ]
   }
  ]
 }

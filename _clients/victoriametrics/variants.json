@@ -4,7 +4,8 @@
  "id": "victoriametrics",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2e194fa85b36d902"
+  "logo.svg": "2e194fa85b36d902",
+  "sources/supertiny/victoriametrics.svg": "8ea3127693304fcf"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.871,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-victoriametrics",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/victoriametrics.svg",
-    "png": "sources/supertiny/victoriametrics.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/victoriametrics.svg"
+    }
+   ]
   }
  ]
 }

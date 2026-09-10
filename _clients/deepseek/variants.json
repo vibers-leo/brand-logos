@@ -9,9 +9,26 @@
   "sources/iconify/deepseek-icon.svg": "9822c8eb3e594e15",
   "sources/wvl/deepseek-icon.svg": "ecab3e2589a71583",
   "sources/wvl/deepseek.svg": "982600fcd8010cf5",
-  "sources/deepseek-icon.svg": "ecab3e2589a71583"
+  "sources/deepseek-icon.svg": "ecab3e2589a71583",
+  "sources/lobe/deepseek-color.svg": "bb6a737c212ae9ae",
+  "sources/lobe/deepseek-text.svg": "e90fb3794d47b7df"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/deepseek-color.svg",
+    "png": "sources/lobe/deepseek-color.png"
+   },
+   "aspect": 1.357,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -59,38 +76,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/deepseek.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/deepseek-text.svg"
     }
    ]
-  },
-  {
-   "key": "lobe-deepseek-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/deepseek-color.svg",
-    "png": "sources/lobe/deepseek-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-deepseek-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/deepseek-text.svg",
-    "png": "sources/lobe/deepseek-text.png"
-   },
-   "aspect": 8.1633,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

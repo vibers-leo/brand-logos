@@ -4,7 +4,8 @@
  "id": "recraft",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5d6650a84e414446"
+  "logo.svg": "5d6650a84e414446",
+  "sources/lobe/recraft-text.svg": "f11e2f82c5313a10"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-recraft-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/recraft-text.svg",
     "png": "sources/lobe/recraft-text.png"
    },
-   "aspect": 5.5556,
+   "aspect": 4.272,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

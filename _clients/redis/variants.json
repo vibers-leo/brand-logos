@@ -8,7 +8,8 @@
   "sources/iconify/redis.svg": "d0b84171ecb09d58",
   "sources/devicons/redis-original.svg": "86a3e208bfbc04cf",
   "sources/wvl/redis.svg": "1e616c2ba2309269",
-  "sources/thesvg/wordmark.svg": "653dda9c8345b715"
+  "sources/thesvg/wordmark.svg": "653dda9c8345b715",
+  "sources/supertiny/redis.svg": "d7a60beb1d67540c"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/redis-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/redis.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-redis",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/redis.svg",
-    "png": "sources/supertiny/redis.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

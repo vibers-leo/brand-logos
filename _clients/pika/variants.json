@@ -2,49 +2,41 @@
  "schema": 1,
  "algo_v": 1,
  "id": "pika",
- "primary": "original",
+ "primary": "horizontal",
+ "fingerprint": {
+  "sources/lobe/pika.svg": "20a9331247ba1ada",
+  "sources/lobe/pika-text.svg": "e365c425bfa5da23"
+ },
  "variants": [
   {
-   "key": "original",
-   "form": "unknown",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "기존 로고",
-   "files": {
-    "png": "logo.png"
-   },
-   "origin": "collected",
-   "order": 0
-  },
-  {
-   "key": "lobe-pika",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
     "svg": "sources/lobe/pika.svg",
     "png": "sources/lobe/pika.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.42,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 10
   },
   {
-   "key": "lobe-pika-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/pika-text.svg",
     "png": "sources/lobe/pika-text.png"
    },
-   "aspect": 4.1885,
+   "aspect": 3.082,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

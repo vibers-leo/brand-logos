@@ -4,7 +4,8 @@
  "id": "intel",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "d8f89b13fc3ab77f"
+  "logo.svg": "d8f89b13fc3ab77f",
+  "sources/supertiny/intel.svg": "0d31fcde73122c08"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 2.571,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-intel",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/intel.svg",
-    "png": "sources/supertiny/intel.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/intel.svg"
+    }
+   ]
   }
  ]
 }

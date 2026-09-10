@@ -9,7 +9,8 @@
   "sources/iconify/intercom-icon.svg": "16a8adca6840b65d",
   "sources/wvl/intercom-icon.svg": "11d2860726245238",
   "sources/wvl/intercom.svg": "f503fd440b49ec26",
-  "sources/intercom-icon.svg": "11d2860726245238"
+  "sources/intercom-icon.svg": "11d2860726245238",
+  "sources/supertiny/intercom.svg": "468202eb317f4647"
  },
  "variants": [
   {
@@ -34,6 +35,10 @@
     {
      "provider": "merged",
      "file": "sources/intercom-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/intercom.svg"
     }
    ]
   },
@@ -61,21 +66,6 @@
      "file": "sources/wvl/intercom.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-intercom",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/intercom.svg",
-    "png": "sources/supertiny/intercom.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

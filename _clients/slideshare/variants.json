@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "4a0db1911250bdc9",
-  "sources/vlz/wide.svg": "784be6e1be141f9b"
+  "sources/vlz/wide.svg": "784be6e1be141f9b",
+  "sources/supertiny/slideshare.svg": "8d75e1db95056ecd"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.016,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/slideshare.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-slideshare",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/slideshare.svg",
-    "png": "sources/supertiny/slideshare.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

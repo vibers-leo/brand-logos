@@ -4,9 +4,25 @@
  "id": "opencast",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "823937afda706cd3"
+  "logo.svg": "823937afda706cd3",
+  "sources/supertiny/opencast.svg": "d92964a69ccd635f"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/opencast.svg",
+    "png": "sources/supertiny/opencast.png"
+   },
+   "aspect": 1.398,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-opencast",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/opencast.svg",
-    "png": "sources/supertiny/opencast.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

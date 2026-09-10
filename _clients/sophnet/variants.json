@@ -4,7 +4,8 @@
  "id": "sophnet",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "445e72dd0da39b3e"
+  "logo.svg": "445e72dd0da39b3e",
+  "sources/lobe/sophnet-text.svg": "69ebfd1de4bcda0e"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-sophnet-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/sophnet-text.svg",
     "png": "sources/lobe/sophnet-text.png"
    },
-   "aspect": 4.9383,
+   "aspect": 3.77,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

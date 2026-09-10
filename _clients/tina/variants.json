@@ -4,7 +4,9 @@
  "id": "tina",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "7847e3edbe6f9342"
+  "logo.svg": "7847e3edbe6f9342",
+  "sources/svgl/tina.svg": "c7a1969108a60197",
+  "sources/svgl/tina_wordmark.svg": "680d278d4d09d91c"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 0.722,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/tina.svg"
+    }
+   ]
   },
   {
-   "key": "svgl-tina",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/tina.svg",
-    "png": "sources/svgl/tina.png"
-   },
-   "aspect": 0.7214,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-tina_wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/tina_wordmark.svg",
     "png": "sources/svgl/tina_wordmark.png"
    },
-   "aspect": 4.0201,
+   "aspect": 4.018,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "sublime-merge",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d746b9eb28cdba9e"
+  "logo.svg": "d746b9eb28cdba9e",
+  "sources/supertiny/sublimemerge.svg": "a3e6561e325de8a5"
  },
  "variants": [
   {
@@ -21,21 +22,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "supertiny-sublimemerge",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/sublimemerge.svg",
-    "png": "sources/supertiny/sublimemerge.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

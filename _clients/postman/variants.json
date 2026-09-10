@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "bac18b92584a0a77",
   "sources/postman-icon.svg": "a2451f46db4a9bd5",
-  "sources/thesvg/wordmark.svg": "f59b9a222bc6bd1d"
+  "sources/thesvg/wordmark.svg": "f59b9a222bc6bd1d",
+  "sources/supertiny/postman.svg": "03c3cad9a1894444"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "merged",
      "file": "sources/postman-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/postman.svg"
     }
    ]
   },
@@ -43,21 +48,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-postman",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/postman.svg",
-    "png": "sources/supertiny/postman.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ente-auth",
- "primary": "supertiny-ente_auth",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "9d1db2cd84a2ffb5",
+  "sources/supertiny/ente_auth.svg": "9d1db2cd84a2ffb5"
+ },
  "variants": [
   {
-   "key": "supertiny-ente_auth",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/ente_auth.svg",
-    "png": "sources/supertiny/ente_auth.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ente_auth.svg"
+    }
+   ]
   }
  ]
 }

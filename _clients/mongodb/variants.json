@@ -10,7 +10,8 @@
   "sources/devicons/mongodb-original.svg": "af52e50acb298003",
   "sources/wvl/mongodb-icon.svg": "e3d3d4a404b36cb2",
   "sources/wvl/mongodb.svg": "84e0c606faf1fcc0",
-  "sources/mongodb-icon.svg": "e3d3d4a404b36cb2"
+  "sources/mongodb-icon.svg": "e3d3d4a404b36cb2",
+  "sources/supertiny/mongodb.svg": "0816f0088ca8e4f8"
  },
  "variants": [
   {
@@ -77,21 +78,6 @@
      "file": "sources/wvl/mongodb.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-mongodb",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/mongodb.svg",
-    "png": "sources/supertiny/mongodb.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

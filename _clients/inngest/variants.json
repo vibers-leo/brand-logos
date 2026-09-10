@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "inngest",
- "primary": "svgl-inngest-light",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "29ef879039184f3f",
+  "sources/svgl/inngest-light.svg": "29ef879039184f3f"
+ },
  "variants": [
   {
-   "key": "svgl-inngest-light",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/svgl/inngest-light.svg",
-    "png": "sources/svgl/inngest-light.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.3333,
+   "aspect": 3.371,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/inngest-light.svg"
+    }
+   ]
   }
  ]
 }

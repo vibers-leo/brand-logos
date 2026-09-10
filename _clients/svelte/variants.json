@@ -10,7 +10,8 @@
   "sources/devicons/svelte-original.svg": "0ba14c757c551a3e",
   "sources/wvl/svelte-icon.svg": "b6f68c1085e229a1",
   "sources/wvl/svelte.svg": "9e8157e3bd026131",
-  "sources/svelte-icon.svg": "b6f68c1085e229a1"
+  "sources/svelte-icon.svg": "b6f68c1085e229a1",
+  "sources/supertiny/svelte.svg": "6ac44a2330b97609"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/svelte-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/svelte.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/svelte.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-svelte",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/svelte.svg",
-    "png": "sources/supertiny/svelte.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

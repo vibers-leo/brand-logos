@@ -10,7 +10,8 @@
   "sources/devicons/django-plain.svg": "f67fd8439c353796",
   "sources/wvl/django-icon.svg": "ceb4e60f51defc5b",
   "sources/wvl/django.svg": "652f0c1ad6d37c6b",
-  "sources/django-icon.svg": "ceb4e60f51defc5b"
+  "sources/django-icon.svg": "ceb4e60f51defc5b",
+  "sources/supertiny/djangoproject.svg": "71c2047888accfcb"
  },
  "variants": [
   {
@@ -75,23 +76,12 @@
     {
      "provider": "merged",
      "file": "sources/django-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/djangoproject.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-djangoproject",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/djangoproject.svg",
-    "png": "sources/supertiny/djangoproject.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

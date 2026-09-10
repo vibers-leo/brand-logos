@@ -7,7 +7,8 @@
   "logo.svg": "de2cd488bc2605b2",
   "sources/iconify/express.svg": "de2cd488bc2605b2",
   "sources/devicons/express-original.svg": "0ad9e785a46d6164",
-  "sources/wvl/express.svg": "682d6b1326372e47"
+  "sources/wvl/express.svg": "682d6b1326372e47",
+  "sources/supertiny/expressjs.svg": "bf71c40f5dcf9876"
  },
  "variants": [
   {
@@ -23,7 +24,13 @@
    "aspect": 1.723,
    "provider": "devicons",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/expressjs.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -49,21 +56,6 @@
      "file": "sources/wvl/express.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-expressjs",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/expressjs.svg",
-    "png": "sources/supertiny/expressjs.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "zencoder",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e786d604ae412b1a"
+  "logo.svg": "e786d604ae412b1a",
+  "sources/lobe/zencoder-text.svg": "5e60b0697f1da518"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-zencoder-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/zencoder-text.svg",
     "png": "sources/lobe/zencoder-text.png"
    },
-   "aspect": 13.1148,
+   "aspect": 9.333,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

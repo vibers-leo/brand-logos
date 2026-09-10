@@ -4,7 +4,8 @@
  "id": "morph",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b516382e49f56a17"
+  "logo.svg": "b516382e49f56a17",
+  "sources/lobe/morph-text.svg": "94a3b00b244a59fe"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-morph-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/morph-text.svg",
     "png": "sources/lobe/morph-text.png"
    },
-   "aspect": 4.6784,
+   "aspect": 3.227,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

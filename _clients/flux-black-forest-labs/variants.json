@@ -4,7 +4,8 @@
  "id": "flux-black-forest-labs",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "7c732bce154c66d2"
+  "logo.svg": "7c732bce154c66d2",
+  "sources/lobe/flux-text.svg": "9f7caaed9f319fef"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-flux-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/flux-text.svg",
     "png": "sources/lobe/flux-text.png"
    },
-   "aspect": 4.4944,
+   "aspect": 3.399,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

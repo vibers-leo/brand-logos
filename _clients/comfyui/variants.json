@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "comfyui",
- "primary": "lobe-comfyui-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d66bfb6293f5a8b5",
+  "sources/lobe/comfyui-color.svg": "3c6b18f6a0e5899e",
+  "sources/lobe/comfyui-text.svg": "d66bfb6293f5a8b5"
+ },
  "variants": [
   {
-   "key": "lobe-comfyui-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/comfyui-color.svg",
     "png": "sources/lobe/comfyui-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.94,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-comfyui-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/comfyui-text.svg",
-    "png": "sources/lobe/comfyui-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 5.1948,
+   "aspect": 3.575,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/comfyui-text.svg"
+    }
+   ]
   }
  ]
 }

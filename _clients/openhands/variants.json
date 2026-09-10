@@ -4,7 +4,8 @@
  "id": "openhands",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "aa71a2bb7e58e909"
+  "logo.svg": "aa71a2bb7e58e909",
+  "sources/lobe/openhands-text.svg": "2ce162fd3a9ffd7d"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-openhands-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/openhands-text.svg",
     "png": "sources/lobe/openhands-text.png"
    },
-   "aspect": 8.1633,
+   "aspect": 5.725,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

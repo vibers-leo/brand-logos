@@ -4,7 +4,8 @@
  "id": "gucci",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "4b935fcf6d7f9427"
+  "logo.svg": "4b935fcf6d7f9427",
+  "sources/apparel-collection/gucci.svg": "8b717d4b67ac0ffa"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 6.347,
    "provider": "fashion-curated",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "apparel-gucci",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · gucci",
-   "files": {
-    "svg": "sources/apparel-collection/gucci.svg",
-    "png": "sources/apparel-collection/gucci.png"
-   },
-   "aspect": 5.4422,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/gucci.svg"
+    }
+   ]
   }
  ]
 }

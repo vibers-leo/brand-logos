@@ -2,14 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "agnesai",
- "primary": "lobe-agnesai-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "cd708ef642574f3b",
+  "sources/lobe/agnesai.svg": "6927977e1f5c1e56",
+  "sources/lobe/agnesai-text.svg": "cd708ef642574f3b"
+ },
  "variants": [
   {
-   "key": "lobe-agnesai",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/agnesai.svg",
     "png": "sources/lobe/agnesai.png"
@@ -17,22 +22,28 @@
    "aspect": 1.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-agnesai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/agnesai-text.svg",
-    "png": "sources/lobe/agnesai-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 6.2992,
+   "aspect": 4.196,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/agnesai-text.svg"
+    }
+   ]
   }
  ]
 }

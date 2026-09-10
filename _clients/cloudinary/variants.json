@@ -9,9 +9,25 @@
   "sources/iconify/cloudinary-icon.svg": "b58a242c596cb860",
   "sources/wvl/cloudinary-icon.svg": "1d7973e3c604afc0",
   "sources/wvl/cloudinary.svg": "9c7c5c56f13394af",
-  "sources/cloudinary-icon.svg": "1d7973e3c604afc0"
+  "sources/cloudinary-icon.svg": "1d7973e3c604afc0",
+  "sources/svgl/cloudinary.svg": "730e025936507169"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/svgl/cloudinary.svg",
+    "png": "sources/svgl/cloudinary.png"
+   },
+   "aspect": 1.528,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -61,21 +77,6 @@
      "file": "sources/wvl/cloudinary.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-cloudinary",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/cloudinary.svg",
-    "png": "sources/svgl/cloudinary.png"
-   },
-   "aspect": 1.5238,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

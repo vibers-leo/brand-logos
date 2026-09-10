@@ -8,7 +8,8 @@
   "sources/iconify/swift.svg": "78747a3986f44c6b",
   "sources/devicons/swift-original.svg": "312ed28ce6efe155",
   "sources/wvl/swift.svg": "f7fb2fae79adcbe9",
-  "sources/vlz/wide.svg": "a2ae590ded0713b4"
+  "sources/vlz/wide.svg": "a2ae590ded0713b4",
+  "sources/supertiny/swift.svg": "885c9a6ec27619b8"
  },
  "variants": [
   {
@@ -38,22 +39,13 @@
    "aspect": 1.047,
    "provider": "devicons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-swift",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/swift.svg",
-    "png": "sources/supertiny/swift.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/swift.svg"
+    }
+   ]
   }
  ]
 }

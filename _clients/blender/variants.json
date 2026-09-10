@@ -8,7 +8,8 @@
   "sources/iconify/blender.svg": "22c3e39e90b84a47",
   "sources/devicons/blender-original.svg": "371610abf02e68e2",
   "sources/wvl/blender.svg": "7e88b151c1e25a15",
-  "sources/vlz/wide.svg": "4eef0a1840b4a3ac"
+  "sources/vlz/wide.svg": "4eef0a1840b4a3ac",
+  "sources/supertiny/blender.svg": "564f455e12c9b3df"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/blender-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/blender.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-blender",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/blender.svg",
-    "png": "sources/supertiny/blender.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

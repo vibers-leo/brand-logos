@@ -9,7 +9,8 @@
   "sources/iconify/qdrant-icon.svg": "a389a279ed065a2f",
   "sources/wvl/qdrant-icon.svg": "3211469c4a8f9389",
   "sources/wvl/qdrant.svg": "ae9265fd641b3cdd",
-  "sources/qdrant-icon.svg": "3211469c4a8f9389"
+  "sources/qdrant-icon.svg": "3211469c4a8f9389",
+  "sources/svgl/qdrant-wordmark-light.svg": "3d819cf832c61f0a"
  },
  "variants": [
   {
@@ -63,19 +64,19 @@
    ]
   },
   {
-   "key": "svgl-qdrant-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/qdrant-wordmark-light.svg",
     "png": "sources/svgl/qdrant-wordmark-light.png"
    },
-   "aspect": 3.7736,
+   "aspect": 3.757,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

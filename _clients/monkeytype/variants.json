@@ -4,7 +4,8 @@
  "id": "monkeytype",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "94d682e5b8f9de08"
+  "logo.svg": "94d682e5b8f9de08",
+  "sources/svgl/monkeytype-wordmark-light.svg": "98791919c950473f"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-monkeytype-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/monkeytype-wordmark-light.svg",
     "png": "sources/svgl/monkeytype-wordmark-light.png"
    },
-   "aspect": 7.767,
+   "aspect": 7.759,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

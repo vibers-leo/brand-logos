@@ -4,7 +4,8 @@
  "id": "hyperbolic",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e82c10425e57b73d"
+  "logo.svg": "e82c10425e57b73d",
+  "sources/lobe/hyperbolic-text.svg": "eb0f356d22115f3e"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-hyperbolic-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/hyperbolic-text.svg",
     "png": "sources/lobe/hyperbolic-text.png"
    },
-   "aspect": 7.5472,
+   "aspect": 4.874,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

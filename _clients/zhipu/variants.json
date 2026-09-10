@@ -4,7 +4,8 @@
  "id": "zhipu",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0c6f1b9012ada1e1"
+  "logo.svg": "0c6f1b9012ada1e1",
+  "sources/lobe/zhipu-text.svg": "da59e213692f8985"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-zhipu-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/zhipu-text.svg",
     "png": "sources/lobe/zhipu-text.png"
    },
-   "aspect": 4.0,
+   "aspect": 3.026,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

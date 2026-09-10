@@ -9,7 +9,8 @@
   "sources/iconify/auth0-icon.svg": "c57c3dc7aabba027",
   "sources/wvl/auth0-icon.svg": "2dec76a85361e1e8",
   "sources/wvl/auth0.svg": "d6257c1628d6f4ca",
-  "sources/auth0-icon.svg": "2dec76a85361e1e8"
+  "sources/auth0-icon.svg": "2dec76a85361e1e8",
+  "sources/supertiny/auth0.svg": "2978f29fd813b65a"
  },
  "variants": [
   {
@@ -34,6 +35,10 @@
     {
      "provider": "merged",
      "file": "sources/auth0-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/auth0.svg"
     }
    ]
   },
@@ -61,21 +66,6 @@
      "file": "sources/wvl/auth0.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-auth0",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/auth0.svg",
-    "png": "sources/supertiny/auth0.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

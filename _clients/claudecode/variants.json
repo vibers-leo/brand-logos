@@ -4,7 +4,9 @@
  "id": "claudecode",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "aa830333d043230f"
+  "logo.svg": "aa830333d043230f",
+  "sources/lobe/claudecode-color.svg": "a54c68f3e9005bf6",
+  "sources/lobe/claudecode-text.svg": "fd67407363f885c4"
  },
  "variants": [
   {
@@ -20,37 +22,17 @@
    "aspect": 1.596,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "lobe-claudecode-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/claudecode-color.svg",
-    "png": "sources/lobe/claudecode-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-claudecode-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/claudecode-text.svg",
-    "png": "sources/lobe/claudecode-text.png"
-   },
-   "aspect": 3.4934,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/claudecode-color.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/claudecode-text.svg"
+    }
+   ]
   }
  ]
 }

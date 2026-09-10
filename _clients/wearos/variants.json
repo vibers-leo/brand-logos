@@ -5,7 +5,8 @@
  "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "708c99fe5be6f37a",
-  "sources/iconify/wearos.svg": "708c99fe5be6f37a"
+  "sources/iconify/wearos.svg": "708c99fe5be6f37a",
+  "sources/supertiny/wear_os.svg": "fc396b28f52b6fcf"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "iconify",
      "file": "sources/iconify/wearos.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/wear_os.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-wear_os",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/wear_os.svg",
-    "png": "sources/supertiny/wear_os.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

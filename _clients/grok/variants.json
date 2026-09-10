@@ -9,7 +9,9 @@
   "sources/iconify/grok-icon.svg": "e985cfa15cba77f8",
   "sources/wvl/grok-icon.svg": "e739b22a577bbfb5",
   "sources/wvl/grok.svg": "52a62835ed098a04",
-  "sources/grok-icon.svg": "e739b22a577bbfb5"
+  "sources/grok-icon.svg": "e739b22a577bbfb5",
+  "sources/supertiny/grok.svg": "6ef4a6cac160b1f0",
+  "sources/svgl/grok-wordmark-light.svg": "f180cf684c1b5988"
  },
  "variants": [
   {
@@ -59,38 +61,27 @@
     {
      "provider": "merged",
      "file": "sources/grok-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/grok.svg"
     }
    ]
   },
   {
-   "key": "supertiny-grok",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/grok.svg",
-    "png": "sources/supertiny/grok.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-grok-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/grok-wordmark-light.svg",
     "png": "sources/svgl/grok-wordmark-light.png"
    },
-   "aspect": 2.5641,
+   "aspect": 2.726,
    "provider": "svgl",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

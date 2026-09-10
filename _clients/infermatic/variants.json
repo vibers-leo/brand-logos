@@ -4,7 +4,8 @@
  "id": "infermatic",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c3b4204f1a243841"
+  "logo.svg": "c3b4204f1a243841",
+  "sources/lobe/infermatic-text.svg": "fc05ca884182a4f2"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-infermatic-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/infermatic-text.svg",
     "png": "sources/lobe/infermatic-text.png"
    },
-   "aspect": 8.8889,
+   "aspect": 6.258,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "expressionengine",
- "primary": "supertiny-expressionengine",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "028c4240612dabcb",
+  "sources/supertiny/expressionengine.svg": "028c4240612dabcb"
+ },
  "variants": [
   {
-   "key": "supertiny-expressionengine",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/supertiny/expressionengine.svg",
-    "png": "sources/supertiny/expressionengine.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.456,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/expressionengine.svg"
+    }
+   ]
   }
  ]
 }

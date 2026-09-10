@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "nobara",
- "primary": "supertiny-nobara",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "5c014332d5f95a34",
+  "sources/supertiny/nobara.svg": "5c014332d5f95a34"
+ },
  "variants": [
   {
-   "key": "supertiny-nobara",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/nobara.svg",
-    "png": "sources/supertiny/nobara.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.998,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/nobara.svg"
+    }
+   ]
   }
  ]
 }

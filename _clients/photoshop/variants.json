@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "c35b5087b00a9f69",
-  "sources/devicons/photoshop-original.svg": "c35b5087b00a9f69"
+  "sources/devicons/photoshop-original.svg": "c35b5087b00a9f69",
+  "sources/supertiny/photoshop.svg": "19e44d37e86d1533"
  },
  "variants": [
   {
@@ -28,21 +29,6 @@
      "file": "sources/devicons/photoshop-original.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-photoshop",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/photoshop.svg",
-    "png": "sources/supertiny/photoshop.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

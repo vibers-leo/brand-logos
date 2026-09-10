@@ -5,7 +5,8 @@
  "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "7b0823f7bad9bce8",
-  "sources/devicons/dovecot-original.svg": "7b0823f7bad9bce8"
+  "sources/devicons/dovecot-original.svg": "7b0823f7bad9bce8",
+  "sources/supertiny/dovecot.svg": "ea7314420d389b50"
  },
  "variants": [
   {
@@ -30,19 +31,19 @@
    ]
   },
   {
-   "key": "supertiny-dovecot",
-   "form": "symbol",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/supertiny/dovecot.svg",
     "png": "sources/supertiny/dovecot.png"
    },
-   "aspect": 1.0,
+   "aspect": 3.316,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
- "generated_at": "2026-09-07",
- "count": 1301,
+ "generated_at": "2026-09-10",
+ "count": 1304,
  "candidates": [
   {
    "id": "mnet",
@@ -11782,6 +11782,35 @@
    "qid": "Q185498",
    "our_domain": "morningstaronline.co.uk",
    "wikidata_sites": []
+  },
+  {
+   "id": "pirate-party",
+   "name_en": "Pirate Party",
+   "ko": "체코 해적당",
+   "qid": "Q341085",
+   "our_domain": "partipirate.tn",
+   "wikidata_sites": [
+    "pirati.cz"
+   ]
+  },
+  {
+   "id": "the-stranger",
+   "name_en": "The Stranger",
+   "ko": "이방인",
+   "qid": "Q163297",
+   "our_domain": "thestranger.com",
+   "wikidata_sites": []
+  },
+  {
+   "id": "philadelphia",
+   "name_en": "Philadelphia",
+   "ko": "필라델피아",
+   "qid": "Q1345",
+   "our_domain": "philadelphia.nl",
+   "wikidata_sites": [
+    "phila.gov",
+    "pa.us"
+   ]
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "271214be5d569efc",
   "sources/devicons/css3-original.svg": "271214be5d569efc",
-  "sources/thesvg/wordmark.svg": "10549fa21ef8cea4"
+  "sources/thesvg/wordmark.svg": "10549fa21ef8cea4",
+  "sources/supertiny/css3.svg": "59f300cb17d920c3"
  },
  "variants": [
   {
@@ -41,23 +42,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/css3-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/css3.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-css3",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/css3.svg",
-    "png": "sources/supertiny/css3.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

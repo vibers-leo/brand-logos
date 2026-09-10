@@ -4,7 +4,8 @@
  "id": "aionlabs",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "4ca14e771c45e797"
+  "logo.svg": "4ca14e771c45e797",
+  "sources/lobe/aionlabs-text.svg": "799068d4f674ecb2"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 20
   },
   {
-   "key": "lobe-aionlabs-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/aionlabs-text.svg",
     "png": "sources/lobe/aionlabs-text.png"
    },
-   "aspect": 8.4211,
+   "aspect": 5.908,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

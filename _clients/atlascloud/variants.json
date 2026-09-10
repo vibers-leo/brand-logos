@@ -4,7 +4,8 @@
  "id": "atlascloud",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "621853e040f8f5cb"
+  "logo.svg": "621853e040f8f5cb",
+  "sources/lobe/atlascloud-text.svg": "c25d8fe4839a5c94"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-atlascloud-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/atlascloud-text.svg",
     "png": "sources/lobe/atlascloud-text.png"
    },
-   "aspect": 10.1266,
+   "aspect": 7.272,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

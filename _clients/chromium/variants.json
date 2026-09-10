@@ -4,7 +4,8 @@
  "id": "chromium",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9406e96191cdd9a8"
+  "logo.svg": "9406e96191cdd9a8",
+  "sources/supertiny/chromium.svg": "7f8676380983fbfe"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-chromium",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/chromium.svg",
-    "png": "sources/supertiny/chromium.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/chromium.svg"
+    }
+   ]
   }
  ]
 }

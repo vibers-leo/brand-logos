@@ -4,7 +4,8 @@
  "id": "carrd",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "166916ff7048445a"
+  "logo.svg": "166916ff7048445a",
+  "sources/svgl/carrd.svg": "03d52c5f46e384f2"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 20
   },
   {
-   "key": "svgl-carrd",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/carrd.svg",
     "png": "sources/svgl/carrd.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

@@ -10,7 +10,8 @@
   "sources/iconify/airbnb-icon.svg": "6c45cc4ccc2a63f0",
   "sources/wvl/airbnb-icon.svg": "6914baad9e456030",
   "sources/wvl/airbnb.svg": "d0d1bbda3a40d034",
-  "sources/airbnb-icon.svg": "6914baad9e456030"
+  "sources/airbnb-icon.svg": "6914baad9e456030",
+  "sources/supertiny/airbnb.svg": "832c1ba455e456aa"
  },
  "variants": [
   {
@@ -41,6 +42,10 @@
      "file": "sources/airbnb-icon.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/airbnb.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -66,21 +71,6 @@
      "file": "sources/wvl/airbnb.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-airbnb",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/airbnb.svg",
-    "png": "sources/supertiny/airbnb.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

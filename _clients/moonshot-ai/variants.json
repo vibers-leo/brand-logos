@@ -9,7 +9,9 @@
   "sources/iconify/moonshot-ai-icon.svg": "5d683a749dcd6c08",
   "sources/wvl/moonshot-ai-icon.svg": "2893197e1f754370",
   "sources/wvl/moonshot-ai.svg": "64f8e3d6f97a80b3",
-  "sources/moonshot-ai-icon.svg": "2893197e1f754370"
+  "sources/moonshot-ai-icon.svg": "2893197e1f754370",
+  "sources/lobe/moonshot.svg": "8fe5c58a2b8a4acf",
+  "sources/lobe/moonshot-text.svg": "5ae3955910824c13"
  },
  "variants": [
   {
@@ -34,6 +36,10 @@
     {
      "provider": "merged",
      "file": "sources/moonshot-ai-icon.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/moonshot.svg"
     }
    ]
   },
@@ -59,38 +65,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/moonshot-ai.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/moonshot-text.svg"
     }
    ]
-  },
-  {
-   "key": "lobe-moonshot",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/moonshot.svg",
-    "png": "sources/lobe/moonshot.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-moonshot-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/moonshot-text.svg",
-    "png": "sources/lobe/moonshot-text.png"
-   },
-   "aspect": 10.6667,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

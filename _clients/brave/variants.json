@@ -7,7 +7,8 @@
   "logo.svg": "6d7d3a4cc00e9ea7",
   "sources/iconify/brave.svg": "6d7d3a4cc00e9ea7",
   "sources/wvl/brave.svg": "4b07abc824ea6a21",
-  "sources/vlz/wide.svg": "c7306b5b526bf970"
+  "sources/vlz/wide.svg": "c7306b5b526bf970",
+  "sources/supertiny/brave.svg": "d0edab9d79845c3b"
  },
  "variants": [
   {
@@ -46,23 +47,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/brave.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/brave.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-brave",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/brave.svg",
-    "png": "sources/supertiny/brave.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

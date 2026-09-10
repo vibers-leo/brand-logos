@@ -10,7 +10,8 @@
   "sources/devicons/kotlin-original.svg": "6e8e2e9d502b327a",
   "sources/wvl/kotlin-icon.svg": "131fe517f285ba52",
   "sources/wvl/kotlin.svg": "24f17b45b584db54",
-  "sources/kotlin-icon.svg": "131fe517f285ba52"
+  "sources/kotlin-icon.svg": "131fe517f285ba52",
+  "sources/supertiny/kotlin.svg": "c6989e71900c28cb"
  },
  "variants": [
   {
@@ -66,21 +67,6 @@
      "file": "sources/wvl/kotlin.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-kotlin",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/kotlin.svg",
-    "png": "sources/supertiny/kotlin.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

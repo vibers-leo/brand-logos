@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "1878a34633f83d2f",
   "sources/fa.svg": "1878a34633f83d2f",
-  "sources/vlz/wide.svg": "5e90a25e24f27663"
+  "sources/vlz/wide.svg": "5e90a25e24f27663",
+  "sources/supertiny/xbox.svg": "183f59fbd73d1122"
  },
  "variants": [
   {
@@ -24,6 +25,10 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/xbox.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
@@ -43,21 +48,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-xbox",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/xbox.svg",
-    "png": "sources/supertiny/xbox.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

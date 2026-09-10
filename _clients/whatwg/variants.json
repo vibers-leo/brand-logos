@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "a0d2b7450eebd369",
   "sources/iconify/whatwg.svg": "a0d2b7450eebd369",
-  "sources/wvl/whatwg.svg": "8a68812a186e1a0e"
+  "sources/wvl/whatwg.svg": "8a68812a186e1a0e",
+  "sources/supertiny/whatwg.svg": "3e91c4a31f05d7e0"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/whatwg.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/whatwg.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-whatwg",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/whatwg.svg",
-    "png": "sources/supertiny/whatwg.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

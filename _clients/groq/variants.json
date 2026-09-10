@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "328e24ae340362e5",
-  "sources/thesvg/wordmark.svg": "a3750a0e5fcb87c9"
+  "sources/thesvg/wordmark.svg": "a3750a0e5fcb87c9",
+  "sources/svgl/groq_wordmark_light.svg": "f9e9bc8f89e015cb"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 2.932,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/groq_wordmark_light.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -36,21 +43,6 @@
    "provider": "brand-site",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "svgl-groq_wordmark_light",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
-   "files": {
-    "svg": "sources/svgl/groq_wordmark_light.svg",
-    "png": "sources/svgl/groq_wordmark_light.png"
-   },
-   "aspect": 2.9304,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

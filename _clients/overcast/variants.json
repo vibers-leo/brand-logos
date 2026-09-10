@@ -4,7 +4,8 @@
  "id": "overcast",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "08eec74f3e7aa6cb"
+  "logo.svg": "08eec74f3e7aa6cb",
+  "sources/supertiny/overcast.svg": "7083dc0b60d35f28"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-overcast",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/overcast.svg",
-    "png": "sources/supertiny/overcast.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/overcast.svg"
+    }
+   ]
   }
  ]
 }

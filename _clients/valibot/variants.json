@@ -4,7 +4,8 @@
  "id": "valibot",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "22313e765bee4f55"
+  "logo.svg": "22313e765bee4f55",
+  "sources/svgl/valibot-wordmark-light.svg": "34f048316d22d0f7"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-valibot-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/valibot-wordmark-light.svg",
     "png": "sources/svgl/valibot-wordmark-light.png"
    },
-   "aspect": 5.7554,
+   "aspect": 5.732,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "rockstargames",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4986eaa41522ef45"
+  "logo.svg": "4986eaa41522ef45",
+  "sources/supertiny/rockstar.svg": "e7b09fb075bc5b54"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.998,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-rockstar",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/rockstar.svg",
-    "png": "sources/supertiny/rockstar.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/rockstar.svg"
+    }
+   ]
   }
  ]
 }

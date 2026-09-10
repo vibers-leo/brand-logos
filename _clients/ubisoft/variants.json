@@ -4,7 +4,9 @@
  "id": "ubisoft",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "647364fe94e0f722"
+  "logo.svg": "647364fe94e0f722",
+  "sources/supertiny/ubisoft.svg": "c0e621d5e96dcc6d",
+  "sources/supertiny/uplay.svg": "0a6bad90ad799916"
  },
  "variants": [
   {
@@ -20,37 +22,17 @@
    "aspect": 0.964,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-ubisoft",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ubisoft.svg",
-    "png": "sources/supertiny/ubisoft.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "supertiny-uplay",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/uplay.svg",
-    "png": "sources/supertiny/uplay.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/uplay.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ubisoft.svg"
+    }
+   ]
   }
  ]
 }

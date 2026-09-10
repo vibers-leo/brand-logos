@@ -4,7 +4,8 @@
  "id": "kick",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a68f227f261e572f"
+  "logo.svg": "a68f227f261e572f",
+  "sources/svgl/kick-light.svg": "830ea0382c7995e6"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "svgl-kick-light",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 가로형",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/kick-light.svg",
     "png": "sources/svgl/kick-light.png"
    },
-   "aspect": 3.1128,
+   "aspect": 3.114,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

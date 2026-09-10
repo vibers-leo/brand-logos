@@ -4,7 +4,9 @@
  "id": "nova-aws",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d6cba71bea9c243f"
+  "logo.svg": "d6cba71bea9c243f",
+  "sources/lobe/nova-color.svg": "f372ac66155054d5",
+  "sources/lobe/nova-text.svg": "0f3f1b3acc7c2ce1"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 0.994,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/nova-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-nova-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/nova-color.svg",
-    "png": "sources/lobe/nova-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-nova-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/nova-text.svg",
     "png": "sources/lobe/nova-text.png"
    },
-   "aspect": 12.1212,
+   "aspect": 9.031,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

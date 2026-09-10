@@ -4,7 +4,8 @@
  "id": "goose-codename",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "286358cc616ca58d"
+  "logo.svg": "286358cc616ca58d",
+  "sources/lobe/goose-text.svg": "1258b37fadbbd406"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-goose-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/goose-text.svg",
     "png": "sources/lobe/goose-text.png"
    },
-   "aspect": 5.4422,
+   "aspect": 3.745,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

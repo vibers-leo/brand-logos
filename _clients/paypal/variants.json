@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "62732ac4dbef388f",
-  "sources/thesvg/wordmark.svg": "d38d9b4a8f652a8d"
+  "sources/thesvg/wordmark.svg": "d38d9b4a8f652a8d",
+  "sources/supertiny/paypal.svg": "9b697bd8f621c979"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 0.849,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/paypal.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-paypal",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/paypal.svg",
-    "png": "sources/supertiny/paypal.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

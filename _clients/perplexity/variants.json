@@ -9,7 +9,10 @@
   "sources/iconify/perplexity-icon.svg": "2b6bf0617165a012",
   "sources/wvl/perplexity-icon.svg": "22d77a282d757964",
   "sources/wvl/perplexity.svg": "248f976a0f2e7eee",
-  "sources/perplexity-icon.svg": "22d77a282d757964"
+  "sources/perplexity-icon.svg": "22d77a282d757964",
+  "sources/supertiny/perplexity.svg": "7d3d18d40831f011",
+  "sources/lobe/perplexity-color.svg": "9ce6c3eeccc579a3",
+  "sources/lobe/perplexity-text.svg": "281e917900223871"
  },
  "variants": [
   {
@@ -34,6 +37,14 @@
     {
      "provider": "merged",
      "file": "sources/perplexity-icon.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/perplexity-color.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/perplexity.svg"
     }
    ]
   },
@@ -59,53 +70,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/perplexity.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/perplexity-text.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-perplexity",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/perplexity.svg",
-    "png": "sources/supertiny/perplexity.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-perplexity-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/perplexity-color.svg",
-    "png": "sources/lobe/perplexity-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
-  },
-  {
-   "key": "lobe-perplexity-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/perplexity-text.svg",
-    "png": "sources/lobe/perplexity-text.png"
-   },
-   "aspect": 7.3394,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 104
   }
  ]
 }

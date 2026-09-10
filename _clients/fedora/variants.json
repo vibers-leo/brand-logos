@@ -8,7 +8,8 @@
   "sources/iconify/fedora.svg": "459d3c10157571fd",
   "sources/devicons/fedora-original.svg": "368241a65d15b8de",
   "sources/wvl/fedora.svg": "f3b259ef1b7d73b8",
-  "sources/commons-wm/wordmark.svg": "c290802dfa0cd276"
+  "sources/commons-wm/wordmark.svg": "c290802dfa0cd276",
+  "sources/supertiny/fedora.svg": "ccf8c250d526a09f"
  },
  "variants": [
   {
@@ -37,23 +38,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/fedora-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/fedora.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-fedora",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/fedora.svg",
-    "png": "sources/supertiny/fedora.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

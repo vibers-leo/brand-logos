@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "luckyframework",
- "primary": "supertiny-luckyframework",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "3f6a78e991feafd6",
+  "sources/supertiny/luckyframework.svg": "3f6a78e991feafd6"
+ },
  "variants": [
   {
-   "key": "supertiny-luckyframework",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/luckyframework.svg",
-    "png": "sources/supertiny/luckyframework.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.089,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/luckyframework.svg"
+    }
+   ]
   }
  ]
 }

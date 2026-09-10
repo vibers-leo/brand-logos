@@ -4,7 +4,8 @@
  "id": "assemblyai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "83bcbacf9bc6e1ae"
+  "logo.svg": "83bcbacf9bc6e1ae",
+  "sources/lobe/assemblyai-text.svg": "8c701be668f3e1fb"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-assemblyai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/assemblyai-text.svg",
     "png": "sources/lobe/assemblyai-text.png"
    },
-   "aspect": 8.7912,
+   "aspect": 6.126,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

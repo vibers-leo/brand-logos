@@ -4,7 +4,8 @@
  "id": "black-forest-labs-bfl",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "09514ac32e99ab39"
+  "logo.svg": "09514ac32e99ab39",
+  "sources/lobe/bfl-text.svg": "579593c3ea63da69"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-bfl-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/bfl-text.svg",
     "png": "sources/lobe/bfl-text.png"
    },
-   "aspect": 12.9032,
+   "aspect": 10.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

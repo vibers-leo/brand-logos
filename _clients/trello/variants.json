@@ -8,7 +8,8 @@
   "sources/iconify/trello.svg": "c32c50b9de3e4b48",
   "sources/devicons/trello-original.svg": "e9160336843be982",
   "sources/wvl/trello.svg": "6eef91dc05f1387e",
-  "sources/thesvg/wordmark.svg": "a9f8b165f33a6192"
+  "sources/thesvg/wordmark.svg": "a9f8b165f33a6192",
+  "sources/supertiny/trello.svg": "e0320581680af974"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/trello-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/trello.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-trello",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/trello.svg",
-    "png": "sources/supertiny/trello.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

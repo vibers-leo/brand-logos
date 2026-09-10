@@ -4,7 +4,8 @@
  "id": "openvpn",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "88736c9eeec92f44"
+  "logo.svg": "88736c9eeec92f44",
+  "sources/supertiny/openvpn.svg": "ca6b1337edb63864"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.03,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-openvpn",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/openvpn.svg",
-    "png": "sources/supertiny/openvpn.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/openvpn.svg"
+    }
+   ]
   }
  ]
 }

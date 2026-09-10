@@ -4,9 +4,25 @@
  "id": "udio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "349ba073b7795ff2"
+  "logo.svg": "349ba073b7795ff2",
+  "sources/lobe/udio-text.svg": "0a16c3d927605ef7"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/udio-text.svg",
+    "png": "sources/lobe/udio-text.png"
+   },
+   "aspect": 2.518,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-udio-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/udio-text.svg",
-    "png": "sources/lobe/udio-text.png"
-   },
-   "aspect": 3.3755,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

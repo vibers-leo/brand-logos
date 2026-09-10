@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "1a8b2722b725efa8",
   "sources/fa.svg": "1a8b2722b725efa8",
-  "sources/vlz/wide.svg": "26bf14550d0a2289"
+  "sources/vlz/wide.svg": "26bf14550d0a2289",
+  "sources/supertiny/amazon.svg": "69ae11594f1bbdd0"
  },
  "variants": [
   {
@@ -24,6 +25,10 @@
    "origin": "collected",
    "order": 30,
    "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/amazon.svg"
+    },
     {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
@@ -43,21 +48,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-amazon",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/amazon.svg",
-    "png": "sources/supertiny/amazon.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

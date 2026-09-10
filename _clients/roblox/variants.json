@@ -4,7 +4,9 @@
  "id": "roblox",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a41b2bba79d2a7f9"
+  "logo.svg": "a41b2bba79d2a7f9",
+  "sources/supertiny/roblox.svg": "0096c9cd080c86c1",
+  "sources/svgl/roblox_light.svg": "96f2fcd06d32a836"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.0,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/roblox.svg"
+    }
+   ]
   },
   {
-   "key": "supertiny-roblox",
-   "form": "symbol",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/roblox.svg",
-    "png": "sources/supertiny/roblox.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-roblox_light",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/roblox_light.svg",
     "png": "sources/svgl/roblox_light.png"
    },
-   "aspect": 4.908,
+   "aspect": 5.411,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "dcede0833f6463a1",
   "sources/iconify/nx.svg": "dcede0833f6463a1",
-  "sources/wvl/nx.svg": "ecf7904e47e0840e"
+  "sources/wvl/nx.svg": "ecf7904e47e0840e",
+  "sources/svgl/nx_light.svg": "a0fa6d79d6cf0cde"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/nx.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/nx_light.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-nx_light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/nx_light.svg",
-    "png": "sources/svgl/nx_light.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

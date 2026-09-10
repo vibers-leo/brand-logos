@@ -4,7 +4,8 @@
  "id": "ollama",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "4c7aa08f4ad4343c"
+  "logo.svg": "4c7aa08f4ad4343c",
+  "sources/svgl/ollama_light.svg": "c7ecc9201401d34f"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.758,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "svgl-ollama_light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/ollama_light.svg",
-    "png": "sources/svgl/ollama_light.png"
-   },
-   "aspect": 0.7561,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/ollama_light.svg"
+    }
+   ]
   }
  ]
 }

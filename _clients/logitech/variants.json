@@ -4,9 +4,25 @@
  "id": "logitech",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "c3e2e0a6a85cf28d"
+  "logo.svg": "c3e2e0a6a85cf28d",
+  "sources/supertiny/logitech.svg": "7b6a42be09c32d89"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/logitech.svg",
+    "png": "sources/supertiny/logitech.png"
+   },
+   "aspect": 0.956,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-logitech",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/logitech.svg",
-    "png": "sources/supertiny/logitech.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

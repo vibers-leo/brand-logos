@@ -4,9 +4,25 @@
  "id": "openclaw",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "dbab8c2258159080"
+  "logo.svg": "dbab8c2258159080",
+  "sources/svgl/openclaw.svg": "7806ab9dd00ce33f"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/svgl/openclaw.svg",
+    "png": "sources/svgl/openclaw.png"
+   },
+   "aspect": 1.092,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "svgl-openclaw",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/openclaw.svg",
-    "png": "sources/svgl/openclaw.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "googlemeet",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e24d759067fda845"
+  "logo.svg": "e24d759067fda845",
+  "sources/supertiny/google_meet.svg": "d2c7c12054d192d6"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.213,
    "provider": "simpleicons/googlemeet",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-google_meet",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_meet.svg",
-    "png": "sources/supertiny/google_meet.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_meet.svg"
+    }
+   ]
   }
  ]
 }

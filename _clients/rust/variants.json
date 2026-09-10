@@ -7,7 +7,8 @@
   "logo.svg": "d06f6f08c65bb961",
   "sources/iconify/rust.svg": "d06f6f08c65bb961",
   "sources/devicons/rust-original.svg": "1d3ec97ff6d194d9",
-  "sources/wvl/rust.svg": "bdae5bab794417e6"
+  "sources/wvl/rust.svg": "bdae5bab794417e6",
+  "sources/supertiny/rust.svg": "0ddb22156b2ecded"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/rust-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/rust.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-rust",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/rust.svg",
-    "png": "sources/supertiny/rust.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

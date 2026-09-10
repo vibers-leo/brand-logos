@@ -7,7 +7,8 @@
   "logo.svg": "2d6fac4e14054194",
   "sources/iconify/ubuntu.svg": "2d6fac4e14054194",
   "sources/devicons/ubuntu-original.svg": "a725af219cff13c8",
-  "sources/wvl/ubuntu.svg": "c9aaeeaa55c5e286"
+  "sources/wvl/ubuntu.svg": "c9aaeeaa55c5e286",
+  "sources/supertiny/ubuntu.svg": "bbf3ed7c38922581"
  },
  "variants": [
   {
@@ -47,23 +48,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/ubuntu.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ubuntu.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-ubuntu",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ubuntu.svg",
-    "png": "sources/supertiny/ubuntu.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

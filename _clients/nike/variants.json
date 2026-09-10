@@ -5,7 +5,10 @@
  "primary": "horizontal",
  "fingerprint": {
   "logo.svg": "e95b810a5fde269c",
-  "sources/si.svg": "e95b810a5fde269c"
+  "sources/si.svg": "e95b810a5fde269c",
+  "sources/apparel-collection/nike.svg": "96b8554611275469",
+  "sources/apparel-collection/nike-golf.svg": "93bb13694559b4a1",
+  "sources/apparel-collection/nike-com.svg": "dee340f33533946f"
  },
  "variants": [
   {
@@ -24,47 +27,21 @@
    "order": 10,
    "alts": [
     {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/nike.svg"
+    },
+    {
      "provider": "simple-icons",
      "file": "sources/si.svg"
     }
    ]
   },
   {
-   "key": "apparel-nike",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · nike",
-   "files": {
-    "svg": "sources/apparel-collection/nike.svg",
-    "png": "sources/apparel-collection/nike.png"
-   },
-   "aspect": 1.9324,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "apparel-nike-golf",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · nike-golf",
-   "files": {
-    "svg": "sources/apparel-collection/nike-golf.svg",
-    "png": "sources/apparel-collection/nike-golf.png"
-   },
-   "aspect": 11.5942,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "apparel-nike-com",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · nike-com",
+   "label": "심볼형",
    "files": {
     "svg": "sources/apparel-collection/nike-com.svg",
     "png": "sources/apparel-collection/nike-com.png"
@@ -72,7 +49,22 @@
    "aspect": 1.0,
    "provider": "apparel",
    "origin": "collected",
-   "order": 103
+   "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/apparel-collection/nike-golf.svg",
+    "png": "sources/apparel-collection/nike-golf.png"
+   },
+   "aspect": 13.859,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

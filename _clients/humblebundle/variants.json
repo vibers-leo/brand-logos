@@ -4,7 +4,8 @@
  "id": "humblebundle",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cbc971ba6de77561"
+  "logo.svg": "cbc971ba6de77561",
+  "sources/supertiny/humblebundle.svg": "137ab647b4cd5551"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.011,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-humblebundle",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/humblebundle.svg",
-    "png": "sources/supertiny/humblebundle.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/humblebundle.svg"
+    }
+   ]
   }
  ]
 }

@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "sillytavern",
- "primary": "lobe-sillytavern-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "318ee8df61b7ff2c",
+  "sources/lobe/sillytavern-color.svg": "988a5def52da1918",
+  "sources/lobe/sillytavern-text.svg": "318ee8df61b7ff2c"
+ },
  "variants": [
   {
-   "key": "lobe-sillytavern-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/sillytavern-color.svg",
     "png": "sources/lobe/sillytavern-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.09,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-sillytavern-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/sillytavern-text.svg",
-    "png": "sources/lobe/sillytavern-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 6.5041,
+   "aspect": 4.752,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/sillytavern-text.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "lightricks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d40aebc3440cd319"
+  "logo.svg": "d40aebc3440cd319",
+  "sources/lobe/lightricks-text.svg": "4c19f7ebb2011654"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-lightricks-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/lightricks-text.svg",
     "png": "sources/lobe/lightricks-text.png"
    },
-   "aspect": 5.4422,
+   "aspect": 4.151,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

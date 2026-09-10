@@ -5,7 +5,9 @@
  "primary": "vertical",
  "fingerprint": {
   "logo.svg": "eb4659b3e478c5bb",
-  "sources/devicons/apachekafka-original.svg": "eb4659b3e478c5bb"
+  "sources/devicons/apachekafka-original.svg": "eb4659b3e478c5bb",
+  "sources/svgl/apache-kafka-light.svg": "f8a7a49aee5fa09e",
+  "sources/svgl/apache-kafka-wordmark-light.svg": "0c0be3fa1ced4d11"
  },
  "variants": [
   {
@@ -26,38 +28,27 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/apachekafka-original.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/apache-kafka-light.svg"
     }
    ]
   },
   {
-   "key": "svgl-apache-kafka-light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/apache-kafka-light.svg",
-    "png": "sources/svgl/apache-kafka-light.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-apache-kafka-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/apache-kafka-wordmark-light.svg",
     "png": "sources/svgl/apache-kafka-wordmark-light.png"
    },
-   "aspect": 1.9002,
+   "aspect": 2.183,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "codeflicker",
- "primary": "lobe-codeflicker-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c485373693cb028e",
+  "sources/lobe/codeflicker-color.svg": "fcc4d7bc5da4eb27",
+  "sources/lobe/codeflicker-text.svg": "c485373693cb028e"
+ },
  "variants": [
   {
-   "key": "lobe-codeflicker-color",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "가로조합형",
    "files": {
     "svg": "sources/lobe/codeflicker-color.svg",
     "png": "sources/lobe/codeflicker-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.413,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 10
   },
   {
-   "key": "lobe-codeflicker-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/codeflicker-text.svg",
-    "png": "sources/lobe/codeflicker-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 9.5238,
+   "aspect": 6.94,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/codeflicker-text.svg"
+    }
+   ]
   }
  ]
 }

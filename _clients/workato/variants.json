@@ -2,22 +2,26 @@
  "schema": 1,
  "algo_v": 1,
  "id": "workato",
- "primary": "supertiny-workato",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "8011a8712f864c9c",
+  "sources/supertiny/workato.svg": "8011a8712f864c9c",
+  "sources/vlz/wide.svg": "790d409fcf3a50b5"
+ },
  "variants": [
   {
-   "key": "supertiny-workato",
-   "form": "symbol",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/supertiny/workato.svg",
-    "png": "sources/supertiny/workato.png"
+    "svg": "sources/vlz/wide.svg"
    },
-   "aspect": 1.0,
-   "provider": "supertiny",
+   "aspect": 4.791,
+   "provider": "vectorlogozone",
    "origin": "collected",
-   "order": 100
+   "order": 40
   }
  ]
 }

@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "briaai",
- "primary": "lobe-briaai-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d62c22be8f668763",
+  "sources/lobe/briaai-color.svg": "4db6b6657a4f8860",
+  "sources/lobe/briaai-text.svg": "d62c22be8f668763"
+ },
  "variants": [
   {
-   "key": "lobe-briaai-color",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "가로조합형",
    "files": {
     "svg": "sources/lobe/briaai-color.svg",
     "png": "sources/lobe/briaai-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.554,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 10
   },
   {
-   "key": "lobe-briaai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/briaai-text.svg",
-    "png": "sources/lobe/briaai-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 4.9383,
+   "aspect": 3.393,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/briaai-text.svg"
+    }
+   ]
   }
  ]
 }

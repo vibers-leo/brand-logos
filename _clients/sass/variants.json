@@ -7,7 +7,8 @@
   "logo.svg": "7df1371231397e84",
   "sources/iconify/sass.svg": "7df1371231397e84",
   "sources/devicons/sass-original.svg": "eab315098699440d",
-  "sources/wvl/sass.svg": "70eb6d5cdf3836f7"
+  "sources/wvl/sass.svg": "70eb6d5cdf3836f7",
+  "sources/supertiny/sass.svg": "ff5619ac13dc87f5"
  },
  "variants": [
   {
@@ -40,11 +41,11 @@
    ]
   },
   {
-   "key": "supertiny-sass",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/sass.svg",
     "png": "sources/supertiny/sass.png"
@@ -52,7 +53,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "openbugbounty",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "4d99f48ac697c979"
+  "logo.svg": "4d99f48ac697c979",
+  "sources/supertiny/openbugbounty.svg": "5907fd0739b172d7"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.573,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "supertiny-openbugbounty",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/openbugbounty.svg",
-    "png": "sources/supertiny/openbugbounty.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/openbugbounty.svg"
+    }
+   ]
   }
  ]
 }

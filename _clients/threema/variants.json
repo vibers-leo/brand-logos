@@ -4,9 +4,25 @@
  "id": "threema",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5bfdf267cfb3b318"
+  "logo.svg": "5bfdf267cfb3b318",
+  "sources/supertiny/threema.svg": "78c6b6c735a21635"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/supertiny/threema.svg",
+    "png": "sources/supertiny/threema.png"
+   },
+   "aspect": 0.776,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "supertiny-threema",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/threema.svg",
-    "png": "sources/supertiny/threema.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

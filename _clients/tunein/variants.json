@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "1c59fab9e7a6920e",
   "sources/iconify/tunein.svg": "1c59fab9e7a6920e",
-  "sources/wvl/tunein.svg": "f7c4e60b74e4d51c"
+  "sources/wvl/tunein.svg": "f7c4e60b74e4d51c",
+  "sources/supertiny/tunein.svg": "c849a3c126641c1b"
  },
  "variants": [
   {
@@ -33,21 +34,6 @@
      "file": "sources/wvl/tunein.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-tunein",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/tunein.svg",
-    "png": "sources/supertiny/tunein.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

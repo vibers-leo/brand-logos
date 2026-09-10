@@ -4,7 +4,8 @@
  "id": "orcid",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "14f60c6983a5265d"
+  "logo.svg": "14f60c6983a5265d",
+  "sources/supertiny/orcid.svg": "2f32224950a085e7"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-orcid",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/orcid.svg",
-    "png": "sources/supertiny/orcid.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/orcid.svg"
+    }
+   ]
   }
  ]
 }

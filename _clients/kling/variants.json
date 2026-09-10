@@ -2,49 +2,41 @@
  "schema": 1,
  "algo_v": 1,
  "id": "kling",
- "primary": "original",
+ "primary": "symbol",
+ "fingerprint": {
+  "sources/lobe/kling-color.svg": "7fa4747c032c61f6",
+  "sources/lobe/kling-text.svg": "cee6d6586fca5ff6"
+ },
  "variants": [
   {
-   "key": "original",
-   "form": "unknown",
-   "lang": "unknown",
-   "color": "color",
-   "label": "기존 로고",
-   "files": {
-    "png": "logo.png"
-   },
-   "origin": "collected",
-   "order": 0
-  },
-  {
-   "key": "lobe-kling-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/kling-color.svg",
     "png": "sources/lobe/kling-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.045,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 30
   },
   {
-   "key": "lobe-kling-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/kling-text.svg",
     "png": "sources/lobe/kling-text.png"
    },
-   "aspect": 5.0,
+   "aspect": 3.807,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

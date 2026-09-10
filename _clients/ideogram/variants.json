@@ -4,7 +4,8 @@
  "id": "ideogram",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ac590a6291981e99"
+  "logo.svg": "ac590a6291981e99",
+  "sources/lobe/ideogram-text.svg": "71ba7085ec616cb7"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-ideogram-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/ideogram-text.svg",
     "png": "sources/lobe/ideogram-text.png"
    },
-   "aspect": 5.8824,
+   "aspect": 4.508,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

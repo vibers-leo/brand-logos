@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ivy-framework",
- "primary": "svgl-ivy-framework",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "dd9f0ad669cda649",
+  "sources/svgl/ivy-framework.svg": "dd9f0ad669cda649"
+ },
  "variants": [
   {
-   "key": "svgl-ivy-framework",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/svgl/ivy-framework.svg",
-    "png": "sources/svgl/ivy-framework.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/ivy-framework.svg"
+    }
+   ]
   }
  ]
 }

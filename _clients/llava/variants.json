@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "llava",
- "primary": "lobe-llava-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "d403db7c65022296",
+  "sources/lobe/llava-color.svg": "0bdecabf79abe3f8",
+  "sources/lobe/llava-text.svg": "d403db7c65022296"
+ },
  "variants": [
   {
-   "key": "lobe-llava-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/llava-color.svg",
     "png": "sources/lobe/llava-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.918,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-llava-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/llava-text.svg",
-    "png": "sources/lobe/llava-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 5.1282,
+   "aspect": 3.553,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/llava-text.svg"
+    }
+   ]
   }
  ]
 }

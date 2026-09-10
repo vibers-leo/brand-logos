@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "a48189893cf231ca",
-  "sources/devicons/reflex-original.svg": "a48189893cf231ca"
+  "sources/devicons/reflex-original.svg": "a48189893cf231ca",
+  "sources/svgl/reflex-dark.svg": "e6c3c5a4a83f9a94"
  },
  "variants": [
   {
@@ -30,19 +31,19 @@
    ]
   },
   {
-   "key": "svgl-reflex-dark",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/reflex-dark.svg",
     "png": "sources/svgl/reflex-dark.png"
    },
-   "aspect": 4.6784,
+   "aspect": 4.972,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

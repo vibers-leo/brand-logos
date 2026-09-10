@@ -6,9 +6,25 @@
  "fingerprint": {
   "logo.svg": "d37cfafdd98c86cf",
   "sources/iconify/quora.svg": "d37cfafdd98c86cf",
-  "sources/wvl/quora.svg": "2a9870217480d069"
+  "sources/wvl/quora.svg": "2a9870217480d069",
+  "sources/supertiny/quora.svg": "a0108fb6a9ec38a6"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/quora.svg",
+    "png": "sources/supertiny/quora.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -33,21 +49,6 @@
      "file": "sources/wvl/quora.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-quora",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/quora.svg",
-    "png": "sources/supertiny/quora.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

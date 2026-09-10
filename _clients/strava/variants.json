@@ -4,7 +4,8 @@
  "id": "strava",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "5275902b286848fa"
+  "logo.svg": "5275902b286848fa",
+  "sources/supertiny/strava.svg": "6c8cae383b990e99"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 20
   },
   {
-   "key": "supertiny-strava",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/strava.svg",
     "png": "sources/supertiny/strava.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

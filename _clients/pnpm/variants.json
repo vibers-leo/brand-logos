@@ -7,7 +7,9 @@
   "logo.svg": "a7df74c1f2862bfc",
   "sources/iconify/pnpm.svg": "a7df74c1f2862bfc",
   "sources/devicons/pnpm-original.svg": "b5ac3dbeb060cd2d",
-  "sources/wvl/pnpm.svg": "990d0967f96a0a80"
+  "sources/wvl/pnpm.svg": "990d0967f96a0a80",
+  "sources/supertiny/pnpm.svg": "ed82ccd4673df7ec",
+  "sources/svgl/pnpm_wordmark_light.svg": "69881593b51975fd"
  },
  "variants": [
   {
@@ -32,6 +34,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/pnpm.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/pnpm_wordmark_light.svg"
     }
    ]
   },
@@ -48,37 +54,13 @@
    "aspect": 1.0,
    "provider": "devicons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-pnpm",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/pnpm.svg",
-    "png": "sources/supertiny/pnpm.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-pnpm_wordmark_light",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
-   "files": {
-    "svg": "sources/svgl/pnpm_wordmark_light.svg",
-    "png": "sources/svgl/pnpm_wordmark_light.png"
-   },
-   "aspect": 1.4134,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 103
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/pnpm.svg"
+    }
+   ]
   }
  ]
 }

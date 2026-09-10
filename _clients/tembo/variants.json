@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tembo",
- "primary": "svgl-tembo-wordmark",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "506200f992bf0034",
+  "sources/svgl/tembo.svg": "c75e1e3e80e7355a",
+  "sources/svgl/tembo-wordmark.svg": "506200f992bf0034"
+ },
  "variants": [
   {
-   "key": "svgl-tembo",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/tembo.svg",
     "png": "sources/svgl/tembo.png"
    },
-   "aspect": 1.0063,
+   "aspect": 1.004,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "svgl-tembo-wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/svgl/tembo-wordmark.svg",
-    "png": "sources/svgl/tembo-wordmark.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 4.7337,
+   "aspect": 4.721,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/tembo-wordmark.svg"
+    }
+   ]
   }
  ]
 }

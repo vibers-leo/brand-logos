@@ -5,9 +5,25 @@
  "primary": "vertical",
  "fingerprint": {
   "logo.svg": "ecbd53ca04137816",
-  "sources/devicons/framermotion-original.svg": "ecbd53ca04137816"
+  "sources/devicons/framermotion-original.svg": "ecbd53ca04137816",
+  "sources/svgl/motion.svg": "0b2923217471841d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/svgl/motion.svg",
+    "png": "sources/svgl/motion.png"
+   },
+   "aspect": 2.854,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "vertical",
    "form": "vertical",
@@ -28,21 +44,6 @@
      "file": "sources/devicons/framermotion-original.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-motion",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/motion.svg",
-    "png": "sources/svgl/motion.png"
-   },
-   "aspect": 2.8571,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

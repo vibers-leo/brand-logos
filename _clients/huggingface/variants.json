@@ -5,7 +5,9 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "793a1c8281fbd1c4",
-  "sources/gilbarbara/full.svg": "eb62a689309becfb"
+  "sources/gilbarbara/full.svg": "eb62a689309becfb",
+  "sources/lobe/huggingface-color.svg": "ee7a6561ce2b21f9",
+  "sources/lobe/huggingface-text.svg": "db5360a5a50bccc1"
  },
  "variants": [
   {
@@ -21,7 +23,13 @@
    "aspect": 1.103,
    "provider": "simpleicons/huggingface",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/huggingface-color.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -35,37 +43,13 @@
    "aspect": 4.523,
    "provider": "gilbarbara",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-huggingface-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/huggingface-color.svg",
-    "png": "sources/lobe/huggingface-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-huggingface-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/huggingface-text.svg",
-    "png": "sources/lobe/huggingface-text.png"
-   },
-   "aspect": 9.5238,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/huggingface-text.svg"
+    }
+   ]
   }
  ]
 }

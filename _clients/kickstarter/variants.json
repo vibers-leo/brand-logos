@@ -9,7 +9,8 @@
   "sources/iconify/kickstarter-icon.svg": "a0481188a67f9493",
   "sources/wvl/kickstarter-icon.svg": "64bedb0ba3e67837",
   "sources/wvl/kickstarter.svg": "567238d1d3382735",
-  "sources/kickstarter-icon.svg": "64bedb0ba3e67837"
+  "sources/kickstarter-icon.svg": "64bedb0ba3e67837",
+  "sources/supertiny/kickstarter.svg": "1d3de304748c5636"
  },
  "variants": [
   {
@@ -34,6 +35,10 @@
     {
      "provider": "merged",
      "file": "sources/kickstarter-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/kickstarter.svg"
     }
    ]
   },
@@ -61,21 +66,6 @@
      "file": "sources/wvl/kickstarter.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-kickstarter",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/kickstarter.svg",
-    "png": "sources/supertiny/kickstarter.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

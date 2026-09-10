@@ -4,7 +4,8 @@
  "id": "freecodecamp",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "1feff0573aed9ab6"
+  "logo.svg": "1feff0573aed9ab6",
+  "sources/supertiny/freecodecamp.svg": "faf8fd7a4a5d46e1"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.48,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-freecodecamp",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/freecodecamp.svg",
-    "png": "sources/supertiny/freecodecamp.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/freecodecamp.svg"
+    }
+   ]
   }
  ]
 }

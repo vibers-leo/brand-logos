@@ -7,7 +7,8 @@
   "logo.svg": "db6e17814c91c5cf",
   "sources/iconify/playwright.svg": "db6e17814c91c5cf",
   "sources/devicons/playwright-original.svg": "f6430a83fc9990d7",
-  "sources/wvl/playwright.svg": "1f192657337954c6"
+  "sources/wvl/playwright.svg": "1f192657337954c6",
+  "sources/svgl/playwright.svg": "c2fce58b8aabef4e"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/playwright-original.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/playwright.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-playwright",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/playwright.svg",
-    "png": "sources/svgl/playwright.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

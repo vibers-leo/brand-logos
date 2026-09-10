@@ -5,7 +5,8 @@
  "primary": "vertical",
  "fingerprint": {
   "logo.svg": "f483a090cbdb3c41",
-  "sources/devicons/kaggle-original.svg": "f483a090cbdb3c41"
+  "sources/devicons/kaggle-original.svg": "f483a090cbdb3c41",
+  "sources/supertiny/kaggle.svg": "1cbd659e8cfa025f"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/kaggle-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/kaggle.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-kaggle",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/kaggle.svg",
-    "png": "sources/supertiny/kaggle.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

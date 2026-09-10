@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "f4d33d495a7d0382",
   "sources/iconify/wire.svg": "f4d33d495a7d0382",
-  "sources/wvl/wire.svg": "6e2d53dfd8aaac88"
+  "sources/wvl/wire.svg": "6e2d53dfd8aaac88",
+  "sources/supertiny/wire.svg": "a6844a8c442f6155"
  },
  "variants": [
   {
@@ -35,19 +36,19 @@
    ]
   },
   {
-   "key": "supertiny-wire",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/wire.svg",
     "png": "sources/supertiny/wire.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.216,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

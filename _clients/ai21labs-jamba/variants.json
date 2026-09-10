@@ -4,7 +4,8 @@
  "id": "ai21labs-jamba",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "07addeea70e2f028"
+  "logo.svg": "07addeea70e2f028",
+  "sources/lobe/ai21-text.svg": "73fb7a021d293992"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-ai21-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/ai21-text.svg",
     "png": "sources/lobe/ai21-text.png"
    },
-   "aspect": 6.4516,
+   "aspect": 4.898,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

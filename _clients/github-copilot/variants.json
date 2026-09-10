@@ -7,7 +7,9 @@
   "logo.svg": "fc62d18d32a07556",
   "sources/iconify/github-copilot.svg": "fc62d18d32a07556",
   "sources/wvl/github-copilot.svg": "32478c13e5580b4b",
-  "sources/vlz/wide.svg": "d50f3f76fa263b15"
+  "sources/vlz/wide.svg": "d50f3f76fa263b15",
+  "sources/lobe/githubcopilot.svg": "3f7bce157e8bd02d",
+  "sources/lobe/githubcopilot-text.svg": "d7797cc02fb4cb70"
  },
  "variants": [
   {
@@ -22,7 +24,13 @@
    "aspect": 2.812,
    "provider": "vectorlogozone",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/githubcopilot.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -50,34 +58,19 @@
    ]
   },
   {
-   "key": "lobe-githubcopilot",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/githubcopilot.svg",
-    "png": "sources/lobe/githubcopilot.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-githubcopilot-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/githubcopilot-text.svg",
     "png": "sources/lobe/githubcopilot-text.png"
    },
-   "aspect": 9.6386,
+   "aspect": 7.06,
    "provider": "lobe",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

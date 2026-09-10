@@ -4,7 +4,8 @@
  "id": "lastpass",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "e2356bf333f89519"
+  "logo.svg": "e2356bf333f89519",
+  "sources/supertiny/lastpass.svg": "1b924a8d7306da79"
  },
  "variants": [
   {
@@ -21,21 +22,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
-  },
-  {
-   "key": "supertiny-lastpass",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/lastpass.svg",
-    "png": "sources/supertiny/lastpass.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

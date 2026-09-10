@@ -7,23 +7,30 @@
   "logo.svg": "6e2e940cdc22571f",
   "sources/iconify/ghost.svg": "6e2e940cdc22571f",
   "sources/devicons/ghost-original.svg": "40fe1da015440261",
-  "sources/wvl/ghost.svg": "74259f0331f30150"
+  "sources/wvl/ghost.svg": "74259f0331f30150",
+  "sources/supertiny/ghost.svg": "9b751c485b6c1c32"
  },
  "variants": [
   {
    "key": "symbol",
    "form": "symbol",
-   "lang": "en",
-   "color": "mono-dark",
+   "lang": "unknown",
+   "color": "color",
    "label": "심볼형",
    "files": {
-    "svg": "sources/devicons/ghost-original.svg",
-    "png": "sources/devicons/ghost-original.png"
+    "svg": "sources/supertiny/ghost.svg",
+    "png": "sources/supertiny/ghost.png"
    },
-   "aspect": 0.995,
-   "provider": "devicons",
+   "aspect": 1.015,
+   "provider": "supertiny",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "devicons",
+     "file": "sources/devicons/ghost-original.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -49,21 +56,6 @@
      "file": "sources/wvl/ghost.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-ghost",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ghost.svg",
-    "png": "sources/supertiny/ghost.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

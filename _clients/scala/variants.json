@@ -7,7 +7,8 @@
   "logo.svg": "30bcbd3a3fcd6ee7",
   "sources/iconify/scala.svg": "30bcbd3a3fcd6ee7",
   "sources/devicons/scala-original.svg": "a41f7327ce9490ec",
-  "sources/wvl/scala.svg": "b5cbbe29e60b0491"
+  "sources/wvl/scala.svg": "b5cbbe29e60b0491",
+  "sources/svgl/scala.svg": "c11c2eac5e5be55c"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/scala-original.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/scala.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-scala",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/scala.svg",
-    "png": "sources/svgl/scala.png"
-   },
-   "aspect": 0.6154,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

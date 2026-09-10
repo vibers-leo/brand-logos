@@ -8,7 +8,8 @@
   "sources/iconify/graphql.svg": "b87e493c476e0fdf",
   "sources/devicons/graphql-plain.svg": "ebd71e427e7a4334",
   "sources/wvl/graphql.svg": "a03ee0441ea0c8f4",
-  "sources/thesvg/wordmark.svg": "a921b2e7f46fb6f0"
+  "sources/thesvg/wordmark.svg": "a921b2e7f46fb6f0",
+  "sources/supertiny/graphql.svg": "d32472bc30beb20a"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/graphql-plain.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/graphql.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-graphql",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/graphql.svg",
-    "png": "sources/supertiny/graphql.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

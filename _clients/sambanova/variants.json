@@ -4,7 +4,8 @@
  "id": "sambanova",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a212fb48fa7fb60e"
+  "logo.svg": "a212fb48fa7fb60e",
+  "sources/lobe/sambanova-text.svg": "5313753e814efca7"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-sambanova-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/sambanova-text.svg",
     "png": "sources/lobe/sambanova-text.png"
    },
-   "aspect": 10.9589,
+   "aspect": 7.711,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

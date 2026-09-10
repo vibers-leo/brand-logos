@@ -7,7 +7,8 @@
   "logo.svg": "a0c2e296bf5e5064",
   "sources/iconify/duckduckgo.svg": "a0c2e296bf5e5064",
   "sources/wvl/duckduckgo.svg": "5ae4730f55c38763",
-  "sources/thesvg/wordmark.svg": "a3be333246fc34f4"
+  "sources/thesvg/wordmark.svg": "a3be333246fc34f4",
+  "sources/supertiny/duckduckgo.svg": "aac34e071b6d6818"
  },
  "variants": [
   {
@@ -32,6 +33,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/duckduckgo.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/duckduckgo.svg"
     }
    ]
   },
@@ -48,21 +53,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-duckduckgo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/duckduckgo.svg",
-    "png": "sources/supertiny/duckduckgo.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

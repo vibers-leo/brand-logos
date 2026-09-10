@@ -4,7 +4,8 @@
  "id": "keepassxc",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e8166e77a929728c"
+  "logo.svg": "e8166e77a929728c",
+  "sources/supertiny/keepassxc.svg": "4fe011e57d8b5c4b"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-keepassxc",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/keepassxc.svg",
-    "png": "sources/supertiny/keepassxc.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/keepassxc.svg"
+    }
+   ]
   }
  ]
 }

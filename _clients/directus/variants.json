@@ -4,7 +4,8 @@
  "id": "directus",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "d35ba6df6df306ed"
+  "logo.svg": "d35ba6df6df306ed",
+  "sources/svgl/directus.svg": "61a19e693fab51a0"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "svgl-directus",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/directus.svg",
     "png": "sources/svgl/directus.png"
    },
-   "aspect": 0.9963,
+   "aspect": 0.996,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

@@ -8,7 +8,8 @@
   "sources/iconify/vim.svg": "2da3370a095bd882",
   "sources/devicons/vim-original.svg": "2e03a1373ba99a93",
   "sources/wvl/vim.svg": "c036821d7394b3b5",
-  "sources/vlz/wide.svg": "e5a8b6b713ba44cb"
+  "sources/vlz/wide.svg": "e5a8b6b713ba44cb",
+  "sources/supertiny/vim.svg": "bf5fd421bfeb63a8"
  },
  "variants": [
   {
@@ -41,23 +42,12 @@
     {
      "provider": "vectorlogozone",
      "file": "sources/vlz/wide.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/vim.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-vim",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/vim.svg",
-    "png": "sources/supertiny/vim.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "c784c19e1b090b55",
-  "sources/devicons/leetcode-original.svg": "c784c19e1b090b55"
+  "sources/devicons/leetcode-original.svg": "c784c19e1b090b55",
+  "sources/supertiny/leetcode.svg": "535a0243f3aa119a"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/leetcode-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/leetcode.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-leetcode",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/leetcode.svg",
-    "png": "sources/supertiny/leetcode.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

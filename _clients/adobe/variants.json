@@ -9,7 +9,8 @@
   "sources/iconify/adobe-icon.svg": "62b7c284e28451ca",
   "sources/wvl/adobe-icon.svg": "cf54a94519650ef4",
   "sources/wvl/adobe.svg": "c2fbc334d77021e8",
-  "sources/adobe-icon.svg": "cf54a94519650ef4"
+  "sources/adobe-icon.svg": "cf54a94519650ef4",
+  "sources/supertiny/adobe.svg": "4ff03326a6f85690"
  },
  "variants": [
   {
@@ -34,6 +35,10 @@
     {
      "provider": "merged",
      "file": "sources/adobe-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/adobe.svg"
     }
    ]
   },
@@ -61,21 +66,6 @@
      "file": "sources/wvl/adobe.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-adobe",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/adobe.svg",
-    "png": "sources/supertiny/adobe.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

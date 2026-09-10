@@ -4,7 +4,8 @@
  "id": "googlescholar",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2e5dc1dbeaade0a5"
+  "logo.svg": "2e5dc1dbeaade0a5",
+  "sources/supertiny/google_scholar.svg": "20630ce6d292701e"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-google_scholar",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_scholar.svg",
-    "png": "sources/supertiny/google_scholar.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_scholar.svg"
+    }
+   ]
   }
  ]
 }

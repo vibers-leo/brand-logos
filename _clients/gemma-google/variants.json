@@ -4,7 +4,9 @@
  "id": "gemma-google",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "93b904052a779062"
+  "logo.svg": "93b904052a779062",
+  "sources/lobe/gemma-color.svg": "90444faf434d24f2",
+  "sources/lobe/gemma-text.svg": "354f79172d18503d"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.0,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/gemma-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-gemma-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/gemma-color.svg",
-    "png": "sources/lobe/gemma-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-gemma-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/gemma-text.svg",
     "png": "sources/lobe/gemma-text.png"
    },
-   "aspect": 6.4516,
+   "aspect": 4.481,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

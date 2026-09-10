@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "cc4c479f99640d8c",
-  "sources/vlz/wide.svg": "95b5c30671daefdd"
+  "sources/vlz/wide.svg": "95b5c30671daefdd",
+  "sources/supertiny/line.svg": "cb6a83152152a784"
  },
  "variants": [
   {
@@ -26,23 +27,12 @@
     {
      "provider": "vectorlogozone",
      "file": "sources/vlz/wide.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/line.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-line",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/line.svg",
-    "png": "sources/supertiny/line.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

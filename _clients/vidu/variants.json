@@ -4,9 +4,26 @@
  "id": "vidu",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "17275a8b1c497dd7"
+  "logo.svg": "17275a8b1c497dd7",
+  "sources/lobe/vidu-color.svg": "889018cae4933979",
+  "sources/lobe/vidu-text.svg": "27d6bf3b431a4573"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/vidu-text.svg",
+    "png": "sources/lobe/vidu-text.png"
+   },
+   "aspect": 2.676,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -20,37 +37,13 @@
    "aspect": 1.241,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "lobe-vidu-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/vidu-color.svg",
-    "png": "sources/lobe/vidu-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-vidu-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/vidu-text.svg",
-    "png": "sources/lobe/vidu-text.png"
-   },
-   "aspect": 3.9409,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/vidu-color.svg"
+    }
+   ]
   }
  ]
 }

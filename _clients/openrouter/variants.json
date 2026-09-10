@@ -4,9 +4,26 @@
  "id": "openrouter",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f8e76e16e12f8ee9"
+  "logo.svg": "f8e76e16e12f8ee9",
+  "sources/lobe/openrouter-color.svg": "f8be74d0ac645c61",
+  "sources/lobe/openrouter-text.svg": "c1f627fac8ed7639"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/openrouter-color.svg",
+    "png": "sources/lobe/openrouter-color.png"
+   },
+   "aspect": 1.415,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -23,34 +40,19 @@
    "order": 30
   },
   {
-   "key": "lobe-openrouter-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/openrouter-color.svg",
-    "png": "sources/lobe/openrouter-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-openrouter-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/openrouter-text.svg",
     "png": "sources/lobe/openrouter-text.png"
    },
-   "aspect": 7.4766,
+   "aspect": 5.264,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "odnoklassniki",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "8aafcd9391dc845c"
+  "logo.svg": "8aafcd9391dc845c",
+  "sources/supertiny/ok.svg": "02494dbf0c2c78f9"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 20
   },
   {
-   "key": "supertiny-ok",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/ok.svg",
     "png": "sources/supertiny/ok.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

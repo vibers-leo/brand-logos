@@ -4,7 +4,9 @@
  "id": "google-ai-studio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d6c8211e780584b4"
+  "logo.svg": "d6c8211e780584b4",
+  "sources/lobe/aistudio.svg": "481803b308a3dc12",
+  "sources/lobe/aistudio-text.svg": "b3dff6159e31f606"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 0.965,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/aistudio.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-aistudio",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/aistudio.svg",
-    "png": "sources/lobe/aistudio.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-aistudio-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/aistudio-text.svg",
     "png": "sources/lobe/aistudio-text.png"
    },
-   "aspect": 11.2676,
+   "aspect": 7.932,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

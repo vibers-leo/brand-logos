@@ -4,7 +4,8 @@
  "id": "sogo",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "4176aeba2e4bb41d"
+  "logo.svg": "4176aeba2e4bb41d",
+  "sources/supertiny/sogo.svg": "3779719bb9b460b9"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.828,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-sogo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/sogo.svg",
-    "png": "sources/supertiny/sogo.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/sogo.svg"
+    }
+   ]
   }
  ]
 }

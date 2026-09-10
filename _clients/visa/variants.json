@@ -4,9 +4,25 @@
  "id": "visa",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "b2f6016461022ff2"
+  "logo.svg": "b2f6016461022ff2",
+  "sources/supertiny/visa.svg": "c4bf7b230b409c4e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/visa.svg",
+    "png": "sources/supertiny/visa.png"
+   },
+   "aspect": 2.893,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-visa",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/visa.svg",
-    "png": "sources/supertiny/visa.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

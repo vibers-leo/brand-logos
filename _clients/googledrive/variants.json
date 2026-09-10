@@ -5,7 +5,9 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "7fd75464d65fb469",
-  "sources/vlz/wide.svg": "0d51e46e7ed215ac"
+  "sources/vlz/wide.svg": "0d51e46e7ed215ac",
+  "sources/supertiny/google_drive.svg": "a731e8b977b69710",
+  "sources/supertiny/google_drive_old.svg": "ea8fd4075727a301"
  },
  "variants": [
   {
@@ -35,37 +37,17 @@
    "aspect": 1.139,
    "provider": "simpleicons/googledrive",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-google_drive",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_drive.svg",
-    "png": "sources/supertiny/google_drive.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "supertiny-google_drive_old",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons (구형)",
-   "files": {
-    "svg": "sources/supertiny/google_drive_old.svg",
-    "png": "sources/supertiny/google_drive_old.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 103
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_drive.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_drive_old.svg"
+    }
+   ]
   }
  ]
 }

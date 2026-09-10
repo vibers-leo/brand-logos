@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "b257b864fe9534f2",
   "sources/github-icon.svg": "5cc94dbf35503674",
-  "sources/thesvg/wordmark.svg": "376fcf10fdcdc08f"
+  "sources/thesvg/wordmark.svg": "376fcf10fdcdc08f",
+  "sources/supertiny/github.svg": "8c247575ee7a338c"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "merged",
      "file": "sources/github-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/github.svg"
     }
    ]
   },
@@ -43,21 +48,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-github",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/github.svg",
-    "png": "sources/supertiny/github.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "tiger-woods",
- "primary": "apparel-tiger-woods",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "b5e761efc1e741b8",
+  "sources/apparel-collection/tiger-woods.svg": "b5e761efc1e741b8"
+ },
  "variants": [
   {
-   "key": "apparel-tiger-woods",
+   "key": "vertical",
    "form": "vertical",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · tiger-woods",
+   "color": "mono-dark",
+   "label": "세로조합형",
    "files": {
-    "svg": "sources/apparel-collection/tiger-woods.svg",
-    "png": "sources/apparel-collection/tiger-woods.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 0.5594,
+   "aspect": 0.54,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 20,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/tiger-woods.svg"
+    }
+   ]
   }
  ]
 }

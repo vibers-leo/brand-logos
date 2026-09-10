@@ -4,7 +4,8 @@
  "id": "dbrx-databricks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d4a0dcc16257aae1"
+  "logo.svg": "d4a0dcc16257aae1",
+  "sources/lobe/dbrx-text.svg": "bec941f7e21cfff4"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-dbrx-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/dbrx-text.svg",
     "png": "sources/lobe/dbrx-text.png"
    },
-   "aspect": 6.015,
+   "aspect": 4.571,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

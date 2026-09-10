@@ -2,67 +2,60 @@
  "schema": 1,
  "algo_v": 1,
  "id": "manus",
- "primary": "lobe-manus-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "95f6cf3ad943637e",
+  "sources/lobe/manus.svg": "dc962bc9a418b474",
+  "sources/lobe/manus-text.svg": "95f6cf3ad943637e",
+  "sources/svgl/manus.svg": "61a13add3ad47182",
+  "sources/svgl/manus-wordmark.svg": "1a7a3806b3985a68"
+ },
  "variants": [
   {
-   "key": "lobe-manus",
-   "form": "symbol",
+   "key": "vertical",
+   "form": "vertical",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "세로조합형",
    "files": {
     "svg": "sources/lobe/manus.svg",
     "png": "sources/lobe/manus.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.779,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/manus.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-manus-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/manus-text.svg",
-    "png": "sources/lobe/manus-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 8.1633,
+   "aspect": 6.269,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-manus",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/manus.svg",
-    "png": "sources/svgl/manus.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-manus-wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
-   "files": {
-    "svg": "sources/svgl/manus-wordmark.svg",
-    "png": "sources/svgl/manus-wordmark.png"
-   },
-   "aspect": 3.4483,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/manus-text.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/manus-wordmark.svg"
+    }
+   ]
   }
  ]
 }

@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "0e37f304e508cb41",
-  "sources/gilbarbara/full.svg": "e4684c625f46012a"
+  "sources/gilbarbara/full.svg": "e4684c625f46012a",
+  "sources/supertiny/semantic_web.svg": "f866bfb59fac700e"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 0.87,
    "provider": "simpleicons/semanticweb",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/semantic_web.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "gilbarbara",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-semantic_web",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/semantic_web.svg",
-    "png": "sources/supertiny/semantic_web.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

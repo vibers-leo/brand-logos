@@ -7,7 +7,8 @@
   "logo.svg": "fd196109c6083d8e",
   "sources/iconify/netbeans.svg": "fd196109c6083d8e",
   "sources/devicons/netbeans-original.svg": "dbc559135271b419",
-  "sources/wvl/netbeans.svg": "f95ddf0f9c8d3165"
+  "sources/wvl/netbeans.svg": "f95ddf0f9c8d3165",
+  "sources/supertiny/netbeans.svg": "62188e7c85206831"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/netbeans-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/netbeans.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-netbeans",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/netbeans.svg",
-    "png": "sources/supertiny/netbeans.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

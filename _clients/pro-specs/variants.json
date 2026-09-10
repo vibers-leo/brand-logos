@@ -4,7 +4,9 @@
  "id": "pro-specs",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "fd890c2644a7ecf2"
+  "logo.svg": "fd890c2644a7ecf2",
+  "sources/apparel-collection/pro-specs-color.svg": "efe3012bfda826a8",
+  "sources/apparel-collection/pro-specs-black.svg": "f88d6d86fdfb9173"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 2.647,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/pro-specs-black.svg"
+    }
+   ]
   },
   {
-   "key": "apparel-pro-specs-color",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · pro-specs-color",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/apparel-collection/pro-specs-color.svg",
     "png": "sources/apparel-collection/pro-specs-color.png"
    },
-   "aspect": 3.0303,
+   "aspect": 3.177,
    "provider": "apparel",
    "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "apparel-pro-specs-black",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · pro-specs-black",
-   "files": {
-    "svg": "sources/apparel-collection/pro-specs-black.svg",
-    "png": "sources/apparel-collection/pro-specs-black.png"
-   },
-   "aspect": 1.4519,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

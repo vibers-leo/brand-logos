@@ -4,7 +4,8 @@
  "id": "foobar2000",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "444f79925edd1eb9"
+  "logo.svg": "444f79925edd1eb9",
+  "sources/supertiny/foobar2000.svg": "bb114cb263237413"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 20
   },
   {
-   "key": "supertiny-foobar2000",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/foobar2000.svg",
     "png": "sources/supertiny/foobar2000.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

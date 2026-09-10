@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "4a9ac8b1f8786b0d",
   "sources/iconify/rubygems.svg": "4a9ac8b1f8786b0d",
-  "sources/wvl/rubygems.svg": "cf6bbf7d14949772"
+  "sources/wvl/rubygems.svg": "cf6bbf7d14949772",
+  "sources/supertiny/rubygems.svg": "fd7f9222ea583b28"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/rubygems.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/rubygems.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-rubygems",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/rubygems.svg",
-    "png": "sources/supertiny/rubygems.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "dify",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "4554fbc144febd1c"
+  "logo.svg": "4554fbc144febd1c",
+  "sources/lobe/dify-color.svg": "bfa5798f4aac10e3",
+  "sources/lobe/dify-text.svg": "058f03a92510010e"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 2.25,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/dify-text.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-dify-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/dify-color.svg",
     "png": "sources/lobe/dify-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 1.152,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-dify-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/dify-text.svg",
-    "png": "sources/lobe/dify-text.png"
-   },
-   "aspect": 3.3058,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 30
   }
  ]
 }

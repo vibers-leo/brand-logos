@@ -4,7 +4,8 @@
  "id": "viggle",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "17b21cf02002bb2a"
+  "logo.svg": "17b21cf02002bb2a",
+  "sources/lobe/viggle-text.svg": "3e71b327727ea0f6"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-viggle-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/viggle-text.svg",
     "png": "sources/lobe/viggle-text.png"
    },
-   "aspect": 8.1633,
+   "aspect": 6.247,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

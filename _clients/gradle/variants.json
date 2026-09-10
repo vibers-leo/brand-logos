@@ -7,7 +7,8 @@
   "logo.svg": "411896b8191cdc56",
   "sources/iconify/gradle.svg": "411896b8191cdc56",
   "sources/devicons/gradle-original.svg": "98db4401fe9af4a9",
-  "sources/wvl/gradle.svg": "07c87d482bfdee09"
+  "sources/wvl/gradle.svg": "07c87d482bfdee09",
+  "sources/supertiny/gradle.svg": "104c29c6b841999c"
  },
  "variants": [
   {
@@ -38,21 +39,6 @@
      "file": "sources/devicons/gradle-original.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-gradle",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/gradle.svg",
-    "png": "sources/supertiny/gradle.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "together-ai",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "2649767a73c7576a"
+  "logo.svg": "2649767a73c7576a",
+  "sources/svgl/togetherai_light.svg": "c1a9166a1a906723"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 4.705,
    "provider": "logo.dev",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "svgl-togetherai_light",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/togetherai_light.svg",
-    "png": "sources/svgl/togetherai_light.png"
-   },
-   "aspect": 4.3243,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/togetherai_light.svg"
+    }
+   ]
   }
  ]
 }

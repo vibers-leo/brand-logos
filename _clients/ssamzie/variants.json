@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "ssamzie",
- "primary": "apparel-ssamzie",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "5eb263a0294ea655",
+  "sources/apparel-collection/ssamzie.svg": "5eb263a0294ea655"
+ },
  "variants": [
   {
-   "key": "apparel-ssamzie",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · ssamzie",
+   "color": "mono-dark",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/ssamzie.svg",
-    "png": "sources/apparel-collection/ssamzie.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.444,
+   "aspect": 1.464,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/ssamzie.svg"
+    }
+   ]
   }
  ]
 }

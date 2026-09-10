@@ -4,7 +4,8 @@
  "id": "google-podcasts",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "dde78e8dd7ab79fb"
+  "logo.svg": "dde78e8dd7ab79fb",
+  "sources/supertiny/google_podcasts.svg": "d863fdecad0f2832"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-google_podcasts",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_podcasts.svg",
-    "png": "sources/supertiny/google_podcasts.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_podcasts.svg"
+    }
+   ]
   }
  ]
 }

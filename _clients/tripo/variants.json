@@ -4,7 +4,8 @@
  "id": "tripo",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f9dde9e02a0f2c69"
+  "logo.svg": "f9dde9e02a0f2c69",
+  "sources/lobe/tripo-text.svg": "f77d237096e31bed"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-tripo-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/tripo-text.svg",
     "png": "sources/lobe/tripo-text.png"
    },
-   "aspect": 7.4074,
+   "aspect": 5.752,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -8,7 +8,8 @@
   "sources/fa.svg": "f50d818379cda922",
   "sources/iconify/behance.svg": "51cca9065a959407",
   "sources/devicons/behance-original.svg": "2e43d08eb5329c09",
-  "sources/wvl/behance.svg": "01235fcfa1008569"
+  "sources/wvl/behance.svg": "01235fcfa1008569",
+  "sources/supertiny/behance.svg": "d4e3299662df8ff8"
  },
  "variants": [
   {
@@ -45,7 +46,13 @@
    "aspect": 1.0,
    "provider": "devicons",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/behance.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -67,21 +74,6 @@
      "file": "sources/wvl/behance.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-behance",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/behance.svg",
-    "png": "sources/supertiny/behance.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

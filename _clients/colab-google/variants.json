@@ -4,7 +4,8 @@
  "id": "colab-google",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "35ce161c3f94e49e"
+  "logo.svg": "35ce161c3f94e49e",
+  "sources/lobe/colab-text.svg": "4dd134f43a0af7da"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-colab-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/colab-text.svg",
     "png": "sources/lobe/colab-text.png"
    },
-   "aspect": 8.4211,
+   "aspect": 5.889,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

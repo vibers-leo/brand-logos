@@ -7,7 +7,8 @@
   "logo.svg": "2554202904643a2a",
   "sources/iconify/sqlite.svg": "2554202904643a2a",
   "sources/devicons/sqlite-original.svg": "b62014206b791234",
-  "sources/wvl/sqlite.svg": "804ca06938b695ac"
+  "sources/wvl/sqlite.svg": "804ca06938b695ac",
+  "sources/supertiny/sqlite.svg": "461675ef6ed29854"
  },
  "variants": [
   {
@@ -48,22 +49,13 @@
    "aspect": 0.894,
    "provider": "devicons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-sqlite",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/sqlite.svg",
-    "png": "sources/supertiny/sqlite.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/sqlite.svg"
+    }
+   ]
   }
  ]
 }

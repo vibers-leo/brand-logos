@@ -9,9 +9,25 @@
   "sources/iconify/medium-icon.svg": "696242844336a884",
   "sources/wvl/medium-icon.svg": "18d011b32a255b01",
   "sources/wvl/medium.svg": "913a6b8d2b85f8bb",
-  "sources/medium-icon.svg": "18d011b32a255b01"
+  "sources/medium-icon.svg": "18d011b32a255b01",
+  "sources/supertiny/medium.svg": "83c9fbf29ee5fecc"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/supertiny/medium.svg",
+    "png": "sources/supertiny/medium.png"
+   },
+   "aspect": 1.76,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -61,21 +77,6 @@
      "file": "sources/wvl/medium.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-medium",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/medium.svg",
-    "png": "sources/supertiny/medium.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "nebius",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a558dae954beb010"
+  "logo.svg": "a558dae954beb010",
+  "sources/lobe/nebius-text.svg": "8bfd0a43c4375f7c"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-nebius-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/nebius-text.svg",
     "png": "sources/lobe/nebius-text.png"
    },
-   "aspect": 8.6022,
+   "aspect": 6.573,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "typegpu",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "06d38b9c040059ff"
+  "logo.svg": "06d38b9c040059ff",
+  "sources/svgl/typegpu-light.svg": "e57d81e28f497be4",
+  "sources/svgl/typegpu-wordmark-light.svg": "d76f713ffccf8978"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 0.774,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 20
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/typegpu-light.svg"
+    }
+   ]
   },
   {
-   "key": "svgl-typegpu-light",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/typegpu-light.svg",
-    "png": "sources/svgl/typegpu-light.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-typegpu-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/typegpu-wordmark-light.svg",
     "png": "sources/svgl/typegpu-wordmark-light.png"
    },
-   "aspect": 3.3755,
+   "aspect": 3.815,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

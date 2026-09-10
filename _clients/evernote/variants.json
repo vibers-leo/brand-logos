@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "663f6f08096b70b1",
-  "sources/vlz/wide.svg": "6e1cdcc987d4cb0e"
+  "sources/vlz/wide.svg": "6e1cdcc987d4cb0e",
+  "sources/supertiny/evernote.svg": "51c4e97e00f9a7b3"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 0.849,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/evernote.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-evernote",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/evernote.svg",
-    "png": "sources/supertiny/evernote.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

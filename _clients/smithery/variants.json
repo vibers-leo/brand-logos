@@ -4,7 +4,8 @@
  "id": "smithery",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "8623ee9f8755a283"
+  "logo.svg": "8623ee9f8755a283",
+  "sources/lobe/smithery-text.svg": "b65d6ed5b3392cae"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-smithery-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/smithery-text.svg",
     "png": "sources/lobe/smithery-text.png"
    },
-   "aspect": 6.8376,
+   "aspect": 4.983,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

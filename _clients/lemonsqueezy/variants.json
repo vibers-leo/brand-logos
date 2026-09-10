@@ -4,7 +4,8 @@
  "id": "lemonsqueezy",
  "primary": "vertical",
  "fingerprint": {
-  "logo.svg": "c1a135e018b86951"
+  "logo.svg": "c1a135e018b86951",
+  "sources/svgl/lemonsqueezy.svg": "37634362a640aa42"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.733,
    "provider": "unknown",
    "origin": "collected",
-   "order": 20
-  },
-  {
-   "key": "svgl-lemonsqueezy",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/lemonsqueezy.svg",
-    "png": "sources/svgl/lemonsqueezy.png"
-   },
-   "aspect": 0.7498,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 20,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/lemonsqueezy.svg"
+    }
+   ]
   }
  ]
 }

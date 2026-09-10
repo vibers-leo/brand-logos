@@ -4,7 +4,8 @@
  "id": "xmpp",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "5a88c31e3aa7d115"
+  "logo.svg": "5a88c31e3aa7d115",
+  "sources/supertiny/xmpp.svg": "1a8c026a14e47362"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.374,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-xmpp",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/xmpp.svg",
-    "png": "sources/supertiny/xmpp.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/xmpp.svg"
+    }
+   ]
   }
  ]
 }

@@ -8,7 +8,8 @@
   "sources/iconify/json.svg": "d7e1145b2c9824be",
   "sources/devicons/json-original.svg": "0f8e1316d9b9c995",
   "sources/wvl/json.svg": "74bd08bb0af3061c",
-  "sources/vlz/wide.svg": "a2f51830ce92c556"
+  "sources/vlz/wide.svg": "a2f51830ce92c556",
+  "sources/supertiny/json.svg": "61b487dcef90a0fd"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/json-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/json.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-json",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/json.svg",
-    "png": "sources/supertiny/json.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

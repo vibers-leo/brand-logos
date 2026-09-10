@@ -4,7 +4,8 @@
  "id": "grapheneos",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a30c4d610a0b4329"
+  "logo.svg": "a30c4d610a0b4329",
+  "sources/supertiny/grapheneos.svg": "53b89b2c3b7397de"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.878,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-grapheneos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/grapheneos.svg",
-    "png": "sources/supertiny/grapheneos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/grapheneos.svg"
+    }
+   ]
   }
  ]
 }

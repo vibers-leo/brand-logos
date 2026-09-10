@@ -4,7 +4,9 @@
  "id": "ralphlauren",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "5ea7d785a98b2c62"
+  "logo.svg": "5ea7d785a98b2c62",
+  "sources/apparel-collection/polo-ralph-lauren.svg": "05d2a9a648d1ecd0",
+  "sources/apparel-collection/ralph-lauren.svg": "1b6e71130cbd8190"
  },
  "variants": [
   {
@@ -23,34 +25,25 @@
    "order": 10
   },
   {
-   "key": "apparel-polo-ralph-lauren",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · polo-ralph-lauren",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/apparel-collection/polo-ralph-lauren.svg",
     "png": "sources/apparel-collection/polo-ralph-lauren.png"
    },
-   "aspect": 4.8485,
+   "aspect": 5.281,
    "provider": "apparel",
    "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "apparel-ralph-lauren",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · ralph-lauren",
-   "files": {
-    "svg": "sources/apparel-collection/ralph-lauren.svg",
-    "png": "sources/apparel-collection/ralph-lauren.png"
-   },
-   "aspect": 3.0303,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 102
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/ralph-lauren.svg"
+    }
+   ]
   }
  ]
 }

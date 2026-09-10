@@ -9,9 +9,25 @@
   "sources/iconify/posthog-icon.svg": "79d741150c37baf4",
   "sources/wvl/posthog-icon.svg": "c893c186033f3364",
   "sources/wvl/posthog.svg": "0b362ee633466f5f",
-  "sources/posthog-icon.svg": "c893c186033f3364"
+  "sources/posthog-icon.svg": "c893c186033f3364",
+  "sources/svgl/posthog.svg": "f31e064bc965b4a7"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/svgl/posthog.svg",
+    "png": "sources/svgl/posthog.png"
+   },
+   "aspect": 1.804,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -61,21 +77,6 @@
      "file": "sources/wvl/posthog.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-posthog",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/posthog.svg",
-    "png": "sources/svgl/posthog.png"
-   },
-   "aspect": 1.6667,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

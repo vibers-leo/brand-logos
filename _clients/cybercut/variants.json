@@ -2,27 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "cybercut",
- "primary": "original",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "d60b7417fc3285c9",
+  "sources/lobe/cybercut.svg": "62faa6b4aa1a5f2e",
+  "sources/lobe/cybercut-text.svg": "a7de27d5139fe8b8"
+ },
  "variants": [
   {
-   "key": "original",
-   "form": "unknown",
-   "lang": "unknown",
-   "color": "color",
-   "label": "기존 로고",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo.png"
-   },
-   "origin": "collected",
-   "order": 0
-  },
-  {
-   "key": "lobe-cybercut",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/cybercut.svg",
     "png": "sources/lobe/cybercut.png"
@@ -30,22 +22,22 @@
    "aspect": 1.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 30
   },
   {
-   "key": "lobe-cybercut-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/cybercut-text.svg",
     "png": "sources/lobe/cybercut-text.png"
    },
-   "aspect": 6.6116,
+   "aspect": 4.257,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

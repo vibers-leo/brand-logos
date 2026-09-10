@@ -4,7 +4,8 @@
  "id": "overleaf",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "108ec9b3f6bd092f"
+  "logo.svg": "108ec9b3f6bd092f",
+  "sources/supertiny/overleaf.svg": "1f6c0cff6f17306b"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.863,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-overleaf",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/overleaf.svg",
-    "png": "sources/supertiny/overleaf.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/overleaf.svg"
+    }
+   ]
   }
  ]
 }

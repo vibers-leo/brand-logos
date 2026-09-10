@@ -4,7 +4,8 @@
  "id": "unified-payments-interface",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "5e7a2adb82197669"
+  "logo.svg": "5e7a2adb82197669",
+  "sources/supertiny/upi.svg": "b9b5b662b1280f99"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "supertiny-upi",
-   "form": "symbol",
+   "key": "vertical",
+   "form": "vertical",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "세로조합형",
    "files": {
     "svg": "sources/supertiny/upi.svg",
     "png": "sources/supertiny/upi.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.731,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 20
   }
  ]
 }

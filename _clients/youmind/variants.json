@@ -4,7 +4,8 @@
  "id": "youmind",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "050a8e9842f78410"
+  "logo.svg": "050a8e9842f78410",
+  "sources/lobe/youmind-text.svg": "420db810ad296f2e"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-youmind-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/youmind-text.svg",
     "png": "sources/lobe/youmind-text.png"
    },
-   "aspect": 8.0808,
+   "aspect": 5.66,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

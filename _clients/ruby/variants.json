@@ -7,7 +7,8 @@
   "logo.svg": "a32295af294a0e31",
   "sources/iconify/ruby.svg": "a32295af294a0e31",
   "sources/devicons/ruby-original.svg": "806903cdbe793f12",
-  "sources/wvl/ruby.svg": "ebd35347e238c6b8"
+  "sources/wvl/ruby.svg": "ebd35347e238c6b8",
+  "sources/supertiny/ruby.svg": "47c7cf12e64c45d1"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/ruby-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/ruby.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-ruby",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/ruby.svg",
-    "png": "sources/supertiny/ruby.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

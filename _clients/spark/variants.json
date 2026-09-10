@@ -7,7 +7,9 @@
   "logo.svg": "44465970efe8ba89",
   "sources/iconify/spark.svg": "44465970efe8ba89",
   "sources/wvl/spark.svg": "486edfa2cb7d0ed5",
-  "sources/commons-wm/wordmark.svg": "185ebce4986ab88c"
+  "sources/commons-wm/wordmark.svg": "185ebce4986ab88c",
+  "sources/lobe/spark-color.svg": "a191088bf7de5b5a",
+  "sources/lobe/spark-text.svg": "25d9c4bcc42c6f5c"
  },
  "variants": [
   {
@@ -32,6 +34,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/spark.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/spark-color.svg"
     }
    ]
   },
@@ -47,37 +53,13 @@
    "aspect": 3.574,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-spark-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/spark-color.svg",
-    "png": "sources/lobe/spark-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-spark-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/spark-text.svg",
-    "png": "sources/lobe/spark-text.png"
-   },
-   "aspect": 5.7971,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/spark-text.svg"
+    }
+   ]
   }
  ]
 }

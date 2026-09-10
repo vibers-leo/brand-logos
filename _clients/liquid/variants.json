@@ -4,9 +4,25 @@
  "id": "liquid",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fa27cff9b687ff2c"
+  "logo.svg": "fa27cff9b687ff2c",
+  "sources/lobe/liquid-text.svg": "3ec7afdbaee80df7"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/liquid-text.svg",
+    "png": "sources/lobe/liquid-text.png"
+   },
+   "aspect": 2.581,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-liquid-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/liquid-text.svg",
-    "png": "sources/lobe/liquid-text.png"
-   },
-   "aspect": 3.8095,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

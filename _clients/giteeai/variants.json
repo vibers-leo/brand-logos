@@ -4,7 +4,8 @@
  "id": "giteeai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9ebdbac125a29f42"
+  "logo.svg": "9ebdbac125a29f42",
+  "sources/lobe/giteeai-text.svg": "849a2c60b7497704"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-giteeai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/giteeai-text.svg",
     "png": "sources/lobe/giteeai-text.png"
    },
-   "aspect": 5.0,
+   "aspect": 3.156,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

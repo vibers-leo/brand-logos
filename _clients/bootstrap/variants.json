@@ -8,7 +8,8 @@
   "sources/fa.svg": "4ec658961db851e0",
   "sources/iconify/bootstrap.svg": "d71761119bb4614f",
   "sources/devicons/bootstrap-original.svg": "44805a0f01d369a7",
-  "sources/wvl/bootstrap.svg": "fb3918b90ce2e31b"
+  "sources/wvl/bootstrap.svg": "fb3918b90ce2e31b",
+  "sources/svgl/bootstrap.svg": "6daf24a4e42ffb4b"
  },
  "variants": [
   {
@@ -39,25 +40,14 @@
      "file": "sources/devicons/bootstrap-original.svg"
     },
     {
+     "provider": "svgl",
+     "file": "sources/svgl/bootstrap.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-bootstrap",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/bootstrap.svg",
-    "png": "sources/svgl/bootstrap.png"
-   },
-   "aspect": 1.2539,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "parasail",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "646af0f1e9edc7f3"
+  "logo.svg": "646af0f1e9edc7f3",
+  "sources/lobe/parasail-text.svg": "8b1c8e03abbc61e0"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-parasail-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/parasail-text.svg",
     "png": "sources/lobe/parasail-text.png"
    },
-   "aspect": 7.8431,
+   "aspect": 5.061,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

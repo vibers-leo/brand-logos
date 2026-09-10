@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "fca4431296d95538",
   "sources/iconify/angellist.svg": "fca4431296d95538",
-  "sources/wvl/angellist.svg": "926dc0fe00ada14a"
+  "sources/wvl/angellist.svg": "926dc0fe00ada14a",
+  "sources/supertiny/angellist.svg": "a3939cf8eb4d2ba3"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/angellist.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/angellist.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-angellist",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/angellist.svg",
-    "png": "sources/supertiny/angellist.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "openchat",
- "primary": "lobe-openchat-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "0ad0e4989f2e1390",
+  "sources/lobe/openchat-color.svg": "4adef01f992f2b9e",
+  "sources/lobe/openchat-text.svg": "0ad0e4989f2e1390"
+ },
  "variants": [
   {
-   "key": "lobe-openchat-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/openchat-color.svg",
     "png": "sources/lobe/openchat-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.918,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-openchat-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/openchat-text.svg",
-    "png": "sources/lobe/openchat-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 9.0909,
+   "aspect": 7.036,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/openchat-text.svg"
+    }
+   ]
   }
  ]
 }

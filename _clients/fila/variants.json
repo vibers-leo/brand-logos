@@ -4,9 +4,25 @@
  "id": "fila",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "5d058d51a181c51a"
+  "logo.svg": "5d058d51a181c51a",
+  "sources/apparel-collection/fila.svg": "910611085eb5e2ff"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/apparel-collection/fila.svg",
+    "png": "sources/apparel-collection/fila.png"
+   },
+   "aspect": 2.137,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "apparel-fila",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · fila",
-   "files": {
-    "svg": "sources/apparel-collection/fila.svg",
-    "png": "sources/apparel-collection/fila.png"
-   },
-   "aspect": 2.0725,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

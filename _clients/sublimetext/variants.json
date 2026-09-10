@@ -9,7 +9,8 @@
   "sources/iconify/sublimetext-icon.svg": "53e7f7d5a7c934f5",
   "sources/wvl/sublimetext-icon.svg": "1f6f738fdfc55658",
   "sources/wvl/sublimetext.svg": "57e0c799ddea86bc",
-  "sources/sublimetext-icon.svg": "1f6f738fdfc55658"
+  "sources/sublimetext-icon.svg": "1f6f738fdfc55658",
+  "sources/supertiny/sublimetext.svg": "9ce2b974a91e2b61"
  },
  "variants": [
   {
@@ -61,21 +62,6 @@
      "file": "sources/wvl/sublimetext.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-sublimetext",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/sublimetext.svg",
-    "png": "sources/supertiny/sublimetext.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

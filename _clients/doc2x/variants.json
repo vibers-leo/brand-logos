@@ -4,7 +4,8 @@
  "id": "doc2x",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1453b6629f03fe08"
+  "logo.svg": "1453b6629f03fe08",
+  "sources/lobe/doc2x-text.svg": "2b560254bbb78ebf"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-doc2x-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/doc2x-text.svg",
     "png": "sources/lobe/doc2x-text.png"
    },
-   "aspect": 5.298,
+   "aspect": 4.021,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

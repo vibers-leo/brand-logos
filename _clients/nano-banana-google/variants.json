@@ -4,7 +4,8 @@
  "id": "nano-banana-google",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9731d8da2a5fd56b"
+  "logo.svg": "9731d8da2a5fd56b",
+  "sources/lobe/nanobanana-text.svg": "9b7193c4d7bc3b68"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-nanobanana-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/nanobanana-text.svg",
     "png": "sources/lobe/nanobanana-text.png"
    },
-   "aspect": 10.5263,
+   "aspect": 8.153,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,26 @@
  "id": "sora-openai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f1d1d7a3f092c51f"
+  "logo.svg": "f1d1d7a3f092c51f",
+  "sources/lobe/sora-color.svg": "86fecc5278b4b6a3",
+  "sources/lobe/sora-text.svg": "825a4a89c7b632bd"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/sora-text.svg",
+    "png": "sources/lobe/sora-text.png"
+   },
+   "aspect": 2.838,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -20,37 +37,13 @@
    "aspect": 1.0,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "lobe-sora-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/sora-color.svg",
-    "png": "sources/lobe/sora-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-sora-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/sora-text.svg",
-    "png": "sources/lobe/sora-text.png"
-   },
-   "aspect": 3.8095,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/sora-color.svg"
+    }
+   ]
   }
  ]
 }

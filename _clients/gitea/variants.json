@@ -4,7 +4,8 @@
  "id": "gitea",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "d768392aa2847dcd"
+  "logo.svg": "d768392aa2847dcd",
+  "sources/supertiny/gitea.svg": "b4826bab45c922f4"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.619,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-gitea",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/gitea.svg",
-    "png": "sources/supertiny/gitea.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/gitea.svg"
+    }
+   ]
   }
  ]
 }

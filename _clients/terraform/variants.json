@@ -10,7 +10,8 @@
   "sources/devicons/terraform-original.svg": "4c1fc83fcc323077",
   "sources/wvl/terraform-icon.svg": "760b077eda805643",
   "sources/wvl/terraform.svg": "86336db741b7c778",
-  "sources/terraform-icon.svg": "760b077eda805643"
+  "sources/terraform-icon.svg": "760b077eda805643",
+  "sources/supertiny/terraform.svg": "b4a5f049a4ef02cf"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/terraform-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/terraform.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/terraform.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-terraform",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/terraform.svg",
-    "png": "sources/supertiny/terraform.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

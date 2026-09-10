@@ -7,7 +7,8 @@
   "logo.svg": "ae50d9752666530b",
   "sources/iconify/java.svg": "ae50d9752666530b",
   "sources/devicons/java-original.svg": "3e56a0e7a60bacab",
-  "sources/wvl/java.svg": "ad79d4a5ce7ceca4"
+  "sources/wvl/java.svg": "ad79d4a5ce7ceca4",
+  "sources/supertiny/java.svg": "13f6f93131dbc139"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/java-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/java.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-java",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/java.svg",
-    "png": "sources/supertiny/java.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

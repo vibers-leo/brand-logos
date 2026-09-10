@@ -7,7 +7,8 @@
   "logo.svg": "e6a8e9394d542850",
   "sources/iconify/yaml.svg": "e6a8e9394d542850",
   "sources/devicons/yaml-original.svg": "35266a1757fac1c3",
-  "sources/wvl/yaml.svg": "e5ccc1444b28ccbe"
+  "sources/wvl/yaml.svg": "e5ccc1444b28ccbe",
+  "sources/supertiny/yaml.svg": "1ec55b0773d71ccc"
  },
  "variants": [
   {
@@ -48,22 +49,13 @@
    "aspect": 1.088,
    "provider": "devicons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-yaml",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/yaml.svg",
-    "png": "sources/supertiny/yaml.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/yaml.svg"
+    }
+   ]
   }
  ]
 }

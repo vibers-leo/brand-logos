@@ -8,7 +8,8 @@
   "sources/fa.svg": "027ec57cbafc24d4",
   "sources/iconify/safari.svg": "d5e4af53d84482ac",
   "sources/devicons/safari-original.svg": "ec9dd8fe6bd5ec14",
-  "sources/wvl/safari.svg": "2fb6ccd4698be673"
+  "sources/wvl/safari.svg": "2fb6ccd4698be673",
+  "sources/supertiny/safari.svg": "f1368fb0a8cb8dac"
  },
  "variants": [
   {
@@ -39,25 +40,14 @@
      "file": "sources/devicons/safari-original.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/safari.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-safari",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/safari.svg",
-    "png": "sources/supertiny/safari.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

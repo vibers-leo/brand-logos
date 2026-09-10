@@ -10,7 +10,8 @@
   "sources/iconify/slack-icon.svg": "158b716f049121ee",
   "sources/devicons/slack-original.svg": "aa64827a5a4ae81f",
   "sources/wvl/slack-icon.svg": "9d28ec39296339aa",
-  "sources/wvl/slack.svg": "c7033d231e4a1b86"
+  "sources/wvl/slack.svg": "c7033d231e4a1b86",
+  "sources/supertiny/slack.svg": "7c15aaccd8dd4f83"
  },
  "variants": [
   {
@@ -35,6 +36,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/slack-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/slack.svg"
     },
     {
      "provider": "font-awesome",
@@ -66,21 +71,6 @@
      "file": "sources/wvl/slack.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-slack",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/slack.svg",
-    "png": "sources/supertiny/slack.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

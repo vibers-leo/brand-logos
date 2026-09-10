@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "57b1dc2e802a1d86",
   "sources/fa.svg": "57b1dc2e802a1d86",
-  "sources/vlz/wide.svg": "d3de4443d4fd7006"
+  "sources/vlz/wide.svg": "d3de4443d4fd7006",
+  "sources/supertiny/edge.svg": "0d6764dbe56b2017"
  },
  "variants": [
   {
@@ -39,25 +40,14 @@
    "order": 30,
    "alts": [
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/edge.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-edge",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/edge.svg",
-    "png": "sources/supertiny/edge.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

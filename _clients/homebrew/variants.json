@@ -7,7 +7,8 @@
   "logo.svg": "c7d65af0e903e32a",
   "sources/iconify/homebrew.svg": "c7d65af0e903e32a",
   "sources/devicons/homebrew-original.svg": "6784d82f140d13a1",
-  "sources/wvl/homebrew.svg": "a5dd3eb39f96234d"
+  "sources/wvl/homebrew.svg": "a5dd3eb39f96234d",
+  "sources/svgl/homebrew.svg": "c49cf351c7dbbd63"
  },
  "variants": [
   {
@@ -36,23 +37,12 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/homebrew-original.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/homebrew.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-homebrew",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/homebrew.svg",
-    "png": "sources/svgl/homebrew.png"
-   },
-   "aspect": 0.6405,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

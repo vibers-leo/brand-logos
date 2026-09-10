@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "54962efac37c68af",
   "sources/iconify/discord-icon.svg": "646260cd6f30defc",
-  "sources/discord-icon.svg": "37d363a8df8772cd"
+  "sources/discord-icon.svg": "37d363a8df8772cd",
+  "sources/supertiny/discord.svg": "51f2472149ff912d"
  },
  "variants": [
   {
@@ -22,7 +23,13 @@
    "aspect": 1.312,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/discord.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -44,21 +51,6 @@
      "file": "sources/discord-icon.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-discord",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/discord.svg",
-    "png": "sources/supertiny/discord.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

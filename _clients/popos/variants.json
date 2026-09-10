@@ -4,7 +4,8 @@
  "id": "popos",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1af7aa228494e176"
+  "logo.svg": "1af7aa228494e176",
+  "sources/supertiny/popos.svg": "fd9a61942ca556ce"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-popos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/popos.svg",
-    "png": "sources/supertiny/popos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/popos.svg"
+    }
+   ]
   }
  ]
 }

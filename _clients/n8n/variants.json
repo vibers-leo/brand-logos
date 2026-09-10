@@ -4,7 +4,10 @@
  "id": "n8n",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "129aff8d68c3fa69"
+  "logo.svg": "129aff8d68c3fa69",
+  "sources/lobe/n8n-color.svg": "a1d2b49286822ff4",
+  "sources/lobe/n8n-text.svg": "706d425e09bdd83f",
+  "sources/svgl/n8n-wordmark-light.svg": "674fd2f75dffa4d2"
  },
  "variants": [
   {
@@ -20,52 +23,32 @@
    "aspect": 1.899,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/n8n-color.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/n8n-text.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-n8n-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/n8n-color.svg",
-    "png": "sources/lobe/n8n-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-n8n-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/n8n-text.svg",
-    "png": "sources/lobe/n8n-text.png"
-   },
-   "aspect": 3.7559,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-n8n-wordmark-light",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/n8n-wordmark-light.svg",
     "png": "sources/svgl/n8n-wordmark-light.png"
    },
-   "aspect": 3.6199,
+   "aspect": 3.532,
    "provider": "svgl",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

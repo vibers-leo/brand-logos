@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "leedlime",
- "primary": "svgl-leedlime",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "ad7b1aa3ef197a2e",
+  "sources/svgl/leedlime.svg": "ad7b1aa3ef197a2e"
+ },
  "variants": [
   {
-   "key": "svgl-leedlime",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/svgl/leedlime.svg",
-    "png": "sources/svgl/leedlime.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/leedlime.svg"
+    }
+   ]
   }
  ]
 }

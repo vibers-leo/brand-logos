@@ -9,9 +9,25 @@
   "sources/iconify/upstash-icon.svg": "07ae2232fe092b50",
   "sources/wvl/upstash-icon.svg": "7a6769aa90bcfe24",
   "sources/wvl/upstash.svg": "0b029d6a1959864f",
-  "sources/upstash-icon.svg": "7a6769aa90bcfe24"
+  "sources/upstash-icon.svg": "7a6769aa90bcfe24",
+  "sources/supertiny/upstash.svg": "2dcbe245962d5550"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/supertiny/upstash.svg",
+    "png": "sources/supertiny/upstash.png"
+   },
+   "aspect": 0.75,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -61,21 +77,6 @@
      "file": "sources/wvl/upstash.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-upstash",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/upstash.svg",
-    "png": "sources/supertiny/upstash.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "goil",
- "primary": "svgl-goil-wordmark",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "13ed907399d1540f",
+  "sources/svgl/goil.svg": "6c167027b5ae0037",
+  "sources/svgl/goil-wordmark.svg": "13ed907399d1540f"
+ },
  "variants": [
   {
-   "key": "svgl-goil",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/svgl/goil.svg",
     "png": "sources/svgl/goil.png"
    },
-   "aspect": 0.9913,
+   "aspect": 0.991,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "svgl-goil-wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/svgl/goil-wordmark.svg",
-    "png": "sources/svgl/goil-wordmark.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.4934,
+   "aspect": 3.484,
    "provider": "svgl",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/goil-wordmark.svg"
+    }
+   ]
   }
  ]
 }

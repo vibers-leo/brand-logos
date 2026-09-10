@@ -4,7 +4,8 @@
  "id": "deezer",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "723765def5807624"
+  "logo.svg": "723765def5807624",
+  "sources/supertiny/deezer.svg": "0e226048d3d40bab"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-deezer",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/deezer.svg",
-    "png": "sources/supertiny/deezer.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/deezer.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "xuanyuan",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "ce5721d2d5d30b99"
+  "logo.svg": "ce5721d2d5d30b99",
+  "sources/lobe/xuanyuan-text.svg": "853eba92d9f8909c"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-xuanyuan-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/xuanyuan-text.svg",
     "png": "sources/lobe/xuanyuan-text.png"
    },
-   "aspect": 4.1885,
+   "aspect": 3.145,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

@@ -9,7 +9,8 @@
   "sources/iconify/chrome.svg": "d1e2c63dc4d1db3c",
   "sources/devicons/chrome-original.svg": "418b398d76e5deff",
   "sources/wvl/chrome.svg": "7ad213cd26f30325",
-  "sources/vlz/wide.svg": "7d994bac60451888"
+  "sources/vlz/wide.svg": "7d994bac60451888",
+  "sources/supertiny/chrome.svg": "f973e9f55667b2ad"
  },
  "variants": [
   {
@@ -40,6 +41,10 @@
      "file": "sources/devicons/chrome-original.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/chrome.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -58,21 +63,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-chrome",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/chrome.svg",
-    "png": "sources/supertiny/chrome.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

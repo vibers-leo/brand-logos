@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "b8b7731b201142e5",
-  "sources/vlz/wide.svg": "0e70c3d886dcde21"
+  "sources/vlz/wide.svg": "0e70c3d886dcde21",
+  "sources/supertiny/rss.svg": "031298a317f85cf1"
  },
  "variants": [
   {
@@ -35,22 +36,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-rss",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/rss.svg",
-    "png": "sources/supertiny/rss.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/rss.svg"
+    }
+   ]
   }
  ]
 }

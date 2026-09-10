@@ -7,7 +7,8 @@
   "logo.svg": "5da8c46f28ee6e8c",
   "sources/iconify/hugo.svg": "5da8c46f28ee6e8c",
   "sources/devicons/hugo-original.svg": "fb3489b71cd70db6",
-  "sources/wvl/hugo.svg": "b4b3c8ed9abea4a6"
+  "sources/wvl/hugo.svg": "b4b3c8ed9abea4a6",
+  "sources/svgl/hugo.svg": "51c2116041318432"
  },
  "variants": [
   {
@@ -47,23 +48,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/hugo.svg"
+    },
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/hugo.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-hugo",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/hugo.svg",
-    "png": "sources/svgl/hugo.png"
-   },
-   "aspect": 3.8095,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

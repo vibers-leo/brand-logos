@@ -4,9 +4,25 @@
  "id": "le-coq-sportif",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "4554e0c3658857e1"
+  "logo.svg": "4554e0c3658857e1",
+  "sources/apparel-collection/le-coq-sportif.svg": "03bdf6a0c14c9d9d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/apparel-collection/le-coq-sportif.svg",
+    "png": "sources/apparel-collection/le-coq-sportif.png"
+   },
+   "aspect": 1.553,
+   "provider": "apparel",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "apparel-le-coq-sportif",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · le-coq-sportif",
-   "files": {
-    "svg": "sources/apparel-collection/le-coq-sportif.svg",
-    "png": "sources/apparel-collection/le-coq-sportif.png"
-   },
-   "aspect": 1.5267,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

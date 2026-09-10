@@ -4,7 +4,8 @@
  "id": "researchgate",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "25f7f072e45f00f4"
+  "logo.svg": "25f7f072e45f00f4",
+  "sources/supertiny/researchgate.svg": "a01e5396c24cf4e8"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.924,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-researchgate",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/researchgate.svg",
-    "png": "sources/supertiny/researchgate.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/researchgate.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "302dotai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d4fe3e7674756645"
+  "logo.svg": "d4fe3e7674756645",
+  "sources/lobe/ai302-text.svg": "22f9a0effe7aaa8a"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-ai302-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/ai302-text.svg",
     "png": "sources/lobe/ai302-text.png"
    },
-   "aspect": 5.0,
+   "aspect": 3.8,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

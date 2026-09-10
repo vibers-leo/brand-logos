@@ -4,7 +4,9 @@
  "id": "bedrock-aws",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6da9738920b4f5bd"
+  "logo.svg": "6da9738920b4f5bd",
+  "sources/lobe/bedrock-color.svg": "2d40f28637030ebc",
+  "sources/lobe/bedrock-text.svg": "be4f5614826c2d30"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 0.954,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/bedrock-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-bedrock-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/bedrock-color.svg",
-    "png": "sources/lobe/bedrock-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-bedrock-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/bedrock-text.svg",
     "png": "sources/lobe/bedrock-text.png"
    },
-   "aspect": 13.3333,
+   "aspect": 9.833,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "58d937d6f9fee982",
   "sources/iconify/docker-icon.svg": "41616c20cb0b6da2",
-  "sources/docker-icon.svg": "2c671a280b3f5856"
+  "sources/docker-icon.svg": "2c671a280b3f5856",
+  "sources/supertiny/docker.svg": "fb8c1aeedc799d0e"
  },
  "variants": [
   {
@@ -22,7 +23,13 @@
    "aspect": 1.393,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/docker.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -44,21 +51,6 @@
      "file": "sources/docker-icon.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-docker",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/docker.svg",
-    "png": "sources/supertiny/docker.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

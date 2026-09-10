@@ -7,7 +7,9 @@
   "logo.svg": "fb6b75710c56c071",
   "sources/iconify/model-context-protocol.svg": "fb6b75710c56c071",
   "sources/iconify/model-context-protocol-icon.svg": "0b0fa3d915fa390d",
-  "sources/model-context-protocol-icon.svg": "a41f1341eba34e24"
+  "sources/model-context-protocol-icon.svg": "a41f1341eba34e24",
+  "sources/lobe/mcp.svg": "2b8b17f9852ac40b",
+  "sources/lobe/mcp-text.svg": "beb3f165719f1e2e"
  },
  "variants": [
   {
@@ -28,6 +30,10 @@
     {
      "provider": "merged",
      "file": "sources/model-context-protocol-icon.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/mcp.svg"
     }
    ]
   },
@@ -49,38 +55,12 @@
     {
      "provider": "iconify",
      "file": "sources/iconify/model-context-protocol.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/mcp-text.svg"
     }
    ]
-  },
-  {
-   "key": "lobe-mcp",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/mcp.svg",
-    "png": "sources/lobe/mcp.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-mcp-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/mcp-text.svg",
-    "png": "sources/lobe/mcp-text.png"
-   },
-   "aspect": 21.0526,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

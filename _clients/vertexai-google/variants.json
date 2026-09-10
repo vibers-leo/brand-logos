@@ -4,7 +4,8 @@
  "id": "vertexai-google",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "faf9599a3e327dab"
+  "logo.svg": "faf9599a3e327dab",
+  "sources/lobe/vertexai-text.svg": "ebc0945e0dfdffae"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-vertexai-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/vertexai-text.svg",
     "png": "sources/lobe/vertexai-text.png"
    },
-   "aspect": 7.4074,
+   "aspect": 5.27,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

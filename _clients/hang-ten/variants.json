@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "hang-ten",
- "primary": "apparel-hang-ten",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "f2178a4b0e8e3e15",
+  "sources/apparel-collection/hang-ten.svg": "f2178a4b0e8e3e15"
+ },
  "variants": [
   {
-   "key": "apparel-hang-ten",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · hang-ten",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/apparel-collection/hang-ten.svg",
-    "png": "sources/apparel-collection/hang-ten.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.3613,
+   "aspect": 3.681,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/hang-ten.svg"
+    }
+   ]
   }
  ]
 }

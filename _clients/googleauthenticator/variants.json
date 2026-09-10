@@ -4,7 +4,8 @@
  "id": "googleauthenticator",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "68996aff3d71500c"
+  "logo.svg": "68996aff3d71500c",
+  "sources/supertiny/google_authenticator.svg": "a8bca8c1aa01bd47"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.125,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-google_authenticator",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/google_authenticator.svg",
-    "png": "sources/supertiny/google_authenticator.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_authenticator.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "activitypub",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "eafde719675d8547"
+  "logo.svg": "eafde719675d8547",
+  "sources/supertiny/activitypub.svg": "674d4c3bc5359760"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.585,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-activitypub",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/activitypub.svg",
-    "png": "sources/supertiny/activitypub.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/activitypub.svg"
+    }
+   ]
   }
  ]
 }

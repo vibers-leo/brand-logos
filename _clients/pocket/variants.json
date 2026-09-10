@@ -4,9 +4,25 @@
  "id": "pocket",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "3231339c4e4de02a"
+  "logo.svg": "3231339c4e4de02a",
+  "sources/supertiny/pocket.svg": "336f7d3a9259979b"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/pocket.svg",
+    "png": "sources/supertiny/pocket.png"
+   },
+   "aspect": 1.121,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-pocket",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/pocket.svg",
-    "png": "sources/supertiny/pocket.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

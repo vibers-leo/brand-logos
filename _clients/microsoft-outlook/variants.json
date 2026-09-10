@@ -4,7 +4,8 @@
  "id": "microsoft-outlook",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0cfae8496355008e"
+  "logo.svg": "0cfae8496355008e",
+  "sources/supertiny/outlook.svg": "32aa365f115d8af8"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.056,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-outlook",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/outlook.svg",
-    "png": "sources/supertiny/outlook.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/outlook.svg"
+    }
+   ]
   }
  ]
 }

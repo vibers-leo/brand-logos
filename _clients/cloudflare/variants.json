@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "6c9e44cd9e9081e9",
   "sources/iconify/cloudflare-icon.svg": "14d125cc5b97c432",
-  "sources/cloudflare-icon.svg": "d00204da24ecfc97"
+  "sources/cloudflare-icon.svg": "d00204da24ecfc97",
+  "sources/supertiny/cloudflare.svg": "5dcf5c7092984c4b"
  },
  "variants": [
   {
@@ -22,7 +23,13 @@
    "aspect": 2.206,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/cloudflare.svg"
+    }
+   ]
   },
   {
    "key": "symbol",
@@ -44,21 +51,6 @@
      "file": "sources/cloudflare-icon.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-cloudflare",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/cloudflare.svg",
-    "png": "sources/supertiny/cloudflare.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

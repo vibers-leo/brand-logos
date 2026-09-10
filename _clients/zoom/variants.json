@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "8193e863391aa571",
   "sources/iconify/zoom-icon.svg": "7611fbc0ce1146d9",
-  "sources/zoom-icon.svg": "4fd8269d3a775b5d"
+  "sources/zoom-icon.svg": "4fd8269d3a775b5d",
+  "sources/supertiny/zoom.svg": "815ba06c5f1c4932"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "merged",
      "file": "sources/zoom-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/zoom.svg"
     }
    ]
   },
@@ -44,21 +49,6 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-zoom",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/zoom.svg",
-    "png": "sources/supertiny/zoom.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

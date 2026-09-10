@@ -4,7 +4,8 @@
  "id": "apereo-foundation",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b60692a4bdf11007"
+  "logo.svg": "b60692a4bdf11007",
+  "sources/supertiny/apereo.svg": "ffe39e31f79f5560"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.153,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-apereo",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/apereo.svg",
-    "png": "sources/supertiny/apereo.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/apereo.svg"
+    }
+   ]
   }
  ]
 }

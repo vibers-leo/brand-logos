@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "41c71435acad07f3",
   "sources/iconify/haml.svg": "41c71435acad07f3",
-  "sources/wvl/haml.svg": "be41f918012de998"
+  "sources/wvl/haml.svg": "be41f918012de998",
+  "sources/supertiny/haml.svg": "221f69bf510357db"
  },
  "variants": [
   {
@@ -33,21 +34,6 @@
      "file": "sources/wvl/haml.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-haml",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/haml.svg",
-    "png": "sources/supertiny/haml.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

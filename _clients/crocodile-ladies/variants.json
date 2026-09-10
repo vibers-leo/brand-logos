@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "crocodile-ladies",
- "primary": "apparel-crocodile-ladies",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "41d9009c4516ccfb",
+  "sources/apparel-collection/crocodile-ladies.svg": "41d9009c4516ccfb"
+ },
  "variants": [
   {
-   "key": "apparel-crocodile-ladies",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · crocodile-ladies",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/crocodile-ladies.svg",
-    "png": "sources/apparel-collection/crocodile-ladies.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.4787,
+   "aspect": 1.581,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/crocodile-ladies.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "statecloud",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "23140305814ea763"
+  "logo.svg": "23140305814ea763",
+  "sources/lobe/statecloud-text.svg": "9a329c7f334ceca7"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-statecloud-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/statecloud-text.svg",
     "png": "sources/lobe/statecloud-text.png"
    },
-   "aspect": 4.4944,
+   "aspect": 3.381,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

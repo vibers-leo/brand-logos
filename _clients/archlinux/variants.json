@@ -8,7 +8,8 @@
   "sources/iconify/archlinux.svg": "039329b213b0e812",
   "sources/devicons/archlinux-original.svg": "b6d3690f467dc169",
   "sources/wvl/archlinux.svg": "423990802c064cf0",
-  "sources/vlz/wide.svg": "4f86945c600824ff"
+  "sources/vlz/wide.svg": "4f86945c600824ff",
+  "sources/supertiny/arch_linux.svg": "09193dd8bdf46a74"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/archlinux-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/arch_linux.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-arch_linux",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/arch_linux.svg",
-    "png": "sources/supertiny/arch_linux.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

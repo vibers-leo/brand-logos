@@ -7,7 +7,9 @@
   "logo.svg": "ed89f1b111a7a9c5",
   "sources/iconify/qwen.svg": "74517912700337f6",
   "sources/iconify/qwen-icon.svg": "a18b42506c2d75da",
-  "sources/qwen-icon.svg": "952f4f012bc98b3b"
+  "sources/qwen-icon.svg": "952f4f012bc98b3b",
+  "sources/lobe/qwen-color.svg": "d63dca0b06aa9e64",
+  "sources/lobe/qwen-text.svg": "4f947e90a24814f5"
  },
  "variants": [
   {
@@ -28,6 +30,10 @@
     {
      "provider": "merged",
      "file": "sources/qwen-icon.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/qwen-color.svg"
     }
    ]
   },
@@ -49,38 +55,12 @@
     {
      "provider": "iconify",
      "file": "sources/iconify/qwen.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/qwen-text.svg"
     }
    ]
-  },
-  {
-   "key": "lobe-qwen-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/qwen-color.svg",
-    "png": "sources/lobe/qwen-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-qwen-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/qwen-text.svg",
-    "png": "sources/lobe/qwen-text.png"
-   },
-   "aspect": 4.6784,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

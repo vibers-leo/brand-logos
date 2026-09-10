@@ -4,7 +4,8 @@
  "id": "commanda-cohere",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "368ebd3bba4692d9"
+  "logo.svg": "368ebd3bba4692d9",
+  "sources/lobe/commanda-text.svg": "9d3f1e1ec7cc965b"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-commanda-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/commanda-text.svg",
     "png": "sources/lobe/commanda-text.png"
    },
-   "aspect": 10.5263,
+   "aspect": 7.418,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

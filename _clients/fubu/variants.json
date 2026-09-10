@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "fubu",
- "primary": "apparel-fubu",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "71fe913633f34e76",
+  "sources/apparel-collection/fubu.svg": "71fe913633f34e76"
+ },
  "variants": [
   {
-   "key": "apparel-fubu",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · fubu",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/apparel-collection/fubu.svg",
-    "png": "sources/apparel-collection/fubu.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 5.298,
+   "aspect": 6.0,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/fubu.svg"
+    }
+   ]
   }
  ]
 }

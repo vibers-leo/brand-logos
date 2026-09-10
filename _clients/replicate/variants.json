@@ -6,7 +6,9 @@
  "fingerprint": {
   "logo.svg": "642125adabbde6c9",
   "sources/si.svg": "642125adabbde6c9",
-  "sources/thesvg/wordmark.svg": "32e2fb6202faee31"
+  "sources/thesvg/wordmark.svg": "32e2fb6202faee31",
+  "sources/lobe/replicate.svg": "cce531294323399b",
+  "sources/lobe/replicate-text.svg": "4f009b44f94afe6e"
  },
  "variants": [
   {
@@ -27,6 +29,10 @@
     {
      "provider": "simpleicons",
      "file": "sources/si.svg"
+    },
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/replicate.svg"
     }
    ]
   },
@@ -42,37 +48,13 @@
    "aspect": 4.322,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-replicate",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/replicate.svg",
-    "png": "sources/lobe/replicate.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-replicate-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/replicate-text.svg",
-    "png": "sources/lobe/replicate-text.png"
-   },
-   "aspect": 6.7227,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/replicate-text.svg"
+    }
+   ]
   }
  ]
 }

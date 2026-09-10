@@ -4,9 +4,25 @@
  "id": "coinbase",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "6dd122c0a975776f"
+  "logo.svg": "6dd122c0a975776f",
+  "sources/svgl/coinbase.svg": "debd752953dbf825"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/svgl/coinbase.svg",
+    "png": "sources/svgl/coinbase.png"
+   },
+   "aspect": 1.0,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -21,21 +37,6 @@
    "provider": "simple-icons",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "svgl-coinbase",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/coinbase.svg",
-    "png": "sources/svgl/coinbase.png"
-   },
-   "aspect": 1.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

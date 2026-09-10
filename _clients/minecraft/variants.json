@@ -4,7 +4,8 @@
  "id": "minecraft",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "fa28cbe97519e868"
+  "logo.svg": "fa28cbe97519e868",
+  "sources/supertiny/minecraft.svg": "c7957d9672f9384e"
  },
  "variants": [
   {
@@ -21,21 +22,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-minecraft",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/minecraft.svg",
-    "png": "sources/supertiny/minecraft.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

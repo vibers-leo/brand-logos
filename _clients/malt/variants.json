@@ -4,47 +4,16 @@
  "id": "malt",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "83f338d7d2719018"
+  "logo.svg": "83f338d7d2719018",
+  "sources/supertiny/malt.svg": "ed621246314c43e7"
  },
  "variants": [
   {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "심볼+워드마크 (가로형)",
-   "files": {
-    "svg": "logo.svg",
-    "png": "logo-800.png"
-   },
-   "aspect": 3.488,
-   "provider": "unknown",
-   "origin": "collected",
-   "order": 10
-  },
-  {
    "key": "symbol",
-   "form": "symbol",
-   "lang": "none",
-   "color": "mono-dark",
-   "label": "심볼만",
-   "files": {
-    "svg": "variants/symbol.svg",
-    "png": "variants/symbol-512.png"
-   },
-   "aspect": null,
-   "provider": "derived:autocrop",
-   "origin": "derived",
-   "order": 30,
-   "derived_from": "logo.svg",
-   "confidence": 0.955
-  },
-  {
-   "key": "supertiny-malt",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/malt.svg",
     "png": "sources/supertiny/malt.png"
@@ -52,7 +21,22 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 102
+   "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.488,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

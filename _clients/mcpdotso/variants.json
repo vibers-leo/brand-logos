@@ -4,7 +4,8 @@
  "id": "mcpdotso",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "503a8c75054c5342"
+  "logo.svg": "503a8c75054c5342",
+  "sources/lobe/mcpso-text.svg": "a27ce124b93e3803"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-mcpso-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/mcpso-text.svg",
     "png": "sources/lobe/mcpso-text.png"
    },
-   "aspect": 6.0606,
+   "aspect": 4.645,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

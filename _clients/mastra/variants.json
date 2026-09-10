@@ -5,7 +5,9 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "da9eb81e4b7a58e1",
-  "sources/svgl/wordmark.svg": "c0411336fa6d3257"
+  "sources/svgl/wordmark.svg": "c0411336fa6d3257",
+  "sources/lobe/mastra-text.svg": "950dd63489ac54c2",
+  "sources/svgl/mastra-icon-light.svg": "d605e32e8e2e9159"
  },
  "variants": [
   {
@@ -21,7 +23,13 @@
    "aspect": 0.999,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/mastra-icon-light.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -35,37 +43,13 @@
    "aspect": 6.429,
    "provider": "svgl",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-mastra-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/mastra-text.svg",
-    "png": "sources/lobe/mastra-text.png"
-   },
-   "aspect": 6.0606,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-mastra-icon-light",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/mastra-icon-light.svg",
-    "png": "sources/svgl/mastra-icon-light.png"
-   },
-   "aspect": 1.6129,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/mastra-text.svg"
+    }
+   ]
   }
  ]
 }

@@ -10,7 +10,9 @@
   "sources/devicons/mysql-original.svg": "9f0230158aee23a3",
   "sources/wvl/mysql-icon.svg": "d4bee24ff22745ec",
   "sources/wvl/mysql.svg": "882654118abd0754",
-  "sources/mysql-icon.svg": "d4bee24ff22745ec"
+  "sources/mysql-icon.svg": "d4bee24ff22745ec",
+  "sources/supertiny/mysql.svg": "2bfb49bc93b4c246",
+  "sources/svgl/mysql-wordmark-light.svg": "a18dd958329a5df6"
  },
  "variants": [
   {
@@ -35,6 +37,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/mysql.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/mysql.svg"
     }
    ]
   },
@@ -68,34 +74,19 @@
    ]
   },
   {
-   "key": "supertiny-mysql",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/mysql.svg",
-    "png": "sources/supertiny/mysql.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "svgl-mysql-wordmark-light",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/mysql-wordmark-light.svg",
     "png": "sources/svgl/mysql-wordmark-light.png"
    },
-   "aspect": 1.4679,
+   "aspect": 1.468,
    "provider": "svgl",
    "origin": "collected",
-   "order": 103
+   "order": 40
   }
  ]
 }

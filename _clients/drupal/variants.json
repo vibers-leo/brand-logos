@@ -10,9 +10,26 @@
   "sources/devicons/drupal-original.svg": "1338e1c3e9d9c658",
   "sources/wvl/drupal-icon.svg": "b2ae360bd8e8a522",
   "sources/wvl/drupal.svg": "a902f5f98270ca1b",
-  "sources/drupal-icon.svg": "b2ae360bd8e8a522"
+  "sources/drupal-icon.svg": "b2ae360bd8e8a522",
+  "sources/supertiny/drupal.svg": "6e87c2ea47e349fb",
+  "sources/supertiny/druplicon.svg": "3405f823f0d117b7"
  },
  "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "sources/supertiny/drupal.svg",
+    "png": "sources/supertiny/drupal.png"
+   },
+   "aspect": 0.767,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 20
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -39,6 +56,10 @@
     {
      "provider": "merged",
      "file": "sources/drupal-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/druplicon.svg"
     }
    ]
   },
@@ -66,36 +87,6 @@
      "file": "sources/wvl/drupal.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-drupal",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/drupal.svg",
-    "png": "sources/supertiny/drupal.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "supertiny-druplicon",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/druplicon.svg",
-    "png": "sources/supertiny/druplicon.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 103
   }
  ]
 }

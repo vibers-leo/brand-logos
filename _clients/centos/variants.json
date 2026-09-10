@@ -10,7 +10,8 @@
   "sources/devicons/centos-original.svg": "8f054f0285cf70b1",
   "sources/wvl/centos-icon.svg": "c6111315fb88428c",
   "sources/wvl/centos.svg": "12c0c27e471ed323",
-  "sources/centos-icon.svg": "c6111315fb88428c"
+  "sources/centos-icon.svg": "c6111315fb88428c",
+  "sources/supertiny/centos.svg": "1367b09011133d3d"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/centos-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/centos.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/centos.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-centos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/centos.svg",
-    "png": "sources/supertiny/centos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

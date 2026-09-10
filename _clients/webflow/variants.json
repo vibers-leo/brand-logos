@@ -7,9 +7,25 @@
   "logo.svg": "74c13bf1cd27d884",
   "sources/iconify/webflow.svg": "74c13bf1cd27d884",
   "sources/devicons/webflow-original.svg": "382cffee9a38bade",
-  "sources/wvl/webflow.svg": "3a568204631106c0"
+  "sources/wvl/webflow.svg": "3a568204631106c0",
+  "sources/svgl/webflow.svg": "53248fb4b45eb1da"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/svgl/webflow.svg",
+    "png": "sources/svgl/webflow.png"
+   },
+   "aspect": 1.601,
+   "provider": "svgl",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -49,21 +65,6 @@
      "file": "sources/wvl/webflow.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-webflow",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/webflow.svg",
-    "png": "sources/svgl/webflow.png"
-   },
-   "aspect": 1.6032,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

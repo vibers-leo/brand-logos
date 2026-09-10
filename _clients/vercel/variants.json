@@ -12,7 +12,8 @@
   "sources/thesvg/vercel-icon-dark.svg": "352ee3ed7a33bdb9",
   "sources/thesvg/vercel-wordmark.svg": "00b67b72171c1176",
   "sources/thesvg/vercel-wordmark-light.svg": "b79f445dc58be3ce",
-  "sources/thesvg/vercel-wordmark-dark.svg": "00b67b72171c1176"
+  "sources/thesvg/vercel-wordmark-dark.svg": "00b67b72171c1176",
+  "sources/supertiny/vercel.svg": "108cd1441f462d3e"
  },
  "variants": [
   {
@@ -49,6 +50,10 @@
     {
      "provider": "thesvg",
      "file": "sources/thesvg/vercel-icon-dark.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/vercel.svg"
     }
    ]
   },
@@ -76,21 +81,6 @@
      "file": "sources/thesvg/vercel-wordmark-dark.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-vercel",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/vercel.svg",
-    "png": "sources/supertiny/vercel.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

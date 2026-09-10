@@ -2,14 +2,19 @@
  "schema": 1,
  "algo_v": 1,
  "id": "apertis",
- "primary": "lobe-apertis-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "50fe2aa665e76abc",
+  "sources/lobe/apertis-color.svg": "219d9b0808dbce29",
+  "sources/lobe/apertis-text.svg": "50fe2aa665e76abc"
+ },
  "variants": [
   {
-   "key": "lobe-apertis-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/apertis-color.svg",
     "png": "sources/lobe/apertis-color.png"
@@ -17,22 +22,28 @@
    "aspect": 1.0,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-apertis-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/apertis-text.svg",
-    "png": "sources/lobe/apertis-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 4.8193,
+   "aspect": 3.343,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/apertis-text.svg"
+    }
+   ]
   }
  ]
 }

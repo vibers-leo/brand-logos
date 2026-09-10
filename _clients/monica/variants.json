@@ -4,7 +4,9 @@
  "id": "monica",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fdc8bdb6a4a4b4eb"
+  "logo.svg": "fdc8bdb6a4a4b4eb",
+  "sources/lobe/monica-color.svg": "22e841d42ca03fe9",
+  "sources/lobe/monica-text.svg": "c2d1062321517526"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.103,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/monica-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-monica-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/monica-color.svg",
-    "png": "sources/lobe/monica-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-monica-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/monica-text.svg",
     "png": "sources/lobe/monica-text.png"
    },
-   "aspect": 6.6667,
+   "aspect": 4.661,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

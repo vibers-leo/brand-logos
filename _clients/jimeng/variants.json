@@ -2,37 +2,48 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jimeng",
- "primary": "lobe-jimeng-text",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "635838c24079ded8",
+  "sources/lobe/jimeng-color.svg": "8e03597bacc48b94",
+  "sources/lobe/jimeng-text.svg": "635838c24079ded8"
+ },
  "variants": [
   {
-   "key": "lobe-jimeng-color",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "Lobe Icons · 심볼",
+   "label": "심볼형",
    "files": {
     "svg": "sources/lobe/jimeng-color.svg",
     "png": "sources/lobe/jimeng-color.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.967,
    "provider": "lobe",
    "origin": "collected",
-   "order": 100
+   "order": 30
   },
   {
-   "key": "lobe-jimeng-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/lobe/jimeng-text.svg",
-    "png": "sources/lobe/jimeng-text.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 5.6738,
+   "aspect": 4.341,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/jimeng-text.svg"
+    }
+   ]
   }
  ]
 }

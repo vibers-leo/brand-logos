@@ -4,7 +4,8 @@
  "id": "cashapp",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c8f8bd8e921737cd"
+  "logo.svg": "c8f8bd8e921737cd",
+  "sources/supertiny/cash_app.svg": "30fcbe61eeb8527a"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-cash_app",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/cash_app.svg",
-    "png": "sources/supertiny/cash_app.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/cash_app.svg"
+    }
+   ]
   }
  ]
 }

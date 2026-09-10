@@ -4,9 +4,25 @@
  "id": "grok-xai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0b39f19b58f9672b"
+  "logo.svg": "0b39f19b58f9672b",
+  "sources/lobe/grok-text.svg": "346b449512eec920"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/lobe/grok-text.svg",
+    "png": "sources/lobe/grok-text.png"
+   },
+   "aspect": 2.921,
+   "provider": "lobe",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",
@@ -21,21 +37,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "lobe-grok-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/grok-text.svg",
-    "png": "sources/lobe/grok-text.png"
-   },
-   "aspect": 3.9409,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

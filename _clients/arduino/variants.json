@@ -7,7 +7,8 @@
   "logo.svg": "0a648448da3bf6c6",
   "sources/iconify/arduino.svg": "0a648448da3bf6c6",
   "sources/devicons/arduino-original.svg": "f801aa2de0611479",
-  "sources/wvl/arduino.svg": "6589c9d005972558"
+  "sources/wvl/arduino.svg": "6589c9d005972558",
+  "sources/supertiny/arduino.svg": "35d9a53c4f18c6b9"
  },
  "variants": [
   {
@@ -40,11 +41,11 @@
    ]
   },
   {
-   "key": "supertiny-arduino",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/arduino.svg",
     "png": "sources/supertiny/arduino.png"
@@ -52,7 +53,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "kodi",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "34da38adcdd94a99"
+  "logo.svg": "34da38adcdd94a99",
+  "sources/supertiny/kodi.svg": "780fb615121451b8"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.002,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-kodi",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/kodi.svg",
-    "png": "sources/supertiny/kodi.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/kodi.svg"
+    }
+   ]
   }
  ]
 }

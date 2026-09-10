@@ -5,7 +5,8 @@
  "primary": "vertical",
  "fingerprint": {
   "logo.svg": "e1e43b61378d21a8",
-  "sources/devicons/raspberrypi-original.svg": "e1e43b61378d21a8"
+  "sources/devicons/raspberrypi-original.svg": "e1e43b61378d21a8",
+  "sources/supertiny/raspberry_pi.svg": "c3deace591004699"
  },
  "variants": [
   {
@@ -30,19 +31,19 @@
    ]
   },
   {
-   "key": "supertiny-raspberry_pi",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/raspberry_pi.svg",
     "png": "sources/supertiny/raspberry_pi.png"
    },
-   "aspect": 1.0,
+   "aspect": 0.805,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

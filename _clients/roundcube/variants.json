@@ -4,7 +4,8 @@
  "id": "roundcube",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "32f9436b3084601e"
+  "logo.svg": "32f9436b3084601e",
+  "sources/supertiny/roundcube.svg": "d12d7da1479ec79a"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.006,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-roundcube",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/roundcube.svg",
-    "png": "sources/supertiny/roundcube.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/roundcube.svg"
+    }
+   ]
   }
  ]
 }

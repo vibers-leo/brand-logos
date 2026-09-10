@@ -4,7 +4,9 @@
  "id": "applepodcasts",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fba8a39689bdfa61"
+  "logo.svg": "fba8a39689bdfa61",
+  "sources/supertiny/applepodcasts.svg": "4f0117a152049fbe",
+  "sources/supertiny/itunes_podcasts.svg": "5b07928d618ec52f"
  },
  "variants": [
   {
@@ -20,37 +22,17 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-applepodcasts",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/applepodcasts.svg",
-    "png": "sources/supertiny/applepodcasts.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "supertiny-itunes_podcasts",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/itunes_podcasts.svg",
-    "png": "sources/supertiny/itunes_podcasts.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/applepodcasts.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/itunes_podcasts.svg"
+    }
+   ]
   }
  ]
 }

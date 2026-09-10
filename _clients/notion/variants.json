@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "c6627b78969bde10",
   "sources/notion-icon.svg": "1cae7bbe4b1a56c7",
-  "sources/thesvg/wordmark.svg": "177d231b2397bdb2"
+  "sources/thesvg/wordmark.svg": "177d231b2397bdb2",
+  "sources/supertiny/notion.svg": "98dfe876bf94a674"
  },
  "variants": [
   {
@@ -41,23 +42,12 @@
     {
      "provider": "merged",
      "file": "sources/notion-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/notion.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-notion",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/notion.svg",
-    "png": "sources/supertiny/notion.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

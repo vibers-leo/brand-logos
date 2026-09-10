@@ -4,7 +4,8 @@
  "id": "hedra",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "003946ab45b8a17f"
+  "logo.svg": "003946ab45b8a17f",
+  "sources/lobe/hedra-text.svg": "fc55dcb09c9c837e"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-hedra-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/hedra-text.svg",
     "png": "sources/lobe/hedra-text.png"
    },
-   "aspect": 5.0633,
+   "aspect": 3.531,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

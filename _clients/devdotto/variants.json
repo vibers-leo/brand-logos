@@ -4,7 +4,8 @@
  "id": "devdotto",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "932c4f579e377ba0"
+  "logo.svg": "932c4f579e377ba0",
+  "sources/supertiny/dev_to.svg": "10f2cb6d4b842351"
  },
  "variants": [
   {
@@ -23,11 +24,11 @@
    "order": 10
   },
   {
-   "key": "supertiny-dev_to",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
     "svg": "sources/supertiny/dev_to.svg",
     "png": "sources/supertiny/dev_to.png"
@@ -35,7 +36,7 @@
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 101
+   "order": 30
   }
  ]
 }

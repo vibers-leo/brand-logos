@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "81bbaf9f4f4c6a7a",
   "sources/iconify/wifi.svg": "81bbaf9f4f4c6a7a",
-  "sources/wvl/wifi.svg": "11c7cb3173dfe3c2"
+  "sources/wvl/wifi.svg": "11c7cb3173dfe3c2",
+  "sources/supertiny/wifi.svg": "a571ca78dee6989a"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/wifi.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/wifi.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-wifi",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/wifi.svg",
-    "png": "sources/supertiny/wifi.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

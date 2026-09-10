@@ -4,11 +4,27 @@
  "id": "macos",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "f07712bd4a4df5d4",
+  "logo.svg": "5531ebe1951df1b7",
   "sources/iconify/macos.svg": "d172bde0c171eae6",
-  "sources/wvl/macOS.svg": "5531ebe1951df1b7"
+  "sources/wvl/macOS.svg": "5531ebe1951df1b7",
+  "sources/supertiny/macos.svg": "b7b3f04bbaf2f290"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/macos.svg",
+    "png": "sources/supertiny/macos.png"
+   },
+   "aspect": 1.133,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -19,7 +35,7 @@
     "svg": "logo.svg",
     "png": "logo-800.png"
    },
-   "aspect": 3.863,
+   "aspect": 4.265,
    "provider": "iconify",
    "origin": "collected",
    "order": 40,
@@ -33,21 +49,6 @@
      "file": "sources/wvl/macOS.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-macos",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/macos.svg",
-    "png": "sources/supertiny/macos.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "tuta",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d406c565ecdd1e73"
+  "logo.svg": "d406c565ecdd1e73",
+  "sources/supertiny/tuta.svg": "26cbc7db9f9a8b3d",
+  "sources/supertiny/tutanota.svg": "f5d62f7a828fc764"
  },
  "variants": [
   {
@@ -20,37 +22,17 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-tuta",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/tuta.svg",
-    "png": "sources/supertiny/tuta.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "supertiny-tutanota",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/tutanota.svg",
-    "png": "sources/supertiny/tutanota.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/tuta.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/tutanota.svg"
+    }
+   ]
   }
  ]
 }

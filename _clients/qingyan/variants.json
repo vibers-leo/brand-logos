@@ -4,7 +4,8 @@
  "id": "qingyan",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "992f73d648588f51"
+  "logo.svg": "992f73d648588f51",
+  "sources/lobe/qingyan-text.svg": "9f7133992ca2e0a4"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-qingyan-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/qingyan-text.svg",
     "png": "sources/lobe/qingyan-text.png"
    },
-   "aspect": 5.3691,
+   "aspect": 4.086,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

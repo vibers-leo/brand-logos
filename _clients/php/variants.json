@@ -9,7 +9,8 @@
   "sources/devicons/php-original.svg": "652d877a0fee03df",
   "sources/wvl/php.svg": "6ef64f0166ac92aa",
   "sources/wvl/php-alt.svg": "53a292205fa2356e",
-  "sources/php-alt.svg": "156bba446e5d1cc3"
+  "sources/php-alt.svg": "156bba446e5d1cc3",
+  "sources/supertiny/php.svg": "6820550048351299"
  },
  "variants": [
   {
@@ -48,21 +49,6 @@
      "file": "sources/php-alt.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-php",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/php.svg",
-    "png": "sources/supertiny/php.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

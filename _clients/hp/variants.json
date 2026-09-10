@@ -4,7 +4,8 @@
  "id": "hp",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "249c266ccfd3a188"
+  "logo.svg": "249c266ccfd3a188",
+  "sources/supertiny/hp.svg": "067fcb9962dac398"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-hp",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/hp.svg",
-    "png": "sources/supertiny/hp.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/hp.svg"
+    }
+   ]
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "google-findhub",
- "primary": "supertiny-google_findhub",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "02c71962ff6c5e1f",
+  "sources/supertiny/google_findhub.svg": "02c71962ff6c5e1f"
+ },
  "variants": [
   {
-   "key": "supertiny-google_findhub",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/google_findhub.svg",
-    "png": "sources/supertiny/google_findhub.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/google_findhub.svg"
+    }
+   ]
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "jordache",
- "primary": "apparel-jordache",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "acaff72e6233e5dc",
+  "sources/apparel-collection/jordache.svg": "acaff72e6233e5dc"
+ },
  "variants": [
   {
-   "key": "apparel-jordache",
-   "form": "horizontal",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · jordache",
+   "label": "워드마크형",
    "files": {
-    "svg": "sources/apparel-collection/jordache.svg",
-    "png": "sources/apparel-collection/jordache.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 3.2922,
+   "aspect": 3.528,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 40,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/jordache.svg"
+    }
+   ]
   }
  ]
 }

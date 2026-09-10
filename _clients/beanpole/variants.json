@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "beanpole",
- "primary": "apparel-bean-pole",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "a62fa4b78abd5715",
+  "sources/apparel-collection/bean-pole.svg": "a62fa4b78abd5715"
+ },
  "variants": [
   {
-   "key": "apparel-bean-pole",
-   "form": "symbol",
+   "key": "horizontal",
+   "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · bean-pole",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/bean-pole.svg",
-    "png": "sources/apparel-collection/bean-pole.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.2579,
+   "aspect": 1.272,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/bean-pole.svg"
+    }
+   ]
   }
  ]
 }

@@ -9,7 +9,8 @@
   "sources/iconify/drone-icon.svg": "eb383d7d6c141d84",
   "sources/wvl/drone-icon.svg": "8b1665669d1bdae6",
   "sources/wvl/drone.svg": "72854f3840be66f1",
-  "sources/drone-icon.svg": "8b1665669d1bdae6"
+  "sources/drone-icon.svg": "8b1665669d1bdae6",
+  "sources/supertiny/drone.svg": "2f753419e94b48c5"
  },
  "variants": [
   {
@@ -34,6 +35,10 @@
     {
      "provider": "merged",
      "file": "sources/drone-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/drone.svg"
     }
    ]
   },
@@ -61,21 +66,6 @@
      "file": "sources/wvl/drone.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-drone",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/drone.svg",
-    "png": "sources/supertiny/drone.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

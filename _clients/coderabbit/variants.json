@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "d1e0c63259b66b32",
-  "sources/gilbarbara/full.svg": "4ccfba20cd3bfbcc"
+  "sources/gilbarbara/full.svg": "4ccfba20cd3bfbcc",
+  "sources/supertiny/coderabbit.svg": "688a825a9ca0c92b"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 1.145,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/coderabbit.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "gilbarbara",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-coderabbit",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/coderabbit.svg",
-    "png": "sources/supertiny/coderabbit.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "digidentity",
- "primary": "supertiny-digidentity",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "9881b7c3c5a90e1b",
+  "sources/supertiny/digidentity.svg": "9881b7c3c5a90e1b"
+ },
  "variants": [
   {
-   "key": "supertiny-digidentity",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/digidentity.svg",
-    "png": "sources/supertiny/digidentity.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/digidentity.svg"
+    }
+   ]
   }
  ]
 }

@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "ad6e77004eaa0ee7",
   "sources/devicons/azure-original.svg": "ad6e77004eaa0ee7",
-  "sources/thesvg/wordmark.svg": "35b92c10e1508d7b"
+  "sources/thesvg/wordmark.svg": "35b92c10e1508d7b",
+  "sources/supertiny/azure.svg": "4c2f11a758d68a31"
  },
  "variants": [
   {
@@ -27,6 +28,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/azure-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/azure.svg"
     }
    ]
   },
@@ -43,21 +48,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-azure",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/azure.svg",
-    "png": "sources/supertiny/azure.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

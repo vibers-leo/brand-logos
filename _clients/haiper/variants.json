@@ -4,7 +4,8 @@
  "id": "haiper",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "531b36c0707bf110"
+  "logo.svg": "531b36c0707bf110",
+  "sources/lobe/haiper-text.svg": "abf0707d8c8c375b"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-haiper-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/haiper-text.svg",
     "png": "sources/lobe/haiper-text.png"
    },
-   "aspect": 4.6243,
+   "aspect": 3.207,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

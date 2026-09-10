@@ -4,7 +4,8 @@
  "id": "01dotai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8d4c65beb3bce725"
+  "logo.svg": "8d4c65beb3bce725",
+  "sources/lobe/zeroone-text.svg": "3bc97f67f7aab1bd"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-zeroone-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/zeroone-text.svg",
     "png": "sources/lobe/zeroone-text.png"
    },
-   "aspect": 5.5172,
+   "aspect": 4.19,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

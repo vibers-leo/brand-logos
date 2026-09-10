@@ -4,7 +4,8 @@
  "id": "nuxt-content",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "191b3a8dd8c65e59"
+  "logo.svg": "191b3a8dd8c65e59",
+  "sources/svgl/nuxt-content-wordmark-light.svg": "37dff23290ea56e4"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 8.018,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "svgl-nuxt-content-wordmark-light",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/nuxt-content-wordmark-light.svg",
-    "png": "sources/svgl/nuxt-content-wordmark-light.png"
-   },
-   "aspect": 8.0,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
+   "order": 40,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/nuxt-content-wordmark-light.svg"
+    }
+   ]
   }
  ]
 }

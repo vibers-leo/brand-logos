@@ -6,9 +6,25 @@
  "fingerprint": {
   "logo.svg": "1eda4517d10ce272",
   "sources/iconify/upwork.svg": "1eda4517d10ce272",
-  "sources/wvl/upwork.svg": "151f5ab22f1f9f64"
+  "sources/wvl/upwork.svg": "151f5ab22f1f9f64",
+  "sources/supertiny/upwork.svg": "61a3d5d37441911a"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/supertiny/upwork.svg",
+    "png": "sources/supertiny/upwork.png"
+   },
+   "aspect": 1.0,
+   "provider": "supertiny",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",
@@ -33,21 +49,6 @@
      "file": "sources/wvl/upwork.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-upwork",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/upwork.svg",
-    "png": "sources/supertiny/upwork.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

@@ -4,7 +4,9 @@
  "id": "hunyuan",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a1e5e39a6e8927e2"
+  "logo.svg": "a1e5e39a6e8927e2",
+  "sources/lobe/hunyuan-color.svg": "364a08b2aebdc296",
+  "sources/lobe/hunyuan-text.svg": "6cbedf4645d054b3"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.0,
    "provider": "thesvg",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/hunyuan-color.svg"
+    }
+   ]
   },
   {
-   "key": "lobe-hunyuan-color",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/hunyuan-color.svg",
-    "png": "sources/lobe/hunyuan-color.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "lobe-hunyuan-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/hunyuan-text.svg",
     "png": "sources/lobe/hunyuan-text.png"
    },
-   "aspect": 5.7554,
+   "aspect": 4.382,
    "provider": "lobe",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

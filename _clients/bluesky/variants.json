@@ -8,7 +8,8 @@
   "sources/fa.svg": "47bc6c073af1d5a7",
   "sources/iconify/bluesky.svg": "732e9709f188fec8",
   "sources/wvl/bluesky.svg": "68f1dfde01967e1d",
-  "sources/commons-wm/wordmark.svg": "3edfd977e2aed3ed"
+  "sources/commons-wm/wordmark.svg": "3edfd977e2aed3ed",
+  "sources/supertiny/bluesky.svg": "2d2520a5a6dead85"
  },
  "variants": [
   {
@@ -35,6 +36,10 @@
      "file": "sources/wvl/bluesky.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bluesky.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -53,21 +58,6 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-bluesky",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bluesky.svg",
-    "png": "sources/supertiny/bluesky.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

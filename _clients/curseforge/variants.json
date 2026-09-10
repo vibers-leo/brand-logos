@@ -4,7 +4,9 @@
  "id": "curseforge",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "b08bb898c8f5d7ee"
+  "logo.svg": "b08bb898c8f5d7ee",
+  "sources/svgl/curseforge.svg": "faecd709f5028e43",
+  "sources/svgl/curseforge-wordmark.svg": "9a89c255b6061ee6"
  },
  "variants": [
   {
@@ -20,37 +22,28 @@
    "aspect": 1.579,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
+   "order": 10,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/curseforge.svg"
+    }
+   ]
   },
   {
-   "key": "svgl-curseforge",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
-   "files": {
-    "svg": "sources/svgl/curseforge.svg",
-    "png": "sources/svgl/curseforge.png"
-   },
-   "aspect": 1.0152,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 101
-  },
-  {
-   "key": "svgl-curseforge-wordmark",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "SVGL · 워드마크",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/svgl/curseforge-wordmark.svg",
     "png": "sources/svgl/curseforge-wordmark.png"
    },
-   "aspect": 6.6116,
+   "aspect": 6.581,
    "provider": "svgl",
    "origin": "collected",
-   "order": 102
+   "order": 40
   }
  ]
 }

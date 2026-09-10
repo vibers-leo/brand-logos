@@ -9,7 +9,8 @@
   "sources/iconify/todoist-icon.svg": "f338b69b8beb10fc",
   "sources/wvl/todoist-icon.svg": "0887918b6ea286b3",
   "sources/wvl/todoist.svg": "6875a4afa1cbc045",
-  "sources/todoist-icon.svg": "0887918b6ea286b3"
+  "sources/todoist-icon.svg": "0887918b6ea286b3",
+  "sources/supertiny/todoist.svg": "026ba43c6baf5816"
  },
  "variants": [
   {
@@ -34,6 +35,10 @@
     {
      "provider": "merged",
      "file": "sources/todoist-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/todoist.svg"
     }
    ]
   },
@@ -61,21 +66,6 @@
      "file": "sources/wvl/todoist.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-todoist",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/todoist.svg",
-    "png": "sources/supertiny/todoist.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

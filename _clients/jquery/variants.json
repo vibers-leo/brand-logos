@@ -7,7 +7,8 @@
   "logo.svg": "66953f46c77bcfc8",
   "sources/iconify/jquery.svg": "66953f46c77bcfc8",
   "sources/devicons/jquery-original.svg": "783339fce2d35711",
-  "sources/wvl/jquery.svg": "0d40938e3fc8253f"
+  "sources/wvl/jquery.svg": "0d40938e3fc8253f",
+  "sources/svgl/jquery.svg": "086a5ecbe35d5d40"
  },
  "variants": [
   {
@@ -41,6 +42,10 @@
    "order": 40,
    "alts": [
     {
+     "provider": "svgl",
+     "file": "sources/svgl/jquery.svg"
+    },
+    {
      "provider": "iconify",
      "file": "sources/iconify/jquery.svg"
     },
@@ -49,21 +54,6 @@
      "file": "sources/wvl/jquery.svg"
     }
    ]
-  },
-  {
-   "key": "svgl-jquery",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 가로형",
-   "files": {
-    "svg": "sources/svgl/jquery.svg",
-    "png": "sources/svgl/jquery.png"
-   },
-   "aspect": 4.0609,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

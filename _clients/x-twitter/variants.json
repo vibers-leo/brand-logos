@@ -4,7 +4,8 @@
  "id": "x-twitter",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "19c715f46ecbbe3a"
+  "logo.svg": "19c715f46ecbbe3a",
+  "sources/supertiny/x.svg": "ac8a6f182c94ad37"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.978,
    "provider": "simple-icons",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-x",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/x.svg",
-    "png": "sources/supertiny/x.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/x.svg"
+    }
+   ]
   }
  ]
 }

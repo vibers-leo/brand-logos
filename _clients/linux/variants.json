@@ -7,7 +7,8 @@
   "logo.svg": "e47394e37565a4da",
   "sources/fa.svg": "e47394e37565a4da",
   "sources/devicons/linux-original.svg": "22c2ffa02d49a7f5",
-  "sources/vlz/wide.svg": "c80ac5dd41424e79"
+  "sources/vlz/wide.svg": "c80ac5dd41424e79",
+  "sources/supertiny/linux.svg": "807bdc4168fbdbbb"
  },
  "variants": [
   {
@@ -44,25 +45,14 @@
      "file": "sources/devicons/linux-original.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/linux.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-linux",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/linux.svg",
-    "png": "sources/supertiny/linux.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

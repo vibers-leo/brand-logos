@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "filestash",
- "primary": "supertiny-filestash",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "43f7ea90f9b6d938",
+  "sources/supertiny/filestash.svg": "43f7ea90f9b6d938"
+ },
  "variants": [
   {
-   "key": "supertiny-filestash",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/filestash.svg",
-    "png": "sources/supertiny/filestash.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/filestash.svg"
+    }
+   ]
   }
  ]
 }

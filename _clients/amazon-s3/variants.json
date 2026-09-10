@@ -4,7 +4,8 @@
  "id": "amazon-s3",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d275a234e3336eb5"
+  "logo.svg": "d275a234e3336eb5",
+  "sources/supertiny/amazon_s3.svg": "1a44dcaff9d34283"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 0.826,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-amazon_s3",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/amazon_s3.svg",
-    "png": "sources/supertiny/amazon_s3.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/amazon_s3.svg"
+    }
+   ]
   }
  ]
 }

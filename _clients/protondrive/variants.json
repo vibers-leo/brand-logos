@@ -4,7 +4,8 @@
  "id": "protondrive",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9680782f924129fb"
+  "logo.svg": "9680782f924129fb",
+  "sources/supertiny/proton_drive.svg": "b59d551a412ebb9e"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.216,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-proton_drive",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/proton_drive.svg",
-    "png": "sources/supertiny/proton_drive.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/proton_drive.svg"
+    }
+   ]
   }
  ]
 }

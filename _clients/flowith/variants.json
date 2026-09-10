@@ -4,7 +4,8 @@
  "id": "flowith",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "fe9b697e8774a331"
+  "logo.svg": "fe9b697e8774a331",
+  "sources/lobe/flowith-text.svg": "64f0d147df3f59c8"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 10
   },
   {
-   "key": "lobe-flowith-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/flowith-text.svg",
     "png": "sources/lobe/flowith-text.png"
    },
-   "aspect": 5.2632,
+   "aspect": 3.62,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

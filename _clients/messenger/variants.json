@@ -7,7 +7,8 @@
   "logo.svg": "a166eae312967825",
   "sources/iconify/messenger.svg": "a166eae312967825",
   "sources/wvl/messenger.svg": "e03096798e7a6209",
-  "sources/vlz/wide.svg": "30ba97dbae6e43dc"
+  "sources/vlz/wide.svg": "30ba97dbae6e43dc",
+  "sources/supertiny/messenger.svg": "f3bb518b40058657"
  },
  "variants": [
   {
@@ -32,6 +33,10 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/messenger.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/messenger.svg"
     }
    ]
   },
@@ -48,21 +53,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-messenger",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/messenger.svg",
-    "png": "sources/supertiny/messenger.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

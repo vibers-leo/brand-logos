@@ -4,7 +4,8 @@
  "id": "friendica",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "389e8803733787a9"
+  "logo.svg": "389e8803733787a9",
+  "sources/supertiny/friendica.svg": "928eb4495b4239c0"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.005,
    "provider": "wikimedia",
    "origin": "collected",
-   "order": 30
-  },
-  {
-   "key": "supertiny-friendica",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/friendica.svg",
-    "png": "sources/supertiny/friendica.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/friendica.svg"
+    }
+   ]
   }
  ]
 }

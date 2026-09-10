@@ -2,37 +2,37 @@
  "schema": 1,
  "algo_v": 1,
  "id": "levis-fashion",
- "primary": "apparel-levis-original",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "c77312ad62e31f7d",
+  "sources/apparel-collection/levis-original.svg": "c77312ad62e31f7d",
+  "sources/apparel-collection/levis-engineered.svg": "70d6491abc54acee"
+ },
  "variants": [
   {
-   "key": "apparel-levis-original",
+   "key": "horizontal",
    "form": "horizontal",
    "lang": "unknown",
    "color": "color",
-   "label": "의류 모음 수록본 · levis-original",
+   "label": "가로조합형",
    "files": {
-    "svg": "sources/apparel-collection/levis-original.svg",
-    "png": "sources/apparel-collection/levis-original.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
-   "aspect": 1.3605,
+   "aspect": 1.38,
    "provider": "apparel",
    "origin": "collected",
-   "order": 100
-  },
-  {
-   "key": "apparel-levis-engineered",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "의류 모음 수록본 · levis-engineered",
-   "files": {
-    "svg": "sources/apparel-collection/levis-engineered.svg",
-    "png": "sources/apparel-collection/levis-engineered.png"
-   },
-   "aspect": 2.3952,
-   "provider": "apparel",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/levis-original.svg"
+    },
+    {
+     "provider": "apparel",
+     "file": "sources/apparel-collection/levis-engineered.svg"
+    }
+   ]
   }
  ]
 }

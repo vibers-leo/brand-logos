@@ -8,7 +8,8 @@
   "sources/iconify/tensorflow.svg": "a9a6c865f54b37a0",
   "sources/devicons/tensorflow-original.svg": "1cdaf01f02c18baf",
   "sources/wvl/tensorflow.svg": "413441cb96a813bb",
-  "sources/thesvg/wordmark.svg": "67d5bf1294c6e85c"
+  "sources/thesvg/wordmark.svg": "67d5bf1294c6e85c",
+  "sources/supertiny/tensorflow.svg": "751c8dbcf0c32822"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/tensorflow-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/tensorflow.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "thesvg",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-tensorflow",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/tensorflow.svg",
-    "png": "sources/supertiny/tensorflow.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

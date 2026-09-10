@@ -7,7 +7,8 @@
   "logo.svg": "ed3a558092799185",
   "sources/iconify/producthunt.svg": "ed3a558092799185",
   "sources/wvl/producthunt.svg": "8914faaa63aaafb6",
-  "sources/vlz/wide.svg": "9225ec6dbedd08ca"
+  "sources/vlz/wide.svg": "9225ec6dbedd08ca",
+  "sources/supertiny/producthunt.svg": "8c652ff0d4302b3b"
  },
  "variants": [
   {
@@ -46,23 +47,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/producthunt.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/producthunt.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-producthunt",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/producthunt.svg",
-    "png": "sources/supertiny/producthunt.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

@@ -10,7 +10,8 @@
   "sources/iconify/mastodon-icon.svg": "646212b6caa175a2",
   "sources/wvl/mastodon-icon.svg": "ceda5023e87a59a6",
   "sources/wvl/mastodon.svg": "22386b098964004c",
-  "sources/mastodon-icon.svg": "ceda5023e87a59a6"
+  "sources/mastodon-icon.svg": "ceda5023e87a59a6",
+  "sources/supertiny/mastodon.svg": "d1af36d49a1fc0dd"
  },
  "variants": [
   {
@@ -41,6 +42,10 @@
      "file": "sources/mastodon-icon.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/mastodon.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -66,21 +71,6 @@
      "file": "sources/wvl/mastodon.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-mastodon",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/mastodon.svg",
-    "png": "sources/supertiny/mastodon.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

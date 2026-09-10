@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "a0c8c13f409a37e7",
   "sources/iconify/json-ld.svg": "a0c8c13f409a37e7",
-  "sources/wvl/json-ld.svg": "ace470514a7b526c"
+  "sources/wvl/json-ld.svg": "ace470514a7b526c",
+  "sources/supertiny/json-ld.svg": "17f0ceaf847d0b8c"
  },
  "variants": [
   {
@@ -31,23 +32,12 @@
     {
      "provider": "wvl",
      "file": "sources/wvl/json-ld.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/json-ld.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-json-ld",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/json-ld.svg",
-    "png": "sources/supertiny/json-ld.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
   }
  ]
 }

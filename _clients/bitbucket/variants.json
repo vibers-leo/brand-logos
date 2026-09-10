@@ -8,7 +8,8 @@
   "sources/iconify/bitbucket.svg": "059a9dc992dd596a",
   "sources/devicons/bitbucket-original.svg": "d59bc8c293355058",
   "sources/wvl/bitbucket.svg": "dd3102d942bf239f",
-  "sources/vlz/wide.svg": "d4abcf134522a5a6"
+  "sources/vlz/wide.svg": "d4abcf134522a5a6",
+  "sources/supertiny/bitbucket.svg": "7597a67e3ab80ae2"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/bitbucket-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/bitbucket.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-bitbucket",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/bitbucket.svg",
-    "png": "sources/supertiny/bitbucket.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

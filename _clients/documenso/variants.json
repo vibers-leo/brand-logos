@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "documenso",
- "primary": "svgl-documenso",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "57bb70d9f3d05968",
+  "sources/svgl/documenso.svg": "57bb70d9f3d05968"
+ },
  "variants": [
   {
-   "key": "svgl-documenso",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
-   "color": "color",
-   "label": "SVGL · 심볼",
+   "color": "mono-dark",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/svgl/documenso.svg",
-    "png": "sources/svgl/documenso.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "svgl",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "svgl",
+     "file": "sources/svgl/documenso.svg"
+    }
+   ]
   }
  ]
 }

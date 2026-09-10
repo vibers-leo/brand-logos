@@ -2,22 +2,32 @@
  "schema": 1,
  "algo_v": 1,
  "id": "parrotos",
- "primary": "supertiny-parrotos",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "153ea6518c5635c4",
+  "sources/supertiny/parrotos.svg": "153ea6518c5635c4"
+ },
  "variants": [
   {
-   "key": "supertiny-parrotos",
+   "key": "symbol",
    "form": "symbol",
    "lang": "unknown",
    "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
+   "label": "심볼형",
    "files": {
-    "svg": "sources/supertiny/parrotos.svg",
-    "png": "sources/supertiny/parrotos.png"
+    "svg": "logo.svg",
+    "png": "logo-800.png"
    },
    "aspect": 1.0,
    "provider": "supertiny",
    "origin": "collected",
-   "order": 100
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/parrotos.svg"
+    }
+   ]
   }
  ]
 }

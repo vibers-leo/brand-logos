@@ -10,7 +10,8 @@
   "sources/devicons/heroku-original.svg": "709ba7aab1e56c07",
   "sources/wvl/heroku-icon.svg": "169e47d164d00eab",
   "sources/wvl/heroku.svg": "83271c368fb23027",
-  "sources/heroku-icon.svg": "169e47d164d00eab"
+  "sources/heroku-icon.svg": "169e47d164d00eab",
+  "sources/supertiny/heroku.svg": "f0a05566960bdb2c"
  },
  "variants": [
   {
@@ -39,6 +40,10 @@
     {
      "provider": "merged",
      "file": "sources/heroku-icon.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/heroku.svg"
     }
    ]
   },
@@ -66,21 +71,6 @@
      "file": "sources/wvl/heroku.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-heroku",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/heroku.svg",
-    "png": "sources/supertiny/heroku.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

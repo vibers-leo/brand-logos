@@ -5,7 +5,9 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "984a3dae34939c73",
-  "sources/svgl/wordmark.svg": "dbbec24288d5ea5e"
+  "sources/svgl/wordmark.svg": "dbbec24288d5ea5e",
+  "sources/lobe/opencode.svg": "2d79d7d60ca78e6f",
+  "sources/lobe/opencode-text.svg": "d5fe051e1428656b"
  },
  "variants": [
   {
@@ -21,7 +23,13 @@
    "aspect": 0.833,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/opencode.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -35,37 +43,13 @@
    "aspect": 5.556,
    "provider": "svgl",
    "origin": "collected",
-   "order": 40
-  },
-  {
-   "key": "lobe-opencode",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 심볼",
-   "files": {
-    "svg": "sources/lobe/opencode.svg",
-    "png": "sources/lobe/opencode.png"
-   },
-   "aspect": 1.0,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 102
-  },
-  {
-   "key": "lobe-opencode-text",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
-   "files": {
-    "svg": "sources/lobe/opencode-text.svg",
-    "png": "sources/lobe/opencode-text.png"
-   },
-   "aspect": 8.6022,
-   "provider": "lobe",
-   "origin": "collected",
-   "order": 103
+   "order": 40,
+   "alts": [
+    {
+     "provider": "lobe",
+     "file": "sources/lobe/opencode-text.svg"
+    }
+   ]
   }
  ]
 }

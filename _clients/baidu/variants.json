@@ -5,7 +5,8 @@
  "primary": "symbol",
  "fingerprint": {
   "logo.svg": "11a0de7bc2c87995",
-  "sources/vlz/wide.svg": "a5ad9f75132b9575"
+  "sources/vlz/wide.svg": "a5ad9f75132b9575",
+  "sources/supertiny/baidu.svg": "8ac3ac68c6e9babd"
  },
  "variants": [
   {
@@ -21,7 +22,13 @@
    "aspect": 0.922,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/baidu.svg"
+    }
+   ]
   },
   {
    "key": "wordmark",
@@ -36,21 +43,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-baidu",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/baidu.svg",
-    "png": "sources/supertiny/baidu.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

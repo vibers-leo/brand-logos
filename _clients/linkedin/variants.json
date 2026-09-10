@@ -11,7 +11,8 @@
   "sources/devicons/linkedin-original.svg": "06efd8244f805b03",
   "sources/wvl/linkedin-icon.svg": "1bec810d7ffa93d6",
   "sources/wvl/linkedin.svg": "e084c8c9fbf15ddc",
-  "sources/linkedin-icon.svg": "1bec810d7ffa93d6"
+  "sources/linkedin-icon.svg": "1bec810d7ffa93d6",
+  "sources/supertiny/linkedin.svg": "7d1bb46a93ce5e1f"
  },
  "variants": [
   {
@@ -46,6 +47,10 @@
      "file": "sources/linkedin-icon.svg"
     },
     {
+     "provider": "supertiny",
+     "file": "sources/supertiny/linkedin.svg"
+    },
+    {
      "provider": "font-awesome",
      "file": "sources/fa.svg"
     }
@@ -71,21 +76,6 @@
      "file": "sources/wvl/linkedin.svg"
     }
    ]
-  },
-  {
-   "key": "supertiny-linkedin",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/linkedin.svg",
-    "png": "sources/supertiny/linkedin.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

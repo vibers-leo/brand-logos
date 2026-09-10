@@ -4,7 +4,8 @@
  "id": "wikipedia",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "8b6f7a305cf35822"
+  "logo.svg": "8b6f7a305cf35822",
+  "sources/supertiny/wikipedia.svg": "acaa7835c39546dd"
  },
  "variants": [
   {
@@ -20,22 +21,13 @@
    "aspect": 1.573,
    "provider": "unknown",
    "origin": "collected",
-   "order": 10
-  },
-  {
-   "key": "supertiny-wikipedia",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/wikipedia.svg",
-    "png": "sources/supertiny/wikipedia.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 101
+   "order": 10,
+   "alts": [
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/wikipedia.svg"
+    }
+   ]
   }
  ]
 }

@@ -8,7 +8,8 @@
   "sources/iconify/python.svg": "5c4905aaa7b1a9b4",
   "sources/devicons/python-original.svg": "7ef53dceb8bc32cd",
   "sources/wvl/python.svg": "37b4be3b7d0f0f2b",
-  "sources/vlz/wide.svg": "ea775d896245245b"
+  "sources/vlz/wide.svg": "ea775d896245245b",
+  "sources/supertiny/python.svg": "ffc03dc304d7ac20"
  },
  "variants": [
   {
@@ -37,6 +38,10 @@
     {
      "provider": "devicons",
      "file": "sources/devicons/python-original.svg"
+    },
+    {
+     "provider": "supertiny",
+     "file": "sources/supertiny/python.svg"
     }
    ]
   },
@@ -53,21 +58,6 @@
    "provider": "vectorlogozone",
    "origin": "collected",
    "order": 40
-  },
-  {
-   "key": "supertiny-python",
-   "form": "symbol",
-   "lang": "unknown",
-   "color": "color",
-   "label": "앱 아이콘 · SuperTinyIcons",
-   "files": {
-    "svg": "sources/supertiny/python.svg",
-    "png": "sources/supertiny/python.png"
-   },
-   "aspect": 1.0,
-   "provider": "supertiny",
-   "origin": "collected",
-   "order": 102
   }
  ]
 }

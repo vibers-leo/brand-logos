@@ -4,7 +4,8 @@
  "id": "searchapi",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ed09cede6b47c539"
+  "logo.svg": "ed09cede6b47c539",
+  "sources/lobe/searchapi-text.svg": "2eb255791f87e6b3"
  },
  "variants": [
   {
@@ -23,19 +24,19 @@
    "order": 30
   },
   {
-   "key": "lobe-searchapi-text",
+   "key": "wordmark",
    "form": "wordmark",
    "lang": "unknown",
-   "color": "color",
-   "label": "Lobe Icons · 워드마크",
+   "color": "mono-dark",
+   "label": "워드마크형",
    "files": {
     "svg": "sources/lobe/searchapi-text.svg",
     "png": "sources/lobe/searchapi-text.png"
    },
-   "aspect": 7.2727,
+   "aspect": 5.061,
    "provider": "lobe",
    "origin": "collected",
-   "order": 101
+   "order": 40
   }
  ]
 }

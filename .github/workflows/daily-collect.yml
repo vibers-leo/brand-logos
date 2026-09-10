@@ -106,12 +106,12 @@ jobs:
         run: |
           for s in svgl vlz thesvg gilbarbara; do
             echo "::group::collect-wordmarks-$s"
-            python3 "scripts/collect-wordmarks-$s.py" || echo "⚠️ $s 실패 (계속 진행)"
+            timeout --signal=TERM 8m python3 -u "scripts/collect-wordmarks-$s.py" || echo "⚠️ $s 실패·타임아웃 (계속 진행)"
             echo "::endgroup::"
           done
           echo "::group::collect-wordmarks-commons"
-          python3 scripts/collect-wordmarks-commons.py --chunk 2500 \
-            || echo "⚠️ commons 실패 (계속 진행)"
+          timeout --signal=TERM 8m python3 -u scripts/collect-wordmarks-commons.py --chunk 2500 \
+            || echo "⚠️ commons 실패·타임아웃 (계속 진행)"
           echo "::endgroup::"
 
       # ★ 국내 수집. 2026-08-29 에 1,700건을 넣었고 그 방식을 그대로 돌린다.

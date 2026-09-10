@@ -1,8 +1,10 @@
 name: Daily Brand SVG Collect
 
 on:
-  # 수집 스케줄은 ZeroClaw가 단일 소스로 관리한다.
-  # GitHub Actions 자체 schedule과 중복되면 같은 배치가 동시에 실행될 수 있다.
+  # 최신 수집·품질 검수 파이프라인을 매일 실행한다.
+  # 수집 결과는 먼저 GitHub에 커밋하고, CDN 업로드는 맥 동기화 작업이 담당한다.
+  schedule:
+    - cron: '0 18 * * *' # 매일 03:00 KST
   workflow_dispatch:
 
 permissions:

@@ -3919,6 +3919,126 @@
 "http://museum.namdongcmc.co.kr/": {
 "at": "2026-09-07",
 "why": "접속❌ Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://w"
+},
+"https://www.yuhs.or.kr/history/museum/dongeun/intro/": {
+"at": "2026-09-11",
+"why": "접속❌ TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall "
+},
+"http://www.hggmuseum.com/": {
+"at": "2026-09-11",
+"why": "탈락 css-bg:HTML 응답"
+},
+"http://gomuseum.seoul.go.kr/sekm/index": {
+"at": "2026-09-11",
+"why": "접속❌ Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://w"
+},
+"https://stadium.seoul.go.kr/gallery/olympic-exhibition": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://moca-museum.co.kr/": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.kansong.org": {
+"at": "2026-09-11",
+"why": "탈락 filename:받기 실패 OSError"
+},
+"http://www.ottchil.or.kr/": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.seonbawi.com/": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://sema.seoul.go.kr/": {
+"at": "2026-09-11",
+"why": "탈락 filename:렌더 실패·문장·사진"
+},
+"http://www.sungkokmuseum.org/main": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.totalmuseum.org": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://artsonje.org/asc/kor/main.asp": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.bukchonartmuseum.com": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.chiwoocraftmuseum.org": {
+"at": "2026-09-11",
+"why": "접속❌ Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://"
+},
+"http://www.jculture.co.kr/museum/": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.imageroot.co.kr/": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.photomuseum.or.kr/": {
+"at": "2026-09-11",
+"why": "접속❌ Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://"
+},
+"http://www.poscoartmuseum.org/": {
+"at": "2026-09-11",
+"why": "접속❌ Error: Page.evaluate: Execution context was destroyed, m"
+},
+"http://rodin.samsunglife.com/": {
+"at": "2026-09-11",
+"why": "접속❌ Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://w"
+},
+"http://www.savinamuseum.com/": {
+"at": "2026-09-11",
+"why": "탈락 filename:렌더 실패·문장·사진 | header:너무 작음 (28, 29)"
+},
+"http://www.dogong.net/": {
+"at": "2026-09-11",
+"why": "탈락 css-bg:HTML 응답"
+},
+"https://artmuseum.jeonnam.go.kr/sites/museumofart/index.do": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://daelimmuseum.org/": {
+"at": "2026-09-11",
+"why": "탈락 css-bg:받기 실패 OSError | css-bg:받기 실패 OSError"
+},
+"http://www.science.go.kr/home.bs": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://www.usm.go.kr/": {
+"at": "2026-09-11",
+"why": "접속❌ Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://"
+},
+"https://www.sciport.or.kr/": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://apma.amorepacific.com/": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://sema.seoul.go.kr/kr/visit/bukseoul": {
+"at": "2026-09-11",
+"why": "탈락 filename:렌더 실패·문장·사진"
+},
+"https://sema.seoul.go.kr/kr/visit/seosomun": {
+"at": "2026-09-11",
+"why": "탈락 filename:렌더 실패·문장·사진"
+},
+"https://sema.seoul.go.kr/kr/visit/namseoul": {
+"at": "2026-09-11",
+"why": "탈락 filename:렌더 실패·문장·사진"
 }
 },
 "franchise-rendered": {
@@ -4864,6 +4984,78 @@
 },
 "https://noleoogae.com": {
 "at": "2026-09-10",
+"why": "후보 없음"
+},
+"https://xn--2e0bm91a66au7pcnbu53a.com": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://nlpigyg.fordining.kr": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://fruitfarm.co.kr": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://woomong.kr": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://xn--4y2b02dq8ej1e8yc.com": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://trophytisland.com": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://highbingsu.com": {
+"at": "2026-09-11",
+"why": "접속❌ TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall "
+},
+"https://budaeok.co.kr": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://prefercoffee.com": {
+"at": "2026-09-11",
+"why": "탈락 filename:HTML 응답 | filename:HTML 응답"
+},
+"http://paedeaplus.com": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://uiryeongsoba.com": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://jinsimcutlet.com": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://mimigo.whost.co.kr": {
+"at": "2026-09-11",
+"why": "탈락 filename:정사각 단색(흰색) — UI 아이콘 의심 51x50"
+},
+"http://allsunday.co.kr": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"http://rxpjfx3vss.qshop.ai": {
+"at": "2026-09-11",
+"why": "후보 없음"
+},
+"https://yangsan.kbsba.com": {
+"at": "2026-09-11",
+"why": "접속❌ Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://w"
+},
+"http://mifendang.com": {
+"at": "2026-09-11",
+"why": "탈락 filename:통짜 배너(잉크 0.88)"
+},
+"https://norangtongdak.co.kr": {
+"at": "2026-09-11",
 "why": "후보 없음"
 }
 }

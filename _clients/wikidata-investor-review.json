@@ -1,6 +1,6 @@
 {
  "note": "위키데이터에 로고는 있으나 파일명이 브랜드 영문명과 겹치지 않아 자동 수집하지 않은 목록. 위키데이터 쪽 연결 오류가 섞여 있다(롯데하이마트→Lotte Mart).",
- "generated_at": "2026-09-10",
+ "generated_at": "2026-09-11",
  "count": 6,
  "items": [
   {
@@ -40,16 +40,16 @@
    "category": "금융·결제"
   },
   {
-   "qid": "Q6546580",
-   "ko": null,
-   "en": "Lightspeed Venture Partners",
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LSVP%20Horizontal%20Logo.svg",
-   "domain": "lsvp.com",
+   "qid": "Q2616400",
+   "ko": "와이 콤비네이터",
+   "en": null,
+   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Y%20Combinator%20logo.svg",
+   "domain": "ycombinator.com",
    "fame": 0,
-   "file": "LSVP Horizontal Logo.svg",
-   "slug": "lightspeed-venture-partners",
+   "file": "Y Combinator logo.svg",
+   "slug": "q2616400",
    "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
-   "category": "기타"
+   "category": "교육"
   },
   {
    "qid": "Q18151794",
@@ -64,16 +64,16 @@
    "category": "기타"
   },
   {
-   "qid": "Q2616400",
-   "ko": "와이 콤비네이터",
-   "en": null,
-   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Y%20Combinator%20logo.svg",
-   "domain": "ycombinator.com",
+   "qid": "Q6546580",
+   "ko": null,
+   "en": "Lightspeed Venture Partners",
+   "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/LSVP%20Horizontal%20Logo.svg",
+   "domain": "lsvp.com",
    "fame": 0,
-   "file": "Y Combinator logo.svg",
-   "slug": "q2616400",
+   "file": "LSVP Horizontal Logo.svg",
+   "slug": "lightspeed-venture-partners",
    "reason": "파일명이 이름과 겹치지 않음 — 다른 회사 로고일 수 있다",
-   "category": "교육"
+   "category": "기타"
   }
  ]
 }

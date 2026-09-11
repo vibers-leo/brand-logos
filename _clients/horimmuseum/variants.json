@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "horimmuseum",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "eb9d56d64fdb870b"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.586,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

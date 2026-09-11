@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "hipchat",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "bd223e1ccd26b7ca"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.07,
+   "provider": "iconify-logos",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

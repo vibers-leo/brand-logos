@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-11T02:14:14.468684+00:00",
+ "generated_at": "2026-09-11T21:59:46.075869+00:00",
  "catalog": {
-  "brands": 46501,
-  "svg": 41336,
-  "png_only": 5165,
-  "detail_metadata_expected": 46501,
-  "variant_manifests": 40574,
+  "brands": 46653,
+  "svg": 41444,
+  "png_only": 5209,
+  "detail_metadata_expected": 46653,
+  "variant_manifests": 40680,
   "multiple_forms": 1961
  },
  "backlog": {
   "svg_needed": 1513,
   "additional_forms_needed": 7278,
   "png_render_failures": 33,
-  "external_source_candidates": 7490
+  "external_source_candidates": 7412
  },
  "source_coverage": {
   "wikimedia": 33993,
@@ -34,6 +34,7 @@
   "kr-club-site": 125,
   "kr-media-site": 124,
   "kr-univ-site": 117,
+  "iconify-logos": 100,
   "kr-muni-site": 98,
   "kr-hosp-site": 89,
   "apparel": 58,

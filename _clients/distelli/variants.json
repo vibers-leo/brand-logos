@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "distelli",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "c5223e17593a4a6f"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.088,
+   "provider": "iconify-logos",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "autocode",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "b635eec7c1c0af8d"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.063,
+   "provider": "iconify-logos",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

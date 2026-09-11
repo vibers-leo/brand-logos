@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-11T01:08:16.038361+00:00",
+ "generated_at": "2026-09-11T20:53:03.063248+00:00",
  "source": {
   "name": "theSVG",
   "url": "https://github.com/glincker/thesvg",
   "registry": "https://thesvg.org/api/registry.json"
  },
  "policy": "발굴 전용. 저장소 코드의 MIT와 별개로 개별 브랜드 로고는 상표일 수 있다. 각 항목의 license·공식 사용 가이드·브랜드 매핑을 검토하기 전에는 다운로드·서비스 반영 금지.",
- "known_brand_count": 46432,
- "source_brand_count": 6541,
+ "known_brand_count": 46602,
+ "source_brand_count": 6547,
  "new_brand_candidate_count": 1147,
- "form_gap_candidate_count": 1751,
+ "form_gap_candidate_count": 1757,
  "new_brands": [
   {
    "source_id": "a-frame",
@@ -10880,18 +10880,6 @@
    "url": "https://clickteam.com"
   },
   {
-   "source_id": "cloudant",
-   "title": "IBM Cloudant",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://www.ibm.com/cloud/cloudant"
-  },
-  {
    "source_id": "cockroachdb",
    "title": "CockroachDB",
    "variants": [
@@ -10987,18 +10975,6 @@
    ],
    "license": "MPL-2.0",
    "url": "https://getconvoy.io"
-  },
-  {
-   "source_id": "coverity",
-   "title": "Coverity",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://scan.coverity.com"
   },
   {
    "source_id": "cplusplus-builder",
@@ -11102,18 +11078,6 @@
    ],
    "license": "Trademark",
    "url": "https://decents.me/"
-  },
-  {
-   "source_id": "dependencyci",
-   "title": "DependencyCI",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://dependencyci.com"
   },
   {
    "source_id": "deskera",
@@ -11290,18 +11254,6 @@
    "url": "https://encore.dev"
   },
   {
-   "source_id": "epsagon",
-   "title": "Epsagon",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://epsagon.com"
-  },
-  {
    "source_id": "evidence-dev",
    "title": "Evidence",
    "variants": [
@@ -11376,6 +11328,18 @@
    ],
    "license": "MIT",
    "url": "https://featherless.ai"
+  },
+  {
+   "source_id": "fennec",
+   "title": "Fennec",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "MPL-2.0",
+   "url": "https://f-droid.org/packages/org.mozilla.fennec_fdroid/"
   },
   {
    "source_id": "ferrari-ndotvdot",
@@ -11498,6 +11462,18 @@
    ],
    "license": "brand-use",
    "url": "https://www.adobe.com/products/fresco"
+  },
+  {
+   "source_id": "frnkln-technologies",
+   "title": "Frnkln Technologies",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "MIT",
+   "url": "https://frnkln.com.br/"
   },
   {
    "source_id": "fullstory",
@@ -11637,6 +11613,20 @@
    ],
    "license": "Trademark",
    "url": "https://www.gmail.com"
+  },
+  {
+   "source_id": "godonateme",
+   "title": "GoDonate.me",
+   "variants": [
+    "dark",
+    "default",
+    "mono"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://godonate.me"
   },
   {
    "source_id": "gong",
@@ -13518,6 +13508,18 @@
    ],
    "license": "CC0-1.0",
    "url": "https://www.picard.fr"
+  },
+  {
+   "source_id": "plutotv",
+   "title": "PlutoTV",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Unlicense",
+   "url": "https://pluto.tv/"
   },
   {
    "source_id": "pocus",
@@ -21822,6 +21824,23 @@
    ]
   },
   {
+   "source_id": "cloudant",
+   "title": "IBM Cloudant",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://www.ibm.com/cloud/cloudant",
+   "id": "cloudant",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "cloudbeaver",
    "title": "CloudBeaver",
    "variants": [
@@ -22582,6 +22601,25 @@
    ]
   },
   {
+   "source_id": "constant-contact",
+   "title": "Constant Contact",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://www.constantcontact.com/",
+   "id": "constant-contact",
+   "current_forms": [
+    "wordmark"
+   ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "contactless-payment",
    "title": "Contactless Payment",
    "variants": [
@@ -22772,6 +22810,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "coverity",
+   "title": "Coverity",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://scan.coverity.com",
+   "id": "coverity",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -23594,6 +23649,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "dependencyci",
+   "title": "DependencyCI",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://dependencyci.com",
+   "id": "dependencyci",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -25238,6 +25310,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "epsagon",
+   "title": "Epsagon",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://epsagon.com",
+   "id": "epsagon",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -35137,6 +35226,27 @@
    "id": "minutemailer",
    "current_forms": [
     "horizontal"
+   ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "mir",
+   "title": "Mir",
+   "variants": [
+    "dark",
+    "default",
+    "mono"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://pay.mironline.ru",
+   "id": "mir",
+   "current_forms": [
+    "wordmark"
    ],
    "missing_forms": [
     "symbol"

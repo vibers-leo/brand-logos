@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dreamfactory",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "f81e1c363b6b1dd4"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.08,
+   "provider": "iconify-logos",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

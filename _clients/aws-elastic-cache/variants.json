@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aws-elastic-cache",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "83d8b30386a28772"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "iconify-logos",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

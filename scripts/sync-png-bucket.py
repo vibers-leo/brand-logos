@@ -87,28 +87,32 @@ def client():
     )
 
 
-def remote_sizes(s3, bucket: str) -> dict[str, int]:
-    """버킷에 이미 있는 객체의 크기. 한 번에 받아 두고 대조에 쓴다."""
+def remote_sizes(s3, bucket: str, prefixes: list[str] | None = None) -> dict[str, int]:
+    """버킷 객체 크기. 대상 브랜드가 있으면 각 접두사만 조회한다."""
     sizes: dict[str, int] = {}
-    tok = None
-    while True:
-        kw = {"Bucket": bucket, "Prefix": PREFIX, "MaxKeys": 1000}
-        if tok:
-            kw["ContinuationToken"] = tok
-        r = s3.list_objects_v2(**kw)
-        for o in r.get("Contents", []):
-            sizes[o["Key"]] = o["Size"]
-        if not r.get("IsTruncated"):
-            return sizes
-        tok = r["NextContinuationToken"]
+    for prefix in prefixes or [PREFIX]:
+        tok = None
+        while True:
+            kw = {"Bucket": bucket, "Prefix": prefix, "MaxKeys": 1000}
+            if tok:
+                kw["ContinuationToken"] = tok
+            r = s3.list_objects_v2(**kw)
+            for o in r.get("Contents", []):
+                sizes[o["Key"]] = o["Size"]
+            if not r.get("IsTruncated"):
+                break
+            tok = r["NextContinuationToken"]
+    return sizes
 
 
-def local_pngs() -> list[tuple[str, Path, int]]:
+def local_pngs(brand_ids: list[str] | None = None) -> list[tuple[str, Path, int]]:
     out = []
-    for d in sorted(os.scandir(BASE), key=lambda e: e.name):
-        if not d.is_dir():
-            continue
-        for root, _, files in os.walk(d.path):
+    if brand_ids:
+        dirs = [BASE / bid for bid in brand_ids if (BASE / bid).is_dir()]
+    else:
+        dirs = [Path(d.path) for d in sorted(os.scandir(BASE), key=lambda e: e.name) if d.is_dir()]
+    for directory in dirs:
+        for root, _, files in os.walk(directory):
             for f in files:
                 if not f.lower().endswith(".png"):
                     continue
@@ -131,7 +135,7 @@ def main() -> int:
     s3 = client()
     bucket = os.environ["NCP_BUCKET"].strip()
 
-    files = local_pngs()
+    files = local_pngs(args.brand)
     if args.brand:
         requested = set(args.brand)
         files = [item for item in files if item[0].split("/", 2)[1] in requested]
@@ -142,19 +146,10 @@ def main() -> int:
     total = sum(s for _, _, s in files)
     print(f"로컬 PNG {len(files):,}개 / {total/1024/1024:.0f}MB")
 
-    # 전체 버킷 목록(20만+ 객체)을 먼저 읽으면 소수의 긴급 복구도 수 분이 걸린다.
-    # --brand 는 선택 파일만 HEAD로 확인해 404 복구를 바로 처리한다.
-    if args.brand and not args.pull:
-        have: dict[str, int] = {}
-        for key, _, _ in files:
-            try:
-                have[key] = s3.head_object(Bucket=bucket, Key=key)["ContentLength"]
-            except Exception as error:
-                code = getattr(error, "response", {}).get("Error", {}).get("Code", "")
-                if str(code) not in {"404", "NoSuchKey", "NotFound"}:
-                    raise
-    else:
-        have = remote_sizes(s3, bucket)
+    # --brand 가 있으면 선택 브랜드 prefix 만 나열한다. pull 에서도 전체 버킷을
+    #    페이지 순회하지 않도록 해 긴 수동 동기화가 세션을 붙잡지 않는다.
+    prefixes = [f"{PREFIX}{bid}/" for bid in args.brand] if args.brand else None
+    have = remote_sizes(s3, bucket, prefixes)
 
     if args.pull:
         local = {k for k, _, _ in files}

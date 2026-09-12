@@ -50,14 +50,30 @@ def client():
                       retries={"max_attempts": 5, "mode": "standard"}))
 
 def main():
-    dry = "--dry-run" in sys.argv
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--brand", action="append", default=[], help="선택 브랜드만 동기화 (여러 번 지정 가능)")
+    args = ap.parse_args()
+    dry = args.dry_run
     s3 = client(); bucket = os.environ["NCP_BUCKET"]
+    prefixes = ([f"{PREFIX}{bid}/" for bid in args.brand] +
+                [PREFIX+name for name in ("brands.json", "brands-slim.json", "variants-index.json")]) if args.brand else [PREFIX]
     remote = {}
-    for page in s3.get_paginator("list_objects_v2").paginate(Bucket=bucket, Prefix=PREFIX):
-        for o in page.get("Contents", []):
-            remote[o["Key"]] = o["Size"]
+    for prefix in prefixes:
+        for page in s3.get_paginator("list_objects_v2").paginate(Bucket=bucket, Prefix=prefix):
+            for o in page.get("Contents", []):
+                remote[o["Key"]] = o["Size"]
     todo = []
-    for p in BASE.rglob("*"):
+    if args.brand:
+        paths = []
+        for bid in args.brand:
+            d=BASE/bid
+            if d.is_dir(): paths.extend(d.rglob("*"))
+        paths.extend(BASE/name for name in ("brands.json", "brands-slim.json", "variants-index.json") if (BASE/name).is_file())
+    else:
+        paths = BASE.rglob("*")
+    for p in paths:
         # _source.json 은 폴더 복구용 내부 메타다. CDN 에 올릴 이유가 없고
         # 4만 개가 버킷을 채운다(2026-09-02 실수로 올림).
         if p.name == "_source.json":
@@ -65,12 +81,9 @@ def main():
         if not p.is_file() or p.suffix.lower() not in TYPES:
             continue
         key = PREFIX + str(p.relative_to(BASE))
-        # ⚠️ 크기만 비교하면 **크기가 안 변한 갱신을 영영 안 올린다.**
-        #    stats.json(53B)이 44,789→44,788 로 바뀌었는데 둘 다 53B 라
-        #    건너뛰어, 사이트가 옛 숫자를 계속 보여줬다(2026-09-03).
-        #    작은 텍스트 파일은 내용까지 비교한다 — 개수가 적어 비용이 없다.
+        # --brand 는 선택 자산과 전역 인덱스만 강제로 올려 크기가 같은 수정도 반영한다.
         sz = p.stat().st_size
-        if remote.get(key) == sz:
+        if not args.brand and remote.get(key) == sz:
             # ⚠️ 대상을 **최상위 인덱스 파일로 한정한다.** 브랜드마다 있는
             #    brand.json 까지 내용 비교하면 GET 이 4.5만 번 나가 몇 시간 걸린다
             #    (2026-09-03 에 그렇게 만들었다가 되돌렸다).
@@ -85,7 +98,7 @@ def main():
                 pass                    # 확인 실패하면 올린다 (안전한 쪽)
         todo.append((key, p))
     mb = sum(p.stat().st_size for _, p in todo) / 1024 / 1024
-    print(f"로컬 대상 {sum(1 for p in BASE.rglob('*') if p.is_file() and p.suffix.lower() in TYPES):,}개")
+    print(f"로컬 대상 {len(paths):,}개")
     print(f"버킷 보유 {len(remote):,}개 → 올릴 것 {len(todo):,}개 ({mb:.0f}MB)")
     if dry or not todo:
         return 0

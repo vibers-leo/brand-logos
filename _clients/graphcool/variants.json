@@ -4,9 +4,24 @@
  "id": "graphcool",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9a84d700093235cc"
+  "logo.svg": "9a84d700093235cc",
+  "sources/vlz/wide.svg": "e7d388a5907e8855"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.2,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

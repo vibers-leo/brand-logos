@@ -4,7 +4,8 @@
  "id": "bugsnag-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cdaf65a2cf6ead81"
+  "logo.svg": "cdaf65a2cf6ead81",
+  "sources/vlz/wide.svg": "5d15b12fd12ab758"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "iconify-logos",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.446,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

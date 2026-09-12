@@ -4,7 +4,8 @@
  "id": "gratipay",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "716b0bc9c26b9395"
+  "logo.svg": "716b0bc9c26b9395",
+  "sources/vlz/wide.svg": "cf662e13b2e2073c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "iconify-logos",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.191,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "appbase",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "66f247e09b80fb11"
+  "logo.svg": "66f247e09b80fb11",
+  "sources/gilbarbara/full.svg": "1530979f8ce36694"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "iconify-logos",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 4.891,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

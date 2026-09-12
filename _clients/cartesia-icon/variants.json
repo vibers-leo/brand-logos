@@ -4,7 +4,8 @@
  "id": "cartesia-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "065970ae017a5795"
+  "logo.svg": "065970ae017a5795",
+  "sources/gilbarbara/full.svg": "7807de29fbb98559"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "iconify-logos",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 7.031,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "daily-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0589b0f4a1fb1f4f"
+  "logo.svg": "0589b0f4a1fb1f4f",
+  "sources/gilbarbara/full.svg": "0ae3bc6dbe0bc27b"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/gilbarbara/full.svg"
+   },
+   "aspect": 2.913,
+   "provider": "gilbarbara",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

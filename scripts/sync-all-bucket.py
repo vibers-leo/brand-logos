@@ -72,7 +72,9 @@ def main():
             if d.is_dir(): paths.extend(d.rglob("*"))
         paths.extend(BASE/name for name in ("brands.json", "brands-slim.json", "variants-index.json") if (BASE/name).is_file())
     else:
-        paths = BASE.rglob("*")
+        # rglob 자체는 iterator라 아래에서 len()을 사용할 수 없다.
+        # 대규모 동기화 대상은 한 번만 펼쳐 메모리에 보관한다.
+        paths = list(BASE.rglob("*"))
     for p in paths:
         # _source.json 은 폴더 복구용 내부 메타다. CDN 에 올릴 이유가 없고
         # 4만 개가 버킷을 채운다(2026-09-02 실수로 올림).

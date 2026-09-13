@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kine",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "4e869e1dbcf5b6a6"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.867,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

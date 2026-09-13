@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bxcloud",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "9166e5968475b627"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 11.26,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

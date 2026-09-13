@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "files-pinwheel",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "347aa4e972bc72e0"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.965,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

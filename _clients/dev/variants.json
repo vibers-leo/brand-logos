@@ -4,9 +4,24 @@
  "id": "dev",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "9b4be74df1cf0fc9"
+  "logo.svg": "9b4be74df1cf0fc9",
+  "sources/iconify/dev-icon.svg": "86b7e3582be7a8c8"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/dev-icon.svg"
+   },
+   "aspect": 1.175,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",

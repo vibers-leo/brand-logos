@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "commvault",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "fd4bed5d84f863a1"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 6.056,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

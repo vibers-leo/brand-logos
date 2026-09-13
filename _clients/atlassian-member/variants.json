@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "atlassian-member",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "607cff2283311818"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.9,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

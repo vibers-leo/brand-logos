@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "apache-batik",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "f2f0fcb6028cfe04"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.953,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

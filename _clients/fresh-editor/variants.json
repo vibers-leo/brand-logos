@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fresh-editor",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "725d10f6a09083de"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.546,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ksuite-points",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "182244a1c05a6bb3"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.764,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

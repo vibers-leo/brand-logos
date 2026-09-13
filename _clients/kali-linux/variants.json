@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kali-linux",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "21b7c588fb93c4a4"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.344,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "adminerevo",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "747b325f08cb3c13"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.84,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aternity",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "ee3386908c9bc666"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.669,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

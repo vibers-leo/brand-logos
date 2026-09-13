@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "auracast",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "d482c79d9fcb1a35"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.007,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

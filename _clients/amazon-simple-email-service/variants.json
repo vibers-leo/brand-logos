@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "amazon-simple-email-service",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "cce9566b3a9eb7fc"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

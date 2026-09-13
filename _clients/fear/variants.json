@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fear",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "2776b4d8d2044732"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.817,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

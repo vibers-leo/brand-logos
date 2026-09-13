@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "ecloudtech",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "9c6ccaa4749ef331"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.976,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

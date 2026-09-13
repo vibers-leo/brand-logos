@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kubedb",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "91e7959d491e96f6"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.953,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

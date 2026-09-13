@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "lastsignal",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "b2821b230689728e"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.8,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

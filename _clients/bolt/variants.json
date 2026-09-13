@@ -4,7 +4,8 @@
  "id": "bolt",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "ac8c5aedce660dbc"
+  "logo.svg": "ac8c5aedce660dbc",
+  "sources/iconify/bolt-icon.svg": "fb42b7c1dfc54088"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "mono-dark",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/bolt-icon.svg"
+   },
+   "aspect": 0.787,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

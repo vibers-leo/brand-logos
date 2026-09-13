@@ -5,7 +5,8 @@
  "primary": "vertical",
  "fingerprint": {
   "logo.svg": "346c0ea4cb3e294f",
-  "sources/devicons/ory-original.svg": "346c0ea4cb3e294f"
+  "sources/devicons/ory-original.svg": "346c0ea4cb3e294f",
+  "sources/iconify/ory-icon.svg": "923c4fd9087beb3a"
  },
  "variants": [
   {
@@ -28,6 +29,20 @@
      "file": "sources/devicons/ory-original.svg"
     }
    ]
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/ory-icon.svg"
+   },
+   "aspect": 0.501,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

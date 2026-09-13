@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arctera",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "6305c10833849a57"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.27,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

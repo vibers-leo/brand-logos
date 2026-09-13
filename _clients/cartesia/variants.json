@@ -4,9 +4,24 @@
  "id": "cartesia",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "7807de29fbb98559"
+  "logo.svg": "7807de29fbb98559",
+  "sources/iconify/cartesia-icon.svg": "94789835573717a8"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/cartesia-icon.svg"
+   },
+   "aspect": 1.102,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",

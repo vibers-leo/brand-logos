@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "celr",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "0f68f3e0cc5cc1e4"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.414,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

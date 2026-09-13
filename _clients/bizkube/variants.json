@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bizkube",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "ac1b1fe2db6b0fdd"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.535,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

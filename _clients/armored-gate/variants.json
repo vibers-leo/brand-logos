@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "armored-gate",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "3c3ba6fad9526bc0"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.999,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

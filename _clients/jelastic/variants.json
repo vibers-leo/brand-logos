@@ -4,7 +4,8 @@
  "id": "jelastic",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "f7beb1c2b1770bad"
+  "logo.svg": "f7beb1c2b1770bad",
+  "sources/iconify/jelastic-icon.svg": "e29400490ac82008"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "iconify-logos",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/jelastic-icon.svg"
+   },
+   "aspect": 0.887,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

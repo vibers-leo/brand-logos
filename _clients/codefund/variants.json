@@ -4,9 +4,24 @@
  "id": "codefund",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "1fee051ef5cdfa2c"
+  "logo.svg": "1fee051ef5cdfa2c",
+  "sources/iconify/codefund-icon.svg": "acb9f8cff3b19ada"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/codefund-icon.svg"
+   },
+   "aspect": 1.031,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",

@@ -4,9 +4,24 @@
  "id": "influxdata",
  "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "1a280438e681c723"
+  "logo.svg": "1a280438e681c723",
+  "sources/iconify/influxdata-icon.svg": "649e5f4705d2df42"
  },
  "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/influxdata-icon.svg"
+   },
+   "aspect": 0.984,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
+  },
   {
    "key": "wordmark",
    "form": "wordmark",

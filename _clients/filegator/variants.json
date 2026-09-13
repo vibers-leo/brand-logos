@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "filegator",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "47a5d6622a365c85"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.385,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

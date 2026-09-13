@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "borussia-monchengladbach",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "29be71a5d7e870bb"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.663,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

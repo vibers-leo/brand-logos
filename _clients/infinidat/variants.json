@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "infinidat",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "88e393c4e6568e38"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 9.91,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

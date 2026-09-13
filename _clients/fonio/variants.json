@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "fonio",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "7eb37baf2778a019"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.778,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

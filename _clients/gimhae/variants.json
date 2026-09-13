@@ -1,1 +1,31 @@
-{"schema":1,"algo_v":1,"id":"gimhae","origin":"official-muni","primary":"logo","variants":[{"key":"logo","form":"wordmark","lang":"ko","color":"color","label":"김해시 로고","order":0,"files":{"png":"logo.png"}},{"key":"symbol","form":"symbol","lang":"unknown","color":"color","label":"김해시 심볼","order":1,"files":{"png":"variants/symbol.png"}},{"key":"slogan","form":"wordmark","lang":"ko","color":"color","label":"브랜드 슬로건","order":2,"files":{"png":"variants/slogan.png"}}]}
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "gimhae",
+ "origin": "manual",
+ "primary": "primary",
+ "variants": [
+  {
+   "key": "primary",
+   "form": "unknown",
+   "lang": "ko",
+   "color": "color",
+   "label": "심볼·기본형",
+   "order": 0,
+   "files": {
+    "png": "logo.png"
+   }
+  },
+  {
+   "key": "slogan",
+   "form": "wordmark",
+   "lang": "ko",
+   "color": "color",
+   "label": "브랜드 슬로건",
+   "order": 1,
+   "files": {
+    "png": "variants/slogan.png"
+   }
+  }
+ ]
+}

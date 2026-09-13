@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "anova",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "88360062c27b8e2a"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.692,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

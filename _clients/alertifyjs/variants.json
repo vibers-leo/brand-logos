@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "alertifyjs",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "cb8e39c32006e5ce"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.316,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

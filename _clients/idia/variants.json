@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "idia",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "4ec01a28320c7361"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.781,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

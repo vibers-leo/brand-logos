@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "alibaba-cloud-container-service-for-kubernetes",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "c1a0d7edace0cc11"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.882,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

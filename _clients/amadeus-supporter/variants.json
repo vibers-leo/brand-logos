@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "amadeus-supporter",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "df5ac296f512c65e"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.466,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

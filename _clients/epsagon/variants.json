@@ -4,7 +4,8 @@
  "id": "epsagon",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "3b86411ad78eb045"
+  "logo.svg": "3b86411ad78eb045",
+  "sources/iconify/epsagon-icon.svg": "c6327400f80dbd92"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "iconify-logos",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/epsagon-icon.svg"
+   },
+   "aspect": 1.576,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

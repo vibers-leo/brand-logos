@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "altium-designer",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "6ccffd6fe0412541"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.609,
+   "provider": "unknown",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

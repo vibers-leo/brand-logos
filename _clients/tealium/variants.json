@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "07afeae027dedf0d",
   "sources/iconify/tealium.svg": "07afeae027dedf0d",
-  "sources/wvl/tealium.svg": "b1b90be91dd7f2fe"
+  "sources/wvl/tealium.svg": "b1b90be91dd7f2fe",
+  "sources/iconify/tealium-icon.svg": "ee9e7cfd2358630d"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/tealium.svg"
     }
    ]
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/tealium-icon.svg"
+   },
+   "aspect": 0.611,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "aimbot",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "8d282f7e8c229653"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 2.0,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

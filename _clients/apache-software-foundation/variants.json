@@ -4,7 +4,8 @@
  "id": "apache-software-foundation",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "11e17785359304ec"
+  "logo.svg": "11e17785359304ec",
+  "sources/iconify/apache-software-foundation-icon.svg": "a7e109e0e856722a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "wikimedia",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/apache-software-foundation-icon.svg"
+   },
+   "aspect": 0.612,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

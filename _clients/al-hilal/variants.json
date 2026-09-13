@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "al-hilal",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "795acff8a5e68324"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.773,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "anycable",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "640f85bc0e5b4eb6"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.791,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

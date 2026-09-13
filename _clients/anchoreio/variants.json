@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "anchoreio",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "1fc874996b1928da"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.682,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

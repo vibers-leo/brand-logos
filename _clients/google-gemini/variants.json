@@ -6,7 +6,8 @@
  "fingerprint": {
   "logo.svg": "28cc6209b4258ac7",
   "sources/iconify/google-gemini.svg": "28cc6209b4258ac7",
-  "sources/wvl/google-gemini.svg": "042e6f0f0aa74e3b"
+  "sources/wvl/google-gemini.svg": "042e6f0f0aa74e3b",
+  "sources/iconify/google-gemini-icon.svg": "72bdec1fa71b6e97"
  },
  "variants": [
   {
@@ -33,6 +34,20 @@
      "file": "sources/wvl/google-gemini.svg"
     }
    ]
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/google-gemini-icon.svg"
+   },
+   "aspect": 1.0,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

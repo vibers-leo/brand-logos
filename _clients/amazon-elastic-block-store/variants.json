@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "amazon-elastic-block-store",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "f94544f0ef30f481"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.679,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

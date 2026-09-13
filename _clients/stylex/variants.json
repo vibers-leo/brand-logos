@@ -4,7 +4,8 @@
  "id": "stylex",
  "primary": "horizontal",
  "fingerprint": {
-  "logo.svg": "634d76ba583fc4dd"
+  "logo.svg": "634d76ba583fc4dd",
+  "sources/iconify/stylex-icon.svg": "0d15e09373f145d1"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 10
+  },
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "en",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "sources/iconify/stylex-icon.svg"
+   },
+   "aspect": 0.841,
+   "provider": "iconify",
+   "origin": "collected",
+   "order": 30
   }
  ]
 }

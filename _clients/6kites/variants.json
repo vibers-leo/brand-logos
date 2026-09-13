@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "6kites",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "2aaa7bc599252787"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 0.711,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "korearental",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "1b1e44867cc6b59a"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg"
+   },
+   "aspect": 3.333,
+   "provider": "official-ci",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

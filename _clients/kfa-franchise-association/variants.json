@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kfa-franchise-association",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "5dfe48b8152778fb"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg"
+   },
+   "aspect": 7.272,
+   "provider": "official-ci-ai",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -31,6 +31,20 @@ for b in br:
                 "name_en": b.get("name_en"), "category": cat,
                 "has_svg": bool(b.get("has_svg")), "has_png": bool(b.get("has_png"))})
 
+# 변형 콘텐츠(지자체 휘장·브랜드 슬로건·캐릭터 등)는 부모 상세 화면의
+# "관련 로고"에 반드시 전달한다. 인기 상위 24개를 채운 뒤에도 부모별
+# 변형을 추가해 별도 페이지가 고립되지 않게 한다.
+by_id = {b["id"]: b for b in br}
+for b in br:
+    parent = b.get("variant_of")
+    if not parent or parent not in by_id:
+        continue
+    cat = by_id[parent].get("category") or "기타"
+    out.setdefault(cat, []).append({"id": b["id"], "name_ko": b.get("name_ko"),
+                                    "name_en": b.get("name_en"), "category": cat,
+                                    "has_svg": bool(b.get("has_svg")), "has_png": bool(b.get("has_png")),
+                                    "variant_of": parent})
+
 p = C / "category-peers.json"
 atomic_json.write_json(p, out)
 print(f"✅ category-peers.json — 카테고리 {len(out)}개 · {p.stat().st_size/1024:.0f}KB")

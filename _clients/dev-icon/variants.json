@@ -4,7 +4,8 @@
  "id": "dev-icon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c25eee2af6f76802"
+  "logo.svg": "c25eee2af6f76802",
+  "sources/thesvg/wordmark.svg": "fec2f05753b1e495"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.175,
    "provider": "iconify-logos",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
   }
  ]
 }

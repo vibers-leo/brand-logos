@@ -21,6 +21,21 @@
    "provider": "iconify-logos",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark-thesvg",
+   "form": "wordmark",
+   "lang": "en",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/thesvg/wordmark.svg",
+    "png": "sources/thesvg/wordmark.png"
+   },
+   "aspect": null,
+   "provider": "thesvg",
+   "origin": "https://github.com/glincker/thesvg",
+   "order": 40
   }
  ]
 }

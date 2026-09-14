@@ -4,7 +4,8 @@
  "id": "hyper-sh",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "78a946d75abf09a9"
+  "logo.svg": "78a946d75abf09a9",
+  "sources/vlz/wide.svg": "079d1e7c3183caf9"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.155,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

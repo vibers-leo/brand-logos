@@ -4,7 +4,8 @@
  "id": "helmsh",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2713c35373f1b270"
+  "logo.svg": "2713c35373f1b270",
+  "sources/vlz/wide.svg": "9eddaa1621e400a2"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.866,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

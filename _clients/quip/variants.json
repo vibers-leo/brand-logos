@@ -4,9 +4,24 @@
  "id": "quip",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "340c4779b9f72af4"
+  "logo.svg": "340c4779b9f72af4",
+  "sources/vlz/wide.svg": "8e1232621402a199"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.66,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "goatcounter",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "069e13479fdafd9b"
+  "logo.svg": "069e13479fdafd9b",
+  "sources/vlz/wide.svg": "f7de5d3a84f3b529"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.509,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

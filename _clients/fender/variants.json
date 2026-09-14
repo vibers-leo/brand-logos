@@ -4,9 +4,24 @@
  "id": "fender",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f26da0a298d7e551"
+  "logo.svg": "f26da0a298d7e551",
+  "sources/vlz/wide.svg": "869c2e06419e8670"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.641,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

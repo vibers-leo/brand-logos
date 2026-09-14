@@ -4,9 +4,24 @@
  "id": "logdna",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e21943c87028dd3a"
+  "logo.svg": "e21943c87028dd3a",
+  "sources/vlz/wide.svg": "e5d879e3f9c92112"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.641,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

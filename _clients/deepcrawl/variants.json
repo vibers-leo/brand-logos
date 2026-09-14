@@ -4,7 +4,8 @@
  "id": "deepcrawl",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "32b1ef900be54356"
+  "logo.svg": "32b1ef900be54356",
+  "sources/vlz/wide.svg": "7ccd85924c6d4727"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.092,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

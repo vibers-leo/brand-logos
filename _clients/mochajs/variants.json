@@ -4,9 +4,24 @@
  "id": "mochajs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c7a8a60950d78517"
+  "logo.svg": "c7a8a60950d78517",
+  "sources/vlz/wide.svg": "48cc362e51e8acae"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.553,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

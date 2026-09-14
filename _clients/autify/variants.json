@@ -4,7 +4,8 @@
  "id": "autify",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c2dc2a454b1330f0"
+  "logo.svg": "c2dc2a454b1330f0",
+  "sources/vlz/wide.svg": "a8737fe7c41d6c27"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.324,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

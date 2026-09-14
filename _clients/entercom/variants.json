@@ -4,7 +4,8 @@
  "id": "entercom",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d16bf57c98f19ccd"
+  "logo.svg": "d16bf57c98f19ccd",
+  "sources/vlz/wide.svg": "ded662b40cd3fb55"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.381,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

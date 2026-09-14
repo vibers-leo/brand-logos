@@ -4,7 +4,8 @@
  "id": "janestreet",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "28319c56f5a58ff9"
+  "logo.svg": "28319c56f5a58ff9",
+  "sources/vlz/wide.svg": "810e168fd026e245"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.455,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

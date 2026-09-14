@@ -4,7 +4,8 @@
  "id": "debeziumio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c4c5ac3dba165078"
+  "logo.svg": "c4c5ac3dba165078",
+  "sources/vlz/wide.svg": "b5e7f1bdec105b0a"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.583,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

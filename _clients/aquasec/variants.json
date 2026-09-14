@@ -4,9 +4,24 @@
  "id": "aquasec",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f8d05b3525e9f342"
+  "logo.svg": "f8d05b3525e9f342",
+  "sources/vlz/wide.svg": "a14651597b8343df"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.872,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

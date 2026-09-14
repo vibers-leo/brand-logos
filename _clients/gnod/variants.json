@@ -4,7 +4,8 @@
  "id": "gnod",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "988f3a9a47947612"
+  "logo.svg": "988f3a9a47947612",
+  "sources/vlz/wide.svg": "4843baccef3c7217"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.077,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

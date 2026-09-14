@@ -4,7 +4,8 @@
  "id": "checkfront",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "77e60fad2b9a343a"
+  "logo.svg": "77e60fad2b9a343a",
+  "sources/vlz/wide.svg": "2e0b48ce27752963"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.02,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

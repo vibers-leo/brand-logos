@@ -4,7 +4,8 @@
  "id": "datproject",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bea2de7f1c9e9877"
+  "logo.svg": "bea2de7f1c9e9877",
+  "sources/vlz/wide.svg": "6457f8d0e62e0c0b"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.873,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

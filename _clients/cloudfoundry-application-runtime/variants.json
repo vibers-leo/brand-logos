@@ -4,7 +4,8 @@
  "id": "cloudfoundry-application-runtime",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4bc90b7d9b982ceb"
+  "logo.svg": "4bc90b7d9b982ceb",
+  "sources/vlz/wide.svg": "13d9be5f703a6e07"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.623,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

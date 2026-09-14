@@ -4,9 +4,24 @@
  "id": "google-appengine",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d9676d462f686495"
+  "logo.svg": "d9676d462f686495",
+  "sources/vlz/wide.svg": "f3d881dc163485a3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.369,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "hexoio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eff1834e63925a4a"
+  "logo.svg": "eff1834e63925a4a",
+  "sources/vlz/wide.svg": "324ca7fb170b1160"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 0.869,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

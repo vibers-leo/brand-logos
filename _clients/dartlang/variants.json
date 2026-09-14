@@ -4,9 +4,24 @@
  "id": "dartlang",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cf8e07cba4fc2c4f"
+  "logo.svg": "cf8e07cba4fc2c4f",
+  "sources/vlz/wide.svg": "b6c8eda046d767d5"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.705,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

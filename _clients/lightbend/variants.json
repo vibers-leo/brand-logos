@@ -4,9 +4,24 @@
  "id": "lightbend",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "76171e300b27b8e1"
+  "logo.svg": "76171e300b27b8e1",
+  "sources/vlz/wide.svg": "af02c480db3d6049"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.896,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "dbscomsg",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "fd60ad2909a7e636"
+  "logo.svg": "fd60ad2909a7e636",
+  "sources/vlz/wide.svg": "95e74fdcfd48c818"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.456,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

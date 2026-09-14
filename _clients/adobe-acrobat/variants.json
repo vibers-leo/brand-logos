@@ -4,9 +4,24 @@
  "id": "adobe-acrobat",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "85f43171c6d91b32"
+  "logo.svg": "85f43171c6d91b32",
+  "sources/vlz/wide.svg": "26e64c5f14d1f856"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.507,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

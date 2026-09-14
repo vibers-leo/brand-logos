@@ -4,9 +4,24 @@
  "id": "mypaga",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eba5e17d6d8236d6"
+  "logo.svg": "eba5e17d6d8236d6",
+  "sources/vlz/wide.svg": "24b598c2ab311212"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.816,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "anymod",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5ff12a637c9508c7"
+  "logo.svg": "5ff12a637c9508c7",
+  "sources/vlz/wide.svg": "4d17f8f4c22f50f2"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.609,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

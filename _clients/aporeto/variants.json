@@ -4,7 +4,8 @@
  "id": "aporeto",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cb20e5d921ba4a5f"
+  "logo.svg": "cb20e5d921ba4a5f",
+  "sources/vlz/wide.svg": "6633db01b1451f22"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.36,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

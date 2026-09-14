@@ -4,9 +4,24 @@
  "id": "deployplace",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5be0a2fda7eeb44f"
+  "logo.svg": "5be0a2fda7eeb44f",
+  "sources/vlz/wide.svg": "7742a9ea7a1377eb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.927,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

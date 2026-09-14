@@ -4,9 +4,24 @@
  "id": "asyncjs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b01863eb112ac417"
+  "logo.svg": "b01863eb112ac417",
+  "sources/vlz/wide.svg": "6d547818163f2c16"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.64,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

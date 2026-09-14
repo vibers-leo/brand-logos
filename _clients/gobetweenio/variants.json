@@ -4,7 +4,8 @@
  "id": "gobetweenio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9c9ce981ad590985"
+  "logo.svg": "9c9ce981ad590985",
+  "sources/vlz/wide.svg": "003bd9639af48e25"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 6.048,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

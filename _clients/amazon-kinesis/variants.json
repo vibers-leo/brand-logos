@@ -4,7 +4,8 @@
  "id": "amazon-kinesis",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5aeef42115ed9ebc"
+  "logo.svg": "5aeef42115ed9ebc",
+  "sources/vlz/wide.svg": "41a8766ca371f1f4"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.7,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

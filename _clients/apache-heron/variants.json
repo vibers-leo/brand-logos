@@ -4,9 +4,24 @@
  "id": "apache-heron",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "63aba9c2808df28f"
+  "logo.svg": "63aba9c2808df28f",
+  "sources/vlz/wide.svg": "ca254c5fb88b4dd3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.868,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

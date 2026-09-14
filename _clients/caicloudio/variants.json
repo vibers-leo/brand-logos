@@ -4,9 +4,24 @@
  "id": "caicloudio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "38c93d9d06980547"
+  "logo.svg": "38c93d9d06980547",
+  "sources/vlz/wide.svg": "45580e0b0028d61c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.707,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

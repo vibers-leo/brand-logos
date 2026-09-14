@@ -4,9 +4,24 @@
  "id": "katacontainersio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ded6896b75914610"
+  "logo.svg": "ded6896b75914610",
+  "sources/vlz/wide.svg": "f48b15f1dd7bf063"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.209,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

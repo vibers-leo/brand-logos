@@ -4,7 +4,8 @@
  "id": "guess-js",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d991e49fcf08638b"
+  "logo.svg": "d991e49fcf08638b",
+  "sources/vlz/wide.svg": "b7a3cadbe22f2a0f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.593,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

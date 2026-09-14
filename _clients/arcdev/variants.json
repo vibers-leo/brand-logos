@@ -4,7 +4,8 @@
  "id": "arcdev",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ac01a787bd1ea30a"
+  "logo.svg": "ac01a787bd1ea30a",
+  "sources/vlz/wide.svg": "d2102b4e02d93421"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.12,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

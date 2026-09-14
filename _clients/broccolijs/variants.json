@@ -4,9 +4,24 @@
  "id": "broccolijs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d53d58663db1bfe8"
+  "logo.svg": "d53d58663db1bfe8",
+  "sources/vlz/wide.svg": "08abd3139b9b1bcc"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.602,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

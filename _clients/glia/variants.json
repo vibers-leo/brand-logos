@@ -4,9 +4,24 @@
  "id": "glia",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d3fa3e94bc9145f1"
+  "logo.svg": "d3fa3e94bc9145f1",
+  "sources/vlz/wide.svg": "6d91db90ea6da1e5"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.528,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "marcuse-ink",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d05638a8a64d8282"
+  "logo.svg": "d05638a8a64d8282",
+  "sources/vlz/wide.svg": "7f5fb3120328ff1a"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.827,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

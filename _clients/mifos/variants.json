@@ -4,7 +4,8 @@
  "id": "mifos",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1e4e4ebbea6c265e"
+  "logo.svg": "1e4e4ebbea6c265e",
+  "sources/vlz/wide.svg": "ce76e5b08daf4fc1"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.273,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "castboxfm",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2df90b8c042b9ffe"
+  "logo.svg": "2df90b8c042b9ffe",
+  "sources/vlz/wide.svg": "a159e36e3139ffdb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.627,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

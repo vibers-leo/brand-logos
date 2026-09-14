@@ -4,9 +4,24 @@
  "id": "infor",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "65fa7bc708cb5cf1"
+  "logo.svg": "65fa7bc708cb5cf1",
+  "sources/vlz/wide.svg": "d81dd5c1f16b7b49"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.564,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

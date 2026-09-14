@@ -4,7 +4,8 @@
  "id": "getmyboat",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8887aba8a3f254d7"
+  "logo.svg": "8887aba8a3f254d7",
+  "sources/vlz/wide.svg": "14bbfeceba82002f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.448,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

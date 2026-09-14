@@ -4,9 +4,24 @@
  "id": "elm-lang",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9f2fe78333e09406"
+  "logo.svg": "9f2fe78333e09406",
+  "sources/vlz/wide.svg": "e716acae35b81f8a"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.493,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

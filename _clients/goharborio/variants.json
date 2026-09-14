@@ -4,7 +4,8 @@
  "id": "goharborio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b112c17d345c53aa"
+  "logo.svg": "b112c17d345c53aa",
+  "sources/vlz/wide.svg": "c38c0ada017b2357"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.636,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

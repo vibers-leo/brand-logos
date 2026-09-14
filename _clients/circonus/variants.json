@@ -4,7 +4,8 @@
  "id": "circonus",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1c199858bd520b1b"
+  "logo.svg": "1c199858bd520b1b",
+  "sources/vlz/wide.svg": "f7e8e4f0817d5194"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.192,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

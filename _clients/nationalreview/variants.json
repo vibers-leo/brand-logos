@@ -4,7 +4,8 @@
  "id": "nationalreview",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2bda153904f6b1da"
+  "logo.svg": "2bda153904f6b1da",
+  "sources/vlz/wide.svg": "381d608bf645453c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 11.629,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

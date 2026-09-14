@@ -4,7 +4,8 @@
  "id": "citusdata",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e27e709491423a9e"
+  "logo.svg": "e27e709491423a9e",
+  "sources/vlz/wide.svg": "74e1e1e00d058acc"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.398,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

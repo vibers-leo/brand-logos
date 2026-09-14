@@ -4,7 +4,8 @@
  "id": "gorillatoolkit",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4c510071fbfa138b"
+  "logo.svg": "4c510071fbfa138b",
+  "sources/vlz/wide.svg": "13cbbb512fa98368"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 8.438,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

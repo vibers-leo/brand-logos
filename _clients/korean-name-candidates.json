@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
- "generated_at": "2026-09-13",
- "count": 1307,
+ "generated_at": "2026-09-14",
+ "count": 1310,
  "candidates": [
   {
    "id": "mnet",
@@ -11837,6 +11837,37 @@
    "qid": "Q21004260",
    "our_domain": "noovo.ca",
    "wikidata_sites": []
+  },
+  {
+   "id": "little-mermaid",
+   "name_en": "Little Mermaid",
+   "ko": "인어공주",
+   "qid": "Q190135",
+   "our_domain": "littlemermaid.jp",
+   "wikidata_sites": [
+    "disney.com"
+   ]
+  },
+  {
+   "id": "discovery-kids",
+   "name_en": "Discovery Kids",
+   "ko": "디스커버리 패밀리",
+   "qid": "Q565847",
+   "our_domain": "dkids.co.in",
+   "wikidata_sites": [
+    "discoveryfamilychannel.com",
+    "discovery.com"
+   ]
+  },
+  {
+   "id": "national-party",
+   "name_en": "National Party",
+   "ko": "뉴질랜드 국민당",
+   "qid": "Q204716",
+   "our_domain": "nationalparty.ie",
+   "wikidata_sites": [
+    "org.nz"
+   ]
   }
  ]
 }

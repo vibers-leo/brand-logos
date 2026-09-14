@@ -4,7 +4,8 @@
  "id": "instana",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9f6432c6928f4eea"
+  "logo.svg": "9f6432c6928f4eea",
+  "sources/vlz/wide.svg": "ef329f758878c73b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.023,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "datadoghq",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1121b2354c2f7917"
+  "logo.svg": "1121b2354c2f7917",
+  "sources/vlz/wide.svg": "ee325654d18f5099"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.206,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

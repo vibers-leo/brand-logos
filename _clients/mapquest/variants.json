@@ -4,7 +4,8 @@
  "id": "mapquest",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e13ca5e2571e3d47"
+  "logo.svg": "e13ca5e2571e3d47",
+  "sources/vlz/wide.svg": "a67a62bf2594f54c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.337,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

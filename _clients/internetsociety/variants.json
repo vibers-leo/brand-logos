@@ -4,9 +4,24 @@
  "id": "internetsociety",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1cfc6443496df3d6"
+  "logo.svg": "1cfc6443496df3d6",
+  "sources/vlz/wide.svg": "265a9c31bc5b8689"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.729,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

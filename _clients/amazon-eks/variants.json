@@ -4,9 +4,24 @@
  "id": "amazon-eks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7af1d9125568c7ab"
+  "logo.svg": "7af1d9125568c7ab",
+  "sources/vlz/wide.svg": "4db00a7c1e072550"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.631,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

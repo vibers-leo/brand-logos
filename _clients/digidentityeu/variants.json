@@ -4,7 +4,8 @@
  "id": "digidentityeu",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "80e593c1d64b273f"
+  "logo.svg": "80e593c1d64b273f",
+  "sources/vlz/wide.svg": "423ba897ca8b0d27"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.266,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

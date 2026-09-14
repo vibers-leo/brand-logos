@@ -4,7 +4,8 @@
  "id": "dimerapp",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3a013cb5dc7a2eeb"
+  "logo.svg": "3a013cb5dc7a2eeb",
+  "sources/vlz/wide.svg": "7defe0f96475b79f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.67,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

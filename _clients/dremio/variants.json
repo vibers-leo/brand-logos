@@ -4,7 +4,8 @@
  "id": "dremio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4aac82e1b6c3e03c"
+  "logo.svg": "4aac82e1b6c3e03c",
+  "sources/vlz/wide.svg": "7dfd2da10ded09a6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.154,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

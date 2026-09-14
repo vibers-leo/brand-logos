@@ -4,9 +4,24 @@
  "id": "ionicframework",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "07ccef0f867c306a"
+  "logo.svg": "07ccef0f867c306a",
+  "sources/vlz/wide.svg": "3e43645cdea010e7"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.955,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

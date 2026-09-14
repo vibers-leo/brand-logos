@@ -4,9 +4,24 @@
  "id": "bostonglobe",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ae1b1cbfe9697dca"
+  "logo.svg": "ae1b1cbfe9697dca",
+  "sources/vlz/wide.svg": "187c0af93d078af5"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.82,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

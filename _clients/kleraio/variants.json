@@ -4,9 +4,24 @@
  "id": "kleraio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ef2054ec1c4bd923"
+  "logo.svg": "ef2054ec1c4bd923",
+  "sources/vlz/wide.svg": "5e34afcab5b47385"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.615,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

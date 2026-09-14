@@ -4,7 +4,8 @@
  "id": "coverallsio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f2c527ea0b6f794e"
+  "logo.svg": "f2c527ea0b6f794e",
+  "sources/vlz/wide.svg": "931d3fd704d5ac63"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.769,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

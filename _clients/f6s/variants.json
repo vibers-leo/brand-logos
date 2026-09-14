@@ -4,7 +4,8 @@
  "id": "f6s",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d4c752e41cf6dc39"
+  "logo.svg": "d4c752e41cf6dc39",
+  "sources/vlz/wide.svg": "ac0f60aec4595ae0"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.0,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "edgesecurity",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "af7ce24de51e7e90"
+  "logo.svg": "af7ce24de51e7e90",
+  "sources/vlz/wide.svg": "da5b5a6c7f38f61f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.408,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

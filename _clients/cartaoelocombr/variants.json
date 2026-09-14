@@ -4,9 +4,24 @@
  "id": "cartaoelocombr",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "75ac8e7330c51f75"
+  "logo.svg": "75ac8e7330c51f75",
+  "sources/vlz/wide.svg": "dbbc5d08404105a9"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.94,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

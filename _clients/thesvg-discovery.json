@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-13T20:42:44.119172+00:00",
+ "generated_at": "2026-09-14T21:55:15.672430+00:00",
  "source": {
   "name": "theSVG",
   "url": "https://github.com/glincker/thesvg",
   "registry": "https://thesvg.org/api/registry.json"
  },
  "policy": "발굴 전용. 저장소 코드의 MIT와 별개로 개별 브랜드 로고는 상표일 수 있다. 각 항목의 license·공식 사용 가이드·브랜드 매핑을 검토하기 전에는 다운로드·서비스 반영 금지.",
- "known_brand_count": 50763,
- "source_brand_count": 7407,
- "new_brand_candidate_count": 1909,
- "form_gap_candidate_count": 1851,
+ "known_brand_count": 50766,
+ "source_brand_count": 7412,
+ "new_brand_candidate_count": 1912,
+ "form_gap_candidate_count": 1798,
  "new_brands": [
   {
    "source_id": "1040-com-badge",
@@ -22866,6 +22866,18 @@
    "url": "https://www.v2ex.com"
   },
   {
+   "source_id": "vanadium",
+   "title": "Vanadium",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "GPL-2.0",
+   "url": "https://github.com/GrapheneOS/Vanadium"
+  },
+  {
    "source_id": "vanio",
    "title": "Vanio",
    "variants": [
@@ -23771,6 +23783,30 @@
    "url": "https://www.xsplit.com/presskit"
   },
   {
+   "source_id": "xyzam-badge-black",
+   "title": "Xyzam Badge Black",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "MIT",
+   "url": "https://xyz.am/brand.php"
+  },
+  {
+   "source_id": "xyzam-badge-white",
+   "title": "Xyzam Badge White",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "MIT",
+   "url": "https://xyz.am/brand.php"
+  },
+  {
    "source_id": "yahoo-badge",
    "title": "Yahoo",
    "variants": [
@@ -24231,7 +24267,9 @@
    "license": "CC0-1.0",
    "url": "https://aframe.io/docs",
    "id": "a-frame",
-   "current_forms": [],
+   "current_forms": [
+    "vertical"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -24399,23 +24437,6 @@
    ]
   },
   {
-   "source_id": "acrobat-scan",
-   "title": "Acrobat Scan",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://www.adobe.com/acrobat/mobile/acrobat-scan.html",
-   "id": "acrobat-scan",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "act",
    "title": "act",
    "variants": [
@@ -24554,23 +24575,6 @@
    ]
   },
   {
-   "source_id": "adobe-aero",
-   "title": "Adobe Aero",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://www.adobe.com/products/aero",
-   "id": "adobe-aero",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "audition",
    "title": "Audition",
    "variants": [
@@ -24582,6 +24586,23 @@
    "license": "brand-use",
    "url": "https://www.adobe.com/products/audition",
    "id": "adobe-audition",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "adobe-creative-cloud",
+   "title": "Adobe Creative Cloud",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "brand-use",
+   "url": "https://www.adobe.com/creativecloud.html",
+   "id": "adobe-creative-cloud",
    "current_forms": [],
    "missing_forms": [
     "symbol"
@@ -24633,40 +24654,6 @@
    "license": "MIT",
    "url": "https://www.adobe.com/products/photoshop-lightroom",
    "id": "adobe-photoshop-lightroom",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "adobe-sign",
-   "title": "Adobe Sign",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://www.adobe.com/sign",
-   "id": "adobe-sign",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "adobe-stock",
-   "title": "Adobe Stock",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://stock.adobe.com",
-   "id": "adobe-stock",
    "current_forms": [],
    "missing_forms": [
     "symbol"
@@ -24729,9 +24716,10 @@
    "license": "Fair Use",
    "url": "https://aero.ai",
    "id": "aero",
-   "current_forms": [],
+   "current_forms": [
+    "symbol"
+   ],
    "missing_forms": [
-    "symbol",
     "wordmark"
    ]
   },
@@ -25173,23 +25161,6 @@
    ]
   },
   {
-   "source_id": "akuity",
-   "title": "Akuity",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://akuity.io",
-   "id": "akuity",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "al-jazeera",
    "title": "Al Jazeera",
    "variants": [
@@ -25543,7 +25514,9 @@
    "license": "Fair use",
    "url": "https://amazon.com/firetv",
    "id": "amazon-fire-tv",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -25560,7 +25533,9 @@
    "license": "Fair use",
    "url": "https://music.amazon.com",
    "id": "amazon-music",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -25718,24 +25693,6 @@
    "current_forms": [
     "wordmark"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "android-studio",
-   "title": "Android Studio",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://developer.android.com/studio",
-   "id": "android-studio",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -25919,24 +25876,6 @@
    ]
   },
   {
-   "source_id": "apache-airflow",
-   "title": "Apache Airflow",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Apache-2.0",
-   "url": "https://apache.org/logos",
-   "id": "apache-airflow",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "apache-kafka",
    "title": "Apache Kafka",
    "variants": [
@@ -25955,7 +25894,9 @@
    "license": "Apache-2.0",
    "url": "https://kafka.apache.org/",
    "id": "apache-kafka",
-   "current_forms": [],
+   "current_forms": [
+    "vertical"
+   ],
    "missing_forms": [
     "symbol",
     "wordmark"
@@ -26380,24 +26321,6 @@
    ]
   },
   {
-   "source_id": "apollo-graphql",
-   "title": "Apollo GraphQL",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.apollographql.com",
-   "id": "apollo-graphql",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "apollodotio",
    "title": "Apollo.io",
    "variants": [
@@ -26433,23 +26356,6 @@
    ],
    "missing_forms": [
     "wordmark"
-   ]
-  },
-  {
-   "source_id": "appcues",
-   "title": "Appcues",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://appcues.com",
-   "id": "appcues",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
    ]
   },
   {
@@ -26528,24 +26434,6 @@
    "current_forms": [
     "wordmark"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "arch-linux",
-   "title": "Arch Linux",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.archlinux.org/art",
-   "id": "arch-linux",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -26648,41 +26536,6 @@
    "current_forms": [
     "wordmark"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "artifactory",
-   "title": "Artifactory",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://jfrog.com/artifactory",
-   "id": "artifactory",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "artix-linux",
-   "title": "Artix Linux",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://gitea.artixlinux.org/artix/artwork/src/commit/256432e3d06b3e9024bfd6912768e80281ea3746/icons/logo-gray.svg",
-   "id": "artix-linux",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -26824,23 +26677,6 @@
    "current_forms": [
     "wordmark"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "atera",
-   "title": "Atera",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://atera.com",
-   "id": "atera",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -27230,26 +27066,6 @@
    "current_forms": [
     "horizontal"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "aws-elastic-load-balancing",
-   "title": "Elastic Load Balancing",
-   "variants": [
-    "16",
-    "32",
-    "64",
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC-BY-ND-2.0",
-   "url": "https://aws.amazon.com/elastic-load-balancing/",
-   "id": "aws-elastic-load-balancing",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -28542,23 +28358,6 @@
    ]
   },
   {
-   "source_id": "azure-monitor",
-   "title": "Monitor",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "MIT",
-   "url": "https://azure.microsoft.com/en-us/products/",
-   "id": "azure-monitor",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "azure-network-foundation-hub",
    "title": "Network Foundation Hub",
    "variants": [
@@ -29274,23 +29073,6 @@
    ]
   },
   {
-   "source_id": "bazarr",
-   "title": "Bazarr",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "GPL-3.0",
-   "url": "https://www.bazarr.media",
-   "id": "bazarr",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "bbc",
    "title": "BBC",
    "variants": [
@@ -29321,7 +29103,9 @@
    "license": "CC0-1.0",
    "url": "https://www.bbva.com",
    "id": "bbva",
-   "current_forms": [],
+   "current_forms": [
+    "vertical"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -29880,27 +29664,6 @@
    ]
   },
   {
-   "source_id": "bolt",
-   "title": "bolt",
-   "variants": [
-    "dark",
-    "default",
-    "light"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "MIT",
-   "url": "https://bolt.new/",
-   "id": "bolt",
-   "current_forms": [
-    "horizontal"
-   ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "bookbub",
    "title": "BookBub",
    "variants": [
@@ -30157,23 +29920,6 @@
    ]
   },
   {
-   "source_id": "bridge",
-   "title": "Bridge",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://www.adobe.com/products/bridge",
-   "id": "bridge",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "british-council",
    "title": "British Council",
    "variants": [
@@ -30360,7 +30106,9 @@
    "license": "brand-use",
    "url": "https://bunnyshell.com",
    "id": "bunnyshell",
-   "current_forms": [],
+   "current_forms": [
+    "wordmark"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -30437,7 +30185,9 @@
    "license": "brand-use",
    "url": "https://www.bybit.com",
    "id": "bybit",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -30595,7 +30345,9 @@
    "license": "CC0-1.0",
    "url": "https://www.campaignmonitor.com/company/brand/",
    "id": "campaign-monitor",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -30896,23 +30648,6 @@
    ]
   },
   {
-   "source_id": "celo",
-   "title": "Celo",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://celo.org",
-   "id": "celo",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "cerbos",
    "title": "Cerbos",
    "variants": [
@@ -30994,24 +30729,6 @@
    "missing_forms": [
     "symbol",
     "wordmark"
-   ]
-  },
-  {
-   "source_id": "chakra-ui",
-   "title": "Chakra UI",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://chakra-ui.com",
-   "id": "chakra-ui",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
    ]
   },
   {
@@ -31105,7 +30822,9 @@
    "license": "brand-use",
    "url": "https://checklyhq.com",
    "id": "checkly",
-   "current_forms": [],
+   "current_forms": [
+    "wordmark"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -31324,7 +31043,9 @@
    "license": "Fair Use",
    "url": "https://www.citigroup.com",
    "id": "citibank",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -31401,7 +31122,9 @@
    "license": "brand-use",
    "url": "https://clastix.io",
    "id": "clastix",
-   "current_forms": [],
+   "current_forms": [
+    "wordmark"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -31707,23 +31430,6 @@
    ]
   },
   {
-   "source_id": "cockroachdb",
-   "title": "CockroachDB",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://cockroachlabs.com",
-   "id": "cockroachdb",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "cocos",
    "title": "Cocos",
    "variants": [
@@ -31756,7 +31462,9 @@
    "license": "CC0-1.0",
    "url": "https://codeclimate.com/github/codeclimate/python-test-reporter/badges/",
    "id": "code-climate",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -32257,23 +31965,6 @@
    ]
   },
   {
-   "source_id": "confluent",
-   "title": "Confluent",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Fair Use",
-   "url": "https://www.confluent.io",
-   "id": "confluent",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "connect",
    "title": "Connect",
    "variants": [
@@ -32347,23 +32038,6 @@
    "current_forms": [
     "vertical"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "convoy",
-   "title": "Convoy",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "MPL-2.0",
-   "url": "https://getconvoy.io",
-   "id": "convoy",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -32542,24 +32216,6 @@
     "horizontal",
     "wordmark"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "craft-cms",
-   "title": "Craft CMS",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://craftcms.com/brand-resources",
-   "id": "craft-cms",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -33500,7 +33156,9 @@
    "license": "MIT",
    "url": "https://dev.to/",
    "id": "devto",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -33743,7 +33401,9 @@
    "license": "CC0-1.0",
    "url": "https://www.disneyplus.com",
    "id": "disney-plus",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -34028,7 +33688,9 @@
    "license": "brand-use",
    "url": "https://doit.com",
    "id": "doit",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -34045,7 +33707,9 @@
    "license": "Fair Use",
    "url": "https://dokku.com",
    "id": "dokku",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -35050,7 +34714,9 @@
    "license": "brand-use",
    "url": "https://encore.dev",
    "id": "encore",
-   "current_forms": [],
+   "current_forms": [
+    "wordmark"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -35087,25 +34753,6 @@
    "license": "CC0-1.0",
    "url": "https://d33wubrfki0l68.cloudfront.net/6f16455dae972425b77c7e31642269b375ec250e/3bd11/img/envoy-logo.svg",
    "id": "envoyproxy",
-   "current_forms": [
-    "horizontal"
-   ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "epsagon",
-   "title": "Epsagon",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://epsagon.com",
-   "id": "epsagon",
    "current_forms": [
     "horizontal"
    ],
@@ -36268,7 +35915,9 @@
    "license": "GPL-3.0",
    "url": "https://flipt.io",
    "id": "flipt",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -36910,23 +36559,6 @@
    "current_forms": [
     "horizontal"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "fullstory",
-   "title": "FullStory",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "brand-use",
-   "url": "https://fullstory.com",
-   "id": "fullstory",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -38629,40 +38261,6 @@
    ]
   },
   {
-   "source_id": "google-calendar-2026",
-   "title": "Google Calendar (2026)",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Trademark",
-   "url": "https://calendar.google.com/",
-   "id": "google-calendar-2026",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "google-chat-2026",
-   "title": "Google Chat (2026)",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Trademark",
-   "url": "https://chat.google.com/",
-   "id": "google-chat-2026",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "google-colab",
    "title": "Google Colab",
    "variants": [
@@ -38675,7 +38273,9 @@
    "license": "CC0-1.0",
    "url": "https://colab.research.google.com",
    "id": "google-colab",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -38711,60 +38311,8 @@
    "license": "Trademark",
    "url": "https://www.google.com/docs/about",
    "id": "google-docs-2026",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "google-drive-2026",
-   "title": "Google Drive (2026)",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Trademark",
-   "url": "https://www.google.com/drive/",
-   "id": "google-drive-2026",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "google-forms-2026",
-   "title": "Google Forms (2026)",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Trademark",
-   "url": "https://docs.google.com/forms",
-   "id": "google-forms-2026",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "google-gemini",
-   "title": "Google Gemini",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://gemini.google.com",
-   "id": "google-gemini",
    "current_forms": [
-    "horizontal"
+    "vertical"
    ],
    "missing_forms": [
     "symbol"
@@ -38800,7 +38348,9 @@
    "license": "Trademark",
    "url": "https://keep.google.com/",
    "id": "google-keep-2026",
-   "current_forms": [],
+   "current_forms": [
+    "vertical"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -38837,7 +38387,9 @@
    "license": "Trademark",
    "url": "https://meet.google.com/",
    "id": "google-meet-2026",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -38873,40 +38425,6 @@
    "license": "Trademark",
    "url": "https://sheets.google.com/",
    "id": "google-sheets-2026",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "google-slides-2026",
-   "title": "Google Slides (2026)",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Trademark",
-   "url": "https://slides.google.com/",
-   "id": "google-slides-2026",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "google-tasks-2026",
-   "title": "Google Tasks (2026)",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Trademark",
-   "url": "https://tasks.google.com/",
-   "id": "google-tasks-2026",
    "current_forms": [],
    "missing_forms": [
     "symbol"
@@ -39835,24 +39353,6 @@
    ]
   },
   {
-   "source_id": "headless-ui",
-   "title": "Headless UI",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://headlessui.dev/",
-   "id": "headless-ui",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "heinz",
    "title": "Heinz",
    "variants": [
@@ -39907,24 +39407,6 @@
    "current_forms": [
     "horizontal"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "help-scout",
-   "title": "Help Scout",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.helpscout.com",
-   "id": "help-scout",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -40223,23 +39705,6 @@
    ]
   },
   {
-   "source_id": "homebox",
-   "title": "Homebox",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "AGPL-3.0",
-   "url": "https://homebox.software",
-   "id": "homebox",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "homebrew",
    "title": "Homebrew",
    "variants": [
@@ -40296,10 +39761,11 @@
    "license": "Fair Use",
    "url": "https://www.honeycomb.io",
    "id": "honeycomb",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol",
+   "current_forms": [
     "wordmark"
+   ],
+   "missing_forms": [
+    "symbol"
    ]
   },
   {
@@ -41874,24 +41340,6 @@
    ]
   },
   {
-   "source_id": "jetpack-compose",
-   "title": "Jetpack Compose",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://developer.android.com/jetpack/compose/",
-   "id": "jetpack-compose",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "jitsi",
    "title": "Jitsi",
    "variants": [
@@ -42310,7 +41758,9 @@
    "license": "CC0-1.0",
    "url": "https://www.kali.org/docs/policy/trademark/",
    "id": "kali-linux",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -42393,41 +41843,6 @@
    "current_forms": [
     "wordmark"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "kavita",
-   "title": "Kavita",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "GPL-3.0",
-   "url": "https://kavitareader.com",
-   "id": "kavita",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "kde-neon",
-   "title": "KDE neon",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://community.kde.org/Neon",
-   "id": "kde-neon",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -42756,23 +42171,6 @@
    ]
   },
   {
-   "source_id": "knowbe4",
-   "title": "KnowBe4",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Trademark",
-   "url": "https://www.knowbe4.com",
-   "id": "knowbe4",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "koa",
    "title": "Koa",
    "variants": [
@@ -43007,7 +42405,9 @@
    "license": "brand-use",
    "url": "https://kubecost.com",
    "id": "kubecost",
-   "current_forms": [],
+   "current_forms": [
+    "wordmark"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -43379,23 +42779,6 @@
    "current_forms": [
     "horizontal"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "leantime",
-   "title": "Leantime",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "AGPL-3.0",
-   "url": "https://leantime.io",
-   "id": "leantime",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -44008,7 +43391,9 @@
    "license": "brand-use",
    "url": "https://www.loggly.com",
    "id": "loggly",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -44044,7 +43429,9 @@
    "license": "brand-use",
    "url": "https://logmatic.io",
    "id": "logmatic",
-   "current_forms": [],
+   "current_forms": [
+    "wordmark"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -44489,6 +43876,25 @@
    ]
   },
   {
+   "source_id": "mango",
+   "title": "Mango",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Unofficial SVG based on official PNG, project licensed under GPL-3.0-or-later",
+   "url": "https://mangowm.github.io/",
+   "id": "mango",
+   "current_forms": [
+    "wordmark"
+   ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "manifest",
    "title": "Manifest",
    "variants": [
@@ -44610,7 +44016,9 @@
    "license": "Fair Use",
    "url": "https://www.marqeta.com",
    "id": "marqeta",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol",
     "wordmark"
@@ -45323,23 +44731,6 @@
    "current_forms": [
     "vertical"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "microsoft-sql-server",
-   "title": "Microsoft SQL Server ",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "MIT",
-   "url": "https://www.microsoft.com/en-us/sql-server/",
-   "id": "microsoft-sql-server",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -46520,23 +45911,6 @@
    ]
   },
   {
-   "source_id": "navidrome",
-   "title": "Navidrome",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "GPL-3.0",
-   "url": "https://navidrome.org",
-   "id": "navidrome",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "nba",
    "title": "NBA",
    "variants": [
@@ -46687,7 +46061,9 @@
    "license": "BSD-3-Clause",
    "url": "https://netbird.io",
    "id": "netbird",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -47125,24 +46501,6 @@
    "current_forms": [
     "vertical"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "node-red",
-   "title": "Node-RED",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://nodered.org/about/resources/",
-   "id": "node-red",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -48271,24 +47629,6 @@
    ]
   },
   {
-   "source_id": "open-collective",
-   "title": "Open Collective",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://docs.opencollective.com/help/about#media-logo",
-   "id": "open-collective",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "open-access",
    "title": "Open Access",
    "variants": [
@@ -48661,26 +48001,6 @@
    "id": "orshot",
    "current_forms": [
     "wordmark"
-   ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "ory",
-   "title": "Ory",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.ory.com/brand",
-   "id": "ory",
-   "current_forms": [
-    "vertical"
    ],
    "missing_forms": [
     "symbol"
@@ -49333,28 +48653,6 @@
    "id": "penny",
    "current_forms": [
     "wordmark"
-   ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "penpot",
-   "title": "Penpot",
-   "variants": [
-    "dark",
-    "default",
-    "light",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://penpot.app/",
-   "id": "penpot",
-   "current_forms": [
-    "vertical"
    ],
    "missing_forms": [
     "symbol"
@@ -50993,24 +50291,6 @@
    ]
   },
   {
-   "source_id": "product-hunt",
-   "title": "Product Hunt",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.producthunt.com/",
-   "id": "product-hunt",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "progate",
    "title": "Progate",
    "variants": [
@@ -51658,24 +50938,6 @@
    ]
   },
   {
-   "source_id": "rad-studio",
-   "title": "RAD Studio",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.embarcadero.com/news/logo",
-   "id": "rad-studio",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "radix-ui",
    "title": "Radix UI",
    "variants": [
@@ -51863,24 +51125,6 @@
    ]
   },
   {
-   "source_id": "react-bootstrap",
-   "title": "React Bootstrap",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://github.com/react-bootstrap/react-bootstrap/www/static/img/logo.svg",
-   "id": "react-bootstrap",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "react-router",
    "title": "React Router",
    "variants": [
@@ -51975,7 +51219,9 @@
    "license": "CC0-1.0",
    "url": "https://github.com/readthedocs/readthedocs.org/docs/img/logo.svg",
    "id": "read-the-docs",
-   "current_forms": [],
+   "current_forms": [
+    "vertical"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -52036,7 +51282,9 @@
    "license": "CC0-1.0",
    "url": "https://www.redhat.com/en/about/brand/new-brand/details",
    "id": "red-hat",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -53201,24 +52449,6 @@
    ]
   },
   {
-   "source_id": "sauce-labs",
-   "title": "Sauce Labs",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://saucelabs.com",
-   "id": "sauce-labs",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "stc",
    "title": "STC",
    "variants": [
@@ -53592,7 +52822,9 @@
    "license": "CC0-1.0",
    "url": "https://semaphoreci.com",
    "id": "semaphore-ci",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -54113,24 +53345,6 @@
    ]
   },
   {
-   "source_id": "smashing-magazine",
-   "title": "Smashing Magazine",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.smashingmagazine.com",
-   "id": "smashing-magazine",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "smithery",
    "title": "Smithery",
    "variants": [
@@ -54589,7 +53803,9 @@
    "license": "CC0-1.0",
    "url": "https://speakerdeck.com",
    "id": "speaker-deck",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -54888,9 +54104,10 @@
    "license": "CC0-1.0",
    "url": "https://stackoverflow.com/",
    "id": "stack-overflow",
-   "current_forms": [],
+   "current_forms": [
+    "symbol"
+   ],
    "missing_forms": [
-    "symbol",
     "wordmark"
    ]
   },
@@ -55289,7 +54506,9 @@
    "license": "CC0-1.0",
    "url": "https://styled-components.com/",
    "id": "styled-components",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -55366,7 +54585,9 @@
    "license": "CC0-1.0",
    "url": "https://www.sublimetext.com/",
    "id": "sublime-text",
-   "current_forms": [],
+   "current_forms": [
+    "vertical"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -55955,7 +55176,9 @@
    "license": "CC0-1.0",
    "url": "https://tailwindcss.com/",
    "id": "tailwind-css",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol",
     "wordmark"
@@ -56423,7 +55646,9 @@
    "license": "CC0-1.0",
    "url": "https://github.com/TheAlgorithms/website/public/logo_t.svg",
    "id": "the-algorithms",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -57248,7 +56473,9 @@
    "license": "CC0-1.0",
    "url": "https://github.com/traefik/mesh/docs/content/assets/img/traefik-mesh-logo.svg",
    "id": "traefik-mesh",
-   "current_forms": [],
+   "current_forms": [
+    "horizontal"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -57489,24 +56716,6 @@
    "current_forms": [
     "horizontal"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "ts-node",
-   "title": "ts-node",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://typestrong.org/ts-node",
-   "id": "ts-node",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -59022,10 +58231,11 @@
    "license": "Fair Use",
    "url": "https://www.walmart.com",
    "id": "walmart",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol",
+   "current_forms": [
     "wordmark"
+   ],
+   "missing_forms": [
+    "symbol"
    ]
   },
   {
@@ -59912,24 +59122,6 @@
    ]
   },
   {
-   "source_id": "wp-engine",
-   "title": "WP Engine",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://wpengine.com/brand-assets",
-   "id": "wp-engine",
-   "current_forms": [],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
    "source_id": "wp-rocket",
    "title": "WP Rocket",
    "variants": [
@@ -60208,24 +59400,6 @@
     "horizontal",
     "wordmark"
    ],
-   "missing_forms": [
-    "symbol"
-   ]
-  },
-  {
-   "source_id": "y-combinator",
-   "title": "Y Combinator",
-   "variants": [
-    "default",
-    "mono"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://www.ycombinator.com/press",
-   "id": "y-combinator",
-   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]

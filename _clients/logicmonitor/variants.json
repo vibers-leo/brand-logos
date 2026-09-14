@@ -4,7 +4,8 @@
  "id": "logicmonitor",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1825e7e6867dfb94"
+  "logo.svg": "1825e7e6867dfb94",
+  "sources/vlz/wide.svg": "1affa85dd38b1903"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.295,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

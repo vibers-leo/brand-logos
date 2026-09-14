@@ -4,7 +4,8 @@
  "id": "advocately",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cc6e47cedfa2adc4"
+  "logo.svg": "cc6e47cedfa2adc4",
+  "sources/vlz/wide.svg": "591ce46cb9f1a922"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.319,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

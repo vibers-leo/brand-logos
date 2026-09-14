@@ -4,9 +4,24 @@
  "id": "knot-dnscz",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0751c4db1e24b12d"
+  "logo.svg": "0751c4db1e24b12d",
+  "sources/vlz/wide.svg": "7240c622556f77fb"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.66,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

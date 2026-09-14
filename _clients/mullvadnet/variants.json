@@ -4,7 +4,8 @@
  "id": "mullvadnet",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bbd8423670859651"
+  "logo.svg": "bbd8423670859651",
+  "sources/vlz/wide.svg": "3970ca5a36f4835b"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.203,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

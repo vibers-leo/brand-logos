@@ -4,9 +4,24 @@
  "id": "adl",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bb230d0938aa38f3"
+  "logo.svg": "bb230d0938aa38f3",
+  "sources/vlz/wide.svg": "dffe2e9bd8bfb52c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.549,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

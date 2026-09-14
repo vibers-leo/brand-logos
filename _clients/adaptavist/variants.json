@@ -4,7 +4,8 @@
  "id": "adaptavist",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9a00440dae8014ea"
+  "logo.svg": "9a00440dae8014ea",
+  "sources/vlz/wide.svg": "67ea4283c85d070f"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.877,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

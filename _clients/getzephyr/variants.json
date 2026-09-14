@@ -4,7 +4,8 @@
  "id": "getzephyr",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9397a510a3187e1c"
+  "logo.svg": "9397a510a3187e1c",
+  "sources/vlz/wide.svg": "0eced886321d1dc6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.03,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

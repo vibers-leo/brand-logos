@@ -4,9 +4,24 @@
  "id": "gvisordev",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "eef5dca4733d92ff"
+  "logo.svg": "eef5dca4733d92ff",
+  "sources/vlz/wide.svg": "7e81183b579a7ba4"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.903,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

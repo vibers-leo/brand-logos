@@ -4,9 +4,24 @@
  "id": "css-tricks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "15d2b8d86bad8e6b"
+  "logo.svg": "15d2b8d86bad8e6b",
+  "sources/vlz/wide.svg": "66d11261b131e9d3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.905,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

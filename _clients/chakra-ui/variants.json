@@ -4,7 +4,8 @@
  "id": "chakra-ui",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0e5b20badbec24ac"
+  "logo.svg": "0e5b20badbec24ac",
+  "sources/vlz/wide.svg": "2ae46a165928bc63"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.878,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

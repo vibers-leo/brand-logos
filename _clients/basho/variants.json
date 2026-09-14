@@ -4,9 +4,24 @@
  "id": "basho",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0549e3484484660c"
+  "logo.svg": "0549e3484484660c",
+  "sources/vlz/wide.svg": "09dfd0adf89b0413"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.772,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

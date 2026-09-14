@@ -4,9 +4,24 @@
  "id": "fflint",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f5e3b149f9937495"
+  "logo.svg": "f5e3b149f9937495",
+  "sources/vlz/wide.svg": "ea1656b017ba2ca8"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.497,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

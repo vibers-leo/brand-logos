@@ -4,7 +4,8 @@
  "id": "getgrav",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8257a9f91c3a4019"
+  "logo.svg": "8257a9f91c3a4019",
+  "sources/vlz/wide.svg": "07b26a9a2c764859"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.093,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

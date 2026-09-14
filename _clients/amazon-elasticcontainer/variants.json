@@ -4,9 +4,24 @@
  "id": "amazon-elasticcontainer",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cfb0a413b071063a"
+  "logo.svg": "cfb0a413b071063a",
+  "sources/vlz/wide.svg": "7d26b0bcc8afb68e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.784,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

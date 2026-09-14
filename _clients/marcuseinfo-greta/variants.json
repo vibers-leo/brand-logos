@@ -4,9 +4,24 @@
  "id": "marcuseinfo-greta",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "de995cf4507a9e98"
+  "logo.svg": "de995cf4507a9e98",
+  "sources/vlz/wide.svg": "28f31bc3ff1bb066"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.608,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "flatio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a376553632f5be1e"
+  "logo.svg": "a376553632f5be1e",
+  "sources/vlz/wide.svg": "e34ca44da549ff81"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.516,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

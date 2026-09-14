@@ -4,7 +4,8 @@
  "id": "bitriseio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f4e4189806b1e520"
+  "logo.svg": "f4e4189806b1e520",
+  "sources/vlz/wide.svg": "4530e561cd256467"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.44,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

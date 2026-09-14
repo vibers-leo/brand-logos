@@ -4,7 +4,8 @@
  "id": "brikit",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f75130ee6bc2b3e4"
+  "logo.svg": "f75130ee6bc2b3e4",
+  "sources/vlz/wide.svg": "0596edc3ef8b4b03"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.61,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

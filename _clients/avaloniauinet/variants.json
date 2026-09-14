@@ -4,7 +4,8 @@
  "id": "avaloniauinet",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2eccf246a46d256f"
+  "logo.svg": "2eccf246a46d256f",
+  "sources/vlz/wide.svg": "12a280fc6adf3ef6"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.29,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

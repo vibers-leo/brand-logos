@@ -4,7 +4,8 @@
  "id": "eero",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f5bf1bc37b85a6ee"
+  "logo.svg": "f5bf1bc37b85a6ee",
+  "sources/vlz/wide.svg": "3a846fb86e28b554"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.522,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

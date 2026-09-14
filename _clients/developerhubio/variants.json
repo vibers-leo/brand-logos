@@ -4,9 +4,24 @@
  "id": "developerhubio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4707edb0e4ab9548"
+  "logo.svg": "4707edb0e4ab9548",
+  "sources/vlz/wide.svg": "13f1b1910605ff21"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.474,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

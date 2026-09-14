@@ -4,7 +4,8 @@
  "id": "botronsoft",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "078ca9585a1becce"
+  "logo.svg": "078ca9585a1becce",
+  "sources/vlz/wide.svg": "c68cec0224242b77"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.301,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

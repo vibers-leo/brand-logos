@@ -4,9 +4,24 @@
  "id": "bulldogcreative",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ed08319db8c37518"
+  "logo.svg": "ed08319db8c37518",
+  "sources/vlz/wide.svg": "8a027a2d48040078"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.494,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "lyrebirdai",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a6a74f5dd577ecf3"
+  "logo.svg": "a6a74f5dd577ecf3",
+  "sources/vlz/wide.svg": "810f9d4ed333537d"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.176,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

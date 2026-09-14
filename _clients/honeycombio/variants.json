@@ -4,7 +4,9 @@
  "id": "honeycombio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "234ab99a5ec777da"
+  "logo.svg": "234ab99a5ec777da",
+  "sources/vlz/wide.svg": "8160a09599c51b37",
+  "sources/thesvg/wordmark.svg": "72c34c3822cf4178"
  },
  "variants": [
   {
@@ -20,7 +22,27 @@
    "aspect": 1.059,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "thesvg",
+     "file": "sources/thesvg/wordmark.svg"
+    }
+   ]
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.339,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

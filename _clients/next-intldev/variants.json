@@ -4,7 +4,8 @@
  "id": "next-intldev",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b778ebc89ca92647"
+  "logo.svg": "b778ebc89ca92647",
+  "sources/vlz/wide.svg": "6b0317b0c497f3bf"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.525,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

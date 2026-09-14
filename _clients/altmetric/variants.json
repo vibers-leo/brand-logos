@@ -4,7 +4,8 @@
  "id": "altmetric",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e1e1a2fe5b5e6d13"
+  "logo.svg": "e1e1a2fe5b5e6d13",
+  "sources/vlz/wide.svg": "398c696f158ed603"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.833,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

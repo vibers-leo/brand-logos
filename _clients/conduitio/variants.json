@@ -4,7 +4,8 @@
  "id": "conduitio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "435c63b9a3f240c0"
+  "logo.svg": "435c63b9a3f240c0",
+  "sources/vlz/wide.svg": "98bc91021942061c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.383,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

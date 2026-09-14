@@ -4,7 +4,8 @@
  "id": "appcenterms",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "aabdee92d8830a1e"
+  "logo.svg": "aabdee92d8830a1e",
+  "sources/vlz/wide.svg": "f4e560bf0ad8dad1"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.623,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

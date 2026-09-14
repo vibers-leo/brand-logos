@@ -4,9 +4,24 @@
  "id": "ampproject",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bd3fd25c30df353c"
+  "logo.svg": "bd3fd25c30df353c",
+  "sources/vlz/wide.svg": "506a5749b1aadf57"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.677,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

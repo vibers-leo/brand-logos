@@ -4,9 +4,24 @@
  "id": "balenaio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7fc8c63adbfb7ad2"
+  "logo.svg": "7fc8c63adbfb7ad2",
+  "sources/vlz/wide.svg": "1b59e821208c78b3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.0,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,9 +4,24 @@
  "id": "apache-batik",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f2f0fcb6028cfe04"
+  "logo.svg": "f2f0fcb6028cfe04",
+  "sources/vlz/wide.svg": "910fa5d82650fa29"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.188,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

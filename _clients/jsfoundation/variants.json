@@ -4,7 +4,8 @@
  "id": "jsfoundation",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bac150f2722e6323"
+  "logo.svg": "bac150f2722e6323",
+  "sources/vlz/wide.svg": "0e00b0ee0f375e19"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.314,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,7 +4,8 @@
  "id": "boxboat",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2ff2cf53208c8597"
+  "logo.svg": "2ff2cf53208c8597",
+  "sources/vlz/wide.svg": "e1f502c875a28074"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.195,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

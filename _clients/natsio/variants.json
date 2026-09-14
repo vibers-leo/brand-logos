@@ -4,7 +4,8 @@
  "id": "natsio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9b0421ef2b2c8d96"
+  "logo.svg": "9b0421ef2b2c8d96",
+  "sources/vlz/wide.svg": "0dd24eebd9643601"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.093,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

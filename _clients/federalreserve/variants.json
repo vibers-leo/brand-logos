@@ -4,7 +4,8 @@
  "id": "federalreserve",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "11a9301a119a630e"
+  "logo.svg": "11a9301a119a630e",
+  "sources/vlz/wide.svg": "ff02936919ca42cc"
  },
  "variants": [
   {
@@ -20,7 +21,13 @@
    "aspect": 1.002,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30
+   "order": 30,
+   "alts": [
+    {
+     "provider": "vectorlogozone",
+     "file": "sources/vlz/wide.svg"
+    }
+   ]
   }
  ]
 }

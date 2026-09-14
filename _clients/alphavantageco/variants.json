@@ -4,7 +4,8 @@
  "id": "alphavantageco",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "32c10a65d0a19ab4"
+  "logo.svg": "32c10a65d0a19ab4",
+  "sources/vlz/wide.svg": "a8f2f9064ed933aa"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 4.09,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

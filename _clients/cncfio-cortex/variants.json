@@ -4,9 +4,24 @@
  "id": "cncfio-cortex",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c918cbd61c3d0fe0"
+  "logo.svg": "c918cbd61c3d0fe0",
+  "sources/vlz/wide.svg": "693a27229c21495d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.601,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

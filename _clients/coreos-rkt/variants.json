@@ -4,9 +4,24 @@
  "id": "coreos-rkt",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9149b9ae97bda363"
+  "logo.svg": "9149b9ae97bda363",
+  "sources/vlz/wide.svg": "85b4376ce1f8ec0d"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.268,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

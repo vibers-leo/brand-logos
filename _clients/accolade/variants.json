@@ -4,9 +4,24 @@
  "id": "accolade",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "880f96a72d760b4e"
+  "logo.svg": "880f96a72d760b4e",
+  "sources/vlz/wide.svg": "1cecd66c90d8cc96"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.0,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

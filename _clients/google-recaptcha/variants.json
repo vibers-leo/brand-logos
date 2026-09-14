@@ -4,9 +4,24 @@
  "id": "google-recaptcha",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "bd480237b3d28e8f"
+  "logo.svg": "bd480237b3d28e8f",
+  "sources/vlz/wide.svg": "1be1235d667613c6"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.536,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

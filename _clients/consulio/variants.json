@@ -4,9 +4,24 @@
  "id": "consulio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a0c8cdb984fc5a37"
+  "logo.svg": "a0c8cdb984fc5a37",
+  "sources/vlz/wide.svg": "bfd0ce1fc6ebf3bd"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.989,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

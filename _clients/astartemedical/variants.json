@@ -4,9 +4,24 @@
  "id": "astartemedical",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8c09b358d170b9ea"
+  "logo.svg": "8c09b358d170b9ea",
+  "sources/vlz/wide.svg": "3147c6181c849679"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.582,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,7 +4,8 @@
  "id": "joyent",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cce98fd03faeab05"
+  "logo.svg": "cce98fd03faeab05",
+  "sources/vlz/wide.svg": "ed5f434c57c8e049"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.129,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

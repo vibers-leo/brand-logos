@@ -4,7 +4,8 @@
  "id": "acorns",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "aa9aa36c0b990c20"
+  "logo.svg": "aa9aa36c0b990c20",
+  "sources/vlz/wide.svg": "0dd17187bb546c4c"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.106,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "creativemarket",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "721d56f6e6edb5ea"
+  "logo.svg": "721d56f6e6edb5ea",
+  "sources/vlz/wide.svg": "1ea5dcce7fba1e79"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.581,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

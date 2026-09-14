@@ -4,9 +4,24 @@
  "id": "netlifyapp-watercss",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "efe2013bf6d74228"
+  "logo.svg": "efe2013bf6d74228",
+  "sources/vlz/wide.svg": "7d7c07094cb073bc"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.604,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

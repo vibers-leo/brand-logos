@@ -4,9 +4,24 @@
  "id": "anthemis",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "de8e32d564b719a4"
+  "logo.svg": "de8e32d564b719a4",
+  "sources/vlz/wide.svg": "0abebfa0930b447c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.711,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

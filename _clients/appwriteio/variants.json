@@ -4,7 +4,8 @@
  "id": "appwriteio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "14604497d5c7327d"
+  "logo.svg": "14604497d5c7327d",
+  "sources/vlz/wide.svg": "5cd4fe05eb573214"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 5.343,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "git-scm",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1ccd3a4c6da99db3"
+  "logo.svg": "1ccd3a4c6da99db3",
+  "sources/vlz/wide.svg": "2f182130d7eaef6a"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.216,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

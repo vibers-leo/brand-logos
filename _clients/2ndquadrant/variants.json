@@ -4,7 +4,8 @@
  "id": "2ndquadrant",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "677e0fdd373a1d52"
+  "logo.svg": "677e0fdd373a1d52",
+  "sources/vlz/wide.svg": "6fe6f73999389141"
  },
  "variants": [
   {
@@ -21,6 +22,20 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
+  },
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 3.748,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 40
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "domaintools",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7f2f65a9c14789a2"
+  "logo.svg": "7f2f65a9c14789a2",
+  "sources/vlz/wide.svg": "4f7057c6f0460f72"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.193,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

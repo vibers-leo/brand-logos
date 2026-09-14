@@ -4,9 +4,24 @@
  "id": "glowforge",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9be903b0f34fbc1b"
+  "logo.svg": "9be903b0f34fbc1b",
+  "sources/vlz/wide.svg": "f41b45f3b6a773c3"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 1.894,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

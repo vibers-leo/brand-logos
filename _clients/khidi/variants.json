@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "khidi",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "71e18b0c01d5de5b"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 7.243,
+   "provider": "getlogo-ci-crop",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

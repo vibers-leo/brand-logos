@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nnibrre",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "238500b3ccd50d5d"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "mono-dark",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 4.299,
+   "provider": "getlogo-ci-crop",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

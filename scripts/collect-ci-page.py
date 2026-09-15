@@ -171,9 +171,15 @@ async def run(a):
             name = (b.get("name_ko") or b["id"])[:12]
             note = ""
             try:
-                await pg.goto(home, wait_until="domcontentloaded", timeout=25000)
+                # 겟로고 카탈로그가 확인한 공식 CI 페이지가 있으면 기관 홈을
+                # 다시 훑지 않고 그 출처로 바로 들어간다. 기관 홈은 링크 구조가
+                # 제각각이라 600곳 중 4곳만 찾던 병목의 원인이었다.
+                entry_page = b.get("ci_page_url") or home
+                await pg.goto(entry_page, wait_until="domcontentloaded", timeout=25000)
                 await pg.wait_for_timeout(800)
                 links = await pg.evaluate(JS_LINKS)
+                if b.get("ci_page_url"):
+                    note = "via 겟로고 공식 CI 링크"
             except Exception as e:
                 tried[b["id"]] = {"at": time.strftime("%Y-%m-%d"), "why": f"접속❌ {type(e).__name__}"}
                 print(f"   {name:<14} 접속❌ {type(e).__name__}", flush=True); continue

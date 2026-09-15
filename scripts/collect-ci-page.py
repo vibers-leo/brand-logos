@@ -91,8 +91,18 @@ def to_svg(data: bytes, ext: str, work: Path) -> bytes | None:
     # ai/pdf → 첫 페이지 svg
     out = work / "out.svg"
     r = subprocess.run(["pdftocairo", "-svg", "-f", "1", "-l", "1", str(src), str(out)], capture_output=True, timeout=60)
-    if r.returncode != 0 or not out.exists(): return None
-    return out.read_bytes()
+    if r.returncode == 0 and out.exists() and out.stat().st_size > 200:
+        return out.read_bytes()
+    # 기관이 배포하는 AI/PDF 중에는 pdftocairo가 폰트·투명도에서 실패하는
+    # 파일이 있다. Inkscape를 두 번째 변환기로 시도해 공식 원본을 놓치지 않는다.
+    try:
+        r2 = subprocess.run(["inkscape", str(src), "--export-type=svg", f"--export-filename={out}"],
+                            capture_output=True, timeout=90)
+        if r2.returncode == 0 and out.exists() and out.stat().st_size > 200:
+            return out.read_bytes()
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        pass
+    return None
 
 _CS = None
 def _cs():

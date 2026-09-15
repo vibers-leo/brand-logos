@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "kiomre",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "66f34445b5668aa4"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "mono-light",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "gov-rendered",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -4,8 +4,7 @@
  "id": "digitalasset",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c7326bbf1d7a15c7",
-  "sources/vlz/wide.svg": "d80e284e2e7add6b"
+  "logo.svg": "c7326bbf1d7a15c7"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.741,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,24 +4,9 @@
  "id": "codecentricde",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6224daad97cfaa0a",
-  "sources/vlz/wide.svg": "9d87269929b19bd5"
+  "logo.svg": "6224daad97cfaa0a"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.274,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

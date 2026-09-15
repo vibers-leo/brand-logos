@@ -4,8 +4,7 @@
  "id": "cibc",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b0b7f9b39740f1e9",
-  "sources/vlz/wide.svg": "1a00e1debc0cb5ee"
+  "logo.svg": "b0b7f9b39740f1e9"
  },
  "variants": [
   {
@@ -21,13 +20,7 @@
    "aspect": 1.098,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    }
-   ]
+   "order": 30
   }
  ]
 }

@@ -4,8 +4,7 @@
  "id": "alternate-dns",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "abe01b6ce73d391a",
-  "sources/vlz/wide.svg": "e9f940a794ca3db3"
+  "logo.svg": "abe01b6ce73d391a"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 8.333,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

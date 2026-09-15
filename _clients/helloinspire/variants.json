@@ -4,8 +4,7 @@
  "id": "helloinspire",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "600dd8ec88e91d3b",
-  "sources/vlz/wide.svg": "07c3cc7a3f241e47"
+  "logo.svg": "600dd8ec88e91d3b"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.36,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

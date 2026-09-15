@@ -4,8 +4,7 @@
  "id": "mono-project",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c2a1b413cb4a5c67",
-  "sources/vlz/wide.svg": "30332db66a14ee30"
+  "logo.svg": "c2a1b413cb4a5c67"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.144,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

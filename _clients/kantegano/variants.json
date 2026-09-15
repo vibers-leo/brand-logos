@@ -4,8 +4,7 @@
  "id": "kantegano",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "faf5d57afc3e3f6b",
-  "sources/vlz/wide.svg": "c986a847790e9dde"
+  "logo.svg": "faf5d57afc3e3f6b"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.105,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

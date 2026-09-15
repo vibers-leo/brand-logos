@@ -4,8 +4,7 @@
  "id": "cumulusnetworks",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7a0586a0faef5a2a",
-  "sources/vlz/wide.svg": "ea8f3cadb1780e53"
+  "logo.svg": "7a0586a0faef5a2a"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.302,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

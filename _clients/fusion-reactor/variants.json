@@ -4,8 +4,7 @@
  "id": "fusion-reactor",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f8f9ae90555b6ddd",
-  "sources/vlz/wide.svg": "3724fe54c55212d4"
+  "logo.svg": "f8f9ae90555b6ddd"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.472,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,8 +4,7 @@
  "id": "isocpp",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0958a3c4c6bd59f5",
-  "sources/vlz/wide.svg": "4dcdb346fd2f4c2b"
+  "logo.svg": "0958a3c4c6bd59f5"
  },
  "variants": [
   {
@@ -21,13 +20,7 @@
    "aspect": 0.89,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    }
-   ]
+   "order": 30
   }
  ]
 }

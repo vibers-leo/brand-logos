@@ -4,24 +4,9 @@
  "id": "instantlogosearch",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2fc6931892fd6d7d",
-  "sources/vlz/wide.svg": "fbdd39d5b3507574"
+  "logo.svg": "2fc6931892fd6d7d"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.088,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

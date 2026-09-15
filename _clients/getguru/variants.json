@@ -4,24 +4,9 @@
  "id": "getguru",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ff79adb96b472d85",
-  "sources/vlz/wide.svg": "68cd28aa1a22dd8f"
+  "logo.svg": "ff79adb96b472d85"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.542,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

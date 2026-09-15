@@ -4,8 +4,7 @@
  "id": "apple-objectivec",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "58be9c50b35c6e0d",
-  "sources/vlz/wide.svg": "7cfc31719c4e8c65"
+  "logo.svg": "58be9c50b35c6e0d"
  },
  "variants": [
   {
@@ -21,13 +20,7 @@
    "aspect": 1.0,
    "provider": "logos-apps",
    "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    }
-   ]
+   "order": 30
   }
  ]
 }

@@ -4,8 +4,7 @@
  "id": "eyesonteam",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "85a36d75830cd432",
-  "sources/vlz/wide.svg": "b135e417e8ea187d"
+  "logo.svg": "85a36d75830cd432"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.038,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,8 +4,7 @@
  "id": "bakkt",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "15e9a3760b7d8ee3",
-  "sources/vlz/wide.svg": "b69a7c0fff1e2a8b"
+  "logo.svg": "15e9a3760b7d8ee3"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.561,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

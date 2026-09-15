@@ -4,8 +4,7 @@
  "id": "arch-linux",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8c35312909f747c4",
-  "sources/vlz/wide.svg": "4f86945c600824ff"
+  "logo.svg": "8c35312909f747c4"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.289,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

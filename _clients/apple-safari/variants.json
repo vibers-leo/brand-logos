@@ -4,24 +4,9 @@
  "id": "apple-safari",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b32419aaa1b84b35",
-  "sources/vlz/wide.svg": "51612846b6dc65a0"
+  "logo.svg": "b32419aaa1b84b35"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.386,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

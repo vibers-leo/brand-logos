@@ -4,24 +4,9 @@
  "id": "axway",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "305071f0abb4ac8c",
-  "sources/vlz/wide.svg": "8413bfa3a0494bf8"
+  "logo.svg": "305071f0abb4ac8c"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.933,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

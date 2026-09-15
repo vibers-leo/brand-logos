@@ -4,8 +4,7 @@
  "id": "geekflare",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "35114ff822bf0ad7",
-  "sources/vlz/wide.svg": "2982b1f71d41c849"
+  "logo.svg": "35114ff822bf0ad7"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.618,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

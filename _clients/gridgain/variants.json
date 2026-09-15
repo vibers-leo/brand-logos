@@ -4,8 +4,7 @@
  "id": "gridgain",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "599e6752bbd2cab1",
-  "sources/vlz/wide.svg": "cebfca65f055f98a"
+  "logo.svg": "599e6752bbd2cab1"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.94,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

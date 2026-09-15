@@ -4,24 +4,9 @@
  "id": "jamendo",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8cfa18aa1c2c9d64",
-  "sources/vlz/wide.svg": "a21ec1d6b597fa67"
+  "logo.svg": "8cfa18aa1c2c9d64"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.609,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

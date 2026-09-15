@@ -4,24 +4,9 @@
  "id": "451research",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ab89279cbcc14d9d",
-  "sources/vlz/wide.svg": "3bf1de0993711c5a"
+  "logo.svg": "ab89279cbcc14d9d"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.867,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

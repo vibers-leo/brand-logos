@@ -4,24 +4,9 @@
  "id": "ciliumio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "119f16d021bd6f62",
-  "sources/vlz/wide.svg": "1f51bb89f8ed62fc"
+  "logo.svg": "119f16d021bd6f62"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.872,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

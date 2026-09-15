@@ -4,8 +4,7 @@
  "id": "dgraphio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5fecd1ef24b02d7c",
-  "sources/vlz/wide.svg": "cb869aa0c182eb1d"
+  "logo.svg": "5fecd1ef24b02d7c"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.319,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

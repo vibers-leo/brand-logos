@@ -4,8 +4,7 @@
  "id": "blendoco",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "35a4049c2baadb77",
-  "sources/vlz/wide.svg": "085ea957e3be3e49"
+  "logo.svg": "35a4049c2baadb77"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.617,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

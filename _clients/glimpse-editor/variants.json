@@ -4,24 +4,9 @@
  "id": "glimpse-editor",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9e50a397568c228c",
-  "sources/vlz/wide.svg": "e6f1423fc11a73a5"
+  "logo.svg": "9e50a397568c228c"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.44,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

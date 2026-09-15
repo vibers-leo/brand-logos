@@ -4,8 +4,7 @@
  "id": "fissionio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5e1b9ccced7a6eec",
-  "sources/vlz/wide.svg": "2eae99577f295207"
+  "logo.svg": "5e1b9ccced7a6eec"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.486,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

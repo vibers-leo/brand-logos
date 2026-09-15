@@ -4,8 +4,7 @@
  "id": "humio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6ce7cd4cd32c82d4",
-  "sources/vlz/wide.svg": "24a379f66e7b7051"
+  "logo.svg": "6ce7cd4cd32c82d4"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.115,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

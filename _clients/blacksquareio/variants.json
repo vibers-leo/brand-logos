@@ -4,24 +4,9 @@
  "id": "blacksquareio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "151e5b73d4808bcb",
-  "sources/vlz/wide.svg": "ac2b48ef14d88054"
+  "logo.svg": "151e5b73d4808bcb"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.18,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

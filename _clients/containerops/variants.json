@@ -4,8 +4,7 @@
  "id": "containerops",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8afb79a24886bc0b",
-  "sources/vlz/wide.svg": "cfdac5ec2f5d7f61"
+  "logo.svg": "8afb79a24886bc0b"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.015,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

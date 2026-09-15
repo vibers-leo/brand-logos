@@ -4,8 +4,7 @@
  "id": "inloopx",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ee416da77424c0f9",
-  "sources/vlz/wide.svg": "7296b61fe41b7904"
+  "logo.svg": "ee416da77424c0f9"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.152,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

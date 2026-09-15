@@ -4,8 +4,7 @@
  "id": "ecchreu",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "89194cd93e9588bf",
-  "sources/vlz/wide.svg": "3377fe5043872b7e"
+  "logo.svg": "89194cd93e9588bf"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.496,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

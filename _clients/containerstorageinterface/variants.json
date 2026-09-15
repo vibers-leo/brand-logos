@@ -4,24 +4,9 @@
  "id": "containerstorageinterface",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "99b667ad525a37f2",
-  "sources/vlz/wide.svg": "9dd6ec6869dd64d7"
+  "logo.svg": "99b667ad525a37f2"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.358,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

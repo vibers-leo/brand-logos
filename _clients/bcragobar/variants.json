@@ -4,24 +4,9 @@
  "id": "bcragobar",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c06723140690bd9c",
-  "sources/vlz/wide.svg": "d8524f366b144f05"
+  "logo.svg": "c06723140690bd9c"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.407,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

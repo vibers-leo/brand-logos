@@ -4,8 +4,7 @@
  "id": "cucumberio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "390818f5d20a72c8",
-  "sources/vlz/wide.svg": "4606233a256a7b65"
+  "logo.svg": "390818f5d20a72c8"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.046,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

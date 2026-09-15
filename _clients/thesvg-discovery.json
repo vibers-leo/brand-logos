@@ -1,52 +1,16 @@
 {
- "generated_at": "2026-09-14T23:31:11.462207+00:00",
+ "generated_at": "2026-09-15T21:21:29.848955+00:00",
  "source": {
   "name": "theSVG",
   "url": "https://github.com/glincker/thesvg",
   "registry": "https://thesvg.org/api/registry.json"
  },
  "policy": "발굴 전용. 저장소 코드의 MIT와 별개로 개별 브랜드 로고는 상표일 수 있다. 각 항목의 license·공식 사용 가이드·브랜드 매핑을 검토하기 전에는 다운로드·서비스 반영 금지.",
- "known_brand_count": 50765,
+ "known_brand_count": 50866,
  "source_brand_count": 7412,
- "new_brand_candidate_count": 1912,
- "form_gap_candidate_count": 1853,
+ "new_brand_candidate_count": 1817,
+ "form_gap_candidate_count": 1948,
  "new_brands": [
-  {
-   "source_id": "1040-com-badge",
-   "title": "1040.com",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "1984-hosting-badge",
-   "title": "1984 Hosting",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "1login-od-wp-badge",
-   "title": "1login od WP",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
   {
    "source_id": "1password-badge",
    "title": "1Password",
@@ -62,18 +26,6 @@
   {
    "source_id": "23andme-badge",
    "title": "23andMe",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "2captcha-badge",
-   "title": "2Captcha",
    "variants": [
     "default"
    ],
@@ -109,18 +61,6 @@
    "url": "https://accountantos.com.au"
   },
   {
-   "source_id": "accurate-badge",
-   "title": "Accurate",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "acrobat-reader-grayscale-app-icon",
    "title": "Acrobat Reader (grayscale app icon)",
    "variants": [
@@ -131,18 +71,6 @@
    ],
    "license": "brand-use",
    "url": "https://www.adobe.com/acrobat/pdf-reader.html"
-  },
-  {
-   "source_id": "active24-badge",
-   "title": "Active24",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "activision-badge",
@@ -255,18 +183,6 @@
    "url": null
   },
   {
-   "source_id": "akamai-connected-cloud-badge",
-   "title": "Akamai Connected Cloud",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "aldi-sud",
    "title": "Aldi Süd",
    "variants": [
@@ -328,18 +244,6 @@
    "url": "https://alistgo.com"
   },
   {
-   "source_id": "all-inkl-badge",
-   "title": "All-Inkl",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "allegro-badge",
    "title": "Allegro",
    "variants": [
@@ -350,18 +254,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://allegro.pl"
-  },
-  {
-   "source_id": "allmylinks-badge",
-   "title": "AllMyLinks",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "alpha-vantage",
@@ -429,18 +321,6 @@
    "url": "https://antgroup.com"
   },
   {
-   "source_id": "any-run-badge",
-   "title": "ANY.RUN",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "anydesk-badge",
    "title": "AnyDesk",
    "variants": [
@@ -467,18 +347,6 @@
   {
    "source_id": "apigee-badge",
    "title": "Apigee",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "appfolio-badge",
-   "title": "AppFolio",
    "variants": [
     "default"
    ],
@@ -537,30 +405,6 @@
    "url": "https://www.arduino.cc"
   },
   {
-   "source_id": "arenanet-badge",
-   "title": "ArenaNet",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "arin-badge",
-   "title": "ARIN",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "armonika",
    "title": "Armonika",
    "variants": [
@@ -597,18 +441,6 @@
    "url": "https://asana.com"
   },
   {
-   "source_id": "asklepios-badge",
-   "title": "Asklepios",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "asustor-badge",
    "title": "Asustor",
    "variants": [
@@ -633,30 +465,6 @@
    "url": "https://atcoder.jp"
   },
   {
-   "source_id": "aternos",
-   "title": "Aternos",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "Proprietary",
-   "url": "https://aternos.org"
-  },
-  {
-   "source_id": "aternos-badge",
-   "title": "Aternos",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": "https://aternos.org"
-  },
-  {
    "source_id": "atlassian-badge",
    "title": "Atlassian",
    "variants": [
@@ -679,18 +487,6 @@
    ],
    "license": "Trademark",
    "url": "https://attio.com"
-  },
-  {
-   "source_id": "australian-government-badge",
-   "title": "Australian Government",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "auth0-badge",
@@ -731,18 +527,6 @@
   {
    "source_id": "authing-badge",
    "title": "Authing",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "autistici-badge",
-   "title": "Autistici",
    "variants": [
     "default"
    ],
@@ -10791,18 +10575,6 @@
    "url": "https://www.babbel.com/"
   },
   {
-   "source_id": "back4app-badge",
-   "title": "Back4App",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "backblaze-badge",
    "title": "Backblaze",
    "variants": [
@@ -10887,18 +10659,6 @@
    "url": null
   },
   {
-   "source_id": "battlestate-games-badge",
-   "title": "Battlestate Games",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "bayzat",
    "title": "Bayzat",
    "variants": [
@@ -10959,32 +10719,8 @@
    "url": "https://bethesda.net"
   },
   {
-   "source_id": "better-uptime-badge",
-   "title": "Better Uptime",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "betterment-badge",
    "title": "Betterment",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "beyondtrust-badge",
-   "title": "BeyondTrust",
    "variants": [
     "default"
    ],
@@ -11019,42 +10755,6 @@
    "url": "https://binance.com/"
   },
   {
-   "source_id": "bingx-badge",
-   "title": "BingX",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "birdie-badge",
-   "title": "Birdie",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitazza-badge",
-   "title": "Bitazza",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "bitbucket-badge",
    "title": "Bitbucket",
    "variants": [
@@ -11079,56 +10779,8 @@
    "url": "https://brand.bitdefender.com"
   },
   {
-   "source_id": "bitflyer-badge",
-   "title": "bitFlyer",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitgo-badge",
-   "title": "BitGo",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitkub-badge",
-   "title": "Bitkub",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "bitpanda-badge",
    "title": "Bitpanda",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitpay-badge",
-   "title": "Bitpay",
    "variants": [
     "default"
    ],
@@ -11151,68 +10803,8 @@
    "url": "https://www.bitrise.io/presskit"
   },
   {
-   "source_id": "bitrix24-badge",
-   "title": "Bitrix24",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitsight-badge",
-   "title": "BitSight",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitskins-badge",
-   "title": "BitSkins",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitso-badge",
-   "title": "Bitso",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "bitstamp-badge",
    "title": "Bitstamp",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bitwage-badge",
-   "title": "Bitwage",
    "variants": [
     "default"
    ],
@@ -11235,30 +10827,6 @@
    "url": "https://bitwarden.com/"
   },
   {
-   "source_id": "black-desert-badge",
-   "title": "Black Desert",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "blesta-badge",
-   "title": "Blesta",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "blips",
    "title": "Blips",
    "variants": [
@@ -11269,18 +10837,6 @@
    ],
    "license": "Trademark of Blips. Used for identification under nominative fair use.",
    "url": "https://blips.space/"
-  },
-  {
-   "source_id": "blockstream-green-badge",
-   "title": "Blockstream Green",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "blogent",
@@ -11297,18 +10853,6 @@
   {
    "source_id": "bluehost-badge",
    "title": "Bluehost",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "bnktothefuture-badge",
-   "title": "BnkToTheFuture",
    "variants": [
     "default"
    ],
@@ -11355,42 +10899,6 @@
    "url": "https://www.bookstackapp.com"
   },
   {
-   "source_id": "boomi-badge",
-   "title": "Boomi",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "borgbase-badge",
-   "title": "BorgBase",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "borlabs-badge",
-   "title": "Borlabs",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "box-badge",
    "title": "Box",
    "variants": [
@@ -11401,18 +10909,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://www.box.com/en-gb/about-us/press"
-  },
-  {
-   "source_id": "boxcryptor-badge",
-   "title": "Boxcryptor",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "brave-badge",
@@ -11475,18 +10971,6 @@
    "url": "https://www.brevo.com"
   },
   {
-   "source_id": "british-computer-society-badge",
-   "title": "British Computer Society",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "british-telecom",
    "title": "BT",
    "variants": [
@@ -11533,18 +11017,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://www.bugcrowd.com/about/press-kit"
-  },
-  {
-   "source_id": "bugzilla-badge",
-   "title": "Bugzilla",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "buhl-badge",
@@ -11607,30 +11079,6 @@
    "url": "https://cal.com"
   },
   {
-   "source_id": "calorietracker-io-badge",
-   "title": "CalorieTracker.io",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "canapii-badge",
-   "title": "Canapii",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "canonical-landscape",
    "title": "Canonical Landscape",
    "variants": [
@@ -11665,30 +11113,6 @@
    ],
    "license": "GPL-3.0",
    "url": "https://multipass.run"
-  },
-  {
-   "source_id": "capcom-id-badge",
-   "title": "CAPCOM ID",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "capital-com-badge",
-   "title": "Capital.com",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "captivate",
@@ -11751,18 +11175,6 @@
    "url": "https://carrd.co/"
   },
   {
-   "source_id": "carta-badge",
-   "title": "Carta",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "cash-app-badge",
    "title": "Cash App",
    "variants": [
@@ -11785,30 +11197,6 @@
    ],
    "license": "brand-use",
    "url": "https://www.adobe.com/products/character-animator"
-  },
-  {
-   "source_id": "chaturbate-badge",
-   "title": "Chaturbate",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "cheaper-domains-badge",
-   "title": "Cheaper Domains",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "chick-fil-a",
@@ -11889,18 +11277,6 @@
    "url": "https://www.cityflo.com"
   },
   {
-   "source_id": "clearscore-badge",
-   "title": "ClearScore",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "clickteam-fusion",
    "title": "Clickteam Fusion",
    "variants": [
@@ -11923,30 +11299,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://clickup.com/brand"
-  },
-  {
-   "source_id": "cloudamo-badge",
-   "title": "Cloudamo",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "cloudfanatic-badge",
-   "title": "Cloudfanatic",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "cloudflare-badge",
@@ -11997,18 +11349,6 @@
    "url": null
   },
   {
-   "source_id": "cobo-badge",
-   "title": "Cobo",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "coda-badge",
    "title": "Coda",
    "variants": [
@@ -12019,18 +11359,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://coda.io"
-  },
-  {
-   "source_id": "codeanywhere-badge",
-   "title": "Codeanywhere",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "codeberg-badge",
@@ -12057,18 +11385,6 @@
    "url": "https://app.codeship.com"
   },
   {
-   "source_id": "coding-badge",
-   "title": "CODING",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "coinbase-badge",
    "title": "Coinbase",
    "variants": [
@@ -12079,30 +11395,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://www.coinbase.com/"
-  },
-  {
-   "source_id": "cointracker-badge",
-   "title": "CoinTracker",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "cointracking-badge",
-   "title": "CoinTracking",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "composio",
@@ -12141,18 +11433,6 @@
    "url": "https://conceptboard.com"
   },
   {
-   "source_id": "connectwise-badge",
-   "title": "ConnectWise",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "contabo-badge",
    "title": "Contabo",
    "variants": [
@@ -12177,18 +11457,6 @@
    "url": null
   },
   {
-   "source_id": "coretax-badge",
-   "title": "Coretax",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "coursera-badge",
    "title": "Coursera",
    "variants": [
@@ -12199,18 +11467,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://www.coursera.org/"
-  },
-  {
-   "source_id": "cozy-cloud-badge",
-   "title": "Cozy Cloud",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "cpanel-badge",
@@ -12237,18 +11493,6 @@
    "url": "https://www.embarcadero.com/products/cbuilder"
   },
   {
-   "source_id": "crashplan-badge",
-   "title": "CrashPlan",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "credly-badge",
    "title": "Credly",
    "variants": [
@@ -12261,42 +11505,6 @@
    "url": "https://cdn.credly.com/assets/structure/logo-78b59f8114817c758ca965ed8f1a58a76a39b6fd70d031f771a9bbc581fcde65.svg"
   },
   {
-   "source_id": "critical-start-badge",
-   "title": "Critical Start",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "cronometer-badge",
-   "title": "Cronometer",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "crossbox-badge",
-   "title": "CrossBox",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "crowdin-badge",
    "title": "Crowdin",
    "variants": [
@@ -12307,18 +11515,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://support.crowdin.com/using-logo/"
-  },
-  {
-   "source_id": "crowdnode-badge",
-   "title": "CrowdNode",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "crowdsec-badge",
@@ -12345,54 +11541,6 @@
    "url": "https://www.crowdstrike.com"
   },
   {
-   "source_id": "cs-money-badge",
-   "title": "CS.MONEY",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "csam-badge",
-   "title": "CSAM",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "csgofloat-badge",
-   "title": "CSGOFloat",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "cults-badge",
-   "title": "Cults",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "curseforge-badge",
    "title": "CurseForge",
    "variants": [
@@ -12403,42 +11551,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://curseforge.com/"
-  },
-  {
-   "source_id": "cuttly-badge",
-   "title": "Cuttly",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "cybelangel-badge",
-   "title": "CybelAngel",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "cyberpanel-badge",
-   "title": "CyberPanel",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "d3dotjs",
@@ -12517,18 +11629,6 @@
    "url": "https://commons.wikimedia.org/wiki/File:Datev.svg"
   },
   {
-   "source_id": "datove-schranky-badge",
-   "title": "Datove schranky",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "decathlon-logo",
    "title": "Decathlon",
    "variants": [
@@ -12555,102 +11655,6 @@
    "url": "https://decents.me/"
   },
   {
-   "source_id": "dedicatedmc-badge",
-   "title": "DedicatedMC",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "degiro-badge",
-   "title": "DEGIRO",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "del-one-federal-credit-union-badge",
-   "title": "Del-One Federal Credit Union",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "deleteme-badge",
-   "title": "DeleteMe",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "delinea-badge",
-   "title": "Delinea",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "deque-systems-badge",
-   "title": "Deque Systems",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "derpibooru-badge",
-   "title": "Derpibooru",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "desec-badge",
-   "title": "deSEC",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "deskera",
    "title": "Deskera",
    "variants": [
@@ -12675,18 +11679,6 @@
    "url": "https://www.bahn.de"
   },
   {
-   "source_id": "dewaweb-badge",
-   "title": "Dewaweb",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "dialogika",
    "title": "DIaLOGIKa",
    "variants": [
@@ -12709,18 +11701,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://wiki.diasporafoundation.org/Branding"
-  },
-  {
-   "source_id": "digiconnect-badge",
-   "title": "DigiConnect",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "digikala-persian-text",
@@ -12769,18 +11749,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://www.digitalocean.com/press/"
-  },
-  {
-   "source_id": "digitec-galaxus-badge",
-   "title": "Digitec Galaxus",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "directadmin-badge",
@@ -12857,18 +11825,6 @@
    "url": "https://discourse.org/"
   },
   {
-   "source_id": "dismail-de-badge",
-   "title": "dismail.de",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "disneyplus",
    "title": "Disney+",
    "variants": [
@@ -12891,42 +11847,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://disroot.org/en"
-  },
-  {
-   "source_id": "dmarcian-badge",
-   "title": "dmarcian",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "dmarket-badge",
-   "title": "DMarket",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "dns-services-badge",
-   "title": "DNS.services",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "dnsimple-badge",
@@ -12963,42 +11883,6 @@
    ],
    "license": "CC0-1.0",
    "url": "https://www.docusign.com"
-  },
-  {
-   "source_id": "doku-badge",
-   "title": "DOKU",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "domainesia-badge",
-   "title": "DomaiNesia",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "dondominio-badge",
-   "title": "DonDominio",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
   },
   {
    "source_id": "dreamfactory-badge",
@@ -13063,18 +11947,6 @@
    "url": "https://www.drupal.org/about/media-kit/logos"
   },
   {
-   "source_id": "duitku-badge",
-   "title": "Duitku",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
    "source_id": "duolingo-2024",
    "title": "Duolingo (2024)",
    "variants": [
@@ -13089,18 +11961,6 @@
   {
    "source_id": "dynadot-badge",
    "title": "Dynadot",
-   "variants": [
-    "default"
-   ],
-   "forms": [
-    "symbol"
-   ],
-   "license": "CC0-1.0",
-   "url": null
-  },
-  {
-   "source_id": "e-ipo-badge",
-   "title": "e-IPO",
    "variants": [
     "default"
    ],
@@ -24095,6 +22955,23 @@
    ]
   },
   {
+   "source_id": "1040-com-badge",
+   "title": "1040.com",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "1040-com-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "11x",
    "title": "11x",
    "variants": [
@@ -24110,6 +22987,57 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "1984-hosting-badge",
+   "title": "1984 Hosting",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "1984-hosting-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "1login-od-wp-badge",
+   "title": "1login od WP",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "1login-od-wp-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "2captcha-badge",
+   "title": "2Captcha",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "2captcha-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -24267,7 +23195,9 @@
    "license": "CC0-1.0",
    "url": "https://aframe.io/docs",
    "id": "a-frame",
-   "current_forms": [],
+   "current_forms": [
+    "vertical"
+   ],
    "missing_forms": [
     "symbol"
    ]
@@ -24375,6 +23305,23 @@
    ]
   },
   {
+   "source_id": "accurate-badge",
+   "title": "Accurate",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "accurate-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "accusoft",
    "title": "Accusoft",
    "variants": [
@@ -24466,6 +23413,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "active24-badge",
+   "title": "Active24",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "active24-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -25204,6 +24168,23 @@
    ]
   },
   {
+   "source_id": "akamai-connected-cloud-badge",
+   "title": "Akamai Connected Cloud",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "akamai-connected-cloud-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "akka",
    "title": "Akka",
    "variants": [
@@ -25445,6 +24426,23 @@
    ]
   },
   {
+   "source_id": "all-inkl-badge",
+   "title": "All-Inkl",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "all-inkl-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "allegro",
    "title": "Allegro",
    "variants": [
@@ -25481,6 +24479,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "allmylinks-badge",
+   "title": "AllMyLinks",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "allmylinks-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -25927,6 +24942,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "any-run-badge",
+   "title": "ANY.RUN",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "any-run-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -26506,6 +25538,23 @@
    ]
   },
   {
+   "source_id": "appfolio-badge",
+   "title": "AppFolio",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "appfolio-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "appian",
    "title": "Appian",
    "variants": [
@@ -26643,6 +25692,23 @@
    ]
   },
   {
+   "source_id": "arenanet-badge",
+   "title": "ArenaNet",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "arenanet-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "argocd",
    "title": "Argocd",
    "variants": [
@@ -26663,6 +25729,23 @@
    "missing_forms": [
     "symbol",
     "wordmark"
+   ]
+  },
+  {
+   "source_id": "arin-badge",
+   "title": "ARIN",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "arin-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
    ]
   },
   {
@@ -26776,6 +25859,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "asklepios-badge",
+   "title": "Asklepios",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "asklepios-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -26899,6 +25999,40 @@
    ]
   },
   {
+   "source_id": "aternos",
+   "title": "Aternos",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "Proprietary",
+   "url": "https://aternos.org",
+   "id": "aternos-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "aternos-badge",
+   "title": "Aternos",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": "https://aternos.org",
+   "id": "aternos-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "audi",
    "title": "Audi",
    "variants": [
@@ -26959,6 +26093,23 @@
    ]
   },
   {
+   "source_id": "australian-government-badge",
+   "title": "Australian Government",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "australian-government-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "austrian-airlines",
    "title": "Austrian Airlines",
    "variants": [
@@ -26994,6 +26145,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "autistici-badge",
+   "title": "Autistici",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "autistici-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -29025,6 +28193,23 @@
    ]
   },
   {
+   "source_id": "back4app-badge",
+   "title": "Back4App",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "back4app-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "backblaze",
    "title": "Backblaze",
    "variants": [
@@ -29308,6 +28493,23 @@
    ]
   },
   {
+   "source_id": "battlestate-games-badge",
+   "title": "Battlestate Games",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "battlestate-games-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "bayer",
    "title": "Bayer",
    "variants": [
@@ -29574,6 +28776,23 @@
    ]
   },
   {
+   "source_id": "better-uptime-badge",
+   "title": "Better Uptime",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "better-uptime-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "better-stack",
    "title": "Better Stack",
    "variants": [
@@ -29609,6 +28828,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "beyondtrust-badge",
+   "title": "BeyondTrust",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "beyondtrust-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -29693,6 +28929,210 @@
    ]
   },
   {
+   "source_id": "bingx-badge",
+   "title": "BingX",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bingx-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "birdie-badge",
+   "title": "Birdie",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "birdie-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitazza-badge",
+   "title": "Bitazza",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitazza-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitflyer-badge",
+   "title": "bitFlyer",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitflyer-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitgo-badge",
+   "title": "BitGo",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitgo-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitkub-badge",
+   "title": "Bitkub",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitkub-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitpay-badge",
+   "title": "Bitpay",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitpay-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitrix24-badge",
+   "title": "Bitrix24",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitrix24-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitsight-badge",
+   "title": "BitSight",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitsight-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitskins-badge",
+   "title": "BitSkins",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitskins-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitso-badge",
+   "title": "Bitso",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitso-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bitwage-badge",
+   "title": "Bitwage",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bitwage-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "bitwig",
    "title": "Bitwig",
    "variants": [
@@ -29728,6 +29168,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "black-desert-badge",
+   "title": "Black Desert",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "black-desert-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -29814,6 +29271,23 @@
    ]
   },
   {
+   "source_id": "blesta-badge",
+   "title": "Blesta",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "blesta-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "blibli",
    "title": "Blibli",
    "variants": [
@@ -29849,6 +29323,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "blockstream-green-badge",
+   "title": "Blockstream Green",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "blockstream-green-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -29913,6 +29404,23 @@
    ]
   },
   {
+   "source_id": "bnktothefuture-badge",
+   "title": "BnkToTheFuture",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bnktothefuture-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "boardgamegeek",
    "title": "BoardGameGeek",
    "variants": [
@@ -29969,6 +29477,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "boomi-badge",
+   "title": "Boomi",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "boomi-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -30054,6 +29579,40 @@
    ]
   },
   {
+   "source_id": "borgbase-badge",
+   "title": "BorgBase",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "borgbase-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "borlabs-badge",
+   "title": "Borlabs",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "borlabs-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "bose",
    "title": "Bose",
    "variants": [
@@ -30129,6 +29688,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "boxcryptor-badge",
+   "title": "Boxcryptor",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "boxcryptor-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -30221,6 +29797,23 @@
    "license": "brand-use",
    "url": "https://www.adobe.com/products/bridge",
    "id": "bridge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "british-computer-society-badge",
+   "title": "British Computer Society",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "british-computer-society-badge",
    "current_forms": [],
    "missing_forms": [
     "symbol"
@@ -30337,6 +29930,23 @@
    "license": "brand-use",
    "url": "https://www.bugsnag.com",
    "id": "bugsnag",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "bugzilla-badge",
+   "title": "Bugzilla",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "bugzilla-badge",
    "current_forms": [],
    "missing_forms": [
     "symbol"
@@ -30636,6 +30246,23 @@
    ]
   },
   {
+   "source_id": "calorietracker-io-badge",
+   "title": "CalorieTracker.io",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "calorietracker-io-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "campaign-monitor",
    "title": "Campaign Monitor",
    "variants": [
@@ -30648,6 +30275,23 @@
    "license": "CC0-1.0",
    "url": "https://www.campaignmonitor.com/company/brand/",
    "id": "campaign-monitor",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "canapii-badge",
+   "title": "Canapii",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "canapii-badge",
    "current_forms": [],
    "missing_forms": [
     "symbol"
@@ -30693,6 +30337,23 @@
    ]
   },
   {
+   "source_id": "capcom-id-badge",
+   "title": "CAPCOM ID",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "capcom-id-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "capcut",
    "title": "CapCut",
    "variants": [
@@ -30708,6 +30369,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "capital-com-badge",
+   "title": "Capital.com",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "capital-com-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -30767,6 +30445,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "carta-badge",
+   "title": "Carta",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "carta-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -31127,6 +30822,40 @@
    ]
   },
   {
+   "source_id": "chaturbate-badge",
+   "title": "Chaturbate",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "chaturbate-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cheaper-domains-badge",
+   "title": "Cheaper Domains",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cheaper-domains-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "checkio",
    "title": "CheckiO",
    "variants": [
@@ -31481,6 +31210,23 @@
    ]
   },
   {
+   "source_id": "clearscore-badge",
+   "title": "ClearScore",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "clearscore-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "microsoft-clipchamp",
    "title": "Microsoft Clipchamp",
    "variants": [
@@ -31495,6 +31241,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cloudamo-badge",
+   "title": "Cloudamo",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cloudamo-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -31553,6 +31316,23 @@
    "current_forms": [
     "vertical"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cloudfanatic-badge",
+   "title": "Cloudfanatic",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cloudfanatic-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -31721,6 +31501,23 @@
    ]
   },
   {
+   "source_id": "cobo-badge",
+   "title": "Cobo",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cobo-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "coca-cola-zero",
    "title": "Coca-Cola Zero",
    "variants": [
@@ -31809,6 +31606,23 @@
    "license": "CC0-1.0",
    "url": "https://codeclimate.com/github/codeclimate/python-test-reporter/badges/",
    "id": "code-climate",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "codeanywhere-badge",
+   "title": "Codeanywhere",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "codeanywhere-badge",
    "current_forms": [],
    "missing_forms": [
     "symbol"
@@ -31999,6 +31813,23 @@
    ]
   },
   {
+   "source_id": "coding-badge",
+   "title": "CODING",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "coding-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "codingame",
    "title": "CodinGame",
    "variants": [
@@ -32014,6 +31845,40 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cointracker-badge",
+   "title": "CoinTracker",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cointracker-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cointracking-badge",
+   "title": "CoinTracking",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cointracking-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -32346,6 +32211,23 @@
    ]
   },
   {
+   "source_id": "connectwise-badge",
+   "title": "ConnectWise",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "connectwise-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "constant-contact",
    "title": "Constant Contact",
    "variants": [
@@ -32502,6 +32384,23 @@
    ]
   },
   {
+   "source_id": "coretax-badge",
+   "title": "Coretax",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "coretax-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "cornell-university",
    "title": "Cornell University",
    "variants": [
@@ -32577,6 +32476,23 @@
    ]
   },
   {
+   "source_id": "cozy-cloud-badge",
+   "title": "Cozy Cloud",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cozy-cloud-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "cpanel",
    "title": "cPanel",
    "variants": [
@@ -32633,6 +32549,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "crashplan-badge",
+   "title": "CrashPlan",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "crashplan-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -32777,6 +32710,74 @@
    ]
   },
   {
+   "source_id": "critical-start-badge",
+   "title": "Critical Start",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "critical-start-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cronometer-badge",
+   "title": "Cronometer",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cronometer-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "crossbox-badge",
+   "title": "CrossBox",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "crossbox-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "crowdnode-badge",
+   "title": "CrowdNode",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "crowdnode-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "crowdstrike",
    "title": "CrowdStrike",
    "variants": [
@@ -32816,6 +32817,40 @@
    ]
   },
   {
+   "source_id": "cs-money-badge",
+   "title": "CS.MONEY",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cs-money-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "csam-badge",
+   "title": "CSAM",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "csam-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "csdn",
    "title": "CSDN",
    "variants": [
@@ -32831,6 +32866,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "csgofloat-badge",
+   "title": "CSGOFloat",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "csgofloat-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -32874,6 +32926,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cults-badge",
+   "title": "Cults",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cults-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -32946,6 +33015,23 @@
    ]
   },
   {
+   "source_id": "cuttly-badge",
+   "title": "Cuttly",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cuttly-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "cvs",
    "title": "CVS Health",
    "variants": [
@@ -32960,6 +33046,40 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cybelangel-badge",
+   "title": "CybelAngel",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cybelangel-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "cyberpanel-badge",
+   "title": "CyberPanel",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "cyberpanel-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -33234,6 +33354,23 @@
    ]
   },
   {
+   "source_id": "datove-schranky-badge",
+   "title": "Datove schranky",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "datove-schranky-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "dazn",
    "title": "DAZN",
    "variants": [
@@ -33296,6 +33433,23 @@
    ]
   },
   {
+   "source_id": "dedicatedmc-badge",
+   "title": "DedicatedMC",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "dedicatedmc-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "deepcool",
    "title": "DeepCool",
    "variants": [
@@ -33311,6 +33465,74 @@
    "current_forms": [
     "vertical"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "degiro-badge",
+   "title": "DEGIRO",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "degiro-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "del-one-federal-credit-union-badge",
+   "title": "Del-One Federal Credit Union",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "del-one-federal-credit-union-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "deleteme-badge",
+   "title": "DeleteMe",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "deleteme-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "delinea-badge",
+   "title": "Delinea",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "delinea-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -33437,6 +33659,40 @@
    ]
   },
   {
+   "source_id": "deque-systems-badge",
+   "title": "Deque Systems",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "deque-systems-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "derpibooru-badge",
+   "title": "Derpibooru",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "derpibooru-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "der-spiegel",
    "title": "Der Spiegel",
    "variants": [
@@ -33452,6 +33708,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "desec-badge",
+   "title": "deSEC",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "desec-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -33578,6 +33851,23 @@
    ]
   },
   {
+   "source_id": "dewaweb-badge",
+   "title": "Dewaweb",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "dewaweb-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "dhl",
    "title": "DHL",
    "variants": [
@@ -33633,6 +33923,40 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "digiconnect-badge",
+   "title": "DigiConnect",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "digiconnect-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "digitec-galaxus-badge",
+   "title": "Digitec Galaxus",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "digitec-galaxus-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -33758,6 +34082,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "dismail-de-badge",
+   "title": "dismail.de",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "dismail-de-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -33969,6 +34310,57 @@
    ]
   },
   {
+   "source_id": "dmarcian-badge",
+   "title": "dmarcian",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "dmarcian-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "dmarket-badge",
+   "title": "DMarket",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "dmarket-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "dns-services-badge",
+   "title": "DNS.services",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "dns-services-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "docker",
    "title": "Docker",
    "variants": [
@@ -34104,6 +34496,23 @@
    ]
   },
   {
+   "source_id": "doku-badge",
+   "title": "DOKU",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "doku-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "dolby",
    "title": "Dolby",
    "variants": [
@@ -34165,6 +34574,23 @@
    ]
   },
   {
+   "source_id": "domainesia-badge",
+   "title": "DomaiNesia",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "domainesia-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "dominos-pizza",
    "title": "Domino's Pizza",
    "variants": [
@@ -34179,6 +34605,23 @@
    "current_forms": [
     "wordmark"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "dondominio-badge",
+   "title": "DonDominio",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "dondominio-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]
@@ -34468,6 +34911,23 @@
    ]
   },
   {
+   "source_id": "duitku-badge",
+   "title": "Duitku",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "duitku-badge",
+   "current_forms": [],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
    "source_id": "dupont",
    "title": "DuPont",
    "variants": [
@@ -34542,6 +35002,23 @@
    "current_forms": [
     "horizontal"
    ],
+   "missing_forms": [
+    "symbol"
+   ]
+  },
+  {
+   "source_id": "e-ipo-badge",
+   "title": "e-IPO",
+   "variants": [
+    "default"
+   ],
+   "forms": [
+    "symbol"
+   ],
+   "license": "CC0-1.0",
+   "url": null,
+   "id": "e-ipo-badge",
+   "current_forms": [],
    "missing_forms": [
     "symbol"
    ]

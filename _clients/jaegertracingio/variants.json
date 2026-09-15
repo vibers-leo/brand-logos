@@ -4,24 +4,9 @@
  "id": "jaegertracingio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "893fc0c4aa450239",
-  "sources/vlz/wide.svg": "c814cc55499283a4"
+  "logo.svg": "893fc0c4aa450239"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.539,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

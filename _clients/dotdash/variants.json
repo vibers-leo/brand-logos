@@ -4,8 +4,7 @@
  "id": "dotdash",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "5109821389d4808f",
-  "sources/vlz/wide.svg": "4bd73c2d7de3fb56"
+  "logo.svg": "5109821389d4808f"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.037,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

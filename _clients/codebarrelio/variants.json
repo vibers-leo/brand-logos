@@ -4,8 +4,7 @@
  "id": "codebarrelio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "0ca5d0217b299600",
-  "sources/vlz/wide.svg": "6f5b67e6c07ff8da"
+  "logo.svg": "0ca5d0217b299600"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.614,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

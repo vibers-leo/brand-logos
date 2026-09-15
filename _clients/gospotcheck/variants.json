@@ -4,24 +4,9 @@
  "id": "gospotcheck",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f169bd8ecc45abd9",
-  "sources/vlz/wide.svg": "8f82914264ca486e"
+  "logo.svg": "f169bd8ecc45abd9"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.373,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

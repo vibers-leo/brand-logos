@@ -4,8 +4,7 @@
  "id": "apollo-graphql",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2bea360695bc413a",
-  "sources/vlz/wide.svg": "59a9cc386a831611"
+  "logo.svg": "2bea360695bc413a"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.41,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

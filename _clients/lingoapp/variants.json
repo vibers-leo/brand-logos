@@ -4,24 +4,9 @@
  "id": "lingoapp",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ce8a95c1b882b5f6",
-  "sources/vlz/wide.svg": "c3664e5adb604579"
+  "logo.svg": "ce8a95c1b882b5f6"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.764,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

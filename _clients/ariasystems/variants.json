@@ -4,24 +4,9 @@
  "id": "ariasystems",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "06a77fa14d763a11",
-  "sources/vlz/wide.svg": "b4b892ff880220cf"
+  "logo.svg": "06a77fa14d763a11"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 1.98,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

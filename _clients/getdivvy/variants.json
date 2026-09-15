@@ -4,8 +4,7 @@
  "id": "getdivvy",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "17932ade4b8e862d",
-  "sources/vlz/wide.svg": "94cb496550553153"
+  "logo.svg": "17932ade4b8e862d"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.71,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

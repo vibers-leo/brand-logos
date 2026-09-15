@@ -4,24 +4,9 @@
  "id": "apple-xcode",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2e16fb73d406ab2e",
-  "sources/vlz/wide.svg": "408b5f1e1c207c5e"
+  "logo.svg": "2e16fb73d406ab2e"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.818,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

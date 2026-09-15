@@ -4,8 +4,7 @@
  "id": "gioui",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f5357e2a90ffbcc9",
-  "sources/vlz/wide.svg": "017ecb003aa98bae"
+  "logo.svg": "f5357e2a90ffbcc9"
  },
  "variants": [
   {
@@ -21,13 +20,7 @@
    "aspect": 0.887,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    }
-   ]
+   "order": 30
   }
  ]
 }

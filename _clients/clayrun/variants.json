@@ -4,24 +4,9 @@
  "id": "clayrun",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f7b3d22ec4adf612",
-  "sources/vlz/wide.svg": "040433dd66276efb"
+  "logo.svg": "f7b3d22ec4adf612"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.389,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

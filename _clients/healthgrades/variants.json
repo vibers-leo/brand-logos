@@ -4,8 +4,7 @@
  "id": "healthgrades",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f63d49298cf1337c",
-  "sources/vlz/wide.svg": "c788dec3f9c25d86"
+  "logo.svg": "f63d49298cf1337c"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 5.062,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

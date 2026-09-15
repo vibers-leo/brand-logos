@@ -4,9 +4,7 @@
  "id": "getpocket",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "571fead380d45775",
-  "sources/vlz/wide.svg": "4062c77b2f6bc871",
-  "sources/thesvg/wordmark.svg": "38e690ccdc4f8916"
+  "logo.svg": "571fead380d45775"
  },
  "variants": [
   {
@@ -23,26 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.901,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40,
-   "alts": [
-    {
-     "provider": "thesvg",
-     "file": "sources/thesvg/wordmark.svg"
-    }
-   ]
   }
  ]
 }

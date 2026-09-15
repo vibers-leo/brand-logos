@@ -4,8 +4,7 @@
  "id": "getmeadow",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "029a57f3e0feca03",
-  "sources/vlz/wide.svg": "c477f102ffa7a045"
+  "logo.svg": "029a57f3e0feca03"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.833,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

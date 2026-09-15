@@ -4,8 +4,7 @@
  "id": "algorithmia",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d5dfd86c4e865aa0",
-  "sources/vlz/wide.svg": "1c09bc9254a3b56c"
+  "logo.svg": "d5dfd86c4e865aa0"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 10.714,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

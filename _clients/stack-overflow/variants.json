@@ -4,10 +4,7 @@
  "id": "stack-overflow",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d48cc96580513e1c",
-  "sources/svgl/wordmark.svg": "e100db9eb9cc3743",
-  "sources/vlz/wide.svg": "007f016a6ee1ecd3",
-  "sources/thesvg/wordmark.svg": "e100db9eb9cc3743"
+  "logo.svg": "d48cc96580513e1c"
  },
  "variants": [
   {
@@ -24,30 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/svgl/wordmark.svg"
-   },
-   "aspect": 5.028,
-   "provider": "svgl",
-   "origin": "collected",
-   "order": 40,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    },
-    {
-     "provider": "thesvg",
-     "file": "sources/thesvg/wordmark.svg"
-    }
-   ]
   }
  ]
 }

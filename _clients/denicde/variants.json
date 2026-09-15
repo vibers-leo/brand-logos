@@ -4,24 +4,9 @@
  "id": "denicde",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4dfdda5d347e900c",
-  "sources/vlz/wide.svg": "5d732dd2b92737fa"
+  "logo.svg": "4dfdda5d347e900c"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 1.958,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

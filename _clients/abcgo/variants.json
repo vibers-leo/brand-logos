@@ -4,8 +4,7 @@
  "id": "abcgo",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "c2d44aab0d529810",
-  "sources/vlz/wide.svg": "176b935c60af601d"
+  "logo.svg": "c2d44aab0d529810"
  },
  "variants": [
   {
@@ -21,13 +20,7 @@
    "aspect": 1.0,
    "provider": "logos-apps",
    "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    }
-   ]
+   "order": 30
   }
  ]
 }

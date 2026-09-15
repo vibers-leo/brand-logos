@@ -4,8 +4,7 @@
  "id": "carbonite",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "9b01615c418c9c91",
-  "sources/vlz/wide.svg": "2bdb5257b93bdcd4"
+  "logo.svg": "9b01615c418c9c91"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.877,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

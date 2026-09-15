@@ -4,8 +4,7 @@
  "id": "cloud66-skycap",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2756cf1ebdb9ec14",
-  "sources/vlz/wide.svg": "34c477f8ad956aa6"
+  "logo.svg": "2756cf1ebdb9ec14"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.485,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

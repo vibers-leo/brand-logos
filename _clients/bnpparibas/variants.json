@@ -4,8 +4,7 @@
  "id": "bnpparibas",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "cb8b7fa1c44a476e",
-  "sources/vlz/wide.svg": "b6b178c488435898"
+  "logo.svg": "cb8b7fa1c44a476e"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.952,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

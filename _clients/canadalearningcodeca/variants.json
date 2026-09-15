@@ -4,24 +4,9 @@
  "id": "canadalearningcodeca",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "62cfc42b92376fbe",
-  "sources/vlz/wide.svg": "70fd23231bb28cc2"
+  "logo.svg": "62cfc42b92376fbe"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.573,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

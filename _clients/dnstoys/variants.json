@@ -4,8 +4,7 @@
  "id": "dnstoys",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "32abfe0679534969",
-  "sources/vlz/wide.svg": "8ffdeccea81bd3e5"
+  "logo.svg": "32abfe0679534969"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.352,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,24 +4,9 @@
  "id": "eazybi",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2b622068fa795177",
-  "sources/vlz/wide.svg": "b8c23b27064d7ddb"
+  "logo.svg": "2b622068fa795177"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.271,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

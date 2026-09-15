@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "duitku-badge",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "2edf567ddb4b0f03"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -4,8 +4,7 @@
  "id": "dupleio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "6fc128b3da5d6cb4",
-  "sources/vlz/wide.svg": "fb5a65721e9c8e29"
+  "logo.svg": "6fc128b3da5d6cb4"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.732,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,24 +4,9 @@
  "id": "ckan",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b2f756bdbdeb786c",
-  "sources/vlz/wide.svg": "24987625f81f39be"
+  "logo.svg": "b2f756bdbdeb786c"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.825,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

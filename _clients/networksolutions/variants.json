@@ -4,24 +4,9 @@
  "id": "networksolutions",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1ec4bd73f7d30cfe",
-  "sources/vlz/wide.svg": "ceb215b186dba1fe"
+  "logo.svg": "1ec4bd73f7d30cfe"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.483,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

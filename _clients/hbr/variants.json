@@ -4,24 +4,9 @@
  "id": "hbr",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "170a9289473b7d7e",
-  "sources/vlz/wide.svg": "04c2884edae64620"
+  "logo.svg": "170a9289473b7d7e"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.251,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

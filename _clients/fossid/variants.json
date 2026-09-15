@@ -4,24 +4,9 @@
  "id": "fossid",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "7c36c362a9d0cb3f",
-  "sources/vlz/wide.svg": "c0c8ef03e1b95772"
+  "logo.svg": "7c36c362a9d0cb3f"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.828,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

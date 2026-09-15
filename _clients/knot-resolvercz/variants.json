@@ -4,8 +4,7 @@
  "id": "knot-resolvercz",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3650273d2df83c4c",
-  "sources/vlz/wide.svg": "b20d192cba869b29"
+  "logo.svg": "3650273d2df83c4c"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.739,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

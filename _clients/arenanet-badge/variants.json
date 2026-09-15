@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "arenanet-badge",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "15a80a16c51a2a75"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

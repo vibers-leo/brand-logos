@@ -4,8 +4,7 @@
  "id": "github-postgresjs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4e331d96e0402c96",
-  "sources/vlz/wide.svg": "019e254d7cf2c7bb"
+  "logo.svg": "4e331d96e0402c96"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.576,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

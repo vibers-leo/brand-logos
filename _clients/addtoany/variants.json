@@ -4,8 +4,7 @@
  "id": "addtoany",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a1d2d054e5e82e9f",
-  "sources/vlz/wide.svg": "f6fcc3f6e2035fb8"
+  "logo.svg": "a1d2d054e5e82e9f"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.049,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

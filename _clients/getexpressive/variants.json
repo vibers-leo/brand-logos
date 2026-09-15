@@ -4,8 +4,7 @@
  "id": "getexpressive",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "11fb2c3b7d3c0bc5",
-  "sources/vlz/wide.svg": "e4998654f1f3dd8e"
+  "logo.svg": "11fb2c3b7d3c0bc5"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 8.333,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

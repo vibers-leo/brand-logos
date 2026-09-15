@@ -4,8 +4,7 @@
  "id": "archive",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a04931a505651414",
-  "sources/vlz/wide.svg": "c454c1e42c4db9e4"
+  "logo.svg": "a04931a505651414"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.436,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

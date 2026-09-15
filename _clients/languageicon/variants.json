@@ -4,24 +4,9 @@
  "id": "languageicon",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "863e42cd96c1865c",
-  "sources/vlz/wide.svg": "570186343b183ebd"
+  "logo.svg": "863e42cd96c1865c"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.287,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

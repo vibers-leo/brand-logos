@@ -4,24 +4,9 @@
  "id": "iana",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "efa45c678baae8bd",
-  "sources/vlz/wide.svg": "35398a6014ded139"
+  "logo.svg": "efa45c678baae8bd"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.621,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

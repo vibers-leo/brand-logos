@@ -4,24 +4,9 @@
  "id": "flutterio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "86255536f18068aa",
-  "sources/vlz/wide.svg": "3d47b3008e03423b"
+  "logo.svg": "86255536f18068aa"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.752,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,24 +4,9 @@
  "id": "heptio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "ca1d57de35bf4cc4",
-  "sources/vlz/wide.svg": "8ad0fcb8f7574c25"
+  "logo.svg": "ca1d57de35bf4cc4"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.918,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

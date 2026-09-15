@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "bitrix24-badge",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "64723a9049f8891d"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 1.0,
+   "provider": "thesvg",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

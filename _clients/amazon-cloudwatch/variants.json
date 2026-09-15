@@ -4,8 +4,7 @@
  "id": "amazon-cloudwatch",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "b9dbbd416fd350e3",
-  "sources/vlz/wide.svg": "9b9a451f3a8d5953"
+  "logo.svg": "b9dbbd416fd350e3"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.051,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

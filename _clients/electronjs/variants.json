@@ -4,8 +4,7 @@
  "id": "electronjs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "516e8b6d94370380",
-  "sources/vlz/wide.svg": "121ceb736668c2c8"
+  "logo.svg": "516e8b6d94370380"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.448,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

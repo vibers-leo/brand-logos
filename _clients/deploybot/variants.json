@@ -4,8 +4,7 @@
  "id": "deploybot",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1d4a29cdb2637586",
-  "sources/vlz/wide.svg": "3645aa466bfe994f"
+  "logo.svg": "1d4a29cdb2637586"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.366,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

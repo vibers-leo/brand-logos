@@ -4,8 +4,7 @@
  "id": "bigpandaio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "140250c20fc06c59",
-  "sources/vlz/wide.svg": "4d4d147753b80202"
+  "logo.svg": "140250c20fc06c59"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.55,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

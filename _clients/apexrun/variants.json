@@ -4,8 +4,7 @@
  "id": "apexrun",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "4ffc5913488eae24",
-  "sources/vlz/wide.svg": "f1f9f4004fb6406a"
+  "logo.svg": "4ffc5913488eae24"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.896,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

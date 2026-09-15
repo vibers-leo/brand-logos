@@ -4,24 +4,9 @@
  "id": "calisphere",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "01b285af89ec3778",
-  "sources/vlz/wide.svg": "f0523f83d26f8303"
+  "logo.svg": "01b285af89ec3778"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 1.723,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

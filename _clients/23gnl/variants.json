@@ -4,24 +4,9 @@
  "id": "23gnl",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "3d5cb1361e4096a2",
-  "sources/vlz/wide.svg": "4b0da3edbb00a6f6"
+  "logo.svg": "3d5cb1361e4096a2"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.174,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

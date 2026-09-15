@@ -4,24 +4,9 @@
  "id": "ts-node",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "a7a32c1de8b0b90e",
-  "sources/gilbarbara/full.svg": "fc2c57f058037676"
+  "logo.svg": "a7a32c1de8b0b90e"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/gilbarbara/full.svg"
-   },
-   "aspect": 2.703,
-   "provider": "gilbarbara",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

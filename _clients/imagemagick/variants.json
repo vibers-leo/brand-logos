@@ -4,8 +4,7 @@
  "id": "imagemagick",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "8bbb2398a2dde808",
-  "sources/vlz/wide.svg": "0e195e373a59b75e"
+  "logo.svg": "8bbb2398a2dde808"
  },
  "variants": [
   {
@@ -21,13 +20,7 @@
    "aspect": 0.978,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    }
-   ]
+   "order": 30
   }
  ]
 }

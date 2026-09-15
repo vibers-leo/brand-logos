@@ -4,8 +4,7 @@
  "id": "goshippo",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f09ca58810f9bfd0",
-  "sources/vlz/wide.svg": "fca87c79ff8e5260"
+  "logo.svg": "f09ca58810f9bfd0"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.309,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,8 +4,7 @@
  "id": "easyredir",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "05589868e86f0036",
-  "sources/vlz/wide.svg": "213a4c3c5daa2e74"
+  "logo.svg": "05589868e86f0036"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 5.0,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

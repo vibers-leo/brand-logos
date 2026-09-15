@@ -4,8 +4,7 @@
  "id": "konghq",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "87fdb6dcf3f6994f",
-  "sources/vlz/wide.svg": "ed6b2254b95cc8e4"
+  "logo.svg": "87fdb6dcf3f6994f"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.036,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,8 +4,7 @@
  "id": "giantswarmio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "07d120c983225f81",
-  "sources/vlz/wide.svg": "f42c73efc144856c"
+  "logo.svg": "07d120c983225f81"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.629,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,24 +4,9 @@
  "id": "bedrockdata",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "59215328743dadbf",
-  "sources/vlz/wide.svg": "00d083d8d06664db"
+  "logo.svg": "59215328743dadbf"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.118,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,8 +4,7 @@
  "id": "appcues",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f1bc91e319fdab23",
-  "sources/vlz/wide.svg": "94f5a0dd0b890f2f"
+  "logo.svg": "f1bc91e319fdab23"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "logos-apps",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "color",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 4.688,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,24 +4,9 @@
  "id": "lesscss",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "2c2ea90c731c7d5f",
-  "sources/vlz/wide.svg": "e1b1cf0b64daafcf"
+  "logo.svg": "2c2ea90c731c7d5f"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.329,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

@@ -4,24 +4,9 @@
  "id": "granaryio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e5fccb01c25923b5",
-  "sources/vlz/wide.svg": "e6c60c616c67d5cb"
+  "logo.svg": "e5fccb01c25923b5"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.811,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

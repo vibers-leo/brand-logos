@@ -4,24 +4,9 @@
  "id": "kubedb",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "91e7959d491e96f6",
-  "sources/vlz/wide.svg": "9f1fb1f4fae3fe9b"
+  "logo.svg": "91e7959d491e96f6"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.908,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

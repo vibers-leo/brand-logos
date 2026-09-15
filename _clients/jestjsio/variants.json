@@ -4,24 +4,9 @@
  "id": "jestjsio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1f827c995407c9c6",
-  "sources/vlz/wide.svg": "c089e8c212b5fd90"
+  "logo.svg": "1f827c995407c9c6"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 2.094,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

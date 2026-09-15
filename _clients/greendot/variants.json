@@ -4,8 +4,7 @@
  "id": "greendot",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "e282c61660e1f68e",
-  "sources/vlz/wide.svg": "b05567815b2c9cec"
+  "logo.svg": "e282c61660e1f68e"
  },
  "variants": [
   {
@@ -21,13 +20,7 @@
    "aspect": 1.027,
    "provider": "unknown",
    "origin": "collected",
-   "order": 30,
-   "alts": [
-    {
-     "provider": "vectorlogozone",
-     "file": "sources/vlz/wide.svg"
-    }
-   ]
+   "order": 30
   }
  ]
 }

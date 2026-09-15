@@ -4,24 +4,9 @@
  "id": "backyourstack",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "1f6b4ba9674d7765",
-  "sources/vlz/wide.svg": "aaf77ab671751530"
+  "logo.svg": "1f6b4ba9674d7765"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 1.991,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

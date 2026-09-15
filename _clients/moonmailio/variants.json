@@ -4,8 +4,7 @@
  "id": "moonmailio",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "00b13414f94ac16a",
-  "sources/vlz/wide.svg": "da7e780cb404d1bc"
+  "logo.svg": "00b13414f94ac16a"
  },
  "variants": [
   {
@@ -22,20 +21,6 @@
    "provider": "unknown",
    "origin": "collected",
    "order": 30
-  },
-  {
-   "key": "wordmark",
-   "form": "wordmark",
-   "lang": "unknown",
-   "color": "mono-dark",
-   "label": "워드마크형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 3.533,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 40
   }
  ]
 }

@@ -4,24 +4,9 @@
  "id": "hapijs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "d788cb766d3b46e6",
-  "sources/vlz/wide.svg": "2a495e8a317118b5"
+  "logo.svg": "d788cb766d3b46e6"
  },
  "variants": [
-  {
-   "key": "horizontal",
-   "form": "horizontal",
-   "lang": "unknown",
-   "color": "color",
-   "label": "가로조합형",
-   "files": {
-    "svg": "sources/vlz/wide.svg"
-   },
-   "aspect": 1.387,
-   "provider": "vectorlogozone",
-   "origin": "collected",
-   "order": 10
-  },
   {
    "key": "symbol",
    "form": "symbol",

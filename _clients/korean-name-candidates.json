@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
- "generated_at": "2026-09-15",
- "count": 1319,
+ "generated_at": "2026-09-16",
+ "count": 1321,
  "candidates": [
   {
    "id": "mnet",
@@ -11956,6 +11956,22 @@
    "wikidata_sites": [
     "kb.nl"
    ]
+  },
+  {
+   "id": "communist-party",
+   "name_en": "Communist Party",
+   "ko": "소비에트 연방 공산당",
+   "qid": "Q79854",
+   "our_domain": "ilpartitocomunista.it",
+   "wikidata_sites": []
+  },
+  {
+   "id": "social-movement",
+   "name_en": "Social Movement",
+   "ko": "사회 운동",
+   "qid": "Q49773",
+   "our_domain": "org.ua",
+   "wikidata_sites": []
   }
  ]
 }

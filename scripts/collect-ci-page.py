@@ -35,6 +35,10 @@ JS_LINKS = r"""
   try { h = new URL(h, location.href).href; } catch (e) { h = String(a.href && a.href.baseVal || a.href || ''); }
   return { href: String(h), text: (a.innerText||a.getAttribute('title')||a.getAttribute('aria-label')||'').trim().slice(0,60),
            dl: a.hasAttribute('download') };
+}), ...[...document.images].map(img => {
+  let h = img.currentSrc || img.getAttribute('src') || '';
+  try { h = new URL(h, location.href).href; } catch (e) {}
+  return { href: String(h), text: (img.alt||img.getAttribute('title')||'').trim().slice(0,60), dl: false };
 })
 """
 

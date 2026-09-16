@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 brand-logos → NCP vibers-bucket 업로드
-경로: brand-logos/{brand_id}/{filename}
+경로: _clients/{brand_id}/{filename} (프론트 CDN 경로)
 
 사용:
   python3 upload-to-bucket.py              # 전체 브랜드
@@ -21,7 +21,7 @@ BRANDS_JSON = BASE / "brands.json"
 
 BUCKET = "vibers-bucket"
 ENDPOINT = "https://kr.object.ncloudstorage.com"
-PREFIX = "brand-logos"
+PREFIX = "_clients"
 
 CDN_BASE = f"https://logo.vibers.co.kr/_clients"  # GitHub Pages CDN (primary)
 BUCKET_BASE = f"{ENDPOINT}/{BUCKET}/{PREFIX}"       # 버킷 직접 URL (backup)

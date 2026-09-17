@@ -4,9 +4,24 @@
  "id": "nvmsh",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "90cdf8db29b1ccb9"
+  "logo.svg": "90cdf8db29b1ccb9",
+  "sources/vlz/wide.svg": "ce19aab1b79535e0"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.974,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

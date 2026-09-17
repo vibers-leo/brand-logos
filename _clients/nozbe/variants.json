@@ -4,9 +4,24 @@
  "id": "nozbe",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "adea2f49bcbfbdc7"
+  "logo.svg": "adea2f49bcbfbdc7",
+  "sources/vlz/wide.svg": "d1ea04386c3d2f6e"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.885,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

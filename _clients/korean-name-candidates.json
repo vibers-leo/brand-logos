@@ -1,7 +1,7 @@
 {
  "note": "이름은 맞았으나 공식 웹사이트가 우리 도메인과 달라 자동 반영하지 않은 후보. 재단·모회사 도메인을 쓰는 정답이 섞여 있으니 사람이 확인한다.",
- "generated_at": "2026-09-16",
- "count": 1321,
+ "generated_at": "2026-09-17",
+ "count": 1322,
  "candidates": [
   {
    "id": "mnet",
@@ -11972,6 +11972,16 @@
    "qid": "Q49773",
    "our_domain": "org.ua",
    "wikidata_sites": []
+  },
+  {
+   "id": "english-teacher",
+   "name_en": "English Teacher",
+   "ko": "잉글리쉬 티처",
+   "qid": "Q7474602",
+   "our_domain": "fxnetworks.com",
+   "wikidata_sites": [
+    "englishteachermovie.com"
+   ]
   }
  ]
 }

@@ -4,9 +4,24 @@
  "id": "npmjs",
  "primary": "symbol",
  "fingerprint": {
-  "logo.svg": "f4ee30264f5d96a6"
+  "logo.svg": "f4ee30264f5d96a6",
+  "sources/vlz/wide.svg": "33afdbae7f4f2f3c"
  },
  "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "sources/vlz/wide.svg"
+   },
+   "aspect": 2.567,
+   "provider": "vectorlogozone",
+   "origin": "collected",
+   "order": 10
+  },
   {
    "key": "symbol",
    "form": "symbol",

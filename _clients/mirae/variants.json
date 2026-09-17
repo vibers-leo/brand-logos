@@ -2,25 +2,25 @@
  "schema": 1,
  "algo_v": 1,
  "id": "mirae",
- "primary": "symbol",
+ "primary": "wordmark",
  "fingerprint": {
-  "logo.svg": "6bbddb9dda01192a"
+  "logo.svg": "13e50ebadc53a720"
  },
  "variants": [
   {
-   "key": "symbol",
-   "form": "symbol",
+   "key": "wordmark",
+   "form": "wordmark",
    "lang": "unknown",
    "color": "color",
-   "label": "심볼형",
+   "label": "워드마크형",
    "files": {
     "svg": "logo.svg",
     "png": "logo-800.png"
    },
-   "aspect": 1.002,
-   "provider": "kr-krx-pass2",
+   "aspect": 3.659,
+   "provider": "krx-site",
    "origin": "collected",
-   "order": 30
+   "order": 40
   }
  ]
 }

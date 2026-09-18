@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nexterm",
+ "primary": "horizontal",
+ "fingerprint": {
+  "logo.svg": "6e6d953dd273ffd3"
+ },
+ "variants": [
+  {
+   "key": "horizontal",
+   "form": "horizontal",
+   "lang": "unknown",
+   "color": "color",
+   "label": "가로조합형",
+   "files": {
+    "svg": "logo.svg"
+   },
+   "aspect": 1.368,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 10
+  }
+ ]
+}

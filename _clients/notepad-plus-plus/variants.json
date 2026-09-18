@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "notepad-plus-plus",
+ "primary": "symbol",
+ "fingerprint": {
+  "logo.svg": "75d7eee9dc800d7e"
+ },
+ "variants": [
+  {
+   "key": "symbol",
+   "form": "symbol",
+   "lang": "unknown",
+   "color": "color",
+   "label": "심볼형",
+   "files": {
+    "svg": "logo.svg"
+   },
+   "aspect": 1.233,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 30
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nops",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "0ec655391b548a6a"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg"
+   },
+   "aspect": 4.167,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 40
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "nforwardauth",
+ "primary": "vertical",
+ "fingerprint": {
+  "logo.svg": "f045dfdfa4b1f98c"
+ },
+ "variants": [
+  {
+   "key": "vertical",
+   "form": "vertical",
+   "lang": "unknown",
+   "color": "color",
+   "label": "세로조합형",
+   "files": {
+    "svg": "logo.svg"
+   },
+   "aspect": 0.71,
+   "provider": "logos-apps",
+   "origin": "collected",
+   "order": 20
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "algo_v": 1,
+ "id": "dongwon-homefood",
+ "primary": "wordmark",
+ "fingerprint": {
+  "logo.svg": "4a583d9469800aa3",
+  "sources/header-logo-white.svg": "5da95d2ae527d164"
+ },
+ "variants": [
+  {
+   "key": "wordmark",
+   "form": "wordmark",
+   "lang": "unknown",
+   "color": "color",
+   "label": "워드마크형",
+   "files": {
+    "svg": "logo.svg",
+    "png": "logo-800.png"
+   },
+   "aspect": 3.797,
+   "provider": "official-brand-assets",
+   "origin": "collected",
+   "order": 40,
+   "alts": [
+    {
+     "provider": "official-brand-assets",
+     "file": "sources/header-logo-white.svg"
+    }
+   ]
+  }
+ ]
+}

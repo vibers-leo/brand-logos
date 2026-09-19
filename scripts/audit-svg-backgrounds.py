@@ -37,9 +37,12 @@ def candidate(p):
     return None
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--apply',action='store_true'); ap.add_argument('--limit',type=int,default=0); ap.add_argument('--output',default='_reports/svg-background-audit.json'); args=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('--apply',action='store_true'); ap.add_argument('--limit',type=int,default=0); ap.add_argument('--max-files',type=int,default=5000, help='검사할 SVG 최대 수'); ap.add_argument('--output',default='_reports/svg-background-audit.json'); args=ap.parse_args()
     rows=[]
-    for p in ROOT.glob('*/*.svg'):
+    checked=0
+    for p in ROOT.glob('*/logo.svg'):
+        checked += 1
+        if args.max_files and checked > args.max_files: break
         hit=candidate(p)
         if hit:
             row={'file':str(p.relative_to(ROOT)),'candidate':hit}

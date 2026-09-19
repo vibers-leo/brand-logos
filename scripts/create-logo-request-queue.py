@@ -14,8 +14,9 @@ from datetime import date
 from pathlib import Path
 
 def parse(raw: str):
-    # slash is the convention used in support requests; newlines/commas are also accepted.
-    parts = [p.strip() for p in re.split(r"\s*/\s*|\s*[\n,]\s*", raw) if p.strip()]
+    # Slash/newline are the convention used in support requests. Commas are kept
+    # because they can be part of a Korean brand name (예: 오늘, 만큼).
+    parts = [p.strip() for p in re.split(r"\s*/\s*|\s*;\s*|\s*\n\s*", raw) if p.strip()]
     out=[]; seen=set()
     for part in parts:
         provided = bool(re.search(r"\(?\s*로고\s*제공\s*\)?", part))

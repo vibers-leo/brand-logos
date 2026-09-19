@@ -13,10 +13,11 @@
     {
       "name": "영도문화원",
       "slug": "영도문화원",
-      "source_state": "official_url_verified",
+      "source_state": "collected",
       "provided_file": null,
       "url": "https://www.ydculture.com/",
-      "url_source": "naver-api-hub+curl-page-check"
+      "url_source": "naver-api-hub+curl-page-check",
+      "collection_id": "yeongdo-cultural-center"
     },
     {
       "name": "부산상수도사업본부",
@@ -35,10 +36,11 @@
     {
       "name": "청년창업사관학교",
       "slug": "청년창업사관학교",
-      "source_state": "official_url_verified",
+      "source_state": "collected",
       "provided_file": null,
       "url": "https://www.kosmes.or.kr/nsh/SH/SBI/SHSBI035M0.do",
-      "url_source": "naver-api-hub+curl-page-check"
+      "url_source": "naver-api-hub+curl-page-check",
+      "collection_id": "youth-startup-academy"
     },
     {
       "name": "삼성표준인증원",
@@ -57,10 +59,11 @@
     {
       "name": "성사청소년문화의집",
       "slug": "성사청소년문화의집",
-      "source_state": "official_url_verified",
+      "source_state": "collected",
       "provided_file": null,
       "url": "https://www.gcyf.or.kr/ss/index.php",
-      "url_source": "naver-api-hub+curl-page-check"
+      "url_source": "naver-api-hub+curl-page-check",
+      "collection_id": "seongsa-youth-cultural-center"
     },
     {
       "name": "영도희망21",

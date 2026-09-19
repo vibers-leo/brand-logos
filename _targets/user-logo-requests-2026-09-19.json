@@ -1,0 +1,126 @@
+{
+  "created_at": "2026-09-19",
+  "purpose": "사용자 요청 로고 수집 큐",
+  "usage": "node scripts/collect-site-svg.mjs --input <official-url-targets.json>",
+  "items": [
+    {
+      "name": "동명대",
+      "slug": "동명대",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": "https://tongmyong.tu.ac.kr/tuhome/index.do"
+    },
+    {
+      "name": "영도문화원",
+      "slug": "영도문화원",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "부산상수도사업본부",
+      "slug": "부산상수도사업본부",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "로컬바이로컬",
+      "slug": "로컬바이로컬",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "청년창업사관학교",
+      "slug": "청년창업사관학교",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "삼성표준인증원",
+      "slug": "삼성표준인증원",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "타이밍어스",
+      "slug": "타이밍어스",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "성사청소년문화의집",
+      "slug": "성사청소년문화의집",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "영도희망21",
+      "slug": "영도희망21",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "(재)한국FGI",
+      "slug": "(재)한국fgi",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "에이엠씨",
+      "slug": "에이엠씨",
+      "source_state": "user_provided",
+      "provided_file": "KakaoTalk_Photo_2026-09-19-09-38-03 003.png",
+      "url": null
+    },
+    {
+      "name": "오늘, 만큼",
+      "slug": "오늘,-만큼",
+      "source_state": "user_provided",
+      "provided_file": "KakaoTalk_Photo_2026-09-19-09-38-03 002.jpeg",
+      "url": null
+    },
+    {
+      "name": "이동의자유 이유",
+      "slug": "이동의자유-이유",
+      "source_state": "user_provided",
+      "provided_file": "KakaoTalk_Photo_2026-09-19-09-38-03 001.png",
+      "url": null
+    },
+    {
+      "name": "벤처메이트",
+      "slug": "벤처메이트",
+      "source_state": "pending_delivery",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "시선커뮤니케이션",
+      "slug": "시선커뮤니케이션",
+      "source_state": "pending_delivery",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "민스푸드트럭협회",
+      "slug": "민스푸드트럭협회",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    },
+    {
+      "name": "부경푸드트럭협동조합",
+      "slug": "부경푸드트럭협동조합",
+      "source_state": "needs_official_url",
+      "provided_file": null,
+      "url": null
+    }
+  ]
+}

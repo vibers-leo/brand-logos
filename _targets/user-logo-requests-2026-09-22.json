@@ -2,7 +2,7 @@
   "created_at": "2026-09-22",
   "purpose": "사용자 제공 산업·조선·해양 분야 로고 시트 수집 후보",
   "reference_image": "_targets/source-images/2026-09-22-industrial-agent-list.png",
-  "reference_image_note": "원본 시트 전체를 보존하며 개별 로고 이미지로 자르지 않음",
+  "reference_image_note": "원본 시트 전체를 보존하며 개별 로고 이미지로 자르지 않음; 추가 시트도 원본 전체를 보존하며, 기존 후보·자산과 중복되는 브랜드는 신규 항목으로 추가하지 않음",
   "items": [
     {
       "name": "Ace Valve",
@@ -363,6 +363,40 @@
       "url": null,
       "category": "조선·해양·산업",
       "reference_only": true
+    },
+    {
+      "name": "Fukui Seisakusho",
+      "slug": "fukui-seisakusho",
+      "source_state": "needs_logo_asset",
+      "provided_file": null,
+      "url": "https://www.fkis.co.jp/eng/product_catalog.html",
+      "category": "조선·해양·산업",
+      "reference_only": true,
+      "reference_image": "_targets/source-images/2026-09-22-marine-equipment-additional-candidates.png",
+      "reference_note": "이미지의 FUKUI 안전밸브 로고. 공식 카탈로그 페이지 확인됨."
+    },
+    {
+      "name": "Flutek",
+      "slug": "flutek",
+      "source_state": "needs_logo_asset",
+      "provided_file": null,
+      "url": "https://www.flutek.co.kr/en/",
+      "category": "조선·해양·산업",
+      "reference_only": true,
+      "reference_image": "_targets/source-images/2026-09-22-marine-equipment-additional-candidates.png",
+      "reference_note": "이미지의 FLUTEK 조타기 로고. 공식 사이트 확인됨."
+    },
+    {
+      "name": "HYE (업체 식별 필요)",
+      "slug": "hye-marine-equipment-review",
+      "source_state": "needs_entity_identification",
+      "provided_file": null,
+      "url": null,
+      "category": "조선·해양·산업",
+      "reference_only": true,
+      "reference_image": "_targets/source-images/2026-09-22-marine-equipment-additional-candidates.png",
+      "identity_review_required": true,
+      "reference_note": "이미지의 HYE 표식과 Oil Water Separator 설명만 확인됨. 기존 Hanyoung Eng.와 동일 업체인지 확인 전 별도 로고 콘텐츠로 등록하지 않음."
     }
   ],
   "svg_upgrade_candidates": [
@@ -374,5 +408,14 @@
     "draeger",
     "riken-keiki",
     "crosby"
+  ],
+  "additional_reference_images": [
+    "_targets/source-images/2026-09-22-marine-equipment-additional-candidates.png"
+  ],
+  "additional_reference_image_notes": [
+    "2026-09-22 추가 조선·해양 기자재 로고 시트. 원본 전체를 보존하며 로고별로 잘라 쓰지 않음.",
+    "azbil·Daeyang은 기존 자산, Techcross·Oriental Precision & Engineering·SangSangin은 기존 후보와 중복되어 신규 행에서 제외.",
+    "GRS는 기존 Georim 후보의 유수분리기 제품 계열 표식으로 판단해 별도 브랜드로 추가하지 않음.",
+    "HYE 표식은 업체 정체를 확인하지 못해 임시 검토 후보로만 등록하며, 기존 Hanyoung Eng. 후보와의 동일성 확인 전 별도 콘텐츠화하지 않음."
   ]
 }

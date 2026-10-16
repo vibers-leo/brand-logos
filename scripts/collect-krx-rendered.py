@@ -126,6 +126,12 @@ JS = r"""
 
 RANK = {"filename": 0, "alt": 1, "homelink": 2, "header": 3, "css-bg": 4}
 
+
+def generic_ui_asset(url):
+    """A locale flag in a site header is not that site's brand logo."""
+    path = str(url).split('?', 1)[0].lower()
+    return '/flag_shapes/flag_' in path
+
 # collect-krx.py 의 가드를 그대로 쓴다 — 두 벌로 갈리면 한쪽만 고쳐지고
 # 다른 쪽으로 배너·파비콘이 새어 들어온다.
 import importlib.util as _il
@@ -298,6 +304,7 @@ async def probe(pg, url):
     # PNG 는 언제든 SVG 에서 파생할 수 있지만 반대는 안 된다 — 서비스 가치는 진짜 벡터 비율이 정한다.
     def _is_vec(r):
         return r.get("kind") == "inline-svg" or str(r.get("src", "")).split("?")[0].lower().endswith(".svg")
+    rows = [row for row in rows if not generic_ui_asset(row.get('src', ''))]
     rows.sort(key=lambda r: (0 if _is_vec(r) else 1, RANK.get(r["why"], 9), r["top"], r["left"]))
     return rows, f"{len(rows)}개"
 

@@ -3097781,7 +3097781,42 @@
       "source": "wikimedia:South Korean Socialist Workers' Alliance.svg",
       "status": "raw",
       "dark_variant": "transparent"
+    },
+    {
+      "id": "korean-academy-of-science-and-technology",
+      "name_ko": "한국과학기술한림원",
+      "name_en": "Korean Academy of Science and Technology",
+      "category": "공공·기관",
+      "folder": "_clients/korean-academy-of-science-and-technology",
+      "website": "kast.or.kr",
+      "domain": "kast.or.kr",
+      "logo_svg": "logo.svg",
+      "has_svg": true,
+      "logo_png": true,
+      "has_png": true,
+      "svg_source": "wikimedia",
+      "svg_note": "Wikimedia Commons public-domain text-logo SVG. Visually matched to the current official CI page logo. Trademark notice applies.",
+      "official_source_page": "https://www.kast.or.kr/kr/kast/ci.php",
+      "aliases": [
+        "KAST"
+      ],
+      "added_at": "2026-10-24",
+      "sources": [
+        {
+          "provider": "wikimedia",
+          "file": "logo.svg",
+          "label": "Korean Academy of Science and Technology logo.svg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Korean_Academy_of_Science_and_Technology_logo.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Korean_Academy_of_Science_and_Technology_logo.svg",
+          "author": "Korean Academy of Science and Technology",
+          "license": "Public domain — simple text logo (Commons); trademark notice applies",
+          "official_source_page": "https://www.kast.or.kr/kr/kast/ci.php",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "origin": "KR",
+      "dark_variant": "white"
     }
   ],
-  "total": 119996
+  "total": 119997
 }

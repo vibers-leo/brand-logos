@@ -1228527,16 +1228527,16 @@
     {
       "id": "unistac",
       "name_ko": "울산과학기술원",
-      "name_en": "울산과학기술원",
+      "name_en": "Ulsan National Institute of Science and Technology",
       "category": "공공·기관",
       "folder": "_clients/unistac",
-      "website": "http://www.unist.ac.kr/",
+      "website": "https://www.unist.ac.kr/",
       "domain": "unist.ac.kr",
-      "logo_svg": null,
-      "has_svg": false,
+      "logo_svg": "logo.svg",
+      "has_svg": true,
       "logo_png": true,
       "has_png": true,
-      "svg_source": "gov-rendered",
+      "svg_source": "wikimedia",
       "origin": "KR",
       "added_at": "2026-09-02",
       "kr_kind": "공공기관",
@@ -1228556,16 +1228556,31 @@
       "getlogo_formats": [
         "PNG"
       ],
-      "ci_page_url": "https://admu-intl.unist.ac.kr/unist/introduction/ui.do",
+      "ci_page_url": "https://www.unist.ac.kr/unist/introduction/ui.do",
       "sources": [
         {
-          "provider": "getlogo",
-          "file": "official-ci-page",
-          "label": "겟로고가 확인한 공식 CI 출처",
-          "origin": "https://admu-intl.unist.ac.kr/unist/introduction/ui.do",
-          "source_url": "https://getlogo.kr/agency/unist/"
+          "provider": "wikimedia",
+          "file": "logo.svg",
+          "label": "유니스트 로고.svg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:유니스트_로고.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%EC%9C%A0%EB%8B%88%EC%8A%A4%ED%8A%B8_%EB%A1%9C%EA%B3%A0.svg",
+          "author": "UNIST",
+          "license": "Public domain — simple text logo; trademark restrictions may apply",
+          "official_source_page": "https://www.unist.ac.kr/unist/introduction/ui.do",
+          "official_download_page": "https://www.unist.ac.kr/unist/introduction/download.do",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "provider": "official-ci-page",
+          "file": "official-wordmark.png",
+          "label": "UNIST 공식 UI 워드마크 다운로드",
+          "source_url": "https://www.unist.ac.kr/unist/introduction/download.do",
+          "checked_at": "2026-10-24"
         }
-      ]
+      ],
+      "svg_note": "Public-domain simple text wordmark. Cross-checked against the wordmark distributed on the current official UNIST UI page; trademark restrictions may apply.",
+      "official_source_page": "https://www.unist.ac.kr/unist/introduction/ui.do",
+      "asset_origin": "Wikimedia Commons PD text logo, cross-checked against current official UNIST UI download"
     },
     {
       "id": "heungkuk",
